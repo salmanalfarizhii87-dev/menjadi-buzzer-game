@@ -1,4 +1,4 @@
-<div class="min-h-[884px] max-w-md mx-auto relative flex flex-col justify-between overflow-hidden bg-hud-purple-dark" data-stitch-vh="min-h-[884px]===min-h-screen">
+<div class="min-h-[884px] max-w-md mx-auto relative flex flex-col justify-between overflow-hidden bg-hud-purple-dark" data-stitch-vh="min-h-[884px]===min-h-screen" data-game-canvas>
 
     <!-- Full-Bleed Studio Background + Deep Purple Scrim -->
     <div data-stitch-img="Latar studio Menjadi Buzzer" class="absolute inset-0 w-full h-full object-cover object-center stitch-img" role="img" aria-label="Latar studio Menjadi Buzzer"></div>
@@ -59,15 +59,20 @@
           </button>
         </div>
 
-        <!-- New Game Confirmation Drawer -->
-        <div id="new-game-confirm" class="hidden bg-light-error-container border-2 border-btn-red-dark rounded-xl p-gutter-md flex flex-col gap-gutter-sm">
-          <p class="font-headline text-body-sm text-light-on-error-container text-balance" data-design-text-token="body-sm">
-            Save lama (@KilatDaily) akan ditimpa. Yakin mulai dari awal?
-          </p>
-          <div class="grid grid-cols-2 gap-gutter-sm">
-            <button type="button" onclick="closeNewGameConfirm()" class="ref-btn-white py-gutter-xs px-gutter-sm rounded-xl font-headline text-label-sm text-ink-dark cursor-pointer" data-design-text-token="label-sm">Batal</button>
-            <a href="../01-business-home/Business%20Home.html" onclick="resetAndStart()" class="ref-btn-red py-gutter-xs px-gutter-sm rounded-xl font-headline text-label-sm text-light-surface-bright text-center" data-design-text-token="label-sm">Ya, Timpa Save</a>
-          </div>
+        <div id="new-game-confirm" class="game-name-entry hidden">
+          <section class="game-name-entry__card" role="dialog" aria-modal="true" aria-labelledby="game-name-title">
+            <span class="game-name-entry__rings" aria-hidden="true"></span>
+            <h2 id="game-name-title" class="game-name-entry__title">Masukkan Nama</h2>
+            <p class="game-name-entry__copy">Ayo, kenalan sama akun buzzer kamu. Nama ini akan tampil di sepanjang perjalanan kariermu.</p>
+            <form id="name-entry-form" class="game-name-entry__form">
+              <label for="creator-handle">Nama akun buzzer</label>
+              <input id="creator-handle" name="creatorHandle" type="text" maxlength="20" autocomplete="nickname" placeholder="Contoh: KilatDaily" required>
+              <div class="game-name-entry__actions">
+                <button type="button" class="ref-btn-white" data-name-action="cancel">Batal</button>
+                <button type="submit" class="ref-btn-yellow">Selesai</button>
+              </div>
+            </form>
+          </section>
         </div>
       </section>
 

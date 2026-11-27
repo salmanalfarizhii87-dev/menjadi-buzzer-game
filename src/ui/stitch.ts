@@ -28,6 +28,11 @@ export function stitchRoot(html: string): HTMLElement {
     'text/html',
   );
   const root = doc.body.firstElementChild as HTMLElement;
+  const canvas = root.querySelector<HTMLElement>('[data-stitch-vh]');
+  if (canvas) {
+    canvas.setAttribute('data-game-canvas', '');
+    root.classList.add('stitch-game-frame');
+  }
   for (const node of root.querySelectorAll('*')) {
     for (const attribute of [...node.attributes]) {
       if (attribute.name.startsWith('on')) node.removeAttribute(attribute.name);

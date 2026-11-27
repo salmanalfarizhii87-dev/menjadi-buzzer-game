@@ -115,6 +115,10 @@
   animation: actor-walk 380ms ease-in-out infinite;
 }
 
+.game-stage__actor.is-walking .game-stage__char {
+  transform-origin: center bottom;
+}
+
 .game-stage__actor.is-reacting {
   animation: actor-pop 420ms cubic-bezier(0.2, 0, 0, 1);
 }

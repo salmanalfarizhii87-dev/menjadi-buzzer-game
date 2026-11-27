@@ -368,3 +368,302 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+.game-home-screen,
+.game-title-screen {
+  display: grid;
+  place-items: center;
+  min-height: 100dvh;
+}
+
+.stitch-root.stitch-game-frame {
+  display: grid;
+  place-items: center;
+  min-height: 100dvh;
+}
+
+.stitch-root > [data-game-canvas] {
+  width: min(100vw, 480px, 60dvh) !important;
+  height: min(100dvh, 166.6667vw) !important;
+  min-height: 0 !important;
+  max-height: 100dvh;
+  aspect-ratio: 3 / 5;
+  align-self: center;
+  overflow: hidden;
+}
+
+.stitch-root.stitch-game-frame:not(.game-home-screen) > [data-game-canvas] > main {
+  min-height: 0;
+  overflow-y: auto;
+  padding-bottom: max(80px, calc(80px + env(safe-area-inset-bottom)));
+  overscroll-behavior: contain;
+}
+
+.buzzer-news-strip {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 28px;
+  padding: 0 9px;
+  overflow: hidden;
+  color: #352318;
+  background: linear-gradient(180deg, #fff9e8, #e9d6ad);
+  border-bottom: 2px solid #392417;
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.buzzer-news-strip__marker {
+  position: relative;
+  z-index: 1;
+  padding: 3px 6px;
+  color: #fffaf0;
+  background: #d9583e;
+  border: 1.5px solid #392417;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 #823b2d;
+  letter-spacing: 0.04em;
+}
+
+.buzzer-news-strip__copy {
+  min-width: max-content;
+  animation: buzzer-news-scroll 18s linear infinite;
+}
+
+@keyframes buzzer-news-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-34%); }
+}
+
+.stitch-root nav[aria-label="Navigasi utama"] {
+  position: absolute !important;
+  inset: auto 0 0 !important;
+  left: auto !important;
+  transform: none !important;
+  width: 100% !important;
+  max-width: none !important;
+  min-height: 62px;
+  padding: 5px 8px max(5px, env(safe-area-inset-bottom)) !important;
+  gap: 4px !important;
+  background: linear-gradient(180deg, #397e81, #22666d) !important;
+  border-top: 3px solid #38251b !important;
+  box-shadow: 0 -3px 0 rgb(255 244 212 / 55%), 0 -8px 18px rgb(27 26 23 / 23%);
+}
+
+.stitch-root.game-home-screen > [data-game-canvas] nav[aria-label="Navigasi utama"] {
+  position: absolute !important;
+  inset: auto 0 0 !important;
+  left: auto !important;
+  transform: none !important;
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.stitch-root nav[aria-label="Navigasi utama"] > a {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  width: 100% !important;
+  height: 50px !important;
+  min-width: 0;
+  margin: 0 !important;
+  padding: 3px 2px !important;
+  color: #fffaf0;
+  border: 2px solid #2b211b;
+  border-radius: 8px !important;
+  box-shadow: 0 3px 0 #1e3c3a, inset 0 2px 0 rgb(255 255 255 / 38%);
+  text-decoration: none;
+}
+
+.stitch-root nav[aria-label="Navigasi utama"] > a:nth-child(1) { background: linear-gradient(180deg, #71b8f2, #337fd0) !important; }
+.stitch-root nav[aria-label="Navigasi utama"] > a:nth-child(2) { background: linear-gradient(180deg, #71b8f2, #337fd0) !important; }
+.stitch-root nav[aria-label="Navigasi utama"] > a:nth-child(3) { background: linear-gradient(180deg, #71b8f2, #337fd0) !important; }
+.stitch-root nav[aria-label="Navigasi utama"] > a:nth-child(4) { background: linear-gradient(180deg, #61c8ba, #24877f) !important; }
+.stitch-root nav[aria-label="Navigasi utama"] > a:nth-child(5) { background: linear-gradient(180deg, #ffbd53, #e87932) !important; }
+.stitch-root nav[aria-label="Navigasi utama"] > a[aria-current='page'] {
+  color: #362316;
+  background: linear-gradient(180deg, #ffcf4b, #e7a821) !important;
+  outline: 2px solid #fff4d4;
+  outline-offset: -4px;
+}
+.stitch-root nav[aria-label="Navigasi utama"] > a svg { width: 21px !important; height: 21px !important; flex: 0 0 auto; }
+.stitch-root nav[aria-label="Navigasi utama"] > a::after {
+  content: attr(aria-label);
+  overflow: hidden;
+  max-width: 100%;
+  color: #fffaf0;
+  font-family: var(--font-display);
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 1;
+  text-overflow: ellipsis;
+}
+.stitch-root nav[aria-label="Navigasi utama"] > a[aria-current='page']::after { color: #362316; }
+.stitch-root nav[aria-label="Navigasi utama"] > a span { z-index: 1; }
+
+.game-stage__char {
+  image-rendering: auto;
+  transition: filter 120ms ease;
+}
+.game-stage__actor.is-walking .game-stage__char {
+  filter: drop-shadow(0 2px 0 rgb(41 24 18 / 22%));
+}
+
+@media (max-width: 380px) {
+  .stitch-root > [data-game-canvas] { width: min(100vw, 60dvh) !important; height: min(100dvh, 166.6667vw) !important; }
+  .stitch-root nav[aria-label="Navigasi utama"] { padding-inline: 5px !important; }
+  .stitch-root nav[aria-label="Navigasi utama"] > a::after { font-size: 7px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .buzzer-news-strip__copy { animation: none; }
+}
+
+.shop-item-art {
+  display: grid;
+  place-items: center;
+  flex: 0 0 58px;
+  width: 58px;
+  height: 58px;
+  color: #3c2417;
+  border: 2px solid #3c2417;
+  border-radius: 11px;
+  box-shadow: 0 3px 0 #3c2417;
+}
+
+.shop-item-art svg {
+  width: 31px;
+  height: 31px;
+  stroke-width: 2.4;
+}
+
+.shop-item-art--outfit { background: linear-gradient(145deg, #d6f0e4, #80c9b3); }
+.shop-item-art--property { background: linear-gradient(145deg, #fff1b8, #efbd4f); }
+.shop-item-art--vehicle { background: linear-gradient(145deg, #ffd8c9, #ed8762); }
+.shop-item-art--ticket { background: linear-gradient(145deg, #d5e8ff, #76a9ed); }
+
+.game-name-entry.hidden {
+  display: none;
+}
+
+.game-name-entry {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  align-content: start;
+  justify-items: center;
+  overflow-y: auto;
+  padding: max(52px, calc((100dvh - min(100dvh, 166.6667vw)) / 2 + 22px)) 12px 24px;
+  background: rgb(9 13 17 / 78%);
+  overscroll-behavior: contain;
+}
+
+.game-name-entry__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: min(92vw, 430px, 60dvh);
+  padding: 34px 20px 22px;
+  color: #131717;
+  background: linear-gradient(90deg, #edf2e6, #f5f7ed 12%, #f5f7ed 88%, #e9eee3);
+  border: 3px solid #171a19;
+  border-radius: 8px;
+  box-shadow: 0 9px 0 #3679ad, 0 12px 0 #141716;
+}
+
+.game-name-entry__rings {
+  position: absolute;
+  top: -39px;
+  left: 12px;
+  right: 12px;
+  height: 52px;
+  background: radial-gradient(ellipse 8px 23px at 50% 84%, #f4f6ec 0 25%, #252927 28% 36%, #b7bab5 40% 55%, #1b1f1d 58% 68%, transparent 72%);
+  background-size: 40px 52px;
+  background-repeat: repeat-x;
+  filter: drop-shadow(0 2px 0 #131615);
+  pointer-events: none;
+}
+
+.game-name-entry__title {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #79a9ec;
+  color: #0a0c0b;
+  font-family: var(--font-display);
+  font-size: clamp(22px, 6vw, 30px);
+  font-weight: 900;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.game-name-entry__copy {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.game-name-entry__form {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.game-name-entry__form label {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.game-name-entry__form input {
+  width: 100%;
+  min-height: 46px;
+  padding: 8px 10px;
+  color: #141614;
+  background: #fffeef;
+  border: 2px solid #171a19;
+  border-radius: 2px;
+  font: 600 16px var(--font-body);
+}
+
+.game-name-entry__form input:focus-visible {
+  outline: 3px solid #77a6eb;
+  outline-offset: 2px;
+}
+
+.game-name-entry__actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding-top: 4px;
+}
+
+.game-name-entry__actions button {
+  min-width: 112px;
+  min-height: 46px;
+  padding: 8px 14px;
+  border: 3px solid #111;
+  border-radius: 11px;
+  box-shadow: 0 4px 0 #111;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.game-name-entry__actions button[type='submit'] {
+  color: #fff;
+  background: linear-gradient(180deg, #68a7ff, #2465e8);
+  box-shadow: 0 4px 0 #111, inset 0 2px 0 rgb(255 255 255 / 52%);
+}
+
+.game-name-entry__actions button:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #111;
+}

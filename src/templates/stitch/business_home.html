@@ -1,7 +1,11 @@
-<div class="min-h-[884px] max-w-md mx-auto relative flex flex-col overflow-hidden bg-hud-purple-dark" data-stitch-vh="min-h-[884px]===min-h-screen">
+<div class="min-h-[884px] max-w-md mx-auto relative flex flex-col overflow-hidden bg-hud-purple-dark" data-stitch-vh="min-h-[884px]===min-h-screen" data-game-canvas>
 
     <!-- Top Casual Game HUD (100% Reference Match: Deep Purple Bar + White Progress Strip) -->
     <header class="relative z-20 flex flex-col shadow-[0_3px_8px_rgba(0,0,0,0.35)]">
+      <div class="buzzer-news-strip" aria-label="Kabar komunitas">
+        <span class="buzzer-news-strip__marker" aria-hidden="true">INFO</span>
+        <span class="buzzer-news-strip__copy">Komunitas Chirper ramai membahas kampanye terbaru</span>
+      </div>
       <!-- Row 1: Deep Purple Top Bar -->
       <div class="ref-hud-purple flex items-center gap-gutter-sm px-gutter-sm py-gutter-sm">
         <!-- Left Lavender Menu Circle -->
@@ -62,11 +66,12 @@
         </div>
 
         <!-- Split-Tone Yellow Action Button -->
-        <a href="../02-campaign-board/Campaign%20Board.html" class="ref-yellow-split rounded-lg px-2.5 py-1.5 mt-1 flex items-center gap-2.5 shrink-0">
+        <a href="../02-campaign-board/Campaign%20Board.html" aria-label="Buka daftar task dan kampanye" class="ref-yellow-split rounded-lg px-2.5 py-1.5 mt-1 flex items-center gap-2.5 shrink-0">
           <svg class="w-4 h-4" viewBox="0 0 20 20" fill="none" aria-hidden="true">
             <path d="M11 2L4 11H10L9 18L16 9H10L11 2Z" fill="#FEF08A"></path>
           </svg>
-          <span class="font-headline text-title-md text-ink-dark leading-none tabular-nums" data-design-text-token="title-md">3</span>
+          <span class="font-headline text-label-sm text-ink-dark leading-none">Task</span>
+          <span class="game-home-task-count font-headline text-title-md text-ink-dark leading-none tabular-nums" data-design-text-token="title-md">3</span>
         </a>
       </div>
     </header>
@@ -92,28 +97,10 @@
         </div>
       </div>
 
-      <!-- Bottom Room Pill + Glossy Primary Action Row -->
-      <section aria-label="Aksi studio" class="relative z-10 px-gutter-md pb-gutter-md flex items-center gap-gutter-sm">
-        <a href="../13-studio-location/Studio%20%26%20Location.html" class="bg-light-surface-bright rounded-xl px-gutter-md py-2 shadow-[0_3px_0_#CBD5E1,0_4px_8px_rgba(0,0,0,0.3)] flex flex-col items-center justify-center shrink-0">
-          <span class="font-headline text-body-sm text-ink-dark leading-none" data-design-text-token="body-sm">Studio</span>
-          <span class="font-body text-label-sm text-ink-dark leading-tight" data-design-text-token="label-sm">Kamar Kos</span>
-        </a>
-
-        <a href="../02-campaign-board/Campaign%20Board.html" class="flex-1 ref-btn-green rounded-xl px-gutter-md py-2.5 flex items-center justify-between gap-gutter-sm">
-          <span class="flex items-center gap-2">
-            <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M4 10L17 5V17L4 12V10Z" fill="#FDE047"></path>
-              <rect x="6" y="13" width="3.5" height="5.5" rx="1" fill="#FFFFFF"></rect>
-            </svg>
-            <span class="font-headline text-title-md text-light-surface-bright leading-none" data-design-text-token="title-md">Buka Kampanye</span>
-          </span>
-          <span class="px-2 py-0.5 rounded-full bg-btn-yellow font-headline text-label-sm text-ink-dark tabular-nums" data-design-text-token="label-sm">3</span>
-        </a>
-      </section>
     </main>
 
     <!-- Persistent 5-Circle Bottom Navigation Bar (100% Reference Match: Deep Purple Bar + Glossy Candy Circles) -->
-    <nav aria-label="Navigasi utama" class="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md z-20 ref-hud-purple border-t-2 border-ink-dark px-gutter-md py-1.5 grid grid-cols-5 gap-gutter-sm items-center justify-items-center">
+    <nav aria-label="Navigasi utama" class="game-bottom-nav fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md z-20 ref-hud-purple border-t-2 border-ink-dark px-gutter-md py-1.5 grid grid-cols-5 gap-gutter-sm items-center justify-items-center">
       <!-- 1. Home (Active Larger Protruding Red Circle) -->
       <a href="#" aria-current="page" aria-label="Home" class="w-16 h-16 -mt-5 rounded-full ref-circle-red ref-nav-circle flex items-center justify-center">
         <svg class="w-8 h-8" viewBox="0 0 28 28" fill="none" aria-hidden="true">

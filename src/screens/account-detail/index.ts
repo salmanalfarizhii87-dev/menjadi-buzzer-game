@@ -39,7 +39,7 @@ function mount(root: HTMLElement, ctx: ScreenContext): void {
     const hudRate = screen.querySelector<HTMLElement>('header .ref-cyan-pill .font-mono');
     if (hudRate) hudRate.textContent = `+Rp ${formatDecimal(rate, 2)}/dtk`;
 
-    const subHeader = $<HTMLElement>(screen, 'header .bg-light-surface-bright');
+    const subHeader = $<HTMLElement>(screen, 'header > div:last-child');
     const title = subHeader.querySelector<HTMLElement>('h1');
     if (title) title.textContent = `Detail ${name}`;
     const headerStatus = subHeader.querySelector<HTMLElement>('span.text-success');

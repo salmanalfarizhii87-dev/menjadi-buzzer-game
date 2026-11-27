@@ -16,28 +16,45 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: min(100%, 380px);
+  width: min(100%, 420px);
   max-height: calc(100dvh - 2 * var(--space-8));
-  background: var(--color-panel);
-  border: var(--border-thick) solid var(--color-border-strong);
-  border-radius: var(--radius-xl);
-  box-shadow: var(--shadow-raised), var(--shadow-float);
+  margin-top: 22px;
+  background: #f4f7ed;
+  border: 3px solid #171a19;
+  border-radius: 9px;
+  box-shadow: 0 8px 0 #3d82bd, 0 11px 0 #171a19, var(--shadow-float);
   animation: pop-in var(--duration-base) var(--ease-out);
-  overflow: hidden;
+  overflow: visible;
+}
+
+.modal::before {
+  content: '';
+  position: absolute;
+  top: -24px;
+  left: 10px;
+  right: 10px;
+  height: 34px;
+  background: radial-gradient(ellipse at 50% 58%, #f4f7ed 0 26%, #242827 30% 38%, #b8bbb6 42% 55%, #171a19 59% 68%, transparent 72%);
+  background-size: 42px 34px;
+  background-repeat: repeat-x;
+  filter: drop-shadow(0 2px 0 #171a19);
+  pointer-events: none;
+  z-index: 2;
 }
 
 .modal__ribbon {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 44px;
+  min-height: 54px;
+  margin-top: 14px;
   padding: var(--space-2) var(--space-6);
   font-family: var(--font-display);
   font-size: var(--text-base);
   font-weight: var(--weight-black);
-  color: var(--color-text-inverse);
-  background: linear-gradient(180deg, var(--color-brand-600), var(--color-brand-600));
-  border-bottom: var(--border-thick) solid var(--color-border-strong);
+  color: #fff;
+  background: linear-gradient(180deg, #6eb1f4, #347fe0);
+  border-bottom: 3px solid #171a19;
   text-shadow: 0 2px 0 rgb(10 55 48 / 45%);
 }
 
@@ -55,6 +72,8 @@
   gap: var(--space-3);
   padding: var(--space-4);
   overflow-y: auto;
+  background: repeating-linear-gradient(180deg, #f4f7ed 0 27px, rgb(121 168 235 / 10%) 28px 29px);
+  border-radius: 0 0 6px 6px;
 }
 
 .modal__message {

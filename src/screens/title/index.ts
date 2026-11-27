@@ -17,6 +17,7 @@ function mount(root: HTMLElement, ctx: ScreenContext, _params: ScreenParams): vo
   const outfit = selectEquippedOutfit(state);
 
   const screen = stitchRoot(template);
+  screen.classList.add('game-title-screen');
 
   setText(screen, '#save-summary', `${formatMoney(balance)} • ${compact(account?.followers ?? 0)} Followers`);
   const heading = $<HTMLElement>(screen, '#save-ready-card h2');
@@ -38,9 +39,20 @@ function mount(root: HTMLElement, ctx: ScreenContext, _params: ScreenParams): vo
   const ready = $<HTMLElement>(screen, '#save-ready-card');
   const recovery = $<HTMLElement>(screen, '#save-recovery-card');
   const confirm = $<HTMLElement>(screen, '#new-game-confirm');
+  const nameInput = $<HTMLInputElement>(screen, '#creator-handle');
+  const nameForm = $<HTMLFormElement>(screen, '#name-entry-form');
+  const newGameButton = [...screen.querySelectorAll('button')].find(
+    (button) => button.textContent?.trim() === 'Mulai Save Baru',
+  );
 
-  const showConfirm = (): void => confirm.classList.remove('hidden');
-  const hideConfirm = (): void => confirm.classList.add('hidden');
+  const showConfirm = (): void => {
+    confirm.classList.remove('hidden');
+    nameInput.focus();
+  };
+  const hideConfirm = (): void => {
+    confirm.classList.add('hidden');
+    newGameButton?.focus();
+  };
 
   for (const button of screen.querySelectorAll('button')) {
     const label = button.textContent?.trim() ?? '';
@@ -61,20 +73,34 @@ function mount(root: HTMLElement, ctx: ScreenContext, _params: ScreenParams): vo
     }
   }
 
-  for (const anchor of screen.querySelectorAll<HTMLAnchorElement>('a')) {
-    if (anchor.textContent?.includes('Ya, Timpa Save') || anchor.textContent?.includes('Buat Save Baru yang Bersih')) {
-      anchor.addEventListener('click', (event) => {
-        event.preventDefault();
-        event.stopImmediatePropagation();
-        const result = ctx.actions.resetSave();
-        if (!result.ok) {
-          ctx.toasts.error('Gagal membuat simpanan baru.');
-          return;
-        }
-        ctx.navigate('character');
-      });
+  nameInput.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter' && (event.isComposing || event.keyCode === 229)) {
+      event.preventDefault();
     }
-  }
+  });
+  nameForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const handle = nameInput.value
+      .normalize('NFKC')
+      .trim()
+      .replace(/^@+/u, '')
+      .replace(/[^\p{L}\p{N}_]/gu, '')
+      .slice(0, 20);
+    if (!handle) {
+      nameInput.setCustomValidity('Gunakan huruf, angka, atau garis bawah untuk nama akun.');
+      nameInput.reportValidity();
+      return;
+    }
+
+    nameInput.setCustomValidity('');
+    const result = ctx.actions.resetSave();
+    if (!result.ok) {
+      ctx.toasts.error('Gagal membuat simpanan baru.');
+      return;
+    }
+    ctx.actions.renamePrimaryAccount(handle);
+    ctx.navigate('character');
+  });
 
   bindRouteLinks(screen, ctx);
 

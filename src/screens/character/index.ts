@@ -31,6 +31,7 @@ function rateLabel(rate: number): string {
 
 function mount(root: HTMLElement, ctx: ScreenContext, _params: ScreenParams): void {
   const screen = stitchRoot(template);
+  screen.classList.add('game-home-screen');
   bindRouteLinks(screen, ctx);
 
   const balanceNode = $<HTMLElement>(screen, '#hud-balance');
@@ -45,9 +46,8 @@ function mount(root: HTMLElement, ctx: ScreenContext, _params: ScreenParams): vo
   const suspicionValue = suspicionRow.children[1] as HTMLElement;
   const suspicionFill = $<HTMLElement>(screen, 'header .ref-progress-track > div');
 
-  const campaignSplit = $<HTMLElement>(screen, 'a.ref-yellow-split span');
+  const campaignSplit = $<HTMLElement>(screen, '.game-home-task-count');
   const navCampaignBadge = $<HTMLElement>(screen, 'nav a[aria-label="Kampanye"] span');
-  const ctaCampaignBadge = $<HTMLElement>(screen, 'main section span.bg-btn-yellow');
 
   let renderedOutfit = '';
   let activeStage: GameStageElement | null = null;
@@ -93,7 +93,6 @@ function mount(root: HTMLElement, ctx: ScreenContext, _params: ScreenParams): vo
 
     campaignSplit.textContent = String(available);
     navCampaignBadge.textContent = String(available);
-    ctaCampaignBadge.textContent = String(available);
 
     renderFigure(state);
   };
