@@ -50,7 +50,7 @@
     <main class="flex-1 flex flex-col gap-gutter-md p-gutter-md">
 
       <!-- Account Identity Card -->
-      <article class="ref-card rounded-xl p-gutter-lg flex items-center justify-between gap-gutter-md">
+      <article class="ref-card tb-stat-book rounded-xl p-gutter-lg flex items-center justify-between gap-gutter-md">
         <div class="flex items-center gap-gutter-md min-w-0">
           <div class="relative shrink-0">
             <div data-stitch-img="Avatar akun @KilatDaily" class="w-16 h-16 rounded-full object-cover border-2 border-dock-bg stitch-img" role="img" aria-label="Avatar akun @KilatDaily"></div>
@@ -114,10 +114,20 @@
         </p>
       </aside>
 
-      <!-- Shortcut Shop CTA -->
-      <a href="../03-asset-shop/Asset%20Shop.html" class="ref-btn-green w-full inline-flex items-center justify-center gap-gutter-sm px-gutter-lg py-gutter-md rounded-xl">
-        <span class="font-headline text-label-lg text-light-surface-bright" data-design-text-token="label-lg">Upgrade Aset &amp; Strategi</span>
-      </a>
+      <nav class="tb-stat-actions" aria-label="Navigasi statistik">
+        <a href="../02-campaign-board/Campaign%20Board.html" aria-label="Pedagang">
+          <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M7 24h34l-3-11H13L7 24z" fill="#f4eee2" stroke="#171717" stroke-width="3"/><path d="M13 13l4-7h15l5 7" fill="#58baf4" stroke="#171717" stroke-width="3"/><circle cx="16" cy="34" r="5" fill="#d6cdb7" stroke="#171717" stroke-width="3"/><circle cx="35" cy="34" r="5" fill="#d6cdb7" stroke="#171717" stroke-width="3"/></svg>
+          <span>PEDAGANG</span>
+        </a>
+        <a href="../05-finance-history/Finance%20%26%20History.html" aria-label="Bank">
+          <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M5 17L24 6l19 11H5z" fill="#f4cf6b" stroke="#171717" stroke-width="3"/><path d="M9 20h30M11 38h26M14 21v15m10-15v15m10-15v15" stroke="#171717" stroke-width="3" stroke-linecap="round"/></svg>
+          <span>BANK</span>
+        </a>
+        <button type="button" data-screen-target="travel" aria-label="Peta">
+          <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M7 11l11-4 12 4 11-4v30l-11 4-12-4-11 4V11z" fill="#8fc969" stroke="#171717" stroke-width="3"/><path d="M18 7v30m12-26v30" stroke="#171717" stroke-width="2.5"/><path d="M23 18c0-4 6-4 6 0 0 4-3 7-3 7s-3-3-3-7z" fill="#ef6045" stroke="#171717" stroke-width="2"/></svg>
+          <span>PETA</span>
+        </button>
+      </nav>
 
     </main>
 

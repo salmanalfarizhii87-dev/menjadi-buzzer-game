@@ -25,7 +25,11 @@ function statusClass(status: string): string {
 
 function mount(root: HTMLElement, ctx: ScreenContext): void {
   const screen = stitchRoot(template);
+  screen.classList.add('tb-statistics-page');
   bindRouteLinks(screen, ctx);
+  screen.querySelector<HTMLButtonElement>('[data-screen-target="travel"]')?.addEventListener('click', () => {
+    ctx.navigate('travel');
+  });
 
   const patch = (state: GameSave): void => {
     const account = selectPrimaryAccount(state);

@@ -39,15 +39,38 @@
       <!-- White Sub-Header Strip -->
       <div class="bg-light-surface-bright border-b border-light-outline-variant/30 px-gutter-md py-1.5 flex items-center justify-between gap-gutter-sm">
         <div class="flex items-center gap-2 min-w-0">
-          <span class="px-2 py-0.5 rounded bg-success text-on-success font-headline text-label-sm leading-none" data-design-text-token="label-sm">KEUANGAN</span>
-          <h1 class="font-headline text-title-md text-ink-dark truncate leading-none" data-design-text-token="title-md">Riwayat Transaksi</h1>
+          <span class="px-2 py-0.5 rounded bg-success text-on-success font-headline text-label-sm leading-none" data-design-text-token="label-sm">BANK</span>
+          <h1 class="font-headline text-title-md text-ink-dark truncate leading-none" data-design-text-token="title-md">Transfer Uang</h1>
         </div>
-        <span class="font-headline text-label-sm text-ink-dark tabular-nums shrink-0" data-design-text-token="label-sm">9 Catatan</span>
+        <span class="font-headline text-label-sm text-ink-dark tabular-nums shrink-0" data-design-text-token="label-sm">Bandung</span>
       </div>
     </header>
 
     <!-- Main Content -->
     <main class="flex-1 flex flex-col gap-gutter-md p-gutter-md">
+      <section class="tb-bank-transfer" aria-label="Pilih jenis transfer bank">
+        <div class="tb-bank-note">Transfer uangmu dari cabang Bandung ke cabang lainnya. Psst... biaya layanan berlaku.</div>
+        <div class="tb-bank-rates" aria-label="Kurs penukaran">
+          <span>Rp 1 = 0,01</span><span>Rp 1 = 0,008</span><span>Rp 1 = 0,033</span><span>Rp 1 = 0,005</span>
+        </div>
+        <div class="tb-bank-options">
+          <article class="tb-bank-option tb-bank-option--blue">
+            <h2>Bank Transfer</h2><strong>Dalam Negeri</strong>
+            <svg viewBox="0 0 48 40" fill="none" aria-hidden="true"><path d="M5 12L24 3l19 9H5zM9 15h30M11 35h26M14 16v17m10-17v17m10-17v17" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <button type="button" disabled>Pilih</button>
+          </article>
+          <article class="tb-bank-option tb-bank-option--coral">
+            <h2>Bank Transfer</h2><strong>Internasional</strong>
+            <svg viewBox="0 0 48 40" fill="none" aria-hidden="true"><circle cx="23" cy="20" r="15" stroke="currentColor" stroke-width="3"/><path d="M8 20h30M23 5c5 5 7 10 7 15s-2 10-7 15m0-30c-5 5-7 10-7 15s2 10 7 15" stroke="currentColor" stroke-width="2.5"/></svg>
+            <button type="button" disabled>Pilih</button>
+          </article>
+          <article class="tb-bank-option tb-bank-option--gold">
+            <h2>Bank Transfer</h2><strong>Lintas Dimensi</strong>
+            <svg viewBox="0 0 48 40" fill="none" aria-hidden="true"><circle cx="15" cy="20" r="8" stroke="currentColor" stroke-width="3"/><circle cx="33" cy="20" r="8" stroke="currentColor" stroke-width="3"/><path d="M21 15l6 10m0-10l-6 10" stroke="currentColor" stroke-width="3"/></svg>
+            <button type="button" disabled>Pilih</button>
+          </article>
+        </div>
+      </section>
 
       <!-- Balance Summary Card -->
       <section aria-label="Ringkasan saldo" class="ref-card rounded-xl p-gutter-lg flex flex-col gap-gutter-md">

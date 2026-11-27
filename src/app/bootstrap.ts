@@ -164,7 +164,7 @@ export async function bootstrap(options: BootstrapOptions = {}): Promise<Bootstr
     actions.settleRisk();
   }
 
-  await router.navigate('title');
+  await router.navigate(loaded.ok ? 'character' : 'title');
 
   roots.boot.hidden = true;
 

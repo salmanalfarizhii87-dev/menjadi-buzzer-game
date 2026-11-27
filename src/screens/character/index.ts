@@ -32,7 +32,27 @@ function rateLabel(rate: number): string {
 function mount(root: HTMLElement, ctx: ScreenContext, _params: ScreenParams): void {
   const screen = stitchRoot(template);
   screen.classList.add('game-home-screen');
-  bindRouteLinks(screen, ctx);
+
+  const eventDialog = screen.querySelector<HTMLElement>('#tb-event-dialog');
+  const eventTrigger = screen.querySelector<HTMLElement>('.tb-event-badge');
+  const closeEvent = (): void => {
+    eventDialog?.classList.add('hidden');
+    eventTrigger?.focus();
+  };
+  const openEvent = (): void => {
+    eventDialog?.classList.remove('hidden');
+    eventDialog?.querySelector<HTMLButtonElement>('[data-event-dismiss]')?.focus();
+  };
+  bindRouteLinks(screen, ctx, { '14-rewards-collectibles': openEvent });
+  eventDialog?.querySelectorAll<HTMLButtonElement>('[data-event-dismiss]').forEach((button) => {
+    button.addEventListener('click', closeEvent);
+  });
+  eventDialog?.addEventListener('click', (event) => {
+    if (event.target === eventDialog) closeEvent();
+  });
+  screen.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && !event.isComposing && event.keyCode !== 229) closeEvent();
+  });
 
   const balanceNode = $<HTMLElement>(screen, '#hud-balance');
   const rateNode = $<HTMLElement>(screen, '#hud-rate');

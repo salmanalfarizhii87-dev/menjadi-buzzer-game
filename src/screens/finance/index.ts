@@ -4,12 +4,13 @@
 
 import type { ScreenContext, ScreenModule, ScreenParams } from '@/app/lifecycle';
 import template from '@/templates/stitch/finance_history.html?raw';
-import { formatMoney, isDebt } from '@/core/money';
+import { formatDecimal, formatMoney, isDebt } from '@/core/money';
 import { t } from '@/data/strings/id';
 import { $, bindRouteLinks, setText, stitchRoot } from '@/ui/stitch';
 import {
   selectCampaignEntries,
   selectDisplayBalance,
+  selectIncomeRate,
   selectRecentTransactions,
 } from '@/state/selectors';
 import { campaignCardStatus } from '@/components/campaigns/campaign-card';
@@ -29,6 +30,7 @@ function timeAgo(at: number): string {
 
 function mount(root: HTMLElement, ctx: ScreenContext, _params: ScreenParams): void {
   const screen = stitchRoot(template);
+  screen.classList.add('tb-bank-page');
   bindRouteLinks(screen, ctx);
 
   let filter: FlowFilter = 'all';
@@ -124,6 +126,7 @@ function mount(root: HTMLElement, ctx: ScreenContext, _params: ScreenParams): vo
     const all = selectRecentTransactions(state, 60);
     setText(screen, '#fin-balance-hud', formatMoney(balance));
     setText(screen, '#fin-balance-main', formatMoney(balance));
+    setText(screen, 'header .ref-cyan-pill .font-mono', `+Rp ${formatDecimal(selectIncomeRate(state, ctx.config), 2)}/dtk`);
 
     const label = $<HTMLElement>(screen, 'section[aria-label="Ringkasan saldo"] p.font-body');
     label.textContent = isDebt(balance) ? 'Utang' : 'Saldo Saat Ini';
