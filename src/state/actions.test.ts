@@ -29,6 +29,28 @@ function setup() {
   return { store, repository, actions };
 }
 
+describe('renamePrimaryAccount', () => {
+  it('normalizes the handle and persists it in the save', () => {
+    const { store, actions, repository } = setup();
+
+    actions.renamePrimaryAccount('  @@Kilat Daily!  ');
+
+    expect(store.getState().accounts[0]?.name).toBe('@KilatDaily');
+    const loaded = repository.load();
+    expect(loaded.ok).toBe(true);
+    if (loaded.ok) expect(loaded.save.accounts[0]?.name).toBe('@KilatDaily');
+  });
+
+  it('ignores an empty handle', () => {
+    const { store, actions } = setup();
+    const original = store.getState();
+
+    actions.renamePrimaryAccount('  @@@  ');
+
+    expect(store.getState()).toBe(original);
+  });
+});
+
 describe('accrueIncome', () => {
   it('menambah income pending berdasarkan elapsed time', () => {
     const { store, actions } = setup();

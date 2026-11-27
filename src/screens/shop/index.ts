@@ -9,6 +9,7 @@ import { getItemsByCategory, isOwned } from '@/domain/shop/catalog';
 import { formatDecimal, formatMoney } from '@/core/money';
 import { t } from '@/data/strings/id';
 import { $, bindRouteLinks, setText, stitchRoot } from '@/ui/stitch';
+import { icons } from '@/components/icons';
 import { selectDisplayBalance, selectIncomeRate } from '@/state/selectors';
 import type { GameSave } from '@/state/types';
 
@@ -57,8 +58,14 @@ function mount(root: HTMLElement, ctx: ScreenContext, params: ScreenParams): voi
 
         const emblem = card.querySelector<HTMLElement>('[data-stitch-img]');
         if (emblem) {
-          emblem.className = `w-14 h-14 rounded-lg border-2 border-dock-bg shrink-0 grid place-items-center text-ink-dark font-headline text-title-md ${category === 'property' ? 'bg-btn-blue/20' : category === 'vehicle' ? 'bg-btn-orange/20' : category === 'ticket' ? 'bg-btn-purple/20' : 'bg-btn-green/20'}`;
-          emblem.textContent = t(item.nameKey).slice(0, 1);
+          const categoryIcon = {
+            outfit: icons.shirt,
+            property: icons.house,
+            vehicle: icons.car,
+            ticket: icons.ticket,
+          }[category]();
+          emblem.className = `shop-item-art shop-item-art--${category}`;
+          emblem.replaceChildren(categoryIcon);
         }
 
         const title = card.querySelector<HTMLElement>('h2');

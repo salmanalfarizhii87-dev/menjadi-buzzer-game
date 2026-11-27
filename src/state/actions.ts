@@ -129,6 +129,8 @@ export interface GameActions {
   flyTo(countryId: string): ActionResult<FlyToOutcome>;
   /** Reset save ke state awal. Hanya dipakai di build dev + konfirmasi UI. */
   resetSave(): ActionResult<void>;
+  /** Ubah nama akun utama dan simpan secara langsung. */
+  renamePrimaryAccount(name: string): void;
   /** Persist state saat ini segera. */
   flush(): void;
 }
@@ -229,6 +231,26 @@ export function createGameActions(deps: GameActionsDeps): GameActions {
       store.setState(fresh);
       repository.saveNow(fresh);
       return ok(undefined);
+    },
+
+    renamePrimaryAccount(name: string): void {
+      const normalized = name
+        .normalize('NFKC')
+        .trim()
+        .replace(/^@+/u, '')
+        .replace(/[^\p{L}\p{N}_]/gu, '')
+        .slice(0, 20);
+      const save = store.getState();
+      const [primary, ...others] = save.accounts;
+      if (!normalized || !primary) return;
+
+      const next: GameSave = {
+        ...save,
+        accounts: [{ ...primary, name: `@${normalized}` }, ...others],
+        meta: { ...save.meta, updatedAt: clock.now() },
+      };
+      store.setState(next);
+      repository.saveNow(next);
     },
 
     flush(): void {

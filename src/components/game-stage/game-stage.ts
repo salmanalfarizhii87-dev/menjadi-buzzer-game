@@ -32,7 +32,7 @@ export function gameStage(options: GameStageOptions): HTMLElement {
   const root = el('div', { class: 'game-stage' });
   const background = el('img', {
     class: 'game-stage__bg',
-    src: '/assets/original/creator-studio.png',
+    src: '/assets/original/kilat-city-stage.png',
     alt: '',
     'aria-hidden': 'true',
   });
@@ -71,6 +71,11 @@ export function gameStage(options: GameStageOptions): HTMLElement {
     src: '/assets/original/creator-chibi.png',
     alt: 'Karakter pemain',
   });
+  const walkFrames = Array.from({ length: 6 }, (_, index) => {
+    const image = new Image();
+    image.src = `/assets/original/kilat-walk-${index}.png`;
+    return image;
+  });
   actor.append(bubble, portrait);
   root.appendChild(actor);
 
@@ -106,6 +111,8 @@ export function gameStage(options: GameStageOptions): HTMLElement {
   let height = 0;
   let velocityY = 0;
   let frame = 0;
+  let lastWalkFrameAt = 0;
+  let walkFrameIndex = 0;
   let bubbleTimer: number | null = null;
 
   const react = (): void => {
@@ -119,7 +126,35 @@ export function gameStage(options: GameStageOptions): HTMLElement {
   };
   actor.addEventListener('click', react);
 
-  const tick = (): void => {
+  const handleKeyDown = (event: KeyboardEvent): void => {
+    if (!controls || event.repeat) return;
+    const target = event.target;
+    if (target instanceof HTMLElement && (target.isContentEditable || ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName))) return;
+
+    if (event.key === 'ArrowLeft' || event.key.toLowerCase() === 'a') {
+      event.preventDefault();
+      direction = -1;
+    } else if (event.key === 'ArrowRight' || event.key.toLowerCase() === 'd') {
+      event.preventDefault();
+      direction = 1;
+    } else if (event.key === 'ArrowUp' || event.key === ' ') {
+      event.preventDefault();
+      if (height < 2) velocityY = 11;
+    }
+  };
+  const handleKeyUp = (event: KeyboardEvent): void => {
+    if (event.key === 'ArrowLeft' || event.key.toLowerCase() === 'a') {
+      if (direction < 0) direction = 0;
+    } else if (event.key === 'ArrowRight' || event.key.toLowerCase() === 'd') {
+      if (direction > 0) direction = 0;
+    }
+  };
+  if (controls) {
+    window.addEventListener('keydown', handleKeyDown);
+    window.addEventListener('keyup', handleKeyUp);
+  }
+
+  const tick = (now: number): void => {
     velocityX += direction * 0.9;
     velocityX *= 0.9;
     x += velocityX;
@@ -139,7 +174,22 @@ export function gameStage(options: GameStageOptions): HTMLElement {
 
     actor.style.setProperty('--x', `${x.toFixed(1)}px`);
     actor.style.setProperty('--y', `${height.toFixed(1)}px`);
-    actor.classList.toggle('is-walking', Math.abs(velocityX) > 0.7);
+    const isWalking = Math.abs(velocityX) > 0.7;
+    actor.classList.toggle('is-walking', isWalking);
+    if (isWalking) {
+      if (now - lastWalkFrameAt >= 115) {
+        walkFrameIndex = (walkFrameIndex + 1) % walkFrames.length;
+        lastWalkFrameAt = now;
+      }
+      const walkFrame = walkFrames[walkFrameIndex];
+      if (walkFrame?.complete && walkFrame.naturalWidth > 0) portrait.src = walkFrame.src;
+      portrait.style.transform = velocityX < 0 ? 'scaleX(-1)' : 'none';
+    } else {
+      if (portrait.getAttribute('src') !== '/assets/original/creator-chibi.png') {
+        portrait.src = '/assets/original/creator-chibi.png';
+      }
+      portrait.style.transform = 'none';
+    }
     shadow.style.setProperty('--x', `${x.toFixed(1)}px`);
     shadow.style.setProperty('--s', String(1 - height / 180));
     background.style.setProperty('--pan', `${(-x * 0.3).toFixed(1)}px`);
@@ -155,6 +205,8 @@ export function gameStage(options: GameStageOptions): HTMLElement {
   const stop = (): void => {
     window.cancelAnimationFrame(frame);
     if (bubbleTimer !== null) window.clearTimeout(bubbleTimer);
+    window.removeEventListener('keydown', handleKeyDown);
+    window.removeEventListener('keyup', handleKeyUp);
   };
   signal?.addEventListener('abort', stop, { once: true });
 
