@@ -1,4 +1,4 @@
-/* Stage game: layer, parallax, karakter hidup, kontrol arah. */
+/* Fixed-ratio game scene: background, counter, vendor animation, and ambient cart. */
 
 .game-stage--fill {
   position: absolute;
@@ -9,216 +9,164 @@
 
 .game-stage {
   position: relative;
-  overflow: hidden;
   width: 100%;
   height: 100%;
-  min-height: 420px;
-  background: #1a2624;
+  min-height: 0;
+  overflow: hidden;
   isolation: isolate;
+  background: #d9e6db;
 }
 
 .game-stage__bg {
   position: absolute;
-  inset: -4%;
-  width: 108%;
-  height: 108%;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  object-position: center 42%;
-  transform: translateX(var(--pan, 0)) scale(1.03);
-  transition: transform 120ms linear;
-  filter: saturate(1.06) contrast(1.02);
+  object-position: center 50%;
 }
 
-.game-stage__sweep {
+.game-stage__ground {
   position: absolute;
-  inset: 0;
-  background: linear-gradient(115deg, transparent 32%, rgb(255 230 170 / 16%) 46%, transparent 60%);
-  mix-blend-mode: screen;
-  animation: stage-sweep 7s ease-in-out infinite;
+  inset: auto 0 0;
+  z-index: 1;
+  height: 22%;
+  background: linear-gradient(180deg, transparent, rgb(32 39 37 / 16%));
   pointer-events: none;
-}
-
-@keyframes stage-sweep {
-  0%, 70%, 100% { transform: translateX(-60%); opacity: 0; }
-  78% { opacity: 1; }
-  92% { transform: translateX(60%); opacity: 0; }
-}
-
-.game-stage__motes {
-  position: absolute;
-  inset: 0;
-  transform: translateX(var(--pan, 0));
-  transition: transform 140ms linear;
-  pointer-events: none;
-}
-
-.game-stage__mote {
-  position: absolute;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #fde047;
-  box-shadow: 0 0 8px rgb(253 224 71 / 70%);
-  opacity: 0.7;
-  animation: mote-float 5s ease-in-out infinite;
-}
-
-.game-stage__mote--0 { left: 16%; top: 58%; animation-delay: -0.4s; }
-.game-stage__mote--1 { left: 31%; top: 72%; animation-delay: -1.8s; width: 4px; height: 4px; }
-.game-stage__mote--2 { left: 47%; top: 46%; animation-delay: -3.1s; }
-.game-stage__mote--3 { left: 62%; top: 66%; animation-delay: -0.9s; width: 5px; height: 5px; }
-.game-stage__mote--4 { left: 76%; top: 52%; animation-delay: -2.4s; }
-.game-stage__mote--5 { left: 88%; top: 74%; animation-delay: -4.2s; width: 4px; height: 4px; }
-.game-stage__mote--6 { left: 9%; top: 38%; animation-delay: -1.2s; }
-.game-stage__mote--7 { left: 54%; top: 83%; animation-delay: -3.7s; }
-.game-stage__mote--8 { left: 71%; top: 33%; animation-delay: -2.7s; width: 4px; height: 4px; }
-
-@keyframes mote-float {
-  0%, 100% { transform: translateY(0); opacity: 0.15; }
-  50% { transform: translateY(-16px); opacity: 0.85; }
 }
 
 .game-stage__shadow {
   position: absolute;
   left: calc(50% + var(--x, 0px));
-  bottom: 15%;
-  width: calc(112px * var(--s, 1));
-  height: 18px;
-  margin-left: calc(-56px * var(--s, 1));
+  bottom: 7%;
+  z-index: 2;
+  width: 78%;
+  height: 4%;
   border-radius: 50%;
-  background: rgb(10 8 4 / 45%);
-  filter: blur(5px);
-  transition: left 80ms linear;
+  background: rgb(18 22 23 / 38%);
+  filter: blur(8px);
   pointer-events: none;
 }
 
 .game-stage__actor {
   position: absolute;
   left: calc(50% + var(--x, 0px));
-  bottom: calc(17% + var(--y, 0px));
+  bottom: 24%;
   z-index: 3;
-  width: 144px;
-  height: 190px;
-  margin-left: -72px;
+  display: grid;
+  place-items: end center;
+  width: 31%;
+  height: 42%;
+  margin-left: -15.5%;
   padding: 0;
+  overflow: hidden;
   border: 0;
-  border-radius: 0;
   background: transparent;
+  filter: drop-shadow(0 4px 2px rgb(26 30 27 / 24%));
   cursor: pointer;
-  transform: translateY(0);
-  animation: actor-idle 2.4s ease-in-out infinite;
-  filter: drop-shadow(0 5px 0 rgb(60 36 23 / 30%));
-  transition: left 80ms linear, bottom 80ms linear;
+  transition: left 500ms ease-in-out;
+  touch-action: manipulation;
+}
+
+.game-stage__actor.is-idle {
+  animation: vendor-idle 2.6s ease-in-out infinite;
 }
 
 .game-stage__actor.is-walking {
-  animation: actor-walk 380ms ease-in-out infinite;
-}
-
-.game-stage__actor.is-walking .game-stage__char {
-  transform-origin: center bottom;
+  animation: vendor-move 360ms steps(2, end) infinite;
 }
 
 .game-stage__actor.is-reacting {
-  animation: actor-pop 420ms cubic-bezier(0.2, 0, 0, 1);
-}
-
-@keyframes actor-idle {
-  0%, 100% { transform: translateY(0) scale(1); }
-  50% { transform: translateY(-5px) scale(1.015); }
-}
-
-@keyframes actor-walk {
-  0%, 100% { transform: translateY(0) rotate(-3deg); }
-  50% { transform: translateY(-12px) rotate(3deg); }
-}
-
-@keyframes actor-pop {
-  0% { transform: scale(1); }
-  45% { transform: scale(1.12) translateY(-8px); }
-  100% { transform: scale(1); }
+  animation: vendor-react 420ms ease-out;
 }
 
 .game-stage__char {
+  display: block;
   width: 100%;
   height: 100%;
-  border: 0;
-  border-radius: 0;
+  object-fit: cover;
+  object-position: center top;
+  user-select: none;
+  pointer-events: none;
+}
+
+.game-stage__cart {
+  position: absolute;
+  left: 50%;
+  bottom: 2%;
+  z-index: 4;
+  width: 96%;
+  height: 63%;
   object-fit: contain;
   object-position: center bottom;
-  box-shadow: none;
+  transform: translateX(-50%);
+  pointer-events: none;
+  user-select: none;
 }
 
 .game-stage__bubble {
   position: absolute;
   left: 50%;
   bottom: calc(100% + 8px);
-  z-index: 4;
+  z-index: 5;
   width: max-content;
   max-width: 220px;
   padding: 7px 11px;
-  font-family: 'Fredoka', sans-serif;
-  font-size: 12px;
-  font-weight: 600;
+  color: #211b14;
+  background: #f3f5eb;
+  border: 2px solid #171717;
+  border-radius: 4px;
+  box-shadow: 3px 4px 0 #568ecb;
+  font-family: var(--font-body);
+  font-size: clamp(12px, 3.2cqw, 20px);
   line-height: 1.2;
-  color: #2f1502;
   text-align: center;
-  background: #fffbf2;
-  border: 2px solid #5c341a;
-  border-radius: 12px;
-  box-shadow: 0 3px 0 rgb(36 26 16 / 35%);
   opacity: 0;
-  transform: translate(-50%, 8px) scale(0.9);
+  transform: translate(-50%, 8px);
   pointer-events: none;
-  transition: opacity 160ms ease-out, transform 160ms ease-out;
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.game-stage__bubble::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -9px;
+  width: 14px;
+  height: 14px;
+  background: #f3f5eb;
+  border-right: 2px solid #171717;
+  border-bottom: 2px solid #171717;
+  transform: translateX(-50%) rotate(45deg);
 }
 
 .game-stage__bubble.is-visible {
   opacity: 1;
-  transform: translate(-50%, 0) scale(1);
+  transform: translate(-50%, 0);
 }
 
-.game-stage__pad {
-  position: absolute;
-  left: var(--space-3, 12px);
-  bottom: 22%;
-  z-index: 5;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
+@keyframes vendor-idle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
 }
 
-.game-stage__pad-btn {
-  width: 44px;
-  height: 44px;
-  font-family: 'Fredoka', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  color: #fff8e9;
-  background: linear-gradient(180deg, #2f5687, #1f3a5e);
-  border: 2px solid #1e1b2e;
-  border-radius: 14px;
-  box-shadow: 0 3px 0 #0f1e33;
-  touch-action: none;
-  cursor: pointer;
+@keyframes vendor-move {
+  0%, 100% { transform: translateY(0) rotate(-1deg); }
+  50% { transform: translateY(-5px) rotate(1deg); }
 }
 
-.game-stage__pad-btn--jump {
-  background: linear-gradient(180deg, #2ead39, #16681d);
-  box-shadow: 0 3px 0 #0d3b11;
-}
-
-.game-stage__pad-btn:active {
-  transform: translateY(3px);
-  box-shadow: none;
+@keyframes vendor-react {
+  0% { transform: scale(1); }
+  45% { transform: translateY(-10px) scale(1.08); }
+  100% { transform: scale(1); }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .game-stage__actor,
+  .game-stage__actor.is-idle,
   .game-stage__actor.is-walking,
-  .game-stage__actor.is-reacting,
-  .game-stage__sweep,
-  .game-stage__mote {
+  .game-stage__actor.is-reacting {
     animation: none;
+    transition: none;
   }
 }

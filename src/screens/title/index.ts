@@ -25,7 +25,6 @@ function mount(root: HTMLElement, ctx: ScreenContext, _params: ScreenParams): vo
 
   const titleStage = gameStage({
     outfitId: outfit?.id ?? state.character.outfitId,
-    controls: false,
     signal: ctx.signal,
   });
   titleStage.classList.add('game-stage--fill');
@@ -46,13 +45,22 @@ function mount(root: HTMLElement, ctx: ScreenContext, _params: ScreenParams): vo
   );
 
   const showConfirm = (): void => {
+    screen.classList.add('game-title-screen--naming');
     confirm.classList.remove('hidden');
     nameInput.focus();
   };
   const hideConfirm = (): void => {
     confirm.classList.add('hidden');
+    screen.classList.remove('game-title-screen--naming');
     newGameButton?.focus();
   };
+
+  confirm.addEventListener('click', (event) => {
+    if (event.target === confirm) hideConfirm();
+  });
+  screen.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && !event.isComposing && event.keyCode !== 229) hideConfirm();
+  });
 
   for (const button of screen.querySelectorAll('button')) {
     const label = button.textContent?.trim() ?? '';

@@ -37,6 +37,7 @@ function difficultyLabel(difficulty: number): string {
 
 function mount(root: HTMLElement, ctx: ScreenContext, params: ScreenParams): void {
   const screen = stitchRoot(template);
+  screen.classList.add('tb-loker-page');
   bindRouteLinks(screen, ctx);
 
   const panelKontrak = $<HTMLElement>(screen, '#panel-kontrak');

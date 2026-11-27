@@ -6,7 +6,6 @@
 import type { ScreenContext, ScreenModule, ScreenParams } from '@/app/lifecycle';
 import { panel } from '@/components/cards/panel';
 import { appFrame, mainContent, topBar } from '@/components/layout/app-shell';
-import { primaryNav } from '@/components/navigation/primary-nav';
 import { landmarkSvg } from '@/art/landmarks';
 import { el } from '@/core/dom';
 import { formatMoney } from '@/core/money';
@@ -30,7 +29,18 @@ function mount(root: HTMLElement, ctx: ScreenContext, _params: ScreenParams): vo
     const owned = state.tickets.ownedCountryIds;
 
     const content = mainContent();
-    const screen = el('section', { class: 'screen anim-fade' });
+    const screen = el('section', { class: 'screen anim-fade tb-map-content' });
+    screen.appendChild(
+      el('div', { class: 'tb-map-hero', role: 'img', 'aria-label': 'Pemandangan kota untuk layar peta' }, [
+        el('span', { class: 'tb-map-hero__title', text: 'PETA' }),
+      ]),
+    );
+    screen.appendChild(
+      el('div', {
+        class: 'tb-map-note',
+        text: 'Kembangkan bisnismu ke seluruh penjuru dunia. Buka kota baru untuk memperluas lapakmu.',
+      }),
+    );
     const list = el('div', { class: 'travel-list' });
 
     for (const country of TRAVEL_COUNTRIES) {
@@ -121,19 +131,29 @@ function mount(root: HTMLElement, ctx: ScreenContext, _params: ScreenParams): vo
 
     content.appendChild(screen);
 
-    root.replaceChildren(
-      appFrame({
-        topBar: topBar({
-          title: t('screen.travel.title'),
-          subtitle: t('screen.travel.subtitle'),
-          balance,
-          showBack: true,
-          onBack: () => ctx.navigate('character'),
-        }),
-        nav: primaryNav({ currentScreen: 'travel', onNavigate: (id) => ctx.navigate(id) }),
-        content,
+    const backBar = el('div', { class: 'tb-map-backbar' });
+    const backButton = el('button', {
+      type: 'button',
+      class: 'tb-map-back-button',
+      text: '←',
+      'aria-label': 'Kembali ke lapak',
+    });
+    backButton.addEventListener('click', () => ctx.navigate('character'));
+    backBar.appendChild(backButton);
+
+    const frame = appFrame({
+      topBar: topBar({
+        title: t('screen.travel.title'),
+        subtitle: t('screen.travel.subtitle'),
+        balance,
+        showBack: true,
+        onBack: () => ctx.navigate('character'),
       }),
-    );
+      nav: backBar,
+      content,
+    });
+    frame.classList.add('tb-map-page');
+    root.replaceChildren(frame);
   };
 
   render();

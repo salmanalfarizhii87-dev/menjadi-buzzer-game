@@ -59,21 +59,6 @@
           </button>
         </div>
 
-        <div id="new-game-confirm" class="game-name-entry hidden">
-          <section class="game-name-entry__card" role="dialog" aria-modal="true" aria-labelledby="game-name-title">
-            <span class="game-name-entry__rings" aria-hidden="true"></span>
-            <h2 id="game-name-title" class="game-name-entry__title">Masukkan Nama</h2>
-            <p class="game-name-entry__copy">Ayo, kenalan sama akun buzzer kamu. Nama ini akan tampil di sepanjang perjalanan kariermu.</p>
-            <form id="name-entry-form" class="game-name-entry__form">
-              <label for="creator-handle">Nama akun buzzer</label>
-              <input id="creator-handle" name="creatorHandle" type="text" maxlength="20" autocomplete="nickname" placeholder="Contoh: KilatDaily" required>
-              <div class="game-name-entry__actions">
-                <button type="button" class="ref-btn-white" data-name-action="cancel">Batal</button>
-                <button type="submit" class="ref-btn-yellow">Selesai</button>
-              </div>
-            </form>
-          </section>
-        </div>
       </section>
 
       <!-- Save Recovery Card -->
@@ -102,6 +87,21 @@
       </section>
 
     </main>
+
+    <div id="new-game-confirm" class="game-name-entry hidden">
+      <section class="game-name-entry__card" role="dialog" aria-modal="true" aria-labelledby="game-name-title">
+        <span class="game-name-entry__rings" aria-hidden="true"></span>
+        <h2 id="game-name-title" class="game-name-entry__title">Masukkan Nama</h2>
+        <p class="game-name-entry__copy">Ayo, kenalan sama Akang Tahu! Masukkan nama kamu, bebas apa saja. Tapi ini tidak bisa diganti lagi, ya.</p>
+        <form id="name-entry-form" class="game-name-entry__form">
+          <label class="sr-only" for="creator-handle">Nama karakter</label>
+          <input id="creator-handle" name="creatorHandle" type="text" maxlength="20" autocomplete="nickname" required>
+          <div class="game-name-entry__actions">
+            <button type="submit" class="ref-btn-yellow">Selesai</button>
+          </div>
+        </form>
+      </section>
+    </div>
 
     <!-- Footer Note -->
     <footer class="relative z-10 px-gutter-md pb-gutter-lg flex justify-center">
