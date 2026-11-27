@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+	    <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kang!!&#10;Aernya surut!!</desc>
+        </dialog>        
+	    <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>E-e-eh??!&#10;Tapi ini belum beres dagangnya!!</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Terus...&#10;Biarin kita kelelep gitu??</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Loh, kamu ikut ke sini juga&#10;Towa?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Kaaaaangg!!&#10;Buruan balik dulu!!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Nanti kita balik lagi sini aja..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>E-e-eh.. I-iya, Tako..</desc>
+        </dialog>
+    </skenario>
+</resources>

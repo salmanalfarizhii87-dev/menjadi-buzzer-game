@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Cepet amat pulangnya, Kang?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Loh! Towa?&#10;Kamu ikut ke sini?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Iya, aku belum bilang terima kasih.</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Terima kasih sudah mau membantuku, ya, Kang!&#10;Kamu ternyata bisa diandalkan!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="ketawa1" isHold="true">
+            <desc>Mwahahahahaha!!!&#10;Memang aku paling bisa diandalkan!!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Waduh..&#10;Jangan jadi sombong dong, Kang!</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Ngomong-ngomong aku ada pesan dari Raja Atlantis.</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Pesan dari Raja Atlantis?&#10;Ada apa??</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Katanya mulai sekarang Akang bebas berdagang Tahu Bulat di Atlantis!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Selama ini ga bebas?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>...................&#10;Selama ini kan kamu ga pake ijin dagangnya..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="aha" isHold="true">
+            <desc>Oya?&#10;Akang baru tahu!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>................................</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Jadi, ayo kita balik lagi ke Atlantis buat jualan Tahu Bulat lagi!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Hah? Sekarang banget?&#10;Kita kan baru aja balik ke sini..</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Iya sekarang..&#10;Akang mau tempatnya diambil sama Pedagang Tahu Bulat yang lain?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Eeee.. ga maulah..!&#10;Yaudah, ayo balik lagi...</desc>
+        </dialog>
+    </skenario>
+</resources>

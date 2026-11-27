@@ -1,0 +1,89 @@
+/* Motion: keyframes bersama. Semua durasi berasal dari token sehingga
+   prefers-reduced-motion otomatis mematikannya. */
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse-soft {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes shimmer {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.anim-fade {
+  animation: fade-in var(--duration-base) var(--ease-out);
+}
+
+.anim-rise {
+  animation: rise-in var(--duration-base) var(--ease-out);
+}
+
+.anim-pop {
+  animation: pop-in var(--duration-fast) var(--ease-out);
+}
+
+.anim-bump {
+  animation: bump var(--duration-slow) var(--ease-out);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .anim-fade,
+  .anim-rise,
+  .anim-pop,
+  .anim-bump {
+    animation: none;
+  }
+}

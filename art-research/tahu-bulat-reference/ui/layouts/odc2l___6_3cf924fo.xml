@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base" width="734" height="300">
+        <button id="btnClose" x="-15" y="50" alignX="wLayar#1" pivotX="1" imageNormal="UI_baru/ui_btn_close.png">
+        </button>
+
+        <container id="contPita" x="0" y="70" isVisible="true" width="481" height="98">
+            <image_list id="labelPita" x="481" y="0" scaleX="-1" pivotScaleX="0">
+                <item>UI_baru/lbl_pita_namaPlayer.png</item>
+            </image_list>
+            <!--//07292020-->
+            <textWithImage id="textPita" x="15" y="14" font="cuckoo" fontSize="40" color="ffffff" wrapWidth="450" isCenter="false">
+                <string>
+                    <text>Text Pita</text>
+                </string>
+            </textWithImage>
+        </container>
+
+        <container id="contDialogKiri" x="30" y="120" alignY="btnClose#1">
+            <image_list id="bgDialogKiri" x="0" y="0" isBaseContainer="true">
+                <item>floating_box/lbl_tutorial.png</item>
+            </image_list>
+
+            <image_list id="panahKiri" x="-15" y="-30" pivotX="1" pivotY="1" alignX="bgDialogKiri#1" alignY="bgDialogKiri#1" jeda="0.5">
+                <item>floating_box/ic_segitiga_1.png</item>
+                <item>floating_box/ic_segitiga_2.png</item>
+            </image_list>
+
+            <image_list id="imgPemeranKiri" x="109" y="-20" pivotX="0.5" pivotY="1" alignX="bgDialogKiri#0" alignY="bgDialogKiri#1">
+                <item>pemeran/akang/dialog_akangIdle.png</item>
+            </image_list>
+
+            <text id="judulKiri" x="235" y="10" font="cuckoo" fontSize="35" color="ffffff">Judul Label</text>
+            <textWithImage id="descKiri" x="0" y="20" alignX="judulKiri#0" alignY="judulKiri#1" font="comicneueBold" fontSize="32" color="000000" wrapWidth="400" isCenter="false">
+                <string>
+                    <text>Desc Label</text>
+                </string>
+            </textWithImage>
+<!--            <text id="descKiri" x="0" y="20" alignX="judulKiri#0" alignY="judulKiri#1" font="comicneueBold" fontSize="32" color="000000" wrapWidth="390" isCenter="false">text</text>-->
+        </container>
+
+        <container id="contDialogKanan" x="30" y="50" alignY="contDialogKiri#1">
+            <image_list id="bgDialogKanan" x="0" y="0" isBaseContainer="true" scaleX="-1" pivotScaleX="0.5">
+                <item>floating_box/lbl_tutorial.png</item>
+            </image_list>
+
+            <image_list id="panahKanan" x="470" y="-30" pivotX="0" pivotY="1" alignX="bgDialogKanan#0" alignY="bgDialogKanan#1" jeda="0.5">
+                <item>floating_box/ic_segitiga_1.png</item>
+                <item>floating_box/ic_segitiga_2.png</item>
+            </image_list>
+
+            <image_list id="imgPemeranKanan" x="585" y="-20" pivotX="0.5" pivotY="1" alignX="bgDialogKanan#0" alignY="bgDialogKanan#1"><!--x="440" scaleX="-1" pivotScaleX="0.5"-->
+                <item>pemeran/akang/dialog_akangIdle.png</item>
+            </image_list>
+
+            <text id="judulKanan" x="75" y="10" font="cuckoo" fontSize="35" color="ffffff">Judul Label</text>
+            <textWithImage id="descKanan" x="-50" y="20" alignX="judulKanan#0" alignY="judulKanan#1" font="comicneueBold" fontSize="32" color="000000" wrapWidth="400" isCenter="false">
+                <string>
+                    <text>Desc Label</text>
+                </string>
+            </textWithImage>
+<!--            <text id="descKanan" x="0" y="20" alignX="judulKanan#0" alignY="judulKanan#1" font="comicneueBold" fontSize="32" color="000000" wrapWidth="390" isCenter="false">text2</text>-->
+        </container>
+
+        <container id="contDialogTengah" x="30" y="120" alignY="btnClose#1">
+            <image_list id="bgDialogTengah" x="0" y="0" isBaseContainer="true">
+                <item>floating_box/lbl_tutorial.png</item>
+            </image_list>
+
+            <image_list id="panahTengah" x="-15" y="-30" pivotX="1" pivotY="1" alignX="bgDialogTengah#1" alignY="bgDialogTengah#1" jeda="0.5">
+                <item>floating_box/ic_segitiga_1.png</item>
+                <item>floating_box/ic_segitiga_2.png</item>
+            </image_list>
+
+            <image_list id="imgPemeranTengah" x="109" y="-20" pivotX="0.5" pivotY="1" alignX="bgDialogTengah#0" alignY="bgDialogTengah#1">
+                <item>pemeran/akang/dialog_akangIdle.png</item>
+            </image_list>
+
+            <text id="judulTengah" x="235" y="10" font="cuckoo" fontSize="35" color="ffffff">Judul Label</text>
+            <textWithImage id="descTengah" x="0" y="20" alignX="judulTengah#0" alignY="judulTengah#1" font="comicneueBold" fontSize="32" color="000000" wrapWidth="380" isCenter="false">
+                <string>
+                    <text>Desc Label</text>
+                </string>
+            </textWithImage>
+<!--            <text id="descTengah" x="0" y="20" alignX="judulTengah#0" alignY="judulTengah#1" font="comicneueBold" fontSize="32" color="000000" wrapWidth="390" isCenter="false">text3</text>-->
+        </container>
+
+        <container id="contButton" x="0" y="50" pivotX="0.5" alignX="wLayar#0.5" alignY="contDialogKanan#1">
+            <button id="button1" x="-30" y="0" pivotX="1" imageNormal="UI_baru/ui_btn_default.png">
+                <image_list id="ic_ads1" x="-265" y="0" pivotX="0.2" pivotY="0.2">
+                    <item>ui_turis/ic_kameraAds.png</item>
+                </image_list>
+                <text id="textButton1" x="-132" y="48" font="cuckoo" pivotX="0.5" pivotY="0.5" fontSize="32" color="ffffff" wrapWidth="265" isCenter="true">Button1</text>
+            </button>
+
+            <button id="button2" x="30" y="0" pivotX="0" imageNormal="UI_baru/ui_btn_normal_merah.png">
+                <image_list id="ic_ads2" x="0" y="0" pivotX="0.2" pivotY="0.2">
+                    <item>ui_turis/ic_kameraAds.png</item>
+                </image_list>
+                <text id="textButton2" x="132" y="48" font="cuckoo" pivotX="0.5" pivotY="0.5" fontSize="32" color="ffffff" wrapWidth="265" isCenter="true">Button2</text>
+            </button>
+        </container>
+    </container>
+
+    <animation>
+    </animation>
+</resources>

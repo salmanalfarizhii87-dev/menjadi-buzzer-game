@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <list_identifier>
+        <item>akangtahu</item>
+        <item>ramadhan</item>
+        <item>ultahwa</item>
+    </list_identifier>
+
+    <stickers identifier="akangtahu">
+        <label versi="1" syaratLevel="1">
+            <judul>Emot Akang</judul>
+            <desc>Stiker Akang Tahu pertamamu!&#10;Sering-sering dipakai yak!</desc>
+            <image scaleX="1" scaleY="1">stikerWA/akangtahu/ic_grup_emot.png</image>
+            <info>Chatting di WA makin seru dengan stiker Akang Tahu!&#10;&#10;Mainkan Tahu Bulat dan tingkatkan terus levelmu dan lengkapi koleksi Stiker WA Tahu Bulat-mu!</info>
+        </label>
+        <label versi="2" syaratLevel="2">
+            <judul>Akang Nyapa</judul>
+            <desc>Awali dan akhiri chat-mu bersama stiker Akang Tahu ini!</desc>
+            <image scaleX="1" scaleY="1">stikerWA/akangtahu/ic_grup_sapa.png</image>
+            <info>Kirim stiker yang "Sampurasun!" ke teman kamu, kita lihat dia jawab Rampes atau ngga. XD</info>
+        </label>
+        <label versi="3" syaratLevel="3">
+            <judul>Akang Krisis</judul>
+            <desc>Stiker ini sering dipakai menjelang akhir bulan...</desc>
+            <image>stikerWA/akangtahu/swa_akang07.webp</image>
+            <info>Teman kamu minta ditraktir?&#10;Traktir dia pakai stiker yang satu ini!</info>
+        </label>
+        <label versi="4" syaratLevel="4">
+            <judul>Akang Einstein</judul>
+            <desc>Dapet Ide? Atau baru paham?&#10;Pakai stiker ini yak!</desc>
+            <image>stikerWA/akangtahu/swa_akang08.webp</image>
+            <info>Kamu mendadak jenius kaya Einstein?&#10;Tunjukkan dengan stiker Akang yang ini!</info>
+        </label>
+        <label versi="5" syaratLevel="5">
+            <judul>Akang Drek</judul>
+            <desc>Mau Nolak? Atau Setuju?&#10;Cocoknya pakai stiker ini dong!</desc>
+            <image scaleX="1" scaleY="1">stikerWA/akangtahu/ic_grup_drake.png</image>
+            <info>Mau menolak dan menyetujui dengan elegan?&#10;Stiker ini cocok bangetlah!</info>
+        </label>
+        <label versi="6" syaratLevel="6">
+            <judul>Harapan Akang</judul>
+            <desc>Mau minta tolong? Pake Stiker ini! Ga jamin dikasih yak. XD</desc>
+            <image>stikerWA/akangtahu/swa_akang11.webp</image>
+            <info>Teman kamu lagi judes?&#10;Kasih dia stiker ini untuk melunakkan hatinya yang beku!</info>
+        </label>
+        <label versi="7" syaratLevel="7">
+            <judul>Ingat Akang</judul>
+            <desc>Temen kamu sering lupa?&#10;Bikin dia inget pakai stiker ini!</desc>
+            <image>stikerWA/akangtahu/swa_akang12.webp</image>
+            <info>Bosan ngingetin teman kamu?&#10;Bikin dia ingat dengan Stiker Akang yang galak ini.</info>
+        </label>
+        <label versi="8" syaratLevel="8">
+            <judul>Akang Ngehe</judul>
+            <desc>Kamu tahu arti kata ngehe?&#10;Akang juga ga tahu. XD</desc>
+            <image>stikerWA/akangtahu/swa_akang13.webp</image>
+            <info>Apaan sih arti kata Ngehe?&#10;Yaaa.... yang penting ini stikernya cocok kok dikirim di berbagai situasi. XD</info>
+        </label>
+        <label versi="9" syaratLevel="9">
+            <judul>Nahan Ketawa</judul>
+            <desc>Pengen ketawa, tapi ga pengen? Pakai stiker ini sajaa~</desc>
+            <image>stikerWA/akangtahu/swa_akang14.webp</image>
+            <info>Pengen ketawa, tapi ga pengen?&#10;Tahan tawamu bareng sama Akang Tahu...</info>
+        </label>
+        <label versi="10" syaratLevel="10">
+            <judul>Akang Ekspresif</judul>
+            <desc>Pengen ekspresif kaya Akang?&#10;Nih, pakai koleksi stikernya!^o^</desc>
+            <image scaleX="1" scaleY="1">stikerWA/akangtahu/ic_grup_text.png</image>
+            <info>Chattingmu kurang meriah?&#10;Atau kurang Lebay?&#10;Ekspresikan dengan koleksi stiker Akang Tahu!</info>
+        </label>
+        <label versi="11" syaratLevel="11">
+            <judul>Akang Terdiam</judul>
+            <desc>Ga tau mau ngomong apa?&#10;Cukup gunakan stiker ini!</desc>
+            <image>stikerWA/akangtahu/swa_akang18.webp</image>
+            <info>Sudah cape ngomong?&#10;Kirim aja stiker yang ini!</info>
+        </label>
+        <label versi="12" syaratLevel="12">
+            <judul>Air Mata</judul>
+            <desc>Huhuhuhu...&#10;Hix hix hix...</desc>
+            <image>stikerWA/akangtahu/swa_akang19.webp</image>
+            <info>Temen kamu ga bisa ngerti-ngerti?&#10;Bikin dia merenung dengan tangisan ini... (emang bakal ya?)</info>
+        </label>
+        <label versi="13" syaratLevel="13">
+            <judul>Semangats!</judul>
+            <desc>Teman kamu galau?&#10;Kasih dia stiker ini!</desc>
+            <image>stikerWA/akangtahu/swa_akang20.webp</image>
+            <info>Mau pamer otot, eh, nyemangatin temen kamu?&#10;Pakai stiker Akang  Tahu yang satu ini dongg...</info>
+        </label>
+        <label versi="14" syaratLevel="14">
+            <judul>Tekad Bulat</judul>
+            <desc>Tekadmu sudah sebulat Tahu?&#10;Pakai Stiker Tekad Bulat!</desc>
+            <image>stikerWA/akangtahu/swa_akang21.webp</image>
+            <info>Apalagi yang bulat selain tahu bulat?&#10;Tekad kamu bulat juga? Yakin?</info>
+        </label>
+        <label versi="15" syaratLevel="15">
+            <judul>KAYA RAYA!</judul>
+            <desc>Belum kaya? Pakai yang pertama.&#10;Udah kaya? Pakai yang kedua.</desc>
+            <image scaleX="1" scaleY="1">stikerWA/akangtahu/ic_grup_matre.png</image>
+            <info>Tajir, ga tajir, stiker ini bisa dipakai sama semua orang kok! Pede ajaaa~</info>
+        </label>
+        <label versi="16" syaratLevel="16">
+            <judul>Take My Tahu</judul>
+            <desc>Temen kamu ga bisa diem?&#10;Kasih dia Tahu Bulat!</desc>
+            <image>stikerWA/akangtahu/swa_akang24.webp</image>
+            <info>Temen kamu ga berenti ngomong?&#10;Suruh dia makan Tahu Bulat dulu!</info>
+        </label>
+        <label versi="17" syaratLevel="17">
+            <judul>Makan Tahu</judul>
+            <desc>Masih ga bisa diem juga?&#10;Ya udah, makan sendiri aja...</desc>
+            <image>stikerWA/akangtahu/swa_akang25.webp</image>
+            <info>Stiker ini cocok banget buat nunjukkin kalau kamu lagi menyimak (sambil makan tahu) XD</info>
+        </label>
+        <label versi="18" syaratLevel="18">
+            <judul>Akang Mikir</judul>
+            <desc>Ga yakin temen kamu ngomong apa? Kirim dia stiker ini!</desc>
+            <image>stikerWA/akangtahu/swa_akang26.webp</image>
+            <info>Temen kamu ngomong apa sih?&#10;Hmmmm.....</info>
+        </label>
+        <label versi="19" syaratLevel="19">
+            <judul>Akang Ketawa</judul>
+            <desc>Ketawain temen kamu pakai stiker yang ini, dijamin puas!!</desc>
+            <image>stikerWA/akangtahu/swa_akang27.webp</image>
+            <info>Bosen sama ketawa yang gitu-gitu aja?&#10;Nih, Akang Tahu ketawa lebay demi kamuu~</info>
+        </label>
+        <label versi="20" syaratLevel="20">
+            <judul>Ultimate Pack</judul>
+            <desc>Set terakhir dari Stiker Akang Tahu! Lengkapi semuanya!</desc>
+            <image scaleX="1" scaleY="1">stikerWA/akangtahu/ic_grup_ultimate.png</image>
+            <info>Koleksi ter-Ajib dari stiker Akang Tahu!&#10;Dengan ini, lengkap sudah stiker Akang Tahu milikmu!!&#10;Selamat!! Jangan lupa dipakai, yak!!</info>
+        </label>
+    </stickers>
+
+    <stickers identifier="ramadhan">
+        <label versi="1">
+            <judul>Salam &amp; Ucapan</judul>
+            <desc>Stiker Akang Tahu edisi Ramadhan! Yey!</desc>
+            <image>stikerWA/ramadhan/swa_ramadan01.webp</image>
+            <info>Mari koleksi dan lengkapi stiker Akang Tahu edisi Ramadhan!</info>
+        </label>
+        <label versi="2">
+            <judul>Sahur!</judul>
+            <desc>Bangunin temanmu pakai stiker ini!</desc>
+            <image>stikerWA/ramadhan/swa_ramadan05.webp</image>
+            <info>Bangunin temanmu untuk Sahur dengan menggunakan stiker yang satu ini!</info>
+        </label>
+        <label versi="3">
+            <judul>Sahuuurr!!</judul>
+            <desc>Ga bangun-bangun? Pakai yang ini!</desc>
+            <image>stikerWA/ramadhan/swa_ramadan06.webp</image>
+            <info>Temanmu gak bangun-bangun?&#10;Ayo ketok lebih keras lagi kaaanngg!</info>
+        </label>
+        <label versi="4">
+            <judul>Nunggu Sahur</judul>
+            <desc>Udah siap-siap sahur tapi masih ngantuk?</desc>
+            <image>stikerWA/ramadhan/swa_ramadan07.webp</image>
+            <info>Tunggu bentar lagi...zzzz</info>
+        </label>
+        <label versi="5">
+            <judul>Ampir Telat</judul>
+            <desc>Ayo buruan makaaaannn...</desc>
+            <image>stikerWA/ramadhan/swa_ramadan08.webp</image>
+            <info>Apaahh udah jam segini??&#10;Ayo buruan habisiiinnnnnn!!</info>
+        </label>
+        <label versi="6">
+            <judul>Jurus Sakti</judul>
+            <desc>Sabar No Jutsu!!&#10;Tahan emosi!!</desc>
+            <image>stikerWA/ramadhan/swa_ramadan09.webp</image>
+            <info>Harus banyak menahan emosi...&#10;Ayo gunakan jurus sakti ini:&#10;Sabar No Jutsu!!</info>
+        </label>
+        <label versi="7">
+            <judul>No Ghibah!</judul>
+            <desc>Hush! Jaga omongan kamu!</desc>
+            <image>stikerWA/ramadhan/swa_ramadan10.webp</image>
+            <info>Hush! Hayoo..&#10;Dijaga ya omongannya..</info>
+        </label>
+        <label versi="8">
+            <judul>Jam berapa?</judul>
+            <desc>Jam berapa sih sekarang?</desc>
+            <image>stikerWA/ramadhan/swa_ramadan11.webp</image>
+            <info>Azz.. masih ngantuk..&#10;Emang jam berapa sih?</info>
+        </label>
+        <label versi="9">
+            <judul>Jam berapwahh?!</judul>
+            <desc>Apah?! Udah jam segini??!</desc>
+            <image>stikerWA/ramadhan/swa_ramadan12.webp</image>
+            <info>APAAH?&#10;Udah jam segini lagi??!</info>
+        </label>
+        <label versi="10">
+            <judul>Ngilerr..</judul>
+            <desc>Ku-ku-kueehh...</desc>
+            <image>stikerWA/ramadhan/swa_ramadan13.webp</image>
+            <info>Hadoh, kok jadi ngiler yak?</info>
+        </label>
+        <label versi="11">
+            <judul>Gurih Nyoi</judul>
+            <desc>Se-sebentar lagi aja kok...</desc>
+            <image>stikerWA/ramadhan/swa_ramadan14.webp</image>
+            <info>Bertahanlah Akang...&#10;Sebentar lagi kok!</info>
+        </label>
+        <label versi="12">
+            <judul>Help Me</judul>
+            <desc>Ga sampe segitu juga kali, kang!</desc>
+            <image>stikerWA/ramadhan/swa_ramadan15.webp</image>
+            <info>Ga sampe gitu jugalah, kangg!</info>
+        </label>
+        <label versi="13">
+            <judul>Buka?!</judul>
+            <desc>Sungguh??&#10;Benarkah??!</desc>
+            <image>stikerWA/ramadhan/swa_ramadan16.webp</image>
+            <info>Sungguh? Seriusan? Benarkah??</info>
+        </label>
+        <label versi="14">
+            <judul>Bedug-dug-dug</judul>
+            <desc>Dug-Dug-Dug!&#10;Mari kita bukaa!</desc>
+            <image>stikerWA/ramadhan/swa_ramadan17.webp</image>
+            <info>Sudah bedug tuh!&#10;Ayo kita buka!</info>
+        </label>
+        <label versi="15">
+            <judul>Siap-siap</judul>
+            <desc>Tinggal digoreng dadakan nih!</desc>
+            <image>stikerWA/ramadhan/swa_ramadan18.webp</image>
+            <info>Bentar lagi siap cus goreng dadakan!!</info>
+        </label>
+        <label versi="16">
+            <judul>Hajar!!</judul>
+            <desc>Slurrppp~~</desc>
+            <image>stikerWA/ramadhan/swa_ramadan19.webp</image>
+            <info>Okeh mari kita hajarrr!!</info>
+        </label>
+        <label versi="17">
+            <judul>Kenyang</judul>
+            <desc>Aku tak sanggup lagi..</desc>
+            <image>stikerWA/ramadhan/swa_ramadan20.webp</image>
+            <info>Hush, makanya pelan-pelan dong, kang!</info>
+        </label>
+        <label versi="18">
+            <judul>Pahala!</judul>
+            <desc>Ayo kumpulkan pahala sebanyak-banyaknya!</desc>
+            <image>stikerWA/ramadhan/swa_ramadan21.webp</image>
+            <info>Mari kita kumpulkan pahala sebanyak-banyaknya!</info>
+        </label>
+        <label versi="19">
+            <judul>Pahala lagi!</judul>
+            <desc>Kumpulkan terus pahalanya, kawan!</desc>
+            <image>stikerWA/ramadhan/swa_ramadan22.webp</image>
+            <info>Ayooo.. jangan berhenti..&#10;Kumpulkan terus pahalanya!</info>
+        </label>
+        <label versi="20">
+            <judul>Sabarr...</judul>
+            <desc>Bulan Puasa ga boleh marah.. Tahann...</desc>
+            <image>stikerWA/ramadhan/swa_ramadan23.webp</image>
+            <info>Sabar... Tahann...&#10;Jangan marah.. Ingat, Puasa...</info>
+        </label>
+        <label versi="21">
+            <judul>Ingat Dosa~</judul>
+            <desc>Ingat ya...&#10;Dosaaaaaaaaaa~</desc>
+            <image>stikerWA/ramadhan/swa_ramadan24.webp</image>
+            <info>Ingat ya....&#10;Dosaaaaaaaaaaaaaa~</info>
+        </label>
+        <label versi="22">
+            <judul>Mohon Maaf</judul>
+            <desc>Lahir dan batin ya...</desc>
+            <image>stikerWA/ramadhan/swa_ramadan25.webp</image>
+            <info>Mohon Maaf Lahir dan Batin ya teman-teman semuanya..</info>
+        </label>
+        <label versi="23">
+            <judul>MA-AAAPP</judul>
+            <desc>Maapin atuuhhhh!!</desc>
+            <image>stikerWA/ramadhan/swa_ramadan26.webp</image>
+            <info>Maapin Akaaaangggggg~~</info>
+        </label>
+        <label versi="24">
+            <judul>Lebaran 1</judul>
+            <desc>Marhaban Ya Ramadhan~</desc>
+            <image>stikerWA/ramadhan/swa_ramadan27.webp</image>
+            <info>Marhaban Ya Ramadhan~</info>
+        </label>
+        <label versi="25">
+            <judul>Lebaran 2</judul>
+            <desc>Ketupat! Ketupat!</desc>
+            <image>stikerWA/ramadhan/swa_ramadan28.webp</image>
+            <info>Ketupat! Siapa mau Ketupat?!</info>
+        </label>
+        <label versi="26">
+            <judul>Lebaran 3</judul>
+            <desc>Ketupat raksasa!&#10;Wah ada Tako!</desc>
+            <image>stikerWA/ramadhan/swa_ramadan29.webp</image>
+            <info>Ketupat Raksasaaaa~~!</info>
+        </label>
+        <label versi="27">
+            <judul>THR?</judul>
+            <desc>THR? THR?&#10;Nih akang bagi-bagi~</desc>
+            <image>stikerWA/ramadhan/swa_ramadan30.webp</image>
+            <info>Siapa mau THR? Ngacuunggg...!</info>
+        </label>
+    </stickers>
+
+    <stickers identifier="ultahwa">
+        <label versi="1" syaratLevel="1">
+            <judul>Ucapan Ultah Akang</judul>
+            <desc>Ucapkan Selamat Ulang Tahun&#10;dengan stiker WA Akang!</desc>
+            <image scaleX="1" scaleY="1">stikerWA/ultahwa/TB_Sticker8thAnniv_collection_01.png</image>
+            <info>Ngucapin Selamat Ulang Tahun kini makin seru dengan Stiker WA Akang Tahu edisi Ulang Tahun!&#10;&#10;Selesaikan misi spesial setiap harinya selama Event Ulang Tahun Tahu Bulat untuk mendapatkan Stiker Spesial ini!</info>
+        </label>
+        <label versi="2" syaratLevel="2">
+            <judul>Doa &amp; Harapan</judul>
+            <desc>Berikan Doa &amp; Harapan terbaik untuk teman-temanmu!</desc>
+            <image scaleX="1" scaleY="1">stikerWA/ultahwa/TB_Sticker8thAnniv_collection_02.png</image>
+            <info>WUATB itu dibaca "Wish U All The Best".&#10;Bukan "wyuatebeh".</info>
+        </label>
+        <label versi="3" syaratLevel="3">
+            <judul>Tiup Lilin</judul>
+            <desc>Kirim stiker ini untuk meniup lilin secara virtual dari jarak jauh!</desc>
+            <image>stikerWA/ultahwa/swa_ultah07.webp</image>
+            <info>Tiup Lilinnya.. Tiup Lilinnyaa..&#10;Tiup Lilinnya Sekarang Jugaaaa..</info>
+        </label>
+        <label versi="4" syaratLevel="4">
+            <judul>Tako Pesta</judul>
+            <desc>Rayakan Pesta Ultahmu bersama Stiker WA Tako!</desc>
+            <image>stikerWA/ultahwa/swa_ultah08.webp</image>
+            <info>Pesta Ulang Tahun semakin meriah dengan kehadiran Tako!</info>
+        </label>
+        <label versi="5" syaratLevel="5">
+            <judul>Make A Wish</judul>
+            <desc>Ungkapkan harapan-harapan terbaik untuk temanmu!</desc>
+            <image>stikerWA/ultahwa/swa_ultah09.webp</image>
+            <info>Ada bintang jatuh tepat di Hari Ulang Tahun!&#10;Ayo ucapkan impian dan harapanmu!</info>
+        </label>
+        <label versi="6" syaratLevel="6">
+            <judul>Buka Kado</judul>
+            <desc>Woahh! Dapet kado apa nih?</desc>
+            <image>stikerWA/ultahwa/swa_ultah10.webp</image>
+            <info>K-K-Kado dari siapa inii?!!</info>
+        </label>
+        <label versi="7" syaratLevel="7">
+            <judul>Rejeki Berlimpah</judul>
+            <desc>Semoga selalu dilimpahkan rejeki yang banyak, ya..</desc>
+            <image>stikerWA/ultahwa/swa_ultah11.webp</image>
+            <info>Semoga yang ngirim stiker WA ini juga selalu diberikan Rejeki yang Berlimpah, ya!</info>
+        </label>
+        <label versi="8" syaratLevel="8">
+            <judul>Kejutan!</judul>
+            <desc>Kirim kejutan ke temanmu dengan stiker ini!</desc>
+            <image>stikerWA/ultahwa/swa_ultah12.webp</image>
+            <info>Buka Kado.. Lah, isinya kok Akang?&#10;Harusnya Tahu Bulatnya, bukan Akangnya..</info>
+        </label>
+        <label versi="9" syaratLevel="9">
+            <judul>Kejutan Lagi!</judul>
+            <desc>Memangnya cuma Akang yang kasih kejutan? Tako juga bisa!</desc>
+            <image>stikerWA/ultahwa/swa_ultah13.webp</image>
+            <info>Barusan Kado isi Akang..&#10;Sekarang Kue isi Tako!</info>
+        </label>
+        <label versi="10" syaratLevel="10">
+            <judul>Potong Kuenya</judul>
+            <desc>Potong Kuenya.. Potong Kuenyaaa~</desc>
+            <image>stikerWA/ultahwa/swa_ultah14.webp</image>
+            <info>Potong Kuenya sekaraannngg jugaaa.&#10;SEKARANGG JUGAA!</info>
+        </label>
+        <label versi="11" syaratLevel="11">
+            <judul>Kue Akang</judul>
+            <desc>Yuk, makan Kue Ulang Tahun bareng Akang!</desc>
+            <image>stikerWA/ultahwa/swa_ultah15.webp</image>
+            <info>First Cakenya buat siapa nih?&#10;Pastinya buat yang kamu kirimin Sticker WA ini, dong!</info>
+        </label>
+        <label versi="12" syaratLevel="12">
+            <judul>Kue Tako</judul>
+            <desc>Jadi ngiler sama Kue Ultah yang dimakan sama Tako!</desc>
+            <image>stikerWA/ultahwa/swa_ultah16.webp</image>
+            <info>Makan Kue-nya pelan-pelan aja, Tako...</info>
+        </label>
+        <label versi="13" syaratLevel="13">
+            <judul>Tiup Balon</judul>
+            <desc>Bikin semua jadi meriah! Balon Bulat!</desc>
+            <image>stikerWA/ultahwa/swa_ultah17.webp</image>
+            <info>Tiup balon yang banyak! Buat pesta ini jadi meriah!</info>
+        </label>
+        <label versi="14" syaratLevel="14">
+            <judul>Pantun </judul>
+            <desc>Pantun andalan! Bisa digunakan di semua kondisi!</desc>
+            <image>stikerWA/ultahwa/swa_ultah18.webp</image>
+            <info>Tebak siapa yang bikin pantun ini!&#10;Mention IG @akangTabul yah buat kirim jawabanmu!</info>
+        </label>
+        <label versi="15" syaratLevel="15">
+            <judul>Akang Badut</judul>
+            <desc>Dandan maksimal cuma buat ngirim stiker ini!</desc>
+            <image>stikerWA/ultahwa/swa_ultah19.webp</image>
+            <info>Prok-prok-prok... jadi apa?&#10;Jadi.... BULATT!</info>
+        </label>
+        <label versi="16" syaratLevel="16">
+            <judul>Tambah Tua</judul>
+            <desc>Stiker andalan buat kamu yang nambah tua!</desc>
+            <image>stikerWA/ultahwa/swa_ultah20.webp</image>
+            <info>Tiap tahun, selain umur, rambut putih pun bertambah..&#10;Lebih baik mana? Rambut memutih atau rontok?</info>
+        </label>
+        <label versi="17" syaratLevel="17">
+            <judul>Kirim Undangan</judul>
+            <desc>Stiker khusus buat kamu kirim undangan!</desc>
+            <image>stikerWA/ultahwa/swa_ultah21.webp</image>
+            <info>Undang seluruh kota untuk datang ke undangan ulang tahun-mu dengan stiker undangan ini!</info>
+        </label>
+        <label versi="18" syaratLevel="18">
+            <judul>Hias Kuenya</judul>
+            <desc>Tunjukkan keseriusanmu dengan stiker ini!</desc>
+            <image>stikerWA/ultahwa/swa_ultah22.webp</image>
+            <info>Kamu lama ga balas chat WA?&#10;Tunjukkan kalau kamu lagi sibuk siapin sesuatu yang spesial!</info>
+        </label>
+        <label versi="19" syaratLevel="19">
+            <judul>Bungkus Kadonya</judul>
+            <desc>Tunjukkan kesibukanmu dengan stiker ini!</desc>
+            <image>stikerWA/ultahwa/swa_ultah23.webp</image>
+            <info>Masih tetep lama ga bisa jawab WA?&#10;Tunjukkan kalau kamu masih sibuk bungkusin kado!</info>
+        </label>
+        <label versi="20" syaratLevel="20">
+            <judul>Pesta!!!</judul>
+            <desc>Pesta dimulai! Umumkan dengan stiker ini!</desc>
+            <image>stikerWA/ultahwa/swa_ultah24.webp</image>
+            <info>Pesta udah mau mulai tapi semua masih sibuk masing-masing?&#10;Umumkan mulainya pesta dengan stiker ini!</info>
+        </label>
+        <label versi="21" syaratLevel="21">
+            <judul>Makan-makaann</judul>
+            <desc>Ajak makan bareng pake stiker ini!</desc>
+            <image>stikerWA/ultahwa/swa_ultah25.webp</image>
+            <info>Pakai stiker ini untuk bikin temanmu ngiler duluan sebelum dia bisa nolak ajakan pergi makan-makan denganmu!</info>
+        </label>
+        <label versi="22" syaratLevel="22">
+            <judul>Traktir!</judul>
+            <desc>Temanmu lupa nraktir? Ingetin pake stiker ini!</desc>
+            <image>stikerWA/ultahwa/swa_ultah26.webp</image>
+            <info>Jangan lupa abis minta traktiran harus balik nraktir temennya, ya..</info>
+        </label>
+        <label versi="23" syaratLevel="23">
+            <judul>Balon Hewan</judul>
+            <desc>Ceriakan ucapan ulang tahunmu dengan stiker ini!</desc>
+            <image>stikerWA/ultahwa/swa_ultah27.webp</image>
+            <info>Gak bisa bikin balon hewan kaya gini?&#10;Gapapa.. kirim aja stiker ini ke temanmu..</info>
+        </label>
+        <label versi="24" syaratLevel="24">
+            <judul>Pinata</judul>
+            <desc>Lampiaskan keseruan hari Ulang Tahun dengan Pinata!</desc>
+            <image>stikerWA/ultahwa/swa_ultah28.webp</image>
+            <info>Pas ulang tahun boleh mukul-mukul Pinata..&#10;Asal jangan mukul si Pinat aja, ya..</info>
+        </label>
+        <label versi="25" syaratLevel="25">
+            <judul>Nyanyi</judul>
+            <desc>Kirim voice chat lagu Ultah bareng sama stiker ini!</desc>
+            <image>stikerWA/ultahwa/swa_ultah29.webp</image>
+            <info>Suara siapa yang lebih bagus?&#10;Suara kamu atau suara Akang?</info>
+        </label>
+        <label versi="26" syaratLevel="26">
+            <judul>Tako Terbang</judul>
+            <desc>Senang? Tunjukkan rasa bahagiamu dengan stiker ini!</desc>
+            <image>stikerWA/ultahwa/swa_ultah30.webp</image>
+            <info>Semoga koleksi stiker ini bisa bikin kamu puas berhasil bersenang-senang di Hari Ulang Tahun ini, ya!</info>
+        </label>
+    </stickers>
+
+    <item identifier="akangtahu" maxVersi="20" prefixImage="akang">
+        <name>Akang Tahu</name>
+        <publisher>Tahu Bulat | Own Games</publisher>
+        <tray_image_file>swa_akang01.webp</tray_image_file>
+        <android_play_store_link>https://play.google.com/store/apps/details?id=com.owngames.tahubulat</android_play_store_link>
+        <ios_app_store_link></ios_app_store_link>
+        <publisher_email>gamemaster@own-games.com</publisher_email>
+        <publisher_website>https://own-games.com</publisher_website>
+        <privacy_policy_website>https://own-games.com/privacypolicy</privacy_policy_website>
+
+        <versi id="1" jumlahSticker="3"/>
+        <versi id="2" jumlahSticker="6"/>
+        <versi id="3" jumlahSticker="7"/>
+        <versi id="4" jumlahSticker="8"/>
+        <versi id="5" jumlahSticker="10"/>
+        <versi id="6" jumlahSticker="11"/>
+        <versi id="7" jumlahSticker="12"/>
+        <versi id="8" jumlahSticker="13"/>
+        <versi id="9" jumlahSticker="14"/>
+        <versi id="10" jumlahSticker="17"/>
+        <versi id="11" jumlahSticker="18"/>
+        <versi id="12" jumlahSticker="19"/>
+        <versi id="13" jumlahSticker="20"/>
+        <versi id="14" jumlahSticker="21"/>
+        <versi id="15" jumlahSticker="23"/>
+        <versi id="16" jumlahSticker="24"/>
+        <versi id="17" jumlahSticker="25"/>
+        <versi id="18" jumlahSticker="26"/>
+        <versi id="19" jumlahSticker="27"/>
+        <versi id="20" jumlahSticker="30"/>
+    </item>
+
+    <item identifier="ramadhan" maxVersi="27" prefixImage="ramadan">
+        <name>Akang Tahu Edisi Ramadhan</name>
+        <publisher>Tahu Bulat | Own Games</publisher>
+        <tray_image_file>swa_ramadan29.webp</tray_image_file>
+        <android_play_store_link>https://play.google.com/store/apps/details?id=com.owngames.tahubulat</android_play_store_link>
+        <ios_app_store_link></ios_app_store_link>
+        <publisher_email>gamemaster@own-games.com</publisher_email>
+        <publisher_website>https://own-games.com</publisher_website>
+        <privacy_policy_website>https://own-games.com/privacypolicy</privacy_policy_website>
+
+        <versi id="1" jumlahSticker="4"/>
+        <versi id="2" jumlahSticker="5"/>
+        <versi id="3" jumlahSticker="6"/>
+        <versi id="4" jumlahSticker="7"/>
+        <versi id="5" jumlahSticker="8"/>
+        <versi id="6" jumlahSticker="9"/>
+        <versi id="7" jumlahSticker="10"/>
+        <versi id="8" jumlahSticker="11"/>
+        <versi id="9" jumlahSticker="12"/>
+        <versi id="10" jumlahSticker="13"/>
+        <versi id="11" jumlahSticker="14"/>
+        <versi id="12" jumlahSticker="15"/>
+        <versi id="13" jumlahSticker="16"/>
+        <versi id="14" jumlahSticker="17"/>
+        <versi id="15" jumlahSticker="18"/>
+        <versi id="16" jumlahSticker="19"/>
+        <versi id="17" jumlahSticker="20"/>
+        <versi id="18" jumlahSticker="21"/>
+        <versi id="19" jumlahSticker="22"/>
+        <versi id="20" jumlahSticker="23"/>
+        <versi id="21" jumlahSticker="24"/>
+        <versi id="22" jumlahSticker="25"/>
+        <versi id="23" jumlahSticker="26"/>
+        <versi id="24" jumlahSticker="27"/>
+        <versi id="25" jumlahSticker="28"/>
+        <versi id="26" jumlahSticker="29"/>
+        <versi id="27" jumlahSticker="30"/>
+    </item>
+
+    <item identifier="ultahwa" maxVersi="12" prefixImage="ultah">
+        <name>Akang Tahu Ultah</name>
+        <publisher>Tahu Bulat | Own Games</publisher>
+        <tray_image_file>TB_ic_Sticker8thAnniv_WA.png</tray_image_file>
+        <android_play_store_link>https://play.google.com/store/apps/details?id=com.owngames.tahubulat</android_play_store_link>
+        <ios_app_store_link></ios_app_store_link>
+        <publisher_email>gamemaster@own-games.com</publisher_email>
+        <publisher_website>https://own-games.com</publisher_website>
+        <privacy_policy_website>https://own-games.com/privacypolicy</privacy_policy_website>
+
+        <versi id="1" jumlahSticker="3"/>
+        <versi id="2" jumlahSticker="6"/>
+        <versi id="3" jumlahSticker="7"/>
+        <versi id="4" jumlahSticker="8"/>
+        <versi id="5" jumlahSticker="9"/>
+        <versi id="6" jumlahSticker="10"/>
+        <versi id="7" jumlahSticker="11"/>
+        <versi id="8" jumlahSticker="12"/>
+        <versi id="9" jumlahSticker="13"/>
+        <versi id="10" jumlahSticker="14"/>
+        <versi id="11" jumlahSticker="15"/>
+        <versi id="12" jumlahSticker="16"/>
+        <versi id="13" jumlahSticker="17"/>
+        <versi id="14" jumlahSticker="18"/>
+        <versi id="15" jumlahSticker="19"/>
+        <versi id="16" jumlahSticker="20"/>
+        <versi id="17" jumlahSticker="21"/>
+        <versi id="18" jumlahSticker="22"/>
+        <versi id="19" jumlahSticker="23"/>
+        <versi id="20" jumlahSticker="24"/>
+        <versi id="21" jumlahSticker="25"/>
+        <versi id="22" jumlahSticker="26"/>
+        <versi id="23" jumlahSticker="27"/>
+        <versi id="24" jumlahSticker="28"/>
+        <versi id="25" jumlahSticker="29"/>
+        <versi id="26" jumlahSticker="30"/>
+    </item>
+
+<!--    <emojis>-->
+<!--        <item image="1">🙂,🙂</item>-->
+<!--        <item image="2">🙂,🙂</item>-->
+<!--        <item image="3">🙂,🙂</item>-->
+<!--        <item image="4">🙂,🙂</item>-->
+<!--        <item image="5">🙂,🙂</item>-->
+<!--        <item image="6">🙂,🙂</item>-->
+<!--        <item image="7">🙂,🙂</item>-->
+<!--        <item image="8">🙂,🙂</item>-->
+<!--        <item image="9">🙂,🙂</item>-->
+<!--        <item image="10">🙂,🙂</item>-->
+<!--        <item image="11">🙂,🙂</item>-->
+<!--        <item image="12">🙂,🙂</item>-->
+<!--        <item image="13">🙂,🙂</item>-->
+<!--        <item image="14">🙂,🙂</item>-->
+<!--        <item image="15">🙂,🙂</item>-->
+<!--        <item image="16">🙂,🙂</item>-->
+<!--        <item image="17">🙂,🙂</item>-->
+<!--        <item image="18">🙂,🙂</item>-->
+<!--        <item image="19">🙂,🙂</item>-->
+<!--        <item image="20">🙂,🙂</item>-->
+<!--        <item image="21">🙂,🙂</item>-->
+<!--        <item image="22">🙂,🙂</item>-->
+<!--        <item image="23">🙂,🙂</item>-->
+<!--        <item image="24">🙂,🙂</item>-->
+<!--        <item image="25">🙂,🙂</item>-->
+<!--        <item image="26">🙂,🙂</item>-->
+<!--        <item image="27">🙂,🙂</item>-->
+<!--        <item image="28">🙂,🙂</item>-->
+<!--        <item image="29">🙂,🙂</item>-->
+<!--        <item image="30">🙂,🙂</item>-->
+<!--    </emojis>-->
+
+</resources>

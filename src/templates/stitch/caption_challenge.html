@@ -1,0 +1,57 @@
+<div class="min-h-[884px] max-w-md mx-auto flex flex-col bg-dock-bg" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- Top Purple HUD Bar -->
+    <header class="sticky top-0 z-20 ref-hud-purple px-gutter-md py-gutter-sm flex items-center justify-between gap-gutter-sm shadow-[0_3px_8px_rgba(0,0,0,0.22)]">
+      <div class="flex-1 ref-cyan-pill rounded-lg px-gutter-md py-1 flex flex-col items-center justify-center min-w-0">
+        <h1 class="font-headline text-title-md text-light-surface-bright leading-none" data-design-text-token="title-md">Caption Challenge</h1>
+        <p class="font-mono text-label-sm text-light-surface-bright leading-none mt-0.5" data-design-text-token="label-sm">Mini-Game • 1x Percobaan</p>
+      </div>
+
+      <div class="px-gutter-md py-1.5 rounded-lg bg-btn-yellow font-headline text-mono-md text-ink-dark tabular-nums shrink-0" id="timer-text" data-design-text-token="mono-md">20 dtk</div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col gap-gutter-md p-gutter-md pb-gutter-xl">
+
+      <section aria-label="Instruksi mini-game" class="ref-card rounded-xl p-gutter-lg flex flex-col gap-gutter-sm">
+        <div class="flex items-center justify-between gap-gutter-sm">
+          <h2 class="font-headline text-title-md text-ink-dark" data-design-text-token="title-md">Pilih Caption Terbaik!</h2>
+          <span class="px-gutter-sm py-gutter-xs rounded-full bg-btn-yellow font-headline text-label-sm text-ink-dark" data-design-text-token="label-sm">#DiskonKilat</span>
+        </div>
+        <p class="font-body text-body-sm text-light-on-surface-variant text-balance" data-design-text-token="body-sm">
+          Target: Pemburu promo usia 20–35 dengan gaya Kasual. Pilih 1 caption sebelum waktu habis.
+        </p>
+        <div class="ref-progress-track w-full h-3 rounded-full overflow-hidden">
+          <div id="timer-bar" class="h-full w-full bg-hud-cyan rounded-full"></div>
+        </div>
+      </section>
+
+      <div class="flex flex-col gap-gutter-sm">
+        <button type="button" onclick="pickCaption(88, this)" class="caption-opt ref-choice-idle rounded-xl p-gutter-md text-left flex items-start gap-gutter-sm cursor-pointer">
+          <span class="w-8 h-8 rounded-full bg-hud-purple-dark text-light-surface-bright font-headline text-title-md flex items-center justify-center shrink-0">A</span>
+          <p class="font-body text-body-md text-ink-dark text-balance" data-design-text-token="body-md">
+            &#34;Lagi ngincer wishlist? Cek #DiskonKilat jam 12 siang ini di BelanjaYuk, lumayan banget buat hemat!&#34;
+          </p>
+        </button>
+
+        <button type="button" onclick="pickCaption(42, this)" class="caption-opt ref-choice-idle rounded-xl p-gutter-md text-left flex items-start gap-gutter-sm cursor-pointer">
+          <span class="w-8 h-8 rounded-full bg-hud-purple-dark text-light-surface-bright font-headline text-title-md flex items-center justify-center shrink-0">B</span>
+          <p class="font-body text-body-md text-ink-dark text-balance" data-design-text-token="body-md">
+            &#34;BELI SEKARANG JUGA!! JANGAN MIKIR LAMA-LAMA!! KLIK #DiskonKilat!!!&#34;
+          </p>
+        </button>
+
+        <button type="button" onclick="pickCaption(65, this)" class="caption-opt ref-choice-idle rounded-xl p-gutter-md text-left flex items-start gap-gutter-sm cursor-pointer">
+          <span class="w-8 h-8 rounded-full bg-hud-purple-dark text-light-surface-bright font-headline text-title-md flex items-center justify-center shrink-0">C</span>
+          <p class="font-body text-body-md text-ink-dark text-balance" data-design-text-token="body-md">
+            &#34;Kayaknya lagi ada promo biasa aja sih, tapi yaudah cek aja #DiskonKilat kalau sempat.&#34;
+          </p>
+        </button>
+      </div>
+
+      <button id="submit-btn" type="button" disabled onclick="submitCaption()" class="ref-btn-disabled w-full inline-flex items-center justify-center gap-gutter-sm px-gutter-lg py-gutter-md rounded-xl text-ink-dark cursor-not-allowed mt-auto">
+        <span id="submit-label" class="font-headline text-label-lg" data-design-text-token="label-lg">Pilih 1 Caption Dulu</span>
+      </button>
+
+    </main>
+  </div>

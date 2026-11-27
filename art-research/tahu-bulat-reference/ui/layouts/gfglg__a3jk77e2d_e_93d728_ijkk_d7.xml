@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario>
+        <dialog karakter="2" ekspresi="idle" alignY="0.5f" y="-120" animasi="0.5">Huyaaa!&#10;Sepertinya Tahu Bulat yang kamu jual enak sekali!</dialog>
+        <dialog ekspresi="bertanya">Aku mau juga dong!&#10;Akan kubeli semua Tahu Bulat yang bisa kamu buat selama 15 detik!</dialog>
+        <dialog ekspresi="happy">Mari kita mulaaii!!</dialog>
+    </skenario>
+</resources>

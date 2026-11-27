@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario>
+        <dialog karakter="1" ekspresi="haha" alignY="0.5f" y="-120" animasi="1.2">Terima kasih sudah&#10;menyelamatkanku, NYO!!!</dialog>
+        <pilihan alignY="0.5f" y="-120" ekspresi="haha" formatType="mult_tako">
+            <dialog>Penjualanmu akan meningkat&#10;sebesar %.2fx lipat selama 2 jam kedepan! NYO NYO NYO!!</dialog>
+            <buttons>
+                <button tipe="close" image="UI_baru/ui_btn_normal_ijo.png" text="Syukurlah!"/>
+            </buttons>
+        </pilihan>
+    </skenario>
+</resources>

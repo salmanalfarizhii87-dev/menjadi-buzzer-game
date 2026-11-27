@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <image_list id="imgPopUp" x="-20" y="0" alignX="wLayar#0.5" pivotX="0.5" scaleX="2.0" scaleY="2.0" pivotScaleX="0.5"><!--//06212020-->
+            <item>UI_baru/banner_popUp_festival_story.png</item>
+        </image_list>
+
+        <text id="desc" x="-20" y="10" pivotX="0.5" alignX="wLayar#0.5" alignY="imgPopUp#1" font="comicneueLight" fontSize="30" color="000000" wrapWidth="650" isCenter="true">Jari Ajaib bekerja!&#10;Kamu mendapatkan Tap Otomatis!!</text>
+
+        <container id="contBar" x="0" y="20" alignY="desc#1" width="609" height="110">
+            <text id="descBar" x="-20" y="0" alignX="wLayar#0.5" pivotX="0.5" font="comicneueLight" fontSize="30" color="000000" isCenter="true" wrapWidth="650">Target Penjualan:</text>
+            <image_list id="bgBar" x="60" y="10" alignY="descBar#1">
+                <item>UI_baru/ui_lbl_popupData.png</item>
+            </image_list>
+            <textWithImage id="textBar" x="0" y="-5" pivotX="0.5" pivotY="0.5" alignX="bgBar#0.5" alignY="bgBar#0.5" font="cuckoo" fontSize="35" color="ffffff">
+                <string>
+                    <koin_Festival/>
+                    <text>000,000k</text>
+                </string>
+            </textWithImage>
+        </container>
+
+    </container>
+
+    <animation>
+    </animation>
+</resources>

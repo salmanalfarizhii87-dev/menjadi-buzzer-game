@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+	    <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Waduh!!&#10;Waktu sudah habis, tapi target belum tercapai nih..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Semoga di percobaan berikutnya targetnya bisa tercapai yak..</desc>
+        </dialog>
+    </skenario>
+</resources>

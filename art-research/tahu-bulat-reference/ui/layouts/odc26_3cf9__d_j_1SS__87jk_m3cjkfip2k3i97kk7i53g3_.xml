@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="tekad_bulad" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Target berhasil dicapai dengan Tekat Bulat!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Tapi ngomong-ngomong...&#10;Kang Piki kemana, yak?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Kok rasanya dari tadi ga pernah kelihatan?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kaaannggg!!!</desc>
+        </dialog>
+	    <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Hey, Tako!&#10;Kamu liat Kang Piki?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Lihat, kang!&#10;wkwkwkwk</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Kenapa kamu ketawa-ketawa sendiri kayak gitu, Tako?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Soalnya tadi Tako liat Kang Pikinya di atas panggung!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Di atas pangggung??&#10;Jualan Tahu Bulatnya dari panggung? Pasti laris dong?!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Bukan, Kanngg!!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Kang Pikinya maksa-maksa turun, tapi ga boleh sama Panitia.</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>....... Ha?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Disuruh nyanyi sambil dance dulu baru boleh turun..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Kayaknya Kang Piki disangka bintang tamu, deh..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="ketawa2" isHold="true">
+            <desc>Wkwkwkwkwk&#10;Kok bisa??</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="ketawa2" isHold="true">
+            <desc>Teruss.... Kang Pikinya dimana sekarang? Masih di panggung?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Ngga Kang, udah turun tadi.&#10;Kayaknya langsung pulang..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eeehh??!! Pulang?!&#10;Terus ini tanding dagangnya gimana dong??</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Kayaknya Kang Piki ga sempet jualan sama sekali deh...</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Jadi... kita anggap aja Akang Tahu yang menang!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>.............&#10;Ya... menang tapi kok gak puas ya..?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Ya sudah deh, Kang.&#10;Yuk kita pulang terus buka peti rempah-rempahnya..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Woohhh Peti Rempah-rempah!!&#10;Woke, hayu.. cuss!</desc>
+        </dialog>
+    </skenario>
+</resources>

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <leaderboard_id id="atm">CgkIu6ntpLwSEAIQNA</leaderboard_id>
+    <leaderboard_id id="tpm">CgkIu6ntpLwSEAIQNQ</leaderboard_id>
+
+    <news>
+        <uang>
+            <item unlock="0">Tahu Bulat berhasil mendarat di Planet Mars dengan selamat!</item>
+            <item unlock="1000">Tahu Bulat berhasil mendarat di Planet Mars dengan selamat!</item>
+            <item unlock="100000">Siapakah "Selamat" yang berhasil mendarat bersama Tahu Bulat di Planet Mars?</item>
+            <item unlock="1000000">"Selamat Datang di Planet Mars!" dalam bahasa Mars bunyinya adalah: "Tamales Tanda id Netpal Sram!"</item>
+            <item unlock="10000000">Namagi? Muka dahu carlan mongong lamda Sahaba Netpal Sram, lumbe?</item>
+            <item unlock="100000000">Penduduk Bumi, terutama masyarakat Indonesia merasa bisa paham Bahasa Mars, meskipun belum yakin paham atau tidak.</item>
+            <item unlock="500000000">Tamales Tanda id Grampro Taribe Own sahaber Sram!</item>
+            <item unlock="1000000000">HOAX! Ternyata Bahasa Mars yang kita ketahui selama ini adalah berita bohong dan tidak benar.</item>
+            <item unlock="5000000000">Kepercayaan Penduduk Mars terhadap Penduduk Bumi mengalami penurunan akibat adanya Hoax Bahasa Mars.</item>
+            <item unlock="10000000000">Penduduk Planet Mars tidak berkomunikasi dengan mengeluarkan suara, namun dengan menggunakan sinyal dari antena di atas kepalanya.</item>
+            <item unlock="50000000000">Bahasa Mars yang dikenal sebelumnya ternyata merupakan acakan kata dari Bahasa Indonesia yang dikarang oleh orang yang tidak bertanggung jawab.</item>
+            <item unlock="100000000000">Hoax Baru!! Katanya Bahasa di Planet Mars adalah seperti ini: @#$* &amp;#@$_)!@ #&amp;$* (#@$)($&amp;. Gak ngerti? Sama dong... Namanya juga hoax..</item>
+            <item unlock="500000000000">Penduduk Planet Mars merasa bingung dengan Penduduk Bumi yang suka menyebarkan Hoax.</item>
+            <item unlock="1000000000000">Mengandalkan telepati, ternyata Hoax dan kebohongan tidak mungkin tercipta di Planet Mars.</item>
+            <item unlock="5000000000000">Apakah telepati dan kemampuan membaca pikiran adalah kunci utama untuk membasmi Hoax?</item>
+            <item unlock="10000000000000">Fakta Baru: Penduduk Planet Mars bisa membaca Pikiran Penduduk Bumi, namun tidak sebaliknya!</item>
+            <item unlock="50000000000000">Penduduk Bumi menjadi segan untuk bertemu dengan Penduduk Mars karena takut dibaca pikirannya.</item>
+            <item unlock="100000000000000">Diawali dengan Tahu Bulat dan diakhiri dengan penemuan kunci pembasmi Hoax. Perkembangan bisnis Akang Tahu di Planet Mars ternyata berhasil membawa dampak positif bagi Umat Manusia.</item>
+        </uang>
+        <mobil>
+            <item unlock="0">Bisa terbang, para Penduduk Bumi melirik Pikep Ufo untuk dibawa pulang ke Bumi!</item>
+            <item unlock="1">Teknologi Otomotif yang canggih di Planet Mars membuat para Penduduk Bumi iri.</item>
+            <item unlock="2">Laser anti gravitasi yang digunakan pada Mobil-Ufo di Mars ternyata tidak berfungsi di Bumi!</item>
+            <item unlock="3">Anti gravitasi, tidak berisik, tanpa menggunakan bensin.. Sayang sekali teknologi tinggi otomotif di Planet Mars ini tidak bisa ditiru di Bumi.</item>
+        </mobil>
+        <pelang>
+            <item unlock="0">Dirasa kurang menarik perhatian, mobil Tahu Bulat mulai dilengkapi dengan pelang "Tahu Bulat".</item>
+            <item unlock="1">Pedagang Tahu Bulat mulai meningkatkan estetika bentuk pelang promosi Tahu Bulat mereka.</item>
+            <item unlock="2">Pedagang Lampu LED mengalami peningkatan penjualan yang cukup signifikan.</item>
+        </pelang>
+        <kipas>
+            <item unlock="0">Inovasi abad ini! Pedagang Tahu Bulat berusaha memanjakan pembeli dengan memasang kipas angin di mobilnya.</item>
+            <item unlock="1">Beberapa pedagang Tahu Bulat diketahui mulai memasang 2 buah kipas angin di mobilnya untuk menarik perhatian.</item>
+            <item unlock="2">Servis adalah hal yang paling penting, menurut pedagang Tahu Bulat yang sudah memasang AC di mobilnya.</item>
+        </kipas>
+        <tv>
+            <item unlock="0">Panjangnya antrian untuk membeli Tahu Bulat, membuat pedagang Tahu Bulat memasang TV di mobilnya untuk dinikmati pelanggan saat menunggu pesanan.</item>
+            <item unlock="1">Trend terbaru: anak-anak menonton film kartun gratis melalui TV LED Berwarna di mobil Tahu Bulat.</item>
+            <item unlock="2">Pedagang Tahu Bulat direncanakan akan mengadakan nobar keliling piala dunia menggunakan TV Keurf di mobilnya.</item>
+        </tv>
+        <resep>
+            <item unlock="6">Aloe Vera adalah salah satu tanaman bumi pertama yang berhasil ditanam di Planet Mars!</item>
+            <item unlock="7">Pitaya dikenal juga sebagai Buah Naga, memiliki kandungan Air yang tinggi.. Sungguh cocok dimakan bareng Tahu Bulat! (Hah?)</item>
+            <item unlock="8">Memiliki warna kulit kuning cerah, Magalanthus terlihat sangat indah ketika disajikan bersama Tahu Bulat. Nyoiii~ </item>
+            <item unlock="9">Tahurium adalah salah satu inovasi Menu Makanan yang sangat populer di Mars pada saat ini!</item>
+            <item unlock="10">Paket komplit nan spesial dari Tahurium, dikenal juga dengan nama Terahurium dikabarkan akan menjadi Makanan Mevvah kebanggan Planet Mars!</item>
+        </resep>
+        <promo>
+            <item unlock="0">Gadis Alien Cilik merasa Tahu Bulat dari bumi terasa sangat menyoi-menyoi, cocok untuk cuaca Planet Mars yang ga kalah nyoii...</item>
+            <item unlock="1">Bocah Alien Bola dikabarkan akan turut serta dalam pertandingan Sepak Bola di Planet Bumi.. Sungguh awal persaudaraan yang baik antara Planet Bumi dan Planet Mars!</item>
+            <item unlock="2">Mengejutkan! Kamu tidak akan percaya apa yang dilakukan Remaja Alien setelah menonton Video Tahu Bulat....... Ya jajan Tahu Bulatlah! Apalagi? </item>
+            <item unlock="3">Budaya Arisan Tante-tante di Bumi, nampaknya mulai menular ke Tante Alien di Mars. Baikkah?</item>
+            <item unlock="4">Om Alien dikabarkan sudah menanam modal dalam jumlah besar secara diam-diam di Bisnis Tahu Bulat!</item>
+            <item unlock="5">Membutuhkan tenaga ekstra untuk mengalahkan boredom, Accel, superhero dari webcomic Innaria mampir membeli Tahu Bulat.</item>
+            <item unlock="6">Jasteen, si Alien penggemar Tahu Bulat, kini datang langsung untuk membeli Tahu Bulat tanpa harus menculik Akang Tahu terlebih dahulu! Ps. Ufo Porscha-nya Jasteen keren loh!</item>
+            <item unlock="8">Cahaya lampu darurat digunakan oleh para pedagang Tahu Bulat untuk memanggil Superhero. Untuk apa? Membantu melariskan dagangan tentunya..</item>
+            <item unlock="9">Presiden yang berkunjung ke Planet Mars, turut membahas isu Bahasa Mars yang mirip dengan Bahasa Indonesia yang diacak-acak.</item>
+        </promo>
+    </news>
+
+    <background warnaLangit="ungu2" warnaLangitPagi="merah">
+        <item id="siluetmalam">background/Mars_siluetMalam.png</item>
+        <item id="siluetsiang">background/Mars_siluetSiang.png</item>
+        <item id="bg1">background/Mars_BG1.png</item>
+        <item id="bg2">background/Mars_BG2.png</item>
+        <item id="jalan">background/Mars_jalan.png</item>
+        <item id="langitsiang">background/Mars_langitPagi.png</item>
+        <item id="langitmalam">background/Mars_langitMalam.png</item>
+    </background>
+
+    <mobilPenjual>
+        <item id="1" geserPivotX="0" geserPivotY="0">mobil/mobil_mars_lv1.png</item>
+        <item id="2" geserPivotX="0" geserPivotY="0">mobil/mobil_mars_lv2.png</item>
+        <item id="3" geserPivotX="0" geserPivotY="0">mobil/mobil_mars_lv3.png</item>
+        <item id="4" geserPivotX="0" geserPivotY="0">mobil/mobil_mars_lv4.png</item>
+    </mobilPenjual>
+
+    <!--YANG BAWAH INI HARUS PINDAH XML BARU-->
+<!--    <listPenjual>-->
+<!--        <penjual id="Ch_AkangTahu" geserPivotX="0" geserPivotY="0">-->
+<!--            <item>pedagang/Ch_AkangTahu_idle.png</item>-->
+<!--            <item>pedagang/Ch_AkangTahu_mulai.png</item>-->
+<!--            <item>pedagang/Ch_AkangTahu_masak1.png</item>-->
+<!--            <item>pedagang/Ch_AkangTahu_masak2.png</item>-->
+<!--            <item>pedagang/Ch_AkangTahu_jadi.png</item>-->
+<!--        </penjual>-->
+<!--        <penjual id="kor_ema" geserPivotX="0" geserPivotY="0">-->
+<!--            <item>pedagang/kor/kor_ema_awal.png</item>-->
+<!--            <item>pedagang/kor/kor_ema_start.png</item>-->
+<!--            <item>pedagang/kor/kor_ema_masak-1.png</item>-->
+<!--            <item>pedagang/kor/kor_ema_masak-2.png</item>-->
+<!--            <item>pedagang/kor/kor_ema_jadi.png</item>-->
+<!--        </penjual>-->
+<!--        <penjual id="robot" geserPivotX="1" geserPivotY="0.5">-->
+<!--            <item>pedagang/robot/robot_idle.png</item>-->
+<!--            <item>pedagang/robot/robot_start.png</item>-->
+<!--            <item>pedagang/robot/robot_masak-1.png</item>-->
+<!--            <item>pedagang/robot/robot_masak-2.png</item>-->
+<!--            <item>pedagang/robot/robot_jadi.png</item>-->
+<!--        </penjual>-->
+<!--    </listPenjual>-->
+    <!--SAMPE SINI-->
+
+    <listPembeli>
+        <pembeli id="bocah1" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="-6.75" y="-0.75">pembeli_baru/kriboMerahMars_datang1.png</item>
+                <item x="11.25" y="-16.25">pembeli_baru/kriboMerahMars_datang2.png</item>
+                <item x="0" y="0">pembeli_baru/kriboMerahMars_bayar.png</item>
+                <item x="2.5" y="-0.75">pembeli_baru/kriboMerahMars_pergi1.png</item>
+                <item x="0.75" y="-0.25">pembeli_baru/kriboMerahMars_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="bocah2" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="19.75" y="-1">pembeli_baru/kriboKuningMars_datang1.png</item>
+                <item x="11" y="-0.5">pembeli_baru/kriboKuningMars_datang2.png</item>
+                <item x="0" y="0">pembeli_baru/kriboKuningMars_bayar.png</item>
+                <item x="32" y="-2.5">pembeli_baru/kriboKuningMars_pergi1.png</item>
+                <item x="4.25" y="0">pembeli_baru/kriboKuningMars_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="bocah3" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="24.75" y="-0.5">pembeli_baru/kriboHitamMars_datang1.png</item>
+                <item x="8.75" y="-9.75">pembeli_baru/kriboHitamMars_datang2.png</item>
+                <item x="0" y="0">pembeli_baru/kriboHitamMars_bayar.png</item>
+                <item x="-7.25" y="-2.25">pembeli_baru/kriboHitamMars_pergi1.png</item>
+                <item x="1" y="0">pembeli_baru/kriboHitamMars_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="tarra" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="8.5" y="-1.5">pembeli_baru/tarra_datang1.png</item>
+                <item x="-5.75" y="-0.25">pembeli_baru/tarra_datang2.png</item>
+                <item x="0" y="0">pembeli_baru/tarra_bayar.png</item>
+                <item x="-21.75" y="-0.25">pembeli_baru/tarra_pergi1.png</item>
+                <item x="-7.5" y="-0.25">pembeli_baru/tarra_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="pinat" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="9.25" y="-0.5">pembeli_baru/pinat_datang1.png</item>
+                <item x="-17.25" y="-0.75">pembeli_baru/pinat_datang2.png</item>
+                <item x="0" y="0">pembeli_baru/pinat_bayar.png</item>
+                <item x="-32.25" y="-0.75">pembeli_baru/pinat_pergi1.png</item>
+                <item x="-11.75" y="-0.75">pembeli_baru/pinat_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="anakceweMars" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="29" y="-2">pembeli_baru/anakCeweMars_datang1.png</item>
+                <item x="58" y="-1">pembeli_baru/anakCeweMars_datang2.png</item>
+                <item x="0" y="0">pembeli_baru/anakCeweMars_bayar.png</item>
+                <item x="2" y="-1">pembeli_baru/anakCeweMars_pergi1.png</item>
+                <item x="-15" y="-3">pembeli_baru/anakCeweMars_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="bocahbolaMars" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="25" y="-8">pembeli_baru/bocahBolaMars_datang1.png</item>
+                <item x="24" y="-1">pembeli_baru/bocahBolaMars_datang2.png</item>
+                <item x="0" y="0">pembeli_baru/bocahBolaMars_bayar.png</item>
+                <item x="17" y="-3">pembeli_baru/bocahBolaMars_pergi1.png</item>
+                <item x="3" y="-7">pembeli_baru/bocahBolaMars_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="anaksmaMars" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="38" y="-1">pembeli_baru/anakSmaMars_datang1.png</item>
+                <item x="51" y="1">pembeli_baru/anakSmaMars_datang2.png</item>
+                <item x="0" y="0">pembeli_baru/anakSmaMars_bayar.png</item>
+                <item x="-13" y="-1">pembeli_baru/anakSmaMars_pergi1.png</item>
+                <item x="32" y="-1">pembeli_baru/anakSmaMars_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="tanteeksisMars" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="103" y="-2">pembeli_baru/tanteEksisMars_datang1.png</item>
+                <item x="55" y="-1">pembeli_baru/tanteEksisMars_datang2.png</item>
+                <item x="0" y="0">pembeli_baru/tanteEksisMars_bayar.png</item>
+                <item x="-30" y="1">pembeli_baru/tanteEksisMars_pergi1.png</item>
+                <item x="-11" y="0">pembeli_baru/tanteEksisMars_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="omtajirMars" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="52" y="-1">pembeli_baru/omTajirMars_datang1.png</item>
+                <item x="33" y="-2">pembeli_baru/omTajirMars_datang2.png</item>
+                <item x="0" y="0">pembeli_baru/omTajirMars_bayar.png</item>
+                <item x="-6" y="2">pembeli_baru/omTajirMars_pergi1.png</item>
+                <item x="-58" y="-1">pembeli_baru/omTajirMars_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="aksa" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="-18.75" y="0.5">pembeli_baru/aksa_datang1.png</item>
+                <item x="41.5" y="2.25">pembeli_baru/aksa_datang2.png</item>
+                <item x="0" y="0">pembeli_baru/aksa_bayar.png</item>
+                <item x="18.25" y="-100">pembeli_baru/aksa_pergi1.png</item>
+                <item x="18" y="-150">pembeli_baru/aksa_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="festivalMars" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="40" y="-150">pembeli_baru/jasteenMars_datang1.png</item>
+                <item x="41" y="-135">pembeli_baru/jasteenMars_datang2.png</item>
+                <item x="0" y="-120">pembeli_baru/jasteenMars_bayar.png</item>
+                <item x="-108" y="-135">pembeli_baru/jasteenMars_pergi1.png</item>
+                <item x="-111" y="-150">pembeli_baru/jasteenMars_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="artis" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="32" y="-0.5">pembeli_baru/artis_datang1.png</item>
+                <item x="30.25" y="-0.25">pembeli_baru/artis_datang2.png</item>
+                <item x="0" y="0">pembeli_baru/artis_bayar.png</item>
+                <item x="27.25" y="0">pembeli_baru/artis_pergi1.png</item>
+                <item x="26.25" y="-0.25">pembeli_baru/artis_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="supertahuman" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="-80.25" y="-260">pembeli_baru/supertahuman_datang1.png</item>
+                <item x="1" y="-230">pembeli_baru/supertahuman_datang2.png</item>
+                <item x="0" y="0">pembeli_baru/supertahuman_bayar.png</item>
+                <item x="54" y="-210">pembeli_baru/supertahuman_pergi1.png</item>
+                <item x="27.5" y="-300">pembeli_baru/supertahuman_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="presiden" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="5" y="0">pembeli_baru/paspampresPresiden_datang1.png</item>
+                <item x="19" y="-1">pembeli_baru/paspampresPresiden_datang2.png</item>
+                <item x="0" y="0">pembeli_baru/paspampresPresiden_bayar.png</item>
+                <item x="-14.75" y="0">pembeli_baru/paspampresPresiden_pergi1.png</item>
+                <item x="12.75" y="-1.75">pembeli_baru/paspampresPresiden_pergi2.png</item>
+            </images>
+        </pembeli>
+    </listPembeli>
+
+    <!--START MENU BAWAH-->
+
+    <extra_item>
+        <minuman id="Aqua Terra" icon="mars/mars_ic_airBumi.png"/>
+        <!--<tokopedia id="tokopedia_0" notHave="ic_tokopedia0.png" icon="ic_tokopedia1.png" every="50" startValue="1" plusEfek="1" isFinal="false" startLevel="0">500000000,750000000,1125000000,1687500000,2531250000,3796875000,5695313000,8542969000,12814453000,19221680000,80000000000</tokopedia>-->
+        <!--<tokopedia id="tokopedia_1" icon="ic_tokopedia2.png" every="75" startValue="12" plusEfek="2" isFinal="false" startLevel="10">80000000000,120000000000,180000000000,270000000000,405000000000,607500000000,911250000000,1366875000000,2050312500000,3075468750000,5000000000000</tokopedia>-->
+        <!--<tokopedia id="tokopedia_2" icon="ic_tokopedia3.png" every="100" startValue="30" plusEfek="3" isFinal="false" startLevel="20">5000000000000,7500000000000,11250000000000,16875000000000,25312500000000,37968750000000,56953125000000,85429687500000,128144531250000,192216796875000,600000000000000</tokopedia>-->
+        <!--<tokopedia id="tokopedia_3" icon="ic_tokopedia4.png" every="125" startValue="65" plusEfek="5" isFinal="true" startLevel="30">600000000000000,900000000000000,1350000000000000,2025000000000000,3037500000000000,4556250000000000,6834375000000000,10251562500000000,15377343750000000,23066015625000000</tokopedia>-->
+        <wifi id="Modem2G" icon="ic_modem lv1.png" plusEfek="0" startValue="2.0" startLevel="0" isFinal="false">5000000000,600000000000</wifi>
+        <wifi id="Modem3G" icon="ic_modem lv2.png" plusEfek="0" startValue="3.0" startLevel="1" isFinal="false">600000000000,80000000000000</wifi>
+        <wifi id="Modem4G" icon="ic_modem lv3.png" plusEfek="0" startValue="4.0" startLevel="2" isFinal="true">80000000000000</wifi>
+
+        <ksatriatahu id="ksatriatahu" icon="ksatriatahu/icon/ic_spatulaKujang.png"/>
+<!--        <sotong id="sotong" icon="UI_baru/ic_sotong.png"/>-->
+    </extra_item>
+
+    <ksatriatahu>
+        <resep>
+            <item idResep="0" harga="5000000" hargaUnlock="50000000"/>
+            <item idResep="1" harga="50000000" hargaUnlock="250000000"/>
+            <item idResep="2" harga="50000000" hargaUnlock="1000000000"/>
+        </resep>
+        <rateGacha>12,11,10,9,8,7,6,5,4,3,2,1</rateGacha>
+    </ksatriatahu>
+
+    <!--<mobil>-->
+        <!--<item tipe="speaker" id="Speaker" icon="ic_TOA_lv1.png" plusEfek="0.02" startValue="1" startLevel="0" isFinal="false" nextStartValue="3">0,11000,12100,13310,14630,16060,17710,19470,21450,23540,25960,28490,31350,34540,37950,41800,45980,50490,55550,61160,67320,74030,81400,89540,98450,108350,119130,131120,144210,158620,174460,191950,211090,232210,255530,281050,309100,340010,374000,411400,452540,497860,547690,602360,662640,728860,801790,881980,970200,1067220,1173920,1291290,1420430,1562440,1718750,1890570,2079660,2287670,2516360,2768040,3044800,3349280,3684230,4052620,4457970,4903690,5394070,5933510,6526850,7179480,7897450,8687250,9555920,10511490,11562650,12718970,13990900,15389880,16928890,18621790,20483980,22532400,24785640,27264160,29990620,32989660,36288670,39917570,43909250,48300230,53130220,58443220,64287520,70716360,77787930,85566800,94123480,103535740,113889380,125278340,550000000</item>-->
+        <!--<item tipe="speaker" id="Speaker Emas" icon="ic_TOA_lv2.png" plusEfek="0.02" startValue="3" startLevel="100" isFinal="false" nextStartValue="5">550000000,715000000,786500000,865150000,951665000,1046831500,1151514650,1266666180,1393332720,1532665940,1685932560,1854525920,2039978460,2243976280,2468373960,2715211330,2986732450,3285405630,3613946310,3975340850,4372875000,4810162500,5291178750,5820296560,6402326190,7042558900,7746814790,8521496230,9373645840,10311010450,11342111430,12476322560,13723954920,15096350360,16605985370,18266583920,20093242390,22102566590,24312823210,26744105570,29418516140,32360367780,35596404480,39156044980,43071649400,47378814340,52116695800,57328365380,63061201970,69367322180,76304054320,83934459830,92327905800,101560696380,111716766070,122888442560,135177286920,148695015560,163564517090,179920968760,197913065740,217704372210,239474809470,263422290430,289764519460,318740971380,350615068570,385676575440,424244233010,466668656350,513335521920,564669074060,621135981570,683249579740,751574537610,826731991410,909405190590,1000345709610,1100380280610,1210418308580,1331460139490,1464606153400,1611066768740,1772173445640,1949390790230,2144329869240,2358762856190,2594639141770,2854103055960,3139513361530,3453464697670,3798811167450,4178692284260,4596561512660,5056217663900,5561839430290,6118023373280,6729825710660,7402808281700,8143089109870,26000000000000</item>-->
+        <!--<item tipe="speaker" id="Speaker Jumbo" icon="ic_TOA_lv3.png" plusEfek="0.02" startValue="5" startLevel="200" isFinal="false" nextStartValue="7">26000000000000,33000000000000,36300000000000,39930000000000,43923000000000,48315300000000,53146830000000,58461513000000,64307664300000,70738430730000,77812273803000,85593501183300,94152851301600,103568136431850,113924950074900,125317445082450,137849189590650,151634108549850,166797519404700,183477271345200,201824998479750,222007498327800,244208248160550,268629072976500,295491980274300,325041178301700,357545296131750,393299825745000,432629808319500,475892789151450,523482068066550,575830274873250,633413302360650,696754632596700,766430095856250,843073105441950,927380415986100,1020118457584800,1122130303343250,1234343333677500,1357777667045250,1493555433749850,1642905000000000,1807200000000000,1987920000000000,2186715000000000,2405385000000000,2645925000000000,2910510000000000,3201570000000000,3521730000000000,3873900000000000,4261290000000000,4687410000000000,5156160000000000,5671770000000000,6238950000000000,6862845000000000,7549125000000000,8304045000000000,9134445000000000,10047900000000000,11052690000000000,12157950000000000,13373745000000000,14711115000000000,16182300000000000,17800500000000000,19580550000000000,21538500000000000,23692350000000000,26061600000000000,28667850000000000,31534650000000000,34688100000000000,38156850000000000,41972550000000000,46169850000000000,50786850000000000,55865400000000000,61452000000000000,67597200000000000,74356950000000000,81792600000000000,89971950000000000,98969100000000000,108865950000000000,119752650000000000,131727900000000000,144900600000000000,159390000000000000,175329000000000000,192862500000000000,212149500000000000,233364000000000000,256701000000000000,282370500000000000,310608000000000000,342000000000000000,376500000000000000,833333333333332480</item>-->
+        <!--<item tipe="speaker" id="Speaker Jumbo Emas" icon="ic_TOA_lv4.png" plusEfek="0.02" startValue="7" startLevel="300" isFinal="true">833333333333332480</item>-->
+        <!--<item tipe="wajan" id="Panci Biasa" icon="ic_wajan_lv1.png" plusEfek="0.1" startValue="0" startLevel="0" isFinal="false" nextStartValue="1.5">0,33000,36300,39930,43890,48290,53130,58410,64350,70730,110000</item>-->
+        <!--<item tipe="wajan" id="Panci Melamin" icon="ic_wajan_lv2.png" plusEfek="0.1" startValue="1.5" startLevel="10" isFinal="false" nextStartValue="2.9">110000,195000,292500,438750,658190,987220,1480830,2221180,3331770,4997590,7496450,13000000</item>-->
+        <!--<item tipe="wajan" id="Panci Emas" icon="ic_wajan_lv3.png" plusEfek="0.1" startValue="2.9" startLevel="21" isFinal="true">13000000</item>-->
+
+        <!--<item tipe="tenda" id="Tenda Panel" icon="mars/ic_tenda_mars_lv1.png" plusEfek="0.1" startValue="0" startLevel="0" isFinal="false" nextStartValue="2.5">0,55000,60500,66550,73260,80520,88550,97460,107140,117920,275000</item>-->
+        <!--<item tipe="tenda" id="Tenda Surya" icon="mars/ic_tenda_mars_lv2.png" plusEfek="0.1" startValue="2.5" startLevel="10" isFinal="false" nextStartValue="4">275000,487500,731250,1096940,1645280,2467920,3702010,5552950,8329360,12494040,18741190,32500000</item>-->
+        <!--<item tipe="tenda" id="Tenda Surya II" icon="mars/ic_tenda_mars_lv3.png" plusEfek="0.1" startValue="4" startLevel="21" isFinal="false" nextStartValue="4.9">32500000,75000000,150000000,300000000,600000000,1200000000,2400000000</item>-->
+        <!--<item tipe="tenda" id="Hi-techNda" icon="mars/ic_tenda_mars_lv4.png" plusEfek="0.1" startValue="4.9" startLevel="27" isFinal="true">2400000000</item>-->
+        <!--<item tipe="bodyMobil" id="Pikep Ufo" icon="mars/ic_mobil_mars_lv1.png" plusEfek="0.1" startValue="0" startLevel="0" isFinal="false" nextStartValue="1">0,550000,660000,792000,950400,1140480,1368620,1642300,1970760,2364890,4950000</item>-->
+        <!--<item tipe="bodyMobil" id="Ufo Boks" icon="mars/ic_mobil_mars_lv2.png" plusEfek="0.1" startValue="1" startLevel="10" isFinal="false" nextStartValue="4">4950000,8775000,13162500,19743750,29615690,44423470,66635140,99952710,149929130,224893630,337340510,13000000000</item>-->
+        <!--<item tipe="bodyMobil" id="Ufoluks" icon="mars/ic_mobil_mars_lv3.png" plusEfek="0.1" startValue="4" startLevel="21" isFinal="false" nextStartValue="5">13000000000,27000000000,48600000000,87480000000,157464000000,283435200000,510183360000,918330048000,1652994086400,2975389355550,5355700839900</item>-->
+        <!--<item tipe="bodyMobil" id="Alfo Rover" icon="mars/ic_mobil_mars_lv4.png" plusEfek="0.1" startValue="5" startLevel="31" isFinal="true">5355700839900,136000000000000,244800000000000,440640000000000,793152000000000,1427673600000000,2569812480000000,4625662464000000,150961511111111104</item>-->
+
+        <!--<item tipe="pelang" id="Pelang Biasa" icon="ic_pelang_lv1.png" plusEfek="0.1" startValue="0.1" startLevel="0" isFinal="false" nextStartValue="11">110000000,165000000,247500000,371250000,556875000,835312500,1252968750,1879453180,2819179660,4228769490,8800000000,13200000000</item>-->
+        <!--<item tipe="pelang" id="Pelang Gambar" icon="ic_pelang_lv2.png" plusEfek="0.1" startValue="2" startLevel="11" isFinal="false" nextStartValue="14">13200000000,23400000000,35100000000,52650000000,78975000000,118462500000,177693750000,266540625000,399810937500,780000000000,1170000000000</item>-->
+        <!--<item tipe="pelang" id="Pelang LED" icon="ic_pelang_lv3.png" plusEfek="0.1" startValue="5" startLevel="21" isFinal="true">1170000000000,2025000000000,3037500000000,4556250000000,6834375000000,10251562500000,15377343750000,23066015625000,34599023437500,75000000000000</item>-->
+        <!--<item tipe="kipas" id="Kipas Angin" icon="ic_ac_lv1.png" plusEfek="0.2" startValue="0.2" startLevel="0" isFinal="false" nextStartValue="5">1100000000,1650000000,2475000000,3712500000,5568750000,8353125000,12529687500,18794531250,28191796930,42287695340,88000000000,132000000000</item>-->
+        <!--<item tipe="kipas" id="Kipas Angin x2" icon="ic_ac_lv2.png" plusEfek="0.2" startValue="5" startLevel="11" isFinal="false" nextStartValue="10">132000000000,234000000000,351000000000,526500000000,789750000000,1184625000000,1776937500000,2665406250000,3998109375000,7800000000000,11700000000000</item>-->
+        <!--<item tipe="kipas" id="Air Conditioner" icon="ic_ac_lv3.png" plusEfek="0.2" startValue="10" startLevel="21" isFinal="true">11700000000000,20250000000000,30375000000000,45562500000000,68343750000000,102515625000000,153773437500000,230660156250000,345990234375000,750000000000000</item>-->
+        <!--<item tipe="televisi" id="TV Hitam Putih" icon="ic_tv_lv1.png" plusEfek="0.3" startValue="0.3" startLevel="0" isFinal="false" nextStartValue="6">11000000000,16500000000,24750000000,37125000000,55687500000,83531250000,125296875000,187945312500,281917968750,422876953180,880000000000,1320000000000</item>-->
+        <!--<item tipe="televisi" id="TV LED" icon="ic_tv_lv2.png" plusEfek="0.3" startValue="6" startLevel="11" isFinal="false" nextStartValue="12">1320000000000,2340000000000,3510000000000,5265000000000,7897500000000,11846250000000,17769375000000,26654062500000,39981093750000,78000000000000,117000000000000</item>-->
+        <!--<item tipe="televisi" id="TV Layar Lengkung" icon="ic_tv_lv3.png" plusEfek="0.3" startValue="12" startLevel="21" isFinal="true">117000000000000,202500000000000,303750000000000,455625000000000,683437500000000,1025156250000000,1537734375000000,2306601562500000,3459902343750000,7500000000000000</item>-->
+    <!--</mobil>-->
+
+    <!--<resep>-->
+        <!--<item id="Tahu Putih" icon="ic_tahu.png" plusEfek="1" startValue="1">0,11000,16500,24750,37180,55660,83490,125290,187990,281930,499720,749710,1124500,1686750,2530060,3795090,5692570,8538920,12808380,19212570,33252600,49878900,74818350,112227450,168341100,252511650,378767550,568151250,852226950,1278340350,2173178680,3259768020,4889652030,7334477960,11001716940,16502575580,24753863370,37130794970,55696192370,83544288640,140059542720,210089314080,315133971120,472700956680,709051435020,1063577152530,1595365728890,2393048593430,3589572890050,5384359335170,8926701002940</item>-->
+        <!--<item id="Telur" icon="ic_telur.png" plusEfek="2" startValue="0">0,55000,82500,123750,185680,278410,417670,626450,939730,1409540,2498860,3748290,5622370,8433490,12650300,18975450,28463110,42694600,64042030,96062980,166262850,249394200,374091450,561137100,841705650,1262558400,1893837600,2840756400,4261134600,6391701900,10865893400,16298840100,24448259980,36672390140,55008585040,82512877730,123769316510,185653974850,278480962190,417721443200,700297713600,1050446570400,1575669855790,2363504783590,3545257175480,5317885763030,7976828644640,11965242966960,17947864450440,26921796675660,44633505014910</item>-->
+        <!--<item id="Minyak Goreng" icon="ic_minyak.png" plusEfek="3" startValue="0">0,220000,330000,495000,742500,1113750,1670680,2505910,3758920,5638380,9995310,14992900,22489350,33734090,50601070,75901670,113852440,170778660,256167990,384251920,665051400,997576950,1496365500,2244548250,3366822450,5050233600,7575350550,11363025750,17044538550,25566807900,43463573430,65195360060,97793040260,146689560390,220034340500,330051510750,495077266040,742615899060,1113923848590,1670885772970,2801190854590,4201786281980,6302679422970,9454019134360,14181028701540,21271543052500,31907314578560,47860971867840,71791457801950,107687186702830,178534020059850</item>-->
+        <!--<item id="Terigu" icon="ic_tepung.png" plusEfek="5" startValue="0">0,550000,825000,1237500,1856250,2784430,4176590,6264830,9397300,14095950,24988210,37482250,56223440,84335160,126502740,189753980,284630970,426946520,640419780,960629670,1662628350,2493942600,3740913750,5611370700,8417056050,12625584150,18938376150,28407564300,42611346450,63917019750,108658933490,162988400320,244482600480,366723900720,550085851250,825128776790,1237693165100,1856539747650,2784809621560,4177214432340,7002977136570,10504465704950,15756698557330,23635047836090,35452571754040,53178857631060,79768286446590,119652429669790,179478644504780,269217966756980,446335050149940</item>-->
+        <!--<item id="Bumbu" icon="ic_bumbu.png" plusEfek="10" startValue="0">0,1100000,1650000,2475000,3712500,5568750,8353180,12529660,18794490,28191790,49976420,74964500,112446880,168670190,253005350,379508090,569262070,853893040,1280839690,1921259470,3325256700,4987885050,7481827650,11222741400,16834112250,25251168300,37876752450,56815128600,85222693050,127834039500,217317867150,325976800640,488965200960,733447801610,1100171702330,1650257553580,2475386330200,3713079495470,5569619243120,8354428864680,14005954273140,21008931409710,31513397114660,47270095671990,70905143508080,106357715262120,159536572892990,239304859339580,358957289009370,538435933514150,892670100299670</item>-->
+        <!--<item id="Keju" icon="ic_keju.png" plusEfek="20" startValue="0">0,5500000,8250000,12375000,18562500,27843750,41765680,62648410,93972670,140958950,249881840,374822760,562234140,843351210,1265026750,1897540190,2846310350,4269465460,6404198190,9606297220,16626283650,24939425550,37409138250,56113707300,84170560950,126255841500,189383762250,284075643300,426113464950,639170197500,1086589335580,1629884003540,2444826005140,3667239007880,5500858511820,8251287767560,12376931651340,18565397477180,27848096215770,41772144323570,70029771365890,105044657048930,157566985573490,236350478360140,354525717540210,531788576310220,797682864465330,1196524296697900,1794786445047040,2692179667570370,4463350501498350</item>-->
+        <!--<item id="Aloe Vera" icon="mars/mars_ic_aloeVera.png" plusEfek="45" startValue="0">0,22000000,33000000,49500000,74250000,111375000,167062500,250593750,375890680,563835910,999527360,1499291040,2248936560,3373404840,5060107130,7590160760,11385241140,17077861710,25616792630,38425188880,66505134600,99757701900,149636552850,224454829350,336682243950,505023365850,757535048850,1136302573200,1704453859800,2556680789700,4346357342660,6519536013990,9779304020900,14668956031350,22003434046940,33005151070410,49507726605700,74261589908550,111392384862740,167088577294280,280119085463750,420178628195720,630267942293580,945401913440370,1418102870160650,2127154305240880,3190731457861320,4786097186791980,7179145780187780,10768718670281670,178534020059934</item>-->
+        <!--<item id="Pitaya" icon="mars/mars_ic_dragonFruitMerah.png" plusEfek="45" startValue="0">0,22000000,33000000,49500000,74250000,111375000,167062500,250593750,375890680,563835910,999527360,1499291040,2248936560,3373404840,5060107130,7590160760,11385241140,17077861710,25616792630,38425188880,66505134600,99757701900,149636552850,224454829350,336682243950,505023365850,757535048850,1136302573200,1704453859800,2556680789700,4346357342660,6519536013990,9779304020900,14668956031350,22003434046940,33005151070410,49507726605700,74261589908550,111392384862740,167088577294280,280119085463750,420178628195720,630267942293580,945401913440370,1418102870160650,2127154305240880,3190731457861320,4786097186791980,7179145780187780,10768718670281670,17853402005993400</item>-->
+        <!--<item id="Megalanthus" icon="mars/mars_ic_dragonFruitKuning.png" plusEfek="100" startValue="0">0,55000000,82500000,123750000,185625000,278437500,417656250,626484430,939726590,1409589830,2498818400,3748227600,5622341270,8433511970,12650267890,18975401900,28463102850,42694654340,64041981510,96062972200,166262836500,249394254750,374091382200,561137073150,841705609800,1262558414700,1893837622050,2840756433150,4261134649650,6391701974400,10865893356480,16298840034720,24448260052250,36672390078290,55008585117350,82512877676110,123769316514250,185653974771290,278480962157020,417721443235530,700297713659470,1050446570489300,1575669855733950,2363505000000000,3545248000000000,5317891000000000,7976827000000000,11965250000000000,17955000000000000,26980000000000000,44730000000000000</item>-->
+        <!--<item id="Tahurium" icon="mars/mars_ic_terariumMini.png" plusEfek="250" startValue="0">0,165000000,247500000,371250000,556875000,835312500,1252968750,1879453180,2819179660,4228769490,7496455070,11244682670,16867023940,25300535910,37950803800,56926205700,85389308680,128083962890,192125944400,288188916600,498788509500,748182764250,1122274146450,1683411219600,2525116829400,3787675244100,5681512866150,8522269299300,12783403948800,19175105923350,32597680069610,48896520104330,73344780156580,110017170234870,165025755352220,247538633028500,371307949542750,556961924314040,835442886471060,1253164329706590,2100887000000000,3151340000000000,4727010000000000,7090515000000000,10635763000000000,15953654000000000,23940000000000000,35910000000000000,53770000000000000,80750000000000000,133980000000000000</item>-->
+        <!--<item id="Terahurium" icon="mars/mars_ic_terariumMewah.png" plusEfek="500" startValue="0">0,385000000,577500000,866250000,1299375000,1949062500,2923593750,4385390680,6578085910,9867128920,17491728540,26237592810,39356389150,59034583790,88551875620,132827813430,199241720080,298862580120,448293870310,672440805400,1163839855500,1745759783250,2618639674950,3927959512350,5891939268600,8837908902900,13256863354350,19885295031600,29827942547400,44741913820950,76061253495700,114091880243550,171137820365410,256706730548030,385060095821960,577590143733110,866385215599580,1299577823399370,1949373000000000,2924051000000000,4902076000000000,7353133000000000,11029690000000000,16544535000000000,24890000000000000,37240000000000000,55860000000000000,83790000000000000,125590000000000000,188480000000000000,312900000000000000</item>-->
+    <!--</resep>-->
+
+    <!--<promo>-->
+        <!--<item id="Brosur Holo" namaKarakter="anakceweMars" icon="mars/ic_marketing_mars_anakCewe.png" minusWaktu="0.4" startWaktu="6" startMultiplier="1" plusMultiplier="1">0,1000000000,1500000000,2250000000,3375000000,5062500000,7593750000,11390625000,17085937500,25628906300,38443359400</item>-->
+        <!--<item id="Papan Holo" namaKarakter="bocahbolaMars" icon="mars/ic_marketing_mars_bocahBola.png" minusWaktu="2" startWaktu="20" startMultiplier="2" plusMultiplier="2">0,2500000000,3750000000,5625000000,8437500000,12656250000,18984375000,28476562500,42714843800,64072265600,96108398400</item>-->
+        <!--<item id="Holo Video" namaKarakter="anaksmaMars" icon="mars/ic_marketing_mars_anakSma.png" minusWaktu="4" startWaktu="60" startMultiplier="4" plusMultiplier="4">0,6000000000,9000000000,13500000000,20250000000,30375000000,45562500000,68343750000,102515625000,153773437500,230660156300</item>-->
+        <!--<item id="Holophone" namaKarakter="tanteeksisMars" icon="mars/ic_marketing_mars_tanteEksis.png" minusWaktu="12" startWaktu="120" startMultiplier="10" plusMultiplier="10">0,15000000000,22500000000,33750000000,50625000000,75937500000,113906250000,170859375000,256289062500,384433593800,576650390600</item>-->
+        <!--<item id="Holobook" namaKarakter="omtajirMars" icon="mars/ic_marketing_mars_omTajir.png" minusWaktu="60" startWaktu="600" startMultiplier="30" plusMultiplier="30">0,30000000000,45000000000,67500000000,101250000000,151875000000,227812500000,341718750000,512578125000,768867187500,1153300781300</item>-->
+        <!--<item id="Komik Holo" namaKarakter="aksa" icon="mars/ic_marketing_mars_accel.png" minusWaktu="300" startWaktu="3000" startMultiplier="75" plusMultiplier="75">0,70000000000,105000000000,157500000000,236250000000,354375000000,531562500000,797343750000,1196015625000,1794023437500,2691035156300</item>-->
+        <!--<item id="Zeppelin Holo" namaKarakter="festivalMars" icon="mars/ic_marketing_mars_ondel.png" minusWaktu="360" startWaktu="3600" startMultiplier="500" plusMultiplier="500">0,150000000000,225000000000,337500000000,506250000000,759375000000,1139062500000,1708593750000,2562890625000,3844335937500,5766503906300</item>-->
+        <!--<item id="Holotron" namaKarakter="artis" icon="mars/ic_marketing_mars_artis.png" minusWaktu="1440" startWaktu="14400" startMultiplier="500" plusMultiplier="500">0,300000000000,450000000000,675000000000,1012500000000,1518750000000,2278125000000,3417187500000,5125781250000,7688671875000,11533007812500</item>-->
+        <!--<item id="Holoblast" namaKarakter="supertahuman" icon="mars/ic_marketing_mars_supertahuman.png" minusWaktu="2880" startWaktu="28800" startMultiplier="1000" plusMultiplier="1000">0,700000000000,1050000000000,1575000000000,2362500000000,3543750000000,5315625000000,7973437500000,11960156250000,17940234375000,26910351562500</item>-->
+        <!--<item id="Undangan Holo" namaKarakter="presiden" icon="mars/ic_marketing_mars_presiden.png" minusWaktu="5760" startWaktu="57600" startMultiplier="2000" plusMultiplier="2000">0,1500000000000,2250000000000,3375000000000,5062500000000,7593750000000,11390625000000,17085937500000,25628906250000,38443359375000,57665039062500</item>-->
+    <!--</promo>-->
+
+    <mobil>
+        <item tipe="speaker" id="Speaker" icon="ic_TOA_lv1.png" plusEfek="0.02" startValue="1" startLevel="0" isFinal="false" nextStartValue="3">0,5,6,6,7,8,8,9,10,11,12,14,15,17,18,20,22,25,27,30,33,37,40,44,49,54,59,65,72,79,87,95,105,116,127,140,154,170,187,205,226,248,273,301,331,364,400,440,485,533,586,645,710,781,859,945,1039,1143,1258,1384,1522,1674,1842,2026,2228,2451,2697,2966,3263,3589,3948,4343,4777,5255,5781,6359,6995,7694,8464,9310,10241,11266,12392,13632,14995,16494,18144,19958,21954,24150,26565,29221,32143,35358,38893,42783,47061,51767,56944,62639,275000</item>
+        <item tipe="speaker" id="Speaker Emas" icon="ic_TOA_lv2.png" plusEfek="0.02" startValue="3" startLevel="100" isFinal="false" nextStartValue="5">275000,715000,786500,865150,951665,1046831,1151514,1266666,1393332,1532665,1685932,1854525,2039978,2243976,2468373,2715211,2986732,3285405,3613946,3975340,4372875,4810162,5291178,5820296,6402326,7042558,7746814,8521496,9373645,10311010,11342111,12476322,13723954,15096350,16605985,18266583,20093242,22102566,24312823,26744105,29418516,32360367,35596404,39156044,43071649,47378814,52116695,57328365,63061201,69367322,76304054,83934459,92327905,101560696,111716766,122888442,135177286,148695015,163564517,179920968,197913065,217704372,239474809,263422290,289764519,318740971,350615068,385676575,424244233,466668656,513335521,564669074,621135981,683249579,751574537,826731991,909405190,1000345709,1100380280,1210418308,1331460139,1464606153,1611066768,1772173445,1949390790,2144329869,2358762856,2594639141,2854103055,3139513361,3453464697,3798811167,4178692284,4596561512,5056217663,5561839430,6118023373,6729825710,7402808281,8143089109,26000000000</item>
+        <item tipe="speaker" id="Speaker Jumbo" icon="ic_TOA_lv3.png" plusEfek="0.02" startValue="5" startLevel="200" isFinal="false" nextStartValue="7">52000000000,66000000000,72600000000,79860000000,87846000000,96630600000,106293660000,116923026000,128615328600,141476861460,155624547606,171187002366,188305702603,207136272863,227849900149,250634890164,275698379181,303268217099,333595038809,366954542690,403649996959,444014996655,488416496321,537258145953,590983960548,650082356603,715090592263,786599651490,865259616639,951785578302,1046964136133,1151660549746,1266826604721,1393509265193,1532860191712,1686146210883,1854760831972,2040236915169,2244260606686,2468686667355,2715555334090,2987110867499,3285810000000,3614400000000,3975840000000,4373430000000,4810770000000,5291850000000,5821020000000,6403140000000,7043460000000,7747800000000,8522580000000,9374820000000,10312320000000,11343540000000,12477900000000,13725690000000,15098250000000,16608090000000,18268890000000,20095800000000,22105380000000,24315900000000,26747490000000,29422230000000,32364600000000,35601000000000,39161100000000,43077000000000,47384700000000,52123200000000,57335700000000,63069300000000,69376200000000,76313700000000,83945100000000,92339700000000,101573700000000,111730800000000,122904000000000,135194400000000,148713900000000,163585200000000,179943900000000,197938200000000,217731900000000,239505300000000,263455800000000,289801200000000,318780000000000,350658000000000,385725000000000,424299000000000,466728000000000,513402000000000,564741000000000,621216000000000,684000000000000,753000000000000,1666666666666664</item>
+        <item tipe="speaker" id="Speaker Jumbo Emas" icon="ic_TOA_lv4.png" plusEfek="0.02" startValue="7" startLevel="300" isFinal="true">1666666666666664</item>
+
+        <item tipe="wajan" id="Panci Biasa" icon="ic_wajan_lv1.png" plusEfek="0.1" startValue="0" startLevel="0" isFinal="false" nextStartValue="1.5">0,330,363,399,438,482,531,584,643,707,2200</item>
+        <item tipe="wajan" id="Panci Melamin" icon="ic_wajan_lv2.png" plusEfek="0.1" startValue="1.5" startLevel="10" isFinal="false" nextStartValue="2.9">2200,3900,5850,8775,13163,19744,29616,44423,66635,99951,149929,260000</item>
+        <item tipe="wajan" id="Panci Emas" icon="ic_wajan_lv3.png" plusEfek="0.1" startValue="2.9" startLevel="21" isFinal="true">260000</item>
+
+        <item tipe="tenda" id="Tenda Panel" icon="mars/ic_tenda_mars_lv1.png" plusEfek="0.1" startValue="0" startLevel="0" isFinal="false" nextStartValue="2.5">0,1100,1210,1331,1465,1610,1771,1949,2142,2358,5500</item>
+        <item tipe="tenda" id="Tenda Surya" icon="mars/ic_tenda_mars_lv2.png" plusEfek="0.1" startValue="2.5" startLevel="10" isFinal="false" nextStartValue="4">5500,19500,29250,43877,65811,98716,148080,222118,333174,499761,749647,1300000</item>
+        <item tipe="tenda" id="Tenda Surya II" icon="mars/ic_tenda_mars_lv3.png" plusEfek="0.1" startValue="4" startLevel="21" isFinal="false" nextStartValue="4.9">1300000,7500000,15000000,30000000,60000000,120000000,240000000</item>
+        <item tipe="tenda" id="Hi-techNda" icon="mars/ic_tenda_mars_lv4.png" plusEfek="0.1" startValue="4.9" startLevel="27" isFinal="true">240000000</item>
+
+        <item tipe="bodyMobil" id="Pikep Ufo" icon="mars/ic_mobil_mars_lv1.png" plusEfek="0.1" startValue="0" startLevel="0" isFinal="false" nextStartValue="1">0,22000,26400,31680,38016,45619,54744,65692,78830,94595,198000</item>
+        <item tipe="bodyMobil" id="Ufo Boks" icon="mars/ic_mobil_mars_lv2.png" plusEfek="0.1" startValue="1" startLevel="10" isFinal="false" nextStartValue="4">198000,877500,1316250,1974375,2961569,4442347,6663514,9995271,14992913,22489363,33734051,1300000000</item>
+        <item tipe="bodyMobil" id="Ufoluks" icon="mars/ic_mobil_mars_lv3.png" plusEfek="0.1" startValue="3" startLevel="21" isFinal="false" nextStartValue="5">1300000000,5400000000,9720000000,17496000000,31492800000,56687040000,102036672000,183666009600,330598817280,595077871110,1071140167980</item>
+        <item tipe="bodyMobil" id="Alfo Rover" icon="mars/ic_mobil_mars_lv4.png" plusEfek="0.1" startValue="5" startLevel="31" isFinal="true">1071140167980,136000000000000,244800000000000,440640000000000,793152000000000,1427673600000000,2569812480000000,4625662464000000,150961511111111104</item>
+
+        <item tipe="pelang" id="Pelang Biasa" icon="ic_pelang_lv1.png" plusEfek="0.1" startValue="0.1" startLevel="0" isFinal="false" nextStartValue="11">1100000,1650000,2475000,3712500,5568750,8353125,12529687,18794531,28191796,42287694,88000000,132000000</item>
+        <item tipe="pelang" id="Pelang Gambar" icon="ic_pelang_lv2.png" plusEfek="0.1" startValue="2" startLevel="11" isFinal="false" nextStartValue="14">132000000,468000000,702000000,1053000000,1579500000,2369250000,3553875000,5330812500,7996218750,15600000000,23400000000</item>
+        <item tipe="pelang" id="Pelang LED" icon="ic_pelang_lv3.png" plusEfek="0.1" startValue="5" startLevel="21" isFinal="true">23400000000,81000000000,121500000000,182250000000,273375000000,410062500000,615093750000,922640625000,1383960937500,3000000000000</item>
+
+        <item tipe="kipas" id="Kipas Angin" icon="ic_ac_lv1.png" plusEfek="0.2" startValue="0.2" startLevel="0" isFinal="false" nextStartValue="5">14666666,22000000,33000000,49500000,74250000,111375000,167062500,250593750,375890625,563835937,1173333333,1760000000</item>
+        <item tipe="kipas" id="Kipas Angin x2" icon="ic_ac_lv2.png" plusEfek="0.2" startValue="5" startLevel="11" isFinal="false" nextStartValue="10">1760000000,6685714285,10028571428,15042857142,22564285714,33846428571,50769642857,76154464285,114231696428,222857142857,334285714285</item>
+        <item tipe="kipas" id="Air Conditioner" icon="ic_ac_lv3.png" plusEfek="0.2" startValue="10" startLevel="21" isFinal="true">334285714285,1350000000000,2025000000000,3037500000000,4556250000000,6834375000000,10251562500000,15377343750000,23066015625000,50000000000000</item>
+
+        <item tipe="televisi" id="TV Hitam Putih" icon="ic_tv_lv1.png" plusEfek="0.3" startValue="0.3" startLevel="0" isFinal="false" nextStartValue="6">220000000,330000000,495000000,742500000,1113750000,1670625000,2505937500,3758906250,5638359375,8457539063,17600000000,26400000000</item>
+        <item tipe="televisi" id="TV LED" icon="ic_tv_lv2.png" plusEfek="0.3" startValue="6" startLevel="11" isFinal="false" nextStartValue="12">26400000000,93600000000,140400000000,210600000000,315900000000,473850000000,710775000000,1066162500000,1599243750000,3120000000000,4680000000000</item>
+        <item tipe="televisi" id="TV Layar Lengkung" icon="ic_tv_lv3.png" plusEfek="0.3" startValue="12" startLevel="21" isFinal="true">4680000000000,20250000000000,30375000000000,45562500000000,68343750000000,102515625000000,153773437500000,230660156250000,345990234375000,750000000000000</item>
+    </mobil>
+
+    <resep>
+        <item id="Tahu Putih" icon="ic_tahu.png" plusEfek="1" startValue="1">0,1,1,2,3,5,8,12,18,28,49,74,112,168,253,379,569,853,1280,1921,3325,4987,7481,11222,16834,25251,37876,56815,85222,127834,217317,325976,488965,733447,1100171,1650257,2475386,3713079,5569619,8354428,14005954,21008931,31513397,47270095,70905143,106357715,159536572,239304859,358957289,538435933,892670100</item>
+        <item id="Telur" icon="ic_telur.png" plusEfek="2" startValue="0">0,5,8,12,18,27,41,62,93,140,249,374,562,843,1265,1897,2846,4269,6404,9606,16626,24939,37409,56113,84170,126255,189383,284075,426113,639170,1086589,1629884,2444825,3667239,5500858,8251287,12376931,18565397,27848096,41772144,70029771,105044657,157566985,236350478,354525717,531788576,797682864,1196524296,1794786445,2692179667,4463350501</item>
+        <item id="Minyak Goreng" icon="ic_minyak.png" plusEfek="5" startValue="0">0,24,36,55,82,123,185,278,417,626,1110,1665,2498,3748,5622,8433,12650,18975,28463,42694,73894,110841,166262,249394,374091,561137,841705,1262558,1893837,2840756,4829285,7243928,10865893,16298840,24448260,36672390,55008585,82512877,123769316,185653974,311243428,466865142,700297713,1050446570,1575669855,2363504783,3545257175,5317885763,7976828644,11965242966,19837113339</item>
+        <item id="Terigu" icon="ic_tepung.png" plusEfek="10" startValue="0">0,61,91,137,206,309,464,696,1044,1566,2776,4164,6247,9370,14055,21083,31625,47438,71157,106736,184736,277104,415657,623485,935228,1402842,2104264,3156396,4734594,7101891,12073214,18109822,27164733,40747100,61120650,91680975,137521462,206282194,309423291,464134936,778108570,1167162856,1750744284,2626116426,3939174639,5908761959,8863142938,13294714407,19942071611,29913107417,49592783349</item>
+        <item id="Bumbu" icon="ic_bumbu.png" plusEfek="25" startValue="0">0,157,235,353,530,795,1193,1789,2684,4027,7139,10709,16063,24095,36143,54215,81323,121984,182977,274465,475036,712555,1068832,1603248,2404873,3607309,5410964,8116446,12174670,18262005,31045409,46568114,69852171,104778257,157167386,235751079,353626618,530439927,795659891,1193489837,2000850610,3001275915,4501913873,6752870810,10129306215,15193959323,22790938984,34186408477,51279612715,76919419073,127524300042</item>
+        <item id="Keju" icon="ic_keju.png" plusEfek="50" startValue="0">0,785,1178,1767,2651,3977,5966,8949,13424,20136,35697,53546,80319,120478,180718,271077,406615,609923,914885,1372328,2375183,3562775,5344162,8016243,12024365,18036548,27054823,40582234,60873352,91310028,155227047,232840571,349260857,523891286,785836930,1178755395,1768133093,2652199639,3978299459,5967449189,10004253052,15006379578,22509569367,33764354051,50646531077,75969796615,113954694923,170932042385,256398063578,384597095367,637621500214</item>
+        <item id="Aloe Vera" icon="mars/mars_ic_aloeVera.png" plusEfek="75" startValue="0">0,4400,6600,9900,14850,22275,33412,50118,75178,112767,199905,299858,449787,674680,1012021,1518032,2277048,3415572,5123358,7685037,13301026,19951540,29927310,44890965,67336448,101004673,151507009,227260514,340890771,511336157,869271468,1303907202,1955860804,2933791206,4400686809,6601030214,9901545321,14852317981,22278476972,33417715458,56023817092,84035725639,126053588458,189080382688,283620574032,425430861048,638146291572,957219437358,1435829156037,2153743734056,35706804011</item>
+        <item id="Pitaya" icon="mars/mars_ic_dragonFruitMerah.png" plusEfek="100" startValue="0">0,8800,13200,19800,29700,44550,66824,100236,150356,225534,399810,599716,899574,1349360,2024042,3036064,4554096,6831144,10246716,15370074,26602052,39903080,59854620,89781930,134672896,202009346,303014018,454521028,681781542,1022672314,1738542936,2607814404,3911721608,5867582412,8801373618,13202060428,19803090642,29704635962,44556953944,66835430916,112047634184,168071451278,252107176916,378160765376,567241148064,850861722096,1276292583144,1914438874716,2871658312074,4307487468112,7141360802396</item>
+        <item id="Megalanthus" icon="mars/mars_ic_dragonFruitKuning.png" plusEfek="150" startValue="0">0,22000,33000,49500,74250,111375,167062,250593,375890,563835,999527,1499291,2248936,3373404,5060107,7590160,11385241,17077861,25616792,38425188,66505134,99757701,149636552,224454829,336682243,505023365,757535048,1136302573,1704453859,2556680789,4346357342,6519536013,9779304020,14668956031,22003434046,33005151070,49507726605,74261589908,111392384862,167088577294,280119085463,420178628195,630267942293,945402000000,1418099200000,2127156400000,3190730800000,4786100000000,7182000000000,10792000000000,17892000000000</item>
+        <item id="Tahurium" icon="mars/mars_ic_terariumMini.png" plusEfek="200" startValue="0">0,66000,99000,148500,222750,334125,501187,751781,1127671,1691507,2998582,4497873,6746809,10120214,15180321,22770482,34155723,51233585,76850377,115275566,199515403,299273105,448909658,673364487,1010046731,1515070097,2272605146,3408907719,5113361579,7670042369,13039072027,19558608041,29337912062,44006868093,66010302140,99015453211,148523179817,222784769725,334177154588,501265731882,840354800000,1260536000000,1890804000000,2836206000000,4254305200000,6381461600000,9576000000000,14364000000000,21508000000000,32300000000000,53592000000000</item>
+        <item id="Terahurium" icon="mars/mars_ic_terariumMewah.png" plusEfek="250" startValue="0">0,385000,577500,866250,1299375,1949062,2923593,4385390,6578085,9867128,17491728,26237592,39356389,59034583,88551875,132827813,199241720,298862580,448293870,672440805,1163839855,1745759783,2618639674,3927959512,5891939268,8837908902,13256863354,19885295031,29827942547,44741913820,76061253495,114091880243,171137820365,256706730548,385060095821,577590143733,866385215599,1299577823399,1949373000000,2924051000000,4902076000000,7353133000000,11029690000000,16544535000000,24890000000000,37240000000000,55860000000000,83790000000000,125590000000000,188480000000000,312900000000000</item>
+    </resep>
+
+    <promo>
+        <item id="Brosur Holo" namaKarakter="anakceweMars" icon="mars/ic_marketing_mars_anakCewe.png" minusWaktu="0.3" startWaktu="5" startMultiplier="1" plusMultiplier="1">0,100000,150000,225000,337500,506250,759375,1139062,1708593,2562890,3844335</item>
+        <item id="Papan Holo" namaKarakter="bocahbolaMars" icon="mars/ic_marketing_mars_bocahBola.png" minusWaktu="0.6" startWaktu="10" startMultiplier="3" plusMultiplier="3">0,277777,416666,625000,937500,1406250,2109375,3164062,4746093,7119140,10678710</item>
+        <item id="Holo Video" namaKarakter="anaksmaMars" icon="mars/ic_marketing_mars_anakSma.png" minusWaktu="1.2" startWaktu="20" startMultiplier="8" plusMultiplier="8">0,750000,1125000,1687500,2531250,3796875,5695312,8542968,12814453,19221679,28832519</item>
+        <item id="Holophone" namaKarakter="tanteeksisMars" icon="mars/ic_marketing_mars_tanteEksis.png" minusWaktu="2.4" startWaktu="40" startMultiplier="20" plusMultiplier="20">0,3000000,4500000,6750000,10125000,15187500,22781250,34171875,51257812,76886718,115330078</item>
+        <item id="Holobook" namaKarakter="omtajirMars" icon="mars/ic_marketing_mars_omTajir.png" minusWaktu="6" startWaktu="80" startMultiplier="55" plusMultiplier="55">0,12000000,18000000,27000000,40500000,60750000,91125000,136687500,205031250,307546875,461320312</item>
+        <item id="Komik Holo" namaKarakter="aksa" icon="mars/ic_marketing_mars_accel.png" minusWaktu="14" startWaktu="160" startMultiplier="135" plusMultiplier="135">0,70000000,105000000,157500000,236250000,354375000,531562500,797343750,1196015625,1794023437,2691035156</item>
+        <item id="Zeppelin Holo" namaKarakter="festivalMars" icon="mars/ic_marketing_mars_ondel.png" minusWaktu="22" startWaktu="240" startMultiplier="225" plusMultiplier="225">0,300000000,450000000,675000000,1012500000,1518750000,2278125000,3417187500,5125781250,7688671875,11533007812</item>
+        <item id="Holotron" namaKarakter="artis" icon="mars/ic_marketing_mars_artis.png" minusWaktu="34" startWaktu="360" startMultiplier="360" plusMultiplier="360">0,1200000000,1800000000,2700000000,4050000000,6075000000,9112500000,13668750000,20503125000,30754687500,46132031250</item>
+        <item id="Holoblast" namaKarakter="supertahuman" icon="mars/ic_marketing_mars_supertahuman.png" minusWaktu="55" startWaktu="560" startMultiplier="600" plusMultiplier="600">0,7000000000,10500000000,15750000000,23625000000,35437500000,53156250000,79734375000,119601562500,179402343750,269103515625</item>
+        <item id="Undangan Holo" namaKarakter="presiden" icon="mars/ic_marketing_mars_presiden.png" minusWaktu="80" startWaktu="800" startMultiplier="900" plusMultiplier="900">0,30000000000,45000000000,67500000000,101250000000,151875000000,227812500000,341718750000,512578125000,768867187500,1153300781250</item>
+    </promo>
+
+    <spesial>
+       <item id="jamketupat1" icon="icn_jamKetupat.png" iapId="jamketupat" labelItem="UI_baru/lbl_base_ramadhan.png"></item>
+       <item id="jamketupat2" icon="icn_jamKetupatx3.png" iapId="jamketupat2" labelItem="UI_baru/lbl_base_ramadhan.png"></item>
+        <!-- <item id="com.tahubulat.jamlampion1" icon="icn_jam1_imlek.png" iapId="com.tahubulat.jamlampion1"></item>
+        <item id="com.tahubulat.jamlampion2" icon="icn_jam2_imlek.png" iapId="com.tahubulat.jamlampion2"></item> -->
+        <!-- <item id="com.owngames.tahubulat.jam_8" icon="ic_IAP_anniv8_1.png" iapId="com.owngames.tahubulat.jam_8" labelItem="UI_baru/lbl_base_kuning.png"></item>
+        <item id="com.owngames.tahubulat.jam_emas_8" icon="ic_IAP_anniv8_2.png" iapId="com.owngames.tahubulat.jam_emas_8" labelItem="UI_baru/lbl_base_kuning.png"></item>
+        <item id="com.owngames.tahubulat.jam_kristal_8" icon="ic_IAP_anniv8_3.png" iapId="com.owngames.tahubulat.jam_kristal_8" labelItem="UI_baru/lbl_base_kuning.png"></item> -->
+        <item id="jam1" icon="icn_jam1.png" iapId="jam1"></item>
+        <item id="jam2" icon="icn_jam2.png" iapId="jam2"></item>
+        <item id="jam3" icon="icn_jam3.png" iapId="jam3"></item>
+        <item id="jam4" icon="icn_jam4.png" iapId="jam4"></item>
+        <item id="jam5" icon="icn_jam5.png" iapId="jam5"></item>
+        <item id="koperemas" icon="icn_koper.png" iapId="koper" isForever="true"/>
+        <item id="tako" icon="icn_tako.png" iapId="talitako" isForever="true"></item>
+        <item id="kuota" icon="icn_kuota.png" iapId="unlimkuota" isForever="true"></item>
+        <item id="peridot1" icon="icn_peridot1.png" iapId="peridot1"></item>
+        <item id="peridot2" icon="tb2ui_ic_chest.png" iapId="peridot2"></item>
+        <item id="peridot3" icon="tb2ui_ic_grobak.png" iapId="peridot3"></item>
+        <item id="peridot_banyak_1" icon="icn_peridot1.png" iapId="peridot_banyak_1"></item>
+        <item id="peridot_banyak_2" icon="tb2ui_ic_chest.png" iapId="peridot_banyak_2"></item>
+        <item id="peridot_banyak_3" icon="tb2ui_ic_grobak.png" iapId="peridot_banyak_3"></item>
+        <item id="peti_perunggu" icon="ic_chestBronze.png" iapId="peti_perunggu"></item>
+        <item id="peti_perak" icon="ic_chestSilver.png" iapId="peti_perak"></item>
+        <item id="peti_emas" icon="ic_chestGold.png" iapId="peti_emas"></item>
+    </spesial>
+
+    <!--END MENU BAWAH-->
+</resources>

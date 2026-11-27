@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+	    <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Towa apa kabar, ya?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Dagang Tahu Bulatnya jadi ga konsen, euy..&#10;Kepikiran Towa melulu...</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Masih suka ngomong sendiri, Kang?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eh??!! Kang Piki??!!&#10;Kemana aja, Kang?&#10;Apa kabar??</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="kaget" isHold="true">
+            <desc>Ya... gitu deh..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Oh iya...&#10;Kang Piki katanya sekarang jadi Artis Korea?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="marah" isHold="true">
+            <desc>Enak aja!!&#10;Kemaren itu panitianya salah orang!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="ketawa2" isHold="true">
+            <desc>Wkwkwkw..&#10;Tapi kayaknya emang cocok, sih, Kang!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHA!!&#10;Namanya juga orang berbakat!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>..................</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Kok diem?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Sedikit menyesal bilang Kang Piki cocok jadi artis K-Pop.</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Hahahaha!!!&#10;Makanya jangan komentar sembarangan..</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Ngomong-ngomong..&#10;Aku ke sini mau ngaku..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Eh? Ngaku?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Ya...Jadi sebenarnya, selama ini aku tidak pernah menang tanding dagang melawan kamu, Kang...</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Apaaaahhhhh??</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="kaget" isHold="true">
+            <desc>Maap ya, Kang.</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>......................</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Dimaafkan sih, Kang..&#10;Ga masalah... Tapi....</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Tapi kok ga ada apa-apa..&#10;Tahu-tahu ngaku gini sih, Kang?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Ya.... Soalnya aku sudah mau menyerah dagang Tahu Bulat.</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Hah??!&#10;Kenapa???</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="kaget" isHold="true">
+            <desc>Sepertinya.....&#10;Aku memang tidak berbakat...</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eh....&#10;Jangan peduliin bakat, kang!&#10;Dengan usaha pasti ada jalan!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Sini, dagang Tahu Bulat bareng Akang hari ini..&#10;Biar semangat lagi!!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="kaget" isHold="true">
+            <desc>....................</desc>
+        </dialog>
+    </skenario>
+</resources>

@@ -1,0 +1,43 @@
+<resources>
+    <!--font :-->
+    <!--comicneueLight-->
+    <!--comicneueBold-->
+    <!--arial-->
+    <!--ttt-->
+    <!--cuckoo-->
+    <!--theBoldFont-->
+    <nama>Drake Flip</nama>
+    <image>ui_kartu_meme/meme/meme_drakeFlip.png</image>
+    <variasi>
+        <image>
+            <!--<input id="0">-->
+            <!--<item x="189" y="578" width="335" alignX="0.0f" alignY="0.0f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "19" min_font_size="30" max_font_size="40"/>-->
+            <!--</input>-->
+        </image>
+        <text>
+            <item id="0">
+                <varian>
+                    <!--<item x="200" y="365" width="300" alignX="0.0f" alignY="0.0f" colour="0x000000" fontSize="36" font="cuckoo" isCenter="true">Mohon maaf lahir dan bathin.</item>-->
+                </varian>
+            </item>
+        </text>
+    </variasi>
+    <input>
+        <item id="0" x="420" y="180" width="230" alignX="0.0f" alignY="0.5f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "50" min_font_size="30" max_font_size="45"/>
+        <!--<item id="0" x="32" y="582" width="377" alignX="0.0f" alignY="0.0f" colour="0x000000" font="comicneueLight" isCenter="true" min_char = "5" max_char = "10" min_font_size="30" max_font_size="50" isStroke="true" strokeSize="5" strokeColor="0xff0000"/>-->
+        <item id="1" x="420" y="540" width="230" alignX="0.0f" alignY="0.5f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "50" min_font_size="30" max_font_size="45"/>
+
+    </input>
+    <contoh>
+        <input id="0">
+            <item>Update Tahu Bulat</item>
+            <item>Makan Tahu Pake Cengek</item>
+            <item>Pulang Sekolah Belajar</item>
+        </input>
+        <input id="1">
+            <item>Uninstall Tahu Bulat</item>
+            <item>Makan Cengek Pake Tahu</item>
+            <item>Belajar Sebelum Pergi Sekolah</item>
+        </input>
+    </contoh>
+</resources>

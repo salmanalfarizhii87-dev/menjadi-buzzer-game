@@ -1,0 +1,227 @@
+<resources>
+    <container id="root" x="384" y="900" pivotX="0" pivotY="0">
+        <image_list id="tahujang_idle_1" x="0" y="0" pivotX="0.5" pivotY="1" isBaseContainer="true">
+            <item>ksatriatahu/pets/tamedang/tahujang_idle_1.png</item>
+        </image_list>
+        <image_list id="tahujang_idle_2" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/tamedang/tahujang_idle_2.png</item>
+        </image_list>
+        <image_list id="tahujang_idle_3" x="-30" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/tamedang/tahujang_idle_3.png</item>
+        </image_list>
+        <image_list id="tahujang_walk_1" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/tamedang/tahujang_walk_1.png</item>
+        </image_list>
+        <image_list id="tahujang_walk_2" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/tamedang/tahujang_walk_2.png</item>
+        </image_list>
+        <image_list id="tahujang_walkFlip_1" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/tamedang/tahujang_walkflip_1.png</item>
+        </image_list>
+        <image_list id="tahujang_walkFlip_2" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/tamedang/tahujang_walkflip_2.png</item>
+        </image_list>
+        <uiReader pivotX="0.5" pivotY="1" alignX="tahujang_idle_1#0.5" alignY="tahujang_idle_1#0" id="emoji" xml="ksatriatahu/xml/emoji.xml"/>
+    </container>
+
+    <animation>
+        <stop>
+            <multiple>
+                <alpha id="tahujang_idle_1" time="0">1</alpha>
+                <alpha id="tahujang_idle_2" time="0">0</alpha>
+                <alpha id="tahujang_idle_3" time="0">0</alpha>
+                <alpha id="tahujang_walk_1" time="0">0</alpha>
+                <alpha id="tahujang_walk_2" time="0">0</alpha>
+                <alpha id="tahujang_walkFlip_1" time="0">0</alpha>
+                <alpha id="tahujang_walkFlip_2" time="0">0</alpha>
+            </multiple>
+        </stop>
+        <reset>
+            <scaleX id="tahujang_idle_1" pivotX="0.5" time="0">1</scaleX>
+            <scaleY id="tahujang_idle_1" pivotY="1" time="0">1</scaleY>
+
+            <scaleY id="tahujang_idle_2" pivotY="1" time="0">1</scaleY>
+            <scaleX id="tahujang_idle_2" pivotX="1" time="0">1</scaleX>
+
+            <scaleY id="tahujang_idle_3" pivotY="1" time="0">1</scaleY>
+            <scaleX id="tahujang_idle_3" pivotX="1" time="0">1</scaleX>
+        </reset>
+        <idle repeat="-1">
+            <sequence>
+                <multiple>
+                    <alpha id="tahujang_idle_1" time="0">1</alpha>
+                    <alpha id="tahujang_idle_2" time="0">0</alpha>
+                    <alpha id="tahujang_idle_3" time="0">0</alpha>
+                    <alpha id="tahujang_walk_1" time="0">0</alpha>
+                    <alpha id="tahujang_walk_2" time="0">0</alpha>
+                    <alpha id="tahujang_walkFlip_1" time="0">0</alpha>
+                    <alpha id="tahujang_walkFlip_2" time="0">0</alpha>
+                </multiple>
+                <sequence repeat="2">
+                    <multiple>
+                        <scaleX id="tahujang_idle_1" pivotX="0.5" time="0.3">1.03</scaleX>
+                        <scaleY id="tahujang_idle_1" pivotY="1" time="0.3">0.97</scaleY>
+                    </multiple>
+                    <multiple>
+                        <scaleX id="tahujang_idle_1" pivotX="0.5" time="0.3">0.97</scaleX>
+                        <scaleY id="tahujang_idle_1" pivotY="1" time="0.3">1.03</scaleY>
+                    </multiple>
+                </sequence>
+                <multiple>
+                    <alpha id="tahujang_idle_1" time="0">0</alpha>
+                    <alpha id="tahujang_idle_2" time="0">1</alpha>
+                    <scaleY id="tahujang_idle_2" pivotY="1" time="0">1.02</scaleY>
+                    <scaleX id="tahujang_idle_2" pivotX="1" time="0">0.98</scaleX>
+                </multiple>
+                <wait time="0.15"/>
+                <multiple>
+                    <scaleY id="tahujang_idle_2" pivotY="1" time="0">0.98</scaleY>
+                    <scaleX id="tahujang_idle_2" pivotX="1" time="0">1.02</scaleX>
+                </multiple>
+                <multiple>
+                    <alpha id="tahujang_idle_1" time="0">1</alpha>
+                    <alpha id="tahujang_idle_2" time="0">0</alpha>
+                </multiple>
+                <sequence repeat="2">
+                    <multiple>
+                        <scaleX id="tahujang_idle_1" pivotX="0.5" time="0.3">1.03</scaleX>
+                        <scaleY id="tahujang_idle_1" pivotY="1" time="0.3">0.97</scaleY>
+                    </multiple>
+                    <multiple>
+                        <scaleX id="tahujang_idle_1" pivotX="0.5" time="0.3">0.97</scaleX>
+                        <scaleY id="tahujang_idle_1" pivotY="1" time="0.3">1.03</scaleY>
+                    </multiple>
+                </sequence>
+                <multiple>
+                    <alpha id="tahujang_idle_1" time="0">0</alpha>
+                    <alpha id="tahujang_idle_3" time="0">1</alpha>
+                    <scaleY id="tahujang_idle_3" pivotY="1" time="0">1.02</scaleY>
+                    <scaleX id="tahujang_idle_3" pivotX="1" time="0">0.98</scaleX>
+                </multiple>
+                <wait time="0.15"/>
+                <multiple>
+                    <scaleY id="tahujang_idle_3" pivotY="1" time="0">0.98</scaleY>
+                    <scaleX id="tahujang_idle_3" pivotX="1" time="0">1.02</scaleX>
+                </multiple>
+            </sequence>
+        </idle>
+
+        <jalan repeat="-1">
+            <alpha id="emoji" time="0">0</alpha>
+            <sequence repeat="-1">
+                <multiple>
+                    <alpha id="tahujang_idle_1" time="0">0</alpha>
+                    <alpha id="tahujang_idle_2" time="0">0</alpha>
+                    <alpha id="tahujang_idle_3" time="0">0</alpha>
+                    <alpha id="tahujang_walk_1" time="0">1</alpha>
+                    <alpha id="tahujang_walk_2" time="0">0</alpha>
+                    <alpha id="tahujang_walkFlip_1" time="0">0</alpha>
+                    <alpha id="tahujang_walkFlip_2" time="0">0</alpha>
+                </multiple>
+                <wait time="0.2"/>
+                <multiple>
+                    <alpha id="tahujang_walk_1" time="0">0</alpha>
+                    <alpha id="tahujang_walk_2" time="0">1</alpha>
+                </multiple>
+                <wait time="0.2"/>
+            </sequence>
+        </jalan>
+
+        <jalan_kiri repeat="-1">
+            <alpha id="emoji" time="0">0</alpha>
+            <sequence repeat="-1">
+                <multiple>
+                    <alpha id="tahujang_idle_1" time="0">0</alpha>
+                    <alpha id="tahujang_idle_2" time="0">0</alpha>
+                    <alpha id="tahujang_idle_3" time="0">0</alpha>
+                    <alpha id="tahujang_walk_1" time="0">0</alpha>
+                    <alpha id="tahujang_walk_2" time="0">0</alpha>
+                    <alpha id="tahujang_walkFlip_1" time="0">1</alpha>
+                    <alpha id="tahujang_walkFlip_2" time="0">0</alpha>
+                </multiple>
+                <wait time="0.2"/>
+                <multiple>
+                    <alpha id="tahujang_walkFlip_1" time="0">0</alpha>
+                    <alpha id="tahujang_walkFlip_2" time="0">1</alpha>
+                </multiple>
+                <wait time="0.2"/>
+            </sequence>
+        </jalan_kiri>
+
+        <makan>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="makan"></playAnim>
+        </makan>
+        <jurus>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="jurus"></playAnim>
+        </jurus>
+        <skill repeat="-1">
+            <sequence>
+                <multiple>
+                    <alpha id="tahujang_idle_1" time="0">1</alpha>
+                    <alpha id="tahujang_idle_2" time="0">0</alpha>
+                    <alpha id="tahujang_idle_3" time="0">0</alpha>
+                    <alpha id="tahujang_walk_1" time="0">0</alpha>
+                    <alpha id="tahujang_walk_2" time="0">0</alpha>
+                    <alpha id="tahujang_walkFlip_1" time="0">0</alpha>
+                    <alpha id="tahujang_walkFlip_2" time="0">0</alpha>
+                </multiple>
+                <sequence repeat="2">
+                    <multiple>
+                        <scaleX id="tahujang_idle_1" pivotX="0.5" time="0.1">1.03</scaleX>
+                        <scaleY id="tahujang_idle_1" pivotY="1" time="0.1">0.97</scaleY>
+                    </multiple>
+                    <multiple>
+                        <scaleX id="tahujang_idle_1" pivotX="0.5" time="0.1">0.97</scaleX>
+                        <scaleY id="tahujang_idle_1" pivotY="1" time="0.1">1.03</scaleY>
+                    </multiple>
+                </sequence>
+                <multiple>
+                    <alpha id="tahujang_idle_1" time="0">0</alpha>
+                    <alpha id="tahujang_idle_2" time="0">1</alpha>
+                    <scaleY id="tahujang_idle_2" pivotY="1" time="0">1.02</scaleY>
+                    <scaleX id="tahujang_idle_2" pivotX="1" time="0">0.98</scaleX>
+                </multiple>
+                <wait time="0.05"/>
+                <multiple>
+                    <scaleY id="tahujang_idle_2" pivotY="1" time="0">0.98</scaleY>
+                    <scaleX id="tahujang_idle_2" pivotX="1" time="0">1.02</scaleX>
+                </multiple>
+                <multiple>
+                    <alpha id="tahujang_idle_1" time="0">1</alpha>
+                    <alpha id="tahujang_idle_2" time="0">0</alpha>
+                </multiple>
+                <sequence repeat="2">
+                    <multiple>
+                        <scaleX id="tahujang_idle_1" pivotX="0.5" time="0.1">1.03</scaleX>
+                        <scaleY id="tahujang_idle_1" pivotY="1" time="0.1">0.97</scaleY>
+                    </multiple>
+                    <multiple>
+                        <scaleX id="tahujang_idle_1" pivotX="0.5" time="0.1">0.97</scaleX>
+                        <scaleY id="tahujang_idle_1" pivotY="1" time="0.1">1.03</scaleY>
+                    </multiple>
+                </sequence>
+                <multiple>
+                    <alpha id="tahujang_idle_1" time="0">0</alpha>
+                    <alpha id="tahujang_idle_3" time="0">1</alpha>
+                    <scaleY id="tahujang_idle_3" pivotY="1" time="0">1.02</scaleY>
+                    <scaleX id="tahujang_idle_3" pivotX="1" time="0">0.98</scaleX>
+                </multiple>
+                <wait time="0.05"/>
+                <multiple>
+                    <scaleY id="tahujang_idle_3" pivotY="1" time="0">0.98</scaleY>
+                    <scaleX id="tahujang_idle_3" pivotX="1" time="0">1.02</scaleX>
+                </multiple>
+            </sequence>
+        </skill>
+        <hati>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="hati"></playAnim>
+        </hati>
+        <evolusi>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="evolusi"></playAnim>
+        </evolusi>
+    </animation>
+</resources>

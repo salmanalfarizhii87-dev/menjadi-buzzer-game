@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <story lamaFestival="172800" noMisi="6" delayFestival="86400">
+        <judul>Arisan Tante</judul>
+        <image>UI_baru/banner_popUp_festival_story.png</image>
+        <syarat_buka>
+            <item tipe="penghasilan" cabang="Bandung">1000000000</item>
+            <item tipe="story" cabang="Festival Story" value="4"/>
+        </syarat_buka>
+        <storyBukaCabang>xml_dialog/misi 6/festivalstory_bukacabang.xml</storyBukaCabang>
+        <storyAwalDiCabang>xml_dialog/misi 6/festivalstory_awal.xml</storyAwalDiCabang>
+        <storyTargetTercapai>xml_dialog/misi 6/festivalstory_targettercapai.xml</storyTargetTercapai>
+        <storyTargetTidakTercapai>xml_dialog/misi 6/festivalstory_targettidaktercapai.xml</storyTargetTidakTercapai>
+        <popup_reward>
+            <judul>Arisan Tante</judul>
+            <desc>Para tante mengadakan Arisan Tante-tante dari seluruh penjuru dunia! Mau eksis? Ayo ikutan dagang Tahu Bulat di Arisan Tante!!</desc>
+        </popup_reward>
+        <reward>
+            <item target="10000000000" namaHadiah="Peti Perunggu" tipeHadiah="chest" idHadiah="chest_bronze" jumlahHadiah="1"/>
+        </reward>
+        <trio_kribo>
+            <bocah1 cabang="Korea"/>
+            <bocah2 cabang="Dubai"/>
+            <bocah3 cabang="Belanda"/>
+        </trio_kribo>
+        <menu_item>
+            <mobil>
+                <bodyMobil cabang="Bali"/>
+            </mobil>
+            <minuman>
+                <item id="Sujeonggwa" icon="ic_sujeonggwa.png"/>
+            </minuman>
+            <resep banyakItem="10">
+                <item cabang="Belanda" idx="9"/>
+                <item cabang="Dubai" idx="11"/>
+                <item cabang="Korea" idx="11"/>
+                <item cabang="Belanda" idx="6"/>
+                <item cabang="Tahu Con" idx="6"/>
+                <item cabang="Belanda" idx="7"/>
+                <item cabang="Tahu Con" idx="7"/>
+                <item cabang="Tahu Con" idx="9"/>
+                <item cabang="Tahu Con" idx="11"/>
+                <item cabang="Tahu Con" idx="10"/>
+            </resep>
+            <promo banyakItem="8">
+                <item cabang="Bandung" idx="3"/>
+                <item cabang="Korea" idx="3"/>
+                <item cabang="Jepang" idx="3"/>
+                <item cabang="Belanda" idx="3"/>
+                <item cabang="Dubai" idx="3"/>
+                <item cabang="Purba" idx="3"/>
+                <item cabang="Majapahit" idx="3"/>
+                <item cabang="Mars" idx="3"/>
+            </promo>
+        </menu_item>
+    </story>
+</resources>

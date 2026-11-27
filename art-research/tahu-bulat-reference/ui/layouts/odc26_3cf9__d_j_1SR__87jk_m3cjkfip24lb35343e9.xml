@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hei, Kang! Tahu!</desc>
+        </dialog>
+	    <dialog karakter="0" tipe="kiri" ekspresi="sapa" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Oh, Hei, Towa!&#10;Mau beli Tahu?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Oh bukan.&#10;Nyapa doang, namamu Kang Tahu, kan?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>i-iya sih.....&#10;Tapi ga usah dijeda gitu dong manggilnya..</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Ujan lagi nih..&#10;Udah lama ga ke Atlantis,&#10;yuk ke Atlantis lagi!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="aha" isHold="true">
+            <desc>Oh bener juga!&#10;Kalau lagi ujan gini jalan&#10;menuju Atlantis terbuka, ya?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Okedeh, aku tunggu di Atlantis yak.. Kamu udah apal jalannya, kan, Kang?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Apal kok..&#10;Eh tunggu, waktu itu kamu lagi cerita sepotong terus pergi&#10;gitu aja..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Rasanya terakhir kamu bilang kalau Manusia-manusia Ikan di Atlantis itu tadinya hidup di darat, kan ya?</desc>
+        </dialog>
+        <aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>.....................................</desc>
+        </dialog>
+	    <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Akangunyoo!!&#10;Lagi ngobrol sama siapa?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Gak... sama.. siapa-siapa..&#10;Ayo kita pergi ke Atlantis,&#10;Tako..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Ayoooonyooo!!</desc>
+        </dialog>
+    </skenario>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <container id="base" x="0" y="60" height="800">
+        <container id="top_container" height="253"/>
+        <container id="headerBar" height="160">
+            <button id="btnBack" x="40" y="41" imageNormal="ui_kartu_meme/button_back.png" onClick="backPressed"/>
+            <image_list id="icon_app" x="75" y="83" pivotX="0.0" pivotY="0.5" alignX="btnBack#1.0">
+                <item>hpakang/ui_daily_reward_tantangan/icon_appsHadiah_homescreen.png</item>
+            </image_list>
+        </container>
+        <container id="container" x="0" y="0" alignY="headerBar#1"/>
+    </container>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Laaaarrriss Maniiissssss~!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hore!! Selamat Kang!!&#10;Mari kita rayakan dengan Tahu Bulat gratis!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="mantul" isHold="true">
+            <desc>Sip, tar ya digoreng dadakan dulu..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Wokenyoooo!&#10;Makasih Kanng!!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Ngomong-ngomong..&#10;Si Kang Piki ga keliatan ya?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Iya, ga keliatan sama sekali&#10;dia..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Kok tumben ya?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Hmmm....</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Kok diem lagi, Kang?&#10;Mikirin apa sih?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="ingatkan" isHold="true">
+            <desc>Jadi... waktu dagang Tahu di Arisan Tante-tante kemaren ini...</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="ingatkan" isHold="true">
+            <desc>Kang Piki bilang dia mau berenti dagang Tahu Bulat..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Eehhh..? Kok berenti?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Katanya sih.. Dia dagang Tahu Bulat karena dipaksa&#10;sama Bapaknya..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Jadi kata Kang Piki, dia tuh aslinya mau buka restoran aja..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Tapi.. Bapaknya nyuruh dia jualan Tahu Bulat dulu sampe sukses, baru boleh buka restoran!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Ohh.... pantesan..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="aha" isHold="true">
+            <desc>Oh!! Kang Piki juga bilang Bapaknya dapat ide jualan Tahu Bulat setelah baca berita Tahu Bulat di Majalah Waktu!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Majalah Waktu? Nyo?&#10;Jangan-jangan...</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Nah itu dia...&#10;Jangan-jangan.. Bapaknya Kang Piki itu...</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Om Tajir??</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="aha" isHold="true">
+            <desc>Nah, kan!&#10;Akang juga mikirnya gitu!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Makanya ini teh galau tadinya mo dagang di sini atau kaga..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Ya.. tanyain aja ke Om Tajir&#10;pas ketemu lagi nanti, kang!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Ehh??&#10;Gak ah, ngapain ikut campur urusan keluarga orang?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Bener juganyo... Haha..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Eh!! Itu Tahunya mateng, Kang!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="mantul" isHold="true">
+            <desc>Siip.. Tar-tar diangkat dulu..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Ngomong-ngomong kamu ga kelupaan sesuatu, Tako?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Kelupaan? Apa ya?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Masa kamu ga tau sih...?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Ohh! Peti ya?&#10;Nih, Peti Perunggunya, Kang!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="mantul" isHold="true">
+            <desc>Manttuulll!! Makasih, Tako!!&#10;Sip deh, yuk kita pulang terus buka petinya!!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Ehh.. Kang!!&#10;Tahu Bulatnya!!</desc>
+        </dialog>
+    </skenario>
+</resources>

@@ -1,0 +1,66 @@
+<resources>
+    <particlesystem x="380" y="550">
+        <!--efek ke_1-->
+        <emitter pivotX="1" pivotY="0.5" type="line">
+            <particle lifetime="0.9">
+                <imagelist>
+                    <image>sotong/xml/partikel/img/p_api.png</image>
+                </imagelist>
+                <p_start>
+                    <alpha min="0.5" max="1"/>
+                    <scaleY pivotY="1" min="0.5" max="1.5"/>
+                    <scaleX pivotX="0.5" min="0.5" max="1"/>
+                    <angle pivotX="0.5" pivotY="1" min="-30" max="30"/>
+                </p_start>
+                <p_running>
+                    <alpha min="0.3" max="1" when="0.5"/>
+                    <alpha min="0.5" max="0.8" when="1"/>
+                    <scaleY min="0.3" max="1.5" when="0.6"/>
+                    <scaleY min="0.7" max="1" when="1"/>
+                </p_running>
+            </particle>
+            <e_start>
+                <burst nBurst="10" burstTime="0.1"/>
+                <emit nEmit="2" repeat="-1" delay="0.01"/>
+                <!--<burst nBurst="3" burstTime="0.1"/>-->
+                <source>
+                    <point x="-85" y="0"/>
+                    <point x="85" y="0"/>
+                </source>
+            </e_start>
+        </emitter>
+
+        <emitter pivotX="0.5" pivotY="0.5" type="area">
+            <particle lifetime="0.7">
+                <imagelist>
+                    <image>sotong/xml/partikel/img/p_asap.png</image>
+                </imagelist>
+                <p_start>
+                    <alpha min="0.3" max="0.5"/>
+                    <scaleY pivotY="1" min="0" max="0"/>
+                    <scaleX pivotX="0.5" min="0.5" max="1"/>
+                    <velocity min="30" max="100" arahMin="270" arahMax="270"/>
+                </p_start>
+                <p_running>
+                    <alpha min="0.1" max="0.5" when="0.2"/>
+                    <alpha min="0.1" max="0.3" when="0.5"/>
+                    <alpha min="0.4" max="0.6" when="0.7"/>
+                    <alpha min="0.2" max="0.4" when="1"/>
+                    <scaleY min="0.2" max="1" when="1"/>
+                    <scaleX min="0.5" max="2.5" when="1"/>
+
+                </p_running>
+            </particle>
+            <e_start>
+                <burst nBurst="5" burstTime="0.1"/>
+                <emit nEmit="3" repeat="-1" delay="0.2"/>
+                <!--<burst nBurst="3" burstTime="0.1"/>-->
+                <source>
+                    <point x="-85" y="-120"/>
+                    <point x="85" y="-80"/>
+                </source>
+            </e_start>
+        </emitter>
+
+    </particlesystem>
+</resources>

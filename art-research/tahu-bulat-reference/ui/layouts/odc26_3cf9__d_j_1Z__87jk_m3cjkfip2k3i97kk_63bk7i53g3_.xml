@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+	    <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hmm....</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kang!!&#10;Udah beres dagangnya?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sapa" isHold="true">
+            <desc>Eh, Tako!&#10;Belum nih, dikit lagi targetnya tercapai kok!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Loh? Tapi kan..&#10;Bazaarnya sudah selesai..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Hah? Kok udahan lagi?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Akang ga fokus kali dagangnya...</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedih" isHold="true">
+            <desc>Iya gitu ya?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Ya sudahlah, dicoba lagi nanti ya, Kang!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Siap Tako..&#10;Berikutnya harus lebih fokus lagi nih!</desc>
+        </dialog>
+    </skenario>
+</resources>

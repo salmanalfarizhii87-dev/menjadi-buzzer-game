@@ -1,0 +1,42 @@
+<resources>
+    <!--font :-->
+    <!--comicneueLight-->
+    <!--comicneueBold-->
+    <!--arial-->
+    <!--ttt-->
+    <!--cuckoo-->
+    <!--theBoldFont-->
+    <nama>Take My Money!</nama>
+    <image>ui_kartu_meme/meme/meme_shutUpTakeMoney.png</image>
+    <variasi>
+        <image>
+            <!--<input id="0">-->
+            <!--<item x="189" y="578" width="335" alignX="0.0f" alignY="0.0f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "19" min_font_size="30" max_font_size="40"/>-->
+            <!--</input>-->
+        </image>
+        <text>
+            <item id="0">
+                <varian>
+                    <!--<item x="200" y="365" width="300" alignX="0.0f" alignY="0.0f" colour="0x000000" fontSize="36" font="cuckoo" isCenter="true">Mohon maaf lahir dan bathin.</item>-->
+                </varian>
+            </item>
+        </text>
+    </variasi>
+    <input>
+        <item id="0" x="90" y="46" width="538" alignX="0.0f" alignY="0.0f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "50" min_font_size="36" max_font_size="65" isStroke="true" strokeSize="10" strokeColor="0xffffff"/>
+        <item id="1" x="28" y="680" width="643" alignX="0.0f" alignY="1.0f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "50" min_font_size="36" max_font_size="65" isStroke="true" strokeSize="10" strokeColor="0xffffff"/>
+
+    </input>
+    <contoh>
+        <input id="0">
+            <item>Ketika kamu ngelihat teman kelaperan...</item>
+            <item>Timeline FB Toxic</item>
+            <item>Just shut up and..</item>
+        </input>
+        <input id="1">
+            <item>Ambil semua Tahu ini!</item>
+            <item>Nih, ambil Tahu Bulat!</item>
+            <item>Take my Tahu Bulat!!</item>
+        </input>
+    </contoh>
+</resources>

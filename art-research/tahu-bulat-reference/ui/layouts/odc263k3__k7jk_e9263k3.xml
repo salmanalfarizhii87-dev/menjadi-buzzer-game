@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ksatriatahu-->
+    <TESTING_KSATRIA_CUTSCENE>ksatriatahu/xml/cutscene_1.xml</TESTING_KSATRIA_CUTSCENE>
+    <TESTING_KSATRIA_CUTSCENE_EFEKTAHU stage="1">ksatriatahu/xml/partikel/efek_tahu_bulat.xml</TESTING_KSATRIA_CUTSCENE_EFEKTAHU>
+    <TESTING_KSATRIA_PET_CUTSCENE stage="1">ksatriatahu/xml/protobul.xml</TESTING_KSATRIA_PET_CUTSCENE>
+
+    <TESTING_KSATRIA_PET_GAMEPLAY>ksatriatahu/xml/protobul.xml</TESTING_KSATRIA_PET_GAMEPLAY>
+
+    <TESTING_KSATRIA_EMOJI>jurus</TESTING_KSATRIA_EMOJI>
+    <TESTING_KSATRIA_EFEKSKILL>2</TESTING_KSATRIA_EFEKSKILL>
+
+    <TESTING_KSATRIA_GAMEPLAY_ISJALAN>true</TESTING_KSATRIA_GAMEPLAY_ISJALAN>
+
+</resources>

@@ -1,0 +1,56 @@
+<resources>
+    <!--font :-->
+    <!--comicneueLight-->
+    <!--comicneueBold-->
+    <!--arial-->
+    <!--ttt-->
+    <!--cuckoo-->
+    <!--theBoldFont-->
+    <nama>Gerombolan Tante</nama>
+    <image>ui_kartu_meme/meme/meme_tanteDemoBanyak.png</image>
+    <variasi>
+        <image>
+            <!--<input id="0">-->
+            <!--<item x="189" y="578" width="335" alignX="0.0f" alignY="0.0f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "19" min_font_size="30" max_font_size="40"/>-->
+            <!--</input>-->
+        </image>
+        <text>
+            <item id="0">
+                <varian>
+                    <!--<item x="200" y="365" width="300" alignX="0.0f" alignY="0.0f" colour="0x000000" fontSize="36" font="cuckoo" isCenter="true">Mohon maaf lahir dan bathin.</item>-->
+                </varian>
+            </item>
+        </text>
+    </variasi>
+    <input>
+        <item id="0" x="50" y="50" width="230" alignX="0.0f" alignY="0.5f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "50" min_font_size="30" max_font_size="45"/>
+        <item id="1" x="420" y="50" width="230" alignX="0.0f" alignY="0.5f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "50" min_font_size="30" max_font_size="45"/>
+        <item id="3" x="420" y="415" width="230" alignX="0.0f" alignY="0.5f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "50" min_font_size="30" max_font_size="45"/>
+        <item id="2" x="50" y="415" width="230" alignX="0.0f" alignY="0.5f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "50" min_font_size="30" max_font_size="45"/>
+    </input>
+    <contoh>
+        <input id="0">
+            <item>Siapa kita?!</item>
+            <item>Siapa kita?!</item>
+            <item>Kita mau apa?!</item>
+
+        </input>
+        <input id="1">
+            <item>Tante-tante</item>
+            <item>Tante Eksis</item>
+            <item>Tahu Bulat!</item>
+
+        </input>
+        <input id="2">
+            <item>Kita mau apa?</item>
+            <item>Kenapa Eksis?</item>
+            <item>Buat apa?!</item>
+        </input>
+        <input id="3">
+            <item>Ga tau!!</item>
+            <item>Ga tau!!</item>
+            <item>Uplod IG!!</item>
+
+        </input>
+    </contoh>
+</resources>

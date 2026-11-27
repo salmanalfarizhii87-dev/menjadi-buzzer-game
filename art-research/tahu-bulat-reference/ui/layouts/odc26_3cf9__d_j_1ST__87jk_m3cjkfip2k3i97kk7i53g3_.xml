@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hmmmmm..&#10;Ramai juga jualan Tahu Bulatnya kali ini.. Sepertinya targetnya sudah tercapai, ya?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="tekad_bulad" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Tentu saja!!&#10;Dengan tekad bulat, tidak ada yang mustahil!!</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Oke, selamat ya.&#10;Aku pamit dulu..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eh? Loh? Loh??&#10;Kan kamu sudah janji mau jawab, Towa!</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>.......................</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Baiklah....&#10;Dengarkan baik-baik ya, tidak ada siaran ulang.</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Kamu yakin mau cerita, Towa?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Ya... Janji harus ditepati!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Keren sekali kamu, Towa!!&#10;Ayo cerita!&#10;Telinga Akang sudah terbuka lebaarrr!!</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>...................&#10;Jadi, jawabannya adalah “bukan”.. Cantatiotura itu bukan manusia ikan.</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eh? Loh? Kok bisa??&#10;Terus kenapa kamu bisa tahu Atlantis?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Soalnya...&#10;Cantatiotura itu evolusi dari Beluga. Beluga itu bukan ikan!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Belagu??&#10;Pantesan kamu agak-agak sombong ya, Towa..</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>......................&#10;Kok nyesel ya cerita sama kamu, Kang? Udahan deh...</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eeehh... Maap-maap!!&#10;Akang Tahu ga tahu belagu, eh beluga itu apaan...</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Sini!!&#10;Pinjem HP-nya bentar!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Langsung diambil...&#10;Jangan dioprek macem-macem, ya..</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Nih, Beluga tuh kayak gini!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Ohh....&#10;Ini mah namanya Dugong!</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>...........................</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Keterlaluan dibilang Dugong...</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Loh, kenapa?&#10;Beda ya? Rasanya mirip banget...</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>......................&#10;Ya.. terserah Akang, deh..</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Yang penting pertanyaannya sudah Towa jawab, yak!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eh, loh, cuma gitu doang??</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Bentar-bentar.. Akang masih ga ngerti, kok bisa Cantatiotura itu evolusi dari Beluga?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Eits, kok nanya gimana caranya evolusi??&#10;Itu mah tanya Om Darwin, aja!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Hmm.. Om Darwin yang......&#10;Penemu teori evolusi itu?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Tingtong!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>...................&#10;Gimana cara nanyanya??</desc>
+        </dialog>
+        <aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Eh, bentar!&#10;Satu pertanyaan lagi kalau gitu!!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Towanya udah pergi, Kang.</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Lah!!&#10;Ditinggal tiba-tiba lagi!!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Ya... kan udah dijawab pertanyaannya.. Emangnya mau tanya apa lagi, Kang?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Emangnya di Atlantis..&#10;HP Akang dapet koneksi internet, ya? Kok Towa bisa nemu gambar Beluga?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>.......................</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Udah, jangan dipikirin, Kang!&#10;Nih peti perunggu!!&#10;Mau kan??</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Wooooo!! Mauuu!!!</desc>
+        </dialog>
+    </skenario>
+</resources>

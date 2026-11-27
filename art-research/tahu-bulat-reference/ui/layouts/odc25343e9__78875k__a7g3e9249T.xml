@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <character id="effect" x="0" y="-722" isEmpty="true" width = "768" height="722" >-->
+    <character id="effect" x="0" y="-361" isEmpty="true" width = "384" height="361" >
+<!--        <group id="highlight_air_1" x="29" y="505">-->
+        <group id="highlight_air_1" x="15" y="252">
+            <image_list>
+                <item>background/Jepang_BG2_highlight1.png</item>
+            </image_list>
+        </group>
+<!--        <group id="highlight_air_2" x="546" y="397">-->
+        <group id="highlight_air_2" x="273" y="198">
+            <image_list>
+                <item>background/Jepang_BG2_highlight2.png</item>
+            </image_list>
+        </group>
+    </character>
+
+    <animation>
+        <sequence>
+            <multiple>
+                <alpha id="highlight_air_1" time="0.3">0.9</alpha>
+                <alpha id="highlight_air_2" time="0.3">0.9</alpha>
+            </multiple>
+            <multiple>
+                <alpha id="highlight_air_1" time="0.3">0.2</alpha>
+                <alpha id="highlight_air_2" time="0.3">0.2</alpha>
+            </multiple>
+            <multiple>
+                <alpha id="highlight_air_1" time="0.3">1.0</alpha>
+                <alpha id="highlight_air_2" time="0.3">1.0</alpha>
+            </multiple>
+            <multiple>
+                <alpha id="highlight_air_1" time="0.3">0.4</alpha>
+                <alpha id="highlight_air_2" time="0.3">0.4</alpha>
+            </multiple>
+            <multiple>
+                <alpha id="highlight_air_1" time="0.3">0.3</alpha>
+                <alpha id="highlight_air_2" time="0.3">0.3</alpha>
+            </multiple>
+            <multiple>
+                <alpha id="highlight_air_1" time="0.3">0.6</alpha>
+                <alpha id="highlight_air_2" time="0.3">0.6</alpha>
+            </multiple>
+        </sequence>
+    </animation>
+
+</resources>

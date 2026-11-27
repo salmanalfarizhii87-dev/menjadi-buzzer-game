@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <!--248+(57*10)+68+30+115-->
+        <container id="divCV" x="60" y="100">
+            <image_list id="bgCVAtas" y="0">
+                <item>UI_baru/cv_lembar_atas.png</item>
+            </image_list>
+            <image_list id="bgCVTengah" x="28" y="0" alignX="bgCVAtas#0" alignY="bgCVAtas#1" scaleY="600"><!--scaleY="10"-->
+                <item>UI_baru/cv_lembar_tengah.png</item>
+            </image_list>
+            <image_list id="bgCVBawah" x="0" y="0" alignX="bgCVTengah#0" alignY="bgCVTengah#1">
+                <item>UI_baru/cv_lembar_bawah.png</item>
+            </image_list>
+
+            <container id="isiCV" x="80" y="-20" alignX="bgCVAtas#0" alignY="bgCVAtas#1">
+                <container id="divFotoCV">
+                    <image_list id="bgFotoCV" x="15" y="15">
+                        <item>UI_baru/frame_BG_1.png</item>
+                    </image_list>
+                    <!--<image_list id="fotoCV" x="85" y="98" pivotX="0.5" pivotY="0.5">-->
+                    <image_list id="fotoCV" x="0" y="0" alignX="bgFotoCV#0" alignY="bgFotoCV#0">
+                        <item>pedagang/Ch_AkangTahu_idle.png</item>
+                    </image_list>
+                    <image_list id="frameFotoCV" isBaseContainer="true">
+                        <item>UI_baru/frame_1.png</item>
+                    </image_list>
+                    <image_list id="badgeCabang" x="-4" y="-4" pivotY="1" alignX="frameFotoCV#0" alignY="frameFotoCV#1" scaleX="0.5" scaleY="0.5" pivotScaleY="1">
+                        <item>icon/icon kota cabang tanpa ilustrasi/ic_gedung sate.png</item>
+                    </image_list>
+
+                    <image_list id="badgeCV" x="0" y="0" pivotX="0.8" pivotY="0.9" alignX="frameFotoCV#1" alignY="frameFotoCV#1">
+                        <item>UI_baru/badge_3.png</item>
+                    </image_list>
+                </container>
+
+
+                <text id="namaCV" x="13" y="10" alignX="divFotoCV#1" alignY="divFotoCV#0" font="cuckoo" fontSize="30" color="000000">Akang Baik Hati</text>
+
+                <image_list id="levelCV" x="-3" y="15" alignX="namaCV#0" alignY="namaCV#1">
+                    <item>UI_baru/label_pedagang_level.png</item>
+                </image_list>
+                <text id="textLevelBadge" x="0" y="20" pivotX="0.5" alignX="levelCV#0.5" alignY="levelCV#0" font="cuckoo" fontSize="27" color="000000">40</text>
+
+                <container id="barExp" x="10" y="15" alignY="levelCV#0" alignX="levelCV#1">
+                    <image_list id="barKosongExp" x="0" y="0" isBaseContainer="true">
+                        <item>UI_baru/bar_peridot.png</item>
+                    </image_list>
+                    <image_list id="barIsiExp" x="0" y="0" scaleX="0.5">
+                        <item>UI_baru/bar_isi.png</item>
+                    </image_list>
+                    <text id="textBarExp" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="barKosongExp#0.5" alignY="barKosongExp#0.5" font="cuckoo" fontSize="28" color="ffffff">4/5</text>
+                </container>
+
+                <container id="divAlasan" x="-10" y="40" alignX="divFotoCV#0" alignY="divFotoCV#1" height="170">
+                    <image_list id="bgLabelAlasan">
+                        <item>UI_baru/cv_barsegmen.png</item>
+                    </image_list>
+                    <text id="labelAlasan" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="bgLabelAlasan#0.5" alignY="bgLabelAlasan#0.5" font="cuckoo" fontSize="30" color="ffffff">Alasan Melamar:</text>
+                    <text id="textAlasan" x="25" y="10" alignX="bgLabelAlasan#0" alignY="bgLabelAlasan#1" font="comicneueLight" fontSize="30" color="000000" wrapWidth="458" isCenter="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</text>
+                </container>
+
+                <container id="divKeahlian" x="0" y="20" alignX="divAlasan#0" alignY="divAlasan#1">
+                    <image_list id="bgLabelKeahlian">
+                        <item>UI_baru/cv_barsegmen.png</item>
+                    </image_list>
+                    <text id="labelKeahlian" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="bgLabelKeahlian#0.5" alignY="bgLabelKeahlian#0.5" font="cuckoo" fontSize="30" color="ffffff">Keahlian Khusus:</text>
+                    <text id="textKeahlian" x="25" y="10" alignX="bgLabelKeahlian#0" alignY="bgLabelKeahlian#1" font="comicneueLight" fontSize="30" color="000000" wrapWidth="458" isCenter="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</text>
+                </container>
+            </container>
+
+            <container id="divTingkatkan" x="0" alignX="isiCV#0" y="30" alignY="bgCVBawah#1">
+                <image_list id="labelHarga" isBaseContainer="true">
+                    <item>UI_baru/label_harga_hitam.png</item>
+                </image_list>
+                <image_list id="iconKoin" x="10" y="10" alignX="labelHarga#0">
+                    <item>UI_baru/ic_koin_dalamNegeri.png</item>
+                </image_list>
+                <text id="textHargaTingkatkan" x="-10" y="5" pivotX="1" alignX="labelHarga#1" alignY="iconKoin#0" font="cuckoo" fontSize="32" color="ffffff">1500</text>
+                <button id="btnTingkatkan" x="0" y="0" imageNormal="UI_baru/ui_btn_buy.png" alignX="labelHarga#0" alignY="labelHarga#1" pivotY="1">
+                    <text id="textTingkatkan" x="101" y="-35" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="30" color="ffffff">Tingkatkan</text>
+                </button>
+            </container>
+
+            <button id="btnTugaskan" x="90" y="0" alignX="divTingkatkan#1" alignY="divTingkatkan#0" imageNormal="UI_baru/button_kuning.png">
+                <!--<text id="textTugaskan" x="101" y="52" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="30" color="000000">Tugaskan</text>-->
+                <text id="textTugaskan" x="0" y="52" pivotY="0.5" font="cuckoo" fontSize="30" color="000000" isCenter="true" wrapWidth="202">Tugaskan</text>
+            </button>
+
+            <button id="btnClose" x="0" y="30" pivotX="0.7" pivotY="0" alignX="bgCVAtas#1" alignY="bgCVAtas#0" imageNormal="UI_baru/ui_btn_close.png" onClick="backPressed">
+            </button>
+
+        </container>
+
+    </container>
+</resources>

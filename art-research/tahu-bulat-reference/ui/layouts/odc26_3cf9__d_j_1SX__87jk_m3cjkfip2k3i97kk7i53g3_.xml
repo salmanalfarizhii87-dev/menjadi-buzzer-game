@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>KANGGG!!!!&#10;Lihat ini ada siapaaaaa??</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Siapa??</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hey! Kang! Tahu!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>T-t-towaaa??&#10;Kamu sudah bebas??</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Kalau belum bebas, aku ga bakal ada di sini, Kang!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Sudah atuh, Kang!&#10;Raja Atlantis melihat dagangan kita laris sekali, jadi Towa langsung dibebaskan!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Woah!!! Syukurlah..&#10;Kamu akhrinya bebas, Towa!!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Iya! Senang sekali!!&#10;Selain itu kita dapat Peti Rempah-rempah juga, lho!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Waduh!&#10;Jadi untung dobel dong, nih..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Kalau gitu mari kita beres-beres terus pulang dan buka Peti ini!!</desc>
+        </dialog>
+    </skenario>
+</resources>

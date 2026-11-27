@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+
+        <text id="labelTerjual" x="150" y="0" font="comicneueLight" fontSize="32" color="000000">Terjual</text>
+        <text id="jlhTerjual" x="370" y="0" alignY="labelTerjual#0"  font="comicneueLight" fontSize="32" color="000000">: 100 gelas</text>
+
+        <text id="labelModal" x="0" y="7" alignX="labelTerjual#0" alignY="labelTerjual#1" font="comicneueLight" fontSize="32" color="000000">Modal</text>
+        <text id="jlhModal" x="370" y="0" alignY="labelModal#0" font="comicneueLight" fontSize="32" color="000000">: 100000</text>
+
+        <text id="labelPemasukan" x="0" y="7" alignX="labelModal#0" alignY="labelModal#1" font="comicneueLight" fontSize="32" color="000000">Pemasukkan</text>
+        <text id="jlhPemasukan" x="370" y="0" alignY="labelPemasukan#0" font="comicneueLight" fontSize="32" color="000000">: 100000</text>
+
+        <image_list id="bgUntung" x="-22" y="20" pivotX="0.5" alignX="wLayar#0.5" alignY="labelPemasukan#1" scaleY="100" pivotScaleY="0" scaleX="4" pivotScaleX="0.5">
+            <item>UI_baru/segmen_merah.png</item>
+        </image_list>
+
+        <text id="labelUntung" x="-22" y="2" pivotX="0.5" alignX="wLayar#0.5" alignY="bgUntung#0" font="comicneueLight" fontSize="25" color="ffffff">Keuntungan:</text>
+        <image_list id="koinUntung" x="270" y="2" alignY="labelUntung#1">
+            <item>UI_baru/ic_koin_dalamNegeri.png</item>
+        </image_list>
+        <text id="jumlahUntung" x="20" y="5" alignX="koinUntung#1" alignY="koinUntung#0" font="cuckoo" fontSize="30" color="ffffff">-300.000</text>
+        <text id="textrekor" x="-22" y="2" pivotX="0.5" alignX="wLayar#0.5" alignY="koinUntung#1" font="comicneueLight" fontSize="22" color="ffffff">Rekor Keuntungan: 300.000</text>
+
+        <image_list id="imgRekor" x="-72" y="3" pivotX="1" alignX="wLayar#1" alignY="bgUntung#0">
+            <item>UI_baru/badge_rekor.png</item>
+        </image_list>
+
+        <image_list id="bgRincian" x="-22" y="20" pivotX="0.5" alignX="wLayar#0.5" alignY="bgUntung#1">
+            <item>UI_baru/segmen_biru_2.png</item>
+        </image_list>
+        <text id="labelRincian" x="0" y="5" pivotX="0.5" alignX="bgRincian#0.5" alignY="bgRincian#0" font="cuckoo" fontSize="35" color="ffffff">Rincian Penjualan</text>
+
+        <container id="contRincian" x="0" y="20" alignY="bgRincian#1">
+        </container>
+
+    </container>
+
+    <animation>
+    </animation>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="root" x="0" y="0" pivotX="0.5" pivotY="1">
+        <!--<image_list id="bc1" x="0" y="0" pivotX="0.5" pivotY="1">-->
+            <!--<item>ksatriatahu/ui/bc_1.png</item>-->
+        <!--</image_list>-->
+
+        <!--<image_list id="bc2" x="0" y="-20" pivotX="0.5" pivotY="1">-->
+            <!--<item>ksatriatahu/ui/bc_2.png</item>-->
+        <!--</image_list>-->
+
+        <!--<image_list id="bc3" x="0" y="-52" pivotX="0.5" pivotY="1">-->
+            <!--<item>ksatriatahu/ui/bc_3.png</item>-->
+        <!--</image_list>-->
+
+        <image_list id="bubble" x="0" y="-100" pivotX="0.5" pivotY="0.5">
+            <item>sotong/ui/ui_bubbleEmo.png</item>
+        </image_list>
+
+        <image_list id="emoji1" x="0" y="-100" pivotX="0.5" pivotY="0.5" scaleX="0.5" scaleY="0.5" pivotScaleX="0.5" pivotScaleY="0.5">
+            <item>sotong/ui/emoji/emoji_1.png</item>
+        </image_list>
+
+        <image_list id="emoji2" x="0" y="-108" pivotX="0.5" pivotY="0.5" scaleX="0.5" scaleY="0.5" pivotScaleX="0.5" pivotScaleY="0.5">
+            <item>sotong/ui/emoji/emoji_2.png</item>
+        </image_list>
+
+        <image_list id="emoji3" x="0" y="-100" pivotX="0.5" pivotY="0.5" scaleX="0.5" scaleY="0.5" pivotScaleX="0.5" pivotScaleY="0.5">
+            <item>sotong/ui/emoji/emoji_3.png</item>
+        </image_list>
+
+        <image_list id="emoji4" x="0" y="-102" pivotX="0.5" pivotY="0.5" scaleX="0.5" scaleY="0.5" pivotScaleX="0.5" pivotScaleY="0.5">
+            <item>sotong/ui/emoji/emoji_4.png</item>
+        </image_list>
+    </container>
+
+    <animation>
+        <emoji1>
+            <multiple>
+                <alpha id="emoji2" time="0">0</alpha>
+                <alpha id="emoji3" time="0">0</alpha>
+                <alpha id="emoji4" time="0">0</alpha>
+                <alpha id="emoji1" time="0">1</alpha>
+            </multiple>
+           <sequence repeat="-1">
+               <multiple>
+                   <scaleX id="emoji1" pivotX="0.5" time="0.1">0.8</scaleX>
+                   <scaleY id="emoji1" pivotY="0.5" time="0.1">0.8</scaleY>
+                   <scaleX id="bubble" pivotX="0.5" time="0.1">1.2</scaleX>
+                   <scaleY id="bubble" pivotY="0.5" time="0.1">1.2</scaleY>
+               </multiple>
+               <multiple>
+                   <scaleX id="emoji1" pivotX="0.5" time="0.1">0.5</scaleX>
+                   <scaleY id="emoji1" pivotY="0.5" time="0.1">0.5</scaleY>
+                   <scaleX id="bubble" pivotX="0.5" time="0.1">1</scaleX>
+                   <scaleY id="bubble" pivotY="0.5" time="0.1">1</scaleY>
+               </multiple>
+           </sequence>
+        </emoji1>
+
+        <emoji2>
+            <multiple>
+                <alpha id="emoji2" time="0">1</alpha>
+                <alpha id="emoji3" time="0">0</alpha>
+                <alpha id="emoji4" time="0">0</alpha>
+                <alpha id="emoji1" time="0">0</alpha>
+            </multiple>
+            <sequence>
+                <multiple>
+                    <scaleX id="emoji2" pivotX="0.5" time="0.15">0.8</scaleX>
+                    <scaleY id="emoji2" pivotY="0.5" time="0.15">0.8</scaleY>
+                    <scaleX id="bubble" pivotX="0.5" time="0.15">1.2</scaleX>
+                    <scaleY id="bubble" pivotY="0.5" time="0.15">1.2</scaleY>
+                </multiple>
+                <multiple>
+                    <scaleX id="emoji2" pivotX="0.5" time="0.15">0.5</scaleX>
+                    <scaleY id="emoji2" pivotY="0.5" time="0.15">0.5</scaleY>
+                    <scaleX id="bubble" pivotX="0.5" time="0.15">1</scaleX>
+                    <scaleY id="bubble" pivotY="0.5" time="0.15">1</scaleY>
+                </multiple>
+            </sequence>
+
+        </emoji2>
+
+        <emoji3>
+            <multiple>
+                <alpha id="emoji2" time="0">0</alpha>
+                <alpha id="emoji3" time="0">1</alpha>
+                <alpha id="emoji4" time="0">0</alpha>
+                <alpha id="emoji1" time="0">0</alpha>
+            </multiple>
+            <sequence>
+                <multiple>
+                    <scaleX id="emoji3" pivotX="0.5" time="0.15">0.8</scaleX>
+                    <scaleY id="emoji3" pivotY="0.5" time="0.15">0.8</scaleY>
+                    <scaleX id="bubble" pivotX="0.5" time="0.15">1.2</scaleX>
+                    <scaleY id="bubble" pivotY="0.5" time="0.15">1.2</scaleY>
+                </multiple>
+                <multiple>
+                    <scaleX id="emoji3" pivotX="0.5" time="0.15">0.5</scaleX>
+                    <scaleY id="emoji3" pivotY="0.5" time="0.15">0.5</scaleY>
+                    <scaleX id="bubble" pivotX="0.5" time="0.15">1</scaleX>
+                    <scaleY id="bubble" pivotY="0.5" time="0.15">1</scaleY>
+                </multiple>
+            </sequence>
+
+        </emoji3>
+
+        <emoji4>
+            <multiple>
+                <alpha id="emoji2" time="0">0</alpha>
+                <alpha id="emoji3" time="0">0</alpha>
+                <alpha id="emoji4" time="0">1</alpha>
+                <alpha id="emoji1" time="0">0</alpha>
+            </multiple>
+            <sequence>
+                <multiple>
+                    <scaleX id="emoji4" pivotX="0.5" time="0.15">0.8</scaleX>
+                    <scaleY id="emoji4" pivotY="0.5" time="0.15">0.8</scaleY>
+                    <scaleX id="bubble" pivotX="0.5" time="0.15">1.2</scaleX>
+                    <scaleY id="bubble" pivotY="0.5" time="0.15">1.2</scaleY>
+                </multiple>
+                <multiple>
+                    <scaleX id="emoji4" pivotX="0.5" time="0.15">0.5</scaleX>
+                    <scaleY id="emoji4" pivotY="0.5" time="0.15">0.5</scaleY>
+                    <scaleX id="bubble" pivotX="0.5" time="0.15">1</scaleX>
+                    <scaleY id="bubble" pivotY="0.5" time="0.15">1</scaleY>
+                </multiple>
+            </sequence>
+
+        </emoji4>
+    </animation>
+</resources>

@@ -1,0 +1,333 @@
+<resources>
+    <container id="root" x="384" y="900" pivotX="0" pivotY="0" width="215" height="242">
+    <container id="tabulbot_all" x="0" y="0" pivotX="0" pivotY="0">
+        <particle id="asap" xml="ksatriatahu/xml/partikel/efek_tabulbot_asap.xml" x="-80" y="-30" alignX="tabulbot_body#0.5" alignY="tabulbot_body#0.5"/>
+        <particle id="asap_jalanKiri" xml="ksatriatahu/xml/partikel/efek_tabulbot_asap_jalanKiri.xml" x="-80" y="-30" alignX="tabulbot_body#0.5" alignY="tabulbot_body#0.5"/>
+
+
+        <image_list id="tabulbot_idle_cape" x="-8" y="-105" pivotX="0" pivotY="0.5">
+            <item>ksatriatahu/pets/tabulbot/tabulbot_idle_cape.png</item>
+        </image_list>
+        <image_list id="tabulbot_idle_shield" x="-83" y="-85" pivotX="0.86" pivotY="0.34">
+            <item>ksatriatahu/pets/tabulbot/tabulbot_idle_shield.png</item>
+        </image_list>
+        <image_list id="tabulbot_idle_hand" x="73" y="-84" pivotX="0.065" pivotY="0.8">
+            <item>ksatriatahu/pets/tabulbot/tabulbot_idle_hand.png</item>
+        </image_list>
+        <image_list id="tabulbot_idle_speaker" x="-4" y="-163" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/tabulbot/tabulbot_idle_speaker.png</item>
+        </image_list>
+        <image_list id="tabulbot_idle_body" x="0" y="0" pivotX="0.5" pivotY="1" isBaseContainer="true">
+            <item>ksatriatahu/pets/tabulbot/tabulbot_idle_body.png</item>
+        </image_list>
+        <image_list id="tabulbot_hand" x="60" y="-80" pivotX="0.046" pivotY="0.818">
+            <item>ksatriatahu/pets/tabulbot/tabulbot_hand.png</item>
+        </image_list>
+        <image_list id="tabulbot_body" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/tabulbot/tabulbot_body.png</item>
+        </image_list>
+
+        <image_list id="tabulbot_shield" x="-105" y="-80" pivotX="0.38" pivotY="0.475">
+            <item>ksatriatahu/pets/tabulbot/tabulbot_shield.png</item>
+        </image_list>
+        <particle id="petir" xml="ksatriatahu/xml/partikel/efek_tabulbot_petir.xml" x="0" y="0" alignX="tabulbot_idle_speaker#0.5" alignY="tabulbot_idle_speaker#0.5"/>
+
+<!--        <uiReader pivotX="0.5" pivotY="1" alignX="tabulbot_all#0.5" alignY="tabulbot_all#0" id="emoji" xml="ksatriatahu/xml/emoji.xml"/>-->
+    </container>
+
+        <uiReader pivotX="0.5" pivotY="1" alignX="tabulbot_idle_body#0.5" alignY="tabulbot_idle_body#0" id="emoji" xml="ksatriatahu/xml/emoji.xml"/>
+<!--        <uiReader pivotX="0.5" pivotY="1" x="0" y="0" id="emoji" xml="ksatriatahu/xml/emoji.xml"/>-->
+    </container>
+
+    <animation>
+        <stop>
+            <multiple>
+                <alpha id="tabulbot_idle_cape" time="0">0</alpha>
+                <alpha id="tabulbot_idle_shield" time="0">0</alpha>
+                <alpha id="tabulbot_idle_hand" time="0">0</alpha>
+                <alpha id="tabulbot_idle_speaker" time="0">0</alpha>
+                <alpha id="tabulbot_idle_body" time="0">0</alpha>
+                <alpha id="tabulbot_hand" time="0">1</alpha>
+                <alpha id="tabulbot_body" time="0">1</alpha>
+                <alpha id="tabulbot_shield" time="0">1</alpha>
+                <scaleX id="tabulbot_all" pivotX="0" time="0">1</scaleX>
+            </multiple>
+        </stop>
+        <reset>
+            <rotate id="tabulbot_idle_cape" pivotX="0.222" pivotY="0.235" time="0">0</rotate>
+            <rotate id="tabulbot_idle_shield" pivotX="0.38" pivotY="0.467" time="0">0</rotate>
+            <rotate id="tabulbot_idle_hand" pivotX="0.065" pivotY="0.8" time="0">0</rotate>
+            <rotate id="tabulbot_hand" pivotX="0.046" pivotY="0.818" time="0">0</rotate>
+            <rotate id="tabulbot_shield" pivotX="0.38" pivotY="0.475" time="0">0</rotate>
+            <rotate id="tabulbot_body" pivotX="0.5" pivotY="0.5" time="0">0</rotate>
+
+            <moveY id="tabulbot_idle_cape" pivotY="1" time="0">0</moveY>
+            <moveY id="tabulbot_idle_shield" pivotY="1" time="0">0</moveY>
+            <moveY id="tabulbot_idle_hand" pivotY="1" time="0">0</moveY>
+            <moveY id="tabulbot_idle_speaker" pivotY="1" time="0">0</moveY>
+            <moveY id="tabulbot_idle_body" pivotY="1" time="0">0</moveY>
+            <moveY id="tabulbot_hand" pivotY="1" time="0">0</moveY>
+            <moveY id="tabulbot_body" pivotY="1" time="0">0</moveY>
+            <moveY id="tabulbot_shield" pivotY="1" time="0">0</moveY>
+
+            <moveX id="tabulbot_idle_cape" pivotX="0.5" time="0">0</moveX>
+            <moveX id="tabulbot_idle_shield" pivotX="0.5" time="0">0</moveX>
+            <moveX id="tabulbot_idle_hand" pivotX="0.5" time="0">0</moveX>
+            <moveX id="tabulbot_idle_speaker" pivotX="0.5" time="0">0</moveX>
+            <moveX id="tabulbot_idle_body" pivotX="0.5" time="0">0</moveX>
+            <moveX id="tabulbot_hand" pivotX="0.5" time="0">0</moveX>
+            <moveX id="tabulbot_body" pivotX="0.5" time="0">0</moveX>
+            <moveX id="tabulbot_shield" pivotX="0.5" time="0">0</moveX>
+
+            <scaleX id="tabulbot_idle_cape" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="tabulbot_idle_shield" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="tabulbot_idle_hand" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="tabulbot_idle_speaker" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="tabulbot_idle_body" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="tabulbot_hand" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="tabulbot_body" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="tabulbot_shield" pivotX="0.5" time="0">1</scaleX>
+
+            <scaleY id="tabulbot_idle_cape" pivotY="1" time="0">1</scaleY>
+            <scaleY id="tabulbot_idle_shield" pivotY="1" time="0">1</scaleY>
+            <scaleY id="tabulbot_idle_hand" pivotY="1" time="0">1</scaleY>
+            <scaleY id="tabulbot_idle_speaker" pivotY="1" time="0">1</scaleY>
+            <scaleY id="tabulbot_idle_body" pivotY="1" time="0">1</scaleY>
+            <scaleY id="tabulbot_hand" pivotY="1" time="0">1</scaleY>
+            <scaleY id="tabulbot_body" pivotY="1" time="0">1</scaleY>
+            <scaleY id="tabulbot_shield" pivotY="1" time="0">1</scaleY>
+
+            <distort id="tabulbot_idle_cape" x="0" y="0" time="0">D</distort>
+        </reset>
+        <idle>
+            <scaleX id="tabulbot_all" pivotX="0" time="0">1</scaleX>
+            <stopParticle id="asap"/>
+            <stopParticle id="asap_jalanKiri"/>
+            <sequence>
+                <multiple>
+                    <alpha id="tabulbot_idle_cape" time="0">1</alpha>
+                    <alpha id="tabulbot_idle_shield" time="0">1</alpha>
+                    <alpha id="tabulbot_idle_hand" time="0">1</alpha>
+                    <alpha id="tabulbot_idle_speaker" time="0">1</alpha>
+                    <alpha id="tabulbot_idle_body" time="0">1</alpha>
+
+                    <alpha id="tabulbot_hand" time="0">0</alpha>
+                    <alpha id="tabulbot_body" time="0">0</alpha>
+                    <alpha id="tabulbot_shield" time="0">0</alpha>
+
+                </multiple>
+                <multiple>
+                    <sequence repeat="-1">
+                        <multiple>
+                            <scaleX id="tabulbot_idle_body" pivotX="0.5" time="0.3">1.02</scaleX>
+                            <scaleY id="tabulbot_idle_body" pivotY="1" time="0.3">0.98</scaleY>
+                            <moveY id="tabulbot_idle_shield" pivotY="1" time="0.3">-10</moveY>
+                            <moveY id="tabulbot_idle_hand" pivotY="1" time="0.3">-20</moveY>
+                            <rotate id="tabulbot_idle_shield" pivotX="0.86" pivotY="0.34" time="0.3">0</rotate>
+                            <rotate id="tabulbot_idle_hand" pivotX="0.065" pivotY="0.8" time="0.3">0</rotate>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="tabulbot_idle_body" pivotX="0.5" time="0.3">0.98</scaleX>
+                            <scaleY id="tabulbot_idle_body" pivotY="1" time="0.3">1.02</scaleY>
+                            <moveY id="tabulbot_idle_shield" pivotY="1" time="0.3">0</moveY>
+                            <moveY id="tabulbot_idle_hand" pivotY="1" time="0.3">0</moveY>
+                            <rotate id="tabulbot_idle_shield" pivotX="0.86" pivotY="0.34" time="0.3">5</rotate>
+                            <rotate id="tabulbot_idle_hand" pivotX="0.065" pivotY="0.8" time="0.3">10</rotate>
+                        </multiple>
+                    </sequence>
+                    <sequence repeat="-1">
+                        <multiple>
+                            <scaleX id="tabulbot_idle_speaker" pivotX="0.5" time="0.3">0.9</scaleX>
+                            <scaleY id="tabulbot_idle_speaker" pivotY="0.7" time="0.3">1.1</scaleY>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="tabulbot_idle_speaker" pivotX="0.5" time="0.3">1</scaleX>
+                            <scaleY id="tabulbot_idle_speaker" pivotY="0.7" time="0.3">1</scaleY>
+                        </multiple>
+                    </sequence>
+                    <sequence repeat="-1">
+                        <distort id="tabulbot_idle_cape" x="0.1" y="0.1" time="0.2">D</distort>
+                        <distort id="tabulbot_idle_cape" x="0.25" y="-0.3" time="0.1">D</distort>
+                        <distort id="tabulbot_idle_cape" x="0" y="0" time="0.3">D</distort>
+                    </sequence>
+                </multiple>
+            </sequence>
+        </idle>
+        <jalan repeat="-1">
+            <stopParticle id="asap"/>
+            <stopParticle id="asap_jalanKiri"/>
+            <alpha id="emoji" time="0">0</alpha>
+            <scaleX id="tabulbot_all" pivotX="0" time="0">1</scaleX>
+            <sequence repeat="-1">
+                <scaleY id="tabulbot_body" pivotY="1" time="0.2">0.98</scaleY>
+                <scaleY id="tabulbot_body" pivotY="1" time="0.2">1.01</scaleY>
+            </sequence>
+            <sequence repeat="-1">
+                <multiple>
+                    <alpha id="tabulbot_idle_cape" time="0">0</alpha>
+                    <alpha id="tabulbot_idle_shield" time="0">0</alpha>
+                    <alpha id="tabulbot_idle_hand" time="0">0</alpha>
+                    <alpha id="tabulbot_idle_speaker" time="0">0</alpha>
+                    <alpha id="tabulbot_idle_body" time="0">0</alpha>
+
+                    <alpha id="tabulbot_hand" time="0">1</alpha>
+                    <alpha id="tabulbot_body" time="0">1</alpha>
+                    <alpha id="tabulbot_shield" time="0">1</alpha>
+
+                </multiple>
+                <playParticle id="asap"/>
+                <multiple>
+                    <rotate id="tabulbot_body" pivotX="0.5" pivotY="0.5" time="0.3">10</rotate>
+                    <moveY id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.3">-5</moveY>
+                    <moveX id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.3">10</moveX>
+                    <moveY id="tabulbot_hand" pivotY="0.818" time="0.3">10</moveY>
+                    <rotate id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.3">-15</rotate>
+                    <scaleX id="tabulbot_body" pivotX="1" time="0.3">0.97</scaleX>
+                    <rotate id="tabulbot_hand" pivotX="0.046" pivotY="0.818" time="0.3">13</rotate>
+                </multiple>
+                <multiple>
+                    <moveY id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.2">0</moveY>
+                    <moveX id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.2">0</moveX>
+                    <moveY id="tabulbot_hand" pivotY="0.818" time="0.2">0</moveY>
+                    <rotate id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.2">0</rotate>
+                    <scaleX id="tabulbot_body" pivotX="1" time="0.2">1</scaleX>
+                    <rotate id="tabulbot_hand" pivotX="0.046" pivotY="0.818" time="0.2">0</rotate>
+                </multiple>
+                <multiple>
+                    <moveY id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.3">0</moveY>
+                    <moveX id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.3">-3</moveX>
+                    <moveY id="tabulbot_hand" pivotY="0.818" time="0.3">0</moveY>
+                    <rotate id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.3">5</rotate>
+                    <scaleX id="tabulbot_body" pivotX="0" time="0.3">1.01</scaleX>
+                    <rotate id="tabulbot_hand" pivotX="0.046" pivotY="0.818" time="0.3">-3</rotate>
+                </multiple>
+                <stopParticle id="asap"/>
+            </sequence>
+        </jalan>
+        <jalan_kiri repeat="-1">
+            <stopParticle id="asap"/>
+            <stopParticle id="asap_jalanKiri"/>
+            <alpha id="emoji" time="0">0</alpha>
+            <scaleX id="tabulbot_all" pivotX="0" time="0">-1</scaleX>
+            <sequence repeat="-1">
+                <scaleY id="tabulbot_body" pivotY="1" time="0.2">0.98</scaleY>
+                <scaleY id="tabulbot_body" pivotY="1" time="0.2">1.01</scaleY>
+            </sequence>
+            <sequence repeat="-1">
+                <multiple>
+                    <alpha id="tabulbot_idle_cape" time="0">0</alpha>
+                    <alpha id="tabulbot_idle_shield" time="0">0</alpha>
+                    <alpha id="tabulbot_idle_hand" time="0">0</alpha>
+                    <alpha id="tabulbot_idle_speaker" time="0">0</alpha>
+                    <alpha id="tabulbot_idle_body" time="0">0</alpha>
+
+                    <alpha id="tabulbot_hand" time="0">1</alpha>
+                    <alpha id="tabulbot_body" time="0">1</alpha>
+                    <alpha id="tabulbot_shield" time="0">1</alpha>
+
+                </multiple>
+                <playParticle id="asap_jalanKiri"/>
+                <multiple>
+                    <rotate id="tabulbot_body" pivotX="0.5" pivotY="0.5" time="0.3">10</rotate>
+                    <moveY id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.3">-5</moveY>
+                    <moveX id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.3">10</moveX>
+                    <moveY id="tabulbot_hand" pivotY="0.818" time="0.3">10</moveY>
+                    <rotate id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.3">-15</rotate>
+                    <scaleX id="tabulbot_body" pivotX="1" time="0.3">0.97</scaleX>
+                    <rotate id="tabulbot_hand" pivotX="0.046" pivotY="0.818" time="0.3">13</rotate>
+                </multiple>
+                <multiple>
+                    <moveY id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.2">0</moveY>
+                    <moveX id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.2">0</moveX>
+                    <moveY id="tabulbot_hand" pivotY="0.818" time="0.2">0</moveY>
+                    <rotate id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.2">0</rotate>
+                    <scaleX id="tabulbot_body" pivotX="1" time="0.2">1</scaleX>
+                    <rotate id="tabulbot_hand" pivotX="0.046" pivotY="0.818" time="0.2">0</rotate>
+                </multiple>
+                <multiple>
+                    <moveY id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.3">0</moveY>
+                    <moveX id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.3">-3</moveX>
+                    <moveY id="tabulbot_hand" pivotY="0.818" time="0.3">0</moveY>
+                    <rotate id="tabulbot_shield" pivotX="0.5" pivotY="0.5" time="0.3">5</rotate>
+                    <scaleX id="tabulbot_body" pivotX="0" time="0.3">1.01</scaleX>
+                    <rotate id="tabulbot_hand" pivotX="0.046" pivotY="0.818" time="0.3">-3</rotate>
+                </multiple>
+                <stopParticle id="asap_jalanKiri"/>
+            </sequence>
+        </jalan_kiri>
+
+        <makan>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="makan"></playAnim>
+        </makan>
+        <jurus>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="jurus"></playAnim>
+        </jurus>
+        <skill repeat="-1">
+            <stopParticle id="asap"/>
+            <stopParticle id="asap_jalanKiri"/>
+            <scaleX id="tabulbot_all" pivotX="0" time="0">1</scaleX>
+            <alpha id="emoji" time="0">0</alpha>
+            <sequence>
+                <multiple>
+                    <alpha id="tabulbot_idle_cape" time="0">1</alpha>
+                    <alpha id="tabulbot_idle_shield" time="0">1</alpha>
+                    <alpha id="tabulbot_idle_hand" time="0">1</alpha>
+                    <alpha id="tabulbot_idle_speaker" time="0">1</alpha>
+                    <alpha id="tabulbot_idle_body" time="0">1</alpha>
+
+                    <alpha id="tabulbot_hand" time="0">0</alpha>
+                    <alpha id="tabulbot_body" time="0">0</alpha>
+                    <alpha id="tabulbot_shield" time="0">0</alpha>
+
+                </multiple>
+                <multiple>
+                    <sequence repeat="-1">
+                        <multiple>
+                            <scaleX id="tabulbot_idle_body" pivotX="0.5" time="0.15">1.02</scaleX>
+                            <scaleY id="tabulbot_idle_body" pivotY="1" time="0.15">0.98</scaleY>
+                            <moveY id="tabulbot_idle_shield" pivotY="1" time="0.15">15</moveY>
+                            <moveY id="tabulbot_idle_hand" pivotY="1" time="0.15">-50</moveY>
+                            <rotate id="tabulbot_idle_shield" pivotX="0.86" pivotY="0.34" time="0.15">0</rotate>
+                            <rotate id="tabulbot_idle_hand" pivotX="0.065" pivotY="0.8" time="0.15">0</rotate>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="tabulbot_idle_body" pivotX="0.5" time="0.15">0.98</scaleX>
+                            <scaleY id="tabulbot_idle_body" pivotY="1" time="0.15">1.02</scaleY>
+                            <moveY id="tabulbot_idle_shield" pivotY="1" time="0.15">0</moveY>
+                            <moveY id="tabulbot_idle_hand" pivotY="1" time="0.15">-25</moveY>
+                            <rotate id="tabulbot_idle_shield" pivotX="0.86" pivotY="0.34" time="0.15">5</rotate>
+                            <rotate id="tabulbot_idle_hand" pivotX="0.065" pivotY="0.8" time="0.15">10</rotate>
+                        </multiple>
+                    </sequence>
+                    <sequence repeat="-1">
+                        <multiple>
+                            <scaleX id="tabulbot_idle_speaker" pivotX="0.5" time="0.15">0.9</scaleX>
+                            <scaleY id="tabulbot_idle_speaker" pivotY="0.7" time="0.15">1.1</scaleY>
+                            <playParticle id="petir"/>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="tabulbot_idle_speaker" pivotX="0.5" time="0.15">1</scaleX>
+                            <scaleY id="tabulbot_idle_speaker" pivotY="0.7" time="0.15">1</scaleY>
+                        </multiple>
+                        <stopParticle id="petir"/>
+                    </sequence>
+                    <sequence repeat="-1">
+                        <distort id="tabulbot_idle_cape" x="0.1" y="0.1" time="0.15">D</distort>
+                        <distort id="tabulbot_idle_cape" x="0.25" y="-0.3" time="0.1">D</distort>
+                        <distort id="tabulbot_idle_cape" x="0" y="0" time="0.15">D</distort>
+                    </sequence>
+                </multiple>
+            </sequence>
+        </skill>
+        <hati>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="hati"></playAnim>
+        </hati>
+        <evolusi>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="evolusi"></playAnim>
+        </evolusi>
+    </animation>
+</resources>

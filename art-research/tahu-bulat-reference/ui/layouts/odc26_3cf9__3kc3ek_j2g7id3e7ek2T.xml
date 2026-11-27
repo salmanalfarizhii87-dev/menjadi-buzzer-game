@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Nah, mulai sekarang Akang bisa bebas jualan Tahu Bulat di Atlantis!</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Kalau keluar masuk ke Atlantis, tinggal buka Peta Lintas Dimensi aja, yak!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Siaapp!!&#10;Sampaikan terima kasihku buat Raja Atlantis, yak!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="tekad_bulad" isHold="true">
+            <desc>Bersiaplah kalian Rakyat Atlantis!!&#10;Tahu Bulat terbaik akan segera tersedia di Atlantis!!</desc>
+        </dialog>
+    </skenario>
+</resources>

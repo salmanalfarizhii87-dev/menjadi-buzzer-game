@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <character id="effect" x="0" y="-355" isEmpty="true" width = "768" height="355" >-->
+    <character id="effect" x="0" y="-177" isEmpty="true" width = "384" height="177" >
+<!--        <group id="cahaya1" x="13" y="-216">-->
+        <group id="cahaya1" x="0" y="-108">
+            <image_list>
+                <item>background/Festival_BG2_light.png</item>
+            </image_list>
+        </group>
+    </character>
+
+    <animation>
+        <!-- <sequence>
+            <multiple>
+                <alpha id="cahaya1" time="0.3">1.0</alpha>
+            </multiple>
+            <multiple>
+                <alpha id="cahaya1" time="0.3">0.5</alpha>
+            </multiple>
+            <multiple>
+                <alpha id="cahaya1" time="0.3">1.0</alpha>
+            </multiple>
+            <multiple>
+                <alpha id="cahaya1" time="0.3">0.2</alpha>
+            </multiple>
+        </sequence> -->
+    </animation>
+
+</resources>

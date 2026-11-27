@@ -1,0 +1,154 @@
+<resources>
+    <container id="base">
+        <rect id="bg" widthPersen="1" heightPersen="1" color="000000"/>
+
+<!--        <container id="cont_bg">-->
+<!--            &lt;!&ndash; AUTO GENERATED BG TILES HERE &ndash;&gt;-->
+<!--        </container>-->
+
+
+<!--        <image id="img_label" pivotX="0.5" pivotY="0.5" alignX="wLayar#0.5" y="75" path="ui/ui_lbl_judul.png">-->
+<!--            <textv2 id="text_title" pivotX="0.5" pivotY="0.5" y="-5" font="cuckoo" color="000000" fontSize="50">LUCKY SPINNER</textv2>-->
+<!--        </image>-->
+
+
+        <container id="cont_spinner" pivotX="0.5" pivotY="0.5" alignX="wLayar#0.5" alignY="hLayar#0.5" y="94">
+            <image id="img_spinner_bg" path="spinner/UI_wheel_base.png" pivotX="0.5" pivotY="0.5" isBaseContainer="true"/>
+            <container id="spinner">
+                <image id="img_spinner1" path="spinner/UI_wheel_1.png" pivotX="0.5" pivotY="1.05" rotation="0" pivotRotateX="0.5" pivotRotateY="1.05">
+                    <image id="img_icon1" path="UI_baru/fever_tabul.png" pivotX="0.5" pivotY="0.5" y="-170" scaleX="0.25" scaleY="0.25" pivotScaleX="0.5" pivotScaleY="0.5"/>
+                    <text id="text_spinner1" font="cuckoo" fontSize="40" color="000000" pivotX="0.5" pivotY="0.5" y="-250">x1</text>
+                </image>
+                <image id="img_spinner3" path="spinner/UI_wheel_1.png" pivotX="0.5" pivotY="1.05" rotation="120" pivotRotateX="0.5" pivotRotateY="1.05">
+                    <image id="img_icon3" path="UI_baru/fever_tabul.png" pivotX="0.5" pivotY="0.5" y="-170" scaleX="0.5" scaleY="0.5" pivotScaleX="0.5" pivotScaleY="0.5"/>
+                    <text id="text_spinner3" font="cuckoo" fontSize="40" color="000000" pivotX="0.5" pivotY="0.5" y="-250">x10</text>
+                </image>
+                <image id="img_spinner5" path="spinner/UI_wheel_1.png" pivotX="0.5" pivotY="1.05" rotation="240" pivotRotateX="0.5" pivotRotateY="1.05">
+                    <image id="img_icon5" path="UI_baru/fever_tabul.png" pivotX="0.5" pivotY="0.5" y="-170" scaleX="0.75" scaleY="0.75" pivotScaleX="0.5" pivotScaleY="0.5"/>
+                    <text id="text_spinner5" font="cuckoo" fontSize="40" color="000000" pivotX="0.5" pivotY="0.5" y="-250">x100</text>
+                </image>
+                <image id="img_spinner2" path="spinner/UI_wheel_2.png" pivotX="0.5" pivotY="1.05" rotation="60" pivotRotateX="0.5" pivotRotateY="1.05">
+                    <image id="img_icon2" path="UI_baru/fever_tabul.png" pivotX="0.5" pivotY="0.5" y="-170"/>
+                    <text id="text_spinner2" font="cuckoo" fontSize="40" color="000000" pivotX="0.5" pivotY="0.5" y="-250">x1 Rb</text>
+                </image>
+                <image id="img_spinner4" path="spinner/UI_wheel_2.png" pivotX="0.5" pivotY="1.05" rotation="180" pivotRotateX="0.5" pivotRotateY="1.05">
+                    <image id="img_icon4" path="UI_baru/fever_tabul.png" pivotX="0.5" pivotY="0.5" y="-170" scaleX="1.125" scaleY="1.125" pivotScaleX="0.5" pivotScaleY="0.5"/>
+                    <text id="text_spinner4" font="cuckoo" fontSize="40" color="000000" pivotX="0.5" pivotY="0.5" y="-250">x10 Rb</text>
+                </image>
+                <image id="img_spinner6" path="spinner/UI_wheel_2.png" pivotX="0.5" pivotY="1.05" rotation="300" pivotRotateX="0.5" pivotRotateY="1.05">
+                    <image id="img_icon6" path="UI_baru/fever_tabul.png" pivotX="0.5" pivotY="0.5" y="-170" scaleX="1.25" scaleY="1.25" pivotScaleX="0.5" pivotScaleY="0.5"/>
+                    <text id="text_spinner6" font="cuckoo" fontSize="40" color="000000" pivotX="0.5" pivotY="0.5" y="-250">x100 Rb</text>
+                </image>
+            </container>
+            <image id="img_wheel_cover" path="spinner/UI_wheel_cover_pinat1.png" pivotX="0.5" pivotY="1" y="65"/>
+        </container>
+
+
+        <container id="cont_bot_btn" y="75" pivotX="0.5" alignX="wLayar#0.5" alignY="cont_spinner#1">
+            <button id="btn_ads" x="0" y="0" pivotX="0.5" pivotY="0.5" imageNormal="UI_baru/ui_btn_normal_kuning.png">
+                <image_list id="ic_ads" x="-120" y="-10" pivotX="0.5" pivotY="0" alignY="btn_ads#0">
+                    <item>ui_turis/ic_kameraAds.png</item>
+                </image_list>
+                <text id="textBtnAds" x="26" y="-3" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="55" color="000000" isCenter="true">Putar</text>
+            </button>
+        </container>
+
+        <container id="base_dialog_pinat" x="-9" y="-30" pivotX="0.5" pivotY="1" alignX="wLayar#0.5" alignY="cont_spinner#0" width="726" height="279">
+            <image_list id="lbl_dialog_pinat" x="9" y="0" pivotX="0.5" pivotY="1">
+                <item>floating_box/lbl_tutorial.png</item>
+            </image_list>
+            <image_list id="pinat" x="-242" y="-138" pivotX="0.5" pivotY="0.5">
+                <item>spinner/dialog_pinat_idle.png</item>
+            </image_list>
+            <text id="txt_pinat" x="-118" y="-176" pivotX="0" pivotY="1" font="cuckoo" fontSize="35" color="ffffff" isCenter="false">Pinat</text>
+            <text id="txt_pinat_dialog" x="-118" y="-146" pivotX="0" pivotY="0" font="comicneueBold" fontSize="27" color="000000" wrapWidth="470" isCenter="false">Hmm...&#10;Beli Tahu Bulat berapa banyak ya?</text>
+        </container>
+
+        <container id="base_dialog_akang" x="-9" y="233" pivotX="0.5" pivotY="1" alignX="wLayar#0.5" alignY="cont_spinner#1" width="726" height="279">
+
+            <image id="lbl_dialog_akang" path="floating_box/lbl_tutorial.png" pivotX="0.5" pivotY="1" x="9" y="0" scaleX="-1" pivotScaleX="0.5">
+                <image id="akang" path="pemeran/akang/dialog_akangIdle.png" pivotX="0.42" pivotY="0.94" x="-242" y="110"/>
+            </image>
+            <text id="txt_akang" x="118" y="-176" pivotX="1" pivotY="1" font="cuckoo" fontSize="35" color="ffffff" isCenter="false">Akang Tahu</text>
+            <text id="txt_akang_dialog" x="-300" y="-146" pivotX="0" pivotY="0" font="comicneueBold" fontSize="27" color="000000" wrapWidth="470" isCenter="false">Eh ada Pinat..&#10;Oke, mau berapa banyak nat?</text>
+        </container>
+
+
+        <button id="btnClose" x="-15" y="40" pivotX="1" pivotY="0" alignX="wLayar#1" imageNormal="UI_baru/ui_btn_close.png">
+        </button>
+
+    </container>
+
+    <animation>
+        <spinner_in>
+            <sequence>
+                <multiple>
+                    <alpha id="bg" time="0">0</alpha>
+                    <moveToY id="cont_spinner" time="0" alignY="hLayar#1.5" y="0"/>
+                    <moveToY id="cont_bot_btn" time="0" alignY="hLayar#1.5" y="500"/>
+                    <moveY id="btnClose" time="0">-200</moveY>
+                    <moveToX id="base_dialog_pinat" time="0" alignX="wLayar#-1" x="0"/>
+                    <moveToX id="base_dialog_akang" time="0" alignX="wLayar#1.5" x="0"/>
+                </multiple>
+                <multiple>
+                    <alpha id="bg" time="0.5">0.8</alpha>
+                    <moveY id="cont_spinner" time="0.5">0</moveY>
+                    <moveY id="btnClose" time="0.5">0</moveY>>
+                    <moveY id="cont_bot_btn" time="0.5">0</moveY>
+                    <moveX id="base_dialog_pinat" time="0.5">0</moveX>
+                </multiple>
+            </sequence>
+        </spinner_in>
+
+        <spinner_out>
+            <sequence>
+                <multiple>
+                    <alpha id="bg" time="0.5">0</alpha>
+                    <moveToY id="cont_spinner" time="0.5" alignY="hLayar#1.5" y="0"/>
+                    <moveToY id="cont_bot_btn" time="0.5" alignY="hLayar#1.5" y="500"/>
+                    <moveY id="btnClose" time="0.5">-200</moveY>
+                    <moveToX id="base_dialog_pinat" time="0.5" alignX="wLayar#-1" x="0"/>
+                    <moveToX id="base_dialog_akang" time="0.5" alignX="wLayar#1.5" x="0"/>
+                </multiple>
+            </sequence>
+        </spinner_out>
+
+        <start_spin>
+            <moveY id="btnClose" time="0.5">-200</moveY>>
+            <moveToY id="cont_bot_btn" time="0.5" alignY="hLayar#1.5" y="500"/>
+        </start_spin>
+
+        <finish_spin>
+            <moveY id="base_dialog_akang" time="0">0</moveY>
+            <moveX id="base_dialog_akang" time="0.5">0</moveX>
+        </finish_spin>
+
+        <spinner_in_first>
+            <multiple>
+                <alpha id="bg" time="0">0</alpha>
+                <moveToY id="cont_spinner" time="0" alignY="hLayar#1.5" y="0"/>
+                <moveToY id="cont_bot_btn" time="0" alignY="hLayar#1.5" y="500"/>
+                <moveY id="btnClose" time="0">-200</moveY>
+                <moveToX id="base_dialog_pinat" time="0" alignX="wLayar#-1" x="0"/>
+                <moveToX id="base_dialog_akang" time="0" alignX="wLayar#1.5" x="0"/>
+            </multiple>
+            <multiple>
+                <alpha id="bg" time="0.5">0.8</alpha>
+                <moveX id="base_dialog_pinat" time="0.5">0</moveX>
+            </multiple>
+        </spinner_in_first>
+
+        <dialog_akang_pertama>
+            <moveY id="base_dialog_akang" time="0">-500</moveY>
+            <moveX id="base_dialog_akang" time="0.5">0</moveX>
+        </dialog_akang_pertama>
+
+        <rest_spinner_in>
+            <moveY id="cont_spinner" time="0.5">0</moveY>
+            <moveY id="btnClose" time="0.5">0</moveY>>
+            <moveY id="cont_bot_btn" time="0.5">0</moveY>
+            <moveToX id="base_dialog_akang" time="0.5" alignX="wLayar#1.5" x="0"/>
+        </rest_spinner_in>
+
+    </animation>
+</resources>

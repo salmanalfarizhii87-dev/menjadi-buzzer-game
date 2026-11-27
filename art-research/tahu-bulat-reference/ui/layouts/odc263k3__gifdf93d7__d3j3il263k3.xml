@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <icon>icon/iap/icn_celengan3.png</icon>-->
+    <logo>promogame/ui/PG_ui_masarulogo.png</logo>
+    <judul>Masaru Block Puzzle</judul>
+    <desc>Event Spesial %s&#10;tersedia hingga %s</desc>
+    <package_name>com.owngames.mablockpuzzle</package_name>
+    <activity_name>com.owngames.mablockpuzzle.MainActivity</activity_name>
+    <list_reward>
+
+        <!--//todo hapus pakai yg dibawah-->
+<!--        <reward>-->
+<!--            <item ke="1" syarat="100" tipe="peridot" jumlah="2" idItem="peridot"/>-->
+<!--            <item ke="2" syarat="200" tipe="loker" jumlah="2" idItem="loker_b"/>-->
+<!--            <item ke="3" syarat="300" tipe="iap" jumlah="1" idItem="jam1"/>-->
+<!--        </reward>-->
+<!--        <reward>-->
+<!--            <item ke="1" syarat="1000" tipe="koin" jumlah="100000" idItem="koin"/>-->
+<!--        </reward>-->
+<!--        <reward>-->
+<!--            <item ke="1" syarat="100" tipe="koin" jumlah="100000" idItem="koin"/>-->
+<!--            <item ke="2" syarat="200" tipe="loker" jumlah="2" idItem="loker_b"/>-->
+<!--        </reward>-->
+
+        <reward>
+            <item ke="1" syarat="1000" tipe="loker" jumlah="3" idItem="loker_b"/>
+            <item ke="2" syarat="2000" tipe="loker" jumlah="3" idItem="loker_lb"/>
+            <item ke="3" syarat="3000" tipe="loker" jumlah="3" idItem="loker_l"/>
+        </reward>
+        <reward>
+            <item ke="1" syarat="1000" tipe="loker" jumlah="3" idItem="loker_b"/>
+            <item ke="2" syarat="5000" tipe="peridot" jumlah="5" idItem="peridot"/>
+        </reward>
+        <reward>
+            <item ke="1" syarat="2000" tipe="loker" jumlah="1" idItem="loker_l"/>
+            <item ke="2" syarat="5000" tipe="loker" jumlah="2" idItem="loker_sl"/>
+            <item ke="3" syarat="10000" tipe="iap" jumlah="1" idItem="jam2"/>
+        </reward>
+        <reward>
+            <item ke="1" syarat="5000" tipe="loker" jumlah="1" idItem="loker_m"/>
+        </reward>
+        <reward>
+            <item ke="1" syarat="5000" tipe="peridot" jumlah="3" idItem="peridot"/>
+            <item ke="2" syarat="10000" tipe="iap" jumlah="1" idItem="jam2"/>
+        </reward>
+        <reward>
+            <item ke="1" syarat="5000" tipe="loker" jumlah="8" idItem="loker_b"/>
+            <item ke="2" syarat="7500" tipe="loker" jumlah="1" idItem="loker_m"/>
+        </reward>
+        <reward>
+            <item ke="1" syarat="5000" tipe="loker" jumlah="5" idItem="loker_lb"/>
+            <item ke="2" syarat="7500" tipe="loker" jumlah="3" idItem="loker_sl"/>
+            <item ke="3" syarat="10000" tipe="iap" jumlah="1" idItem="jam2"/>
+        </reward>
+        <reward>
+            <item ke="1" syarat="10000" tipe="loker" jumlah="15" idItem="loker_b"/>
+            <!--//08032020-->
+            <item ke="2" syarat="20000" tipe="peridot" jumlah="15" idItem="peridot"/>
+            <item ke="3" syarat="30000" tipe="iap" jumlah="1" idItem="jam4"/>
+        </reward>
+        <reward>
+            <item ke="1" syarat="10000" tipe="loker" jumlah="8" idItem="loker_lb"/>
+            <item ke="2" syarat="20000" tipe="iap" jumlah="1" idItem="jam3"/>
+            <!--//08032020-->
+            <item ke="3" syarat="30000" tipe="peridot" jumlah="60" idItem="peridot"/>
+        </reward>
+        <reward>
+            <item ke="1" syarat="7500" tipe="peridot" jumlah="5" idItem="peridot"/>
+            <item ke="2" syarat="10000" tipe="iap" jumlah="1" idItem="jam2"/>
+            <item ke="3" syarat="12500" tipe="iap" jumlah="1" idItem="jam3"/>
+        </reward>
+
+    </list_reward>
+</resources>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <image_list id="bannerKolak">
+            <item>UI_baru/banner_kolak.png</item>
+        </image_list>
+
+        <image_list id="batasMenu" alignY="bannerKolak#1">
+            <item>UI_baru/ui_batas_menu.png</item>
+        </image_list>
+
+        <container id="extra" alignY="batasMenu#1" height="200">
+            <image_list id="penutupGradasi" y="171"><!--y="171"-->
+                <item>UI_baru/batas_gradient.png</item>
+            </image_list>
+
+            <image_list id="bgPaperClip" y="10">
+                <item>UI_baru/label_paperclip_lampu_PENDEK.png</item>
+            </image_list>
+
+            <text id="textPaperClip" x="132" y="40" alignX="bgPaperClip#0" alignY="bgPaperClip#0" font="comicneueLight" fontSize="30" color="000000" wrapWidth="350" isCenter="false">Racik menu kolakmu sendiri, tentukan harga, dan dapatkan keuntungan ekstra!!</text>
+
+            <container id="divKoin" x="15" alignX="bgPaperClip#1" y="20" alignY="bgPaperClip#0">
+                <image_list id="bgBarKoin" x="10" y="5" scaleX="1.2" isBaseContainer="true">
+                    <item>UI_baru/bar_peridot.png</item>
+                </image_list>
+                <image_list id="labelKoin">
+                    <item>UI_baru/ic_koin_dalamNegeri.png</item>
+                </image_list>
+                <text id="textKoin" x="-10" y="0" pivotX="1" pivotY="0.5" alignX="bgBarKoin#1" alignY="bgBarKoin#0.5" font="cuckoo" fontSize="28" color="ffffff">000</text>
+            </container>
+        </container>
+
+        <scrollView id="scrollData" y="25" alignY="extra#1" height="1000">
+        </scrollView>
+
+        <container id="contScrollData" y="20" alignY="extra#1">
+            <container id="contResep" x="10" height="775"><!--100+50+12*50-->
+                <image_list id="bgAtasResep" y="25">
+                    <item>UI_baru/lbl_kertaspita_atas.png</item>
+                </image_list>
+                <image_list id="bgTengahResep" alignY="bgAtasResep#1" scaleY="12">
+                    <item>UI_baru/lbl_kertaspita_tengah.png</item>
+                </image_list>
+                <image_list id="bgBawahResep" alignY="bgTengahResep#1">
+                    <item>UI_baru/lbl_kertaspita_bawah.png</item>
+                </image_list>
+                <text id="labelResep" x="50" y="35" font="cuckoo" fontSize="35" color="ffffff">Resep Kolak</text>
+
+                <image_list id="bgTotalModal" x="14" y="-5" alignX="bgBawahResep#0" alignY="bgBawahResep#1" pivotY="1" scaleY="73" pivotScaleY="1">
+                    <item>UI_baru/segmen_biru_3.png</item>
+                </image_list>
+                <container id="divKoinTotal" x="-190" y="-55" alignX="bgBawahResep#1" alignY="bgBawahResep#1">
+                    <image_list id="bgBarKoinTotal" x="10" y="5" scaleX="1.2" isBaseContainer="true">
+                        <item>UI_baru/bar_peridot.png</item>
+                    </image_list>
+                    <image_list id="labelKoinTotal">
+                        <item>UI_baru/ic_koin_dalamNegeri.png</item>
+                    </image_list>
+                    <text id="textTotalModal" x="-10" y="0" pivotX="1" pivotY="0.5" alignX="bgBarKoin#1" alignY="bgBarKoin#0.5" font="cuckoo" fontSize="28" color="ffffff">0</text>
+                </container>
+                <text id="labelTotal" x="-20" y="2" pivotX="1" alignX="divKoinTotal#0" alignY="divKoinTotal#0" font="cuckoo" fontSize="35" color="ffffff">Total Modal/Gelas:</text>
+
+                <container id="listResep" x="30" y="-10" alignY="bgTengahResep#0">
+                    <container id="contPisang" x="0" y="0" width="165" height="276"><!--150+116+10-->
+                        <image_list id="imgPisang">
+                            <item>fitur kolak/ic_kolak_pisangHejo.png</item>
+                        </image_list>
+                        <button id="btnMinus0" x="0" y="0" pivotX="0.1" pivotY="0.1" imageNormal="UI_baru/button_minus_bulatkecil.png">
+                        </button>
+                        <button id="btnPlus0" x="0" y="0" alignX="imgPisang#0" alignY="imgPisang#1" imageNormal="UI_baru/button_2lapis_kuninghijau.png">
+                            <text id="labelPisang" x="0" y="18" font="cuckoo" fontSize="23" color="000000" wrapWidth="150" isCenter="true">Pisang Ijo</text>
+                            <text id="jumlah0" x="0" y="58" font="cuckoo" fontSize="30" color="ffffff" wrapWidth="150" isCenter="true">x0</text>
+                        </button>
+                    </container>
+
+                    <container id="contKolang" x="10" y="0" alignX="contPisang#1" alignY="contPisang#0" width="165" height="276">
+                        <image_list id="imgKolang">
+                            <item>fitur kolak/ic_kolak_kolangKaling.png</item>
+                        </image_list>
+                        <button id="btnMinus1" x="0" y="0" pivotX="0.1" pivotY="0.1" imageNormal="UI_baru/button_minus_bulatkecil.png">
+                        </button>
+                        <button id="btnPlus1" x="0" y="0" alignX="imgKolang#0" alignY="imgKolang#1" imageNormal="UI_baru/button_2lapis_kuninghijau.png">
+                            <text id="labelKolang" x="0" y="18" font="cuckoo" fontSize="23" color="000000" wrapWidth="150" isCenter="true">Kolang Kaling</text>
+                            <text id="jumlah1" x="0" y="58" font="cuckoo" fontSize="30" color="ffffff" wrapWidth="150" isCenter="true">x0</text>
+                        </button>
+                    </container>
+
+                    <container id="contCandil" x="10" y="0" alignX="contKolang#1" alignY="contKolang#0" width="165" height="276">
+                        <image_list id="imgCandil">
+                            <item>fitur kolak/ic_kolak_candil.png</item>
+                        </image_list>
+                        <button id="btnMinus2" x="0" y="0" pivotX="0.1" pivotY="0.1" imageNormal="UI_baru/button_minus_bulatkecil.png">
+                        </button>
+                        <button id="btnPlus2" x="0" y="0" alignX="imgCandil#0" alignY="imgCandil#1" imageNormal="UI_baru/button_2lapis_kuninghijau.png">
+                            <text id="labelCandil" x="0" y="18" font="cuckoo" fontSize="23" color="000000" wrapWidth="150" isCenter="true">Candil</text>
+                            <text id="jumlah2" x="0" y="58" font="cuckoo" fontSize="30" color="ffffff" wrapWidth="150" isCenter="true">x0</text>
+                        </button>
+                    </container>
+
+                    <container id="contMutiara" x="10" y="0" alignX="contCandil#1" alignY="contCandil#0" width="165" height="276">
+                        <image_list id="imgMutiara">
+                            <item>fitur kolak/ic_kolak_mutiara.png</item>
+                        </image_list>
+                        <button id="btnMinus3" x="0" y="0" pivotX="0.1" pivotY="0.1" imageNormal="UI_baru/button_minus_bulatkecil.png">
+                        </button>
+                        <button id="btnPlus3" x="0" y="0" alignX="imgMutiara#0" alignY="imgMutiara#1" imageNormal="UI_baru/button_2lapis_kuninghijau.png">
+                            <text id="labelMutiara" x="0" y="18" font="cuckoo" fontSize="23" color="000000" wrapWidth="150" isCenter="true">Mutiara</text>
+                            <text id="jumlah3" x="0" y="58" font="cuckoo" fontSize="30" color="ffffff" wrapWidth="150" isCenter="true">x0</text>
+                        </button>
+                    </container>
+
+                    <container id="contGulaMerah" x="0" y="10" alignX="contPisang#0" alignY="contPisang#1" width="165" height="276">
+                        <image_list id="imgGulaMerah">
+                            <item>fitur kolak/ic_kolak_gulaMerah.png</item>
+                        </image_list>
+                        <button id="btnMinus4" x="0" y="0" pivotX="0.1" pivotY="0.1" imageNormal="UI_baru/button_minus_bulatkecil.png">
+                        </button>
+                        <button id="btnPlus4" x="0" y="0" alignX="imgGulaMerah#0" alignY="imgGulaMerah#1" imageNormal="UI_baru/button_2lapis_kuninghijau.png">
+                            <text id="labelGulaMerah" x="0" y="18" font="cuckoo" fontSize="23" color="000000" wrapWidth="150" isCenter="true">Gula Merah</text>
+                            <text id="jumlah4" x="0" y="58" font="cuckoo" fontSize="30" color="ffffff" wrapWidth="150" isCenter="true">x0</text>
+                        </button>
+                    </container>
+
+                    <container id="contSantan" x="10" y="0" alignX="contGulaMerah#1" alignY="contGulaMerah#0" width="165" height="276">
+                        <image_list id="imgSantan">
+                            <item>fitur kolak/ic_kolak_santan.png</item>
+                        </image_list>
+                        <button id="btnMinus5" x="0" y="0" pivotX="0.1" pivotY="0.1" imageNormal="UI_baru/button_minus_bulatkecil.png">
+                        </button>
+                        <button id="btnPlus5" x="0" y="0" alignX="imgSantan#0" alignY="imgSantan#1" imageNormal="UI_baru/button_2lapis_kuninghijau.png">
+                            <text id="labelSantan" x="0" y="18" font="cuckoo" fontSize="23" color="000000" wrapWidth="150" isCenter="true">Santan</text>
+                            <text id="jumlah5" x="0" y="58" font="cuckoo" fontSize="30" color="ffffff" wrapWidth="150" isCenter="true">x0</text>
+                        </button>
+                    </container>
+
+                    <container id="contEsBatu" x="10" y="0" alignX="contSantan#1" alignY="contSantan#0" width="165" height="276">
+                        <image_list id="imgEsBatu">
+                            <item>fitur kolak/ic_kolak_esBatu.png</item>
+                        </image_list>
+                        <button id="btnMinus6" x="0" y="0" pivotX="0.1" pivotY="0.1" imageNormal="UI_baru/button_minus_bulatkecil.png">
+                        </button>
+                        <button id="btnPlus6" x="0" y="0" alignX="imgEsBatu#0" alignY="imgEsBatu#1" imageNormal="UI_baru/button_2lapis_kuninghijau.png">
+                            <text id="labelSantan" x="0" y="18" font="cuckoo" fontSize="23" color="000000" wrapWidth="150" isCenter="true">Es Batu</text>
+                            <text id="jumlah6" x="0" y="58" font="cuckoo" fontSize="30" color="ffffff" wrapWidth="150" isCenter="true">x0</text>
+                        </button>
+                    </container>
+
+                    <container id="contAir" x="10" y="0" alignX="contEsBatu#1" alignY="contEsBatu#0" width="165" height="276">
+                        <image_list id="imgAir">
+                            <item>fitur kolak/ic_kolak_air.png</item>
+                        </image_list>
+                        <button id="btnMinus7" x="0" y="0" pivotX="0.1" pivotY="0.1" imageNormal="UI_baru/button_minus_bulatkecil.png">
+                        </button>
+                        <button id="btnPlus7" x="0" y="0" alignX="imgAir#0" alignY="imgAir#1" imageNormal="UI_baru/button_2lapis_kuninghijau.png">
+                            <text id="labelSantan" x="0" y="18" font="cuckoo" fontSize="23" color="000000" wrapWidth="150" isCenter="true">Air</text>
+                            <text id="jumlah7" x="0" y="58" font="cuckoo" fontSize="30" color="ffffff" wrapWidth="150" isCenter="true">x0</text>
+                        </button>
+                    </container>
+                </container>
+            </container>
+
+            <container id="contStrategi" x="10" y="20" alignY="contResep#1" height="400"><!--100+50+5*50-->
+                <image_list id="bgAtasStrategi">
+                    <item>UI_baru/lbl_kertaspita_atas.png</item>
+                </image_list>
+                <image_list id="bgTengahStrategi" alignY="bgAtasStrategi#1" scaleY="5.0">
+                    <item>UI_baru/lbl_kertaspita_tengah.png</item>
+                </image_list>
+                <image_list id="bgBawahStrategi" alignY="bgTengahStrategi#1">
+                    <item>UI_baru/lbl_kertaspita_bawah.png</item>
+                </image_list>
+                <text id="labelStrategi" x="50" y="10" font="cuckoo" fontSize="35" color="ffffff">Strategi Penjualan</text>
+
+                <container id="contStok" y="-10" alignY="bgTengahStrategi#0" height="120">
+                    <image_list id="bgJumlahStok" x="-15" pivotX="0.5" alignX="wLayar#0.5">
+                        <item>UI_baru/segmen_biru_2.png</item>
+                    </image_list>
+                    <text id="labelJumlahStok" x="-15" y="5" alignY="bgJumlahStok#0" alignX="wLayar#0.5" pivotX="0.5" font="cuckoo" fontSize="35" color="ffffff">Jumlah Stok(gelas)</text>
+
+                    <button id="btnStok" x="0" y="10" pivotX="1" alignX="bgJumlahStok#1" alignY="bgJumlahStok#1" imageNormal="UI_baru/ui_btn_buy.png">
+                        <text id="labelBtnStok" x="-203" y="12" font="cuckoo" fontSize="30" color="ffffff" wrapWidth="203" isCenter="true">Ganti</text>
+                    </button>
+                    <image_list id="segmenStok" x="0" alignX="bgJumlahStok#0" alignY="btnStok#1">
+                        <item>UI_baru/segmen_garis.png</item>
+                    </image_list>
+                    <text id="jumlahStok" x="10" y="-5" pivotY="1" alignX="segmenStok#0" alignY="segmenStok#1" font="cuckoo" fontSize="40" color="000000">0</text>
+                </container>
+
+                <container id="contHargaJual" y="25" alignY="contStok#1">
+                    <image_list id="bgHargaJual" x="-15" pivotX="0.5" alignX="wLayar#0.5">
+                        <item>UI_baru/segmen_biru_2.png</item>
+                    </image_list>
+                    <text id="labelHargaJual" x="-15" y="5" alignY="bgHargaJual#0" alignX="wLayar#0.5" pivotX="0.5" font="cuckoo" fontSize="35" color="ffffff">Harga Jual/gelas</text>
+
+                    <button id="btnHargaJual" x="0" y="10" pivotX="1" alignX="bgHargaJual#1" alignY="bgHargaJual#1" imageNormal="UI_baru/ui_btn_buy.png">
+                        <text id="labelBtnHargaJual" x="-203" y="12" font="cuckoo" fontSize="30" color="ffffff" wrapWidth="203" isCenter="true">Ganti</text>
+                    </button>
+                    <image_list id="segmenHargaJual" x="0" alignX="bgHargaJual#0" alignY="btnHargaJual#1">
+                        <item>UI_baru/segmen_garis.png</item>
+                    </image_list>
+                    <image_list id="imgKoinHargaJual" x="10" y="-5" pivotY="1" alignX="segmenHargaJual#0" alignY="segmenHargaJual#1">
+                        <item>UI_baru/ic_koin_dalamNegeri.png</item>
+                    </image_list>
+                    <text id="hargaJual" x="10" y="-5" pivotY="1" alignX="imgKoinHargaJual#1" alignY="segmenHargaJual#1" font="cuckoo" fontSize="40" color="000000">0</text>
+                </container>
+            </container>
+
+            <container id="contTotalPenjualan" x="10" y="30" alignY="contStrategi#1" height="400"><!--100+50+(5*50)-->
+                <image_list id="bgAtasPenjualan">
+                    <item>UI_baru/lbl_kertaspita_atas.png</item>
+                </image_list>
+                <image_list id="bgTengahPenjualan" alignY="bgAtasPenjualan#1" scaleY="5.0">
+                    <item>UI_baru/lbl_kertaspita_tengah.png</item>
+                </image_list>
+                <image_list id="bgBawahPenjualan" alignY="bgTengahPenjualan#1">
+                    <item>UI_baru/lbl_kertaspita_bawah.png</item>
+                </image_list>
+                <text id="labelPenjualan" x="50" y="10" font="cuckoo" fontSize="35" color="ffffff">Total Penjualan</text>
+
+                <container id="detailPenjualan" y="-10" alignY="bgTengahPenjualan#0" height="120">
+                </container>
+
+                <button id="btnSharePenjualan" x="-15" y="0" pivotY="0.2" pivotX="1" alignX="bgAtasPenjualan#1" alignY="bgAtasPenjualan#0" imageNormal="UI_baru/button_bulat_kuning.png" onClick="shareScreenshot">
+                    <image_list id="labelShare" x="-45" pivotX="0.5" y="25" pivotY="0.5">
+                        <item>UI_baru/ic_share_hitam.png</item>
+                    </image_list>
+                </button>
+            </container>
+
+            <container id="contRekor" x="10" y="30" alignY="contTotalPenjualan#1" height="425"><!--100+50+(4*50)-->
+                <image_list id="bgAtasRekor">
+                    <item>UI_baru/lbl_kertaspita_atas.png</item>
+                </image_list>
+                <image_list id="bgTengahRekor" alignY="bgAtasRekor#1" scaleY="5.0">
+                    <item>UI_baru/lbl_kertaspita_tengah.png</item>
+                </image_list>
+                <image_list id="bgBawahRekor" alignY="bgTengahRekor#1">
+                    <item>UI_baru/lbl_kertaspita_bawah.png</item>
+                </image_list>
+                <text id="labelRekor" x="50" y="10" font="cuckoo" fontSize="35" color="ffffff">Penjualan Terbaik</text>
+                
+                <container id="detailRekor" y="-10" alignY="bgTengahRekor#0">
+                    <image_list id="bgRekor" x="18" y="75" scaleY="1.5" scaleX="1.06" isBaseContainer="true">
+                        <item>UI_baru/segmen_biru_2.png</item>
+                    </image_list>
+                    <image_list id="imgRekor0" x="25" y="5" scaleX="0.5" scaleY="0.5">
+                        <item>fitur kolak/ic_kolak_pisangHejo.png</item>
+                    </image_list>
+                    <image_list id="imgRekor1" x="10" alignX="imgRekor0#1" alignY="imgRekor0#0" scaleX="0.5" scaleY="0.5">
+                        <item>fitur kolak/ic_kolak_kolangKaling.png</item>
+                    </image_list>
+                    <image_list id="imgRekor2" x="10" alignX="imgRekor1#1" alignY="imgRekor0#0" scaleX="0.5" scaleY="0.5">
+                        <item>fitur kolak/ic_kolak_candil.png</item>
+                    </image_list>
+                    <image_list id="imgRekor3" x="10" alignX="imgRekor2#1" alignY="imgRekor0#0" scaleX="0.5" scaleY="0.5">
+                        <item>fitur kolak/ic_kolak_mutiara.png</item>
+                    </image_list>
+                    <image_list id="imgRekor4" x="10" alignX="imgRekor3#1" alignY="imgRekor0#0" scaleX="0.5" scaleY="0.5">
+                        <item>fitur kolak/ic_kolak_gulaMerah.png</item>
+                    </image_list>
+                    <image_list id="imgRekor5" x="10" alignX="imgRekor4#1" alignY="imgRekor0#0" scaleX="0.5" scaleY="0.5">
+                        <item>fitur kolak/ic_kolak_santan.png</item>
+                    </image_list>
+                    <image_list id="imgRekor6" x="10" alignX="imgRekor5#1" alignY="imgRekor0#0" scaleX="0.5" scaleY="0.5">
+                        <item>fitur kolak/ic_kolak_esBatu.png</item>
+                    </image_list>
+                    <image_list id="imgRekor7" x="10" alignX="imgRekor6#1" alignY="imgRekor0#0" scaleX="0.5" scaleY="0.5">
+                        <item>fitur kolak/ic_kolak_air.png</item>
+                    </image_list>
+
+                    <text id="textRekor0" x="0" y="5" pivotX="0.5" alignX="imgRekor0#0.5" alignY="imgRekor0#1" font="cuckoo" fontSize="30" color="ffffff">x0</text>
+                    <text id="textRekor1" x="0" y="5" pivotX="0.5" alignX="imgRekor1#0.5" alignY="imgRekor1#1" font="cuckoo" fontSize="30" color="ffffff">x0</text>
+                    <text id="textRekor2" x="0" y="5" pivotX="0.5" alignX="imgRekor2#0.5" alignY="imgRekor2#1" font="cuckoo" fontSize="30" color="ffffff">x0</text>
+                    <text id="textRekor3" x="0" y="5" pivotX="0.5" alignX="imgRekor3#0.5" alignY="imgRekor3#1" font="cuckoo" fontSize="30" color="ffffff">x0</text>
+                    <text id="textRekor4" x="0" y="5" pivotX="0.5" alignX="imgRekor4#0.5" alignY="imgRekor4#1" font="cuckoo" fontSize="30" color="ffffff">x0</text>
+                    <text id="textRekor5" x="0" y="5" pivotX="0.5" alignX="imgRekor5#0.5" alignY="imgRekor5#1" font="cuckoo" fontSize="30" color="ffffff">x0</text>
+                    <text id="textRekor6" x="0" y="5" pivotX="0.5" alignX="imgRekor6#0.5" alignY="imgRekor6#1" font="cuckoo" fontSize="30" color="ffffff">x0</text>
+                    <text id="textRekor7" x="0" y="5" pivotX="0.5" alignX="imgRekor7#0.5" alignY="imgRekor7#1" font="cuckoo" fontSize="30" color="ffffff">x0</text>
+                </container>
+                <container id="dataRekor" y="85" alignX="detailRekor#0" alignY="detailRekor#1">
+                    <text id="labelTerjual" x="20" y="0" font="comicneueLight" fontSize="27" color="000000">Terjual</text>
+                    <text id="samaDenganTerjual" x="150" y="0" alignX="labelTerjual#1" alignY="labelTerjual#0" font="comicneueLight" fontSize="27" color="000000">:</text>
+                    <text id="jlhTerjual" x="10" y="0" alignX="samaDenganTerjual#1" alignY="labelTerjual#0" font="comicneueLight" fontSize="27" color="000000">0 gelas</text>
+
+                    <text id="labelModal" x="0" y="15" alignX="labelTerjual#0" alignY="labelTerjual#1" font="comicneueLight" fontSize="27" color="000000">Modal</text>
+                    <text id="samaDenganModal" x="0" y="0" alignX="samaDenganTerjual#0" alignY="labelModal#0" font="comicneueLight" fontSize="27" color="000000">:</text>
+                    <image_list id="koinModal" x="0" y="-5" alignX="jlhTerjual#0" alignY="labelModal#0">
+                        <item>UI_baru/ic_koin_dalamNegeri.png</item>
+                    </image_list>
+                    <text id="jlhModal" x="10" y="0" alignX="koinModal#1" alignY="labelModal#0" font="comicneueLight" fontSize="27" color="000000">0</text>
+
+                    <text id="labelPenghasilan" x="0" y="15" alignX="labelTerjual#0" alignY="labelModal#1" font="comicneueLight" fontSize="27" color="000000">Pemasukkan</text>
+                    <text id="samaDenganHasil" x="0" y="0" alignX="samaDenganModal#0" alignY="labelPenghasilan#0" font="comicneueLight" fontSize="27" color="000000">:</text>
+                    <image_list id="koinHasil" x="0" y="-5" alignX="koinModal#0" alignY="labelPenghasilan#0">
+                        <item>UI_baru/ic_koin_dalamNegeri.png</item>
+                    </image_list>
+                    <text id="jlhPenghasilan" x="0" y="0" alignX="jlhModal#0" alignY="labelPenghasilan#0" font="comicneueLight" fontSize="27" color="000000">0</text>
+                </container>
+
+                <button id="btnShareRekor" x="-15" y="0" pivotY="0.2" pivotX="1" alignX="bgAtasRekor#1" alignY="bgAtasRekor#0" imageNormal="UI_baru/button_bulat_kuning.png" onClick="shareScreenshot">
+                    <image_list id="labelShare" x="-45" y="25" pivotY="0.5" pivotX="0.5">
+                        <item>UI_baru/ic_share_hitam.png</item>
+                    </image_list>
+                </button>
+            </container>
+        </container>
+
+        <container id="barBackMenu" y="-137" alignY="hLayar#1" height="137">
+            <image_list id="bgMenuBack" y="137" pivotY="1">
+                <item>UI_baru/ui_batas_menu_back.png</item>
+            </image_list>
+            <button id="btnBack" x="20" imageNormal="UI_baru/btn_back.png" y="137" pivotY="1" onClick="backPressed">
+            </button>
+
+            <button id="btnJual" x="0" pivotX="0.5" alignX="wLayar#0.5" imageNormal="UI_baru/button_hijau_lebarbesar.png" y="137" pivotY="1">
+                <text id="labelJual" x="0" y="-80" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="55" color="ffffff">Jual!</text>
+            </button>
+
+            <button id="btnInfo" x="-20" pivotX="1" alignX="wLayar#1" imageNormal="UI_baru/button_bulat_besar_kuning.png" y="137" pivotY="1" onClick="popUp#infoKolak">
+                <image_list id="labelInfo" x="-61" y="-78" pivotY="0.5" pivotX="0.5">
+                    <item>UI_baru/ic_info.png</item>
+                </image_list>
+            </button>
+        </container>
+    </container>
+
+    <animation>
+    </animation>
+</resources>

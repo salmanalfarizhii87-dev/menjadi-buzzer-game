@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario>
+        <dialog karakter="0" ekspresi="tekad_bulad" hold="false"/>
+        <pilihan alignY="0.5f" y="-120" animasi="0.3" ekspresi="tekad_bulad" formatType="level_pemain">
+            <dialog>Dengan Tekad Bulat...&#10;Bisnis Tahu Bulatmu naik tingkat ke tingkat %1$s!CAKEPP!!</dialog>
+            <buttons>
+                <button tipe="close" image="UI_baru/ui_btn_normal_kuning.png" text_colour="0x000000" text="Cihuuy!"/>
+            </buttons>
+        </pilihan>
+    </skenario>
+</resources>

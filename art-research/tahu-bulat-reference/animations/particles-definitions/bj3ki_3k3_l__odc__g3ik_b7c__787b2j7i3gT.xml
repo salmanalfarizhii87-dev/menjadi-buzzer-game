@@ -1,0 +1,35 @@
+<resources>
+    <particlesystem x="380" y="550">
+        <!--efek ke- 2-->
+        <emitter pivotX="0.5" pivotY="0.5" type="area">
+            <particle lifetime="2">
+                <imagelist>
+                    <image>ksatriatahu/xml/partikel/img/partikel_efekSerap2.png</image>
+                </imagelist>
+                <p_start>
+                    <scale pivotX="0.5" pivotY="0.5" min="5" max="6"/>
+                    <alpha min="0" max="0"/>
+                </p_start>
+                <p_running>
+                    <scale min="7" max="8" when="0.9"/>
+                    <scale min="5" max="6" when="0.93"/>
+                    <scale min="6" max="8" when="1"/>
+                    <alpha min="0.4" max="0.8" when="0.3"/>
+                    <alpha min="0" max="0" when="0.7"/>
+                    <alpha min="0.3" max="0.7" when="0.9"/>
+                    <alpha min="0" max="0" when="1"/>
+                </p_running>
+            </particle>
+            <e_start>
+                <!--<burst nBurst="7" burstTime="0.1"/>-->
+                <!--<emit nEmit="5" repeat="-1" delay="0.3"/>-->
+                <burst nBurst="5" burstTime="0.1"/>
+                <!--<emit nEmit="5" repeat="-1" delay="4"/>-->
+                <source>
+                    <point x="-120" y="-150"/>
+                    <point x="120" y="150"/>
+                </source>
+            </e_start>
+        </emitter>
+    </particlesystem>
+</resources>

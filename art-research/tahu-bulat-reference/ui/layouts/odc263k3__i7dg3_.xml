@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <rempah_data id="0" nama="Bawang Putih" desk="Putih-putih melati, Alibaba~" rarity="0" baseharga="10" penambah="10" maxupgrade="99" extraEffectId="-1" sortNo="1" ic="ic_rempah_bawangPutih.png"/>
+    <rempah_data id="1" nama="Bawang Merah" desk="Merah-merah delima, Pinokio~" rarity="0" baseharga="10" penambah="10" maxupgrade="99" extraEffectId="-1" sortNo="1" ic="ic_rempah_bawangMerah.png"/>
+    <rempah_data id="2" nama="Bawang Bombay" desk="Harga random bikin Ibu-ibu nangis bombay." rarity="0" baseharga="10" penambah="10" maxupgrade="99" extraEffectId="-1" sortNo="1" ic="ic_rempah_bawangBombay.png"/>
+    <rempah_data id="3" nama="Bawang daun" desk="Ditabur di atas kuah.. Cesss.. Ahh~" rarity="0" baseharga="10" penambah="10" maxupgrade="99" extraEffectId="-1" sortNo="1" ic="ic_rempah_daunBawang.png"/>
+    <rempah_data id="4" nama="Bawang Mutiara" desk="Gak bisa dijadikan pengganti anting." rarity="0" baseharga="10" penambah="10" maxupgrade="99" extraEffectId="-1" sortNo="1" ic="ic_rempah_bawangMutiara.png"/>
+
+    <rempah_data id="5" nama="Daun Salam" desk="Daun paling sopan dan santun." rarity="1" baseharga="50" penambah="25" maxupgrade="99" extraEffectId="-1" sortNo="1" ic="ic_rempah_daunSalam.png"/>
+    <rempah_data id="6" nama="Daun Kemangi" desk="Biasanya buat Lalapan, cocol sambel dulu ya." rarity="1" baseharga="50" penambah="25" maxupgrade="99" extraEffectId="-1" sortNo="1" ic="ic_rempah_daunKemangi.png"/>
+    <rempah_data id="7" nama="Daun Ketumbar" desk="Beda sama Daun Seledri, yak!" rarity="1" baseharga="50" penambah="25" maxupgrade="99" extraEffectId="-1" sortNo="1" ic="ic_rempah_daunKetumbar.png"/>
+    <rempah_data id="8" nama="Daun Seledri" desk="Beda sama Daun Ketumbar, yak!" rarity="1" baseharga="50" penambah="25" maxupgrade="99" extraEffectId="-1" sortNo="1" ic="ic_rempah_daunSeledri.png"/>
+    <rempah_data id="9" nama="Daun Mint" desk="Bikin gigi dan gusi sehat!" rarity="1" baseharga="50" penambah="25" maxupgrade="99" extraEffectId="-1" sortNo="1" ic="ic_rempah_ daunMint.png"/>
+
+    <rempah_data id="10" nama="Jeruk Purut" desk="Dijamin bebas dari hantu!" rarity="2" baseharga="100" penambah="50" maxupgrade="99" extraEffectId="0" besarEfek="75" sortNo="1" ic="ic_rempah_jerukPurut.png"/>
+    <rempah_data id="11" nama="Lada" rarity="2" desk="Penyebab utama penjajahan." baseharga="100" penambah="50" maxupgrade="99" extraEffectId="1" besarEfek="75" sortNo="1" ic="ic_rempah_lada.png"/>
+    <rempah_data id="12" nama="Pala" rarity="2" desk="Pundak lutut kaki lutut kaki... #eh" baseharga="100" penambah="50" maxupgrade="99" extraEffectId="2" besarEfek="75" sortNo="1" ic="ic_rempah_pala.png"/>
+    <rempah_data id="13" nama="Kemiri" rarity="2" desk="Hah?! Kacang Lilin?" baseharga="100" penambah="50" maxupgrade="99" extraEffectId="3" besarEfek="75" sortNo="1" ic="ic_rempah_kemiri.png"/>
+    <rempah_data id="14" nama="Terasi" rarity="2" desk="Aromanya memikat~ Bahannya serba guna~" baseharga="100" penambah="50" maxupgrade="99" extraEffectId="4" besarEfek="75" sortNo="1" ic="ic_rempah_terasi.png"/>
+
+    <rempah_data id="15" nama="Jahe" desk="Bisa jadi obat sakti mandraguna!" rarity="3" baseharga="500" penambah="150" maxupgrade="50" extraEffectId="0" besarEfek="100" sortNo="1" ic="ic_rempah_jahe.png"/>
+    <rempah_data id="16" nama="Lengkuas" desk="Gak bisa dipakai menggambar." rarity="3" baseharga="500" penambah="150" maxupgrade="50" extraEffectId="1" besarEfek="100" sortNo="1" ic="ic_rempah_lengkuas.png"/>
+    <rempah_data id="17" nama="Kunyit" desk="Kuning kaya Tako." rarity="3" baseharga="500" penambah="150" maxupgrade="50" extraEffectId="2" besarEfek="100" sortNo="1" ic="ic_rempah_kunyit.png"/>
+    <rempah_data id="18" nama="Kencur" desk="Bumbu Favoritnya Mba Pur buat Nasi Goreng." rarity="3" baseharga="500" penambah="150" maxupgrade="50" extraEffectId="3" besarEfek="100" sortNo="1" ic="ic_rempah_kencur.png"/>
+    <rempah_data id="19" nama="Temulawak" desk="Kalau ketemu, emang suka ngelawak." rarity="3" baseharga="500" penambah="150" maxupgrade="50" extraEffectId="4" besarEfek="100" sortNo="1" ic="ic_rempah_temulawak.png"/>
+
+    <rempah_data id="20" nama="Pink Salt" desk="Asli dari Himalaya!" rarity="4" baseharga="2000" penambah="500" maxupgrade="35" extraEffectId="5" besarEfek="50" sortNo="1" ic="ic_pinkSalt.png"/>
+    <rempah_data id="21" nama="Gula Aren" desk="Bukan Gula Merah!" rarity="4" baseharga="2000" penambah="500" maxupgrade="35" extraEffectId="6" besarEfek="-10" sortNo="1" ic="ic_gulaAren.png"/>
+    <rempah_data id="22" nama="Cengkeh" desk="Memang untuk bumbu makanan, bukan yang lain." rarity="4" baseharga="2000" penambah="500" maxupgrade="35" extraEffectId="7" besarEfek="-10" sortNo="1" ic="ic_rempah_cengkeh.png"/>
+
+    <rempah_data id="23" nama="Madu Gunung" desk="Bukan dari Anak Gunung Krakatau." rarity="5" baseharga="5000" penambah="3500" maxupgrade="20" extraEffectId="8" besarEfek="25" sortNo="1" ic="ic_rempah_madu.png"/>
+    <rempah_data id="24" nama="Bawang Sumenep" desk="Paling Mantep buat jadi Bawang Goreng!" rarity="5" baseharga="5000" penambah="3500" maxupgrade="20" extraEffectId="9" besarEfek="10" sortNo="1" ic="ic_rempah_bawangSumenep.png"/>
+
+</resources>

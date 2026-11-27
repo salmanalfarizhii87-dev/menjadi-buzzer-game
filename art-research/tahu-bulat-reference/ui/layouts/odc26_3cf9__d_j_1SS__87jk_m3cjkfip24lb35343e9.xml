@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+	    <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Tiba-tiba teringat lagi sama Kang Piki..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Terakhir kali tanding dagang, Kang Piki bilang dia yang menang..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Tapi ntah kenapa rasanya kayak ada yang salah sama Kang Piki...</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>HAHAHAHAHAHA!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>E-e-eh??&#10;Kang Piki? Kok tahu-tahu muncul??</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHA!! Aku terpanggil sama orang yang gagal move-on dari kekalahannya di Olimpiade kemarin..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Bener juga...&#10;Jadi Kang Piki teh beneran menang?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hmphh..&#10;Ngapain masih mikirin yang udah lewat?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Kalau kamu gak ngerasa kalah, ya ayo kita buktikan dengan tanding dagang lagi aja!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Wooohh!! &#10;Ayok! Siapa takut?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Mwahahahaha!!&#10;Bagus-bagus, kalau begitu sampai ketemu di tempat biasa nanti yak!</desc>
+        </dialog>
+        <aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+        <dialog karakter="0" tipe="kiri" ekspresi="tekad_bulad" isHold="true">
+            <desc>Baiklah!! Mari kita buktikan siapa pemenang sebenarnya dengan Tekad Bulat!!</desc>
+        </dialog>
+    </skenario>
+</resources>

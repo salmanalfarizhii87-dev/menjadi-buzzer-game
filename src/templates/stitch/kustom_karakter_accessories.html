@@ -1,0 +1,114 @@
+<div class="min-h-[884px] max-w-md mx-auto flex flex-col bg-dock-bg" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- Top Purple HUD Bar -->
+    <header class="sticky top-0 z-20 flex flex-col shadow-[0_3px_8px_rgba(0,0,0,0.22)]">
+      <div class="ref-hud-purple flex items-center gap-gutter-sm px-gutter-sm py-gutter-sm">
+        <a href="../11-character-customizer/Character%20Customizer.html" aria-label="Kembali ke Kustom Karakter" class="w-11 h-11 rounded-full ref-back-circle flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M15 6L9 12L15 18" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </a>
+
+        <div class="flex-1 ref-cyan-pill rounded-lg px-gutter-md py-1 flex flex-col items-center justify-center min-w-0">
+          <span class="font-headline text-title-md text-light-surface-bright leading-none" data-design-text-token="title-md">Accessories</span>
+          <span class="font-mono text-label-sm text-light-surface-bright leading-none mt-0.5" data-design-text-token="label-sm">Kustom Karakter • @KilatDaily</span>
+        </div>
+
+        <div class="px-gutter-sm py-1.5 rounded-lg bg-light-surface-bright flex items-center gap-1 shrink-0">
+          <span id="acc-balance" class="font-headline text-label-sm text-ink-dark tabular-nums" data-design-text-token="label-sm">Rp 500</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col gap-gutter-md p-gutter-md pb-gutter-xl">
+
+      <!-- Avatar Photo & Accessory Badge Preview Stage -->
+      <section aria-label="Pratinjau aksesori karakter" class="ref-stage-spotlight rounded-xl p-gutter-md flex flex-col items-center gap-gutter-sm">
+        <div data-stitch-img="Foto karakter memakai aksesori" class="w-32 h-32 rounded-full object-cover border-4 border-hud-purple shadow-[0_4px_0_#94A3B8] stitch-img" role="img" aria-label="Foto karakter memakai aksesori"></div>
+
+        <div class="text-center flex flex-col items-center gap-gutter-xs">
+          <h1 class="font-headline text-headline-md text-ink-dark" data-design-text-token="headline-md">@KilatDaily</h1>
+          <p id="preview-bonus" class="px-gutter-sm py-gutter-xs rounded-full bg-success text-light-surface-bright font-headline text-label-sm" data-design-text-token="label-sm">Aksesori: Kacamata Bulat • +3% Fokus</p>
+        </div>
+      </section>
+
+      <!-- Kustom Karakter Sub-Screen Navigation -->
+      <nav aria-label="Kategori kustom karakter" class="grid grid-cols-3 gap-gutter-xs ref-hud-purple p-1.5 rounded-xl border-2 border-ink-dark">
+        <a href="../11-character-customizer/Character%20Customizer.html" class="text-center px-gutter-sm py-gutter-sm rounded-lg text-light-surface-bright font-headline text-label-sm" data-design-text-token="label-sm">Player</a>
+        <a href="../19-character-outfits/Character%20Outfits.html" class="text-center px-gutter-sm py-gutter-sm rounded-lg text-light-surface-bright font-headline text-label-sm" data-design-text-token="label-sm">Outfits</a>
+        <a href="#" aria-current="page" class="text-center px-gutter-sm py-gutter-sm rounded-lg bg-btn-yellow text-ink-dark font-headline text-label-sm" data-design-text-token="label-sm">Accessories</a>
+      </nav>
+
+      <!-- Accessories Grid -->
+      <section aria-label="Daftar accessories" class="ref-card rounded-xl p-gutter-md flex flex-col gap-gutter-sm">
+        <div class="flex items-center justify-between gap-gutter-sm">
+          <h2 class="font-headline text-title-md text-ink-dark" data-design-text-token="title-md">Koleksi Accessories</h2>
+          <a href="../03-asset-shop/Asset%20Shop.html" class="font-headline text-label-sm text-btn-blue-dark underline" data-design-text-token="label-sm">Beli di Shop</a>
+        </div>
+
+        <div class="grid grid-cols-2 gap-gutter-sm">
+          <!-- Acc 1 -->
+          <button type="button" onclick="selectAcc(this, &#39;Kacamata Bulat&#39;, &#39;glasses&#39;, &#39;+3% Fokus&#39;)" class="acc-opt flex flex-col items-center gap-gutter-xs p-gutter-sm rounded-xl border-2 border-success bg-dock-bg cursor-pointer">
+            <svg class="w-14 h-14" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <circle cx="16" cy="25" r="7" fill="#BFDBFE" stroke="#1E1B2E" stroke-width="2.4"></circle>
+              <circle cx="32" cy="25" r="7" fill="#BFDBFE" stroke="#1E1B2E" stroke-width="2.4"></circle>
+              <path d="M23 25H25M9 24L6 20M39 24L42 20" stroke="#1E1B2E" stroke-width="2.4" stroke-linecap="round"></path>
+            </svg>
+            <span class="font-headline text-body-sm text-ink-dark" data-design-text-token="body-sm">Kacamata Bulat</span>
+            <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">+3% Fokus</span>
+            <span class="acc-status px-gutter-sm py-gutter-xs rounded-full bg-success text-light-surface-bright font-headline text-label-sm" data-design-text-token="label-sm">Dipakai</span>
+          </button>
+
+          <!-- Acc 2 -->
+          <button type="button" onclick="selectAcc(this, &#39;Headset Studio&#39;, &#39;headset&#39;, &#39;+5% Audio&#39;)" class="acc-opt flex flex-col items-center gap-gutter-xs p-gutter-sm rounded-xl border-2 border-slate-300 bg-light-surface-bright cursor-pointer">
+            <svg class="w-14 h-14" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <path d="M11 26V22C11 14.8 16.8 9 24 9C31.2 9 37 14.8 37 22V26" stroke="#1E1B2E" stroke-width="3" stroke-linecap="round"></path>
+              <rect x="8" y="23" width="7" height="12" rx="3" fill="#FACC15" stroke="#1E1B2E" stroke-width="2"></rect>
+              <rect x="33" y="23" width="7" height="12" rx="3" fill="#FACC15" stroke="#1E1B2E" stroke-width="2"></rect>
+            </svg>
+            <span class="font-headline text-body-sm text-ink-dark" data-design-text-token="body-sm">Headset Studio</span>
+            <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">+5% Audio</span>
+            <span class="acc-status px-gutter-sm py-gutter-xs rounded-full bg-dock-bg text-ink-dark font-headline text-label-sm" data-design-text-token="label-sm">Milikmu</span>
+          </button>
+
+          <!-- Acc 3 -->
+          <button type="button" onclick="selectAcc(this, &#39;Topi Terbalik&#39;, &#39;cap&#39;, &#39;+4% Hype&#39;)" class="acc-opt flex flex-col items-center gap-gutter-xs p-gutter-sm rounded-xl border-2 border-slate-300 bg-light-surface-bright cursor-pointer">
+            <svg class="w-14 h-14" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <path d="M12 27C12 18 17 13 24 13C31 13 36 18 36 27H12Z" fill="#EF4444" stroke="#1E1B2E" stroke-width="2.2"></path>
+              <path d="M35 27H43C43 30 39 31 35 31H12" fill="#FACC15" stroke="#1E1B2E" stroke-width="2.2" stroke-linejoin="round"></path>
+            </svg>
+            <span class="font-headline text-body-sm text-ink-dark" data-design-text-token="body-sm">Topi Terbalik</span>
+            <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">+4% Hype</span>
+            <span class="acc-status px-gutter-sm py-gutter-xs rounded-full bg-dock-bg text-ink-dark font-headline text-label-sm" data-design-text-token="label-sm">Milikmu</span>
+          </button>
+
+          <!-- Acc 4 (Shop) -->
+          <a href="../03-asset-shop/Asset%20Shop.html" class="flex flex-col items-center justify-center gap-gutter-xs p-gutter-sm rounded-xl border-2 border-dashed border-slate-400 bg-dock-bg">
+            <svg class="w-14 h-14" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <rect x="18" y="8" width="12" height="32" rx="3" fill="#CBD5E1" stroke="#334155" stroke-width="2"></rect>
+              <circle cx="24" cy="24" r="9" fill="#FACC15" stroke="#1E1B2E" stroke-width="2.2"></circle>
+              <path d="M24 19V24L27 26" stroke="#1E1B2E" stroke-width="2" stroke-linecap="round"></path>
+            </svg>
+            <span class="font-headline text-body-sm text-ink-dark" data-design-text-token="body-sm">Jam Emas</span>
+            <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">+10% Status</span>
+            <span class="px-gutter-sm py-gutter-xs rounded-full bg-btn-yellow text-ink-dark font-headline text-label-sm tabular-nums" data-design-text-token="label-sm">Shop • Rp 300</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Save Feedback Toast -->
+      <p id="save-toast" class="hidden text-center font-headline text-body-sm text-light-surface-bright bg-success border-2 border-ink-dark rounded-xl py-gutter-sm px-gutter-md" data-design-text-token="body-sm">
+        Aksesori berhasil dipasang &amp; disimpan!
+      </p>
+
+      <!-- Save CTA -->
+      <button type="button" onclick="saveAcc()" class="ref-btn-green w-full inline-flex items-center justify-center gap-gutter-sm px-gutter-lg py-gutter-md rounded-xl cursor-pointer">
+        <svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M5 12.5L9.5 17L19 7.5" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        <span class="font-headline text-label-lg text-light-surface-bright" data-design-text-token="label-lg">Pasang Aksesori</span>
+      </button>
+
+    </main>
+  </div>

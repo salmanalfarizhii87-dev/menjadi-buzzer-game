@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <story lamaFestival="172800" noMisi="11" delayFestival="86400">
+        <judul>Artis K-Pop!</judul>
+        <image>UI_baru/banner_popUp_festival_story.png</image>
+        <syarat_buka>
+            <item tipe="penghasilan" cabang="Bandung">700000000000</item>
+            <item tipe="story" cabang="Atlantis Story" value="3"/>
+        </syarat_buka>
+        <storyBukaCabang>xml_dialog/misi 11/festivalstory_bukacabang.xml</storyBukaCabang>
+        <storyAwalDiCabang>xml_dialog/misi 11/festivalstory_awal.xml</storyAwalDiCabang>
+        <storyTargetTercapai>xml_dialog/misi 11/festivalstory_targettercapai.xml</storyTargetTercapai>
+        <storyTargetTidakTercapai>xml_dialog/misi 11/festivalstory_targettidaktercapai.xml</storyTargetTidakTercapai>
+        <popup_reward>
+            <judul>Artis K-Pop!</judul>
+            <desc>Akang diajak tanding lagi sama Kang PIki di acara Korea!&#10;Woah! Apakah kita bisa ketemu Artist K-Pop asli dari Korea, yak?</desc>
+        </popup_reward>
+        <reward>
+            <item target="20000000000" namaHadiah="Peti Perunggu" tipeHadiah="chest" idHadiah="chest_bronze" jumlahHadiah="1"/>
+        </reward>
+        <trio_kribo>
+            <bocah1 cabang="Korea"/>
+            <bocah2 cabang="Korea"/>
+            <bocah3 cabang="Korea"/>
+        </trio_kribo>
+        <menu_item>
+            <mobil>
+                <bodyMobil cabang="Jakarta"/>
+            </mobil>
+            <minuman>
+                <item id="Sujeonggwa" icon="ic_sujeonggwa.png"/>
+            </minuman>
+            <resep banyakItem="10">
+                <item cabang="Korea" idx="7"/>
+                <item cabang="Majapahit" idx="6"/>
+                <item cabang="Korea" idx="11"/>
+                <item cabang="Bandung" idx="7"/>
+                <item cabang="Korea" idx="8"/>
+                <item cabang="Jepang" idx="5"/>
+<!--                <item cabang="Kora" idx="10"/>-->
+                <item cabang="Korea" idx="10"/><!--//01222021-->
+                <item cabang="Bandung" idx="11"/>
+                <item cabang="Purba" idx="10"/>
+                <item cabang="Atlantis" idx="10"/>
+            </resep>
+            <promo banyakItem="8">
+                <item cabang="Korea" idx="0"/>
+                <item cabang="Korea" idx="1"/>
+                <item cabang="Korea" idx="2"/>
+                <item cabang="Korea" idx="3"/>
+                <item cabang="Korea" idx="4"/>
+            </promo>
+        </menu_item>
+    </story>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <image_list id="bannerPeta" scaleX="2.0" scaleY="2.0"><!--//06212020-->
+            <item>UI_baru/banner_Peta.png</item>
+        </image_list>
+        <image_list id="batasMenu" alignY="bannerPeta#1">
+            <item>UI_baru/ui_batas_menu.png</item>
+        </image_list>
+
+        <!--<container id="konten" y="20" alignY="batasMenu#1" height="305">&lt;!&ndash;171+20+114&ndash;&gt;-->
+        <container id="contPaperClip" x="0" height="171" y="20" alignY="batasMenu#1">
+            <image_list id="bgPaperClip" y="0">
+                <item>UI_baru/label_paperclip_lampu_PENDEK.png</item>
+            </image_list>
+            <text id="textPaperClip" x="120" y="-5" pivotY="0.5" alignX="bgPaperClip#0" alignY="bgPaperClip#0.5" font="comicneueLight" fontSize="30" color="000000" wrapWidth="420" isCenter="false">Kembangkan bisnismu&#10;ke seluruh penjuru dunia!&#10;(Atau mungkin lebih!)</text>
+
+            <container id="divKoin" x="15" alignX="bgPaperClip#1" y="20" alignY="bgPaperClip#0">
+                <image_list id="bgBarKoin" x="10" y="5" scaleX="1.2" isBaseContainer="true">
+                    <item>UI_baru/bar_peridot.png</item>
+                </image_list>
+                <image_list id="labelKoin">
+                    <item>UI_baru/ic_koin_dalamNegeri.png</item>
+                </image_list>
+                <text id="textKoin" x="-10" y="0" pivotX="1" pivotY="0.5" alignX="bgBarKoin#1" alignY="bgBarKoin#0.5" font="cuckoo" fontSize="28" color="ffffff">400K</text>
+            </container>
+
+            <container id="divPeridot" x="0" alignX="divKoin#0" y="20" alignY="divKoin#1">
+                <image_list id="bgBarPeridot" x="10" y="5" scaleX="1.2" isBaseContainer="true">
+                    <item>UI_baru/bar_peridot.png</item>
+                </image_list>
+                <image_list id="labelPeridot">
+                    <item>UI_baru/ic_peridot.png</item>
+                </image_list>
+                <!--wrapWidth="90" isCenter="false"-->
+                <text id="textPeridot" x="-10" y="0" pivotX="1" pivotY="0.5" alignX="bgBarPeridot#1" alignY="bgBarPeridot#0.5" font="cuckoo" fontSize="28" color="ffffff">0</text>
+            </container>
+        </container>
+        <!--</container>-->
+
+        <image_list id="penutupGradasi" y="10" alignY="contPaperClip#1">
+            <item>UI_baru/batas_gradient.png</item>
+        </image_list>
+
+        <scrollView id="isiPeta" y="10" alignY="penutupGradasi#1" x="0" height="1000">
+            <container id="wrapper" x="0" y="0" height="307">
+                <container id="extraKonten" x="0" y="20" height="307"><!--height="146"-->
+                    <!--<container id="divSensus">-->
+                    <!--<image_list id="bgLabelItemSensus" isBaseContainer="true">-->
+                    <!--<item>UI_baru/lbl_base_kuning.png</item>-->
+                    <!--</image_list>-->
+                    <!--<image_list id="iconSensus" x="20" y="10">-->
+                    <!--<item>UI_baru/ic_survey.png</item>-->
+                    <!--</image_list>-->
+                    <!--<text id="judulSensus" x="135" y="15" font="comicneueBold" fontSize="30" color="ffffff">Sensus Tahap I</text>-->
+                    <!--<text id="descSensus" x="140" y="75" font="comicneueLight" fontSize="27" color="000000" wrapWidth="310" isCenter="false">Ayo kirimkan saran untuk Cabang&#10;Tahu Bulat berikutnya!</text>-->
+                    <!--<button id="btnSensus" x="631" y="78" pivotX="0.5" pivotY="0.5" imageNormal="UI_baru/ui_btn_big.png">-->
+                    <!--<text id="labelBtnSensus" x="0" y="-5" pivotY="0.5" pivotX="0.5" font="cuckoo" fontSize="30" color="ffffff" wrapWidth="203" isCenter="true">Ikut!</text>-->
+                    <!--</button>-->
+                    <!--</container>-->
+                </container>
+
+                <!--y="20" alignY="batasMenu#1"-->
+                <!--<container id="tabs" x="25" y="10" height="114" alignY="contPaperClip#1">-->
+                <container id="tabs" x="25" y="10" height="114" alignY="extraKonten#1">
+                    <button id="btnDalamNegeri" x="20" y="0" imageNormal="UI_baru/btn_tab_biru_sisi_dekok.png" onClick="pindahTabPeta#0">
+                        <container id="tab0" x="-25" y="32">
+                            <image_list id="iconDalamNegri" x="75" y="25" pivotY="0.5" scaleX="0.75" scaleY="0.75">
+                                <item>UI_baru/ic_cabang_nasional.png</item>
+                            </image_list>
+                            <text id="textJlhNasional" x="15" y="0" pivotY="0.5" alignX="iconDalamNegri#1" alignY="iconDalamNegri#0.5" font="cuckoo" fontSize="37" color="ffffff">00</text>
+                            <text id="labelNasional" x="0" y="60" pivotY="1" font="comicneueLight" fontSize="21" color="ffffff" wrapWidth="220" isCenter="true">Indonesia</text>
+                        </container>
+                    </button>
+                    <button id="btnLuarNegeri" x="0" y="0" alignX="btnDalamNegeri#1" alignY="btnDalamNegeri#0" imageNormal="UI_baru/btn_tab_biru_tengah_timbul.png" onClick="pindahTabPeta#1">
+                        <container id="tab1" x="-25" y="32">
+                            <image_list id="iconLuarNegri" x="75" y="25" pivotY="0.5" scaleX="0.75" scaleY="0.75">
+                                <item>UI_baru/ic_cabang_global.png</item>
+                            </image_list>
+                            <text id="textJlhGlobal" x="15" y="0" pivotY="0.5" alignX="iconLuarNegri#1" alignY="iconLuarNegri#0.5" font="cuckoo" fontSize="37" color="ffffff">00</text>
+                            <text id="labelInternasional" x="0" y="60" pivotY="1"  font="comicneueLight" fontSize="21" color="ffffff" wrapWidth="220" isCenter="true">Internasional</text>
+                        </container>
+                    </button>
+                    <button id="btnDimensi" x="0" y="0" alignX="btnLuarNegeri#1" alignY="btnDalamNegeri#0" imageNormal="UI_baru/btn_tab_biru_tengah_timbul.png" onClick="pindahTabPeta#2">
+                        <container id="tab2" x="-25" y="32">
+                            <image_list id="iconDimensi" x="75" y="25" pivotY="0.5" scaleX="0.75" scaleY="0.75"><!--x="170" y="28"-->
+                                <item>UI_baru/ic_cabang_dimensi.png</item>
+                            </image_list>
+                            <text id="textJlhDimensi" x="15" y="0" pivotY="0.5" alignX="iconDimensi#1" alignY="iconDimensi#0.5" font="cuckoo" fontSize="37" color="ffffff">00</text>
+                            <text id="labelDimensi" x="0" y="60" pivotY="1"  font="comicneueLight" fontSize="21" color="ffffff" wrapWidth="220" isCenter="true">Lintas Dimensi</text>
+                        </container>
+                    </button>
+<!--                    <button id="btnDimensi" x="0" y="0" scaleX="-1" pivotScaleX="0.5" alignX="btnLuarNegeri#1" alignY="btnLuarNegeri#0" imageNormal="UI_baru/btn_tab_biru_sisi_timbul.png" onClick="pindahTabPeta#2">-->
+<!--                        <container id="tab2" y="32">-->
+<!--                            <image_list id="iconDimensi" x="155" y="25" pivotY="0.5" scaleX="-0.75" scaleY="0.75">&lt;!&ndash;x="170" y="28"&ndash;&gt;-->
+<!--                                <item>UI_baru/ic_cabang_dimensi.png</item>-->
+<!--                            </image_list>-->
+<!--                            <text id="textJlhDimensi" x="-15" y="0" pivotY="0.5" scaleX="-1" pivotScaleX="0" alignX="iconDimensi#1" alignY="iconDimensi#0.5" font="cuckoo" fontSize="37" color="ffffff">75</text>-->
+<!--                            <text id="labelDimensi" x="0" y="60" pivotY="1" scaleX="-1" pivotScaleX="0" font="comicneueLight" fontSize="21" color="ffffff" wrapWidth="220" isCenter="true">Lintas Dimensi</text>-->
+<!--                        </container>-->
+<!--                    </button>-->
+                    <button id="btnLintasGame" x="0" y="0" scaleX="-1" pivotScaleX="0.5" alignX="btnDimensi#1" alignY="btnDimensi#0" imageNormal="UI_baru/btn_tab_biru_sisi_timbul.png" onClick="pindahTabPeta#3">
+                        <container id="tab3" x="-25" y="32">
+                            <image_list id="iconLintasGame" x="155" y="25" pivotY="0.5" scaleX="-0.75" scaleY="0.75"><!--x="170" y="28"-->
+                                <item>UI_baru/ic_lintasGame.png</item>
+                            </image_list>
+                            <text id="textJlhLintasGame" x="-15" y="0" pivotY="0.5" scaleX="-1" pivotScaleX="0" alignX="iconLintasGame#1" alignY="iconLintasGame#0.5" font="cuckoo" fontSize="37" color="ffffff">00</text>
+                            <text id="labelLintasGame" x="0" y="60" pivotY="1" scaleX="-1" pivotScaleX="0" font="comicneueLight" fontSize="21" color="ffffff" wrapWidth="220" isCenter="true">Lintas Game</text>
+                        </container>
+                    </button>
+                </container>
+
+                <container y="10" alignY="tabs#1" x="0" id="contPeta"></container>
+
+<!--                <text id="textKosong" x="75" y="0" pivotY="0.5" alignY="tabs#1" font="comicneueLight" fontSize="32" color="ffffff" isCenter="true" wrapWidth="608" isVisible="false">kosong</text>-->
+
+            </container>
+
+        </scrollView>
+
+        <text id="textKosong" x="75" y="0" pivotY="0.5" alignY="tabs#1" font="comicneueLight" fontSize="30" color="ffffff" isCenter="true" wrapWidth="650" isVisible="false">kosong</text>
+
+
+        <container id="barBackMenu" y="-137" alignY="hLayar#1" height="137">
+            <image_list id="bgMenuBack" y="137" pivotY="1">
+                <item>UI_baru/ui_batas_menu_back.png</item>
+            </image_list>
+            <button id="btnBack" x="20" imageNormal="UI_baru/btn_back.png" y="137" pivotY="1" onClick="backPressed">
+            </button>
+        </container>
+    </container>
+</resources>

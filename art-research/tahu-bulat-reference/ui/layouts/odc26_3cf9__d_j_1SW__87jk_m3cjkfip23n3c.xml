@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Nah... Ayo kita coba jualan di sini, Kang!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>....... Kang?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Loh??!&#10;Ke mana si Kang Piki??</desc>
+        </dialog>
+    </skenario>
+</resources>

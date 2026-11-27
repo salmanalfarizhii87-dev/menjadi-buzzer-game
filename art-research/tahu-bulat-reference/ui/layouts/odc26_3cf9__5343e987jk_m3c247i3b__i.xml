@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="tengah" ekspresi="idle" isHold="false" y="-120" alignY="hLayar#0.5" timerAnimasi="1">
+            <desc format="descfestberakhir">%s</desc>
+            <buttons>
+                <button id="btnKunjungi" image="UI_baru/ui_btn_normal_ijo.png" text="Kunjungi"/>
+            </buttons>
+        </dialog>
+    </skenario>
+</resources>

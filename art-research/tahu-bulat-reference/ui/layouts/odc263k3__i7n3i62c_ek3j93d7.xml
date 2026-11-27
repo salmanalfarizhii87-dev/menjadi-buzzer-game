@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <FTTB>
+        <item tipeTarget="levelFTMax" target="5" tipeHadiah="peridot" idHadiah="peridot" jumlahHadiah="5"/>
+        <item tipeTarget="levelFTMax" target="8" tipeHadiah="iap" idHadiah="celengan1" jumlahHadiah="1"/>
+        <item tipeTarget="levelPlayer" target="7" tipeHadiah="peridot" idHadiah="peridot" jumlahHadiah="10"/>
+        <item tipeTarget="levelFTMax" target="10" tipeHadiah="iap" idHadiah="jam1" jumlahHadiah="1"/>
+<!--        <item tipeTarget="levelPlayer" target="9" tipeHadiah="iap" idHadiah="peridot" jumlahHadiah="15"/>-->
+        <item tipeTarget="levelPlayer" target="9" tipeHadiah="peridot" idHadiah="peridot" jumlahHadiah="15"/>
+
+        <item tipeTarget="levelFTMax" target="12" tipeHadiah="iap" idHadiah="jam1" jumlahHadiah="1"/>
+<!--        <item tipeTarget="levelPlayer" target="12" tipeHadiah="iap" idHadiah="peridot" jumlahHadiah="15"/>-->
+        <item tipeTarget="levelPlayer" target="12" tipeHadiah="peridot" idHadiah="peridot" jumlahHadiah="15"/>
+        <item tipeTarget="levelFTMax" target="15" tipeHadiah="iap" idHadiah="jam2" jumlahHadiah="1"/>
+<!--        <item tipeTarget="levelFTMax" target="17" tipeHadiah="iap" idHadiah="peridot" jumlahHadiah="60"/>-->
+        <item tipeTarget="levelFTMax" target="17" tipeHadiah="peridot" idHadiah="peridot" jumlahHadiah="60"/>
+
+        <item tipeTarget="levelFTMax" target="20" tipeHadiah="iap" idHadiah="jam2" jumlahHadiah="1"/>
+        <item tipeTarget="levelFTMax" target="23" tipeHadiah="iap" idHadiah="jam2" jumlahHadiah="1"/>
+        <item tipeTarget="levelPlayer" target="22" tipeHadiah="iap" idHadiah="jam2" jumlahHadiah="1"/>
+
+        <item tipeTarget="levelFTMax" target="27" tipeHadiah="iap" idHadiah="jam3" jumlahHadiah="1"/>
+        <item tipeTarget="levelPlayer" target="26" tipeHadiah="iap" idHadiah="jam3" jumlahHadiah="1"/>
+        <item tipeTarget="levelFTMax" target="28" tipeHadiah="iap" idHadiah="jam3" jumlahHadiah="1"/>
+
+        <item tipeTarget="levelPlayer" target="27" tipeHadiah="iap" idHadiah="jam4" jumlahHadiah="1"/>
+        <item tipeTarget="levelFTMax" target="29" tipeHadiah="iap" idHadiah="jam4" jumlahHadiah="1"/>
+        <item tipeTarget="levelPlayer" target="28" tipeHadiah="iap" idHadiah="jam4" jumlahHadiah="1"/>
+
+        <item tipeTarget="levelFTMax" target="30" tipeHadiah="iap" idHadiah="jam5" jumlahHadiah="1"/>
+        <item tipeTarget="levelPlayer" target="29" tipeHadiah="iap" idHadiah="jam5" jumlahHadiah="1"/>
+        <item tipeTarget="levelPlayer" target="30" tipeHadiah="iap" idHadiah="jam5" jumlahHadiah="1"/>
+    </FTTB>
+    <!--//05182020-->
+    <KTB>
+        <item tipeTarget="jumlahKotaTerjual" target="3" tipeHadiah="peridot" idHadiah="peridot" jumlahHadiah="5"/>
+        <item tipeTarget="jumlahKotaTerjual" target="5" tipeHadiah="iap" idHadiah="celengan1" jumlahHadiah="1"/>
+        <item tipeTarget="jumlahKotaTerjual" target="8" tipeHadiah="peridot" idHadiah="peridot" jumlahHadiah="10"/>
+        <item tipeTarget="jumlahKotaTerjual" target="10" tipeHadiah="iap" idHadiah="jam1" jumlahHadiah="1"/>
+<!--        <item tipeTarget="jumlahKotaTerjual" target="12" tipeHadiah="iap" idHadiah="peridot" jumlahHadiah="15"/>-->
+        <item tipeTarget="jumlahKotaTerjual" target="12" tipeHadiah="peridot" idHadiah="peridot" jumlahHadiah="15"/>
+        <item tipeTarget="jumlahKotaTerjual" target="15" tipeHadiah="iap" idHadiah="jam1" jumlahHadiah="1"/>
+        <item tipeTarget="jumlahKotaTerjual" target="20" tipeHadiah="peridot" idHadiah="peridot" jumlahHadiah="15"/>
+        <item tipeTarget="jumlahKotaTerjual" target="25" tipeHadiah="iap" idHadiah="jam2" jumlahHadiah="1"/>
+        <item tipeTarget="jumlahKotaTerjual" target="30" tipeHadiah="peridot" idHadiah="peridot" jumlahHadiah="60"/>
+
+        <item tipeTarget="jumlahKotaTerjual" target="35" tipeHadiah="iap" idHadiah="jam2" jumlahHadiah="1"/>
+        <item tipeTarget="jumlahKotaTerjual" target="40" tipeHadiah="iap" idHadiah="jam2" jumlahHadiah="1"/>
+        <item tipeTarget="jumlahKotaTerjual" target="45" tipeHadiah="iap" idHadiah="jam2" jumlahHadiah="1"/>
+
+        <item tipeTarget="jumlahKotaTerjual" target="50" tipeHadiah="iap" idHadiah="jam3" jumlahHadiah="1"/>
+        <item tipeTarget="jumlahKotaTerjual" target="55" tipeHadiah="iap" idHadiah="jam3" jumlahHadiah="1"/>
+        <item tipeTarget="jumlahKotaTerjual" target="60" tipeHadiah="iap" idHadiah="jam3" jumlahHadiah="1"/>
+
+        <item tipeTarget="jumlahKotaTerjual" target="65" tipeHadiah="iap" idHadiah="jam4" jumlahHadiah="1"/>
+        <item tipeTarget="jumlahKotaTerjual" target="70" tipeHadiah="iap" idHadiah="jam4" jumlahHadiah="1"/>
+        <item tipeTarget="jumlahKotaTerjual" target="75" tipeHadiah="iap" idHadiah="jam4" jumlahHadiah="1"/>
+
+        <item tipeTarget="jumlahKotaTerjual" target="80" tipeHadiah="iap" idHadiah="jam5" jumlahHadiah="1"/>
+    </KTB>
+</resources>

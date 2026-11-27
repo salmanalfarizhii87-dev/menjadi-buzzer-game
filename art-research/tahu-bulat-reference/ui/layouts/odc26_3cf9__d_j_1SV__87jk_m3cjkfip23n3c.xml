@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Sampeeee....</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kaya tukang ojek gitu, Kang..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="ketawa1" isHold="true">
+            <desc>Wkwkwk..&#10;Gapapa.. Sekali-kali..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Towa mana, yak?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Hmmm..&#10;Coba Tako cari dulu, yak..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Oke, sambil nunggu..&#10;Akang sambil dagang tahu bulat, yak!</desc>
+        </dialog>
+    </skenario>
+</resources>

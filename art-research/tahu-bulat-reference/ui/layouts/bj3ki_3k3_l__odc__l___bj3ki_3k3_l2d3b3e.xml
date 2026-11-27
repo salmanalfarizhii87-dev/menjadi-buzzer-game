@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <container id="timer" x="0" y="70" alignX="wLayar#0.5" pivotX="0.5">
+            <image_list id="bgTimer" x="0" pivotX="0.5" isBaseContainer="true">
+                <item>UI_baru/lbl_ufo_base.png</item>
+            </image_list>
+
+            <image_list id="iconTimer" x="0" y="0" pivotX="0.5" pivotY="1" alignX="bgTimer#0" alignY="bgTimer#1">
+                <item>UI_baru/lbl_ufo_jam.png</item>
+            </image_list>
+
+            <text id="textTimer" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="bgTimer#0.5" alignY="bgTimer#0.5" font="cuckoo" fontSize="40" color="ffffff">00</text>
+        </container>
+
+        <container id="exp" x="0" y="40" alignY="timer#1" alignX="wLayar#0.5" pivotX="0.5">
+            <image_list id="bgBarExp" x="0" pivotX="0.5" isBaseContainer="true">
+                <item>ksatriatahu/ui/bar_level_kosong.png</item>
+            </image_list>
+
+            <image_list id="isiBarExp" x="0" y="5" pivotX="0.5">
+                <item>ksatriatahu/ui/bar_level_isi.png</item>
+            </image_list>
+
+            <image_list id="iconExp" x="0" pivotX="0.2" pivotY="0.5" alignX="bgBarExp#0" alignY="bgBarExp#0.5">
+                <item>ksatriatahu/ui/badge_levelKesatria.png</item>
+            </image_list>
+
+            <text id="textLevel" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="iconExp#0.5" alignY="iconExp#0.5" font="cuckoo" fontSize="25" color="000000">999</text>
+            <text id="textBarExp" x="20" y="0" pivotX="0.5" pivotY="0.5" alignX="bgBarExp#0.5" alignY="iconExp#0.5" font="cuckoo" fontSize="25" color="ffffff" isCenter="true" wrapWidth="297">000/000</text>
+        </container>
+
+        <!--cont ksatriatahu-->
+        <!--<uiReader id="uiKsatria" x="0" y="180" pivotX="0.5" pivotY="0" alignX="wLayar#0.5" alignY="exp#1" xml="ksatriatahu/xml/tabulboy.xml"/>-->
+        <uiReader id="uiKsatria" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="wLayar#0.5" alignY="hLayar#0.5" xml="ksatriatahu/xml/tabulboy.xml"/>
+
+        <image_list id="levelUp" x="0" y="50" pivotX="0.5" pivotY="0" alignX="wLayar#0.5" alignY="exp#1">
+            <item>ksatriatahu/ui/efek_levelUp.png</item>
+        </image_list>
+
+        <container id="stat" x="0" y="-330" height="300" pivotX="0.5" pivotY="0" alignX="wLayar#0.5" alignY="hLayar#1">
+            <image_list id="bgStatAtas" x="0" pivotX="0.5" y="0">
+                <item>UI_baru/lbl_kertaspita_atas.png</item>
+            </image_list>
+            <image_list id="bgStatTengah" x="0" pivotX="0.5" y="0" alignY="bgStatAtas#1" scaleY="3.0" pivotScaleY="0">
+                <item>UI_baru/lbl_kertaspita_tengah.png</item>
+            </image_list>
+            <image_list id="bgStatBawah" x="0" pivotX="0.5" y="0" alignY="bgStatTengah#1">
+                <item>UI_baru/lbl_kertaspita_bawah.png</item>
+            </image_list>
+
+            <text id="labelStat" x="30" y="10" alignX="bgStatAtas#0" font="cuckoo" fontSize="35" color="ffffff">Semangat!!!</text>
+
+            <container id="contProgress" x="0" y="45" alignY="labelStat#1" alignX="bgStatAtas#0.5" pivotX="0.5" isVisible="true">
+                <text id="labelProgress" x="0" y="0" pivotX="0.5" font="cuckoo" fontSize="32" color="000000" wrapWidth="650" isCenter="true">Jumlah protein yang ditambahkan:</text>
+                <text id="textProteinProgress" x="0" y="15" pivotX="0.5" alignY="labelProgress#1" font="cuckoo" fontSize="52" color="000000" wrapWidth="650" isCenter="true">100.000 butir</text>
+                <text id="textNaikLevelProgress" x="0" y="15" pivotX="0.5" alignY="textProteinProgress#1"  font="cuckoo" fontSize="32" color="000000" wrapWidth="650" isCenter="true">Jumlah kenaikan level: 5</text>
+            </container>
+
+            <container id="contSelesai" x="0" y="25" alignY="labelStat#1" alignX="labelStat#0" isVisible="false">
+                <text id="labelSelesai" x="0" y="0" font="cuckoo" fontSize="28" color="000000" wrapWidth="650" isCenter="false">Kamu berhasil mendapatkan:</text>
+                <text id="textProteinSelesai" x="0" y="10" alignX="labelSelesai#0" alignY="labelSelesai#1" font="cuckoo" fontSize="50" color="000000" wrapWidth="650" isCenter="false">100.000 protein</text>
+                <text id="textNaikLevelSelesai" x="0" y="10" alignX="labelSelesai#0" alignY="textProteinSelesai#1"  font="cuckoo" fontSize="28" color="000000" wrapWidth="650" isCenter="false">Jumlah kenaikan level: 5</text>
+
+                <image_list id="bgKetWaktu" x="0" alignX="labelSelesai#0" y="10" alignY="textNaikLevelSelesai#1">
+                    <item>ksatriatahu/ui/segmen_kotakHitam.png</item>
+                </image_list>
+                <text id="textKetWaktu" x="5" y="10" alignX="bgKetWaktu#0" alignY="bgKetWaktu#0"  font="cuckoo" fontSize="26" color="ffffff" wrapWidth="400" isCenter="false">Kamu bisa memperkuat kesatria tahu dalam waktu: 2 jam lagi</text>
+
+                <button id="btnHore" x="10" y="0" pivotY="1" alignX="bgKetWaktu#1" alignY="bgKetWaktu#1" imageNormal="UI_baru/ui_btn_big.png">
+                    <text id="labelHore" x="101" y="-62" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="42" color="ffffff">Hore!</text>
+                </button>
+            </container>
+        </container>
+    </container>
+</resources>

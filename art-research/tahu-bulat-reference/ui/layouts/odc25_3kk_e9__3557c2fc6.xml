@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <story idStory="0" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="2.0">Hai111</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="true" nextTimer="2.0">Hai juga222</item>
+            <item idItemChat="3" nextTipe="opsi" nextId="1" isFromUser="false" nextTimer="2.0">Lanjut munculin opsi pertama ya</item>
+            <item idItemChat="4" nextTipe="opsi" nextId="2" isFromUser="true" nextTimer="2.0">Setelah ini akan lanjut ke munculin opsi kedua</item>
+        </chat>
+        <opsi idOpsi="1">
+            <item idItemOpsi="1" nextTipe="chat" nextId="4" nextTimer="2.0">Opsi Pertama: Ini Opsi A. Jika opsi ini dipilih akan lanjut ke chat dengan idItemChat 4</item>
+            <item idItemOpsi="2" nextTipe="story" nextId="1" nextTimer="2.0">Opsi Pertama: Ini Opsi B. Jika opsi ini dipilih akan lanjut ke story selanjutnya dengan idStory 1</item>
+        </opsi>
+        <opsi idOpsi="2">
+            <item idItemOpsi="1" nextTipe="story" nextId="1" nextTimer="2.0">Opsi Kedua: Ini Opsi A. Opsi ini lanjut ke story dengan idStory 1</item>
+            <item idItemOpsi="2" nextTipe="notif" nextId="1" nextTimer="2.0">Opsi Kedua: Ini Opsi B. Opsi ini lanjut ke notif dengan idItemNotif 1</item>
+        </opsi>
+        <notif>
+            <item idItemNotif="1" nextTipe="notif" nextId="2" nextTimer="0.1f">Munculin Notif. Lanjut ke notif kedua</item>
+            <item idItemNotif="2" nextTipe="story" nextId="3" nextTimer="2.0f" regex="timer_delayStory#accel" isNextFromUser="false" delayStory="86400.0f">Silahkan cek lagi dalam %1$s</item>
+<!--            <item idItemNotif="2" isUlangStory="true">Ulang ulang ulang</item>-->
+        </notif>
+    </story>
+
+
+    <story idStory="1" showingFirst="chat#1" isLastStory="true">
+        <chat>
+            <item idItemChat="1" nextTipe="notif" nextId="1" nextTimer="0.1f" isFromUser="false">Story berakhir disini</item>
+        </chat>
+        <notif>
+            <item idItemNotif="1" isUlangStory="true">Ulang ulang ulang</item>
+        </notif>
+    </story>
+
+
+</resources>

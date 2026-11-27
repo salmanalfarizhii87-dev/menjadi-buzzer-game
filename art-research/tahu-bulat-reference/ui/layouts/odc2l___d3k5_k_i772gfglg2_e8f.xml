@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <image_list id="baseImage" x="-20" pivotX="0.5" alignX="wLayar#0.5" y="0">
+            <item>matchthree/popup/popup_tahukeras_info.png</item>
+        </image_list>
+
+        <!--<text id="desc" x="-20" y="20" pivotX="0.5" pivotY="0" alignX="wLayar#0.5" alignY="baseImage#1" font="comicneueLight" fontSize="25" color="000000" wrapWidth="650" isCenter="true">Hujan Meteor Misterius membuat Kota Bandung beku!&#10;Dagangan tahumu juga beku! Jadi Keras! Tahu Keras!&#10;&#10;Ternyata para Cemilown, si Monster Cemilan dari&#10;Snack Hunter Galaxy, adalah penyebab Hujan Meteor!&#10;Ayo, kirim Ksatria Tahu untuk melawan mereka!&#10;&#10;Kalahkan Cemilown, dan dapatkan Garam Kosmik!&#10;Makin banyak Garam Kosmik yang kamu miliki,&#10;semakin besar hadiah yang bisa kamu&#10;dapatkan di akhir event ini!</text>-->
+        <text id="desc" x="-20" y="20" pivotX="0.5" pivotY="0" alignX="wLayar#0.5" alignY="baseImage#1" font="comicneueLight" fontSize="28" color="000000" wrapWidth="650" isCenter="true">Hujan Meteor Misterius membuat Kota Bandung beku!&#10;Dagangan tahumu juga beku! Jadi Keras! Tahu Keras!&#10;&#10;Ternyata para Cemilown, si Monster Cemilan dari&#10;Snack Hunter Galaxy, adalah penyebab Hujan Meteor!&#10;Ayo, kirim Ksatria Tahu untuk melawan mereka!&#10;&#10;Kalahkan Cemilown, dan dapatkan Garam Kosmik!&#10;Makin banyak Garam Kosmik yang kamu miliki,&#10;semakin besar hadiah yang bisa kamu&#10;dapatkan di akhir event ini!</text>
+
+        <!--<button id="btnLeaderboard" x="20" imageNormal="UI_baru/btn_back.png" y="137" pivotY="1">-->
+        <!--</button>-->
+        <container id="contButton" x="0" y="30" pivotX="0.5" alignX="baseImage#0.5" alignY="desc#1" height="100">
+            <button id="btnCaraMain" x="0" pivotX="0.5" imageNormal="UI_baru/ui_btn_default.png" y="0">
+                <text id="labelCaraMain" x="0" y="20" pivotX="0.5" font="cuckoo" fontSize="40" color="ffffff">Cara Main</text>
+            </button>
+            <button id="btnLeaderboard" x="-50" pivotX="1" alignX="btnCaraMain#0" y="0" imageNormal="UI_baru/button_bulat_kuning.png">
+                <image_list id="labelLeaderboard" x="-10" y="20" pivotX="1">
+                    <item>event/ic_leaderboard_hitam.png</item>
+                </image_list>
+            </button>
+            <button id="btnShare" x="50" pivotX="0" alignX="btnCaraMain#1" imageNormal="UI_baru/button_bulat_kuning.png" y="0">
+                <image_list id="labelShare" x="22" y="22">
+                    <item>UI_baru/ic_share_hitam.png</item>
+                </image_list>
+            </button>
+        </container>
+    </container>
+</resources>

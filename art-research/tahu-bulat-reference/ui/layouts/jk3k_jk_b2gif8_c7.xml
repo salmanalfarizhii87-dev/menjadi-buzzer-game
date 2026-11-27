@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+
+        <container id="header" x="0" y="0" height="350" width="768">
+            <container id="banner" width="768" height="350">
+                <image_list id="awan">
+                    <item>UI_baru/AkangBannerProfil/pf_awan_01.png</item>
+                </image_list>
+
+                <container id="background">
+                    <image_list id="bgKiri" x="0" y="350" pivotY="1">
+                        <item>UI_baru/AkangBannerProfil/pf_belakangKiri_01.png</item>
+                    </image_list>
+                    <image_list id="bgKanan" x="0" y="350" alignX="wLayar#1" pivotX="1" pivotY="1">
+                        <item>UI_baru/AkangBannerProfil/pf_belakangKanan_01.png</item>
+                    </image_list>
+                </container>
+
+                <image_list id="akang" x="40" y="2">
+                    <item>UI_baru/AkangBannerProfil/pf_base_akang.png</item>
+                </image_list>
+
+                <container id="aksesoris">
+                    <image_list id="baju" x="76" y="215">
+                        <item>UI_baru/AkangBannerProfil/pf_baju_01.png</item>
+                    </image_list>
+
+                    <image_list id="kacamata" x="82" y="122">
+                        <item>UI_baru/AkangBannerProfil/pf_kacamata_01.png</item>
+                    </image_list>
+
+                    <image_list id="kalung" x="123" y="216">
+                        <item>UI_baru/AkangBannerProfil/pf_kalung_01.png</item>
+                    </image_list>
+                </container>
+            </container>
+
+            <image_list id="bgNamaPlayer" x="-481" alignX="wLayar#1" y="5">
+                <item>UI_baru/lbl_pita_namaPlayer.png</item>
+            </image_list>
+
+            <text id="namaPlayer" x="100" y="15" alignX="bgNamaPlayer#0" alignY="bgNamaPlayer#0" font="cuckoo" fontSize="52" color="ffffff">Profil</text>
+
+            <container id="divBarExp" x="20" y="-5" alignX="bgNamaPlayer#0" alignY="bgNamaPlayer#1" height="156" width="200">
+                <image_list id="barKosongExp" x="130" y="60" scaleX="1.5" scaleY="1.5">
+                    <item>UI_baru/bar_peridot.png</item>
+                </image_list>
+                <image_list id="barIsiExp" x="130" y="60" scaleX="1.5" scaleY="1.5">
+                    <item>UI_baru/bar_isi.png</item>
+                </image_list>
+                <image_list id="labelExp" x="0" y="0">
+                    <item>UI_baru/label_level.png</item>
+                </image_list>
+                <text id="textLevel" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="labelExp#0.5" alignY="labelExp#0.5" font="cuckoo" fontSize="35" color="000000">1</text>
+                <text id="textBarExp" x="0" y="10" pivotX="0.5" alignX="barKosongExp#0.5" alignY="barKosongExp#0" font="cuckoo" fontSize="35" color="ffffff">50%</text>
+            </container>
+
+            <container id="divPeridot" x="10" y="0" alignX="divBarExp#0" alignY="divBarExp#1"><!--x="0" y="70" alignX="bgNamaPlayer#0" alignY="bgNamaPlayer#1"-->
+                <image_list id="bgBarPeridot" x="10" y="5" isBaseContainer="true">
+                    <item>UI_baru/bar_peridot.png</item>
+                </image_list>
+                <image_list id="labelPeridot">
+                    <item>UI_baru/ic_peridot.png</item>
+                </image_list>
+                <text id="textPeridot" x="10" y="0" pivotY="0.5" alignX="labelPeridot#1" alignY="bgBarPeridot#0.5" font="cuckoo" fontSize="30" color="ffffff">999</text>
+            </container>
+
+            <container id="divKoin" x="35" alignX="divPeridot#1" y="0" alignY="divPeridot#0"><!--x="35" alignX="divPeridot#1" y="0" alignY="divPeridot#0"-->
+                <image_list id="bgBarKoin" x="10" y="5" isBaseContainer="true">
+                    <item>UI_baru/bar_peridot.png</item>
+                </image_list>
+                <image_list id="labelKoin">
+                    <item>UI_baru/ic_koin_dalamNegeri.png</item>
+                </image_list>
+                <text id="textKoin" x="10" y="0" pivotY="0.5" alignX="labelKoin#1" alignY="bgBarKoin#0.5" font="cuckoo" fontSize="30" color="ffffff">99M</text>
+            </container>
+
+            <container id="divPenghasilanPerMenit" x="0" alignX="divPeridot#0" y="8" alignY="divPeridot#1"><!--x="0" alignX="divPeridot#0" y="8" alignY="divPeridot#1"-->
+                <image_list id="bgBarPPM" x="10" y="5" scaleX="2.25">
+                    <item>UI_baru/bar_peridot.png</item>
+                </image_list>
+                <image_list id="labelTahu">
+                    <item>UI_baru/ic_tabul.png</item>
+                </image_list>
+                <text id="textPPM" x="10" y="0" pivotY="0.5" alignX="labelTahu#1" alignY="bgBarPPM#0.5" font="cuckoo" fontSize="30" color="ffffff">128K/menit</text>
+            </container>
+
+            <button id="btnShare" x="-25" y="15" pivotX="1" alignX="wLayar#1" alignY="bgNamaPlayer#1" imageNormal="UI_baru/button_bulat_hijau.png" onClick="shareScreenshot">
+                <image_list id="iconShare" x="-45" y="50" pivotX="0.5" pivotY="0.5">
+                    <item>UI_baru/ic_share2.png</item>
+                </image_list>
+            </button>
+
+            <button id="btnLeaderboard" x="0" pivotX="0" y="15" alignX="btnShare#0" alignY="btnShare#1" imageNormal="UI_baru/button_bulat_hijau.png" onClick="openLeaderboard">
+                <image_list id="iconLeaderboard" x="45" y="50" pivotX="0.5" pivotY="0.5">
+                    <item>UI_baru/ic_ui_leaderboard.png</item>
+                </image_list>
+            </button>
+        </container>
+
+        <image_list id="batasMenu" y="0" alignY="header#1">
+            <item>UI_baru/ui_batas_menu.png</item>
+        </image_list>
+
+        <!--height divDataBawah-->
+        <!--height divCabang-->
+        <!--height isiDataCabang-->
+        <!--height divPedagang-->
+        <!--height isiDataPedagang-->
+
+        <scrollView  id="scrollData" x="15" y="0" alignY="batasMenu#1" height="1000">
+        </scrollView>
+
+        <container id="contDataBawah" x="15" y="20" alignY="batasMenu#1" height="1000" isVisible="true">
+            <container id="divPaperClip" y="20">
+                <image_list id="bgPaperClip" isBaseContainer="true">
+                    <item>UI_baru/lbl_paperclip.png</item>
+                </image_list>
+
+                <image_list id="iconMobil" x="80" y="10" pivotY="0.5" alignY="bgPaperClip#0.5">
+                    <item>UI_baru/ic_ui_mobil.png</item>
+                </image_list>
+                <text id="textJlhMobil" x="20" y="0" pivotY="0.5" alignX="iconMobil#1" alignY="iconMobil#0.5" font="cuckoo" fontSize="55" color="68544f">99</text>
+
+                <image_list id="iconMotor" x="180" alignX="iconMobil#1" y="10" pivotY="0.5" alignY="bgPaperClip#0.5">
+                    <item>UI_baru/ic_ui_motor.png</item>
+                </image_list>
+                <text id="textJlhMotor" x="20" y="0" pivotY="0.5" alignX="iconMotor#1" alignY="iconMotor#0.5" font="cuckoo" fontSize="55" color="68544f">99</text>
+
+                <image_list id="iconPedagang" x="170" alignX="iconMotor#1" y="10" pivotY="0.5" alignY="bgPaperClip#0.5">
+                    <item>UI_baru/ic_ui_pedagang.png</item>
+                </image_list>
+                <text id="textJlhPedagang" x="20" y="0" pivotY="0.5" alignX="iconPedagang#1" alignY="iconPedagang#0.5" font="cuckoo" fontSize="55" color="68544f">99</text>
+            </container>
+
+            <container id="divCabang" x="0" y="20" alignX="divPaperClip#0" alignY="divPaperClip#1" height="300">
+                <image_list id="bgAtasCabang">
+                    <item>UI_baru/lbl_kertaspita_atas.png</item>
+                </image_list>
+                <image_list id="bgTengahCabang" alignY="bgAtasCabang#1" scaleY="3.0">
+                    <item>UI_baru/lbl_kertaspita_tengah.png</item>
+                </image_list>
+
+                <image_list id="bgBawahCabang" alignY="bgTengahCabang#1">
+                    <item>UI_baru/lbl_kertaspita_bawah.png</item>
+                </image_list>
+
+                <text id="labelCabang" x="50" y="10" font="cuckoo" fontSize="35" color="ffffff">Cabang</text>
+
+                <container id="tabs" x="20" y="0" alignX="bgAtasCabang#0" alignY="bgAtasCabang#1" height="114">
+                    <button id="btnDalamNegeri" x="20" y="0" imageNormal="UI_baru/btn_tab_biru_sisi_dekok.png" onClick="pindahTabProfile#0">
+                        <container id="tab0" x="-25" y="32">
+                            <image_list id="iconDalamNegri" x="75" y="25" pivotY="0.5" scaleX="0.75" scaleY="0.75">
+                                <item>UI_baru/ic_cabang_nasional.png</item>
+                            </image_list>
+                            <text id="textJlhNasional" x="15" y="0" pivotY="0.5" alignX="iconDalamNegri#1" alignY="iconDalamNegri#0.5" font="cuckoo" fontSize="37" color="ffffff">00</text>
+                            <text id="labelNasional" x="0" y="60" pivotY="1" font="comicneueLight" fontSize="21" color="ffffff" wrapWidth="220" isCenter="true">Indonesia</text>
+                        </container>
+                    </button>
+                    <button id="btnLuarNegeri" x="0" y="0" alignX="btnDalamNegeri#1" alignY="btnDalamNegeri#0" imageNormal="UI_baru/btn_tab_biru_tengah_timbul.png" onClick="pindahTabProfile#1">
+                        <container id="tab1" x="-25" y="32">
+                            <image_list id="iconLuarNegri" x="75" y="25" pivotY="0.5" scaleX="0.75" scaleY="0.75">
+                                <item>UI_baru/ic_cabang_global.png</item>
+                            </image_list>
+                            <text id="textJlhGlobal" x="15" y="0" pivotY="0.5" alignX="iconLuarNegri#1" alignY="iconLuarNegri#0.5" font="cuckoo" fontSize="37" color="ffffff">00</text>
+                            <text id="labelInternasional" x="0" y="60" pivotY="1"  font="comicneueLight" fontSize="21" color="ffffff" wrapWidth="220" isCenter="true">Internasional</text>
+                        </container>
+                    </button>
+                    <button id="btnDimensi" x="0" y="0" alignX="btnLuarNegeri#1" alignY="btnDalamNegeri#0" imageNormal="UI_baru/btn_tab_biru_tengah_timbul.png" onClick="pindahTabProfile#2">
+                        <container id="tab2" x="-25" y="32">
+                            <image_list id="iconDimensi" x="75" y="25" pivotY="0.5" scaleX="0.75" scaleY="0.75"><!--x="170" y="28"-->
+                                <item>UI_baru/ic_cabang_dimensi.png</item>
+                            </image_list>
+                            <text id="textJlhDimensi" x="15" y="0" pivotY="0.5" alignX="iconDimensi#1" alignY="iconDimensi#0.5" font="cuckoo" fontSize="37" color="ffffff">00</text>
+                            <text id="labelDimensi" x="0" y="60" pivotY="1"  font="comicneueLight" fontSize="21" color="ffffff" wrapWidth="220" isCenter="true">Lintas Dimensi</text>
+                        </container>
+                    </button>
+                    <button id="btnLintasGame" x="0" y="0" scaleX="-1" pivotScaleX="0.5" alignX="btnDimensi#1" alignY="btnDimensi#0" imageNormal="UI_baru/btn_tab_biru_sisi_timbul.png" onClick="pindahTabProfile#3">
+                        <container id="tab3" x="-25" y="32">
+                            <image_list id="iconLintasGame" x="155" y="25" pivotY="0.5" scaleX="-0.75" scaleY="0.75"><!--x="170" y="28"-->
+                                <item>UI_baru/ic_lintasGame.png</item>
+                            </image_list>
+                            <text id="textJlhLintasGame" x="-15" y="0" pivotY="0.5" scaleX="-1" pivotScaleX="0" alignX="iconLintasGame#1" alignY="iconLintasGame#0.5" font="cuckoo" fontSize="37" color="ffffff">00</text>
+                            <text id="labelLintasGame" x="0" y="60" pivotY="1" scaleX="-1" pivotScaleX="0" font="comicneueLight" fontSize="21" color="ffffff" wrapWidth="220" isCenter="true">Lintas Game</text>
+                        </container>
+                    </button>
+<!--                    <button id="btnDalamNegeri" x="20" y="0" imageNormal="UI_baru/btn_tab_biru_sisi_dekok.png" onClick="pindahTabProfile#0">-->
+<!--                        <container id="tab0" y="32">-->
+<!--                            <image_list id="iconDalamNegri" x="75" y="25" pivotY="0.5" scaleX="0.75" scaleY="0.75">-->
+<!--                                <item>UI_baru/ic_cabang_nasional.png</item>-->
+<!--                            </image_list>-->
+<!--                            <text id="textJlhNasional" x="15" y="0" pivotY="0.5" alignX="iconDalamNegri#1" alignY="iconDalamNegri#0.5" font="cuckoo" fontSize="37" color="ffffff">00</text>-->
+<!--                            <text id="labelNasional" x="0" y="60" pivotY="1" font="comicneueLight" fontSize="21" color="ffffff" wrapWidth="220" isCenter="true">Indonesia</text>-->
+<!--                        </container>-->
+<!--                    </button>-->
+<!--                    <button id="btnLuarNegeri" x="0" y="0" alignX="btnDalamNegeri#1" alignY="btnDalamNegeri#0" imageNormal="UI_baru/btn_tab_biru_tengah_timbul.png" onClick="pindahTabProfile#1">-->
+<!--                        <container id="tab1" y="32">-->
+<!--                            <image_list id="iconLuarNegri" x="75" y="25" pivotY="0.5" scaleX="0.75" scaleY="0.75">-->
+<!--                                <item>UI_baru/ic_cabang_global.png</item>-->
+<!--                            </image_list>-->
+<!--                            <text id="textJlhGlobal" x="15" y="0" pivotY="0.5" alignX="iconLuarNegri#1" alignY="iconLuarNegri#0.5" font="cuckoo" fontSize="37" color="ffffff">00</text>-->
+<!--                            <text id="labelInternasional" x="0" y="60" pivotY="1"  font="comicneueLight" fontSize="21" color="ffffff" wrapWidth="220" isCenter="true">Luar Negeri</text>-->
+<!--                        </container>-->
+<!--                    </button>-->
+<!--                    <button id="btnDimensi" x="0" y="0" scaleX="-1" pivotScaleX="0.5" alignX="btnLuarNegeri#1" alignY="btnLuarNegeri#0" imageNormal="UI_baru/btn_tab_biru_sisi_timbul.png" onClick="pindahTabProfile#2">-->
+<!--                        <container id="tab2" y="32">-->
+<!--                            <image_list id="iconDimensi" x="155" y="25" pivotY="0.5" scaleX="-0.75" scaleY="0.75">&lt;!&ndash;x="170" y="28"&ndash;&gt;-->
+<!--                                <item>UI_baru/ic_cabang_dimensi.png</item>-->
+<!--                            </image_list>-->
+<!--                            <text id="textJlhDimensi" x="-15" y="0" pivotY="0.5" scaleX="-1" pivotScaleX="0" alignX="iconDimensi#1" alignY="iconDimensi#0.5" font="cuckoo" fontSize="37" color="ffffff">75</text>-->
+<!--                            <text id="labelDimensi" x="0" y="60" pivotY="1" scaleX="-1" pivotScaleX="0" font="comicneueLight" fontSize="21" color="ffffff" wrapWidth="220" isCenter="true">Lintas Dimensi</text>-->
+<!--                        </container>-->
+<!--                    </button>-->
+                </container>
+
+                <container id="isiDataCabang" y="20" alignY="tabs#1">
+                </container>
+            </container>
+
+            <container id="divPedagang" x="0" y="20" alignX="divCabang#0" alignY="divCabang#1">
+                <image_list id="bgAtasPedagang">
+                    <item>UI_baru/lbl_kertaspita_atas.png</item>
+                </image_list>
+                <image_list id="bgTengahPedagang" alignY="bgAtasPedagang#1" scaleY="3.0">
+                    <item>UI_baru/lbl_kertaspita_tengah.png</item>
+                </image_list>
+                <image_list id="bgBawahPedagang" alignY="bgTengahPedagang#1">
+                    <item>UI_baru/lbl_kertaspita_bawah.png</item>
+                </image_list>
+
+                <text id="labelPedagang" x="50" y="10" font="cuckoo" fontSize="35" color="ffffff">Pedagang</text>
+                <container id="isiDataPedagang" y="0" alignY="bgAtasPedagang#1" height="300">
+                </container>
+            </container>
+
+            <container id="divJamPersahabatan" x="0" y="20" alignX="divPedagang#0" alignY="divPedagang#1">
+                <image_list id="bgLabelItem" isBaseContainer="true">
+                    <item>UI_baru/lbl_base_kuning.png</item>
+                </image_list>
+                <image_list id="icon" x="20" y="10">
+                    <item>icon/iap/ic_jamKepompong.png</item>
+                </image_list>
+                <text id="judul" x="135" y="15" font="comicneueBold" fontSize="30" color="000000">Jam Persahabatan</text>
+                <text id="desc" x="140" y="75" font="comicneueLight" fontSize="27" color="000000" wrapWidth="330" isCenter="false">Bagikan Jam Persahabatan untuk sahabat-sahabatmu!</text>
+                <button id="btnInfoJamPersahabatan" x="440" y="0" imageNormal="UI_baru/ui_btn_info.png" onClick="popUp#infoJamPersahabatan">
+                </button>
+                <button id="btnJamPersahabatan" x="631" y="78" pivotX="0.5" pivotY="0.5" imageNormal="UI_baru/ui_btn_big.png"  onClick="popUp#jamPersahabatan">
+                    <text id="labelBtnBagikan" x="0" y="-5" pivotY="0.5" pivotX="0.5" font="cuckoo" fontSize="30" color="ffffff" wrapWidth="203" isCenter="true">Bagikan</text>
+                </button>
+            </container>
+        </container>
+
+        <!--<container id="divDataBawah" x="15" y="0" alignY="batasMenu#1" height="1000">-->
+        <!--<container id="divPaperClip" y="20">-->
+        <!--<image_list id="bgPaperClip" isBaseContainer="true">-->
+        <!--<item>UI_baru/lbl_paperclip.png</item>-->
+        <!--</image_list>-->
+
+        <!--<image_list id="iconMobil" x="80" y="10" pivotY="0.5" alignY="bgPaperClip#0.5">-->
+        <!--<item>UI_baru/ic_ui_mobil.png</item>-->
+        <!--</image_list>-->
+        <!--<text id="textJlhMobil" x="20" y="0" pivotY="0.5" alignX="iconMobil#1" alignY="iconMobil#0.5" font="cuckoo" fontSize="45" color="68544f">99</text>-->
+
+        <!--<image_list id="iconMotor" x="180" alignX="iconMobil#1" y="10" pivotY="0.5" alignY="bgPaperClip#0.5">-->
+        <!--<item>UI_baru/ic_ui_motor.png</item>-->
+        <!--</image_list>-->
+        <!--<text id="textJlhMotor" x="20" y="0" pivotY="0.5" alignX="iconMotor#1" alignY="iconMotor#0.5" font="cuckoo" fontSize="45" color="68544f">99</text>-->
+
+        <!--<image_list id="iconPedagang" x="180" alignX="iconMotor#1" y="10" pivotY="0.5" alignY="bgPaperClip#0.5">-->
+        <!--<item>UI_baru/ic_ui_pedagang.png</item>-->
+        <!--</image_list>-->
+        <!--<text id="textJlhPedagang" x="20" y="0" pivotY="0.5" alignX="iconPedagang#1" alignY="iconPedagang#0.5" font="cuckoo" fontSize="45" color="68544f">99</text>-->
+        <!--</container>-->
+
+        <!--<container id="divCabang" x="0" y="20" alignX="divPaperClip#0" alignY="divPaperClip#1" height="300">-->
+        <!--<image_list id="bgAtasCabang">-->
+        <!--<item>UI_baru/lbl_kertaspita_atas.png</item>-->
+        <!--</image_list>-->
+        <!--<image_list id="bgTengahCabang" alignY="bgAtasCabang#1" scaleY="3.0">-->
+        <!--<item>UI_baru/lbl_kertaspita_tengah.png</item>-->
+        <!--</image_list>-->
+
+        <!--<image_list id="bgBawahCabang" alignY="bgTengahCabang#1">-->
+        <!--<item>UI_baru/lbl_kertaspita_bawah.png</item>-->
+        <!--</image_list>-->
+
+        <!--<text id="labelCabang" x="50" y="10" font="cuckoo" fontSize="32" color="ffffff">Cabang</text>-->
+
+        <!--<container id="tabs" x="20" y="0" alignX="bgAtasCabang#0" alignY="bgAtasCabang#1" height="114">-->
+        <!--<button id="btnDalamNegeri" x="20"  y="0" imageNormal="UI_baru/btn_tab_biru_sisi_dekok.png" onClick="pindahTabProfile#0">-->
+        <!--<image_list id="iconDalamNegri" x="40" y="35">-->
+        <!--<item>UI_baru/ic_cabang_nasional.png</item>-->
+        <!--</image_list>-->
+        <!--<text id="textJlhNasional" x="20" y="0" alignX="iconDalamNegri#1" alignY="iconDalamNegri#0" font="cuckoo" fontSize="42" color="ffffff">00</text>-->
+        <!--</button>-->
+        <!--<button id="btnLuarNegeri" x="0" y="0" alignX="btnDalamNegeri#1" alignY="btnDalamNegeri#0" imageNormal="UI_baru/btn_tab_biru_tengah_timbul.png" onClick="pindahTabProfile#1">-->
+        <!--<image_list id="iconLuarNegri" x="40" y="35">-->
+        <!--<item>UI_baru/ic_cabang_global.png</item>-->
+        <!--</image_list>-->
+        <!--<text id="textJlhGlobal" x="20" y="0" alignX="iconLuarNegri#1" alignY="iconLuarNegri#0" font="cuckoo" fontSize="42" color="ffffff">00</text>-->
+        <!--</button>-->
+        <!--<button id="btnDimensi" x="0" y="0" scaleX="-1" pivotScaleX="0.5" alignX="btnLuarNegeri#1" alignY="btnLuarNegeri#0" imageNormal="UI_baru/btn_tab_biru_sisi_timbul.png" onClick="pindahTabProfile#2">-->
+        <!--<image_list id="iconDimensi" x="180" y="35" scaleX="-1" pivotScaleX="0">-->
+        <!--<item>UI_baru/ic_cabang_dimensi.png</item>-->
+        <!--</image_list>-->
+        <!--<text id="textJlhDimensi" x="-20" y="0" scaleX="-1" pivotScaleX="0" alignX="iconDimensi#1" alignY="iconDimensi#0" font="cuckoo" fontSize="42" color="ffffff">75</text>-->
+        <!--</button>-->
+        <!--</container>-->
+
+        <!--<container id="isiDataCabang" y="20" alignY="tabs#1">-->
+        <!--</container>-->
+        <!--</container>-->
+
+        <!--<container id="divPedagang" x="0" y="20" alignX="divCabang#0" alignY="divCabang#1">-->
+        <!--<image_list id="bgAtasPedagang">-->
+        <!--<item>UI_baru/lbl_kertaspita_atas.png</item>-->
+        <!--</image_list>-->
+        <!--<image_list id="bgTengahPedagang" alignY="bgAtasPedagang#1" scaleY="3.0">-->
+        <!--<item>UI_baru/lbl_kertaspita_tengah.png</item>-->
+        <!--</image_list>-->
+        <!--<text id="labelPedagang" x="50" y="10" font="cuckoo" fontSize="32" color="ffffff">Pedagang</text>-->
+        <!--<container id="isiDataPedagang" y="20" alignY="bgAtasPedagang#1" height="300">-->
+        <!--</container>-->
+        <!--<image_list id="bgBawahPedagang" alignY="isiDataPedagang#1">-->
+        <!--<item>UI_baru/lbl_kertaspita_bawah.png</item>-->
+        <!--</image_list>-->
+        <!--</container>-->
+        <!--</container>-->
+
+        <container id="barBackMenu" y="-137" alignY="hLayar#1" height="137">
+            <image_list id="bgMenuBack" y="137" pivotY="1">
+                <item>UI_baru/ui_batas_menu_back.png</item>
+            </image_list>
+            <button id="btnBack" x="20" imageNormal="UI_baru/btn_back.png" y="137" pivotY="1" onClick="backPressed">
+            </button>
+
+            <button id="btnStikerWA" x="0" pivotX="0.5" alignX="wLayar#0.5" imageNormal="UI_baru/button_hijau_lebarbesar.png" y="137" pivotY="1" onClick="pindahState#profile_stickerWA">
+                <text id="labelStikerWA" x="0" y="-80" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="40" color="ffffff">Sticker WA</text>
+
+                <image_list id="notifBtnStikerWA" x="175" y="-135" pivotX="1" pivotY="0" isVisible="false">
+                    <item>UI_baru/ic_alert.png</item>
+                </image_list>
+            </button>
+        </container>
+
+    </container>
+</resources>

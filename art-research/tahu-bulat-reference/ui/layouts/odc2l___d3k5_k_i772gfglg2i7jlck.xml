@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <image_list id="baseImage" x="-20" pivotX="0.5" alignX="wLayar#0.5" y="0">
+            <item>matchthree/popup/popup_tahukeras_menang.png</item>
+        </image_list>
+
+        <text id="desc1" x="-20" y="10" pivotX="0.5" pivotY="0" alignX="wLayar#0.5" alignY="baseImage#1" font="comicneueLight" fontSize="30" color="000000" wrapWidth="650" isCenter="true">Kamu berhasil mengalahkan Cranzilla!&#10;Kamu mendapatkan:</text>
+
+        <container id="divReward" x="0" y="20" alignY="desc1#1" width="200" height="39">
+            <container id="divCosalt" x="-240" alignX="wLayar#0.5" y="0" width="200" height="39">
+                <image_list id="bgCosalt" x="10" y="5">
+                    <item>UI_baru/bar_peridot.png</item>
+                </image_list>
+                <image_list id="labelCosalt">
+                    <item>matchthree/ic_cosalt.png</item>
+                </image_list>
+                <text id="textCosalt" x="-10" y="0" pivotX="1" pivotY="0.5" alignX="bgCosalt#1" alignY="bgCosalt#0.5" font="cuckoo" fontSize="30" color="ffffff">000</text>
+                <text id="textDobelCosalt" x="5" y="0" pivotX="0" pivotY="0.5" alignX="bgCosalt#1" alignY="textCosalt#0.5" font="cuckoo" fontSize="30" color="000000">x2</text>
+            </container>
+
+            <container id="divPeridot" x="40" alignX="wLayar#0.5" y="0" width="200" height="39">
+                <image_list id="bgPeridot" x="10" y="5">
+                    <item>UI_baru/bar_peridot.png</item>
+                </image_list>
+                <image_list id="labelPeridot">
+                    <item>UI_baru/ic_peridot.png</item>
+                </image_list>
+                <text id="textPeridot" x="-10" y="0" pivotX="1" pivotY="0.5" alignX="bgPeridot#1" alignY="bgPeridot#0.5" font="cuckoo" fontSize="30" color="ffffff">3</text>
+                <text id="textDobelPeridot" x="5" y="0" pivotX="0" pivotY="0.5" alignX="bgPeridot#1" alignY="textPeridot#0.5" font="cuckoo" fontSize="30" color="000000">x2</text>
+            </container>
+        </container>
+
+        <text id="desc2" x="-20" y="20" pivotX="0.5" pivotY="0" alignX="wLayar#0.5" alignY="divReward#1" font="comicneueLight" fontSize="30" color="000000" wrapWidth="650" isCenter="true">Namun Kota Bandung masih tetap beku...&#10;Tahu-tahu juga masih keras...&#10;Sepertinya Garam Kosmik yang kamu&#10;miliki masih kurang...Yuk, kumpulin lagi!</text>
+
+        <!--<container id="contButton" x="0" y="30" pivotX="0.5" alignX="baseImage#0.5" alignY="desc2#1" height="120">-->
+            <!--<button id="btnSiap" x="-295" pivotX="0" imageNormal="UI_baru/ui_btn_default.png" y="0">-->
+                <!--<text id="labelSiap" x="132" y="25" pivotX="0.5" font="cuckoo" fontSize="35" color="ffffff">Siaap!</text>-->
+            <!--</button>-->
+            <!--<button id="btnGandakan" x="30" pivotX="0" imageNormal="UI_baru/ui_btn_normal_kuning.png" y="0">-->
+                <!--<image_list id="iconGandakan" x="-20" y="-5">-->
+                    <!--<item>ui_turis/ic_kameraAds.png</item>-->
+                <!--</image_list>-->
+                <!--<text id="labelGandakan" x="2" y="25" alignX="iconGandakan#1" font="cuckoo" fontSize="35" color="ffffff">Gandakan</text>-->
+            <!--</button>-->
+        <!--</container>-->
+
+    </container>
+</resources>

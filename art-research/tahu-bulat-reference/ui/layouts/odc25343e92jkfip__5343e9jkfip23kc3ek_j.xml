@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <story idFestival="1" xmlStory="xml_cabang_story/atlantis_story_1.xml"/><!--//misi 3-->
+    <story idFestival="2" xmlStory="xml_cabang_story/atlantis_story_2.xml"/><!--//misi 7-->
+    <story idFestival="3" xmlStory="xml_cabang_story/atlantis_story_3.xml"/><!--//misi 10-->
+    <!--//07172020-->
+    <story idFestival="4" xmlStory="xml_cabang_story/atlantis_story_4.xml"/><!--//misi 12-->
+    <story idFestival="5" xmlStory="xml_cabang_story/atlantis_story_5.xml"/><!--//misi 13-->
+    <story idFestival="6" xmlStory="xml_cabang_story/atlantis_story_6.xml"/><!--//misi 14-->
+    <!--//08142020-->
+    <story idFestival="7" xmlStory="xml_cabang_story/atlantis_story_7.xml"/><!--//misi 16-->
+</resources>

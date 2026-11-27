@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Ehh??!&#10;Turis-turisnya udah pulang semua?!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hmmphhh..&#10;Belum abis ya dagangannya??</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>I-i-iya nih...</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Makannya, dagang itu pake strategi! Kaya aku dong, jualan Ramen! HAHAHA!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>.........</desc>
+        </dialog>
+    </skenario>
+</resources>

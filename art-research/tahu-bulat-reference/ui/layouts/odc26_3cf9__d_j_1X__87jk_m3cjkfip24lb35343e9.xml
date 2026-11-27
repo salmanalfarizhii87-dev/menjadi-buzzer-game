@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+	<dialog karakter="0" tipe="kiri" ekspresi="sapa" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hey!&#10;Barusan Akang dapet info dari Tante Eksis, lho!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Katanya lagi mau ada arisan Tante-tante dari seluruh penjuru dunia!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Yuk, kita ikutan jualan Tahu Bulat di arisan si tante!</desc>
+        </dialog>
+	<dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Ciye, Akang...</desc>
+        </dialog>     
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Euh..&#10;Apaan sih kamu, Tako?!</desc>
+        </dialog>
+    </skenario>
+</resources>

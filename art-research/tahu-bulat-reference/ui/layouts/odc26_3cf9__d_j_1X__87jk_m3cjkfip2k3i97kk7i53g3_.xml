@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="mantul" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Mannttulllllllll!&#10;Target sudah tercapai!!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="marah" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Apah?&#10;Sudah tercapai lagi?!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="tekad_bulad" isHold="true">
+            <desc>Oiya, dong!&#10;Dengan tekad bulat!!!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="marah" isHold="true">
+            <desc>Kamu pasti pakai guna-guna!!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Hah?! Guna-guna??</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="ketawa1" isHold="true">
+            <desc>Hoh, iya..&#10;Guna-gunakan otak! HAHAHA!!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="marah" isHold="true">
+            <desc>........................</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="kaget" isHold="true">
+            <desc>Guna-kan otak........?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHAHAHAHAHAHA!!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Loh? Tadi marah, sekarang ketawa sendiri..&#10;Kang Piki, kamu gapapa?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hmpph......&#10;Apa sudah waktunya aku berhenti ya?</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Hah? Berhenti??!&#10;Ke-ke-kenapa??</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Aku memang tidak berniat lama-lama jadi pedagang Tahu Bulat!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Buat apa aku kuliah kuliner di Australia, terus lulus cuma dagang Tahu Bulat?!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Orang sepertiku harusnya membuka Kafe Gaul atau Restoran Mevvah!!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>.................</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Eh, terus kalau ga mau..&#10;Kenapa malah dagang Tahu Bulat, Kang?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="marah" isHold="true">
+            <desc>Ini semua gara-gara Bapak saya baca kisah sukses bisnis Tahu Bulat di Majalah Waktu!!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="marah" isHold="true">
+            <desc>Katanya bisnis sukses itu bisa dimulai dari nol...</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="marah" isHold="true">
+            <desc>Jadi sebelum boleh buka Restoran, aku harus mulai dari jualan Tahu Bulat dulu sampai sukses!!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>*Majalah Waktu?*&#10;*Bapaknya? Jangan-jangan...*</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hmmpphh...&#10;Tapi ntah kenapa sekarang aku malah sibuk saingan sama kamu, Kang.</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Oh gapapa dong!&#10;Saingan bisnis secara sehat itu bagus kok!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Jadi kita bisa sama-sama tumbuh!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHA!!&#10;Ternyata pintar juga kamu, kang!</desc>
+        </dialog>
+	<aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Loh, tahu-tahu pergi ga pake pamit lagi nih si Kang Piki!!</desc>
+        </dialog>
+	<dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kannggg!!!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="sapa" isHold="true">
+            <desc>Hey, Tako!!&#10;Pasti mau ngasih Peti, kan?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Iya nih, ada Peti Perunggu!&#10;Udah hafal ya, Kang?</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="ketawa1" isHold="true">
+            <desc>Apal dong!!&#10;Abis ini mau minta Tahu&#10;juga kan?!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Oh pasti dongggg!!!&#10;NYOOO!!!</desc>
+        </dialog>
+    </skenario>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Jadi di sini lagi tempatnya?&#10;Tempat ini kok bisa bikin acara banyak banget sih?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hmphh..&#10;Mau apa kamu ke sini, Kang??</desc>
+        </dialog>
+	    <dialog karakter="0" tipe="kiri" ekspresi="sapa" isHold="true">
+            <desc>Eh, halo Kang Piki!!&#10;Dagang Tahu Bulat dong, Kang!!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHAHAHAHAH!!&#10;Memangnya kamu pikir Turis-turis dari Jepang ini mau makan Tahu Bulat?!</desc>
+        </dialog>
+	    <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>L-loh??&#10;Kenapa harus ga mau??</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHAHAHAHAHA!!&#10;Aku aja hari ini ga dagang Tahu Bulat!</desc>
+        </dialog>
+	    <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Eh.. Libur Kang?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Bukan libur!!&#10;Tapi strategi dagang!&#10;Aku dagang Ramen!!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Coba kita lihat kamu bisa dapat berapa dari dagang Tahu Bulat di sini!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc isNode="true">
+                <string>
+                    <text>Kalau aku sih pasti dengan mudah bisa tembus sampai&#10;</text>
+                    <koin_Festival/>
+                    <text format="target_misi">%s!!</text>
+                </string>
+            </desc>
+        </dialog>
+	    <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Woh, tanding dagang lagi?&#10;Okeh, siapppp!!</desc>
+        </dialog>
+	    <dialog karakter="0" tipe="kiri" ekspresi="tekad_bulad" isHold="true">
+            <desc>Jangan kaget nanti waktu lihat hasil jualan Tahu Bulat versi Jepang dariku yak!</desc>
+        </dialog>
+    </skenario>
+</resources>

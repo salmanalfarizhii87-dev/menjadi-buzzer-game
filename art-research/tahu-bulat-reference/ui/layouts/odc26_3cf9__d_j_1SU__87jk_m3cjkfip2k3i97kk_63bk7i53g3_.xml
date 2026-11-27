@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+	    <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Si Towa di mana sih??&#10;Kok, ga keliatan, ya?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Iya, nih..&#10;Kemana ya si Towa?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Ya sudah..&#10;Kita sambil lanjut dagang lagi aja, Tako!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Eh, ga bisa, Kang!!&#10;Jalur pulangnya udah ampir ketutup.. Kita sudah harus pulang dulu!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eh? Udah ampir ketutup?? Harus buru-buru pulang, dong??</desc>
+        </dialog>
+    </skenario>
+</resources>

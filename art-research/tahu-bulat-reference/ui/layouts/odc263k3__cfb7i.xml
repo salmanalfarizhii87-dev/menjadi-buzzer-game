@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--tidak kepakai-->
+<resources>
+
+    <loker>
+        <item id="1" judul="Koran" iconPath="icon/icon marketing karakter/ic_koran.png" harga="11M">desc desc desc 111</item>
+        <item id="2" judul="Iklan TV" iconPath="icon/icon marketing karakter/ic_iklantv.png" harga="22M">desc desc desc 222</item>
+        <item id="3" judul="Iklan TV" iconPath="icon/icon marketing karakter/ic_iklantv.png" harga="33M">desc desc desc 333</item>
+        <item id="4" judul="Koran" iconPath="icon/icon marketing karakter/ic_koran.png" harga="44M">desc desc desc 444</item>
+        <item id="5" judul="Iklan TV" iconPath="icon/icon marketing karakter/ic_iklantv.png" harga="55M">desc desc desc 555</item>
+        <item id="6" judul="Iklan TV" iconPath="icon/icon marketing karakter/ic_iklantv.png" harga="66M">desc desc desc 666</item>
+    </loker>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc isNode="true">
+                <string>
+                    <text>Sampee....&#10;Target dari Raja adalah sebesar </text>
+                    <koin_Atlantis/>
+                    <text format="target_misi"> %s dalam 12 jam!</text>
+                </string>
+            </desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Apaah???&#10;Sebesar itu??</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Namanya juga tantangan dari Raja Atlantis, Kang..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Hmmm..&#10;Ngomong-ngomong, Tako..&#10;Kalau targetnya ga kesampean gimana, ya?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Mungkin....&#10;Kita juga akan ditangkap...</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Wuaduuhhh!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Baiklah, sudah sampai sini, mari kita berjuang!!&#10;Kamu juga bantu ya, Tako!!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Siaaaappp!!</desc>
+        </dialog>
+    </skenario>
+</resources>

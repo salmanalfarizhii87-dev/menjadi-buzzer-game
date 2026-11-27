@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#452273" />
+    <meta
+      name="description"
+      content="Menjadi Buzzer — game simulasi manajemen semi idle. Kelola akun, hasilkan pendapatan pasif, ambil kontrak kampanye berisiko."
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>Menjadi Buzzer</title>
+  </head>
+  <body>
+    <div id="boot" role="status" aria-live="polite">
+      <div class="boot-inner">
+        <div class="boot-mark" aria-hidden="true"></div>
+        <p class="boot-text">Memuat game...</p>
+      </div>
+    </div>
+
+    <div id="app"></div>
+    <div id="overlay-root"></div>
+    <div id="toast-root" aria-live="polite" aria-atomic="false"></div>
+
+    <noscript>
+      <p style="padding: 24px; font-family: system-ui, sans-serif">
+        Menjadi Buzzer memerlukan JavaScript untuk berjalan. Aktifkan JavaScript di browser lalu muat
+        ulang halaman.
+      </p>
+    </noscript>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

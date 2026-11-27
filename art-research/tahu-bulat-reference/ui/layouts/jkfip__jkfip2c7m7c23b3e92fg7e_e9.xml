@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario lama_muncul="5.0" punya_warna_belakang="0x000000">
+        <pilihan karakter="0" ekspresi="sapa" y="300" animasi="0.7" analytics="POB1_START">
+            <dialog>Halo!!&#10;Kita berjumpa kembali!!</dialog>
+            <buttons>
+                <button tipe="next" image="UI_baru/ui_btn_default.png" text="Halo"/>
+            </buttons>
+        </pilihan>
+
+        <dialog ekspresi="belajar">Wahhh... &#10;Bisnis kamu nampaknya tumbuh pesat!!</dialog>
+        <dialog ekspresi="idle" formatType="level_pemain">Sepertinya kamu sudah layak&#10;disebut sebagai Tukang Tahu Bulat Level %1$s!!</dialog>
+        <dialog ekspresi="mantul">Selamat ya, Kang/Teh...</dialog>
+
+        <dialog ekspresi="kaget">Eh, lho!!!&#10;Ternyata... selama ini Akang Tahu.....</dialog>
+        <dialog ekspresi="kaget">Belum tahu namanya Akang/Teteh ya???</dialog>
+
+        <aksi tipe="showPopUp" ui="inputNama" hold="false" analytics="POB2_START_NAMA"/>
+        <syarat tipe="validName"/>
+
+        <dialog ekspresi="sapa" formatType="nama_pemain" analytics="POB2_DONE">Oke, Kak %s!!&#10;Salam kenal kembali, ya!</dialog>
+        <dialog ekspresi="sedap" formatType="nama_pemain">Maafkan Akang yang selama&#10;ini tidak pernah menanyakan&#10;nama Kak %1$s, huhuhu...</dialog>
+        
+        <dialog ekspresi="mantul" formatType="nama_pemain_dan_level" analytics="POB4_START_BINTANG">Sekali lagi, selamat!!&#10;Kak %1$s sudah menjadi&#10;Tukang Tahu Bulat Level %2$s!!</dialog>
+        <aksi tipe="highlight" ui="bintang_level" hold="false"/>
+        <aksi tipe="muncul" ui="bintang_level" hold="false"/>
+        <dialog ekspresi="idle">Level Tukang Tahu Bulat beserta&#10;proses peningkatannya ditampilkan dalam bentuk bintang.</dialog>
+        <dialog ekspresi="semangat">Tingkatkan terus total penghasilan selamanya untuk meningkatkan&#10;Level Tukang Tahu Bulat!</dialog>
+        <dialog ekspresi="tekad_bulad" analytics="POB5_COMPLETED">Ayo, bulatkan Tekad!!!&#10;Sebulat Tahu Bulat!!!</dialog>
+    </skenario>
+</resources>

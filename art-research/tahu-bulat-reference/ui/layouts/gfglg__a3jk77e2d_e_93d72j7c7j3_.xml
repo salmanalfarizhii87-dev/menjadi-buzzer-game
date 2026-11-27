@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario lama_muncul="5.0">
+<!--        <dialog karakter="2" ekspresi="happy" alignY="0.5f" y="-120" animasi="0.5">Terima kasih banyak!!&#10;Nanti aku mampir lagi, yaaa..</dialog>-->
+<!--        <dialog karakter="2" ekspresi="happy" alignY="0.5f" y="-120" animasi="0.5">Terima kasih banyak!!&#10;Nanti aku mampir lagi, yaaa..</dialog>-->
+        <pilihan karakter="2" animasi="0.5"  alignY="0.5f" y="-120" ekspresi="happy">
+            <dialog>Waaaa! Tahu-tahu bulat ini kelihatan enak sekali!!&#10;Kamu masih punya lagi?</dialog>
+            <buttons>
+                <button tipe="btnDelegate" idAksi="jasteen_tolakgandakan" image="UI_baru/ui_btn_normal_merah.png" text="Itu aja"/>
+                <button tipe="btnDelegate" idAksi="jasteen_gandakan" image="UI_baru/ui_btn_normal_ijo.png" text="Gandakan" isAds="true"/>
+            </buttons>
+        </pilihan>
+    </skenario>
+</resources>

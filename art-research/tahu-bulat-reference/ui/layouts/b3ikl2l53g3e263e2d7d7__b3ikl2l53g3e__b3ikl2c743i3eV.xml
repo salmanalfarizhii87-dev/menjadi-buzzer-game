@@ -1,0 +1,50 @@
+<resources>
+    <!--font :-->
+    <!--comicneueLight-->
+    <!--comicneueBold-->
+    <!--arial-->
+    <!--ttt-->
+    <!--cuckoo-->
+    <!--theBoldFont-->
+    <nama>K. Lebaran D</nama>
+    <image>ui_kartu_meme/kartu_ucapan/kartu_lebaran4.png</image>
+    <variasi>
+        <image>
+            <!--<input id="0">-->
+            <!--<item x="189" y="578" width="335" alignX="0.0f" alignY="0.0f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "19" min_font_size="30" max_font_size="40"/>-->
+            <!--</input>-->
+        </image>
+        <text>
+            <item id="0">
+                <varian>
+                    <!--<item x="200" y="365" width="300" alignX="0.0f" alignY="0.0f" colour="0x000000" fontSize="36" font="cuckoo" isCenter="true">Mohon maaf lahir dan bathin.</item>-->
+                </varian>
+            </item>
+        </text>
+    </variasi>
+    <input>
+        <item id="0" x="180" y="356" width="390" alignX="0.0f" alignY="0.0f" colour="0xffffff" font="cuckoo" isCenter="true" min_char = "0" max_char = "75" min_font_size="26" max_font_size="36"/>
+        <item id="1" x="180" y="510" width="390" alignX="0.0f" alignY="0.0f" colour="0xffffff" font="cuckoo" isCenter="true" min_char = "0" max_char = "20" min_font_size="28" max_font_size="32"/>
+        <item id="2" x="180" y="70" width="390" alignX="0.0f" alignY="0.0f" colour="0xffffff" font="cuckoo" isCenter="true" min_char = "0" max_char = "20" min_font_size="28" max_font_size="32"/>
+    </input>
+    <contoh>
+        <input id="0">
+            <!--ucapan-->
+            <item>Minal aidin wal faizin, mohon maaf lahir batin.</item>
+            <item>Selamat berbaju baru! Selamat dapat amplop! Selamat kumpul keluarga!</item>
+            <item>Walau kita tak tatap muka, semoga pintu maaf masih terbuka. Mohon maaf lahir dan batin.</item>
+        </input>
+        <input id="1">
+            <!--untuk-->
+            <item>Teman-teman</item>
+            <item>Kawan-kawan</item>
+            <item>Kamu</item>
+        </input>
+        <input id="2">
+            <!--dari-->
+            <item>Akang Tahu</item>
+            <item>Tako</item>
+            <item>Aku</item>
+        </input>
+    </contoh>
+</resources>

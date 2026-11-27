@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hmm....</desc>
+        </dialog>
+	    <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Akangunyoo!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Hmmmmmmm....</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Kang...??</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Hmmm.. Hmmmm....</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>...........</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>HHHHHMMMMMMM...</desc>
+        </dialog>
+	    <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>AKAAANNGGGGG!!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Ehhh??! Tako?!&#10;Ngagetin aja!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>..........&#10;Udah dipanggilin dari tadi ga jawab-jawab sih..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Ya maap..&#10;Lagi banyak pikiran ini...</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Emang ada apaan, Kang?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Jadi tadi Om Tajir ngeborong Tahu Bulat..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Katanya buat dibawa ke Rapat Direksi...</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Terus dia bilang, di dekat tempat rapat, ada bazaar lagi..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Kata Om Tajir, kolega rapatnya pasti bakal banyak yang jajan ke Bazaar..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Wihh, asik!&#10;Hayu atuh kita jualan ke sana!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Tapi.....</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Tapi?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Nanti ketemu Kang Piki....</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Lah? Kok jadi takut ketemu Kang Piki?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="tekad_bulad" isHold="true">
+            <desc>Hah?! Takut? Siapa??</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Tadi katanya ga mau ketemu Kang Piki?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Hmmm... iya sih..&#10;Ya liat nanti aja deh, yuk kita berangkat saja!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Ayuuuuu!!</desc>
+        </dialog>
+    </skenario>
+</resources>

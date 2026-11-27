@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Ehh... kok ini orang-orang udah pada bubar?</desc>
+        </dialog>
+	    <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Ya iyalah!&#10;Kan hari ini sudah selesai Olimpiadenya!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Gimana?&#10;Gak nyampe kan targetnya?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>be-belum sih....</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHAHAHAHA!!</desc>
+        </dialog>
+        <aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>...........&#10;Yang berikutnya... Pasti berhasil!!</desc>
+        </dialog>
+    </skenario>
+</resources>

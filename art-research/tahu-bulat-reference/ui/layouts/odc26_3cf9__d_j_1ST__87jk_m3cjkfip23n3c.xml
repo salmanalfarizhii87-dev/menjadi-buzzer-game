@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Tapi... Akang beneran penasaran nih, Towa..</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hadeuhh....&#10;Mentang-mentang Akang Tahu, jadinya pengen Tahu mulu, ya?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Terus aja joke tahu...</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc isNode="true">
+                <string>
+                    <text>Yasudah... Kalau Akang berhasil jual Tahu Bulat sampai </text>
+                    <koin_Atlantis/>
+                    <text format="target_misi"> %s dalam 12 jam..</text>
+                </string>
+            </desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Maka akan Towa kasih Tahu!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Hmmm..&#10;Kasih tahu jawabannya...&#10;Atau kasih tahu bulat??</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Iya.. kasih tahu jawabannya..&#10;Tenang saja..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>WOKEH!!!&#10;Sip, kamu lihat saja nanti yah, Towa!!</desc>
+        </dialog>
+    </skenario>
+</resources>

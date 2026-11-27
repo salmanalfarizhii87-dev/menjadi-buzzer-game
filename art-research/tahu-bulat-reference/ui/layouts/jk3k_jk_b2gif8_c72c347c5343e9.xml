@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <container id="contCabang">
+        <image_list id="bgLabel" isBaseContainer="true">
+            <item>UI_baru/lbl_kertas_polos.png</item>
+        </image_list>
+
+        <image_list id="iconCabang" x="20" y="-20">
+        <!--<image_list id="iconCabang" x="25" y="40">-->
+            <item>icon/icon kota cabang tanpa ilustrasi/ic_gedung sate.png</item>
+        </image_list>
+
+        <!--x=15, y=15-->
+        <!--x=15, y=40-->
+        <text id="namaCabang" x="10" y="15" alignX="iconCabang#1" font="cuckoo" fontSize="28" color="000000" wrapWidth="155" isCenter="false">Bandung</text>
+
+        <container id="divJlhKoin" alignX="namaCabang#0" y="5" alignY="namaCabang#1">
+        <!--<container id="divJlhKoin"  alignX="namaCabang#0" y="10" alignY="namaCabang#1">-->
+            <image_list id="bgJlhKoin" y="5" isBaseContainer="true">
+                <item>UI_baru/bar_koin.png</item>
+            </image_list>
+            <image_list id="iconKoin">
+                <item>UI_baru/ic_koin_dalamNegeri.png</item>
+            </image_list>
+            <text id="jumlahKoin" x="-10" y="10" pivotX="1" alignX="bgJlhKoin#1" font="cuckoo" fontSize="28" color="ffffff">999M</text>
+        </container>
+
+        <!--<image_list id="iconPPM" x="25" y="15" alignY="divJlhKoin#1">-->
+            <!--<item>UI_baru/ic_tabul.png</item>-->
+        <!--</image_list>-->
+        <!--<text id="ppm" x="10" y="10" alignX="iconPPM#1" alignY="iconPPM#0" font="cuckoo" fontSize="32" color="000000">99.999/Menit</text>-->
+
+        <!--<image_list id="iconHargaTahu1" x="25" y="10" alignY="iconPPM#1">-->
+            <!--<item>UI_baru/ic_tabul.png</item>-->
+        <!--</image_list>-->
+        <!--<text id="samadengan" x="10" y="5" alignX="iconHargaTahu1#1" alignY="iconHargaTahu1#0" font="cuckoo" fontSize="32" color="000000">=</text>-->
+        <!--<image_list id="iconHargaTahu2" x="10" y="0" alignX="samadengan#1" alignY="iconHargaTahu1#0">-->
+            <!--<item>UI_baru/ic_koin_dalamNegeri.png</item>-->
+        <!--</image_list>-->
+        <!--<text id="hargaTahu" x="10" y="5" alignX="iconHargaTahu2#1" alignY="iconHargaTahu2#0" font="cuckoo" fontSize="32" color="000000">99Rb</text>-->
+    </container>
+
+    <animation>
+    </animation>
+
+</resources>

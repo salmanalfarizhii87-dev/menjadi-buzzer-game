@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario>
+        <dialog karakter="2" ekspresi="happy" alignY="0.5f" y="-120" animasi="0.5" formatType="jasteen_beliitem_namabarang">Horeeee!! Senangnya dapat %1$s!!&#10;Aku sudah transfer uangnya ke Cabang Mars milikmu, ya..</dialog>
+        <dialog ekspresi="bertanya">Terima kasih...&#10;Kapan-kapan aku beli lagi ya...</dialog>
+        <!--<pilihan alignY="0.5f" y="-120" ekspresi="bertanya">-->
+            <!--<dialog ekspresi="bertanya">Terima kasih...&#10;Kapan-kapan aku beli lagi ya...</dialog>-->
+            <!--<buttons>-->
+                <!--<button tipe="btnDelegate" idAksi="jasteen_beliitem_afteriya" image="UI_baru/ui_btn_default.png" text="Oke"/>-->
+            <!--</buttons>-->
+        <!--</pilihan>-->
+    </skenario>
+</resources>

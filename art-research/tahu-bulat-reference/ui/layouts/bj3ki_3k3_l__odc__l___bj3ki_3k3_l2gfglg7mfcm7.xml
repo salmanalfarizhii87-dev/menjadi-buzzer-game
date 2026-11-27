@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base" x="0" y="0" height="450">
+        <image_list id="bgEvolve" x="-20" y="0" alignX="wLayar#0.5" pivotX="0.5">
+            <item>ksatriatahu/ui/popUp_evolusi.png</item>
+        </image_list>
+
+        <image_list id="petAsal" x="-90" y="0" alignX="bgEvolve#0.5" alignY="bgEvolve#0.5" pivotX="1" pivotY="0.5">
+            <item>ksatriatahu/pets/tabulbot/tabulboy_2.png</item>
+        </image_list>
+
+        <image_list id="petAkhir" x="90" y="0" alignX="bgEvolve#0.5" alignY="bgEvolve#0.5" pivotX="0" pivotY="0.5">
+            <item>ksatriatahu/pets/tabulbot/tabulboy_2.png</item>
+        </image_list>
+
+        <text id="textEvolve" x="-20" y="20" pivotX="0.5" alignX="wLayar#0.5" alignY="bgEvolve#1" font="comicneueLight" fontSize="30" color="000000" wrapWidth="650" isCenter="true">Tabulboy akan berevolusi menjadi Protobul!&#10;Waktu yang diperlukan untuk persiapan evolusi:&#10;6 Jam.</text>
+    </container>
+</resources>

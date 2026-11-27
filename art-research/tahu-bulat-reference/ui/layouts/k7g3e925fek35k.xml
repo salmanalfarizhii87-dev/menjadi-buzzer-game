@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base" x="0" y="60">
+        <container id="headerBar">
+            <image_list id="bgHeader" isBaseContainer="true">
+                <item>hpakang/chat/menubar_atas.png</item>
+            </image_list>
+            <button id="btnBack" x="40" y="20" alignX="bgHeader#0" alignY="bgHeader#0" imageNormal="hpakang/chat/button_back_chat.png" onClick="backPressed">
+            </button>
+            <text id="labelContact" x="20" y="0" pivotY="0.5" alignX="btnBack#1" alignY="btnBack#0.5" font="cuckoo" fontSize="40" color="ffffff">Buku Kontak</text>
+        </container>
+
+        <scrollView id="scrollListContact" x="0" y="0" alignY="headerBar#1" height="1000">
+        </scrollView>
+    </container>
+
+    <animation>
+    </animation>
+</resources>

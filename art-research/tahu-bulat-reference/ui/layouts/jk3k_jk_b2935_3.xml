@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <container id="base">
+
+        <container id="konten" x="0" y="0"><!--283+702+50+96-->
+<!--            <image_list id="iconHeaderGacha" y="300" x="0" pivotY="1" pivotX="0.5" alignX="wLayar#0.5">-->
+            <image_list id="iconHeaderGacha" y="180" x="0" pivotY="1" pivotX="0.5" alignX="wLayar#0.5" scaleX="2.0f" scaleY="2.0f" pivotScaleX="0.5" pivotScaleY="1">
+                <item>Header Gacha Rarity/Header_GachaLv1.png</item>
+            </image_list>
+
+            <!--y="0" alignY="hLayar#0.25"-->
+            <container id="map" x="25" y="0" height="702" alignY="iconHeaderGacha#1">
+                <image_list id="mapBelakang" y="30" scaleX="2.0" scaleY="2.0" pivotScaleX="0" pivotScaleY="0">
+                    <item>UI_baru/cv_map_belakang.png</item>
+                </image_list>
+
+                <container id="isiCV" x="0" y="0">
+                    <image_list id="bgCV" isBaseContainer="true">
+                        <item>UI_baru/cv_base_terpotong.png</item>
+                    </image_list>
+
+                    <container id="divFotoCV" x="100" y="150">
+                        <image_list id="bgFotoCV" x="15" y="15">
+                            <item>UI_baru/frame_BG_1.png</item>
+                        </image_list>
+                        <image_list id="fotoCV" x="0" y="0" alignX="bgFotoCV#0" alignY="bgFotoCV#0">
+                            <item>pedagang/Ch_AkangTahu_idle.png</item>
+                        </image_list>
+                        <image_list id="frameFotoCV" isBaseContainer="true">
+                            <item>UI_baru/frame_1.png</item>
+                        </image_list>
+                        <image_list id="iconCabang" x="-4" y="-4" pivotY="1" alignX="frameFotoCV#0" alignY="frameFotoCV#1" scaleX="0.5" scaleY="0.5" pivotScaleY="1">
+                            <item>icon/icon kota cabang tanpa ilustrasi/ic_gedung sate.png</item>
+                        </image_list>
+                    </container>
+
+                    <image_list id="badgeCV" x="20" y="0" alignX="divFotoCV#1" alignY="divFotoCV#0">
+                        <item>UI_baru/badge_3.png</item>
+                    </image_list>
+                    <text id="namaCV" x="10" y="5" alignX="badgeCV#1" alignY="badgeCV#0" font="cuckoo" fontSize="32" color="000000">Akang Baik Hati</text>
+
+                    <image_list id="levelCV" x="0" y="15" alignX="badgeCV#0" alignY="badgeCV#1">
+                        <item>UI_baru/label_pedagang_level.png</item>
+                    </image_list>
+                    <text id="textLevelBadge" x="0" y="20" pivotX="0.5" alignX="levelCV#0.5" alignY="levelCV#0" font="cuckoo" fontSize="27" color="000000">40</text>
+
+                    <container id="barExp" x="10" y="15" alignY="levelCV#0" alignX="levelCV#1">
+                        <image_list id="barKosongExp" x="0" y="0" isBaseContainer="true">
+                            <item>UI_baru/bar_peridot.png</item>
+                        </image_list>
+                        <image_list id="barIsiExp" x="0" y="0" scaleX="0.8">
+                            <item>UI_baru/bar_isi.png</item>
+                        </image_list>
+                        <text id="textBarExp1" x="-10" y="0" pivotX="0.5" pivotY="0.5" alignX="barKosongExp#0.5" alignY="barKosongExp#0.5" font="cuckoo" fontSize="28" color="ffffff">4</text>
+                        <text id="textBarExp2" x="0" y="0" pivotX="0" pivotY="0.5" alignX="textBarExp1#1" alignY="barKosongExp#0.5" font="cuckoo" fontSize="28" color="ffffff">/5</text>
+                    </container>
+                </container>
+
+                <!--alignY="bgCV#1"-->
+                <image_list id="mapDepan" y="-50" alignY="isiCV#1" scaleX="2.0" scaleY="2.0" pivotScaleX="0" pivotScaleY="0">
+                    <item>UI_baru/cv_map_depan.png</item>
+                </image_list>
+
+                <image_list id="labelBaru" y="0" pivotX="1" alignX="mapDepan#1" alignY="mapDepan#0">
+                    <item>UI_baru/tag_baru.png</item>
+                </image_list>
+
+                <text id="jumlahGacha" x="0" y="-125" pivotX="0.5" alignX="mapDepan#0.5" alignY="mapDepan#1" font="cuckoo" fontSize="65" color="000000">X3</text>
+            </container>
+
+            <button id="btnShare" x="25" y="45" pivotX="0" alignY="map#1" imageNormal="UI_baru/button_bulat_kuning.png">
+                <image_list id="labelShare" x="43" y="50" pivotY="0.5" pivotX="0.5">
+                    <item>UI_baru/ic_share_hitam.png</item>
+                </image_list>
+            </button>
+
+            <button id="btnLihat" x="35" y="50" pivotX="0" alignX="btnShare#1" alignY="map#1" imageNormal="UI_baru/ui_btn_default.png" onClick="pindahState#statistik_cv">
+                <text id="textBtnLihat" x="132" y="45" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="32" color="ffffff">Lihat</text>
+            </button>
+
+            <button id="btnLanjut" x="70" y="0" pivotX="0" alignX="wLayar#0.5" alignY="btnLihat#0" imageNormal="UI_baru/ui_btn_default.png">
+                <text id="textBtnLanjut" x="134" y="45" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="32" color="ffffff">Lanjut</text>
+                <image_list id="bgNotifLanjut" x="265" pivotX="0.5" y="-37" pivotY="0">
+                    <item>UI_baru/cv_notif.png</item>
+                </image_list>
+                <text id="textNotifLanjut" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="bgNotifLanjut#0.5" alignY="bgNotifLanjut#0.5" font="cuckoo" fontSize="35" color="ffffff">5</text>
+            </button>
+
+            <!--<button id="btnLihat" x="-50" y="50" pivotX="1" alignX="mapDepan#0.5" alignY="map#1" imageNormal="UI_baru/ui_btn_default.png" onClick="pindahState#statistik_cv">-->
+                <!--<text id="textBtnLihat" x="-134" y="45" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="32" color="ffffff">Lihat</text>-->
+            <!--</button>-->
+
+            <!--<button id="btnLanjut" x="50" y="0" pivotX="0" alignX="wLayar#0.5" alignY="btnLihat#0" imageNormal="UI_baru/ui_btn_default.png">-->
+                <!--<text id="textBtnLanjut" x="134" y="45" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="32" color="ffffff">Lanjut</text>-->
+                <!--<image_list id="bgNotifLanjut" x="265" pivotX="0.5" y="-37" pivotY="0">-->
+                    <!--<item>UI_baru/cv_notif.png</item>-->
+                <!--</image_list>-->
+                <!--<text id="textNotifLanjut" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="bgNotifLanjut#0.5" alignY="bgNotifLanjut#0.5" font="cuckoo" fontSize="35" color="ffffff">5</text>-->
+            <!--</button>-->
+
+<!--            <container id="divIconGacha" y="0" x="0" alignX="iconHeaderGacha#0" alignY="iconHeaderGacha#0" height="283">-->
+<!--            </container>-->
+        </container>
+    </container>
+</resources>

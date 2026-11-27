@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <container id="base" x="0" y="0" height="86">
+        <container id="statusBar" x="0" y="0" height="61">
+            <image_list id="baseBarAtas" x="0" y="0">
+                <item>hpakang/bar_atas.png</item>
+            </image_list>
+            <text id="batteryText" x="10" y="18" alignX="wLayar#0" font="arial" fontSize="32" color="ffffff">100%</text>
+            <image_list id="batteryBar" x="8" y="18" alignX="batteryText#1">
+                <item>hpakang/batere_hijau.png</item>
+            </image_list>
+            <image_list id="batteryFrame" x="-5" y="13" alignX="batteryBar#0">
+                <item>hpakang/batere_frame.png</item>
+            </image_list>
+            <text id="jamStatusBar" x="-10" y="15" pivotX="1" alignX="wLayar#1" font="arial" fontSize="32" color="ffffff">19:55</text>
+
+            <container id="barsinyal" x="-65" y="8" alignX="jamStatusBar#0" height="55">
+                <image_list id="sinyal1" x="0" y="50" pivotY="1">
+                    <item>hpakang/sinyal_isi_1.png</item>
+                </image_list>
+                <image_list id="sinyal2" x="8" y="50" pivotY="1" alignX="sinyal1#1">
+                    <item>hpakang/sinyal_isi_2.png</item>
+                </image_list>
+                <image_list id="sinyal3" x="8" y="50" pivotY="1" alignX="sinyal2#1">
+                    <item>hpakang/sinyal_isi_3.png</item>
+                </image_list>
+                <image_list id="sinyal4" x="8" y="50" pivotY="1" alignX="sinyal3#1">
+                    <item>hpakang/sinyal_isi_4.png</item>
+                </image_list>
+                <image_list id="textSinyal" x="0" y="0" alignX="sinyal1#0">
+                    <item>hpakang/sinyal_4G.png</item>
+                </image_list>
+            </container>
+        </container>
+
+        <container id="navigationBar" x="0" y="-86" alignY="hLayar#1" height="86">
+            <image_list id="baseBarBawah" x="0" y="0">
+                <item>hpakang/bar_bawah.png</item>
+            </image_list>
+            <button id="menuButton" x="0" y="25" pivotX="0.5" alignX="wLayar#0.5" imageNormal="hpakang/button_menu.png" onClick="pindahState#homeHPAkang" haveTapArea="true" wTap="256" hTap="86">
+            </button>
+            <button id="closeButton" x="-200" y="25" pivotX="1" alignX="menuButton#0" imageNormal="hpakang/button_close.png" onClick="pindahState#gamePlay" haveTapArea="true" wTap="256" hTap="86">
+            </button>
+            <button id="backButton" x="200" y="25" pivotX="0" alignX="menuButton#1" imageNormal="hpakang/button_back.png" onClick="backPressed" haveTapArea="true" wTap="256" hTap="86">
+            </button>
+        </container>
+    </container>
+</resources>

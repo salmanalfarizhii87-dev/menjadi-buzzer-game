@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Tik-tik-tik...&#10;Bunyi hujan di atas genting...</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Masih belum bosen nyanyiin lagu itu, Kang?</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>E-e-eh.. Towa?!!&#10;Dari mana aja kamu??</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Ada deh....</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>.................</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Ngomong-ngomong, Towa..&#10;Kok kamu bisa tahu jalan ke Atlantis, sih?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Ya, jelas tahu-lah!!</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Kan tadinya Atlantis itu ada di darat...</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Jadi manusia-manusia ikan ini dulunya pernah hidup di darat juga!</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>.................</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>*Waduh, keceplosan!!*</desc>
+        </dialog>
+	<aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Loh?!&#10;Lagi tengah-tengah cerita kok pergi?!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Kang Piki gitu..&#10;Kamu juga gitu Towa...&#10;Tega sekali kalian semua padaku..</desc>
+        </dialog>
+	<dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kannggg!!!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Udah dapet nih Peti Perunggu-nya!!&#10;Yuk, pulang dulu!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Oweisss!! Mantapp!!&#10;Ayo buruan pulang, terus kita buka!</desc>
+        </dialog>
+    </skenario>
+</resources>

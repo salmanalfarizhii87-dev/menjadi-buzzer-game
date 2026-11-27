@@ -1,0 +1,60 @@
+<resources>
+    <container id="base" height="750">
+        <container id="isi_popup" x="354" y="150" pivotX="0.5" pivotY="0.5">
+            <uiReader id="kartu" xml="xml_ui/rempah/kartu.xml" x="-165" y="0" pivotX="0.5" pivotY="0.5" isVisible="false"/>
+
+            <image id="label_abu" x="0" y="290" pivotX="0.5" pivotY="0.5" path="UI_baru/ui_lbl_popupData.png" isVisible="false">
+                <text id="text_efek_abu" font="comicneueBold" fontSize="30" color="000000" x="20" y="-43" pivotX="0" pivotY="1" alignX="label_abu#0">Menambah Harga Tahu Sebanyak:</text>
+                <textWithImage id="text_efek2_abu" font="cuckoo" fontSize="65" color="ffffff" x="0" y="-15" pivotX="0.5" pivotY="0.5" isCenter="true">
+                    <string>
+                        <icon_tabul/>
+                        <text> +</text>
+                        <koin_kecil_Bandung/>
+                        <text>10,5Rb</text>
+                    </string>
+                </textWithImage>
+            </image>
+
+            <image id="label_biru" x="0" y="20" pivotX="0.5" pivotY="0" alignY="label_abu#1" path="UI_baru/rempah/ui_rempah/ui_lbl_popupInfo.png" isVisible="false">
+                <image id="icon_marketing" x="75" y="76" pivotX="0.5" pivotY="0.5" alignX="label_biru#0" path="icon/icon marketing karakter/ic_brosur.png"/>
+                <text id="text_efek_spesial1" font="comicneueBold" fontSize="30" color="ffffff" x="-150" y="5" pivotX="0" pivotY="0">Efek Spesial!!!</text>
+                <text id="text_efek_spesial2" font="comicneueBold" fontSize="30" color="ffffff" x="-150" y="5" pivotX="0" pivotY="0" alignY="text_efek_spesial1#1">Efektifitas Brosur bertambah:</text>
+                <text id="text_efek_spesial3" font="cuckoo" fontSize="80" color="ffffff" x="-150" y="0" pivotX="0" pivotY="0" alignY="text_efek_spesial2#1">+50%</text>
+            </image>
+
+            <container id="bungkus_button" x="0" y="0">
+                <image id="lbl_tingkatkan" x="-150" y="20" pivotX="0.5" pivotY="0" alignY="label_biru#1" path="UI_baru/label_harga_hitam.png" isVisible="false">
+                    <image id="icon_peridot" x="-65" y="26" pivotX="0.5" pivotY="0.5" path="UI_baru/ic_peridot.png"/>
+                    <text id="text_peridot" font="cuckoo" fontSize="50" color="ffffff" x="95" y="25" pivotX="1" pivotY="0.5">1Rb</text>
+                </image>
+
+                <button id="btn_tingkatkan" x="-150" y="0" pivotX="0.5" pivotY="1" alignY="lbl_tingkatkan#1" imageNormal="UI_baru/ui_btn_buy.png" isVisible="false">
+                    <text id="text_tingkatkan" x="0" y="-40" pivotX="0.5" pivotY="0.5" color="ffffff" font="cuckoo" fontSize="30" >Tingkatkan</text>
+                </button>
+
+                <button id="btn_pasang" x="150" y="20" pivotX="0.5" pivotY="0" alignY="label_biru#1" imageNormal="UI_baru/ui_btn_big.png" isVisible="false">
+                    <text id="text_pasang" x="0" y="50" pivotX="0.5" pivotY="0.5" color="ffffff" font="cuckoo" fontSize="30" >Pasang</text>
+                </button>
+            </container>
+        </container>
+
+    </container>
+
+    <!--        <uiReader id="flyingUI"></uiReader>-->
+
+    <animation>
+        <show_rempah>
+            <playAnim id="kartu" nama="popup_rempah"/>
+            <showVisibility id="kartu"/>
+            <showVisibility id="label_abu"/>
+            <showVisibility id="label_biru"/>
+            <showVisibility id="lbl_tingkatkan"/>
+            <showVisibility id="btn_tingkatkan"/>
+            <showVisibility id="btn_pasang"/>
+
+<!--            kalo bar nya penuh bisa play "alpha_bar_penuh"-->
+        </show_rempah>
+
+    </animation>
+
+</resources>

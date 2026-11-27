@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <image_list id="bannerEvent">
+            <item>event/banner_ event_default.png</item>
+        </image_list>
+
+        <image_list id="batasMenu" alignY="bannerEvent#1">
+            <item>UI_baru/ui_batas_menu.png</item>
+        </image_list>
+
+        <container id="extra" alignY="batasMenu#1" height="272">
+            <!--<image_list id="penutupGradasi" y="171">-->
+                <!--<item>UI_baru/batas_gradient.png</item>-->
+            <!--</image_list>-->
+
+            <image_list id="bgPaperClip" x="10" y="10">
+                <item>event/label_deskripsi.png</item>
+            </image_list>
+
+            <text id="textPaperClip" x="20" y="30" alignX="bgPaperClip#0" font="comicneueLight" fontSize="26" color="000000" wrapWidth="420" isCenter="false">Event spesial Tahu Bulat!&#10;Terbatas lohh~</text>
+
+            <container id="divTimer" x="-250" alignX="wLayar#1" y="0" alignY="bgPaperClip#0">
+                <image_list id="bgBarTimer" x="10" y="5" scaleX="1.2" isBaseContainer="true">
+                    <item>event/label_timer.png</item>
+                </image_list>
+                <image_list id="labelTimer">
+                    <item>event/ic_timer.png</item>
+                </image_list>
+                <text id="timerLeft" x="-10" y="0" pivotX="1" pivotY="0.5" alignX="bgBarTimer#1" alignY="bgBarTimer#0.5" font="cuckoo" fontSize="28" color="ffffff">00:00:00</text>
+            </container>
+
+            <image_list id="barHadiahJudul" y="-10" alignY="divTimer#1">
+                <item>event/bar_hadiah_judul.png</item>
+            </image_list>
+            <button id="btnIAPVIP" x="-15" y="-15" imageNormal="UI_baru/ui_btn_buy.png" alignX="wLayar#1" alignY="barHadiahJudul#1" pivotX="1" pivotY="1">
+                <text id="labelIAPVIP" x="0" y="-20" pivotX="1" pivotY="1" font="cuckoo" fontSize="28" color="ffffff" wrapWidth="203" isCenter="true">Rp 100.000,-</text>
+                <!--//08072020-->
+                <image_list id="imgDiskon" x="-101" y="-32" pivotX="0.5" pivotY="0">
+                    <item>event/txt_DiskonAlumni.png</item>
+                </image_list>
+            </button>
+            <text id="labelBergabung" x="-15" y="-15" alignX="wLayar#1" alignY="barHadiahJudul#1" pivotX="1" pivotY="1" font="cuckoo" fontSize="32" color="000000" isVisible="false">Sudah&#10;Tergabung</text>
+        </container>
+
+        <image_list id="bgDataEvent" alignY="extra#1" x="0" y="-25">
+            <item>event/bar_hadiah_bawah.png</item>
+        </image_list>
+
+        <image_list id="iconSpeaker" y="0" alignX="wLayar#0.5" alignY="bgDataEvent#1" pivotY="0.5" pivotX="0.5">
+            <item>event/ic_speaker.png</item>
+        </image_list>
+
+        <scrollView id="scrollDataEvent" alignY="extra#1" x="0" y="-25" height="1000">
+        </scrollView>
+
+        <container id="barBackMenu" y="-137" alignY="hLayar#1" height="137">
+            <image_list id="bgMenuBack" y="137" pivotY="1">
+                <item>UI_baru/ui_batas_menu_back.png</item>
+            </image_list>
+            <button id="btnBack" x="20" imageNormal="UI_baru/btn_back.png" y="137" pivotY="1" onClick="backPressed">
+            </button>
+
+            <button id="btnLeaderboard" x="-20" pivotX="1" alignX="wLayar#1" imageNormal="UI_baru/button_bulat_besar_kuning.png" y="137" pivotY="1" onClick="openLeaderboardEvent">
+                <image_list id="labelLeaderboard" x="-61" y="-78" pivotY="0.5" pivotX="0.5">
+                    <item>event/ic_leaderboard_hitam.png</item>
+                </image_list>
+            </button>
+
+        </container>
+
+    </container>
+
+    <animation>
+    </animation>
+</resources>

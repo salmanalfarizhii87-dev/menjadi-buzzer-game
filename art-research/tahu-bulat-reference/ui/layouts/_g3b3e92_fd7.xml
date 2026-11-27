@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <container id="base" x="0" y="0">
+        <container id="homescreen" x="0" y="0" height="1280">
+            <image_list id="background" x="0" y="0" pivotY="0.5" pivotX="0.5" alignX="wLayar#0.5" alignY="hLayar#0.5" scaleX="2.0f" scaleY="2.0f" pivotScaleX="0.5" pivotScaleY="0.5">
+                <item>hpakang/wallpaper.png</item>
+            </image_list>
+
+            <container id="widget" x="0" y="120" alignX="wLayar#0.45" pivotX="0.5" height="200">
+                <text id="tanggalWidget" x="0" y="10" font="comicneueLight" fontSize="32" color="ffffff">Kamis-28 Feb 2019</text>
+                <text id="jamWidget" x="0" y="10" alignY="tanggalWidget#1" font="arial" fontSize="95" color="ffffff">10:35</text>
+                <image_list id="cuacaWidget" x="-10" y="0" pivotX="1">
+                    <item>hpakang/cuaca_3.png</item>
+                </image_list>
+                <text id="kotaWidget" x="-25" y="5" pivotX="1" alignY="cuacaWidget#1" font="comicneueLight" fontSize="32" color="ffffff">Bandung</text>
+                <text id="suhuWidget" x="-5" y="-10" pivotX="1" font="comicneueLight" fontSize="42" color="ffffff">27</text>
+                <text id="derajatWidget" x="5" y="0" pivotY="0.5" alignX="suhuWidget#1" alignY="suhuWidget#0" font="comicneueLight" fontSize="20" color="ffffff">o</text>
+            </container>
+
+            <container id="menuAtas" x="0" y="100" alignY="widget#1" height="130">
+                <button id="buttonComics" x="118" y="100" pivotY="1" pivotX="0.5" imageNormal="hpakang/icon_comic.png" onClick="webView#https://own-games.com/webtoon/onlinecomic.php?hl=en">
+                </button>
+                <text id="textComics" x="0" y="105" pivotX="0.5" alignX="buttonComics#0.5" font="ttt" fontSize="25" color="ffffff">Comics</text>
+
+                <button id="buttonNews" x="118" y="100" pivotY="1" pivotX="0.5" alignX="buttonComics#1"  imageNormal="hpakang/icon_news.png" onClick="webView#https://own-games.com/news/index2.php?hl=en&amp;bs=1&amp;games=6">
+                </button>
+                <text id="textNews" x="0" y="105" pivotX="0.5" alignX="buttonNews#0.5" font="ttt" fontSize="25" color="ffffff">News</text>
+
+                <button id="buttonOwnTV" x="118" y="100" pivotY="1" pivotX="0.5" alignX="buttonNews#1" imageNormal="hpakang/icon_owntv.png" onClick="webView#https://www.youtube.com/user/owngamestv">
+                </button>
+                <text id="textTV" x="0" y="105" pivotX="0.5" alignX="buttonOwnTV#0.5" font="ttt" fontSize="25" color="ffffff">Own TV</text>
+
+                <button id="buttonChallenge" x="118" y="100" pivotY="1" pivotX="0.5" alignX="buttonOwnTV#1"  imageNormal="hpakang/icon_appsHadiah.png" onClick="pindahState#challenge">
+                    <image_list id="notifChallenge" x="59" y="-125" pivotX="1" isVisible="false">
+                        <item>UI_baru/ic_alert.png</item>
+                    </image_list>
+                </button>
+                <text id="textChallenge" x="0" y="105" pivotX="0.5" alignX="buttonChallenge#0.5" font="ttt" fontSize="25" color="ffffff">Kado Tahu</text>
+            </container>
+            
+            <container id="menuAtas2" x="0" y="80" alignY="menuAtas#1">
+
+                <button id="btnOcon" x="118" y="100" pivotY="1" pivotX="0.5" imageNormal="hpakang/icon_ownConnect.png" onClick="ocon#login">
+                </button>
+                <text id="textOcon" x="0" y="105" pivotX="0.5" alignX="btnOcon#0.5" font="ttt" fontSize="25" color="ffffff">Own Connect</text>
+
+                <!--//10022020-->
+                <button id="btnVisualNovel" x="118" y="100" pivotY="1" pivotX="0.5" alignX="btnOcon#1" imageNormal="hpakang/icVN_Default.png">
+                </button>
+                <text id="textVisualNovel" x="0" y="105" pivotX="0.5" alignX="btnVisualNovel#0.5" font="ttt" fontSize="25" color="ffffff">Cerita Tahu</text>
+
+                <button id="buttonKartu" x="-118" y="100" pivotY="1" pivotX="0.5" alignX="wLayar#1"  imageNormal="ui_kartu_meme/icon_meme.png" onClick="pindahState#kartu">
+                </button>
+                <text id="textKartu" x="0" y="105" pivotX="0.5" alignX="buttonKartu#0.5" font="ttt" fontSize="25" color="ffffff">Mekar Maker</text>
+
+                <!--                <button id="btnTakoGames" x="-118" y="100" pivotY="1" pivotX="0.5" alignX="buttonKartu#0" imageNormal="hpakang/ic_takoArcade.png">-->
+                <button id="btnTakoGames" x="-118" y="100" pivotY="1" pivotX="0.5" alignX="buttonKartu#0" imageNormal="hpakang/Web_ic_gghype.png">
+                </button>
+                <!--                <text id="textTakoGames" x="0" y="105" pivotX="0.5" alignX="btnTakoGames#0.5" font="ttt" fontSize="25" color="ffffff" isCenter="true">Tako Games&#10;Arcade</text>-->
+                <text id="textTakoGames" x="0" y="105" pivotX="0.5" alignX="btnTakoGames#0.5" font="ttt" fontSize="25" color="ffffff" isCenter="true">GG Hype</text>
+            </container>
+
+            <container id="menuBawah" x="0" y="-120" alignY="hLayar#1" height="130">
+                <button id="browserButton" x="0" y="0" pivotX="0.5" pivotY="1" alignX="wLayar#0.5" imageNormal="hpakang/icweb_tahoogle.png" onClick="webView#https://tahoogle.com">
+                    <image_list id="notifBrowser" x="58" y="-125" pivotX="1" isVisible="false">
+                        <item>UI_baru/ic_alert.png</item>
+                    </image_list>
+                </button>
+                <button id="whattahuButton" x="-120" y="0" pivotX="1" pivotY="1" alignX="browserButton#0" imageNormal="hpakang/icon_chat.png" onClick="pindahState#whatahu" isDisabled="false">
+                    <image_list id="notifTepang" x="0" y="-125" pivotX="1" isVisible="false">
+                        <item>UI_baru/ic_alert.png</item>
+                    </image_list>
+                </button>
+                <button id="cameraButton" x="120" y="0" pivotX="0" pivotY="1" alignX="browserButton#1" imageNormal="hpakang/icon_camera.png" onClick="pindahState#camera">
+                    <image_list id="notifCamera" x="116" y="-125" pivotX="1" isVisible="false">
+                        <item>UI_baru/ic_alert.png</item>
+                    </image_list>
+                </button>
+            </container>
+
+<!--            <container id="menuBarisKedua" x="0" y="-200" alignY="menuBawah#0" height="130">-->
+<!--                <button id="buttonNativeAds" x="59" y="0" pivotX="0.0" pivotY="1" imageNormal="hpakang/icon_chat.png">-->
+<!--                </button>-->
+<!--                <text id="textNativeAds" x="0" y="5" pivotX="0.5" alignX="buttonNativeAds#0.5" font="ttt" fontSize="25" color="ffffff" wrapWidth="120">Native Ads</text>-->
+
+<!--                <button id="btnAds1" x="118" y="0" pivotY="1" pivotX="0.0" alignX="buttonNativeAds#0.5" imageNormal="hpakang/icon_chat.png">-->
+<!--                </button>-->
+<!--                <text id="textAds1" x="0" y="5" pivotX="0.5" alignX="btnAds1#0.5" font="ttt" fontSize="25" color="ffffff" wrapWidth="120">Ads MGS 1</text>-->
+
+<!--                <button id="btnAds2" x="118" y="0" pivotY="1" pivotX="0.0" alignX="btnAds1#0.5" imageNormal="hpakang/icon_chat.png">-->
+<!--                </button>-->
+<!--                <text id="textAds2" x="0" y="5" pivotX="0.5" alignX="btnAds2#0.5" font="ttt" fontSize="25" color="ffffff" wrapWidth="120">Ads MGS 2</text>-->
+
+<!--                <button id="btnMeGoSwan" x="-118" y="5" pivotY="1" pivotX="0.5" alignX="wLayar#1" imageNormal="hpakang/icon_mgs.png" onClick="webView#https://megoswan.com">-->
+<!--                </button>-->
+<!--                <text id="textMeGoSwan" x="0" y="5" pivotX="0.5" alignX="btnMeGoSwan#0.5" font="ttt" fontSize="25" color="ffffff">Me Go Swan</text>-->
+<!--            </container>-->
+
+        </container>
+    </container>
+</resources>

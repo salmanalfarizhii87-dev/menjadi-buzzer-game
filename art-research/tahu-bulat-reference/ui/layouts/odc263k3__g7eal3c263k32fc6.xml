@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <group>
+
+        <penjual id="0" moveX="-3" moveY="-17" frame="0" scale="1.5">
+            <item>pedagang/Ch_AkangTahu_idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="1" moveX="-4" moveY="-1" frame="0" scale="1.3">
+            <item>pedagang/Ch_Ajumma_idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="2" moveX="-72" moveY="-17" frame="0" scale="1.5">
+            <item>pedagang/Ch_AkangPangeran_idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="3" moveX="1" moveY="-11" frame="0" scale="1.5">
+            <item>pedagang/Ch_AkangTahuBelanda_Idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="4" moveX="-4" moveY="-25" frame="0" scale="1.5">
+            <item>pedagang/Ch_AkangTahuDubai_idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="-5" moveY="-16" frame="0" scale="1.5">
+            <item>pedagang/Ch_AkangTahuJakarta_Idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="3" moveY="-20" frame="0" scale="1.5">
+            <item>pedagang/Ch_AkangTahuJamanBatu_Idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="-3" moveY="-26" frame="0" scale="1.5">
+            <item>pedagang/Ch_AkangTahuKorea_idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="0" moveY="-16" frame="0" scale="1.5">
+            <item>pedagang/Ch_AkangTahuMajapahit_Idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="-19" moveY="-38" frame="0" scale="1.5">
+            <item>pedagang/Ch_AkangTahunBaru_idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="6" moveY="2" frame="0" scale="1.5">
+            <item>pedagang/Ch_AkangTahuYogya_idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="-8" moveY="-5" frame="0" scale="1.5">
+            <item>pedagang/Ch_ArtisImpor_Idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+
+
+        <penjual id="5" moveX="-11" moveY="2" frame="0" scale="1.65">
+            <item>pedagang/Ch_ArtisKPop_Idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+
+        <penjual id="5" moveX="-56" moveY="1" frame="0" scale="1.7">
+            <item>pedagang/Ch_Bankir_Idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="-41" moveY="-12" frame="0" scale="1.4">
+            <item>pedagang/Ch_Cosplayer_Idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="-5" moveY="-28" frame="0" scale="1.7">
+            <item>pedagang/Ch_FansTako_idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="-19" moveY="-4" frame="0" scale="1.4">
+            <item>pedagang/Ch_GamerSejati_idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="0" moveY="3" frame="0" scale="1.5">
+            <item>pedagang/Ch_IbuGuru_idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="13" moveY="0" frame="0" scale="1.5">
+            <item>pedagang/Ch_Investor_idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="-14" moveY="3" frame="0" scale="1.7">
+            <item>pedagang/Ch_KakakBaikHati_Idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="-14" moveY="4" frame="0" scale="1.5">
+            <item>pedagang/Ch_Koki_idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="-15" moveY="8" frame="0" scale="1.4">
+            <item>pedagang/Ch_Montir_idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="-11" moveY="-9" frame="0" scale="1.4">
+            <item>pedagang/Ch_PelatihBola_idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="-33" moveY="7" frame="0" scale="1.5">
+            <item>pedagang/Ch_PendakiGunung_idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+        <penjual id="5" moveX="-21" moveY="0" frame="0" scale="1.5">
+            <item>pedagang/Ch_Robot_idle.png</item>
+            <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+            <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+            <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+            <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+        </penjual>
+
+    </group>
+
+</resources>

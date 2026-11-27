@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Jadi ini tempatnya?&#10;Kok malah rame yang dagang gini ya?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hmph..&#10;Akhirnya kamu datang juga!!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Nggg...&#10;Kok kamu pake motor sih?</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="tekad_bulad" isHold="true">
+            <desc>Biar cepat dan...&#10;Biar bisa tetep sambil dagang Tahu Bulat, dong!!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHAHAHAHA&#10;Emangnya mau ngapain lagi kalau bukan dagang tahu?!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Loh, bukannya tadi ngajak Tanding Bola??</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Tanding bola? Sama kamu??&#10;Aku biasanya maen bola sama Ronaldo!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Kita tanding Dagang Tahu Bulat, lah!&#10;Pelanggannya anak-anak yang lagi tanding bola di sini!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc isNode="true">
+                <string>
+                    <text>Kita lihat siapa yang berhasil mencapai target penjualan </text>
+                    <koin_Festival/>
+                    <text format="target_misi"> %s  lebih dulu!</text>
+                </string>
+            </desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Oh... gitu..&#10;Kirain.... Beneran bisa olahraga...</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHAHA&#10;Kamu pasti takut kan?!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Enak aja!&#10;Oke, hayulah hajarr!!</desc>
+        </dialog>
+    </skenario>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Gimana, laris ga kang?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="false" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Laris sih...&#10;Tapi...</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Tapi..?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Targetnya belum sampe nih...</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Mungkin Tahu kamu kurang bikin pintar, Kang!&#10;AHAHAHAHAHAH!!</desc>
+        </dialog>
+	<aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Eh...&#10;Tapi harusnya bikin pintar kok...</desc>
+        </dialog>
+    </skenario>
+</resources>

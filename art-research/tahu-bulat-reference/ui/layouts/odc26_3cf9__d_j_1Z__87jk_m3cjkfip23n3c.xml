@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hmmm....&#10;Sepertinya Kang Piki ga keliatan dimana-mana nih..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kok malah nyariin Kang Piki?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eehh.. ga nyariin kok!&#10;Justru jangan ketemu dulu..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Kok kamu aneh sih kang hari ini?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Dah, dagang dulu aja Kang!&#10;Udah mulai rame nih!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Woh benar!&#10;Yawes ayo kita mulai dagang dulu aja!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc isNode="true">
+                <string>
+                    <text>Kali ini, mari kita kejar target&#10;penghasilan </text>
+                    <koin_Festival/>
+                    <text format="target_misi"> %s !!</text>
+                </string>
+            </desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Semangaattttttsss!!</desc>
+        </dialog>
+    </skenario>
+</resources>

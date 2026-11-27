@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <container id="contLevel" x="25" y="0">
+            <image_list id="bgLevel" x="3" isBaseContainer="true">
+                <item>UI_baru/segmen_biru_2.png</item>
+            </image_list>
+            <text id="labelLevel" x="0" y="5" pivotX="0.5" alignX="bgLevel#0.5" alignY="bgLevel#0" font="cuckoo" fontSize="35" color="ffffff">Bandung - 00</text>
+        </container>
+
+        <container id="contResult" x="0" y="10" alignY="contLevel#1" height="300">
+            <text id="labelPelanggan" x="70" y="0" font="cuckoo" fontSize="35" color="000000">Pembeli Dilayani</text>
+            <text id="labelSkor" x="0" y="20" alignX="labelPelanggan#0" alignY="labelPelanggan#1" font="cuckoo" fontSize="35" color="000000">Skor</text>
+            <text id="labelSisaWaktu" x="0" y="20" alignX="labelSkor#0" alignY="labelSkor#1" font="cuckoo" fontSize="35" color="000000">Sisa Waktu</text>
+
+            <text id="textPelanggan" x="400" y="0" alignY="labelPelanggan#0" font="cuckoo" fontSize="35" color="000000">:00/00</text>
+            <text id="textSkor" x="0" y="0" alignX="textPelanggan#0" alignY="labelSkor#0" font="cuckoo" fontSize="35" color="000000">:000</text>
+            <text id="textSisaWaktu" x="0" y="0" alignX="textSkor#0" alignY="labelSisaWaktu#0" font="cuckoo" fontSize="35" color="000000">:00 detik</text>
+
+            <image_list id="garisplus" x="-20" pivotX="0.5" alignX="wLayar#0.5" y="10" alignY="labelSisaWaktu#1">
+                <item>sotong/ui/garis_plus.png</item>
+            </image_list>
+
+            <text id="labelTotal" x="0" y="10" alignX="labelSkor#0" alignY="garisplus#1" font="cuckoo" fontSize="35" color="000000">Total Skor:</text>
+            <text id="textTotal" x="0" y="0" pivotX="0.5" alignX="textSkor#0.5" alignY="labelTotal#0" font="cuckoo" fontSize="100" color="000000">00000</text>
+        </container>
+
+        <container id="contTargetMinimum" x="25" y="20" alignX="contResult#0" alignY="contResult#1">
+            <image_list id="bgTargetMinimum" x="3" isBaseContainer="true">
+                <item>UI_baru/segmen_biru_2.png</item>
+            </image_list>
+            <text id="labelTargetMinimum" x="20" alignX="bgTargetMinimum#0" y="0" pivotY="0.5" alignY="bgTargetMinimum#0.5" font="cuckoo" fontSize="30" color="000000">Target Skor Minimum</text>
+
+            <image_list id="icTargetMinimum" x="500" pivotX="1" y="0" pivotY="0.5" alignY="bgTargetMinimum#0.5">
+                <item>sotong/ui/ui_bintang_1.png</item>
+            </image_list>
+            <text id="textTargetMinimum" x="10" alignX="icTargetMinimum#1" y="0" pivotY="0.5" alignY="bgTargetMinimum#0.5" font="cuckoo" fontSize="30" color="000000">x000</text>
+        </container>
+
+        <container id="contBestScore" x="0" y="20" alignY="contTargetMinimum#1" alignX="contTargetMinimum#0">
+            <image_list id="bgBestScore" x="3" isBaseContainer="true">
+                <item>UI_baru/segmen_biru_2.png</item>
+            </image_list>
+            <text id="labelBestScore" x="20" y="0" alignX="bgBestScore#0" pivotY="0.5" alignY="bgBestScore#0.5" font="cuckoo" fontSize="30" color="000000">Skor Terbaik</text>
+            <image_list id="bestScore_bintang3" x="500" pivotX="1" y="0" pivotY="0.5" alignY="bgBestScore#0.5">
+                <item>sotong/ui/ui_bintang_3.png</item>
+            </image_list>
+            <image_list id="bestScore_bintang2" x="0" pivotX="1" alignX="bestScore_bintang3#0.5" y="0" pivotY="0.5" alignY="bgBestScore#0.5">
+                <item>sotong/ui/ui_bintang_2.png</item>
+            </image_list>
+            <image_list id="bestScore_bintang1" x="0" pivotX="1" alignX="bestScore_bintang2#0.5" y="0" pivotY="0.5" alignY="bgBestScore#0.5">
+                <item>sotong/ui/ui_bintang_1.png</item>
+            </image_list>
+            <text id="textBestScore" x="10" alignX="bestScore_bintang3#1" y="0" pivotY="0.5" alignY="bgBestScore#0.5" font="cuckoo" fontSize="30" color="000000">000</text>
+        </container>
+
+        <text id="textTips" x="-20" pivotX="0.5" alignX="wLayar#0.5" y="20" alignY="contBestScore#1" font="cuckoo" fontSize="30" color="000000" wrapWidth="500" isCenter="true">Capai target skor minimum untuk menyelesaikan level ini.</text>
+
+    </container>
+</resources>

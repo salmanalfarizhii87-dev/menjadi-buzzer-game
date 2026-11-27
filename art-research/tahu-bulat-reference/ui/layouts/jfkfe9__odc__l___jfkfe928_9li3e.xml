@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="root">
+        <image_list id="charPembeli" x="0" y="0" pivotX="0.5" pivotY="0.75">
+            <item>pembeli_baru/kriboMerah_datang1.png</item>
+            <item>pembeli_baru/kriboMerah_datang2.png</item>
+            <item>pembeli_baru/kriboMerah_bayar.png</item>
+            <item>pembeli_baru/kriboMerah_pergi1.png</item>
+            <item>pembeli_baru/kriboMerah_pergi2.png</item>
+        </image_list>
+    </container>
+
+    <animation>
+    </animation>
+</resources>

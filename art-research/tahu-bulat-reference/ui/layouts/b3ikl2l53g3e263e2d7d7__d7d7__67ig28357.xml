@@ -1,0 +1,42 @@
+<resources>
+    <!--font :-->
+    <!--comicneueLight-->
+    <!--comicneueBold-->
+    <!--arial-->
+    <!--ttt-->
+    <!--cuckoo-->
+    <!--theBoldFont-->
+    <nama>Muka Senyum</nama>
+    <image>ui_kartu_meme/meme/meme_derpFace.png</image>
+    <variasi>
+        <image>
+            <!--<input id="0">-->
+            <!--<item x="189" y="578" width="335" alignX="0.0f" alignY="0.0f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "19" min_font_size="30" max_font_size="40"/>-->
+            <!--</input>-->
+        </image>
+        <text>
+            <item id="0">
+                <varian>
+                    <!--<item x="200" y="365" width="300" alignX="0.0f" alignY="0.0f" colour="0x000000" fontSize="36" font="cuckoo" isCenter="true">Mohon maaf lahir dan bathin.</item>-->
+                </varian>
+            </item>
+        </text>
+    </variasi>
+    <input>
+        <item id="0" x="126" y="41" width="467" alignX="0.0f" alignY="0.0f" colour="ffffff" font="cuckoo" isCenter="true" min_char = "0" max_char = "50" min_font_size="60" max_font_size="80" isStroke="true" strokeSize="10" strokeColor="0x000000"/>
+        <item id="1" x="126" y="680" width="467" alignX="0.0f" alignY="1.0f" colour="ffffff" font="cuckoo" isCenter="true" min_char = "0" max_char = "50" min_font_size="60" max_font_size="80" isStroke="true" strokeSize="10" strokeColor="0x000000"/>
+
+    </input>
+    <contoh>
+        <input id="0">
+            <item>Makan Coklat</item>
+            <item>Pergi Sekolah</item>
+            <item>Bulat Tahu</item>
+        </input>
+        <input id="1">
+            <item>Pakai Cengek</item>
+            <item>Lupa Tas</item>
+            <item>Nyoi nyoi gurih</item>
+        </input>
+    </contoh>
+</resources>

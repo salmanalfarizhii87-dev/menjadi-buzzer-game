@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <text id="descHeader" x="0" y="0" font="comicneueLight" fontSize="30" color="000000" wrapWidth="725" isCenter="true">lorem ipsum blabla</text>
+
+        <container id="contImage" x="10" y="20" alignY="descHeader#1" height="300">
+            <container id="pilihan1" x="20" y="0">
+                <image_list id="bgPil1" isBaseContainer="true">
+                    <item>UI_baru/lb_slip_template_768.png</item>
+                </image_list>
+
+                <image_list id="iconPil1" pivotX="0.5" pivotY="0.5" alignX="bgPil1#0.5" alignY="bgPil1#0.45" scaleX="1.5" scaleY="1.5" pivotScaleX="0.5" pivotScaleY="0.5">
+                    <item>icon/icon kota cabang tanpa ilustrasi/ic_mars.png</item>
+                </image_list>
+                <text id="textPil1" x="5" y="-30" pivotY="1" alignY="bgPil1#1" font="cuckoo" fontSize="30" color="000000" wrapWidth="205" isCenter="true">CABANG1</text>
+            </container>
+
+            <container id="pilihan2" x="20" y="0" alignX="pilihan1#1">
+                <image_list id="bgPil2" isBaseContainer="true">
+                    <item>UI_baru/lb_slip_template_768.png</item>
+                </image_list>
+
+                <image_list id="iconPil2" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="bgPil2#0.5" alignY="bgPil2#0.45" scaleX="1.5" scaleY="1.5" pivotScaleX="0.5" pivotScaleY="0.5">
+                    <item>icon/icon kota cabang tanpa ilustrasi/ic_mars.png</item>
+                </image_list>
+                <text id="textPil2" x="5" y="-30" pivotY="1" alignY="bgPil2#1" font="cuckoo" fontSize="30" color="000000" wrapWidth="205" isCenter="true">CABANG2</text>
+            </container>
+
+            <container id="pilihan3" x="20" y="0" alignX="pilihan2#1">
+                <image_list id="bgPil3" isBaseContainer="true">
+                    <item>UI_baru/lb_slip_template_768.png</item>
+                </image_list>
+
+                <image_list id="iconPil3" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="bgPil3#0.5" alignY="bgPil3#0.45" scaleX="1.5" scaleY="1.5" pivotScaleX="0.5" pivotScaleY="0.5">
+                    <item>icon/icon kota cabang tanpa ilustrasi/ic_mars.png</item>
+                </image_list>
+                <text id="textPil3" x="5" y="-30" pivotY="1" alignY="bgPil3#1" font="cuckoo" fontSize="30" color="000000" wrapWidth="205" isCenter="true">CABANG3</text>
+            </container>
+
+            <image_list id="imgCoblos" x="0" y="5" alignX="pilihan1#0" alignY="pilihan1#0">
+                <item>UI_baru/segmen_coblos.png</item>
+            </image_list>
+        </container>
+
+        <container id="contButton" x="0" y="20" alignY="contImage#1" height="96">
+            <button id="btnPil1" x="20" y="0" alignX="pilihan1#0" imageNormal="UI_baru/ui_btn_buy.png">
+                <text id="labelBtnPil1" x="100" y="10" pivotX="0.5" font="cuckoo" fontSize="32" color="ffffff">Coblos</text>
+            </button>
+
+            <button id="btnPil2" x="20" y="0" alignX="pilihan2#0" imageNormal="UI_baru/ui_btn_buy.png">
+                <text id="labelBtnPil2" x="100" y="10" pivotX="0.5" font="cuckoo" fontSize="32" color="ffffff">Coblos</text>
+            </button>
+
+            <button id="btnPil3" x="20" y="0" alignX="pilihan3#0" imageNormal="UI_baru/ui_btn_buy.png">
+                <text id="labelBtnPil3" x="100" y="10" pivotX="0.5" font="cuckoo" fontSize="32" color="ffffff">Coblos</text>
+            </button>
+        </container>
+
+        <container id="contPemilih" x="0" y="10" alignY="contImage#1" height="90">
+            <container id="contPemilih1" x="5" y="0" alignX="pilihan1#0">
+                <text id="textPemilih1" x="0" y="0" font="cuckoo" fontSize="35" color="000000" wrapWidth="205" isCenter="true">999Rb</text>
+                <text id="labelPemilih1" x="0" y="5" alignY="textPemilih1#1" font="cuckoo" fontSize="35" color="000000" wrapWidth="205" isCenter="true">Pemilih!</text>
+            </container>
+
+            <container id="contPemilih2" x="5" y="0" alignX="pilihan2#0">
+                <text id="textPemilih2" x="0" y="0" font="cuckoo" fontSize="35" color="000000" wrapWidth="205" isCenter="true">888Rb</text>
+                <text id="labelPemilih2" x="0" y="5" alignY="textPemilih1#1" font="cuckoo" fontSize="35" color="000000" wrapWidth="205" isCenter="true">Pemilih!</text>
+            </container>
+
+            <container id="contPemilih3" x="5" y="0" alignX="pilihan3#0">
+                <text id="textPemilih3" x="0" y="0" font="cuckoo" fontSize="35" color="000000" wrapWidth="205" isCenter="true">777Rb</text>
+                <text id="labelPemilih3" x="0" y="5" alignY="textPemilih1#1" font="cuckoo" fontSize="35" color="000000" wrapWidth="205" isCenter="true">Pemilih!</text>
+            </container>
+        </container>
+
+        <text id="descFooter" x="0" y="20" alignY="contPemilih#1" font="comicneueLight" fontSize="30" color="000000" wrapWidth="725" isCenter="true">lorem ipsum blabla</text>
+
+        <button id="btnShare" x="-20" y="20" pivotX="0.5" alignX="wLayar#0.5" alignY="descFooter#1" imageNormal="UI_baru/ui_btn_default.png" isVisible="true">
+            <text id="labelBtnShare" x="0" y="40" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="32" color="ffffff">Bagikan</text>
+        </button>
+
+    </container>
+</resources>

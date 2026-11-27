@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hey, Kang!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>KANG PIKI!!&#10;Kemana aja?? Kan mau dagang bareng!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hmmphh.. Kata siapa?&#10;Itu kan Kang Tahu aja yang mau.</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>...........&#10;I-iya sih....</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Jadi kamu dari mana aja, Kang?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="kaget" isHold="true">
+            <desc>.........................</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Oke, Kang!&#10;Aku sudah membuat keputusan!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eh, keputusan apa nih??</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Aku akan bilang ke Bapakku kalau aku akan berhenti dagang Tahu Bulat!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Ehhhh???!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>K-kenapa, Kang?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Tentu saja untuk memulai bisnis restoranku sendiri, dong!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Aku akan pastikan Bapakku mengerti bahwa buka bisnis restoran itu beda sama dagang Tahu Bulat!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Hmm...&#10;Udah yakin, Kang?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Iya! &#10;Harus yakin dong!&#10;Namanya juga Piki!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="kaget" isHold="true">
+            <desc>Eh...&#10;Kenapa jadi Piki juga nyebutnya. Ckck</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Oke deh!&#10;Semoga berhasil ya, Kang Piki!!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Makasih, Kang!&#10;Nanti aku kabari lagi..</desc>
+        </dialog>
+        <aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>KANGGUNYOO!&#10;Petinya udah dapat nihh!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Uwooohh!!&#10;Ayo kita pulang terus buka petinya!!</desc>
+        </dialog>
+    </skenario>
+</resources>

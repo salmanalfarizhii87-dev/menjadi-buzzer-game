@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Wohoho... Laris-lariss...&#10;Anak muda memang harus banyak makann..</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hmpph...&#10;Cuma dapet uang segitu aja bangga!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="sapa" isHold="true">
+            <desc>Ehh.. Kang Piki!&#10;Dapet berapa Kang?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="marah" isHold="true">
+            <desc>PIKA PIKI PIKA PIKI!!&#10;Vicky woii!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Ee-eeehh... I-iya m-maap..&#10;Kang.. Phh, Pff.. Vi-vicky!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Jadi, Kang Pi, eh Pffvicky dapet berapa?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hmph..&#10;Nyebut nama aja ga bener.. Kamu ga berhak tahu aku dapat berapa!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Ya maap atuh..&#10;Emang lidahnya begini mo gimanaa..</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hmmpphh..&#10;Apa memang seharusnya orang di level aku ga ngurusin ginian ya?</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Ehh?&#10;Terus orang di level apa atuh?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Asal kamu tahu ya..&#10;Aku ini bukan sembarang Tukang Tahu Bulat.</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Aku ini lulusan Jurusan Kuliner dari Koala University di Australia!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Masak Tahu Bulat gini doang mah gak level buat aku!&#10;HAHAHA!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>...............</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Eh, loh, terus kenapa malah dagang Tahu Bulat?</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Kenapa ga buka restoran aja? Mau dikenalin sama Mba Pur? Dia punya restoran Nasi Goreng, loh!</desc>
+        </dialog>
+	<dialog karakter="3" tipe="kanan" ekspresi="kaget" isHold="true">
+            <desc>...................</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hmmpphh...&#10;Kenapa juga aku cerita ginian sama kamu..</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Yawes, cabutt...&#10;Semoga berikutnya kamu bisa menang lawan saya, ya!</desc>
+        </dialog>
+	<aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+	<dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>.................</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Jadi sebenernya dia dapet berapa sih...?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kaaanggggg!!&#10;Liat Tako bawa apa nyoooo!!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Takooo!!&#10;Apaan tuh??</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Peti Perunggu donnggg!!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="ketawa1" isHold="true">
+            <desc>Wohohohoo... &#10;Yuk kita pulang terus langsung buka petinya!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Jangan lupa kasih Tako&#10;Tahuuuu!!</desc>
+        </dialog>
+    </skenario>
+</resources>

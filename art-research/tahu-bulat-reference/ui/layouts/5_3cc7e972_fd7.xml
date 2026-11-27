@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <container id="base" x="0" y="60" height="800">
+        <container id="top_container"/>
+        <container id="headerBar" height="170">
+            <button id="btnBack" x="40" y="41" imageNormal="ui_kartu_meme/button_back.png" onClick="backPressed"/>
+            <text id="text_game" x="0" y="83" pivotX="0.5" pivotY="0.5" alignX="wLayar#0.5" font="theBoldFont" fontSize="55" color="FFFFFF">Detil Tantangan</text>
+            <button id="btnShare" x="-40" y="41" pivotX="1" alignX="wLayar#1" imageNormal="ui_kartu_meme/ic_share.png"/>
+        </container>
+
+        <image id="liveOpsImage" x="0" pivotX="0.5" alignX="wLayar#0.5" y="0" alignY="headerBar#1">
+            <item>hpakang/liveops/sds.png</item>
+        </image>
+        <container id="detailChallenge" x="0" y="50" alignY="liveOpsImage#1">
+            <text id="judulChallenge" x="20" y="0" font="theBoldFont" fontSize="42" color="ffffff">Gamename_challenge!</text>
+
+            <image_list id="labelTarget" x="20" y="50" alignY="judulChallenge#1">
+                <item>hpakang/challenge/icon/ic_target_kuning_50.png</item>
+            </image_list>
+            <text id="labelKetTarget" x="20" y="0" alignY="labelTarget#0" alignX="labelTarget#1" font="arial" fontSize="30" color="ffffff">Keterangan Tantangan</text>
+            <text id="ketTarget" x="0" y="10" alignX="labelKetTarget#0" alignY="labelKetTarget#1" font="arial" fontSize="27" color="ffffff" wrapWidth="520">loremipsum blabla</text>
+
+            <image_list id="labelReward" x="20" y="180" alignY="labelKetTarget#1">
+                <item>hpakang/challenge/icon/ic_reward_kuning_50.png</item>
+            </image_list>
+            <text id="labelKetReward" x="0" y="0" alignY="labelReward#0" alignX="labelKetTarget#0" font="arial" fontSize="30" color="ffffff">Keterangan Hadiah</text>
+            <text id="ketReward" x="0" y="10" alignX="labelKetReward#0" alignY="labelKetReward#1" font="arial" fontSize="27" color="ffffff" wrapWidth="520">loremipsum blabla</text>
+        </container>
+
+        <button id="btnLaksanakan" x="0" y="-170" pivotX="0.5" alignX="wLayar#0.5" pivotY="1" alignY="hLayar#1" imageNormal="ui_kartu_meme/button_kuning_bawah.png">
+        </button>
+
+    </container>
+</resources>

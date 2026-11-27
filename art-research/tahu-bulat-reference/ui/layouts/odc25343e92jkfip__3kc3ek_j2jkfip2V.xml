@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <story lamaFestival="43200" noMisi="12" delayFestival="86400">
+        <judul>Misteri Laut II</judul>
+        <image>UI_baru/banner_popUp_atlantis_story.png</image>
+        <syarat_buka>
+            <item tipe="penghasilan" cabang="Bandung">1000000000000</item>
+            <item tipe="story" cabang="Festival Story" value="8"/>
+        </syarat_buka>
+        <storyBukaCabang>xml_dialog/misi 12/festivalstory_bukacabang.xml</storyBukaCabang>
+        <storyAwalDiCabang>xml_dialog/misi 12/festivalstory_awal.xml</storyAwalDiCabang>
+        <storyTargetTercapai>xml_dialog/misi 12/festivalstory_targettercapai.xml</storyTargetTercapai>
+        <storyTargetTidakTercapai>xml_dialog/misi 12/festivalstory_targettidaktercapai.xml</storyTargetTidakTercapai>
+        <popup_reward>
+            <judul>Misteri Laut II</judul>
+            <desc>Towa akan menjawab pertanyaan Akang apabila target penjualannya tercapai!&#10;&#10;Ayo kita kejar targetnya, agar Akang Tahu mendapatkan jawaban dari Mister Atlantis!!</desc>
+        </popup_reward>
+        <reward>
+            <item target="10000000000" namaHadiah="Peti Perunggu" tipeHadiah="chest" idHadiah="chest_bronze" jumlahHadiah="1"/>
+        </reward>
+        <menu_item>
+            <mobil>
+                <bodyMobil cabang="Atlantis"/>
+            </mobil>
+            <resep banyakItem="8">
+                <item cabang="Atlantis" idx="7"/>
+                <item cabang="Purba" idx="9"/>
+                <item cabang="Atlantis" idx="8"/>
+                <item cabang="Purba" idx="10"/>
+                <item cabang="Atlantis" idx="9"/>
+                <item cabang="Belanda" idx="10"/>
+                <item cabang="Atlantis" idx="11"/>
+                <item cabang="Atlantis" idx="10"/>
+            </resep>
+        </menu_item>
+    </story>
+</resources>

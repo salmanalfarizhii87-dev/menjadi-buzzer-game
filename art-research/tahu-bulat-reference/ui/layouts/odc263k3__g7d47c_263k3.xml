@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <DalamNegeri>
+        <anakcewe>
+            <item idx="0" id="Bandung" x="54" y="80">pembeli_baru/anakCewe_datang2.png</item>
+            <item idx="0" id="Jakarta" x="54" y="80">pembeli_baru/anakCewe_datang2.png</item>
+            <item idx="0" id="Bali" x="54" y="80">pembeli_baru/anakCewe_datang2.png</item>
+            <item idx="0" id="Medan" x="54" y="80">pembeli_baru/anakCewe_datang2.png</item>
+            <item idx="0" id="Surabaya" x="54" y="80">pembeli_baru/anakCewe_datang2.png</item>
+            <item idx="0" id="Palembang" x="54" y="80">pembeli_baru/anakCewe_datang2.png</item>
+            <item idx="0" id="Yogyakarta" x="54" y="80">pembeli_baru/anakCewe_datang2.png</item>
+        </anakcewe>
+        <bocahbola>
+            <item idx="1" id="Bandung" x="63" y="58">pembeli_baru/bocahBola_datang2.png</item>
+            <item idx="1" id="Jakarta" x="63" y="58">pembeli_baru/bocahBola_datang2.png</item>
+            <item idx="1" id="Bali" x="63" y="58">pembeli_baru/bocahBola_datang2.png</item>
+            <item idx="1" id="Medan" x="63" y="58">pembeli_baru/bocahBola_datang2.png</item>
+            <item idx="1" id="Surabaya" x="63" y="58">pembeli_baru/bocahBola_datang2.png</item>
+            <item idx="1" id="Palembang" x="63" y="58">pembeli_baru/bocahBola_datang2.png</item>
+            <item idx="1" id="Yogyakarta" x="63" y="58">pembeli_baru/bocahBola_datang2.png</item>
+        </bocahbola>
+        <anaksma>
+            <item idx="2" id="Bandung" x="49" y="42">pembeli_baru/anakSma_datang2.png</item>
+            <item idx="2" id="Jakarta" x="49" y="42">pembeli_baru/anakSma_datang2.png</item>
+            <item idx="2" id="Bali" x="49" y="42">pembeli_baru/anakSma_datang2.png</item>
+            <item idx="2" id="Medan" x="49" y="42">pembeli_baru/anakSma_datang2.png</item>
+            <item idx="2" id="Surabaya" x="49" y="42">pembeli_baru/anakSma_datang2.png</item>
+            <item idx="2" id="Palembang" x="49" y="42">pembeli_baru/anakSma_datang2.png</item>
+            <item idx="2" id="Yogyakarta" x="49" y="42">pembeli_baru/anakSma_datang2.png</item>
+        </anaksma>
+        <tante>
+            <item idx="3" id="Bandung" x="43" y="43">pembeli_baru/tanteEksis_datang1.png</item>
+            <item idx="3" id="Jakarta" x="43" y="43">pembeli_baru/tanteEksis_datang1.png</item>
+            <item idx="3" id="Bali" x="43" y="43">pembeli_baru/tanteEksis_datang1.png</item>
+            <item idx="3" id="Medan" x="43" y="43">pembeli_baru/tanteEksis_datang1.png</item>
+            <item idx="3" id="Surabaya" x="43" y="43">pembeli_baru/tanteEksis_datang1.png</item>
+            <item idx="3" id="Palembang" x="43" y="43">pembeli_baru/tanteEksis_datang1.png</item>
+            <item idx="3" id="Yogyakarta" x="43" y="43">pembeli_baru/tanteEksis_datang1.png</item>
+        </tante>
+        <om>
+            <item idx="4" id="Bandung" x="46" y="35">pembeli_baru/omTajir_datang2.png</item>
+            <item idx="4" id="Jakarta" x="46" y="35">pembeli_baru/omTajir_datang2.png</item>
+            <item idx="4" id="Bali" x="46" y="35">pembeli_baru/omTajir_datang2.png</item>
+            <item idx="4" id="Medan" x="46" y="35">pembeli_baru/omTajir_datang2.png</item>
+            <item idx="4" id="Surabaya" x="46" y="35">pembeli_baru/omTajir_datang2.png</item>
+            <item idx="4" id="Palembang" x="46" y="35">pembeli_baru/omTajir_datang2.png</item>
+            <item idx="4" id="Yogyakarta" x="46" y="35">pembeli_baru/omTajir_datang2.png</item>
+        </om>
+        <aksa>
+            <item idx="5" id="Bandung" x="31" y="18">pembeli_baru/aksa_datang2.png</item>
+            <item idx="5" id="Jakarta" x="31" y="18">pembeli_baru/aksa_datang2.png</item>
+            <item idx="5" id="Bali" x="31" y="18">pembeli_baru/aksa_datang2.png</item>
+            <item idx="5" id="Medan" x="31" y="18">pembeli_baru/aksa_datang2.png</item>
+            <item idx="5" id="Surabaya" x="31" y="18">pembeli_baru/aksa_datang2.png</item>
+            <item idx="5" id="Palembang" x="31" y="18">pembeli_baru/aksa_datang2.png</item>
+            <item idx="5" id="Yogyakarta" x="31" y="18">pembeli_baru/aksa_datang2.png</item>
+        </aksa>
+        <akinini>
+            <item idx="6" id="Bandung" x="45" y="42">pembeli_baru/mapagPengantenBandung_datang2.png</item>
+            <item idx="6" id="Jakarta" x="35" y="18" resize="0.315">pembeli_baru/ondelJakarta_datang2.png</item>
+            <item idx="6" id="Yogyakarta" x="45" y="42">pembeli_baru/abdiDalemYogyakarta_datang2.png</item>
+        </akinini>
+        <artis>
+            <item idx="7" id="Bandung" x="58" y="40">pembeli_baru/artis_datang2.png</item>
+            <item idx="7" id="Jakarta" x="58" y="40">pembeli_baru/artis_datang2.png</item>
+            <item idx="6" id="Bali" x="58" y="40">pembeli_baru/artis_datang2.png</item>
+            <item idx="6" id="Medan" x="58" y="40">pembeli_baru/artis_datang2.png</item>
+            <item idx="6" id="Surabaya" x="58" y="40">pembeli_baru/artis_datang2.png</item>
+            <item idx="6" id="Palembang" x="58" y="40">pembeli_baru/artis_datang2.png</item>
+            <item idx="7" id="Yogyakarta" x="58" y="40">pembeli_baru/artis_datang2.png</item>
+        </artis>
+        <supertahuman>
+            <item idx="8" id="Bandung" x="26" y="21">pembeli_baru/supertahuman_datang2.png</item>
+            <item idx="8" id="Jakarta" x="26" y="21">pembeli_baru/supertahuman_datang2.png</item>
+            <item idx="7" id="Bali" x="26" y="21">pembeli_baru/supertahuman_datang2.png</item>
+            <item idx="7" id="Medan" x="26" y="21">pembeli_baru/supertahuman_datang2.png</item>
+            <item idx="7" id="Surabaya" x="26" y="21">pembeli_baru/supertahuman_datang2.png</item>
+            <item idx="7" id="Palembang" x="26" y="21">pembeli_baru/supertahuman_datang2.png</item>
+            <item idx="8" id="Yogyakarta" x="26" y="21">pembeli_baru/supertahuman_datang2.png</item>
+        </supertahuman>
+        <presiden>
+            <item idx="9" id="Bandung" x="24" y="46" resize="0.315">pembeli_baru/paspampresPresiden_datang2.png</item>
+            <item idx="9" id="Jakarta" x="24" y="46" resize="0.315">pembeli_baru/paspampresPresiden_datang2.png</item>
+            <item idx="8" id="Bali" x="24" y="46" resize="0.315">pembeli_baru/paspampresPresiden_datang2.png</item>
+            <item idx="8" id="Medan" x="24" y="46" resize="0.315">pembeli_baru/paspampresPresiden_datang2.png</item>
+            <item idx="8" id="Surabaya" x="24" y="46" resize="0.315">pembeli_baru/paspampresPresiden_datang2.png</item>
+            <item idx="8" id="Palembang" x="24" y="46" resize="0.315">pembeli_baru/paspampresPresiden_datang2.png</item>
+            <item idx="9" id="Yogyakarta" x="24" y="46" resize="0.315">pembeli_baru/paspampresPresiden_datang2.png</item>
+        </presiden>
+    </DalamNegeri>
+    <LuarNegeri>
+        <anakcewe>
+            <item idx="0" id="Korea" x="54" y="80">pembeli_baru/anakCeweKorea_datang2.png</item>
+            <item idx="0" id="Jepang" x="54" y="80">pembeli_baru/anakCeweJepang_datang2.png</item>
+            <item idx="0" id="Belanda" x="54" y="72">pembeli_baru/anakCeweBelanda_datang2.png</item>
+            <item idx="0" id="Dubai" x="54" y="80">pembeli_baru/anakCeweDubai_datang2.png</item>
+        </anakcewe>
+        <bocahbola>
+            <item idx="1" id="Korea" x="63" y="58">pembeli_baru/bocahBolaKorea_datang2.png</item>
+            <item idx="1" id="Jepang" x="63" y="58">pembeli_baru/bocahBolaJepang_datang2.png</item>
+            <item idx="1" id="Belanda" x="63" y="58">pembeli_baru/bocahBolaBelanda_datang2.png</item>
+            <item idx="1" id="Dubai" x="63" y="58">pembeli_baru/bocahBolaDubai_datang2.png</item>
+        </bocahbola>
+        <anaksma>
+            <item idx="2" id="Korea" x="49" y="42">pembeli_baru/anakSmaKorea_datang2.png</item>
+            <item idx="2" id="Jepang" x="49" y="42">pembeli_baru/anakSmaJepang_datang2.png</item>
+            <item idx="2" id="Belanda" x="49" y="42">pembeli_baru/anakSmaBelanda_datang2.png</item>
+            <item idx="2" id="Dubai" x="49" y="42">pembeli_baru/anakSmaDubai_datang2.png</item>
+        </anaksma>
+        <tante>
+            <item idx="3" id="Korea" x="43" y="43">pembeli_baru/tanteEksisKorea_datang1.png</item>
+            <item idx="3" id="Jepang" x="47" y="47">pembeli_baru/tanteEksisJepang_datang1.png</item>
+            <item idx="3" id="Belanda" x="43" y="43">pembeli_baru/tanteEksisBelanda_datang1.png</item>
+            <item idx="3" id="Dubai" x="43" y="43">pembeli_baru/tanteEksisDubai_datang1.png</item>
+        </tante>
+        <om>
+            <item idx="4" id="Korea" x="46" y="28">pembeli_baru/omTajirKorea_datang2.png</item>
+            <item idx="4" id="Jepang" x="46" y="28">pembeli_baru/omTajirJepang_datang2.png</item>
+            <item idx="4" id="Belanda" x="47" y="31">pembeli_baru/omTajirBelanda_datang2.png</item>
+            <item idx="4" id="Dubai" x="46" y="31">pembeli_baru/omTajirDubai_datang2.png</item>
+        </om>
+        <aksa>
+            <item idx="5" id="Korea" x="31" y="18">pembeli_baru/aksa_datang2.png</item>
+            <item idx="5" id="Jepang" x="31" y="18">pembeli_baru/aksa_datang2.png</item>
+            <item idx="5" id="Belanda" x="31" y="18">pembeli_baru/aksa_datang2.png</item>
+            <item idx="5" id="Dubai" x="31" y="18">pembeli_baru/aksa_datang2.png</item>
+        </aksa>
+        <akinini>
+            <item idx="6" id="Korea" x="39" y="30" resize="0.28">pembeli_baru/hahoetalKorea_datang2.png</item>
+            <item idx="6" id="Jepang" x="57" y="15">pembeli_baru/ninjaJepang_datang1.png</item>
+            <item idx="6" id="Dubai" x="20" y="25" resize="0.28">pembeli_baru/falconerDubai_datang2.png</item>
+        </akinini>
+        <artis>
+            <item idx="7" id="Korea" x="58" y="40">pembeli_baru/artis_datang2.png</item>
+            <item idx="7" id="Jepang" x="58" y="40">pembeli_baru/artis_datang2.png</item>
+            <item idx="6" id="Belanda" x="58" y="40">pembeli_baru/artis_datang2.png</item>
+            <item idx="7" id="Dubai" x="58" y="40">pembeli_baru/artis_datang2.png</item>
+        </artis>
+        <supertahuman>
+            <item idx="8" id="Korea" x="26" y="21">pembeli_baru/supertahuman_datang2.png</item>
+            <item idx="8" id="Jepang" x="26" y="21">pembeli_baru/supertahuman_datang2.png</item>
+            <item idx="7" id="Belanda" x="26" y="21">pembeli_baru/supertahuman_datang2.png</item>
+            <item idx="8" id="Dubai" x="26" y="21">pembeli_baru/supertahuman_datang2.png</item>
+        </supertahuman>
+        <presiden>
+            <item idx="9" id="Korea" x="24" y="46" resize="0.315">pembeli_baru/paspampresPresiden_datang2.png</item>
+            <item idx="9" id="Jepang" x="24" y="46" resize="0.315">pembeli_baru/paspampresPresiden_datang2.png</item>
+            <item idx="8" id="Belanda" x="24" y="46" resize="0.315">pembeli_baru/paspampresPresiden_datang2.png</item>
+            <item idx="9" id="Dubai" x="24" y="46" resize="0.315">pembeli_baru/paspampresPresiden_datang2.png</item>
+        </presiden>
+    </LuarNegeri>
+    <LintasWaktu>
+        <anakcewe>
+            <item idx="0" id="Purba" x="54" y="80">pembeli_baru/anakCewePurba_datang2.png</item>
+            <item idx="0" id="Majapahit" x="54" y="80">pembeli_baru/anakCeweMajapahit_datang2.png</item>
+            <item idx="0" id="2.0.1.6" x="45" y="65">pembeli_baru/2016/anakCewe2016_datang.png</item>
+            <item idx="0" id="Mars" x="54" y="80">pembeli_baru/anakCeweMars_datang2.png</item>
+        </anakcewe>
+        <bocahbola>
+            <item idx="1" id="Purba" x="63" y="58">pembeli_baru/bocahBolaPurba_datang2.png</item>
+            <item idx="1" id="Majapahit" x="63" y="58">pembeli_baru/bocahBolaMajapahit_datang2.png</item>
+            <item idx="1" id="2.0.1.6" x="45" y="62">pembeli_baru/2016/bocah1_2016_datang.png</item>
+            <item idx="1" id="Mars" x="63" y="58">pembeli_baru/bocahBolaMars_datang2.png</item>
+        </bocahbola>
+        <anaksma>
+            <item idx="2" id="Purba" x="49" y="42">pembeli_baru/anakSmaPurba_datang2.png</item>
+            <item idx="2" id="Majapahit" x="49" y="42">pembeli_baru/anakSmaMajapahit_datang2.png</item>
+            <item idx="2" id="2.0.1.6" x="36" y="47">pembeli_baru/2016/anakSma2016_datang.png</item>
+            <item idx="2" id="Mars" x="49" y="42">pembeli_baru/anakSmaMars_datang2.png</item>
+        </anaksma>
+        <tante>
+            <item idx="3" id="Purba" x="48" y="45">pembeli_baru/tanteEksisPurba_datang1.png</item>
+            <item idx="3" id="Majapahit" x="50" y="46">pembeli_baru/tanteEksisMajapahit_datang1.png</item>
+            <item idx="3" id="2.0.1.6" x="40" y="50">pembeli_baru/2016/tante2016_datang.png</item>
+            <item idx="3" id="Mars" x="50" y="46">pembeli_baru/tanteEksisMars_datang1.png</item>
+        </tante>
+        <om>
+            <item idx="4" id="Purba" x="45" y="42">pembeli_baru/omTajirPurba_datang2.png</item>
+            <item idx="4" id="Majapahit" x="45" y="42">pembeli_baru/omTajirMajapahit_datang2.png</item>
+            <item idx="4" id="2.0.1.6" x="35" y="45">pembeli_baru/2016/om2016_datang.png</item>
+            <item idx="4" id="Mars" x="45" y="42">pembeli_baru/omTajirMars_datang2.png</item>
+        </om>
+        <aksa>
+            <item idx="5" id="Purba" x="31" y="18">pembeli_baru/aksa_datang2.png</item>
+            <item idx="5" id="Majapahit" x="31" y="18">pembeli_baru/aksa_datang2.png</item>
+            <item idx="5" id="2.0.1.6" x="31" y="18">pembeli_baru/aksa_datang2.png</item>
+            <item idx="5" id="Mars" x="31" y="18">pembeli_baru/aksa_datang2.png</item>
+        </aksa>
+        <akinini>
+            <item idx="6" id="Purba" x="20" y="23">pembeli_baru/dinoriderPurba_datang2.png</item>
+            <item idx="6" id="Majapahit" x="32" y="17">pembeli_baru/reogMajapahit_datang2.png</item>
+            <item idx="6" id="2.0.1.6" x="35" y="19" resize="0.4">pembeli_baru/2016/ondel2016_datang.png</item>
+            <item idx="6" id="Mars" x="32" y="17">pembeli_baru/jasteenMars_datang2.png</item>
+        </akinini>
+        <artis>
+            <item idx="7" id="Purba" x="58" y="40">pembeli_baru/artis_datang2.png</item>
+            <item idx="7" id="Majapahit" x="58" y="40">pembeli_baru/artis_datang2.png</item>
+            <item idx="7" id="2.0.1.6" x="48" y="37">pembeli_baru/2016/artis2016_datang.png</item>
+            <item idx="7" id="Mars" x="58" y="40">pembeli_baru/artis_datang2.png</item>
+        </artis>
+        <supertahuman>
+            <item idx="8" id="Purba" x="26" y="21">pembeli_baru/supertahuman_datang2.png</item>
+            <item idx="8" id="Majapahit" x="26" y="21">pembeli_baru/supertahuman_datang2.png</item>
+            <item idx="8" id="2.0.1.6" x="44" y="15">pembeli_baru/2016/supertahuman2016_datang.png</item>
+            <item idx="8" id="Mars" x="26" y="21">pembeli_baru/supertahuman_datang2.png</item>
+        </supertahuman>
+        <presiden>
+            <item idx="9" id="Purba" x="24" y="46" resize="0.315">pembeli_baru/paspampresPresiden_datang2.png</item>
+            <item idx="9" id="Majapahit" x="24" y="46" resize="0.315">pembeli_baru/paspampresPresiden_datang2.png</item>
+            <item idx="9" id="2.0.1.6" x="22" y="55" resize="0.4">pembeli_baru/2016/presiden2016_datang.png</item>
+            <item idx="9" id="Mars" x="24" y="46" resize="0.315">pembeli_baru/paspampresPresiden_datang2.png</item>
+        </presiden>
+    </LintasWaktu>
+</resources>

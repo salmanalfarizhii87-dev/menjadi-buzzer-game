@@ -1,0 +1,124 @@
+<resources>
+    <container id="root" x="384" y="900" pivotX="0" pivotY="0">
+        <image_list id="xiaomei_idle" x="0" y="0" pivotX="0.5" pivotY="1" isBaseContainer="true">
+            <item>ksatriatahu/pets/meidoufu/xiaomei.png</item>
+        </image_list>
+        <image_list id="xiaomei_walk" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/meidoufu/xiaomei_walk.png</item>
+        </image_list>
+        <uiReader pivotX="0.5" pivotY="1" alignX="xiaomei_idle#0.5" alignY="xiaomei_idle#0" id="emoji" xml="ksatriatahu/xml/emoji.xml"/>
+    </container>
+
+    <animation>
+        <stop>
+            <alpha id="xiaomei_walk" time="0">0</alpha>
+            <alpha id="xiaomei_idle" time="0">1</alpha>
+            <moveY id="xiaomei_idle" time="0">-30</moveY>
+        </stop>
+        <reset>
+            <multiple>
+                <scaleX id="xiaomei_idle" pivotX="0.5" time="0">1</scaleX>
+                <scaleY id="xiaomei_idle" pivotY="1" time="0">1</scaleY>
+                <scaleX id="xiaomei_walk" pivotX="0.5" time="0">1</scaleX>
+                <scaleY id="xiaomei_walk" pivotY="1" time="0">1</scaleY>
+                <moveY id="xiaomei_walk" time="0">0</moveY>
+                <moveY id="xiaomei_idle" time="0">0</moveY>
+            </multiple>
+        </reset>
+        <idle repeat="-1">
+            <sequence>
+                <multiple>
+                    <alpha id="xiaomei_walk" time="0">0</alpha>
+                    <alpha id="xiaomei_idle" time="0">1</alpha>
+                </multiple>
+                <multiple>
+                    <scaleX id="xiaomei_idle" pivotX="0.5" time="0.3">1.05</scaleX>
+                    <scaleY id="xiaomei_idle" pivotY="1" time="0.3">0.95</scaleY>
+                </multiple>
+                <multiple>
+                    <scaleX id="xiaomei_idle" pivotX="0.5" time="0.3">0.95</scaleX>
+                    <scaleY id="xiaomei_idle" pivotY="1" time="0.3">1.05</scaleY>
+                </multiple>
+            </sequence>
+        </idle>
+        <jalan repeat="-1">
+            <alpha id="emoji" time="0">0</alpha>
+            <sequence>
+                <multiple>
+                    <alpha id="xiaomei_idle" time="0">0</alpha>
+                    <alpha id="xiaomei_walk" time="0">1</alpha>
+                </multiple>
+                <multiple>
+                    <moveY id="xiaomei_walk" time="0.3">-45</moveY>
+                    <scaleX id="xiaomei_walk" pivotX="0.5" time="0.2">0.95</scaleX>
+                    <scaleY id="xiaomei_walk" pivotY="1" time="0.2">1.05</scaleY>
+                </multiple>
+                <multiple>
+                    <moveY id="xiaomei_walk" time="0.1">0</moveY>
+                    <scaleX id="xiaomei_walk" pivotX="0.5" time="0.1">1.05</scaleX>
+                    <scaleY id="xiaomei_walk" pivotY="1" time="0.1">0.95</scaleY>
+                </multiple>
+                <multiple>
+                    <alpha id="xiaomei_walk" time="0">0</alpha>
+                    <alpha id="xiaomei_idle" time="0">1</alpha>
+                    <scaleX id="xiaomei_idle" pivotX="0.5" time="0.025">1.05</scaleX>
+                    <scaleY id="xiaomei_idle" pivotY="1" time="0.025">0.8</scaleY>
+                </multiple>
+                <multiple>
+                    <scaleX id="xiaomei_idle" pivotX="0.5" time="0.025">1</scaleX>
+                    <scaleY id="xiaomei_idle" pivotY="1" time="0.025">1</scaleY>
+                </multiple>
+            </sequence>
+        </jalan>
+        <makan>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="makan"></playAnim>
+        </makan>
+        <jurus>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="jurus"></playAnim>
+        </jurus>
+        <skill repeat="-1">
+            <sequence>
+                <sequence repeat="3">
+                    <alpha id="xiaomei_walk" time="0">0</alpha>
+                    <alpha id="xiaomei_idle" time="0">1</alpha>
+                    <multiple>
+                        <scaleX id="xiaomei_idle" pivotX="0.5" time="0.1">1.06</scaleX>
+                        <scaleY id="xiaomei_idle" pivotY="1" time="0.1">0.94</scaleY>
+                    </multiple>
+                    <multiple>
+                        <scaleX id="xiaomei_idle" pivotX="0.5" time="0.1">0.94</scaleX>
+                        <scaleY id="xiaomei_idle" pivotY="1" time="0.1">1.06</scaleY>
+                    </multiple>
+                </sequence>
+                <sequence>
+                    <multiple>
+                        <alpha id="xiaomei_idle" time="0">0</alpha>
+                        <alpha id="xiaomei_walk" time="0">1</alpha>
+                    </multiple>
+                    <moveY id="xiaomei_walk" time="0.1">-40</moveY>
+                    <moveY id="xiaomei_walk" time="0.1">0</moveY>
+                    <multiple>
+                        <alpha id="xiaomei_idle" time="0">1</alpha>
+                        <scaleX id="xiaomei_idle" pivotX="0.5" time="0.05">1.1</scaleX>
+                        <scaleY id="xiaomei_idle" pivotY="1" time="0.05">0.9</scaleY>
+                        <alpha id="xiaomei_walk" time="0">0</alpha>
+                    </multiple>
+                    <multiple>
+                        <scaleX id="xiaomei_idle" pivotX="0.5" time="0.05">1</scaleX>
+                        <scaleY id="xiaomei_idle" pivotY="1" time="0.05">1</scaleY>
+                    </multiple>
+                </sequence>
+            </sequence>
+        </skill>
+        <hati>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="hati"></playAnim>
+        </hati>
+        <evolusi>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="evolusi"></playAnim>
+        </evolusi>
+    </animation>
+</resources>

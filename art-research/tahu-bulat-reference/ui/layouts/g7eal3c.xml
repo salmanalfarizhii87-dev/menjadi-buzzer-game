@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <character id="penjual" x="384" y="800" isEmpty="true">
+        <group id="charPenjual" pivotY="1" pivotX="0.5">
+            <image_list>
+                <item>pedagang/Ch_AkangTahu_idle.png</item>
+                <item>pedagang/Ch_AkangTahu_mulai.png</item>
+                <item>pedagang/Ch_AkangTahu_masak1.png</item>
+                <item>pedagang/Ch_AkangTahu_masak2.png</item>
+                <item>pedagang/Ch_AkangTahu_jadi.png</item>
+            </image_list>
+        </group>
+    </character>
+
+    <animation>
+    </animation>
+</resources>

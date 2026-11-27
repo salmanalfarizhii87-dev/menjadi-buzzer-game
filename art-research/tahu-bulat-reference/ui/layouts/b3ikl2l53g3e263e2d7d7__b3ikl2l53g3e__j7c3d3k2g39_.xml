@@ -1,0 +1,47 @@
+<resources>
+    <!--font :-->
+    <!--comicneueLight-->
+    <!--comicneueBold-->
+    <!--arial-->
+    <!--ttt-->
+    <!--cuckoo-->
+    <!--theBoldFont-->
+    <nama>Selamat Pagi</nama>
+    <image>ui_kartu_meme/kartu_ucapan/KartuUcapan_umum_selamatPagi.png</image>
+    <variasi>
+        <image>
+            <!--<input id="0">-->
+            <!--<item x="189" y="578" width="335" alignX="0.0f" alignY="0.0f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "19" min_font_size="30" max_font_size="40"/>-->
+            <!--</input>-->
+        </image>
+        <text>
+            <item id="0">
+                <varian>
+                    <!--<item x="200" y="365" width="300" alignX="0.0f" alignY="0.0f" colour="0x000000" fontSize="36" font="cuckoo" isCenter="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>-->
+                </varian>
+            </item>
+        </text>
+    </variasi>
+    <input>
+        <item id="0" x="140" y="189" width="437" alignX="0.0f" alignY="0.0f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "50" min_font_size="36" max_font_size="60"/>
+        <item id="1" x="150" y="654" width="420" alignX="0.0f" alignY="0.0f" colour="ffffff" font="cuckoo" isCenter="true" min_char = "0" max_char = "30" min_font_size="42" max_font_size="60"/>
+
+    </input>
+    <contoh>
+        <input id="0">
+            <item>Awali hari dengan tekad bulat!&#10;Sebulat Tahu!!</item>
+            <item>Hari ini libur!&#10;Ayo, main!!</item>
+            <item>Emak... Selamat Pagi, Abah...&#10;Terima kasih Emak...</item>
+            <item>Kawanku... Sahabatku...&#10;Bagi Jam Persahabatan, dong!</item>
+            <item>Jangan lupa hari ini kita ada janji!!</item>
+
+        </input>
+        <input id="1">
+            <item>Akang Tahu</item>
+            <item>Bocah Kribo</item>
+            <item>Ayu Tengteng</item>
+            <item>Akang Butuh Uang</item>
+            <item>Penagih Janji</item>
+        </input>
+    </contoh>
+</resources>

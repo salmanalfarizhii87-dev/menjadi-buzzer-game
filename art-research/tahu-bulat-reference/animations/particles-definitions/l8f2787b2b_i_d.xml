@@ -1,0 +1,127 @@
+<resources>
+    <particlesystem x="0" y="0">
+
+        <emitter pivotX="0.5" pivotY="0" type="line">
+            <particle lifetime="16">
+                <imagelist>
+                    <image>jasteen/efekUfo_blkg3.png</image>
+                </imagelist>
+                <p_start>
+                    <alpha min="1" max="1"/>
+                    <scaleY pivotX="0.5" pivotY="0.5" min="0" max="0"/>
+                    <scale pivotX="0.5" pivotY="0" min="0" max="0"/>
+
+                </p_start>
+                <p_running>
+                    <!--<alpha min="0.5" max="0.5" when="0.35" />-->
+                    <!--<alpha min="1" max="1" when="0.6"/>-->
+                    <!--<alpha min="0.5" max="0.5" when="0.6" />-->
+                    <!--<alpha min="1" max="1" when="0.7"/>-->
+                    <!--<alpha min="0.8" max="0.8" when="0.75"/>-->
+                    <!--<alpha min="0.5" max="0.5" when="0.8" />-->
+                    <alpha min="1" max="1" when="0.85"/>
+                    <alpha min="0" max="0" when="1" />
+                    <!--VG-1505-->
+                    <scaleY min="1365" max="1365" when="0.005"/>
+                    <scale min="1.5" max="1.5" when="0.001"/>
+
+                </p_running>
+            </particle>
+            <e_start>
+                <burst nBurst="1" burstTime="0.2"/>
+                <source>
+                    <!--VG-1505-->
+                    <point x="-250" y="-1200"/>
+                    <point x="-250" y="-1200"/>
+                </source>
+            </e_start>
+        </emitter>
+
+        <emitter pivotX="0.5" pivotY="0.0" type="line">
+            <particle lifetime="15">
+                <imagelist>
+                    <image>jasteen/efekUfo_blkg1.png</image>
+                </imagelist>
+                <p_start>
+                    <alpha min="0" max="0"/>
+                    <scaleY pivotX="0.5" pivotY="0" min="0" max="0"/>
+                    <scale pivotX="0.5" pivotY="0" min="0" max="0"/>
+                </p_start>
+                <p_running>
+                    <alpha min="0.7" max="0.7" when="0.05"/>
+                    <alpha min="0.2" max="0.2" when="0.1" />
+                    <alpha min="0.85" max="0.85" when="0.2"/>
+                    <alpha min="0.5" max="0.5" when="0.25" />
+                    <alpha min="0.7" max="0.7" when="0.3"/>
+                    <alpha min="0.2" max="0.2" when="0.35" />
+                    <alpha min="0.85" max="0.85" when="0.45"/>
+                    <alpha min="0.5" max="0.5" when="0.55" />
+                    <alpha min="0.8" max="0.8" when="0.6"/>
+                    <alpha min="0" max="0" when="0.65" />
+                    <alpha min="1" max="1" when="0.7"/>
+                    <alpha min="0.5" max="0.5" when="0.75" />
+                    <alpha min="0.8" max="0.8" when="0.8"/>
+                    <alpha min="0" max="0" when="0.85" />
+                    <alpha min="0.8" max="0.8" when="0.9"/>
+                    <alpha min="0" max="0" when="1" />
+                    <!--VG-1505-->
+                    <scaleY min="1365" max="1365" when="0.005"/>
+                    <scale min="1.5" max="1.5" when="0.001"/>
+
+                </p_running>
+            </particle>
+            <e_start>
+                <burst nBurst="1" burstTime="0.2"/>
+                <source>
+                    <!--VG-1505-->
+                    <point x="-250" y="-1200"/>
+                    <point x="-250" y="-1200"/>
+                </source>
+            </e_start>
+        </emitter>
+
+        <emitter pivotX="0.5" pivotY="1" type="line">
+            <particle lifetime="0.4">
+                <imagelist>
+                    <image>jasteen/efekUfo_blkg2.png</image>
+                </imagelist>
+                <p_start>
+                    <alpha min="1" max="1"/>
+                    <scaleY pivotX="0.5" pivotY="0" min="0" max="0"/>
+                    <angle pivotX="0.5" pivotY="0" min="180" max="180"/>
+                    <velocity min="350" max="800" arahMin="270" arahMax="270"/>
+                </p_start>
+                <p_running>
+                    <alpha min="0" max="0" when="1" />
+                    <scaleY min="0.5" max="10" when="1"/>
+                </p_running>
+            </particle>
+            <e_start>
+                <burst nBurst="1" burstTime="0.05"/>
+                <!--//VG-1405-->
+                <emit nEmit="5" repeat="70" delay="0.2"/>
+                <source>
+                    <point x="-250" y="-500"/>
+                    <point x="250" y="-500"/>
+                </source>
+            </e_start>
+        </emitter>
+
+        <!--<emitter pivotX="0.5" pivotY="0.8" type="point">-->
+            <!--<particle lifetime="180">-->
+                <!--<imagelist>-->
+                    <!--<image>jasteen/jasteenGabungan.png</image>-->
+                <!--</imagelist>-->
+                <!--<p_start>-->
+                    <!--<alpha min="1" max="1"/>-->
+                <!--</p_start>-->
+                <!--<p_running>-->
+                <!--</p_running>-->
+            <!--</particle>-->
+            <!--<e_start>-->
+                <!--<burst nBurst="1" burstTime="0.1"/>-->
+            <!--</e_start>-->
+        <!--</emitter>-->
+
+    </particlesystem>
+</resources>

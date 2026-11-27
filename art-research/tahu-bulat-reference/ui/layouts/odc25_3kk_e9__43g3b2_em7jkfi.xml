@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--semua regex dalam %n$s-->
+
+    <!--story 1(awal) end ke story 2(afterleft)-->
+    <!--story 4(butuhwaktu) end kembali ke story 2(afterleft)-->
+    <!--story 5(pilihcabang) custom listcabang, masing2 opsi ke story 6(bandung) atau 7(cukupuang) atau 8(kuranguang)-->
+
+    <story idStory="0" showingFirst="opsi#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="2.0f" regex="waktu">Hai, %1$s!</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="false" nextTimer="2.0f">Wah, hebat!</item>
+            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="false" nextTimer="2.0f" regex="cabang_indo_punya">Ternyata kamu sudah punya bisnis Tahu Bulat di %1$s?!</item>
+            <item idItemChat="4" nextTipe="chat" nextId="5" isFromUser="false" nextTimer="2.0f">Selamat ya</item>
+            <item idItemChat="5" nextTipe="chat" nextId="6" isFromUser="false" nextTimer="2.0f">Tetap semangat dan kembangkan terus bisnis tahu bulatmu</item>
+            <item idItemChat="6" nextTipe="chat" nextId="7" isFromUser="false" nextTimer="2.0f" regex="cabang_indo_belum_punya">Saya dengar prospek bisnis Tahu Bulat di %1$s juga bagus</item>
+            <item idItemChat="7" nextTipe="opsi" nextId="2" isFromUser="false" nextTimer="1.0f">Kalau sudah ekspansi ke kota tersebut, hubungi saya kembali</item>
+            <item idItemChat="8" isFromUser="false">Sip!</item>
+        </chat>
+        <opsi idOpsi="1">
+            <item idItemOpsi="1" nextTipe="chat" nextId="1" nextTimer="2.0f" regex="waktu">Selamat %1$s, Pak!</item>
+        </opsi>
+        <opsi idOpsi="2">
+            <item idItemOpsi="1" nextTipe="chat" nextId="8" nextTimer="2.0f" regex="waktu">Oke Pak!</item>
+        </opsi>
+    </story>
+
+    <!--//06122019-sher //todo hapus /comment yg ini, yg dipakai yg diatas-->
+    <!--<story idStory="0" showingFirst="opsi#1">-->
+    <!--<chat>-->
+    <!--<item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="2.0f" regex="waktu">%1$s</item>-->
+    <!--<item idItemChat="2" nextTipe="opsi" nextId="2" isFromUser="false" nextTimer="2.0f">Kamu ini sepertinya chatting melulu ya?</item>-->
+    <!--<item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="false" nextTimer="2.0f">Wah, keterlaluan</item>-->
+    <!--<item idItemChat="4" isFromUser="false" nextTimer="2.0f">Saya tidak ada urusan sama orang gabut</item>-->
+    <!--</chat>-->
+    <!--<opsi idOpsi="1">-->
+    <!--<item idItemOpsi="1" nextTipe="chat" nextId="1" nextTimer="2.0f" regex="waktu">Selamat %1$s, Pak!</item>-->
+    <!--</opsi>-->
+    <!--<opsi idOpsi="2">-->
+    <!--<item idItemOpsi="1" nextTipe="chat" nextId="3" nextTimer="2.0f" regex="waktu">Soalnya saya mau buka cabang ke luar negri, Pak!</item>-->
+    <!--<item idItemOpsi="1" nextTipe="chat" nextId="3" nextTimer="2.0f" regex="waktu">Saya gabut, Pak.</item>-->
+    <!--</opsi>-->
+    <!--</story>-->
+
+    <!--chat pertama, setelah uang user pertama x >= 100M-->
+    <story idStory="1" showingFirst="chat#1">
+        <chat>
+<!--            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="2.0f" regex="waktu">Selamat %1$s, Kang.</item>-->
+<!--            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="false" nextTimer="2.0f">Saya tertarik untuk membiayai bisnis kamu ke luar negeri.</item>-->
+<!--            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="false" nextTimer="2.0f">Bagaimana? Tertarik?</item>-->
+<!--            <item idItemChat="4" nextTipe="chat" nextId="5" isFromUser="true" nextTimer="2.0f" regex="waktu">Selamat %1$s, Pak!</item>-->
+<!--            <item idItemChat="5" nextTipe="chat" nextId="6" isFromUser="true" nextTimer="2.0f">Wah, tentu saja Pak.</item>-->
+<!--            <item idItemChat="6" nextTipe="chat" nextId="7" isFromUser="true" nextTimer="2.0f">America?</item>-->
+<!--            <item idItemChat="7" nextTipe="chat" nextId="8" isFromUser="false" nextTimer="2.0f">Bukan.</item>-->
+<!--            <item idItemChat="8" nextTipe="chat" nextId="9" isFromUser="true" nextTimer="2.0f">Paris?</item>-->
+<!--            <item idItemChat="9" nextTipe="chat" nextId="10" isFromUser="false" nextTimer="2.0f">Bukan, bukan..</item>-->
+<!--            <item idItemChat="10" nextTipe="chat" nextId="11" isFromUser="false" nextTimer="2.0f">Mari dicoba dari Asia dulu. Bagaimana kalau Korea?</item>-->
+<!--            <item idItemChat="11" nextTipe="chat" nextId="12" isFromUser="true" nextTimer="2.0f">Saya ga bisa nyanyi dan nari ala K-Pop, Pak.</item>-->
+<!--            <item idItemChat="12" nextTipe="chat" nextId="13" isFromUser="false" nextTimer="2.0f">Hahaha! Tenang saja, kamu buka bisnis ke Korea bukan untuk jadi ke "korea-korea"-an.</item>-->
+<!--            <item idItemChat="13" nextTipe="chat" nextId="14" isFromUser="false" nextTimer="2.0f">Justru nantinya Bisnis Tahu Bulat Kamu harus terasa sangat Indonesia.</item>-->
+<!--            <item idItemChat="14" nextTipe="chat" nextId="15" isFromUser="false" nextTimer="2.0f">Karena dari Jawa Barat, kita dandani ala Sunda saja bagaimana?</item>-->
+<!--            <item idItemChat="15" nextTipe="chat" nextId="16" isFromUser="true" nextTimer="2.0f">Wah, keren banget tuh Pak!</item>-->
+<!--            <item idItemChat="16" nextTipe="chat" nextId="17" isFromUser="true" nextTimer="2.0f">Oke, setuju. Kita mulai sekarang?</item>-->
+<!--            <item idItemChat="17" nextTipe="chat" nextId="18" isFromUser="false" nextTimer="2.0f">Wowow.. Sabar, Kang.</item>-->
+<!--            <item idItemChat="18" nextTipe="chat" nextId="19" isFromUser="false" nextTimer="2.0f">Bisnis di luar negeri tidak mudah dan butuh&#10;keseriusan.</item>-->
+<!--            <item idItemChat="19" nextTipe="chat" nextId="20" isFromUser="false" nextTimer="2.0f">Apabila kamu benar-benar serius melakukan ekspansi ke Korea, maka kamu harus menjual salah satu Cabang milikmu di Indonesia kepada saya.</item>-->
+<!--            <item idItemChat="20" nextTipe="chat" nextId="21" isFromUser="false" nextTimer="2.0f">Keuntungan dari menjual cabang tersebut bisa jadi bekal kamu di Korea.</item>-->
+<!--            <item idItemChat="21" nextTipe="chat" nextId="22" isFromUser="true" nextTimer="2.0f">Ohh.. Begitu ya Pak..</item>-->
+<!--            <item idItemChat="22" nextTipe="chat" nextId="23" isFromUser="true" nextTimer="2.0f">Baiklah, sebentar saya pikir-pikir dulu ya Pak..</item>-->
+<!--            <item idItemChat="23" isFromUser="false">Silahkan renungkan baik-baik..</item>-->
+
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="1.5f" regex="waktu">Selamat %1$s, Kang.</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="false" nextTimer="2.5f">Saya tertarik untuk membiayai bisnis kamu ke luar negeri.</item>
+            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="false" nextTimer="2.0f">Bagaimana? Tertarik?</item>
+            <item idItemChat="4" nextTipe="chat" nextId="5" isFromUser="true" nextTimer="1.5f" regex="waktu">Selamat %1$s, Pak!</item>
+            <item idItemChat="5" nextTipe="chat" nextId="6" isFromUser="true" nextTimer="2.5f">Wah, tentu saja Pak.</item>
+            <item idItemChat="6" nextTipe="chat" nextId="7" isFromUser="true" nextTimer="2.0f">America?</item>
+            <item idItemChat="7" nextTipe="chat" nextId="8" isFromUser="false" nextTimer="2.5f">Bukan.</item>
+            <item idItemChat="8" nextTipe="chat" nextId="9" isFromUser="true" nextTimer="1.5f">Paris?</item>
+            <item idItemChat="9" nextTipe="chat" nextId="10" isFromUser="false" nextTimer="2.5f">Bukan, bukan..</item>
+            <item idItemChat="10" nextTipe="chat" nextId="11" isFromUser="false" nextTimer="2.5f">Mari dicoba dari Asia dulu. Bagaimana kalau Korea?</item>
+            <item idItemChat="11" nextTipe="chat" nextId="12" isFromUser="true" nextTimer="2.0f">Saya ga bisa nyanyi dan nari ala K-Pop, Pak.</item>
+            <item idItemChat="12" nextTipe="chat" nextId="13" isFromUser="false" nextTimer="3.0f">Hahaha! Tenang saja, kamu buka bisnis ke Korea bukan untuk jadi ke "korea-korea"-an.</item>
+            <item idItemChat="13" nextTipe="chat" nextId="14" isFromUser="false" nextTimer="3.0f">Justru nantinya Bisnis Tahu Bulat Kamu harus terasa sangat Indonesia.</item>
+            <item idItemChat="14" nextTipe="chat" nextId="15" isFromUser="false" nextTimer="3.0f">Karena dari Jawa Barat, kita dandani ala Sunda saja bagaimana?</item>
+            <item idItemChat="15" nextTipe="chat" nextId="16" isFromUser="true" nextTimer="1.5f">Wah, keren banget tuh Pak!</item>
+            <item idItemChat="16" nextTipe="chat" nextId="17" isFromUser="true" nextTimer="2.0f">Oke, setuju. Kita mulai sekarang?</item>
+            <item idItemChat="17" nextTipe="chat" nextId="18" isFromUser="false" nextTimer="1.0f">Wowow.. Sabar, Kang.</item>
+            <item idItemChat="18" nextTipe="chat" nextId="19" isFromUser="false" nextTimer="2.0f">Bisnis di luar negeri tidak mudah dan butuh&#10;keseriusan.</item>
+            <item idItemChat="19" nextTipe="chat" nextId="20" isFromUser="false" nextTimer="4.0f">Apabila kamu benar-benar serius melakukan ekspansi ke Korea, maka kamu harus menjual salah satu Cabang milikmu di Indonesia kepada saya.</item>
+            <item idItemChat="20" nextTipe="chat" nextId="21" isFromUser="false" nextTimer="2.5f">Keuntungan dari menjual cabang tersebut bisa jadi bekal kamu di Korea.</item>
+            <item idItemChat="21" nextTipe="chat" nextId="22" isFromUser="true" nextTimer="2.0f">Ohh.. Begitu ya Pak..</item>
+            <item idItemChat="22" nextTipe="chat" nextId="23" isFromUser="true" nextTimer="3.0f">Baiklah, sebentar saya pikir-pikir dulu ya Pak..</item>
+            <item idItemChat="23" isFromUser="false">Silahkan renungkan baik-baik..</item>
+        </chat>
+    </story>
+
+    <!--setelah story 1, keluar dan masuk lagi-->
+    <story idStory="2" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="opsi" nextId="1" isFromUser="false" nextTimer="2.0f">Bagaimana? Kamu sudah menentukan pilihan cabang yang akan dijual kepada saya?</item>
+        </chat>
+
+        <opsi idOpsi="1">
+            <item idItemOpsi="1" nextTipe="story" nextId="3" nextTimer="3.0f">Oke Pak, saya siap!</item>
+            <item idItemOpsi="2" nextTipe="story" nextId="4" nextTimer="3.0f">Saya sepertinya masih butuh waktu, Pak.</item>
+        </opsi>
+    </story>
+
+    <!--siap pilih cabang-->
+    <story idStory="3" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="story" nextId="5" isFromUser="false" nextTimer="1.5f">Bagus, cabang mana yang akan kamu jual?</item>
+        </chat>
+    </story>
+
+    <!--masih butuh waktu-->
+    <story idStory="4" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="3.0f">Baiklah. Menjalankan bisnis butuh keyakinan hati. Silahkan kamu persiapkan dirimu dulu.</item>
+            <item idItemChat="2" isFromUser="true">Baik.. Terima kasih.</item>
+        </chat>
+    </story>
+
+    <!--list opsi cabang-->
+    <!--text cabang sesuai dengan macros BANDUNG, JAKARTA, dll-->
+    <story idStory="5" showingFirst="opsi#1">
+        <opsi idOpsi="1" custom="listCabang" nColumn="2">
+            <item idItemOpsi="1" nextTimer="3.0f" idCabang="Bandung" regex="alltimemoney#Bandung">Bandung&#10;Total Penghasilan: %1$s koin</item>
+            <item idItemOpsi="2" nextTimer="3.0f" idCabang="Jakarta" regex="alltimemoney#Jakarta">Jakarta&#10;Total Penghasilan: %1$s koin</item>
+            <item idItemOpsi="3" nextTimer="3.0f" idCabang="Medan" regex="alltimemoney#Medan">Medan&#10;Total Penghasilan: %1$s koin</item>
+            <item idItemOpsi="4" nextTimer="3.0f" idCabang="Surabaya" regex="alltimemoney#Surabaya">Surabaya&#10;Total Penghasilan: %1$s koin</item>
+            <item idItemOpsi="5" nextTimer="3.0f" idCabang="Bali" regex="alltimemoney#Bali">Bali&#10;Total Penghasilan: %1$s koin</item>
+            <item idItemOpsi="6" nextTimer="3.0f" idCabang="Palembang" regex="alltimemoney#Palembang">Palembang&#10;Total Penghasilan: %1$s koin</item>
+        </opsi>
+    </story>
+
+    <!--pilih bandung-->
+    <story idStory="6" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="1.5f">Wah, kenapa Bandung?</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="false" nextTimer="3.0f">Kamu mulai bisnis kamu dari Kota ini, saya tidak mungkin membelinya.</item>
+            <item idItemChat="3" nextTipe="story" nextId="5" isFromUser="false" nextTimer="2.0f">Ayo tentukan cabang yang lain!</item>
+        </chat>
+    </story>
+
+    <!--pilih cabang lain, biaya cukup-->
+    <story idStory="7" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="4.0f" regex="cabang_dipilih_investor,uang_cabang_dipilih_investor">Baik. Berdasarkan catatan keuangan, total&#10;pemasukan yang kamu miliki di cabang %1$s adalah sebesar %2$s</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="false" nextTimer="4.0f" regex="dana_tambahan_investor">Dengan ini, kamu bisa mendapatkan dana tambahan sebesar %1$s Won untuk memulai bisnis Tahu Bulat di Korea.</item>
+            <item idItemChat="3" nextTipe="opsi" nextId="1" isFromUser="false" nextTimer="1.0f">Bagaimana?</item>
+        </chat>
+        <opsi idOpsi="1">
+            <item idItemOpsi="1" nextTipe="story" nextId="9" nextTimer="2.0f">Oke Pak, Deal!</item>
+            <item idItemOpsi="2" nextTipe="story" nextId="4" nextTimer="2.0f">Saya sepertinya masih butuh waktu, Pak.</item>
+        </opsi>
+    </story>
+
+    <!--pilih cabang lain, kurang biaya-->
+    <story idStory="8" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="3.0f" regex="cabang_dipilih_investor,uang_cabang_dipilih_investor">Hmmm.. Total penghasilan kamu di cabang %1$s baru %2$s..</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="false" nextTimer="2.5f">Nilai bisnis kamu di sini belum cukup untuk bisa memodali kamu ke Korea.</item>
+            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="false" nextTimer="3.0f">Silahkan hubungi saya kembali setelah total&#10;penghasilan kamu di cabang ini mencapai&#10;100,000,000,000,000</item>
+            <item idItemChat="4" nextTipe="opsi" nextId="1" isFromUser="false" nextTimer="2.0f">Atau kamu mau pilih cabang yang lain?</item>
+        </chat>
+        <opsi idOpsi="1">
+            <item idItemOpsi="1" nextTipe="story" nextId="5" nextTimer="2.0f">Saya pilih cabang lain saja, Pak.</item>
+            <item idItemOpsi="2" nextTipe="story" nextId="4" nextTimer="2.0f">Saya sepertinya masih butuh waktu, Pak.</item>
+        </opsi>
+    </story>
+
+    <!--deal-->
+    <story idStory="9" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="3.0f" regex="cabang_dipilih_investor">Baiklah, cabang kota %1$s sekarang menjadi milik saya, kamu sekarang sudah mulai bisa melakukan&#10;bisnis di Korea.</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="true" nextTimer="1.5f">Mohon doanya, Pak!</item>
+            <item idItemChat="3" isFromUser="false">Semoga sukses!</item>
+        </chat>
+    </story>
+
+</resources>

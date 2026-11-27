@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="mantul" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Dagang Tahu Bulat seru juga yak!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Akaaanngggggunyoooo!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sapa" isHold="true">
+            <desc>Eh, Tako?&#10;Apa kabar? Mau Tahu?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Nyo!! Mauuuuu...&#10;Eh, nyo, bukan itu tapi yang&#10;mau diomongin..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Akang mau tahu?&#10;Nyo?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eeeh.. kok malah kamu yang nawarin?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Nyo! Bukan Tahu Bulattttt...!&#10;Akang mau tahu ga apa yang Tako mau bilang?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Ohh.. kirain nawarin tahu... &#10;Emang kamu mau ngomong apa, Tako?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Jadi tadi waktu terbang pake Balonyo... Tako liat ada Festival, alias Bazaar Pentas Seni nyonyo gitu deh..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Oya? Bazaar pentas seni?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Iya, yang ngadain kayanya SD sekitar sini.. Banyak anak perempuan pakai kostum luar negri gitu.. Keren deh!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="aha" isHold="true">
+            <desc>OH! Betul juga!&#10;Ini pasti kesempatan bagus buat kita mengembangkan bisnis Tahu Bulat ini!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Nyo! Betul!! Ayo kang dagang di sana! Eh tapi.. Bagi dulu Tahu Bulatnya dong nyooo..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Yah Tako..&#10;Bukannya dari tadi, kan bisa udah digoreng dadakan dulu..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Kita berangkat dulu ke Bazaar Pentas Seninya dulu deh, ntar keburu udahan! Misi penting ini!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="mantul" isHold="true">
+            <desc>Kamu tunjukin jalan yah, Tako!&#10;Tar sampe sana Akang kasih Tahu Bulat deh..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>NYOOO!!&#10;Siaaaaaaapppp!!</desc>
+        </dialog>
+    </skenario>
+</resources>

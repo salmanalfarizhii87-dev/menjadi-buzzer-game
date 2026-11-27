@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <container id="contLevel" x="25" y="0">
+            <image_list id="bgLevel" x="3" isBaseContainer="true">
+                <item>UI_baru/segmen_biru_2.png</item>
+            </image_list>
+            <text id="labelLevel" x="0" y="5" pivotX="0.5" alignX="bgLevel#0.5" alignY="bgLevel#0" font="cuckoo" fontSize="35" color="ffffff">Bandung - 00</text>
+        </container>
+
+        <container id="contResult" x="0" y="10" alignY="contLevel#1" height="300">
+            <text id="labelSkor" x="70" y="0" font="cuckoo" fontSize="35" color="000000">Skor</text>
+            <text id="labelSisaWaktu" x="0" y="20" alignX="labelSkor#0" alignY="labelSkor#1" font="cuckoo" fontSize="35" color="000000">Sisa Waktu</text>
+            <text id="textSkor" x="400" y="0" alignY="labelSkor#0" font="cuckoo" fontSize="35" color="000000">:000</text>
+            <text id="textSisaWaktu" x="0" y="0" alignX="textSkor#0" alignY="labelSisaWaktu#0" font="cuckoo" fontSize="35" color="000000">:00 detik</text>
+
+            <image_list id="garisplus" x="-20" pivotX="0.5" alignX="wLayar#0.5" y="10" alignY="labelSisaWaktu#1">
+                <item>sotong/ui/garis_plus.png</item>
+            </image_list>
+
+            <text id="labelTotal" x="0" y="10" alignX="labelSkor#0" alignY="garisplus#1" font="cuckoo" fontSize="35" color="000000">Total Skor:</text>
+            <image_list id="skor_bintang3" x="0" y="20" alignX="labelTotal#0.5" alignY="labelTotal#1">
+                <item>sotong/ui/ui_bintang_3.png</item>
+            </image_list>
+            <image_list id="skor_bintang2" x="0" pivotX="1" alignX="skor_bintang3#0.5" y="0" alignY="skor_bintang3#0">
+                <item>sotong/ui/ui_bintang_2.png</item>
+            </image_list>
+            <image_list id="skor_bintang1" x="0" pivotX="1" alignX="skor_bintang2#0.5" y="0" alignY="skor_bintang3#0">
+                <item>sotong/ui/ui_bintang_1.png</item>
+            </image_list>
+            <text id="textTotal" x="0" y="0" pivotX="0.5" alignX="textSkor#0.5" alignY="labelTotal#0" font="cuckoo" fontSize="100" color="000000">00000</text>
+        </container>
+
+        <image_list id="badgeHighScore" x="0" pivotX="1" alignX="contLevel#1" y="0" alignY="contLevel#0">
+            <item>sotong/ui/badge_best.png</item>
+        </image_list>
+
+        <container id="contTarget" x="25" y="20"  alignY="contResult#1" width="650" height="250">
+            <image_list id="bgLabelTarget" x="3">
+                <item>UI_baru/segmen_biru_2.png</item>
+            </image_list>
+            <text id="labelTarget" x="90" y="5" alignY="bgLabelTarget#0" font="cuckoo" fontSize="35" color="ffffff">Target</text>
+            <text id="labelHadiah" x="460" y="5" alignY="bgLabelTarget#0" font="cuckoo" fontSize="35" color="ffffff">Hadiah</text>
+
+            <container id="target1" x="100" y="15" alignX="bgLabelTarget#0" alignY="bgLabelTarget#1" width="650" height="70">
+                <image_list id="bintang1" x="0" y="5">
+                    <item>sotong/ui/ui_bintang_1.png</item>
+                </image_list>
+                <text id="textTarget1" x="10" y="0" pivotY="0.5" alignX="bintang1#1" alignY="bintang1#0.5" font="comicneueLight" fontSize="30" color="000000">000</text>
+                <image_list id="reward1" x="350" y="0" pivotY="0.5" alignY="bintang1#0.5">
+                    <item>icon/iap/icn_celengan1.png</item>
+                </image_list>
+                <text id="textReward1" x="65" y="0" pivotY="0.5" alignX="reward1#0" alignY="reward1#0.5" font="comicneueLight" fontSize="30" color="000000">x000</text>
+                <image_list id="centang1" x="0" y="0" pivotY="0.5" alignX="reward1#0" alignY="bintang1#0.5" pivotX="1" scaleX="0.6" scaleY="0.6" pivotScaleX="1" pivotScaleY="0.5">
+                    <item>hpakang/ui_daily_reward_tantangan/img_ceklis.png</item>
+                </image_list>
+            </container>
+
+            <container id="target2" x="100" y="10" alignX="bgLabelTarget#0" alignY="target1#1" width="650" height="70">
+                <image_list id="bintang2" x="0" y="5">
+                    <item>sotong/ui/ui_bintang_2.png</item>
+                </image_list>
+                <text id="textTarget2" x="10" y="0" pivotY="0.5" alignX="bintang2#1" alignY="bintang2#0.5" font="comicneueLight" fontSize="30" color="000000">000</text>
+                <image_list id="reward2" x="350" y="0" pivotY="0.5" alignY="bintang1#0.5">
+                    <item>icon/iap/icn_celengan1.png</item>
+                </image_list>
+                <text id="textReward2" x="65" y="0" pivotY="0.5" alignX="reward2#0" alignY="reward2#0.5" font="comicneueLight" fontSize="30" color="000000">x000</text>
+                <image_list id="centang2" x="0" y="0" pivotY="0.5" alignX="reward2#0" alignY="bintang2#0.5" pivotX="1" scaleX="0.6" scaleY="0.6" pivotScaleX="1" pivotScaleY="0.5">
+                    <item>hpakang/ui_daily_reward_tantangan/img_ceklis.png</item>
+                </image_list>
+            </container>
+
+            <container id="target3" x="100" y="10" alignX="bgLabelTarget#0" alignY="target2#1" width="650" height="70">
+                <image_list id="bintang3" x="0" y="5">
+                    <item>sotong/ui/ui_bintang_3.png</item>
+                </image_list>
+                <text id="textTarget3" x="10" y="0" pivotY="0.5" alignX="bintang3#1" alignY="bintang3#0.5" font="comicneueLight" fontSize="30" color="000000">000</text>
+                <image_list id="reward3" x="350" y="0" pivotY="0.5" alignY="bintang1#0.5">
+                    <item>UI_baru/ic_koin_dalamNegeri.png</item>
+                </image_list>
+                <text id="textReward3" x="65" y="0" pivotY="0.5" alignX="reward3#0" alignY="reward3#0.5" font="comicneueLight" fontSize="30" color="000000">x000</text>
+                <image_list id="centang3" x="0" y="0" pivotY="0.5" alignX="reward3#0" alignY="bintang3#0.5" pivotX="1" scaleX="0.6" scaleY="0.6" pivotScaleX="1" pivotScaleY="0.5">
+                    <item>hpakang/ui_daily_reward_tantangan/img_ceklis.png</item>
+                </image_list>
+            </container>
+        </container>
+
+<!--        <container id="contUlang" x="0" y="20" alignX="contTarget#0" alignY="contTarget#1" width="650" height="100">-->
+            <container id="contBestScore" x="0" y="20" alignX="contLevel#0" alignY="contTarget#1">
+                <image_list id="bgBestScore" x="3" isBaseContainer="true">
+                    <item>UI_baru/segmen_biru_2.png</item>
+                </image_list>
+                <text id="labelBestScore" x="20" y="0" alignX="bgBestScore#0" pivotY="0.5" alignY="bgBestScore#0.5" font="cuckoo" fontSize="30" color="000000">Skor Terbaik</text>
+                <image_list id="bestScore_bintang3" x="500" pivotX="1" y="0" pivotY="0.5" alignY="bgBestScore#0.5">
+                    <item>sotong/ui/ui_bintang_3.png</item>
+                </image_list>
+                <image_list id="bestScore_bintang2" x="0" pivotX="1" alignX="bestScore_bintang3#0.5" y="0" pivotY="0.5" alignY="bgBestScore#0.5">
+                    <item>sotong/ui/ui_bintang_2.png</item>
+                </image_list>
+                <image_list id="bestScore_bintang1" x="0" pivotX="1" alignX="bestScore_bintang2#0.5" y="0" pivotY="0.5" alignY="bgBestScore#0.5">
+                    <item>sotong/ui/ui_bintang_1.png</item>
+                </image_list>
+                <text id="textBestScore" x="10" alignX="bestScore_bintang3#1" y="0" pivotY="0.5" alignY="bgBestScore#0.5" font="cuckoo" fontSize="30" color="000000">000</text>
+            </container>
+
+            <container id="contRewardRepeat" x="0" y="20" alignY="contBestScore#1" alignX="contBestScore#0">
+                <image_list id="bgRewardRepeat" x="3" isBaseContainer="true">
+                    <item>UI_baru/segmen_biru_2.png</item>
+                </image_list>
+                <text id="labelRewardRepeat" x="20" alignX="bgRewardRepeat#0" y="0" pivotY="0.5" alignY="bgRewardRepeat#0.5" font="cuckoo" fontSize="30" color="000000">Hadiah Mengulang</text>
+
+                <image_list id="icRewardRepeat" x="500" pivotX="1" y="0" pivotY="0.5" alignY="bgRewardRepeat#0.5">
+                    <item>UI_baru/ic_koin_dalamNegeri.png</item>
+                </image_list>
+                <text id="textRewardRepeat" x="10" alignX="icRewardRepeat#1" y="0" pivotY="0.5" alignY="bgRewardRepeat#0.5" font="cuckoo" fontSize="30" color="000000">x000</text>
+            </container>
+<!--        </container>-->
+
+    </container>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+	<dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kang!!&#10;Lagi ada yang seru nih!</desc>
+        </dialog>        
+	<dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Emang ada apaan, Tako?</desc>
+        </dialog>
+	<dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Lagi ada kunjungan turis dari Jepang!! Ayo kita tawarin Tahu Bulat ke mereka, Kang!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Wohhhh!!&#10;Aku mencium aroma bisnis!&#10;Ayo ayo!</desc>
+        </dialog>
+    </skenario>
+</resources>

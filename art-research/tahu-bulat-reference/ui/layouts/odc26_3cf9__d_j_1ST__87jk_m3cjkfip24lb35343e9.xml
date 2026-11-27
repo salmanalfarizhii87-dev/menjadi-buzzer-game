@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hei, Kang! Tahu!</desc>
+        </dialog>
+	    <dialog karakter="0" tipe="kiri" ekspresi="sapa" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Oh, Hei, Towa!&#10;Mau beli Tahu?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Buukaann....&#10;Nyapa doang lagi kok, namamu masih Kang Tahu, kan?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>iya, iyaaaa.....&#10;Ga usah dijeda gitu dong manggilnya..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Ngomong-ngomong....&#10;Akang masih penasaran.. Jadinya kamu juga manusia ikan?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Mau tahu aja..&#10;Atau mau tahu banget?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Mau tahu banget!!</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Ya tinggal digoreng dadakanlah Tahu-nya!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>........................</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Sudah... Jangan sedih gitu..&#10;Lagi ujan lagi nih..&#10;Mau ke Atlantis, gak?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Oiya, bener juga!&#10;Boleh! Yuk, kita ke Atlantis!</desc>
+        </dialog>
+    </skenario>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <text id="descHeader" x="-20" y="0" alignX="wLayar#0.5" pivotX="0.5" font="comicneueLight" fontSize="30" color="000000" wrapWidth="650" isCenter="true">lorem ipsum blabla&#10;lorem ipsum blabla</text>
+
+        <image_list id="iconHadiah1" x="-20" y="20" pivotX="0.5" alignY="descHeader#1" alignX="wLayar#0.5">
+            <item>icon/iap/icn_celengan3.png</item>
+        </image_list>
+        <image_list id="iconHadiah2" x="-20" y="20" pivotX="0.5" alignY="descHeader#1" alignX="wLayar#0.5" isVisible="false">
+            <item>icon/iap/icn_celengan3.png</item>
+        </image_list>
+        <image_list id="iconHadiah3" x="-20" y="20" pivotX="0.5" alignY="descHeader#1" alignX="wLayar#0.5" isVisible="false">
+            <item>icon/iap/icn_celengan3.png</item>
+        </image_list>
+        <image_list id="iconHadiah4" x="-20" y="20" pivotX="0.5" alignY="descHeader#1" alignX="wLayar#0.5" isVisible="false">
+            <item>icon/iap/icn_celengan3.png</item>
+        </image_list>
+
+        <text id="descHadiah" x="-20" y="20" alignX="wLayar#0.5" pivotX="0.5" alignY="iconHadiah1#1" font="comicneueLight" fontSize="30" color="000000" wrapWidth="650" isCenter="true">lorem ipsum blabla&#10;lorem ipsum blabla</text>
+
+        <container id="contBar" x="50" y="10" alignY="descHadiah#1">
+            <image_list id="bgBar" x="0" y="0" isBaseContainer="true">
+                <item>promogame/ui/PG_ui_bar_reward_kosong.png</item>
+            </image_list>
+            <image_list id="isiBar" x="5" y="5" alignX="bgBar#0" alignY="bgBar#0">
+                <item>promogame/ui/PG_ui_bar_reward_isi.png</item>
+            </image_list>
+            <textWithImage id="textBar" x="0" y="-5" pivotX="0.5" pivotY="0.5" alignX="bgBar#0.5" alignY="bgBar#0.5" font="cuckoo" fontSize="35" color="ffffff" isCenter="true">
+                <string>
+                    <koin_Bandung/>
+                    <text>00000 / </text>
+                    <koin_Bandung/>
+                    <text>00000</text>
+                </string>
+            </textWithImage>
+        </container>
+
+        <text id="descTimer" x="0" y="20" pivotX="0.5" alignX="contBar#0.5" alignY="contBar#1" font="comicneueLight" fontSize="30" color="000000" wrapWidth="650" isCenter="true">Festival masih akan dibuka selama:</text>
+        <container id="contBarTimer" x="0" y="10" alignX="contBar#0" alignY="descTimer#1">
+            <image_list id="bgBarTimer" x="5" y="0" isBaseContainer="true">
+                <item>UI_baru/ui_lbl_popupData.png</item>
+            </image_list>
+            <!--//05192020 tambahan wrapWidth dan isCenter, crash di changeWrapText UIManager showPopUpSingleReward-->
+            <text id="textTimer" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="bgBarTimer#0.5" alignY="bgBarTimer#0.5" font="cuckoo" fontSize="35" color="ffffff" wrapWidth="600" isCenter="true">00:00</text>
+        </container>
+
+    </container>
+
+
+    <animation>
+    </animation>
+</resources>

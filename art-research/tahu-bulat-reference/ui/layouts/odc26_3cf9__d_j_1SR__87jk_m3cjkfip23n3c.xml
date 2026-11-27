@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc isNode="true">
+                <string>
+                    <text>Baiklah, kali ini mari kita kejar target </text>
+                    <koin_Atlantis/>
+                    <text format="target_misi"> %s!</text>
+                </string>
+            </desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Semangaaatttt!!!</desc>
+        </dialog>
+    </skenario>
+</resources>

@@ -1,0 +1,180 @@
+<resources>
+
+    <container id="root" x="0" y="0">
+        <container id="all_rempah" x="0" y="0" pivotX="0.5" pivotY="0.5">
+            <particle id="p_trail" xml="xml_ui/rempah/particle/p_rempah_trail.xml" x="0" y="0"/>
+            <particle id="p_glow" xml="xml_ui/rempah/particle/p_rempah_glow.xml" x="0" y="0"/>
+
+            <image id="rempah" x="0" y="0" pivotX="0.5" pivotY="0.5" path="UI_baru/rempah/ui_kantongRempah.png" isVisible="false">
+                <image id="icon_rempah" x="0" y="20" pivotX="0.5" pivotY="0.5" path="UI_baru/rempah/ic_rempah_bawangBombay.png"/>
+                <image id="icon_rarity_rempah" x="0" y="-50" pivotX="0.5" pivotY="0.5" path="UI_baru/badge_1.png"/>
+                <image id="icon_baru_rempah" x="0" y="-5" pivotX="0.5" pivotY="0.5" alignY="rempah#1" path="UI_baru/rempah/ui_rempah/ui_alertText_baru.png"/>
+                <image id="icon_cabang_rempah" x="16" y="-22" pivotX="0.5" pivotY="0.5"  alignX="rempah#0" alignY="rempah#1" isVisible="false" path="icon/icon kota cabang tanpa ilustrasi/ic_gedung sate.png"/>
+            </image>
+
+            <container id="text_rempah" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="rempah#0.5" alignY="rempah#0.5">
+                <text id="nama_rempah" font="cuckoo" fontSize="60" color="ffffff" x="140" y="-155" pivotX="0" pivotY="0" wrapWidth="330" isVisible="false">BAWANG BOMBAY!</text>
+                <text id="jumlah_rempah" font="cuckoo" fontSize="120" color="ffffff" x="140" y="-30" pivotX="0" pivotY="0" alignY="nama_rempah#1" isVisible="false">+3</text>
+            </container>
+
+            <container id="all_bar" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="rempah#0.5" alignY="rempah#0.5">
+                <image id="bar" x="140" y="50" pivotX="0" pivotY="0.5" alignY="jumlah_rempah#1" pivotScaleX="0" pivotScaleY="0.5" scaleX="1.5" scaleY="1.5" path="UI_baru/bar_peridot.png" isVisible="false">
+                    <image id="isi_bar" x="0" y="-1" pivotX="0" pivotY="0.5" path="UI_baru/bar_isi.png"/>
+                    <image id="isi_bar_glow" x="0" y="-1" pivotX="0" pivotY="0.5" path="UI_baru/bar_peridot_putih.png"/>
+                </image>
+                <text id="text_bar" font="cuckoo" fontSize="45" color="ffffff" x="0" y="-11" pivotX="0.5" pivotY="0.5" alignX="bar#0.5" alignY="bar#0.5" isVisible="false">5 / 10</text>
+            </container>
+
+            <container id="text_popup_rempah" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="rempah#0.5" alignY="rempah#0.5" isVisible="false">
+                <text id="nama_popup_rempah" font="cuckoo" fontSize="60" color="000000" x="140" y="-155" pivotX="0" pivotY="0" wrapWidth="300">Bawang Bombay!</text>
+                <textWithImage id="level_popup_rempah" font="cuckoo" fontSize="40" color="000000" x="140" y="10" pivotX="0" pivotY="0" alignY="nama_popup_rempah#1">
+                    <string>
+                        <icon_level/>
+                        <text> Lv. 3</text>
+                    </string>
+                </textWithImage>
+
+                <text id="desk_popup_rempah" font="comicneueBold" fontSize="30" color="000000" x="140" y="15" pivotX="0" pivotY="0" wrapWidth="300" alignY="level_popup_rempah#1">Ditanam dan dipanen dari ladang bawang terbaik!</text>
+            </container>
+        </container>
+
+    </container>
+
+    <animation>
+        <rempah_hilang>
+<!--            <alpha id="all_rempah" time="0.1">0</alpha>-->
+            <stopParticle id="p_trail"/>
+            <hideVisibility id="p_glow"/>
+            <stopParticle id="p_glow"/>
+            <alpha id="all_rempah" time="0">0</alpha>
+        </rempah_hilang>
+
+        <rempah_keluar>
+            <sequence>
+                <multiple>
+                    <stopParticle id="p_trail"/>
+                    <hideVisibility id="p_glow"/>
+                    <stopParticle id="p_glow"/>
+
+                    <alpha id="all_rempah" time="0">1</alpha>
+                    <hideVisibility id="rempah"/>
+                    <hideVisibility id="icon_baru_rempah"/>
+                    <scaleX id="rempah" pivotX="0.5" time="0">0</scaleX>
+                    <scaleY id="rempah" pivotY="0.5" time="0">0</scaleY>
+                    <moveY id="all_rempah" time="0">-25</moveY>
+                    <moveX id="all_rempah" time="0">0</moveX>
+
+                    <alpha id="nama_rempah">0</alpha>
+                    <alpha id="jumlah_rempah">0</alpha>
+                    <alpha id="icon_baru_rempah">0</alpha>
+                    <alpha id="bar">0</alpha>
+                    <alpha id="text_bar">0</alpha>
+                    <alpha id="isi_bar_glow">0</alpha>
+
+                    <moveX id="all_bar" time="0">0</moveX>
+                    <moveY id="all_bar" time="0">0</moveY>
+                </multiple>
+
+                <sequence>
+                    <showVisibility id="rempah"/>
+                    <showVisibility id="icon_baru_rempah"/>
+
+                    <multiple>
+                        <sequence>
+                            <multiple>
+                                <scaleX id="rempah" pivotX="0.5" time="0.05">-0.1</scaleX>
+                                <scaleY id="rempah" pivotY="0.5" time="0.05">0.1</scaleY>
+                            </multiple>
+                            <multiple>
+                                <playParticle id="p_trail"/>
+                                <scaleX id="rempah" pivotX="0.5" time="0.1">1</scaleX>
+                                <scaleY id="rempah" pivotY="0.5" time="0.1">1</scaleY>
+                            </multiple>
+                            <multiple>
+                                <scaleX id="rempah" pivotX="0.5" time="0.15">-1.2</scaleX>
+                                <scaleY id="rempah" pivotY="0.5" time="0.15">1.2</scaleY>
+                            </multiple>
+                            <multiple>
+                                <scaleX id="rempah" pivotX="0.5" time="0.15">1.6</scaleX>
+                                <scaleY id="rempah" pivotY="0.5" time="0.15">1.6</scaleY>
+                            </multiple>
+                        </sequence>
+
+
+                        <!--//08142020-->
+                        <!--<moveY id="all_rempah" time="0.35">-575</moveY>-->
+                        <moveY id="all_rempah" time="0.35">-475</moveY>
+                    </multiple>
+
+                    <multiple>
+                        <scaleX id="rempah" pivotX="0.5" time="0.1">1.5</scaleX>
+                        <scaleY id="rempah" pivotY="0.5" time="0.1">1.5</scaleY>
+                    </multiple>
+
+                    <wait time="0.05"/>
+
+                    <multiple>
+                        <moveX id="all_rempah" time="0.5">-140</moveX>
+                        <stopParticle id="p_trail"/>
+                    </multiple>
+
+                    <multiple>
+                        <showVisibility id="nama_rempah"/>
+                        <showVisibility id="jumlah_rempah"/>
+                        <showVisibility id="bar"/>
+                        <showVisibility id="text_bar"/>
+
+
+                        <showVisibility id="p_glow"/>
+                        <playParticle id="p_glow"/>
+                    </multiple>
+
+                    <alpha id="nama_rempah" time="0.1">1</alpha>
+                    <alpha id="jumlah_rempah" time="0.1">1</alpha>
+                    <multiple>
+                        <alpha id="bar" time="0.1">1</alpha>
+                        <alpha id="text_bar" time="0.1">1</alpha>
+                    </multiple>
+                </sequence>
+            </sequence>
+        </rempah_keluar>
+
+        <popup_rempah>
+            <sequence>
+                <multiple>
+                    <showVisibility id="rempah"/>
+                    <showVisibility id="icon_rempah"/>
+                    <showVisibility id="icon_rarity_rempah"/>
+                    <showVisibility id="icon_cabang_rempah"/>
+                    <showVisibility id="bar"/>
+                    <showVisibility id="text_bar"/>
+                    <showVisibility id="text_popup_rempah"/>
+
+                    <hideVisibility id="icon_baru_rempah"/>
+
+                    <scaleX id="rempah" pivotX="0.5" time="0">1.5</scaleX>
+                    <scaleY id="rempah" pivotY="0.5" time="0">1.5</scaleY>
+                    <scaleX id="icon_cabang_rempah" pivotX="0.5" time="0">0.375</scaleX>
+                    <scaleY id="icon_cabang_rempah" pivotY="0.5" time="0">0.375</scaleY>
+
+                    <moveX id="all_bar" time="0">-250</moveX>
+                    <moveY id="all_bar" time="0">70</moveY>
+
+                    <alpha id="isi_bar_glow">0</alpha>
+                </multiple>
+            </sequence>
+        </popup_rempah>
+
+        <alpha_bar_penuh>
+            <sequence repeat="-1">
+                <alpha id="isi_bar_glow" time="1">0.8</alpha>
+                <alpha id="isi_bar_glow" time="0.8">0</alpha>
+                <wait time="0.2"/>
+            </sequence>
+        </alpha_bar_penuh>
+
+        <icon_rempah_baru>
+            <alpha id="icon_baru_rempah" time="0.1">1</alpha>
+        </icon_rempah_baru>
+    </animation>
+</resources>

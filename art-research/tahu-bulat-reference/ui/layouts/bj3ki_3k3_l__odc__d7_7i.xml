@@ -1,0 +1,322 @@
+<resources>
+    <container id="root" x="384" y="900" pivotX="0" pivotY="0">
+        <image_list id="meier_syal" x="59" y="-119" pivotX="0.037" pivotY="0.283">
+            <item>ksatriatahu/pets/meidoufu/meier_syal.png</item>
+        </image_list>
+        <image_list id="meier" x="0" y="0" pivotX="0.5" pivotY="1" isBaseContainer="true">
+            <item>ksatriatahu/pets/meidoufu/meier.png</item>
+        </image_list>
+        <image_list id="meier_syal_1" x="85" y="-84" pivotX="0.074" pivotY="0.266">
+            <item>ksatriatahu/pets/meidoufu/meier_syal.png</item>
+        </image_list>
+
+        <image_list id="meier_syal_2" x="-121" y="-78" pivotX="0.111" pivotY="0.25">
+            <item>ksatriatahu/pets/meidoufu/meier_syal.png</item>
+        </image_list>
+        <image_list id="meier_walk_1" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/meidoufu/meier_walk_1.png</item>
+        </image_list>
+        <image_list id="meier_walk_2" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/meidoufu/meier_walk_2.png</item>
+        </image_list>
+
+        <uiReader pivotX="0.5" pivotY="1" alignX="meier#0.5" alignY="meier#0" id="emoji" xml="ksatriatahu/xml/emoji.xml"/>
+    </container>
+
+    <animation>
+        <stop>
+            <multiple>
+                <alpha id="meier" time="0">1</alpha>
+                <alpha id="meier_syal" time="0">1</alpha>
+                <alpha id="meier_syal_1" time="0">0</alpha>
+                <alpha id="meier_syal_2" time="0">0</alpha>
+                <alpha id="meier_walk_1" time="0">0</alpha>
+                <alpha id="meier_walk_2" time="0">0</alpha>
+                <moveY id="meier" time="0">40</moveY>
+                <moveY id="meier_syal" time="0">40</moveY>
+            </multiple>
+        </stop>
+        <reset>
+            <multiple>
+                <scaleX id="meier" pivotX="0.5" time="0">1</scaleX>
+                <scaleY id="meier" pivotY="1" time="0">1</scaleY>
+                <scaleX id="meier_syal" pivotX="0.5" time="0">1</scaleX>
+                <scaleY id="meier_syal" pivotY="1" time="0">1</scaleY>
+                <scaleX id="meier_syal_1" pivotX="0.5" time="0">1</scaleX>
+                <scaleY id="meier_syal_1" pivotY="1" time="0">1</scaleY>
+                <scaleX id="meier_syal_2" pivotX="0.5" time="0">-1</scaleX>
+                <scaleY id="meier_syal_2" pivotY="1" time="0">1</scaleY>
+                <scaleX id="meier_walk_1" pivotX="0.5" time="0">1</scaleX>
+                <scaleY id="meier_walk_1" pivotY="1" time="0">1</scaleY>
+                <scaleX id="meier_walk_2" pivotX="0.5" time="0">1</scaleX>
+                <scaleY id="meier_walk_2" pivotY="1" time="0">1</scaleY>
+
+                <rotate id="meier" pivotX="0.5" pivotY="0.5" time="0">0</rotate>
+                <rotate id="meier_syal" pivotX="0.037" pivotY="0.283" time="0">0</rotate>
+                <rotate id="meier_syal_1" pivotX="0.074" pivotY="0.266" time="0">0</rotate>
+                <rotate id="meier_syal_2" pivotX="0.111" pivotY="0.25" time="0">0</rotate>
+                <rotate id="meier_walk_1" pivotX="0.5" pivotY="1" time="0">0</rotate>
+                <rotate id="meier_walk_2" pivotX="0.5" pivotY="1" time="0">0</rotate>
+
+                <moveX id="meier_syal_1" time="0">0</moveX>
+                <moveX id="meier_syal_2" time="0">40</moveX>
+
+                <moveY id="meier" time="0">0</moveY>
+                <moveY id="meier_syal" time="0">0</moveY>
+                <moveY id="meier_syal_1" time="0">0</moveY>
+                <moveY id="meier_syal_2" time="0">0</moveY>
+            </multiple>
+        </reset>
+        <idle repeat="-1">
+            <sequence>
+                <multiple>
+                    <alpha id="meier" time="0">1</alpha>
+                    <alpha id="meier_syal" time="0">1</alpha>
+                    <alpha id="meier_syal_1" time="0">0</alpha>
+                    <alpha id="meier_syal_2" time="0">0</alpha>
+                    <alpha id="meier_walk_1" time="0">0</alpha>
+                    <alpha id="meier_walk_2" time="0">0</alpha>
+                </multiple>
+                <multiple>
+                    <scaleX id="meier" pivotX="0.5" time="0.3">1.03</scaleX>
+                    <scaleY id="meier" pivotY="1" time="0.3">0.97</scaleY>
+                    <moveY id="meier" time="0.3">0</moveY>
+                    <moveY id="meier_syal" time="0.3">15</moveY>
+                    <rotate id="meier" pivotX="0.5" pivotY="0.5" time="0.3">7</rotate>
+                </multiple>
+                <multiple>
+                    <scaleX id="meier" pivotX="0.5" time="0.3">0.97</scaleX>
+                    <scaleY id="meier" pivotY="1" time="0.3">1.03</scaleY>
+                    <moveY id="meier_syal" time="0.3">5</moveY>
+                    <rotate id="meier" pivotX="0.5" pivotY="0.5" time="0.3">-3</rotate>
+                </multiple>
+
+                <multiple>
+                    <sequence repeat="-1">
+                        <scaleY id="meier" pivotY="1" time="0.4">1.05</scaleY>
+                        <scaleY id="meier" pivotY="1" time="0.4">1</scaleY>
+                    </sequence>
+                    <sequence repeat="-1">
+                        <multiple>
+                            <scaleX id="meier_syal" pivotX="0.037" time="0.3">1.2</scaleX>
+                            <scaleY id="meier_syal" pivotY="0.283" time="0.3">1.1</scaleY>
+                            <rotate id="meier_syal" pivotX="0.037" pivotY="0.283" time="0.3">-45</rotate>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="meier_syal" pivotX="0.037" time="0.2">1</scaleX>
+                            <scaleY id="meier_syal" pivotY="0.283" time="0.2">1</scaleY>
+                            <rotate id="meier_syal" pivotX="0.037" pivotY="0.283" time="0.2">0</rotate>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="meier_syal" pivotX="0.037" time="0.2">0.9</scaleX>
+                            <scaleY id="meier_syal" pivotY="0.283" time="0.2">0.9</scaleY>
+                            <rotate id="meier_syal" pivotX="0.037" pivotY="0.283" time="0.2">45</rotate>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="meier_syal" pivotX="0.037" time="0.2">1</scaleX>
+                            <scaleY id="meier_syal" pivotY="0.283" time="0.2">1</scaleY>
+                            <rotate id="meier_syal" pivotX="0.037" pivotY="0.283" time="0.2">0</rotate>
+                        </multiple>
+                        <sequence repeat="-1">
+                            <multiple>
+                                <scaleX id="meier_syal" pivotX="0.037" time="0.15">1.1</scaleX>
+                                <scaleY id="meier_syal" pivotY="0.283" time="0.15">1.05</scaleY>
+                                <rotate id="meier_syal" pivotX="0.037" pivotY="0.283" time="0.15">-60</rotate>
+                            </multiple>
+                            <multiple>
+                                <scaleX id="meier_syal" pivotX="0.037" time="0.15">0.9</scaleX>
+                                <scaleY id="meier_syal" pivotY="0.283" time="0.15">0.9</scaleY>
+                                <rotate id="meier_syal" pivotX="0.037" pivotY="0.283" time="0.15">0</rotate>
+                            </multiple>
+                        </sequence>
+                    </sequence>
+                </multiple>
+            </sequence>
+        </idle>
+        <jalan repeat="-1">
+            <sequence>
+                <multiple>
+                    <alpha id="emoji" time="0">0</alpha>
+                    <alpha id="meier" time="0">0</alpha>
+                    <alpha id="meier_syal" time="0">0</alpha>
+                    <alpha id="meier_syal_1" time="0">1</alpha>
+                    <alpha id="meier_syal_2" time="0">0</alpha>
+                    <alpha id="meier_walk_1" time="0">1</alpha>
+                    <alpha id="meier_walk_2" time="0">0</alpha>
+                </multiple>
+                <sequence repeat="2">
+                    <multiple>
+                        <scaleY id="meier_walk_1" pivotY="1" time="0.5">0.95</scaleY>
+                        <rotate id="meier_walk_1" pivotX="0.5" pivotY="1" time="0.5">5</rotate>
+                        <rotate id="meier_syal_1" pivotX="0.074" pivotY="0.266" time="0.5">20</rotate>
+                        <scaleY id="meier_syal_1" pivotY="0" time="0.5">0.9</scaleY>
+                        <moveX id="meier_syal_1" time="0.5">-20</moveX>
+                        <moveY id="meier_syal_1" time="0.5">10</moveY>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="meier_walk_1" pivotY="1" time="0.5">1.05</scaleY>
+                        <rotate id="meier_walk_1" pivotX="0.5" pivotY="1" time="0.5">-5</rotate>
+                        <rotate id="meier_syal_1" pivotX="0.074" pivotY="0.266" time="0.5">-35</rotate>
+                        <scaleY id="meier_syal_1" pivotY="0" time="0.5">1.05</scaleY>
+                        <moveX id="meier_syal_1" time="0.5">0</moveX>
+                        <moveY id="meier_syal_1" time="0.5">0</moveY>
+                    </multiple>
+                    <multiple>
+                        <rotate id="meier_syal_1" pivotX="0.074" pivotY="0.266" time="0.1">-60</rotate>
+                        <scaleX id="meier_syal_1" pivotX="0" time="0.1">1.4</scaleX>
+                        <scaleY id="meier_syal_1" pivotY="0" time="0.1">1.2</scaleY>
+                    </multiple>
+                    <multiple>
+                        <rotate id="meier_syal_1" pivotX="0.074" pivotY="0.266" time="0.1">-30</rotate>
+                        <scaleX id="meier_syal_1" pivotX="0" time="0.1">1</scaleX>
+                        <scaleY id="meier_syal_1" pivotY="0" time="0.1">1</scaleY>
+                    </multiple>
+                </sequence>
+            </sequence>
+        </jalan>
+
+        <jalan_kiri repeat="-1">
+            <sequence>
+                <multiple>
+                    <alpha id="emoji" time="0">0</alpha>
+                    <alpha id="meier" time="0">0</alpha>
+                    <alpha id="meier_syal" time="0">0</alpha>
+                    <alpha id="meier_syal_1" time="0">0</alpha>
+                    <alpha id="meier_syal_2" time="0">1</alpha>
+                    <alpha id="meier_walk_1" time="0">0</alpha>
+                    <alpha id="meier_walk_2" time="0">1</alpha>
+                    <scaleX id="meier_syal_2" pivotX="0.111" time="0">-1</scaleX>
+                    <moveX id="meier_syal_2" time="0">40</moveX>
+                </multiple>
+                <sequence repeat="2">
+                    <multiple>
+                        <scaleY id="meier_walk_2" pivotY="1" time="0.5">0.95</scaleY>
+                        <rotate id="meier_walk_2" pivotX="0.5" pivotY="1" time="0.5">-5</rotate>
+                        <rotate id="meier_syal_2" pivotX="0.111" pivotY="0.25" time="0.5">-20</rotate>
+                        <scaleY id="meier_syal_2" pivotY="0" time="0.5">0.9</scaleY>
+                        <moveX id="meier_syal_2" time="0.5">60</moveX>
+                        <moveY id="meier_syal_2" time="0.5">10</moveY>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="meier_walk_2" pivotY="1" time="0.5">1.05</scaleY>
+                        <rotate id="meier_walk_2" pivotX="0.5" pivotY="1" time="0.5">5</rotate>
+                        <rotate id="meier_syal_2" pivotX="0.111" pivotY="0.25" time="0.5">35</rotate>
+                        <scaleY id="meier_syal_2" pivotY="0" time="0.5">1.05</scaleY>
+                        <moveX id="meier_syal_2" time="0.5">40</moveX>
+                        <moveY id="meier_syal_2" time="0.5">0</moveY>
+                    </multiple>
+                    <multiple>
+                        <rotate id="meier_syal_2" pivotX="0.111" pivotY="0.25" time="0.1">60</rotate>
+                        <scaleX id="meier_syal_2" pivotX="0.111" time="0.1">-1.4</scaleX>
+                        <scaleY id="meier_syal_2" pivotY="0" time="0.1">1.4</scaleY>
+                    </multiple>
+                    <multiple>
+                        <rotate id="meier_syal_2" pivotX="0.111" pivotY="0.25" time="0.1">30</rotate>
+                        <scaleX id="meier_syal_2" pivotX="0.111" time="0.1">-1</scaleX>
+                        <scaleY id="meier_syal_2" pivotY="0" time="0.1">1</scaleY>
+                    </multiple>
+                </sequence>
+
+            </sequence>
+        </jalan_kiri>
+        <makan>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="makan"></playAnim>
+        </makan>
+        <jurus>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="jurus"></playAnim>
+        </jurus>
+        <skill repeat="-1">
+            <sequence>
+                <multiple>
+                    <alpha id="emoji" time="0">0</alpha>
+                    <alpha id="meier" time="0">0</alpha>
+                    <alpha id="meier_syal" time="0">0</alpha>
+                    <alpha id="meier_syal_1" time="0">1</alpha>
+                    <alpha id="meier_syal_2" time="0">0</alpha>
+                    <alpha id="meier_walk_1" time="0">1</alpha>
+                    <alpha id="meier_walk_2" time="0">0</alpha>
+                </multiple>
+
+                <sequence repeat="2">
+                    <multiple>
+                        <scaleY id="meier_walk_1" pivotY="1" time="0.15">0.95</scaleY>
+                        <rotate id="meier_walk_1" pivotX="0.5" pivotY="1" time="0.15">5</rotate>
+                        <rotate id="meier_syal_1" pivotX="0.074" pivotY="0.266" time="0.15">20</rotate>
+                        <scaleY id="meier_syal_1" pivotY="0" time="0.2">0.9</scaleY>
+                        <moveX id="meier_syal_1" time="0.15">-20</moveX>
+                        <moveY id="meier_syal_1" time="0.15">10</moveY>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="meier_walk_1" pivotY="1" time="0.15">1.05</scaleY>
+                        <rotate id="meier_walk_1" pivotX="0.5" pivotY="1" time="0.15">-5</rotate>
+                        <rotate id="meier_syal_1" pivotX="0.074" pivotY="0.266" time="0.15">-35</rotate>
+                        <scaleY id="meier_syal_1" pivotY="0" time="0.15">1.05</scaleY>
+                        <moveX id="meier_syal_1" time="0.15">0</moveX>
+                        <moveY id="meier_syal_1" time="0.15">0</moveY>
+                    </multiple>
+                    <multiple>
+                        <rotate id="meier_syal_1" pivotX="0.074" pivotY="0.266" time="0.05">-60</rotate>
+                        <scaleX id="meier_syal_1" pivotX="0" time="0.05">1.4</scaleX>
+                        <scaleY id="meier_syal_1" pivotY="0" time="0.05">1.2</scaleY>
+                    </multiple>
+                    <multiple>
+                        <rotate id="meier_syal_1" pivotX="0.074" pivotY="0.266" time="0.05">-30</rotate>
+                        <scaleX id="meier_syal_1" pivotX="0" time="0.05">1</scaleX>
+                        <scaleY id="meier_syal_1" pivotY="0" time="0.05">1</scaleY>
+                    </multiple>
+                </sequence>
+
+                <multiple>
+                    <alpha id="emoji" time="0">0</alpha>
+                    <alpha id="meier" time="0">0</alpha>
+                    <alpha id="meier_syal" time="0">0</alpha>
+                    <alpha id="meier_syal_1" time="0">0</alpha>
+                    <alpha id="meier_syal_2" time="0">1</alpha>
+                    <alpha id="meier_walk_1" time="0">0</alpha>
+                    <alpha id="meier_walk_2" time="0">1</alpha>
+                    <scaleX id="meier_syal_2" pivotX="0.111" time="0">-1</scaleX>
+                    <moveX id="meier_syal_2" time="0">40</moveX>
+                </multiple>
+
+                <sequence repeat="2">
+                    <multiple>
+                        <scaleY id="meier_walk_2" pivotY="1" time="0.15">0.95</scaleY>
+                        <rotate id="meier_walk_2" pivotX="0.5" pivotY="1" time="0.15">-5</rotate>
+                        <rotate id="meier_syal_2" pivotX="0.111" pivotY="0.25" time="0.15">-20</rotate>
+                        <scaleY id="meier_syal_2" pivotY="0" time="0.15">0.9</scaleY>
+                        <moveX id="meier_syal_2" time="0.15">60</moveX>
+                        <moveY id="meier_syal_2" time="0.15">10</moveY>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="meier_walk_2" pivotY="1" time="0.15">1.05</scaleY>
+                        <rotate id="meier_walk_2" pivotX="0.5" pivotY="1" time="0.15">5</rotate>
+                        <rotate id="meier_syal_2" pivotX="0.111" pivotY="0.25" time="0.15">35</rotate>
+                        <scaleY id="meier_syal_2" pivotY="0" time="0.15">1.05</scaleY>
+                        <moveX id="meier_syal_2" time="0.15">40</moveX>
+                        <moveY id="meier_syal_2" time="0.15">0</moveY>
+                    </multiple>
+                    <multiple>
+                        <rotate id="meier_syal_2" pivotX="0.111" pivotY="0.25" time="0.05">60</rotate>
+                        <scaleX id="meier_syal_2" pivotX="0.111" time="0.05">-1.4</scaleX>
+                        <scaleY id="meier_syal_2" pivotY="0" time="0.05">1.4</scaleY>
+                    </multiple>
+                    <multiple>
+                        <rotate id="meier_syal_2" pivotX="0.111" pivotY="0.25" time="0.05">30</rotate>
+                        <scaleX id="meier_syal_2" pivotX="0.111" time="0.05">-1</scaleX>
+                        <scaleY id="meier_syal_2" pivotY="0" time="0.05">1</scaleY>
+                    </multiple>
+                </sequence>
+            </sequence>
+        </skill>
+        <hati>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="hati"></playAnim>
+        </hati>
+        <evolusi>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="evolusi"></playAnim>
+        </evolusi>
+    </animation>
+</resources>

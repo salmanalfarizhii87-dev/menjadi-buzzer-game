@@ -1,0 +1,86 @@
+/* Modal: dialog keputusan penting. Bukan route. */
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-modal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+  background: var(--color-overlay);
+  animation: fade-in var(--duration-base) var(--ease-out);
+}
+
+.modal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: min(100%, 380px);
+  max-height: calc(100dvh - 2 * var(--space-8));
+  background: var(--color-panel);
+  border: var(--border-thick) solid var(--color-border-strong);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-raised), var(--shadow-float);
+  animation: pop-in var(--duration-base) var(--ease-out);
+  overflow: hidden;
+}
+
+.modal__ribbon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: var(--space-2) var(--space-6);
+  font-family: var(--font-display);
+  font-size: var(--text-base);
+  font-weight: var(--weight-black);
+  color: var(--color-text-inverse);
+  background: linear-gradient(180deg, var(--color-brand-600), var(--color-brand-600));
+  border-bottom: var(--border-thick) solid var(--color-border-strong);
+  text-shadow: 0 2px 0 rgb(10 55 48 / 45%);
+}
+
+.modal__ribbon--danger {
+  background: linear-gradient(180deg, #e87a75, var(--color-danger-600));
+}
+
+.modal__ribbon--warning {
+  background: linear-gradient(180deg, #f2b96d, var(--color-warning-600));
+}
+
+.modal__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  overflow-y: auto;
+}
+
+.modal__message {
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+  color: var(--color-text-soft);
+}
+
+.modal__actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: 0 var(--space-4) var(--space-4);
+}
+
+.modal__actions--row {
+  flex-direction: row;
+}
+
+.modal__actions--row > * {
+  flex: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modal-backdrop,
+  .modal {
+    animation: none;
+  }
+}

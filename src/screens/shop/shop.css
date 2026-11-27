@@ -1,0 +1,217 @@
+/*
+ * Shop: grid kartu, emblem, dan detail item.
+ */
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-2);
+}
+
+.shop-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-2);
+  text-align: center;
+  background: linear-gradient(180deg, #fffaf0, #f5e5c8);
+  border: var(--border-thin) solid var(--color-border-soft);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card-soft);
+  transition:
+    transform var(--duration-fast) var(--ease-out),
+    box-shadow var(--duration-fast) var(--ease-out);
+}
+
+.shop-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card);
+}
+
+.shop-card:active {
+  transform: translateY(1px);
+  box-shadow: var(--shadow-card-soft);
+}
+
+.shop-card--owned {
+  border-color: var(--color-brand-500);
+}
+
+.shop-card__name {
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-black);
+  line-height: var(--leading-tight);
+  color: var(--color-text);
+}
+
+.shop-card__price {
+  font-family: var(--font-numeric);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-black);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-gold-700);
+}
+
+.shop-card__badge {
+  padding: 0 var(--space-2);
+  font-family: var(--font-display);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-black);
+  color: var(--color-text-inverse);
+  border: var(--border-hairline) solid rgb(0 0 0 / 28%);
+  border-radius: var(--radius-xs);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 30%);
+}
+
+.shop-card__badge--owned {
+  background: linear-gradient(180deg, var(--color-success-600), var(--color-success-600));
+}
+.shop-card__badge--equipped {
+  background: linear-gradient(180deg, var(--color-brand-600), var(--color-brand-600));
+}
+.shop-card__badge--unaffordable {
+  background: linear-gradient(180deg, #5e4226, #6f5535);
+}
+
+/* ---- Emblem ---- */
+
+.shop-emblem {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  color: var(--color-text-inverse);
+  border: var(--border-thin) solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  box-shadow:
+    inset 0 2px 0 rgb(255 255 255 / 35%),
+    0 3px 0 rgb(106 69 34 / 22%);
+}
+
+.shop-emblem svg {
+  width: 30px;
+  height: 30px;
+  stroke-width: 2.2;
+}
+
+.shop-emblem--outfit {
+  background: linear-gradient(180deg, #3f7fa8, #2a5a78);
+}
+.shop-emblem--property {
+  background: linear-gradient(180deg, #4f8a52, #326336);
+}
+.shop-emblem--vehicle {
+  background: linear-gradient(180deg, #b06b22, #7d4612);
+}
+.shop-emblem--ticket {
+  background: linear-gradient(180deg, #7a4f9e, #533069);
+}
+
+.shop-emblem--lg {
+  width: 104px;
+  height: 104px;
+  border-radius: var(--radius-md);
+}
+
+.shop-emblem--lg svg {
+  width: 48px;
+  height: 48px;
+  stroke-width: 2;
+}
+
+/* ---- Detail ---- */
+
+.shop-detail-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  text-align: center;
+}
+
+.shop-detail-name {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: var(--weight-black);
+  line-height: var(--leading-tight);
+  color: var(--color-text);
+}
+
+.shop-detail-desc {
+  font-size: var(--text-sm);
+  line-height: var(--leading-snug);
+  color: var(--color-text-soft);
+}
+
+.shop-facts {
+  display: flex;
+  flex-direction: column;
+}
+
+.shop-fact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-2) 0;
+  border-bottom: var(--border-hairline) dashed rgb(106 69 34 / 28%);
+}
+
+.shop-fact:last-child {
+  border-bottom: none;
+}
+
+.shop-fact__label {
+  font-size: var(--text-xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-muted);
+}
+
+.shop-fact__value {
+  font-family: var(--font-numeric);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-black);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text);
+  text-align: right;
+}
+
+.shop-fact__value--gold {
+  color: var(--color-gold-700);
+}
+.shop-fact__value--success {
+  color: var(--color-success-600);
+}
+
+.shop-actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.shop-status {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-soft);
+  background: var(--color-panel-sunken);
+  border: var(--border-hairline) solid var(--color-border-soft);
+  border-radius: var(--radius-sm);
+}
+
+.shop-status--owned {
+  color: var(--color-brand-700);
+  background: var(--color-brand-100);
+  border-color: var(--color-brand-300);
+}
+
+.shop-status--warning {
+  color: #6b1d17;
+  background: #fbe4e0;
+  border-color: #e2a39b;
+}

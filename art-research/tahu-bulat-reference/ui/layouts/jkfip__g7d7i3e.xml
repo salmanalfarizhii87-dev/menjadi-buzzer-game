@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <karakter id="0">
+        <nama>Akang Tahu</nama>
+        <ekspresi id="idle" x="0" y="0" pX="0.42" pY="0.94">pemeran/akang/dialog_akangIdle.png</ekspresi>
+        <ekspresi id="sapa" x="-20.25" y="2" pX="0.42" pY="1">pemeran/akang/dialog_akangSapa.png</ekspresi>
+        <ekspresi id="semangat" x="-25.5" y="3.25" pX="0.42" pY="1">pemeran/akang/dialog_akangSemangat.png</ekspresi>
+        <ekspresi id="mantul" x="-34" y="2" pX="0.42" pY="1">pemeran/akang/dialog_akangMantul.png</ekspresi>
+        <ekspresi id="sedap" x="-34" y="3" pX="0.42" pY="1">pemeran/akang/dialog_akangSedap.png</ekspresi>
+        <ekspresi id="matre" x="10.75" y="3.25" pX="0.42" pY="1">pemeran/akang/dialog_akangMatre.png</ekspresi>
+        <ekspresi id="tekad_bulad" x="-18" y="3" pX="0.42" pY="1">pemeran/akang/dialog_akangTekadBulat.png</ekspresi>
+        <ekspresi id="ingatkan" x="-30" y="2" pX="0.42" pY="1">pemeran/akang/dialog_akangIngatkan.png</ekspresi>
+        <ekspresi id="belajar" x="15" y="2" pX="0.42" pY="1">pemeran/akang/dialog_akangBelajar.png</ekspresi>
+        <ekspresi id="aha" x="-22" y="0" pX="0.42" pY="1">pemeran/akang/dialog_akangAha.png</ekspresi>
+        <ekspresi id="kaget" x="-37.5" y="3.25" pX="0.42" pY="1">pemeran/akang/dialog_akangKaget.png</ekspresi>
+        <ekspresi id="tanpa_uang" x="-37.5" y="3.25" pX="0.42" pY="1">pemeran/akang/dialog_akangTanpaUang.png</ekspresi>
+        <ekspresi id="ketawa1" x="-16" y="13" pX="0.5" pY="1">pemeran/akang/dialog_akangKetawa1.png</ekspresi>
+        <ekspresi id="ketawa2" x="-29" y="-2" pX="0.5" pY="1">pemeran/akang/dialog_akangKetawa2.png</ekspresi>
+    </karakter>
+
+    <karakter id="1" varian="cabang">
+        <nama>Tako</nama>
+        <yogyakarta>
+            <ekspresi id="haha" x="0" y="0" pX="0.42" pY="0.94">pemeran/tako/dialog_takoYogya.png</ekspresi>
+            <ekspresi id="hore" x="22" y="0" pX="0.5" pY="1">pemeran/tako/dialog_tako_hore.png</ekspresi>
+            <ekspresi id="swt" x="12" y="0" pX="0.5" pY="1">pemeran/tako/dialog_tako_swt.png</ekspresi>
+        </yogyakarta>
+        <default>
+            <ekspresi id="haha" x="0" y="0" pX="0.42" pY="0.94">pemeran/tako/dialog_tako.png</ekspresi>
+            <ekspresi id="hore" x="22" y="0" pX="0.5" pY="1">pemeran/tako/dialog_tako_hore.png</ekspresi>
+            <ekspresi id="swt" x="12" y="0" pX="0.5" pY="1">pemeran/tako/dialog_tako_swt.png</ekspresi>
+        </default>
+    </karakter>
+
+    <karakter id="2">
+        <nama>Jasteen</nama>
+        <ekspresi id="idle" x="-19" y="19" pX="0.5" pY="1">pemeran/jasteen/jasteen_idle.png</ekspresi>
+        <ekspresi id="bertanya" x="6" y="3" pX="0.5" pY="1">pemeran/jasteen/jasteen_bertanya.png</ekspresi>
+        <ekspresi id="happy" x="3" y="0" pX="0.5" pY="1">pemeran/jasteen/jasteen_happy.png</ekspresi>
+        <ekspresi id="sad" x="-6" y="2" pX="0.5" pY="1">pemeran/jasteen/jasteen_sad.png</ekspresi>
+
+        <!--<ekspresi id="idle" x="0" y="0" pX="0.42" pY="0.94">pemeran/jasteen/jasteen_idle.png</ekspresi>-->
+        <!--<ekspresi id="bertanya" x="-20.25" y="2" pX="0.42" pY="1">pemeran/jasteen/jasteen_bertanya.png</ekspresi>-->
+        <!--<ekspresi id="happy" x="-25.5" y="3.25" pX="0.42" pY="1">pemeran/jasteen/jasteen_happy.png</ekspresi>-->
+        <!--<ekspresi id="sad" x="-34" y="2" pX="0.42" pY="1">pemeran/jasteen/jasteen_sad.png</ekspresi>-->
+    </karakter>
+
+    <karakter id="3">
+        <nama>Vicky</nama>
+<!--        <ekspresi id="idle" x="24" y="6" pX="0.5" pY="1">pemeran/vicky/dialog_vicky_idle.png</ekspresi>-->
+<!--        <ekspresi id="kaget" x="8" y="0" pX="0.5" pY="1">pemeran/vicky/dialog_vicky_kaget.png</ekspresi>-->
+<!--        <ekspresi id="ketawa" x="18" y="1" pX="0.5" pY="1">pemeran/vicky/dialog_vicky_ketawa.png</ekspresi>-->
+<!--        <ekspresi id="marah" x="-22" y="1" pX="0.5" pY="1">pemeran/vicky/dialog_vicky_marah.png</ekspresi>-->
+        <ekspresi id="idle" x="36" y="14" pX="0.5" pY="1">pemeran/vicky/dialog_vicky_idle.png</ekspresi>
+        <ekspresi id="kaget" x="27" y="5" pX="0.5" pY="1">pemeran/vicky/dialog_vicky_kaget.png</ekspresi>
+        <ekspresi id="ketawa" x="18" y="5" pX="0.5" pY="1">pemeran/vicky/dialog_vicky_ketawa.png</ekspresi>
+        <ekspresi id="marah" x="-10" y="9" pX="0.5" pY="1">pemeran/vicky/dialog_vicky_marah.png</ekspresi>
+    </karakter>
+
+    <karakter id="4">
+        <nama>Towa</nama>
+        <ekspresi id="idle" x="8" y="1" pX="0.5" pY="1">pemeran/towa/dialog_towa_idle.png</ekspresi>
+        <ekspresi id="nantang" x="10" y="15" pX="0.5" pY="1">pemeran/towa/dialog_towa_nantang.png</ekspresi>
+        <ekspresi id="hore" x="6" y="2" pX="0.5" pY="1">pemeran/towa/dialog_towa_hore.png</ekspresi>
+    </karakter>
+
+    <karakter id="5">
+        <nama>Pinat</nama>
+        <ekspresi id="idle" x="5" y="6" pX="0.5" pY="1">spinner/dialog_pinat_idle.png</ekspresi>
+        <ekspresi id="bayar" x="13" y="5" pX="0.5" pY="1">spinner/dialog_pinat_bayar.png</ekspresi>
+    </karakter>
+</resources>

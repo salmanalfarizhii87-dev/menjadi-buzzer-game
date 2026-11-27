@@ -1,0 +1,48 @@
+<resources>
+    <!--font :-->
+    <!--comicneueLight-->
+    <!--comicneueBold-->
+    <!--arial-->
+    <!--ttt-->
+    <!--cuckoo-->
+    <!--theBoldFont-->
+    <nama>Selamat Ulang Tahun</nama>
+    <image>ui_kartu_meme/kartu_ucapan/kartuUcapan_umum_ulangTahun.png</image>
+    <variasi>
+        <image>
+            <!--<input id="0">-->
+            <!--<item x="189" y="578" width="335" alignX="0.0f" alignY="0.0f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "19" min_font_size="30" max_font_size="40"/>-->
+            <!--</input>-->
+        </image>
+        <text>
+            <item id="0">
+                <varian>
+                    <!--<item x="200" y="365" width="300" alignX="0.0f" alignY="0.0f" colour="0x000000" fontSize="36" font="cuckoo" isCenter="true">Mohon maaf lahir dan bathin.</item>-->
+                </varian>
+            </item>
+        </text>
+    </variasi>
+    <input>
+        <item id="0" x="182" y="55" width="356" alignX="0.0f" alignY="0.0f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "17" min_font_size="36" max_font_size="42"/>
+        <item id="1" x="490" y="493" width="100" alignX="0.0f" alignY="0.0f" colour="ffffff" font="cuckoo" isCenter="true" min_char = "0" max_char = "48" min_font_size="28" max_font_size="42"/>
+        <item id="2" x="174" y="305" width="374" alignX="0.0f" alignY="0.0f" colour="ffffff" font="cuckoo" isCenter="true" min_char = "0" max_char = "48" min_font_size="28" max_font_size="42"/>
+
+    </input>
+    <contoh>
+        <input id="0">
+            <item>Dear Kamu</item>
+            <item>Dear Aku</item>
+            <item>Hai Pinat</item>
+        </input>
+        <input id="1">
+            <item>Aku bukan kamu.</item>
+            <item>Aku untukku juga.</item>
+            <item>Ufo Jasteen</item>
+        </input>
+        <input id="2">
+            <item>Hepi berdey tuyuuu&#10;Hepi berdey tuyuuu!!</item>
+            <item>Hepi berdey tumiiiii&#10;Hepi berdey tummiiiii!!</item>
+            <item>Slamat ulang tahun!&#10;Semoga sehat dan senantiasa bahagia selalu!</item>
+        </input>
+    </contoh>
+</resources>

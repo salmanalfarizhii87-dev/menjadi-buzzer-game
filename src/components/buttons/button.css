@@ -1,0 +1,134 @@
+/*
+ * Tombol game: pelat bertepi gelap, gradient vertikal, highlight atas, dan
+ * bayangan offset solid. Alasan (R-01/R-12): gradient di sini menandakan
+ * ketinggian fisik tombol dan memberi umpan balik tekan, bukan dekorasi halaman.
+ */
+
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: var(--touch-target);
+  padding: var(--space-3) var(--space-5);
+  font-family: var(--font-display);
+  font-size: var(--text-base);
+  font-weight: var(--weight-black);
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+  color: var(--color-text-inverse);
+  text-align: center;
+  border: var(--border-thick) solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-btn);
+  transition:
+    transform var(--duration-fast) var(--ease-out),
+    box-shadow var(--duration-fast) var(--ease-out),
+    filter var(--duration-fast) var(--ease-out);
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  background-clip: padding-box;
+}
+
+/* Highlight atas + gelap bawah = bevel kayu/logam. */
+.btn::before {
+  content: '';
+  position: absolute;
+  inset: 2px 2px auto;
+  height: 42%;
+  border-radius: calc(var(--radius-md) - 4px);
+  background: linear-gradient(180deg, rgb(255 255 255 / 34%), rgb(255 255 255 / 0%));
+  pointer-events: none;
+}
+
+.btn:active:not(:disabled) {
+  transform: translateY(3px);
+  box-shadow: var(--shadow-btn-pressed);
+}
+
+.btn:disabled,
+.btn[aria-disabled='true'] {
+  filter: grayscale(0.65) brightness(0.98);
+  opacity: 0.6;
+  box-shadow: var(--shadow-btn-pressed);
+  transform: translateY(2px);
+}
+
+.btn--block {
+  width: 100%;
+}
+
+.btn--primary {
+  background: linear-gradient(180deg, var(--color-brand-600) 0%, var(--color-brand-500) 46%, var(--color-brand-600) 100%);
+  text-shadow: 0 2px 0 rgb(10 55 48 / 45%);
+}
+
+.btn--accent {
+  background: linear-gradient(180deg, #5e8dc4 0%, var(--color-accent-500) 46%, var(--color-accent-600) 100%);
+  text-shadow: 0 2px 0 rgb(20 40 65 / 40%);
+}
+
+.btn--gold {
+  background: linear-gradient(180deg, #f6c76d 0%, var(--color-gold-500) 46%, var(--color-gold-600) 100%);
+  color: #3a2510;
+  text-shadow: 0 1px 0 rgb(255 240 210 / 60%);
+}
+
+.btn--danger {
+  background: linear-gradient(180deg, #e87068 0%, var(--color-danger-500) 46%, var(--color-danger-600) 100%);
+  text-shadow: 0 2px 0 rgb(80 20 16 / 45%);
+}
+
+.btn--ghost {
+  color: var(--color-text);
+  background: linear-gradient(180deg, #fffdf4 0%, var(--color-panel) 55%, #f0ddbb 100%);
+  text-shadow: none;
+}
+
+.btn--sm {
+  min-height: 36px;
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-sm);
+  border-radius: var(--radius-sm);
+}
+
+.btn--lg {
+  min-height: 54px;
+  font-size: var(--text-md);
+}
+
+.btn__icon {
+  display: grid;
+  place-items: center;
+}
+
+.btn__icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* Tombol ikon persegi (kembali/tutup). */
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--touch-target);
+  height: var(--touch-target);
+  color: var(--color-text);
+  background: linear-gradient(180deg, var(--color-panel-raised), var(--color-panel-sunken));
+  border: var(--border-thin) solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-card-soft);
+  transition: transform var(--duration-fast) var(--ease-out);
+}
+
+.btn-icon:active {
+  transform: translateY(2px);
+}
+
+.btn-icon svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 2.6;
+}

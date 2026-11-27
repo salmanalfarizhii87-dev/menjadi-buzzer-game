@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base" y="61">
+        <button id="btnClose" x="30" y="30" imageNormal="hpakang/camera/kamera_button_close.png" onClick="backPressed">
+        </button>
+
+        <text id="textComingsoon" x="0" y="200" alignY="btnClose#1" alignX="wLayar#0.5" pivotX="0.5" font="cuckoo" fontSize="40" color="ffffff">Kamera Tahu (Kamingsun!!)</text>
+        <text id="textDesc" x="0" y="20" alignY="textComingsoon#1" alignX="wLayar#0.5" pivotX="0.5" font="cuckoo" fontSize="32" color="ffffff" wrapWidth="600" isCenter="true">Makin banyak yang update dan tahu kalau tahu bulat sudah update besar, semakin cepat fitur ini terbit!&#10;&#10;Yuk, sebarkan ke seluruh penjuru negri!
+        </text>
+        <button id="btnShare" x="0" y="200" pivotX="0.5" pivotY="1" alignX="wLayar#0.5" alignY="textDesc#1" imageNormal="hpakang/camera/kamera_button_share.png">
+        </button>
+
+        <button id="btnGaleri" x="0" y="-200" pivotX="0.5" pivotY="1" alignX="wLayar#0.15" alignY="hLayar#1" imageNormal="hpakang/camera/kamera_button_galeri.png">
+        </button>
+        <button id="btnKamera" x="0" y="-180" pivotX="0.5" pivotY="1" alignX="wLayar#0.5" alignY="hLayar#1" imageNormal="hpakang/camera/kamera_button_kamera.png">
+        </button>
+        <button id="btnSetting" x="0" y="-200" pivotX="0.5" pivotY="1" alignX="wLayar#0.85" alignY="hLayar#1" imageNormal="hpakang/camera/kamera_button_settings.png">
+        </button>
+    </container>
+</resources>

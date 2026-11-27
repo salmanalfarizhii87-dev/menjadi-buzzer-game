@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kok, perasaan ujannya ga berenti-berenti, ya?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hmmphh.. Hujan terus..&#10;Sepertinya kita batalkan saja..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eh? Apanya yang batal?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHA!!&#10;Sudah kuduga kamu memang takut tanding dagang denganku!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>*aku harus jawab apaa...*</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Ya sudah, kamu tunggu saja kesempatan berikutnya!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Iya deh, iya..</desc>
+        </dialog>
+        <aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kanggg!!!&#10;Ada Towa nih!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sapa" isHold="true">
+            <desc>Eh?! Towa?!&#10;Rasanya udah lama ga ketemu.. Kemana aja kamu Towa?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Jadi kamu nyariin aku, Kang?&#10;Mau bagi Tahu Bulat?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Kenapa semuanya selalu minta tahu tiap ketemu?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Becanda doang, kang...&#10;Tapi kalau ada, mau sih..</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Ngomong-ngomong ujan terus-terusan gini ternyata bikin banjir..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Hah?! Banjir??</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Iyaa, kalau ga percaya cek aja ke pinggir kali..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Waduh, ayo Tako!&#10;Kita buruan periksa!</desc>
+        </dialog>
+	<aksi tipe="hide" ui="contDialogKiri" hold="false"/>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Eeehh.. Tungguin kang!!</desc>
+        </dialog>
+    </skenario>
+</resources>

@@ -1,0 +1,122 @@
+<resources>
+    <container id="root" x="0" y="0" pivotX="0" pivotY="0">
+        <image_list id="cutscene_2" x="-1000" y="400" pivotX="0" pivotY="0">
+            <item>ksatriatahu/ui/ui_cutsceneskill_adult.png</item>
+        </image_list>
+        <container id="nama" x="0" y="550">
+            <image_list id="bgnama" x="0" y="0" pivotX="1" pivotY="0.5">
+                <item>ksatriatahu/ui/ui_namaskill.png</item>
+            </image_list>
+            <text id="nama_skill" x="0" y="-4" pivotX="0.5" pivotY="0.5" alignX="bgnama#0.5" font="cuckoo" fontSize="39" color="64411e">Detil Tantangan</text>
+        </container>
+
+        <container id="timer" x="-1000" y="300">
+            <image_list id="bgTimer" x="0" pivotX="0.5" isBaseContainer="true">
+                <item>UI_baru/lbl_ufo_base.png</item>
+            </image_list>
+
+            <image_list id="iconTimer" x="0" y="0" pivotX="0.5" pivotY="1" alignX="bgTimer#0" alignY="bgTimer#1">
+                <item>UI_baru/lbl_ufo_jam.png</item>
+            </image_list>
+
+            <text id="textTimer" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="bgTimer#0.5" alignY="bgTimer#0.5" font="cuckoo" fontSize="40" color="ffffff">00</text>
+        </container>
+
+        <particle xml="ksatriatahu/xml/partikel/efek_tahu_sutera_2.xml" id="efek_tahu" x="0" y="870"/>
+        <uiReader id="pet" x="0" y="1000" pivotX="0.5" pivotY="1" xml="ksatriatahu/xml/meidoufu.xml"/>
+    </container>
+
+    <animation>
+        <idle>
+            <multiple>
+                <alpha id="timer" time="0">0</alpha>
+                <alpha id="pet" time="0">0</alpha>
+                <alpha id="cutscene_2" time="0">0</alpha>
+                <moveToX id="cutscene_2" time="0" x="-120" alignX="wLayar#0"/>
+
+                <moveToX id="pet" time="0" x="-1000" alignX="wLayar#0"/>
+                <moveToY id="pet" time="0" y="560" alignY="hLayar#0.5"/>
+                <scaleX id="cutscene_2" pivotX="0" time="0">0</scaleX>
+                <scaleY id="cutscene_2" pivotY="1" time="0">0</scaleY>
+            </multiple>
+            <sequence>
+                <multiple>
+                    <alpha id="nama" time="0">0</alpha>
+                    <moveX id="nama" time="0">0</moveX>
+
+                    <scaleX id="pet" pivotX="0.5" time="0">1</scaleX>
+                    <scaleY id="pet" pivotY="0.5" time="0">1</scaleY>
+                </multiple>
+
+                <multiple>
+                    <alpha id="nama" time="0">1</alpha>
+                    <alpha id="cutscene_2" time="0">1</alpha>
+                </multiple>
+
+                <sequence>
+                    <moveToX id="timer" time="0" x="0" alignX="wLayar#0.5"/>
+                    <moveX id="nama" time="0.2">834</moveX>
+                    <playParticle id="efek_tahu"/>
+                    <multiple>
+                        <scaleX id="cutscene_2" pivotX="0" time="0.05">1.2</scaleX>
+                        <scaleY id="cutscene_2" pivotY="1" time="0.05">1.2</scaleY>
+                    </multiple>
+
+                    <multiple>
+                        <scaleX id="cutscene_2" pivotX="0" time="0.1">1</scaleX>
+                        <scaleY id="cutscene_2" pivotY="1" time="0.1">1</scaleY>
+                    </multiple>
+
+                    <multiple>
+                        <playAnim id="pet" nama="stop"></playAnim>
+                        <alpha id="pet" time="0">1</alpha>
+                        <moveToX id="pet" time="0.2" x="0" alignX="wLayar#0.5"/>
+                        <moveToY id="pet" time="0.2" y="270" alignY="hLayar#0.5"/>
+
+                        <scaleX id="pet" pivotX="0.5" time="0.2">1.65</scaleX>
+                        <scaleY id="pet" pivotY="0.5" time="0.2">1.65</scaleY>
+                    </multiple>
+                    <multiple>
+                        <scaleX id="pet" pivotX="0.5" time="0.05">1.4</scaleX>
+                        <scaleY id="pet" pivotY="0.5" time="0.05">1.4</scaleY>
+                    </multiple>
+                    <multiple>
+                        <scaleX id="pet" pivotX="0.5" time="0.1">1.5</scaleX>
+                        <scaleY id="pet" pivotY="0.5" time="0.1">1.5</scaleY>
+                    </multiple>
+
+                    <wait time="0.25"/>
+
+                    <multiple>
+
+                        <moveToX id="pet" time="0.2" x="400" alignX="wLayar#1"/>
+                        <moveToY id="pet" time="0.2" y="-100" alignY="hLayar#0.5"/>
+
+                        <scaleX id="pet" pivotX="0.5" time="0.15">1.5</scaleX>
+                        <scaleY id="pet" pivotY="0.5" time="0.15">1.5</scaleY>
+                    </multiple>
+                    <stopParticle id="efek_tahu"/>
+                    <multiple>
+                        <scaleX id="cutscene_2" pivotX="1" time="0.1">0</scaleX>
+                        <scaleY id="cutscene_2" pivotY="0" time="0.1">0</scaleY>
+                    </multiple>
+                    <multiple>
+                        <alpha id="timer" time="0.5">1</alpha>
+                        <moveY id="timer" time="0.5">110</moveY>
+                    </multiple>
+                </sequence>
+            </sequence>
+        </idle>
+        <keluar>
+            <sequence>
+                <alpha id="timer" time="0.5">0</alpha>
+                <moveX id="nama" time="1">1700</moveX>
+            </sequence>
+        </keluar>
+        <buat_testing repeat="-1">
+            <!--<sequence>-->
+
+            <!--</sequence>-->
+        </buat_testing>
+    </animation>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <character id="effect" x="0" y="-732" isEmpty="true" width = "768" height="732" >-->
+    <character id="effect" x="0" y="-366" isEmpty="true" width = "384" height="366" >
+<!--        <group id="cahaya1" x="119" y="436">-->
+        <group id="cahaya1" x="60" y="218">
+            <image_list>
+                <item>background/TahuCon_BG2_glow.png</item>
+            </image_list>
+        </group>
+<!--        <group id="cahaya2" x="15" y="-10">-->
+        <group id="cahaya2" x="7" y="-5">
+            <image_list>
+                <item>background/TahuCon_BG2_glowlayar.png</item>
+            </image_list>
+        </group>
+    </character>
+
+    <animation>
+        <sequence>
+            <multiple>
+                <alpha id="cahaya1" time="0.3">1.0</alpha>
+                <alpha id="cahaya2" time="0.3">1.0</alpha>
+            </multiple>
+            <multiple>
+                <alpha id="cahaya1" time="0.3">0.5</alpha>
+                <alpha id="cahaya2" time="0.3">0.5</alpha>
+            </multiple>
+            <multiple>
+                <alpha id="cahaya1" time="0.3">1.0</alpha>
+                <alpha id="cahaya2" time="0.3">1.0</alpha>
+            </multiple>
+            <multiple>
+                <alpha id="cahaya1" time="0.3">0.2</alpha>
+                <alpha id="cahaya2" time="0.3">0.2</alpha>
+            </multiple>
+        </sequence>
+    </animation>
+
+</resources>

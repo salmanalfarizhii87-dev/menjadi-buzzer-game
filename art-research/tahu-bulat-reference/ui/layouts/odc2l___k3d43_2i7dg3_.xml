@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <image_list id="banner">
+            <item>UI_baru/rempah/ui_rempah/banner_+rempah.png</item>
+        </image_list>
+        <image_list id="batasMenu" alignY="banner#1">
+            <item>UI_baru/ui_batas_menu.png</item>
+        </image_list>
+
+        <container id="extra" alignY="batasMenu#1" height="171">
+            <image_list id="penutupGradasi" y="171">
+                <item>UI_baru/batas_gradient.png</item>
+            </image_list>
+
+            <image_list id="bgPaperClip" y="0">
+                <item>UI_baru/label_paperclip_lampu_PENDEK.png</item>
+            </image_list>
+            <text id="textPaperClip" x="120" y="-5" pivotY="0.5" alignX="bgPaperClip#0" alignY="bgPaperClip#0.5" font="comicneueLight" fontSize="30" color="000000" wrapWidth="420" isCenter="false">Kembangkan bisnismu&#10;ke seluruh penjuru dunia!&#10;(Atau mungkin lebih!)</text>
+
+            <container id="divKoin" x="15" alignX="bgPaperClip#1" y="20" alignY="bgPaperClip#0">
+                <image_list id="bgBarKoin" x="10" y="5" scaleX="1.2" isBaseContainer="true">
+                    <item>UI_baru/bar_peridot.png</item>
+                </image_list>
+                <image_list id="labelKoin">
+                    <item>UI_baru/ic_koin_dalamNegeri.png</item>
+                </image_list>
+                <text id="textKoin" x="-10" y="0" pivotX="1" pivotY="0.5" alignX="bgBarKoin#1" alignY="bgBarKoin#0.5" font="cuckoo" fontSize="28" color="ffffff">400K</text>
+            </container>
+
+            <container id="divPeridot" x="0" alignX="divKoin#0" y="20" alignY="divKoin#1">
+                <image_list id="bgBarPeridot" x="10" y="5" scaleX="1.2" isBaseContainer="true">
+                    <item>UI_baru/bar_peridot.png</item>
+                </image_list>
+                <image_list id="labelPeridot">
+                    <item>UI_baru/ic_peridot.png</item>
+                </image_list>
+                <!--wrapWidth="90" isCenter="false"-->
+                <text id="textPeridot" x="-10" y="0" pivotX="1" pivotY="0.5" alignX="bgBarPeridot#1" alignY="bgBarPeridot#0.5" font="cuckoo" fontSize="28" color="ffffff">0</text>
+            </container>
+        </container>
+
+        <scrollView id="scrollData" x="0" alignY="extra#1" y="20" height="1000">
+            <container id="batas_1" x="0" y="0" alignX="wLayar#0.5">
+                <image_list id="img_batas_1" x="0" pivotX="0.5">
+                    <item>UI_baru/segmen_biru_2.png</item>
+                </image_list>
+                <text id="ket_text_1" x="0" y="0" pivotX="0.5" alignY="bgLevel#0" font="cuckoo" fontSize="35" color="ffffff">Peti Rempah Dimiliki</text>
+            </container>
+
+            <button id="btnFreeChest" x="20" imageNormal="UI_baru/button_hijau_lebarbesar.png" y="15" alignY="img_batas_1#1">
+                <image_list id="icon_chest_free" x="40" y="64" pivotX="0" pivotY="0.5">
+                    <item>icon/iap/ic_chestKayu.png</item>
+                </image_list>
+                <text id="text_free_chest" x="100" y="0" pivotX="0.5" pivotY="0.5" alignX="icon_chest_free#1" alignY="icon_chest_free#0.5" font="cuckoo" fontSize="50" color="ffffff">Gratis!</text>
+            </button>
+
+            <button id="btnGachaRempah" x="747" pivotX="1" imageNormal="UI_baru/btn_besarGaLebar_kuning.png" y="15" alignY="img_batas_1#1">
+                <image_list id="icon_ads" x="-307" y="64" pivotX="0" pivotY="0.5">
+                    <item>ui_turis/ic_kameraAds.png</item>
+                </image_list>
+                <text id="text_timer_ads" x="5" y="0" pivotX="0" pivotY="0.5" alignX="icon_ads#1" alignY="icon_chest_free#0.5" font="cuckoo" fontSize="35" color="ffffff">00:00</text>
+                <image_list id="icon_rempah" x="-10" y="64" pivotX="1" pivotY="0.5">
+                    <item>UI_baru/rempah/ui_rempah/ic_kantongRempahRandom.png</item>
+                </image_list>
+            </button>
+
+            <button id="btn_slot_1" x="50" imageNormal="UI_baru/button_coklat_besar.png" y="15" alignY="btnGachaRempah#1">
+                <text id="text_timer_1" x="101" y="20" pivotX="0.5" font="cuckoo" fontSize="35" color="ffffff">00:00:00</text>
+                <image_list id="icon_chest_1" pivotY="0.5" pivotX="0.5" x="101" y="107">
+                    <item>icon/iap/ic_chestKayu.png</item>
+                </image_list>
+                <textWithImage id="text_slot_1" x="101" y="184" pivotX="0.5" pivotY="1" font="cuckoo" fontSize="35" color="ffffff" isCenter="false">
+                    <string>
+                        <text>Buka</text>
+                    </string>
+                </textWithImage>
+                <image_list id="alert_1" pivotY="0" pivotX="1" x="202" y="0">
+                    <item>UI_baru/ic_alert.png</item>
+                </image_list>
+            </button>
+
+            <button id="btn_slot_2" x="29" alignX="btn_slot_1#1" imageNormal="UI_baru/button_coklat_besar.png" y="15" alignY="btnGachaRempah#1">
+                <text id="text_timer_2" x="101" y="20" pivotX="0.5" font="cuckoo" fontSize="35" color="ffffff">00:00:00</text>
+                <image_list id="icon_chest_2" pivotY="0.5" pivotX="0.5" x="101" y="107">
+                    <item>icon/iap/ic_chestKayu.png</item>
+                </image_list>
+                <textWithImage id="text_slot_2" x="101" y="184" pivotX="0.5" pivotY="1" font="cuckoo" fontSize="35" color="ffffff" isCenter="false">
+                    <string>
+                        <text>Buka</text>
+                    </string>
+                </textWithImage>
+                <image_list id="alert_2" pivotY="0" pivotX="1" x="202" y="0">
+                    <item>UI_baru/ic_alert.png</item>
+                </image_list>
+            </button>
+
+            <button id="btn_slot_3" x="29" alignX="btn_slot_2#1" imageNormal="UI_baru/button_coklat_besar.png" y="15" alignY="btnGachaRempah#1">
+                <text id="text_timer_3" x="101" y="20" pivotX="0.5" font="cuckoo" fontSize="35" color="ffffff">00:00:00</text>
+                <image_list id="icon_chest_3" pivotY="0.5" pivotX="0.5" x="101" y="107">
+                    <item>icon/iap/ic_chestKayu.png</item>
+                </image_list>
+                <textWithImage id="text_slot_3" x="101" y="184" pivotX="0.5" pivotY="1" font="cuckoo" fontSize="35" color="ffffff" isCenter="false">
+                    <string>
+                        <text>Buka</text>
+                    </string>
+                </textWithImage>
+                <image_list id="alert_3" pivotY="0" pivotX="1" x="202" y="0">
+                    <item>UI_baru/ic_alert.png</item>
+                </image_list>
+            </button>
+
+            <container id="batas_2" x="0" y="15" alignX="wLayar#0.5" alignY="btn_slot_3#1">
+                <image_list id="img_batas_2" x="0" pivotX="0.5">
+                    <item>UI_baru/segmen_biru_2.png</item>
+                </image_list>
+                <text id="ket_text_2" x="0" y="0" pivotX="0.5" alignY="bgLevel#0" font="cuckoo" fontSize="35" color="ffffff">Tambah Rempah?</text>
+            </container>
+
+            <container id="list_IAP" y="67" alignY="batas_2#0"></container>
+
+        </scrollView>
+
+        <text id="textKosong" x="0" y="20" pivotX="0.5" alignX="wLayar#0.5" pivotY="0.5" alignY="tabs#1" font="comicneueLight" fontSize="32" color="ffffff" isCenter="true" wrapWidth="650" isVisible="false">Segera hadir seri stiker Tahu Bulat berikutnya!&#10;&#10;Kamu mau stiker WA seperti apa? Yuk cerita ke admin tim Tahu di fanpage Tahu Bulat di Facebook atau ke Instagram @takodkk</text>
+
+<!--        <container id="contData" x="0" alignY="extra#1" y="-25" height="1000">-->
+<!--            <container id="contBelumAmbil" x="0" y="10" height="500">-->
+<!--            </container>-->
+<!--            <container id="contSudahAmbil" x="0" y="10" alignY="belumAmbil#1" height="500">-->
+<!--            </container>-->
+<!--        </container>-->
+
+<!--        <image_list id="notifWA" x="0" y="0" pivotX="1" pivotY="0" isVisible="false">-->
+<!--            <item>UI_baru/ic_alert.png</item>-->
+<!--        </image_list>-->
+
+        <container id="barBackMenu" y="-137" alignY="hLayar#1" height="137">
+            <image_list id="bgMenuBack" y="137" pivotY="1">
+                <item>UI_baru/ui_batas_menu_back.png</item>
+            </image_list>
+            <button id="btnBack" x="20" imageNormal="UI_baru/btn_back.png" y="137" pivotY="1" onClick="backPressed">
+            </button>
+<!--            <button id="btnTambahRempah" x="0" pivotX="0.5" alignX="wLayar#0.5" imageNormal="UI_baru/button_hijau_lebarbesar.png" y="137" pivotY="1">-->
+<!--                <text id="labelTambahRempah" x="0" y="-75" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="40" color="ffffff">Tambah Rempah!</text>-->
+<!--            </button>-->
+            <button id="btnInfo" x="-20" pivotX="1" alignX="wLayar#1" imageNormal="UI_baru/button_bulat_besar_kuning.png" y="137" pivotY="1" onClick="popUp#infoTambahRempah">
+                <image_list id="labelInfo" x="-61" y="-78" pivotY="0.5" pivotX="0.5">
+                    <item>UI_baru/ic_info.png</item>
+                </image_list>
+            </button>
+        </container>
+    </container>
+
+    <animation>
+    </animation>
+</resources>

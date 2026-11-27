@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario skippable="false">
+
+        <dialog karakter="0" ekspresi="idle" alignY="0.0f" y="150" animasi="0.5">Yuk, kita pelajari dulu sedikit tentang Rempah-rempah ini..</dialog>
+        <aksi tipe="muncul" ui="tab_resep" hold="false"/>
+        <aksi tipe="highlight" ui="tab_resep" hold="false"/>
+<!--        <aksi tipe="addHighlight" ui="label_rempah" hold="false"/>-->
+        <dialog ekspresi="belajar" hold="true" >Rempah-rempah bisa kamu temukan di Tab Bahan.</dialog>
+
+        <dialog ekspresi="belajar" hold="false">Yuk, kita pasang rempah-rempah agar kita bisa mulai berjualan.</dialog>
+        <aksi tipe="aksi_rempah" hold="false" ui="jari_pasang"/>
+        <syarat tipe="syarat_rempah" ui="tapPasang"/>
+        <aksi tipe="clearHighlight" hold="false"/>
+        <syarat tipe="syarat_rempah" ui="wait_screen_rempah"/>
+
+        <dialog ekspresi="belajar">Nah, di halaman ini kita bisa melihat semua rempah-rempah yang kita miliki. Saat ini memang masih kosong...</dialog>
+        <dialog ekspresi="sedap" hold="true">Tapi Akang yakin, suatu saat pasti kita akan punya lengkap semua rempah-rempah dari seluruh penjuru dunia!</dialog>
+        <dialog ekspresi="semangat" hold="false">Okeh, mari kita buka Peti Perunggu yang baru saja kita dapatkan!</dialog>
+        <aksi tipe="aksi_rempah" hold="false" ui="jari_tambah_rempah"/>
+        <syarat tipe="syarat_rempah" ui="tapTambahRempah"/>
+        <syarat tipe="syarat_rempah" ui="wait_screen_tambah"/>
+
+
+        <dialog karakter="0" ekspresi="ketawa1" alignY="0.0f" y="150" animasi="0.5">Nah, ini dia Peti Perunggu yang kita dapatkan dari Misi Pasar Gembira tadi! HAHAHA!!</dialog>
+        <dialog ekspresi="aha">Yuk, kita buka peti ini!</dialog>
+        <aksi tipe="aksi_rempah" hold="false" ui="jari_chest"/>
+        <syarat tipe="syarat_rempah" ui="tapChest"/>
+
+        <dialog ekspresi="semangat" hold="true">Hmm.. sepertinya kita harus menunggu untuk membuka Peti Ini... Tapi kita bisa gunakan peridot untuk mempercepat..</dialog>
+        <dialog ekspresi="sedap" hold="false">Baiklah, nih gunakan saja peridot dari Akang untuk membuka peti ini..</dialog>
+        <aksi tipe="aksi_rempah" hold="false" ui="rig_chest"/>
+        <aksi tipe="aksi_rempah" hold="false" ui="jari_chest"/>
+        <syarat tipe="syarat_rempah" ui="tapChest"/>
+        <syarat tipe="syarat_rempah" ui="wait_screen_tambah"/>
+<!--        <syarat tipe="syarat_rempah" ui="wait_finish_chest"/>-->
+
+        <dialog ekspresi="mantul" hold="false">Wah, mantulll!!&#10;Rempah-rempah yang kita dapatkan tadi sepertinya bagus semua! Ayo, kita periksa!</dialog>
+        <aksi tipe="aksi_rempah" hold="false" ui="jari_back_tambah_rempah"/>
+        <syarat tipe="syarat_rempah" ui="tapBackTambahRempah"/>
+        <syarat tipe="syarat_rempah" ui="wait_screen_rempah"/>
+
+        <dialog ekspresi="semangat" hold="false">Mari kita gunakan Rempah-rempah ini di Cabang Bandung!</dialog>
+        <aksi tipe="aksi_rempah" hold="false" ui="jari_rempah"/>
+        <syarat tipe="syarat_rempah" ui="tap_rempah"/>
+        <aksi tipe="aksi_rempah" hold="false" ui="jari_pasang_rempah"/>
+        <aksi tipe="aksi_rempah" hold="false" ui="jari_pasang_rempah"/>
+        <syarat tipe="syarat_rempah" ui="tap_pasang_rempah"/>
+
+        <aksi tipe="aksi_rempah" hold="false" ui="jari_btn_plus"/>
+        <aksi tipe="aksi_rempah" hold="false" ui="jari_btn_plus"/>
+        <syarat tipe="syarat_rempah" ui="tap_btn_plus"/>
+        <syarat tipe="syarat_rempah" ui="pasang_rempah"/>
+
+        <dialog ekspresi="mantul" hold="true" formatType="nama_rempah">Manttulll!!&#10;Kamu berhasil menambahkan Rempah %s di Cabang Bandung!</dialog>
+        <dialog ekspresi="mantul" hold="true" formatType="nama_rempah_dan_efek">Dengan menambahkan Rempah %s, harga Tahu Bulat yang dijual bertambah %s koin!</dialog>
+        <dialog ekspresi="semangat" hold="true">Rempah-rempah ini pasti akan menjadi kunci kesuksesan kita!</dialog>
+        <dialog ekspresi="tekad_bulad" hold="true">Mari kita kumpulkan lebih banyak lagi Rempah-rempah ajaib ini!</dialog>
+
+    </skenario>
+</resources>

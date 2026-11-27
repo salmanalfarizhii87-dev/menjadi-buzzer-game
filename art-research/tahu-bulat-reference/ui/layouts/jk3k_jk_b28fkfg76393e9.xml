@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <container id="base" height="200" width="180">
+        <!--<container id="divFotoPedagang">-->
+            <image_list id="bgFotoPedagang" x="15" y="15">
+                <item>UI_baru/frame_BG_1.png</item>
+            </image_list>
+
+            <image_list id="fotoPedagang" x="0" y="0" alignX="bgFotoPedagang#0" alignY="bgFotoPedagang#0">
+                <item>pedagang/Ch_AkangTahu_idle.png</item>
+            </image_list>
+
+            <button id="frameFotoPedagang" isBaseContainer="true" imageNormal="UI_baru/frame_1.png">
+
+
+                <image_list id="cabangPedagang" x="-4" y="-4" pivotY="1" alignX="frameFotoPedagang#0" alignY="frameFotoPedagang#1" scaleX="0.5" scaleY="0.5" pivotScaleY="1">
+                    <item>icon/icon kota cabang tanpa ilustrasi/ic_gedung sate.png</item>
+                </image_list>
+
+                <image_list id="labelLevelPedagang" x="-10" y="-20" pivotX="0" pivotY="0">
+                    <item>UI_baru/label_pedagang_level.png</item>
+                </image_list>
+                <!--<text id="textLevelPedagang" x="0" y="5" pivotX="0.5" pivotY="1" alignX="labelLevelPedagang#0.5" alignY="labelLevelPedagang#0.5" font="cuckoo" fontSize="28" color="000000" wrapWidth="50" isCenter="true">50</text>-->
+                <text id="textLevelPedagang" x="15" y="3" pivotY="1" alignX="labelLevelPedagang#0" alignY="labelLevelPedagang#0.5" font="cuckoo" fontSize="28" color="000000" wrapWidth="40" isCenter="true">50</text>
+
+                <image_list id="labelBadgePedagang" x="0" y="0" pivotX="0.8" pivotY="0.9" alignX="frameFotoPedagang#1" alignY="frameFotoPedagang#1">
+                    <item>UI_baru/badge_1.png</item>
+                </image_list>
+            </button>
+        <!--</container>-->
+
+    </container>
+
+</resources>

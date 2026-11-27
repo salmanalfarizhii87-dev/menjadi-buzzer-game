@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Aduuhhh...&#10;Sedikit lagi padahal!!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>HAHAHAHAHA&#10;Gak kesampean targetnya kan?!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Iya nih, Kang..&#10;Kang Piki sampe?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="kaget" isHold="true">
+            <desc>Eeuh.. anu.. Ituu...</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="marah" isHold="true">
+            <desc>Ehh?!&#10;Kamu tadi manggil aku apa?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eh, iya, maap, Kang Pi..&#10;Eh.. Phh, Pff.. Vi-vicky!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hmphh...&#10;Ya sudahlah, yang rajin belajar dagangnya, yak!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Siapa tahu suatu hari kamu bisa mengalahkanku! HAHAHAHA!!</desc>
+        </dialog>
+        <aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Jadi.. sebenernya si Kang Piki jual lebih banyak ga sih?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kang!&#10;Katanya tanding bolanya belum berakhir!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Jadi masih bisa coba lagi kok!&#10;Semoga yang berikutnya berhasil yak!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Wokeh, siap!&#10;Terima kasih, Tako!!</desc>
+        </dialog>
+    </skenario>
+</resources>

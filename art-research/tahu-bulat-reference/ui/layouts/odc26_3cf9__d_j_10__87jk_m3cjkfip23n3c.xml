@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hmmm...</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Waduh!&#10;Beneran ada si Kang Piki!!!!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="kaget" isHold="true">
+            <desc>Ckck.. Si Akang... &#10;Lama ga ketemu masih Pika-piki mulu!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sapa" isHold="true">
+            <desc>Ha-halo, Kang Piki!&#10;Kemana aja ga ketemu?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Ga kemana-mana kok..&#10;Mau dagang Tahu di sini, Kang?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Hoho. Iya dong..&#10;Kang Piki juga?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Iyalah, ngapain lagi ke sini?&#10;Ikut olimpiade?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Kalau ikut olimpiade, harus makan Tahu dulu dong! Biar PINTAR! HAHAHAHA</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>.........................&#10;Masih disindir aja dong..</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Kamu perhatikan baik-baik yah, Kang. Kali ini daganganku pasti lebih banyak!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Eis.. Tanding dagang lagi, Kang? Hayu.. Mau berapa?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc isNode="true">
+                <string>
+                    <text>Hmmmm...&#10;</text>
+                    <koin_Festival/>
+                    <text format="target_misi"> %s gimana? Berani ga?</text>
+                </string>
+            </desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="tekad_bulad" isHold="true">
+            <desc>Eisss.. Berani dong!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Jangan nangis kalau kalah ya!&#10;HAHAHAHA!!</desc>
+        </dialog>
+        <aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Duh...&#10;Si Kang Piki masih aja..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Tapi.. syukurlah si Kang Piki udah balik dagang tahu lagi..</desc>
+        </dialog>
+    </skenario>
+</resources>

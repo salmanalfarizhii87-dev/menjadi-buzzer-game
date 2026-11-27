@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <image_list id="bannerBank" scaleX="2.0" scaleY="2.0"><!--//06212020-->
+            <item>UI_baru/banner_Bank.png</item>
+        </image_list>
+        <image_list id="batasMenu" alignY="bannerBank#1">
+            <item>UI_baru/ui_batas_menu.png</item>
+        </image_list>
+
+        <container id="konten" alignY="batasMenu#1" height="255"><!--171+84-->
+            <image_list id="bgPaperClip" y="10">
+                <item>UI_baru/label_paperclip_lampu_PENDEK.png</item>
+            </image_list>
+
+            <text id="textPaperClip" x="120" y="-5" pivotY="0.5" alignX="bgPaperClip#0" alignY="bgPaperClip#0.5" font="comicneueLight" fontSize="30" color="000000" wrapWidth="420" isCenter="false">Transfer uangmu dari cabang %1$s ke cabang lainnya!&#10;Pssst..ga gratis ya... XD</text>
+
+            <container id="divKoin" x="15" alignX="bgPaperClip#1" y="20" alignY="bgPaperClip#0">
+                <image_list id="bgBarKoin" x="10" y="5" scaleX="1.2" isBaseContainer="true">
+                    <item>UI_baru/bar_peridot.png</item>
+                </image_list>
+                <image_list id="labelKoin">
+                    <item>UI_baru/ic_koin_dalamNegeri.png</item>
+                </image_list>
+                <text id="textKoin" x="-10" y="0" pivotX="1" pivotY="0.5" alignX="bgBarKoin#1" alignY="bgBarKoin#0.5" font="cuckoo" fontSize="28" color="ffffff">999M</text>
+            </container>
+
+            <container id="divPeridot" x="0" alignX="divKoin#0" y="20" alignY="divKoin#1">
+                <image_list id="bgBarPeridot" x="10" y="5" scaleX="1.2" isBaseContainer="true">
+                    <item>UI_baru/bar_peridot.png</item>
+                </image_list>
+                <image_list id="labelPeridot">
+                    <item>UI_baru/ic_peridot.png</item>
+                </image_list>
+                <text id="textPeridot" x="-10" y="0" pivotX="1" pivotY="0.5" alignX="bgBarPeridot#1" alignY="bgBarPeridot#0.5" font="cuckoo" fontSize="28" color="ffffff">200</text>
+            </container>
+
+            <container id="divExchange" x="0" y="15" alignX="bgPaperClip#0" alignY="bgPaperClip#1" width="768" height="84">
+                <!--persen-->
+                <image_list id="bgExchange" x="0" y="0" scaleX="768.0" pivotScaleX="0">
+                    <item>UI_baru/bar_exchange_bluenavy_768.png</item>
+                </image_list>
+
+                <container id="kontenExchange1"> <!--width="wLayar#1"-->
+                    <text id="tempText1" x="15" y="25" font="cuckoo" fontSize="28" color="ffffff">Tunggu Update Berikutnya! Tunggu Update Berikutnya!</text>
+                </container>
+
+                <container id="kontenExchange2"> <!--x="0" alignX="wLayar#1" width="wLayar#1"-->
+                    <text id="tempText2" x="15" y="25" font="cuckoo" fontSize="28" color="ffffff">Tunggu Update Berikutnya! Tunggu Update Berikutnya!</text>
+                </container>
+            </container>
+        </container>
+
+        <scrollView id="scrollBank" y="40" alignY="konten#1" height="1000">
+        </scrollView>
+
+        <container id="contDataBank" y="20" alignY="konten#1" height="540">
+            <container id="divSlips" y="0" height="400"><!--y="20" alignY="divExchange#1"-->
+                <image_list id="bgSlip1" x="50" y="0">
+                    <item>UI_baru/lb_slip_template_768.png</item>
+                </image_list>
+                <image_list id="imgSlipDalamNegri" x="0" y="10" pivotX="0.5" alignX="bgSlip1#0.5">
+                    <item>UI_baru/ic_slip_dalamnegeri_768.png</item>
+                </image_list>
+                <button id="pilihSlipDalamNegri" x="0" y="15" pivotX="0.5" alignX="bgSlip1#0.5" alignY="imgSlipDalamNegri#1" imageNormal="UI_baru/ui_btn_buy.png">
+                    <text id="labelPilihDalamNegri" x="0" y="10" pivotX="0.5" font="cuckoo" fontSize="32" color="ffffff">Pilih</text>
+                </button>
+
+                <image_list id="bgSlip2" x="0" y="0" pivotX="0.5" alignX="wLayar#0.5">
+                    <item>UI_baru/lb_slip_template_768.png</item>
+                </image_list>
+                <image_list id="imgSlipInternasional" x="0" y="10" pivotX="0.5" alignX="bgSlip2#0.5">
+                    <item>UI_baru/ic_slip_internasional_768.png</item>
+                </image_list>
+                <button id="pilihSlipInternasional" x="0" y="15" pivotX="0.5" alignX="bgSlip2#0.5" alignY="imgSlipInternasional#1" imageNormal="UI_baru/ui_btn_buy.png">
+                    <text id="labelPilihInternasional" x="0" y="10" pivotX="0.5" font="cuckoo" fontSize="32" color="ffffff">Pilih</text>
+                </button>
+
+                <image_list id="bgSlip3" x="-50" y="0" pivotX="1" alignX="wLayar#1">
+                    <item>UI_baru/lb_slip_template_768.png</item>
+                </image_list>
+                <image_list id="imgSlipDimensi" x="0" y="10" pivotX="0.5" alignX="bgSlip3#0.5">
+                    <item>UI_baru/ic_slip_lintasdimensi_768.png</item>
+                </image_list>
+                <button id="pilihSlipDimensi" x="0" y="15" pivotX="0.5" alignX="bgSlip3#0.5" alignY="imgSlipDimensi#1" imageNormal="UI_baru/ui_btn_buy.png">
+                    <text id="labelPilihDimensi" x="0" y="10" pivotX="0.5" font="cuckoo" fontSize="32" color="ffffff">Pilih</text>
+                </button>
+            </container>
+
+            <container id="divTukarPeridot" y="20" alignY="divSlips#1" height="116">
+                <image_list id="batas" x="0" y="0" pivotX="0.5" alignX="wLayar#0.5">
+                    <item>UI_baru/garis batas.png</item>
+                </image_list>
+                <image_list id="imgTukarPeridot" x="50" y="20" alignY="batas#1">
+                    <item>UI_baru/lb_tukarperidot_isi.png</item>
+                </image_list>
+                <button id="btnTukarPeridot" x="20" y="0" alignX="imgTukarPeridot#1" alignY="imgTukarPeridot#0" imageNormal="UI_baru/ui_btn_big.png">
+                    <text id="labelTukarPeridot" x="101" y="58" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="35" color="ffffff">Pilih</text>
+                </button>
+            </container>
+        </container>
+
+        <container id="barBackMenu" y="-137" alignY="hLayar#1" height="137">
+            <image_list id="bgMenuBack" y="137" pivotY="1">
+                <item>UI_baru/ui_batas_menu_back.png</item>
+            </image_list>
+            <button id="btnBack" x="20" imageNormal="UI_baru/btn_back.png" y="137" pivotY="1" onClick="backPressed">
+            </button>
+        </container>
+    </container>
+</resources>

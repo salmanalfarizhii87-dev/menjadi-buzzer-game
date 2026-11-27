@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Gimana?&#10;Sampe ga targetnya, Kang?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc isNode="true">
+                <string>
+                    <text>Oweis!!&#10;Udah terkumpul&#10;</text>
+                    <koin_Festival/>
+                    <text format="target_misi">%s dong!!</text>
+                </string>
+            </desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHAHA!!&#10;Cuma segitu doang??</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc isNode="true">
+                <string>
+                    <text>Ehh... targetnya emang cuma&#10;</text>
+                    <koin_Festival/>
+                    <text format="target_misi"> %s kan?!</text>
+                </string>
+            </desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHAHAHAH!!!&#10;Jangan cuma kejar target aja dong!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Kaya saya dong, melampaui target!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Oya? Kang Piki dapat berapa?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc isNode="true">
+                <string>
+                    <text>Dapat </text>
+                    <koin_Festival/>
+                    <text format="target_misi_x2"> %s!!&#10;Mantap Kan?! HAHAHAHA!!</text>
+                </string>
+            </desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Hah? Mantap?&#10;Kok bisa?!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHAHAHA!!&#10;Bisalah! Tidak sia-sia aku bertapa beberapa hari ini!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Uwohh..&#10;Apa hasil bertapanya, Kang? Bagi triknya dong..</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHAHAHAHA!!&#10;Enak saja kamu!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc isNode="true">
+                <string>
+                    <text>Yang jelas, berkat hasil pertapaanku, kali ini aku bisa mendapatkan </text>
+                    <koin_Festival/>
+                    <text format="target_misi_x2_bagi10"> %s dengan&#10;mudah!</text>
+                </string>
+            </desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc isNode="true">
+                <string>
+                    <text>Eh? Loh?&#10;Dapat </text>
+                    <koin_Festival/>
+                    <text format="target_misi_x2_bagi10"> %s atau&#10;</text>
+                    <koin_Festival/>
+                    <text format="target_misi_x2"> %s, Kang?!</text>
+                </string>
+            </desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="kaget" isHold="true">
+            <desc>Eh? Hah?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="kaget" isHold="true">
+            <desc>...........................</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Yaaa... Pokoknya aku menang, lah! HAHAHAHAHA!!</desc>
+        </dialog>
+        <aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>.....................</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Kok... serasa dikibulin ya?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kang!!!&#10;Ini petinya!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Oweis! Mantap!!&#10;Makasih ya, Tako!!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Sama-sama, Kang!&#10;Bagi Tahu Bulat gratis yak!</desc>
+        </dialog>
+    </skenario>
+</resources>

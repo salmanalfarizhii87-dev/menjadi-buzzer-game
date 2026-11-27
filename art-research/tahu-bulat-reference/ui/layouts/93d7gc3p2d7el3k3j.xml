@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <container id="base" height="300">
+        <container id="divJurnalMini" x="10" y="70">
+            <image_list id="bgJurnal" isBaseContainer="true">
+                <item>UI_baru/lbl_jurnal_mini.png</item>
+            </image_list>
+            <text id="namaCabangJurnal" x="30" y="10" font="cuckoo" fontSize="35" color="ffffff">Bandung</text>
+
+            <image_list id="iconJumlahKoin" x="70" y="65">
+                <item>UI_baru/ic_koin_dalamNegeri.png</item>
+            </image_list>
+            <text id="textJumlahKoinJurnal" x="10" y="5" alignX="iconJumlahKoin#1" alignY="iconJumlahKoin#0" font="cuckoo" fontSize="35" color="000000">999T</text>
+
+            <button id="btnBuyKoinJurnal" x="-25" pivotX="1" y="-10" alignX="bgJurnal#1" alignY="iconJumlahKoin#0" imageNormal="UI_baru/btn_hijau_buyKecil.png">
+            </button>
+
+            <image_list id="batas" x="0" y="3" alignX="iconJumlahKoin#0" alignY="btnBuyKoinJurnal#1">
+                <item>UI_baru/lbl_jurnal_darkline.png</item>
+            </image_list>
+
+            <image_list id="iconTahuPPM" y="5" alignX="iconJumlahKoin#0" alignY="batas#1">
+                <item>UI_baru/ic_tabul.png</item>
+            </image_list>
+            <text id="textPPMJurnal" x="10" y="5" alignX="iconTahuPPM#1" alignY="iconTahuPPM#0" font="cuckoo" fontSize="35" color="000000">99Rb/menit</text>
+
+            <image_list id="iconTahuHarga" y="10" alignX="iconTahuPPM#0" alignY="iconTahuPPM#1">
+                <item>UI_baru/ic_tabul.png</item>
+            </image_list>
+            <text id="textSamaDenganHarga" x="10" y="5" alignX="iconTahuHarga#1" alignY="iconTahuHarga#0" font="cuckoo" fontSize="35" color="000000">=</text>
+            <image_list id="iconKoinHarga" x="10" y="0" alignX="textSamaDenganHarga#1" alignY="iconTahuHarga#0">
+                <item>UI_baru/ic_koin_dalamNegeri.png</item>
+            </image_list>
+            <text id="textHargaTahuJurnal" x="10" y="5" alignX="iconKoinHarga#1" alignY="iconKoinHarga#0" font="cuckoo" fontSize="35" color="000000">100</text>
+
+            <text id="textTanggalJam" x="5" y="5" alignX="iconJumlahKoin#0" alignY="iconKoinHarga#1" font="comicneueLight" fontSize="20" color="000000">5 Mei 2019, 16:53:50</text>
+        </container>
+
+        <container id="divPeridot" x="20" alignX="divJurnalMini#1" y="20" alignY="divJurnalMini#0">
+            <image_list id="bgBarPeridot" x="10" y="5" scaleX="1.5" isBaseContainer="true">
+                <item>UI_baru/bar_peridot.png</item>
+            </image_list>
+            <image_list id="labelPeridot">
+                <item>UI_baru/ic_peridot.png</item>
+            </image_list>
+            <text id="textPeridot" x="10" y="0" pivotY="0.5" alignX="labelPeridot#1" alignY="bgBarPeridot#0.5" font="cuckoo" fontSize="30" color="ffffff">999</text>
+            <button id="btnBuyPeridot" x="0" y="-10" pivotX="1" alignX="bgBarPeridot#1" alignY="labelPeridot#0" imageNormal="UI_baru/btn_hijau_buyKecil.png">
+            </button>
+        </container>
+
+        <container id="divBarLevel" x="0" y="10" alignX="divPeridot#0" alignY="divPeridot#1" height="80">
+            <image_list id="barKosongExp" x="75" y="30">
+                <item>UI_baru/bar_peridot.png</item>
+            </image_list>
+            <image_list id="barIsiExp" x="75" y="30" scaleX="1.0">
+                <item>UI_baru/bar_isi.png</item>
+            </image_list>
+            <image_list id="labelExp" x="0" y="0" scaleX="0.6" scaleY="0.6">
+                <item>UI_baru/label_level.png</item>
+            </image_list>
+            <text id="textLevel" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="labelExp#0.5" alignY="labelExp#0.5" font="cuckoo" fontSize="30" color="000000">1</text>
+            <text id="textBarExp" x="0" y="5" pivotX="0.5" alignX="barKosongExp#0.5" alignY="barKosongExp#0" font="cuckoo" fontSize="30" color="ffffff">50%</text>
+        </container>
+
+        <button id="btnHPAkang" x="-20" y="20" pivotX="1" alignX="wLayar#1" alignY="divJurnalMini#0" imageNormal="UI_baru/btn_HP_base_kuning.png" onClick="pindahState#homeHPAkang">
+            <image_list id="iconHP" x="-58" y="-20" pivotX="0.5">
+                <item>UI_baru/ic_handphone.png</item>
+            </image_list>
+            <image_list id="notifHP" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="iconHP#0.5" alignY="iconHP#0.5">
+                <item>UI_baru/ic_alert.png</item>
+            </image_list>
+            <text id="labelHP" x="-58" y="0" pivotX="0.5" alignY="iconHP#1" font="cuckoo" fontSize="30" color="ffffff">HP</text>
+        </button>
+        
+        <scrollView id="promo" x="0" y="0" pivotX="1" pivotY="1" alignX="btnHPAkang#1" alignY="bgJurnal#1">
+        </scrollView>
+
+    </container>
+
+</resources>

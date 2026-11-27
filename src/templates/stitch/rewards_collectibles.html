@@ -1,0 +1,112 @@
+<div class="min-h-[884px] max-w-md mx-auto flex flex-col bg-dock-bg" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- Top Purple HUD Bar -->
+    <header class="sticky top-0 z-20 flex flex-col shadow-[0_3px_8px_rgba(0,0,0,0.22)]">
+      <div class="ref-hud-purple flex items-center gap-gutter-sm px-gutter-sm py-gutter-sm">
+        <a href="../01-business-home/Business%20Home.html" aria-label="Kembali ke Home" class="w-11 h-11 rounded-full ref-back-circle flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M15 6L9 12L15 18" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </a>
+
+        <div class="flex-1 ref-cyan-pill rounded-lg px-gutter-md py-1 flex flex-col items-center justify-center min-w-0">
+          <span class="font-headline text-title-md text-light-surface-bright leading-none" data-design-text-token="title-md">Hadiah &amp; Koleksi</span>
+          <span class="font-mono text-label-sm text-light-surface-bright leading-none mt-0.5" data-design-text-token="label-sm">Rewards &amp; Collectibles</span>
+        </div>
+
+        <div class="px-gutter-sm py-1.5 rounded-lg bg-light-surface-bright flex items-center gap-1 shrink-0">
+          <span id="rc-balance" class="font-headline text-label-sm text-ink-dark tabular-nums" data-design-text-token="label-sm">Rp 500</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col gap-gutter-md p-gutter-md pb-gutter-xl">
+
+      <!-- Summary Banner -->
+      <section aria-label="Ringkasan koleksi" class="ref-card rounded-xl p-gutter-md flex items-center justify-between gap-gutter-md">
+        <div class="flex items-center gap-gutter-md">
+          <div data-stitch-img="Piala Buzzer" class="w-14 h-14 rounded-lg object-cover border-2 border-gold-bright shrink-0 stitch-img" role="img" aria-label="Piala Buzzer"></div>
+          <div>
+            <h1 class="font-headline text-title-md text-ink-dark" data-design-text-token="title-md">Galeri Prestasi</h1>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">2 / 4 Koleksi Terbuka</p>
+          </div>
+        </div>
+        <span class="px-gutter-sm py-gutter-xs rounded-full bg-btn-red-dark text-light-surface-bright font-headline text-label-sm shrink-0" data-design-text-token="label-sm">1 Siap Klaim</span>
+      </section>
+
+      <!-- Tabs -->
+      <div role="tablist" aria-label="Kategori item" class="grid grid-cols-2 gap-gutter-xs ref-hud-purple p-1.5 rounded-xl border-2 border-ink-dark">
+        <button type="button" role="tab" aria-selected="true" data-tab="rewards" onclick="switchItemTab(&#39;rewards&#39;)" class="item-tab px-gutter-sm py-gutter-sm rounded-lg bg-btn-yellow text-ink-dark font-headline text-label-sm cursor-pointer" data-design-text-token="label-sm">Rewards</button>
+        <button type="button" role="tab" aria-selected="false" data-tab="collectibles" onclick="switchItemTab(&#39;collectibles&#39;)" class="item-tab px-gutter-sm py-gutter-sm rounded-lg text-light-surface-bright font-headline text-label-sm cursor-pointer" data-design-text-token="label-sm">Collectibles</button>
+      </div>
+
+      <!-- Tab Panel 1: Rewards -->
+      <section id="panel-rewards" aria-label="Daftar hadiah" class="flex flex-col gap-gutter-sm">
+        <article class="ref-card rounded-xl p-gutter-md flex items-center justify-between gap-gutter-md">
+          <div class="flex items-center gap-gutter-md min-w-0">
+            <div data-stitch-img="Peti Bonus Harian" class="w-14 h-14 rounded-lg object-cover border-2 border-slate-300 shrink-0 stitch-img" role="img" aria-label="Peti Bonus Harian"></div>
+            <div class="min-w-0">
+              <h2 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">Bonus Login Harian</h2>
+              <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Hadiah +Rp 150 masuk saldo</p>
+            </div>
+          </div>
+          <button id="claim-daily-btn" type="button" onclick="claimDaily()" class="ref-btn-green px-gutter-md py-gutter-xs rounded-xl font-headline text-label-sm text-light-surface-bright shrink-0 cursor-pointer" data-design-text-token="label-sm">Klaim</button>
+        </article>
+
+        <article class="ref-card rounded-xl p-gutter-md flex items-center justify-between gap-gutter-md">
+          <div class="min-w-0">
+            <h2 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">Tembus 1.000 Followers</h2>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Bonus awal karier (+Rp 100)</p>
+          </div>
+          <span class="px-gutter-sm py-gutter-xs rounded-full bg-dock-bg text-ink-dark font-headline text-label-sm shrink-0" data-design-text-token="label-sm">Diklaim</span>
+        </article>
+
+        <article class="ref-card rounded-xl p-gutter-md flex items-center justify-between gap-gutter-md">
+          <div class="min-w-0">
+            <h2 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">5 Kampanye Sukses</h2>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Progres: 2 / 5 (+Rp 400)</p>
+          </div>
+          <span class="px-gutter-sm py-gutter-xs rounded-full bg-btn-yellow text-ink-dark font-headline text-label-sm shrink-0" data-design-text-token="label-sm">40%</span>
+        </article>
+      </section>
+
+      <!-- Tab Panel 2: Collectibles -->
+      <section id="panel-collectibles" aria-label="Daftar koleksi" class="hidden grid grid-cols-2 gap-gutter-sm">
+        <article class="ref-card rounded-xl p-gutter-md flex flex-col items-center text-center gap-gutter-xs">
+          <div data-stitch-img="Piala Megafon Viral" class="w-16 h-16 rounded-lg object-cover border-2 border-gold-bright stitch-img" role="img" aria-label="Piala Megafon Viral"></div>
+          <h2 class="font-headline text-label-lg text-ink-dark" data-design-text-token="label-lg">Megafon Viral</h2>
+          <span class="px-gutter-sm py-gutter-xs rounded-full bg-success text-light-surface-bright font-headline text-label-sm" data-design-text-token="label-sm">Dimiliki</span>
+        </article>
+
+        <article class="ref-card rounded-xl p-gutter-md flex flex-col items-center text-center gap-gutter-xs">
+          <div data-stitch-img="Peti Cuan Pertama" class="w-16 h-16 rounded-lg object-cover border-2 border-gold-bright stitch-img" role="img" aria-label="Peti Cuan Pertama"></div>
+          <h2 class="font-headline text-label-lg text-ink-dark" data-design-text-token="label-lg">Cuan Pertama</h2>
+          <span class="px-gutter-sm py-gutter-xs rounded-full bg-success text-light-surface-bright font-headline text-label-sm" data-design-text-token="label-sm">Dimiliki</span>
+        </article>
+
+        <article class="ref-card rounded-xl p-gutter-md flex flex-col items-center text-center gap-gutter-xs">
+          <div class="w-16 h-16 rounded-lg bg-dock-bg border-2 border-slate-300 flex items-center justify-center">
+            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="6" y="11" width="12" height="9" rx="2" fill="#94A3B8" stroke="#1E1B2E" stroke-width="2"></rect>
+              <path d="M8 11V8C8 5.8 9.8 4 12 4C14.2 4 16 5.8 16 8V11" stroke="#1E1B2E" stroke-width="2"></path>
+            </svg>
+          </div>
+          <h2 class="font-headline text-label-lg text-ink-dark" data-design-text-token="label-lg">Centang Biru</h2>
+          <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">10rb Followers</span>
+        </article>
+
+        <article class="ref-card rounded-xl p-gutter-md flex flex-col items-center text-center gap-gutter-xs">
+          <div class="w-16 h-16 rounded-lg bg-dock-bg border-2 border-slate-300 flex items-center justify-center">
+            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="6" y="11" width="12" height="9" rx="2" fill="#94A3B8" stroke="#1E1B2E" stroke-width="2"></rect>
+              <path d="M8 11V8C8 5.8 9.8 4 12 4C14.2 4 16 5.8 16 8V11" stroke="#1E1B2E" stroke-width="2"></path>
+            </svg>
+          </div>
+          <h2 class="font-headline text-label-lg text-ink-dark" data-design-text-token="label-lg">VIP Kopi Senja</h2>
+          <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">3x Kampanye</span>
+        </article>
+      </section>
+
+    </main>
+  </div>

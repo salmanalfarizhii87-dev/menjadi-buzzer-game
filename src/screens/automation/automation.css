@@ -1,0 +1,163 @@
+/* Layar Automation Upgrade. */
+
+.upgrade-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  background: var(--color-panel);
+  border: var(--border-thin) solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+}
+
+.upgrade-card--max {
+  background: var(--color-panel-sunken);
+}
+
+.upgrade-card__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.upgrade-card__title {
+  font-family: var(--font-display);
+  font-size: var(--text-md);
+  font-weight: var(--weight-bold);
+  color: var(--color-text);
+}
+
+.upgrade-card__desc {
+  font-size: var(--text-xs);
+  line-height: var(--leading-snug);
+  color: var(--color-text-muted);
+}
+
+.upgrade-card__level {
+  flex-shrink: 0;
+  padding: var(--space-1) var(--space-2);
+  font-family: var(--font-numeric);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-inverse);
+  background: var(--color-text);
+  border-radius: var(--radius-pill);
+}
+
+.upgrade-card__level--max {
+  background: var(--color-gold-700);
+}
+
+/* Preview sebelum/sesudah */
+.upgrade-preview {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  background: var(--color-panel-sunken);
+  border: var(--border-hairline) solid var(--color-border-soft);
+  border-radius: var(--radius-sm);
+}
+
+.upgrade-preview__col {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.upgrade-preview__label {
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-medium);
+  color: var(--color-text-muted);
+}
+
+.upgrade-preview__value {
+  font-family: var(--font-numeric);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text);
+}
+
+.upgrade-preview__value--after {
+  color: var(--color-brand-700);
+}
+
+.upgrade-preview__arrow {
+  display: grid;
+  place-items: center;
+  color: var(--color-text-muted);
+}
+
+.upgrade-preview__arrow svg {
+  width: 16px;
+  height: 16px;
+}
+
+.upgrade-card__cost-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  color: var(--color-text);
+}
+
+.upgrade-card__cost {
+  font-family: var(--font-numeric);
+  font-variant-numeric: tabular-nums;
+}
+
+.upgrade-card__cost--unaffordable {
+  color: var(--color-danger-600);
+}
+
+.upgrade-card__note {
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-medium);
+  color: var(--color-danger-600);
+}
+
+.upgrade-card__note--muted {
+  color: var(--color-text-muted);
+}
+
+/* Ringkasan saldo di atas */
+.automation-summary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-2);
+}
+
+.automation-summary__cell {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: var(--space-3);
+  background: var(--color-panel-sunken);
+  border: var(--border-hairline) solid var(--color-border-soft);
+  border-radius: var(--radius-sm);
+}
+
+.automation-summary__label {
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-medium);
+  color: var(--color-text-muted);
+}
+
+.automation-summary__value {
+  font-family: var(--font-numeric);
+  font-size: var(--text-md);
+  font-weight: var(--weight-bold);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text);
+}
+
+.automation-summary__value--positive {
+  color: var(--color-brand-700);
+}

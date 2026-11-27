@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario>
+        <dialog karakter="2" ekspresi="idle" alignY="0.5f" y="-120" animasi="1.2" formatType="jasteen_beliitem_namabarang">Ngomong-ngomong...&#10;%1$s milikmu kelihatannya bagus..</dialog>
+        <pilihan alignY="0.5f" y="-120" ekspresi="bertanya" formatType="jasteen_beliitem">
+            <dialog>%1$s-mu aku beli seharga %2$s koin mars, boleh yaa?</dialog>
+            <buttons>
+                <button analytics="JASTEEN_BELI_YES" tipe="btnDelegate" idAksi="jasteen_beliitem_iya" image="UI_baru/ui_btn_normal_ijo.png" text="Boleh"/>
+                <button analytics="JASTEEN_BELI_NO" tipe="btnDelegate" idAksi="jasteen_beliitem_tidak" image="UI_baru/ui_btn_normal_merah.png" text="Jangan.."/>
+                <!--<button tipe="nextPopUp" image="UI_baru/ui_btn_normal_merah.png" text="Jangan..">popup/jasteen_belibarang_tidak.xml</button>-->
+            </buttons>
+        </pilihan>
+
+    </skenario>
+</resources>

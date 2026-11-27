@@ -1,0 +1,346 @@
+<resources>
+
+    <menu_bawah>
+        <item>Mobil</item>
+        <item>Bahan</item>
+        <item>Promo</item>
+        <item>Spesial</item>
+        <item>Statistik</item>
+    </menu_bawah>
+
+    <!--//04242019-sher ubah %1$s <-> %1$d, ubah \n jadi &#10;-->
+    <loker>
+        <item id="0" image="icon/icon marketing karakter/ic_mulut ke mulut.png">
+            <nama>Mouth to Mouth</nama>
+            <textLabel>Get %1$s - %2$s applications in %3$s min!</textLabel>
+            <deskripsi>Affordable and Effective!&#10;This method of recruitment is always work since ancient times!&#10;&#10;Cost: %1$s coins&#10;Amount Applicant: %2$d-%3$d People&#10;Duration: %4$s minutes</deskripsi>
+            <harga>1200000000</harga>
+        </item>
+
+        <item id="1" image="icon/icon marketing karakter/ic_koran.png">
+            <nama>Newspaper</nama>
+            <textLabel>Get %1$s - %2$s applications in %3$s hour!</textLabel>
+            <deskripsi>Putting an advertisement in local newspaper will help the recruitment offer spread faster.&#10;&#10;Cost: %1$s coins&#10;Amount Applicant: %2$d-%3$d People&#10;Duration: %4$s hour</deskripsi>
+            <harga>10000000000</harga>
+        </item>
+
+        <item id="2" image="icon/icon marketing karakter/ic_online.png">
+            <nama>Online</nama>
+            <textLabel>Get %1$s - %2$s applications in %3$s hour!</textLabel>
+            <deskripsi>This is an online age!&#10;Let's put an online ads job ads and get more job applications!&#10;&#10;Cost: %1$s coins&#10;Amount Applicant: %2$d-%3$d People&#10;Duration: %4$s hour</deskripsi>
+            <harga>100000000000</harga>
+        </item>
+
+        <item id="3" image="icon/icon marketing karakter/ic_jobfair.png">
+            <nama>Job Fair</nama>
+            <textLabel>Get %1$s - %2$s applications instantly!</textLabel>
+            <deskripsi>Elegant and prestigious!&#10;Open a booth in the Job Fair and show your Round Tofu business to the world!&#10;(Note: This is a premium option)&#10;&#10;Cost: %1$s coins&#10;Amount Applicant: %2$d-%3$d People&#10;Duration: %4$s hour</deskripsi>
+            <harga>IDR 15,000</harga>
+        </item>
+    </loker>
+
+    <penjual>
+        <item id="AkangTahu">
+            <nama>Akang Tahu</nama>
+            <deskripsi>Do not have any special ability</deskripsi>
+            <alasan>Want to realize my dream to be a successful businessman!</alasan>
+        </item>
+        <item id="KakakBaikHati">
+            <nama>Kind Sis</nama>
+            <deskripsi>Little Girl's Transaction x %1$s</deskripsi>
+            <alasan>Need part-time job to pay tuition fee</alasan>
+        </item>
+        <item id="PelatihBola">
+            <nama>Soccer Trainer</nama>
+            <deskripsi>Soccer Boy's Transaction x %1$s</deskripsi>
+            <alasan>Make sure the soccer boy don't skip soccer practice while searching for extra money</alasan>
+        </item>
+        <item id="Santa">
+            <nama>Santa</nama>
+            <deskripsi>Children's Transaction x %1$s at Bandung</deskripsi>
+            <alasan>Selling round tofu while surveying children's favorite gifts</alasan>
+        </item>
+        <item id="GamerSejati">
+            <nama>Gamer</nama>
+            <deskripsi>High School Student's Transaction x %1$s</deskripsi>
+            <alasan>Getting salary from being a Round Tofu Seller while playing VR</alasan>
+        </item>
+        <item id="ArtisImpor">
+            <nama>Imported Actor</nama>
+            <deskripsi>Socialite's Transaction x %1$s</deskripsi>
+            <alasan>Want to be more popular all around the world</alasan>
+        </item>
+        <item id="Investor">
+            <nama>Investor</nama>
+            <deskripsi>Businessman's Transaction x %1$s</deskripsi>
+            <alasan>Learn more about rapid growth of Round Tofu business.</alasan>
+        </item>
+        <item id="Montir">
+            <nama>Mechanic</nama>
+            <deskripsi>Reduce Biketruck's price for %1$s %%</deskripsi>
+            <alasan>Interested in the mechanic of Round Tofu vehicle.</alasan>
+        </item>
+        <item id="FansTako">
+            <nama>Tako's Fans</nama>
+            <deskripsi>Tako's Friend's Transaction x %1$s</deskripsi>
+            <alasan>Tako's fans from long long time ago, when Tako have not been created (?)</alasan>
+        </item>
+        <item id="IbuGuru">
+            <nama>Teacher</nama>
+            <deskripsi>Children's Transaction x %1$s</deskripsi>
+            <alasan>Teaching children to use grammar correctly while selling Round Tofu</alasan>
+        </item>
+        <item id="TourGuide">
+            <nama>Tour Guide</nama>
+            <deskripsi>Adult's Transaction x %1$s</deskripsi>
+            <alasan>Have used the best sun screen and ready to be Round Tofu seller!</alasan>
+        </item>
+        <item id="Bankir">
+            <nama>Banker</nama>
+            <deskripsi>Reduce transfer cost for %1$s %%</deskripsi>
+            <alasan>Using the expertise in making book keeping and financein Round Tofu business</alasan>
+        </item>
+        <item id="Ajumma">
+            <nama>Ajumma</nama>
+            <deskripsi>Children's Transaction x %1$s</deskripsi>
+            <alasan>Want to meet many children in her grandchildren's age</alasan>
+        </item>
+        <item id="SatpamElit">
+            <nama>Elite Guard</nama>
+            <deskripsi>Special Character's Transaction x %1$s at night</deskripsi>
+            <alasan>Will make Round Tofu's customers feel safe to come, especially at night!</alasan>
+        </item>
+        <item id="AkangBaru">
+            <nama>New Akang</nama>
+            <deskripsi>Reduce speaker price for %1$s %%</deskripsi>
+            <alasan>Akang Tahu with new spirit!</alasan>
+        </item>
+        <item id="Koki">
+            <nama>Mr. Chef</nama>
+            <deskripsi>Special Character's Transaction x %1$s</deskripsi>
+            <alasan>Looking for new experience by selling food for more people</alasan>
+        </item>
+        <item id="ArtisKPop">
+            <nama>Korean Superstar</nama>
+            <deskripsi>Special Character's Transaction x %1$s</deskripsi>
+            <alasan>Want to try selling the fans' favorite food</alasan>
+        </item>
+        <item id="PendakiGunung">
+            <nama>Hiker</nama>
+            <deskripsi>Tap multiplier x %1$s</deskripsi>
+            <alasan>Taking a rest from hiking while selling round tofu</alasan>
+        </item>
+        <item id="Robot">
+            <nama>Robot</nama>
+            <deskripsi>Children Transaction x %1$s at Japan</deskripsi>
+            <alasan>A robot that was made in Japan, and was programmed to sell Round Tofu</alasan>
+        </item>
+        <item id="AkangPangeran">
+            <nama>Prince Akang</nama>
+            <deskripsi>Special Character's Transaction x %1$s at Dubai</deskripsi>
+            <alasan>Handsome Prince want to help selling Round Tofu at Dubai</alasan>
+        </item>
+        <item id="Cosplayer">
+            <nama>Cosplayer</nama>
+            <deskripsi>Special Character's Transaction x %1$s</deskripsi>
+            <alasan>Looking for additional money while doing hobby: Cosplay!</alasan>
+        </item>
+    </penjual>
+
+    <resep>
+        <item id="Tahu Putih"><title>Tofu</title><desk>Increase tofu price for %1$s coins</desk><info>The main ingredient of round tofu is square tofu.&#10;&#10;Upgrade Tofu to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Telur"><title>Egg</title><desk>Increase tofu price for %1$s coins</desk><info>Which came first, the egg or the chicken?&#10;Of course, egg came first to make Round Tofu!&#10;&#10;Upgrade Egg to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Minyak Goreng"><title>Cooking Oil</title><desk>Increase tofu price for %1$s coins</desk><info>There will be no fried Round Tofu if you don't have Cooking Oil!&#10;&#10;Upgrade Cooking Oil to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Terigu"><title>Flour</title><desk>Increase tofu price for %1$s coins</desk><info>Wheat is processed into flour. Flour is processed into round tofu!&#10;&#10;Upgrade Flour to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Bumbu"><title>Spice</title><desk>Increase tofu price for %1$s coins</desk><info>Includes 9 secret spices that are known only&#10;by Round Tofu Guy xD&#10;&#10;Upgrade Spice to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Keju"><title>Cheese</title><desk>Increase tofu price for %1$s coins</desk><info>Why do people say Cheese&#10;before they take a photo?&#10;Because cheese can make you smile!&#10;&#10;Upgrade Cheese to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Saus BBQ"><title>BBQ Sauce</title><desk>Increase tofu price for %1$s coins</desk><info>BBQ sauce is usually used to flavor meat dish, but it can be used for Round Tofu too!&#10;&#10;Upgrade BBQ Sauce to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Cengek"><title>Chili</title><desk>Increase tofu price for %1$s coins</desk><info>An ingredient that is used to heat up the dish.&#10;Beware, you can be so hot after eating chili!&#10;&#10;Upgrade Chili to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Sambal Ijo"><title>Green Chili</title><desk>Increase tofu price for %1$s coins</desk><info>Green Chili is known as complementary hot sauce for Nasi Padang from Indonesia!&#10;&#10;Upgrade Green Chili to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Sambal Oncom"><title>Oncom Chili</title><desk>Increase tofu price for %1$s coins</desk><info>Oncom is a famous ingredient from Indonesia that can be processed into various types of food, like this Oncom Chili!&#10;&#10;Upgrade Oncom Chili to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Kuah Kari"><title>Curry Soup</title><desk>Increase tofu price for %1$s coins</desk><info>No one can resist curry soup aroma, mixture of hot and salty flavour!&#10;&#10;Upgrade Curry Soup to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Petai"><title>Bitter Bean</title><desk>Increase tofu price for %1$s coins</desk><info>Have you smelled bitter bean dish before?&#10;It has a unique aroma that is liked many people!&#10;&#10;Upgrade Bitter Bean to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Air Jeruk"><title>Orange Juice</title><desk>Increase tofu price for %1$s coins for %2$s hours!</desk><info>The customers want something fresh to enjoy their day in the evening.&#10;Let's offer them your Orange Juice!&#10;&#10;Orange Juice will increase tofu price for %1$s for %2$s hours!</info></item>
+        <item id="Es Cendol"><title>Cendol</title><desk>Increase tofu price for %1$s coins for %2$s hours!</desk><info>Special for Ramadan! Round Tofu Guy provides Cendol for all customers!&#10;Let's offer them your Cendol!&#10;&#10;Cendol will increase tofu price for %1$s for %2$s hours!</info></item>
+        <item id="Tahu Putih Con"><title>Tofu</title><desk>Increase tofu price for %1$s coins</desk><info>The main ingredient of round tofu is square tofu.&#10;&#10;Upgrade Tofu to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Telur Con"><title>Egg</title><desk>Increase tofu price for %1$s coins</desk><info>Which came first, the egg or the chicken?&#10;Of course, egg came first to make Round Tofu!&#10;&#10;Upgrade Egg to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Minyak Goreng Con"><title>Cooking Oil</title><desk>Increase tofu price for %1$s coins</desk><info>There will be no fried Round Tofu if you don't have Cooking Oil!&#10;&#10;Upgrade Cooking Oil to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Terigu Con"><title>Flour</title><desk>Increase tofu price for %1$s coins</desk><info>Wheat is processed into flour. Flour is processed into round tofu!&#10;&#10;Upgrade Flour to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Bumbu Con"><title>Spice</title><desk>Increase tofu price for %1$s coins</desk><info>Includes 9 secret spices that are known only by Round Tofu Guy xD&#10;&#10;Upgrade Spice to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Keju Con"><title>Cheese</title><desk>Increase tofu price for %1$s coins</desk><info>Why do people say Cheese before they take a photo?&#10;Because cheese can make you smile!&#10;&#10;Upgrade Cheese to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Creme Tofu"><title>Creme Tofu</title><desk>Increase tofu price for %1$s coins</desk><info>Long eclair that is made from tofu xD&#10;&#10;Upgrade Tofu Eclair to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Tofu Eclair"><title>Tofu Eclair</title><desk>Increase tofu price for %1$s coins</desk><info>Long eclair that is made from tofu xD&#10;&#10;Upgrade Tofu Eclair to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Religieuse"><title>Religieuse</title><desk>Increase tofu price for %1$s coins</desk><info>Let's call it Stacked Cake!&#10;&#10;Upgrade Religieuse to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Paris Brest "><title>Paris Brest </title><desk>Increase tofu price for %1$s coins</desk><info>This pastry was made for you, sweet lovers!&#10;&#10;Upgrade Paris Brest to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Croquembouche"><title>Croquembouche</title><desk>Increase tofu price for %1$s coins</desk><info>Tofu Cone? It is Croquembouche! xD&#10;&#10;Upgrade Croquembouche to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Mille Feuille"><title>Mille Feuille</title><desk>Increase tofu price for %1$s coins</desk><info>These layers of sweet cake can make your day! &#10;&#10;Upgrade Mille Feuille to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Lait Soja"><title>Lait Soja</title><desk>Increase tofu price for %1$s coins</desk><info>Can you guess what it is by its name?&#10;It is Soy Milk xD&#10;Let's offer them Lait Soja!&#10;&#10;Lait Soja will increase tofu price for %1$s for %2$s hours!</info></item>
+        <item id="Ganjang"><title>Ganjang</title><desk>Increase tofu price for %1$s coins</desk><info>Korean Soy Sauce, let's call it Ganjang!&#10;&#10;Upgrade Ganjang to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Doenjang"><title>Doenjang</title><desk>Increase tofu price for %1$s coins</desk><info>Similar but not the same with Ganjang. This sauce is more salty!&#10;&#10;Upgrade Doenjang to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Gochujang"><title>Gochujang</title><desk>Increase tofu price for %1$s coins</desk><info>Gochujang's color is so red and spicy, but it also tastes sweet!&#10;&#10;Upgrade Gochujang to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Gimbap"><title>Kimbap</title><desk>Increase tofu price for %1$s coins</desk><info>Rice that is rolled with seaweed, we called it Kimbap!&#10;&#10;Upgrade Kimbap to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Kimchi"><title>Kimchi</title><desk>Increase tofu price for %1$s coins</desk><info>Famous Spicy Korean Salad!&#10;&#10;Upgrade Kimchi to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Sujeonggwa"><title>Sujeonggwa</title><desk>Increase tofu price for %1$s coins for %2$s hours!</desk><info>These dried persimmon drinks are very popular in Korea~&#10;Let's offer them your Sujeonggwa!&#10;&#10;Sujeonggwa will increase tofu price for %1$s for %2$s hours!</info></item>
+        <item id="Nori"><title>Nori</title><desk>Increase tofu price for %1$s coins</desk><info>Seaweed is a weed that comes from the sea.&#10;Japanese people called it Nori!&#10;&#10;Upgrade Nori to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Saos Teriyaki"><title>Teriyaki Sauce</title><desk>Increase tofu price for %1$s coins</desk><info>One of the most populer sauce in Japan, Teriyaki Sauce!&#10;&#10;Upgrade Teriyaki Sauce to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Takoyaki"><title>Takoyaki</title><desk>Increase tofu price for %1$s coins</desk><info>Does Takoyaki named Takoyaki because Tako like it or Tako named Tako because he likes Takoyaki?&#10;&#10;Upgrade Takoyaki to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Wasabi"><title>Wasabi</title><desk>Increase tofu price for %1$s coins</desk><info>The aroma and the taste is spicy, but wasabi can be a great flavoring!&#10;&#10;Upgrade Wasabi to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Sushi"><title>Sushi</title><desk>Increase tofu price for %1$s coins</desk><info>Sushi is originally from Japan, but now you can find sushi everywhere!&#10;&#10;Upgrade Sushi to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Sup Miso"><title>Miso Soup</title><desk>Increase tofu price for %1$s coins</desk><info>With simple ingredients, Miso soup can give you a rich flavour!&#10;&#10;Upgrade Miso Soup to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Sashimi"><title>Sashimi</title><desk>Increase tofu price for %1$s coins</desk><info>Sashimi is raw fish that are eaten while they are still fresh!&#10;&#10;Upgrade Sashimi to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Ocha"><title>Ocha</title><desk>Increase tofu price for %1$s coins for %2$s hours!</desk><info>The aroma of Ocha, or Japanese Tea, can calm you down..&#10;Let's offer them your Ocha!&#10;&#10;Ocha will increase tofu price for %1$s for %2$s hours!</info></item>
+        <item id="Keju Belanda"><title>Cheese</title><desk>Increase tofu price for %1$s coins</desk><info>Why do people say Cheese before they take a photo?&#10;Because cheese can make you smile!&#10;&#10;Upgrade Cheese to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Poffertjes"><title>Poffertjes</title><desk>Increase tofu price for %1$s coins</desk><info>A small pancake? No! It is Poffertjes, original cake from Netherlands!&#10;&#10;Upgrade Poffertjes to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Stroopwafel"><title>Stroopwafel</title><desk>Increase tofu price for %1$s coins</desk><info>Stroop means syrup, wafel means wafel. So, Stroopwafel means waffle with syrup inside.&#10;&#10;Upgrade Stroopwafel to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Bitterballen"><title>Bitterballen</title><desk>Increase tofu price for %1$s coins</desk><info>Bitterballen looks like kroket, but they have different filling. Bitterballen is filled with meat.&#10;&#10;Upgrade Bitterballen to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Kroketten"><title>Kroketten</title><desk>Increase tofu price for %1$s coins</desk><info>Larger than Bitterballen, Kroketten are usually filled with mashed potato.&#10;&#10;Upgrade Kroketten to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Nieuweharing"><title>Nieuweharing</title><desk>Increase tofu price for %1$s coins</desk><info>Raw herring that is specially processed to be eaten.&#10;&#10;Upgrade Nieuweharing to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Stamppot"><title>Stamppot</title><desk>Increase tofu price for %1$s coins</desk><info>Stamppot, not steampot! xD&#10;Stamppot is one of potato dishes from Netherlands!&#10;&#10;Upgrade Stamppot to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Anijsmelk"><title>Anijsmelk</title><desk>Increase tofu price for %1$s coins for %2$s hours!</desk><info>A delicious warm milk from Netherlands!/nLet's offer them your Anijsmelk!&#10;&#10;Anijsmelk will increase tofu price for %1$s for %2$s hours!</info></item>
+        <item id="Kurma"><title>Date</title><desk>Increase tofu price for %1$s coins</desk><info>Date is so popular during Ramadan. It can be used to make Round Tofu too!&#10;&#10;Upgrade Date to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Hummus"><title>Hummus</title><desk>Increase tofu price for %1$s coins</desk><info>Made from chickpea, this porridge-look-alike dish is good for your health too!&#10;&#10;Upgrade Hummus to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Alharees"><title>Alharees</title><desk>Increase tofu price for %1$s coins</desk><info>Alharees is made from wheat that is soaked overnight and cooked with meat~&#10;&#10;Upgrade Alharees to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Shawarma"><title>Shawarma</title><desk>Increase tofu price for %1$s coins</desk><info>Shawarma, or we know it as Kebab, is one of the world's most popular street foods.&#10;&#10;Upgrade Shawarma to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Kousamashi"><title>Kousamashi</title><desk>Increase tofu price for %1$s coins</desk><info>Guess where is it come from? Japan? Nope, it comes from Arab!&#10;&#10;Upgrade Kousamashi to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Ashreshteh"><title>Ashreshteh</title><desk>Increase tofu price for %1$s coins</desk><info>A noodle dish with Dubai touch.&#10;&#10;Upgrade Ashreshteh to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Falafel"><title>Falafel</title><desk>Increase tofu price for %1$s coins</desk><info>Both of round tofu and falafel are round, but falafel is made from chickpeas.&#10;&#10;Upgrade Falafel to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Tamrhindi"><title>Tamrhindi</title><desk>Increase tofu price for %1$s coins for %2$s hours!</desk><info>Using tamarind as the main ingredients, Tamrhindi is liked by many people!/nLet's offer them your Tamrhindi!&#10;&#10;Tamrhindi will increase tofu price for %1$s for %2$s hours!</info></item>
+        <item id="Biji-Bijian Purba"><title>Ancient Seeds</title><desk>Increase tofu price for %1$s coins</desk><info>It looks like sunflower seed. Are sunflower seed that old??&#10;&#10;Upgrade Ancient Seeds to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Kacang Purba"><title>Ancient Nuts</title><desk>Increase tofu price for %1$s coins</desk><info>It may looks green, but it is not mung beans!&#10;&#10;Upgrade Ancient Nuts to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Kastanye Purba"><title>Ancient Chestnut</title><desk>Increase tofu price for %1$s coins</desk><info>Behind its shiny looks, chestnut is covered with thorns in its tree. &#10;&#10;Upgrade Ancient Chestnut to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Jamur Purba"><title>Ancient Mushroom</title><desk>Increase tofu price for %1$s coins</desk><info>Make sure it is not a poisoned mushroom....&#10;&#10;Upgrade Ancient Mushroom to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Ikan Purba"><title>Ancient Fish</title><desk>Increase tofu price for %1$s coins</desk><info>Not all ancient fish are big and scary. This fish is small, and...tasty!&#10;&#10;Upgrade Ancient Fish to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Daging Purba"><title>Ancient Meat</title><desk>Increase tofu price for %1$s coins</desk><info>Is it ancient animal's meat? Or is it dinosaur's meat? No one knows....&#10;&#10;Upgrade Ancient Meat to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Tetesan Embun"><title>Morning Dew</title><desk>Increase tofu price for %1$s coins for %2$s hours!</desk><info>Enjoying morning dew after eating round tofu seems fun!/nLet's offer them Morning Dew!&#10;&#10;Morning Dew will increase tofu price for %1$s for %2$s hours!</info></item>
+        <item id="Ketan Hitam"><title>Black Glutinous Rice</title><desk>Increase tofu price for %1$s coins</desk><info>Dark and sweet, two words that describe the black glutinous rice the most!&#10;&#10;Upgrade Black Glutinous Rice to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Leupeut"><title>Lepat</title><desk>Increase tofu price for %1$s coins</desk><info>Javanese sticky rice dumpling wrapped with young coconut leaf.&#10;&#10;Upgrade Lepat to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Wajik"><title>Wajik</title><desk>Increase tofu price for %1$s coins</desk><info>This snack came from ancient palace in Indonesia and it is still popular until now..&#10;&#10;Upgrade Wajik to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Weas Paripurna"><title>Weas Paripurna</title><desk>Increase tofu price for %1$s coins</desk><info>Stacks of different color rice and arranged according to the wind direction!&#10;&#10;Upgrade Weas Paripurna to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Jukut Harsyam"><title>Jukut Harsyam</title><desk>Increase tofu price for %1$s coins</desk><info>One of the favorite food in Majapahit era, duck soup that is cooked with banana!&#10;&#10;Upgrade Jukut Harsyam to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Telur Pindang"><title>Marble Egg</title><desk>Increase tofu price for %1$s coins</desk><info>This brown egg is named Marble Egg because its texture looks like marble. &#10;&#10;Upgrade Marble Egg to increase tofu price for %1$s coins!&#10;&#10;Tofu Price: %2$s -> %3$s</info></item>
+        <item id="Serbat"><title>Serbat</title><desk>Increase tofu price for %1$s coins</desk><info>Serbat can warm your body. It uses a lot of spices as ingredients./nLet's offer them Serbat!&#10;&#10;Serbat will increase tofu price for %1$s for %2$s hours!</info></item>
+    </resep>
+
+
+    <mobil>
+        <item id="Speaker"><title>Speaker</title><first_desk>Increase tap multiplier&#10;for 0.1</first_desk><desk>Tap Multiplier: %1$s</desk><info>Speaker is the most important thing to invite the customers!&#10;&#10;Increase the number of Round Tofus purchased by normal customer&#10;from %1$s to %2$s pieces by upgrading this speaker!</info></item>
+        <item id="Speaker Emas"><title>Golden Speaker</title><first_desk>Increase tap multiplier&#10;for 0.1</first_desk><desk>Tap Multiplier: %1$s</desk><info>Make your car looks luxurious even from far away with this Golden Speaker!&#10;&#10;Upgrade your speaker to increase the number of Round Tofus purchased by normal customer from %1$s to %2$s pieces!</info></item>
+        <item id="Speaker Jumbo"><title>Speaker [J]</title><first_desk>Increase tap multiplier&#10;for 0.1</first_desk><desk>Tap Multiplier: %1$s</desk><info>Use larger and louder speaker&#10;to invite the customers!&#10;&#10;Upgrade your Speaker [J] to increase the number of Round Tofus purchased by normal customer from %1$s to %2$s pieces!</info></item>
+        <item id="Speaker Jumbo Emas"><title>Golden Speaker [J]</title><first_desk>Increase tap multiplier&#10;for 0.1</first_desk><desk>Tap Multiplier: %1$s</desk><info>Big and glittering. That is Golden Speaker [J]!&#10;&#10;This speaker will increase the number of Round Tofus purchased by normal customer&#10;from %1$s to %2$s pieces!</info></item>
+
+        <item id="Panci Biasa"><title>Normal Pan</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>You can't fry Round Tofus without a pan!&#10;Here you go, a normal pan!&#10;&#10;Upgrade this pan to make the customer come faster for %1$s seconds!</info></item>
+        <item id="Panci Melamin"><title>Nonstick Pan</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>This nonstick pan is designed to spread the heat better and spread tasty Round Tofu's aroma that may attract customers faster!&#10;&#10;Make the customers come faster for&#10;%1$s seconds more by upgrading your pan!</info></item>
+        <item id="Panci Emas"><title>Golden Pan</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>This Golden Pan is custom made for&#10;a highly dedicated Round Tofu businessman&#10;in the world!&#10;&#10;Upgrade your pan to make the customers come %1$s second faster!</info></item>
+        <item id="Tenda Biru"><title>Blue Tent</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>Install a tent and make your car more comfortable!&#10;&#10;Increase your tent to make the customers come faster by % $s seconds!</info></item>
+        <item id="Tenda Festival"><title>Festive Tent</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>Make your Round Tofu business more attractive by upgrading this festive tent!&#10;&#10;Attract the customers %1$s second faster and be the more successful Round Tofu Businessman!</info></item>
+        <item id="Tenda Kastil"><title>Castle Tent</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>Make your shop looks majestic and different than the competitors with this medieval-themed tent!&#10;&#10;Attract the customers %1$s second faster and be the more successful Round Tofu Businessman by upgrading this Castle Tent!</info></item>
+        <item id="Tenda Kastil Emas"><title>Golden Castle Tent</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>What makes your Round Tofu Empire different than other Round Tofu empire?&#10;The Golden Castle of course!!&#10;&#10;Attract the customers %1$s second faster and be the most successful Round Tofu Businessman!</info></item>
+        <item id="Tenda Ijuk"><title>Ijuk Tent</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>Install a tent and make your car more comfortable!&#10;&#10;Increase your tent to make the customers come faster by % $s seconds!</info></item>
+        <item id="Tenda Bambu"><title>Bamboo Tent</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>Show more Indonesian culture with this beautiful Bamboo tent.&#10;&#10;Attract the customer %1$s second faster and be the more successful Round Tofu Businessman by upgrading Bamboo Tent!</info></item>
+        <item id="Tenda Kayu"><title>Wood Tent</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>Increase the beauty of your Round Tofu business. Use this Wood Tent handcraft original from Jepara.&#10;&#10;Attract the customer %1$s second faster and be the more successful Round Tofu Businessman!</info></item>
+        <item id="Tenda Jati"><title>Jati Tent</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>Strengthen your Round Tofu business like this Jati wood. Upgrade this Jati Tent with brave bird sculpture!&#10;&#10;Attract the customer %1$s second faster and be the more successful Round Tofu Businessman!</info></item>
+        <item id="Pikep"><title>Old Truck</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>This Old Truck will not affect your passion in&#10;Round Tofu business!&#10;&#10;By upgrading this truck, the customers will come %1$s seconds faster!</info></item>
+        <item id="Gren Maks"><title>Grandia Max</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>It looks like your business goes well. How about using Grandia Max model?&#10;&#10;Make the customers come %1$s second faster by upgrading this car!</info></item>
+        <item id="Hiluks"><title>Hiluks</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>With the cool metallic blue color, this brand new luxury truck will make your business goes better!&#10;&#10;They will come %1$s faster to buy your Round Tofu by upgrading this car!</info></item>
+        <item id="Hiluks Jkt"><title>Hiluks</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>With the hot metallic red color, this brand new luxury truck will make your business goes better than before!&#10;&#10;The customers will come %1$s faster to buy your Round Tofu after you upgrade this truck!</info></item>
+        <item id="Hiluks Bali"><title>Hiluks</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>With the balinese characteristic color, this brand new luxury truck will make your business goes better!&#10;&#10;They will come %1$s faster to buy your Round Tofu by upgrading this car!</info></item>
+        <item id="Hiluks Jogja"><title>Hiluks</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>With traditional wood carving, this brand new truck will make your business goes better!&#10;&#10;They will come %1$s faster to buy your Round Tofu by upgrading this car!</info></item>
+        <item id="Alfred"><title>Alfred</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>Solid and Strong! Use this modificated luxury car to sell your Round Tofu!&#10;&#10;Make the customers come %1$s second faster by upgrading this luxury car!</info></item>
+        <item id="Motor Bak Matic"><title>Scooter Biketruck</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>This Scooter Biketruck will not affect your passion in Round Tofu business!&#10;&#10;By upgrading this biketruck, the customers will come %1$s seconds faster!</info></item>
+        <item id="Motor Bak Kopling"><title>Manual Biketruck</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>Make your Round Tofu business more attractive by using this cool Manual Biketruck! &#10;&#10;Make the customer comes %1$s second faster by upgrading this Manual Biketruck!</info></item>
+        <item id="Motor Bak RBC"><title>RBC Biketruck</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>The latest model of RBC Biketruck! Make your business looks more cool just like in the popular TV drama across the nation!&#10;&#10;Upgrade this Biketruck to make the customers come %1$s second faster!</info></item>
+        <item id="Motor Bak WMB"><title>WMB Biketruck</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>WMB Biketruck brings elegance and sporty touch to your business at the same time. Make your customers more confident to buy Round Tofu!&#10;&#10;They will come %1$s second faster if you upgrade this biketruck!</info></item>
+        <item id="PikepLuneg"><title>Old Truck</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>This Old Truck will not affect your passion in Round Tofu business!&#10;&#10;By upgrading this truck, the customers will come %1$s seconds faster!</info></item>
+        <item id="Gren Mega Maks "><title>Mega Grandia Max</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>Your Round Tofu Business in %1$s is growing. This is the right time to promote Indonesian culture with Mega Gren Maks, that is beautifully crafted with Famous Indonesian Batik: Mega Mendung.&#10;&#10;Make the customers come %2$s second faster by upgrading your car!</info></item>
+        <item id="Hiluks Jaipong"><title>Hiluks Jaipong</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>Metalic Green as beautiful as Emerald and decorated with golden wood craft, this Hiluks Jaipong is your best choice to show your identity in %2$s!&#10;&#10;Make the customers come %1$s second faster by upgrading your car!</info></item>
+        <item id="Alfred Naga"><title>Alfred Naga</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>Strong and Powerful, just like a Dragon. This limited edition Alfred Car will show the beauty of Indonesia while selling your Round Tofu in %1$s!&#10;&#10;Make the customer come %2$s second faster by upgrading your car!</info></item>
+        <item id="Mobil Batu"><title>Stone Car</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>This Stone Car will not affect your passion in Round Tofu business in the Stone Age!&#10;&#10;By upgrading this car, the customers will come %1$s seconds faster!</info></item>
+        <item id="Gren Batu"><title>Grand Stone</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>It looks like your business goes well because of using this Grand Stone model.&#10;&#10;Make the customers come %1$s second faster by upgrading this car!</info></item>
+        <item id="Batuluks"><title>Luxtone</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>This Hiluks from the future is decorated with ancient plants and flower. Some parts of the stone also being covered by Ancient Animal's skin for extra luxury!&#10;&#10;Make the customers come %1$s seconds faster by upgrading this car!</info></item>
+        <item id="Alfredino"><title>Alfredino</title><first_desk>Decrease customer delay time for 0.1 second</first_desk><desk>Customer delay time: %1$s second</desk><info>Not only awesome, but also strong like a Dinosaurs!&#10;&#10;Invite the customers %1$s seconds faster by upgrading this dino themed modification from the famous Alphred Car from the future!</info></item>
+
+        <item id="Pelang Biasa"><title>Plain Banner</title>
+            <first_desk>Decrease Tako's Friend&#10;delay time for 0.1 second</first_desk><desk>Tako's Friend delay time: %1$s second</desk><info>This banner will make people know that you are selling round tofu only by taking a short glance to your car!&#10;&#10;It also will bring Tako's Friend to come automatically every %1$s seconds!&#10;&#10;They will buy Round Tofu 2x more than&#10;normal customers.</info></item>
+
+        <item id="Pelang Gambar"><title>Cute Banner</title><first_desk>Decrease Tako's Friend&#10;delay time for 0.1 second</first_desk><desk>Tako's Friend delay time: %1$s second</desk><info>Cute, colorful, with Tako's picture in the bottom right!&#10;&#10;This banner will attract Tako's Friend to come %1$s second faster and buy 2x more than normal customers!</info></item>
+        <item id="Pelang LED"><title>LED Banner</title><first_desk>Decrease Tako's Friend&#10;delay time for 0.1 second</first_desk><desk>Tako's Friend delay time: %1$s second</desk><info>Glittering, animated, and attractive!&#10;This LED banner definitely&#10;will make Tako's friends happy&#10;when they're arround!&#10;&#10;They will come %1$s faster to buy your Round Tofu 2x more than normal customers.</info></item>
+        <item id="Kipas Angin"><title>Fan</title><first_desk>Decrease Tako's Friend&#10;delay time for 0.2 second</first_desk><desk>Tako's Friend delay time: %1$s second</desk><info>Install this fan in the back of your tent.&#10;Be careful and make sure the wind will not get&#10;into the frying pan!&#10;&#10;This fan will attract Tako's friend to come and buy Round Tofu %1$s second faster!&#10;&#10;They will buy Round Tofu 2x more than&#10;normal customers.</info></item>
+        <item id="Kipas Angin x2"><title>Fan x2</title><first_desk>Decrease Tako's Friend&#10;delay time for 0.2 second</first_desk><desk>Tako's Friend delay time: %1$s second</desk><info>2 Fans, 2 times cooler.&#10;Make your customers more comfortable&#10;by installing additional fan&#10;in your tent!&#10;&#10;Make Tako's friends come %1$s second faster and buy 2x more than normal customers&#10;by upgrading this fan!</info></item>
+        <item id="Air Conditioner"><title>Air Conditioner</title><first_desk>Decrease Tako's Friend&#10;delay time for 0.2 second</first_desk><desk>Tako's Friend delay time: %1$s second</desk><info>Air Conditioner on top of the truck?! Wow! Cool! This environmental friendly Air Conditioner will make your customer feel more comfortable while waiting for their orders!&#10;&#10;Make Tako's friend come %1$s second faster by upgrading this air conditioner!</info></item>
+        <item id="TV Hitam Putih"><title>BW TV</title><first_desk>Decrease Tako's Friend&#10;delay time for 0.3 second</first_desk><desk>Tako's Friend delay time: %1$s second</desk><info>This Black and White TV only has News channel. But it somehow can attract Tako's Friends to buy round tofus!&#10;&#10;They will come %1$s second faster if you upgrade this BW TV!&#10;&#10;They will also buy Round Tofu 2x more than&#10;normal customers.</info></item>
+        <item id="TV LED"><title>LED TV</title><first_desk>Decrease Tako's Friend&#10;delay time for 0.3 second</first_desk><desk>Tako's Friend delay time: %1$s second</desk><info>LED TV, full color, and also has cartoon channels! What are you waiting for?&#10;&#10;Make Tako's friends come %1$s second faster by upgrading your this LED TV.&#10;&#10;They will buy round tofus 2x more than&#10;normal customers!</info></item>
+        <item id="TV Layar Lengkung"><title>Curved TV</title><first_desk>Decrease Tako's Friend&#10;delay time for 0.3 second</first_desk><desk>Tako's Friend delay time: %1$s second</desk><info>This Full HD Curved TV adds Sports Channels into your TV! Tako's friends will like it!&#10;&#10;They will come %1$s second faster with this&#10;Curved TV in your car.&#10;&#10;They will also buy 2x more than normal customers!</info></item>
+    </mobil>
+
+    <promo>
+        <item id="Brosur"><title>Brochure</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Do some marketing! Promote your business by spreading this brochure across the cities!&#10;Do it and see the little girls will start coming to buy %1$s Round Tofu every %2$s second!</info></item>
+        <item id="Poster"><title>Poster</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Attach this poster around the soccer field to make the soccer boys visit your store after practice.&#10;Let's start marketing your business with this poster to make the hungry soccer boys come every %1$s second to buy %2$s second!</info></item>
+        <item id="Iklan Socmed"><title>Social Media</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>You are not allowed to post poster in the school!&#10;What should we do?&#10;Let's start Social Media marketing to let your business known by High School Students!&#10;They will buy %1$s tofu every %2$s second!</info></item>
+        <item id="Tabloid Banting"><title>Stars Tabloid</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Purchase the front page of STARS Tabloid, the leading fashion tabloid in the nation!&#10;Make the Socialite come to buy %1$s Round Tofus every %2$s second and make it the new trends!</info></item>
+        <item id="Majalah Waktu"><title>Tima Magazine</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Round Tofu business looks very promising lately.&#10;Become the cover of "TIMA Magazine" and attract Rich Businessman that will come and buy %1$s round tofus every %2$s second!</info></item>
+        <item id="Web Comic"><title>Web Comic</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Aksa, an ordinary boy with extraordinary mission from "Innaria" webcomic. Along with Tako, they try to save those infected by 'Boredom'.&#10;Invite Aksa to buy %1$s tofu every %2$s second by promoting your business in the webcomic!</info></item>
+        <item id="Mapag Penganten"><title>Mapag Penganten</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Ki Lengser and Si Nini is the main role of Mapag Penganten, Sundanese traditional event. It looks like they are on their way to the event.&#10;Let's promote our round tofu to make them come and buy %1$s tofu every %2$s second.</info></item>
+        <item id="Festival"><title>Festival</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Become the sponsor of Jakarta Culture Festival!&#10;This campaign will make Ondel-ondel come to purchase %1$s round tofus every %2$s second!</info></item>
+        <item id="Festival Keraton"><title>Keraton Festival</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Become the sponsor of Indonesian Keraton Festival!&#10;This campaign will make Abdi Dalem from Keraton Yogyakarta come to purchase %1$s round tofus every %2$s second!</info></item>
+        <item id="Festival Falconry"><title>Dubai Falconry Event</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Dubai Sultan likes to do Falconry, using Falcon to hunt, on their free time. It looks like he is so hungry waiting for his falcon to catch a prey.&#10;Let's promote our round tofu to make Sultan come and buy %1$s tofu every %2$s second!</info></item>
+        <item id="Iklan TV"><title>TV Ads</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Putting TV Advertisement is super effective to boost your business!&#10;Do this and make the superstar come and buy %1$s round tofus every %2$s second!</info></item>
+        <item id="Lampu Sorot"><title>Spotlights</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>There's always been a hero who will save your day!&#10;Use this emergency lamp to attract the superheroes who will save your business by buying %1$s round tofus every %2$s second!</info></item>
+        <item id="Brosur Wisata"><title>Tours Brochure</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Supporting the Tourism industry is a great thing to do! Let's support the tourism board and promote the culture along with Round Tofu.&#10;Do the promotion and invite the President who will buy %1$s Round Tofu every %2$s second!</info></item>
+
+        <item id="Festival Korea"><title>Korean Festival</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Korean Mask Festival is one of the festival at Korea that you able to sponsor for introducing Round Tofu at Korea.&#10;Do this promotion and invite participant at Korean Mask Festival to buy %1$s tofu at your shop every %2$s second!</info></item>
+
+        <item id="Brosur Daun"><title>Small Leaf</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>There's no paper yet in the stone age. Use this leaf instead to promote your business!&#10;Invite the stone age girl that will buy %1$s round tofus every %2$s second by starting this promotion!</info></item>
+        <item id="Poster Daun"><title>Leaf Poster</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Tired of handing out leaves? Use this big leaf as a poster instead!&#10;&#10;Invite the stone age kids that will buy %1$s round tofus every %2$s second by starting this promotion!</info></item>
+        <item id="Batu Tulis"><title>Writing Stone</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>This writing stone is more durable and attract more interesting stone age customers to your tofu shop!&#10;Invite the stone age teen that will buy %1$s round tofus every %2$s second by doing this promotion!</info></item>
+        <item id="Kain Batik"><title>Batik</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Batik is a traditional fabric from Indonesia, but it's extremely modern in the Stone Age!&#10;Invite the stone age lady that will buy %1$s round tofus every %2$s second by doing this promotion!</info></item>
+        <item id="Prasasti"><title>Prasasti</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Yes! There's a businessman already in the Stone Age! Surprised?&#10;&#10;Invite the stone age businessman that will buy %1$s round tofus every %2$s second by doing this promotion!</info></item>
+        <item id="Web Comic Purba"><title>Web Comic</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Aksa, an ordinary boy with extraordinary mission from "Innaria" webcomic. Along with Tako, they try to save those infected by 'Boredom'.&#10;Invite Aksa to buy %1$s tofu every %2$s second by promoting your business in the webcomic!</info></item>
+        <item id="Umpan Dino"><title>Dino Bait</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Dino Rider is a secret tribe that lives in the stone age. It's verryyy hard to meet them, unless you can attract their dinos.&#10;Let's attract them by using this super tasty Dino Bait.&#10;They will buy %1$s round tofus every %2$s second!</info></item>
+        <item id="Iklan Kayu"><title>Wood Ads</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>There was an ads in ancient times. They used animal skin and wood. It looks like we can use this kind of ads to invite actress from the future.&#10;Do this and make the actress come and buy %1$s round tofus every %2$s second!</info></item>
+        <item id="Api Unggun"><title>Bonfire</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>People need to be safe every time, even in ancient time!&#10;Let's set up a Bonfire to invite Superhero!&#10;Superhero will come and buy %1$s round tofus every %2$s second!</info></item>
+        <item id="Monumen Batu"><title>Stone Monument</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>It looks like the Stone Monument that was built by Ancient people can attract The President from the future.&#10;Let's do this promotion to invite him!&#10;President will come and buy %1$s round tofus every %2$s second!</info></item>
+        <item id="Brosur Daun"><title>Small Leaf</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Spread the leaf that has been modernized into a brochure to a group of little girls who are curious about the shape of the car from the future!&#10;Invite them from Majapahit era to taste %1$s round tofus from the future every %2$s second!</info></item>
+        <item id="Poster Daun"><title>Leaf Poster</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Small leaves seems less successful in getting little boys to buy Round Tofu from the future!&#10;It looks like a larger leaf can be used as a poster that will be more effective to attract them.&#10;The Little Boy will buy %1$s round tofus every %2$s second!</info></item>
+        <item id="Prasasti Kecil"><title>Small Stone Stele</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Soldiers who were exhausted after a duty will definitely be excited again after tasting Round Tofu from the future!&#10;Carve small stone stele as a media campaign so the soldiers will want to come and buy %1$s tofu every %2$s second!</info></item>
+        <item id="Kain Batik"><title>Batik</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Batik with a better quality will make the princess aware of the presence of the car from the future!&#10;Use this batik technology to attract the princess to come and buy %1$s tofu every %2$s second!</info></item>
+        <item id="Prasasti Besar"><title>Big Stone Stele</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Your Round Tofu business becoming more successful in the kingdom. It is time to expand the promotion to attract more people!&#10;Create bigger stone stele that even the nobleman want to buy %1$s tofu every %2$s second!</info></item>
+        <item id="Web Comic Maja"><title>Web Comic</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Aksa, an ordinary boy with extraordinary mission from "Innaria" webcomic. Along with Tako, they try to save those infected by 'Boredom'.&#10;Invite Aksa to buy %1$s tofu every %2$s second by promoting your business in the webcomic!</info></item>
+        <item id="FestivalReog"><title>Festival</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Gamelan that brought from the future, made with better technique so it's sounds more clear. The crystal clear sound of gamelan is certainly able to attract the attention of Reog Dancer to come and taste %1$s tofu every %2$s second!</info></item>
+        <item id="Iklan Bambu"><title>Bamboo Ads</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Putting Bamboo Advertisement is super effective to invite actress to Majapahit era!&#10;Do this and make the superstar come and buy %1$s round tofus every %2$s second!</info></item>
+        <item id="Lampu Minyak"><title>Oil Lamp</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>People need to be safe every time, even in Majapahit Era!&#10;Let's set up an Oil Lamp to invite Superhero!&#10;Superhero will come and buy %1$s round tofus every %2$s second!</info></item>
+        <item id="Piagam Batu"><title>Stone Charter</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Putting Bamboo Advertisement is super effective to invite actress to Majapahit era!&#10;Do this and make the superstar come and buy %1$s round tofus every %2$s second!</info></item>
+        <item id="Brosur"><title>Brochure</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Do some marketing! Promote your business by spreading this brochure across the cities!&#10;Do it and see the little girls will start coming to buy %1$s Round Tofu every %2$s second!</info></item>
+        <item id="Poster"><title>Poster</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Attach this poster around the soccer field to make the soccer boys visit your store after practice.&#10;Let's start marketing your business with this poster to make the hungry soccer boys come every %1$s second to buy %2$s second!</info></item>
+        <item id="Iklan Socmed"><title>Social Media</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>You are not allowed to post poster in the school!&#10;What should we do?&#10;Let's start Social Media marketing to let your business known by High School Students!&#10;They will buy %1$s tofu every %2$s second!</info></item>
+        <item id="Tabloid Banting"><title>Stars Tabloid</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Purchase the front page of STARS Tabloid, the leading fashion tabloid in the nation!&#10;Make the Socialite come to buy %1$s Round Tofus every %2$s second and make it the new trends!</info></item>
+        <item id="Majalah Waktu"><title>Tima Magazine</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Round Tofu business looks very promising lately.&#10;Become the cover of "TIMA Magazine" and attract Rich Businessman that will come and buy %1$s round tofus every %2$s second!</info></item>
+        <item id="Web Comic"><title>Web Comic</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Aksa, an ordinary boy with extraordinary mission from "Innaria" webcomic. Along with Tako, they try to save those infected by 'Boredom'.&#10;Invite Aksa to buy %1$s tofu every %2$s second by promoting your business in the webcomic!</info></item>
+        <item id="Mapag Penganten"><title>Mapag Penganten</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Ki Lengser and Si Nini is the main role of Mapag Penganten, Sundanese traditional event. It looks like they are on their way to the event.&#10;Let's promote our round tofu to make them come and buy %1$s tofu every %2$s second.</info></item>
+        <item id="Festival"><title>Festival</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Become the sponsor of Jakarta Culture Festival!&#10;This campaign will make Ondel-ondel come to purchase %1$s round tofus every %2$s second!</info></item>
+        <item id="Festival Keraton"><title>Keraton Festival</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Become the sponsor of Indonesian Keraton Festival!&#10;This campaign will make Abdi Dalem from Keraton Yogyakarta come to purchase %1$s round tofus every %2$s second!</info></item>
+        <item id="Festival Falconry"><title>Dubai Falconry Event</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Dubai Sultan likes to do Falconry, using Falcon to hunt, on their free time. It looks like he is so hungry waiting for his falcon to catch a prey.&#10;Let's promote our round tofu to make Sultan come and buy %1$s tofu every %2$s second!</info></item>
+        <item id="Iklan TV"><title>TV Ads</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Putting TV Advertisement is super effective to boost your business!&#10;Do this and make the superstar come and buy %1$s round tofus every %2$s second!</info></item>
+        <item id="Lampu Sorot"><title>Spotlights</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>There's always been a hero who will save your day!&#10;Use this emergency lamp to attract the superheroes who will save your business by buying %1$s round tofus every %2$s second!</info></item>
+        <item id="Brosur Wisata"><title>Tours Brochure</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Supporting the Tourism industry is a great thing to do! Let's support the tourism board and promote the culture along with Round Tofu.&#10;Do the promotion and invite the President who will buy %1$s Round Tofu every %2$s second!</info></item>
+
+        <item id="BrosurKorea"><title>Brochure</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Spread the brochure all over the Korea and invite Sonyeo to buy your Round Tofu!&#10;Sonyeo will come to buy %1$s tofu every %2$s seconds!</info></item>
+        <item id="PosterKorea"><title>Poster</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Brochure is not enough! Spread the Poster and make Adeul want to taste this phenomenal Indonesian food!&#10;Adeul who is hungry after playing soccer will come every %1$s seconds to buy %2$s tofu!</info></item>
+        <item id="Iklan Socmed Korea"><title>Social Media</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Tired from school, Oppa must be hungry and want to buy Round Tofu if you advertised at Social Media!&#10;Every Oppa will buy %1$s tofu every %2$s seconds!</info></item>
+        <item id="Tabloid Banting Korea"><title>Stars Tabloid</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>STAR tabloid expand to Korea, who's the reader? Of course Samo-Nim!&#10;Promote your Round Tofu at STAR tabloid Korean edition, to make Samo-Nim taste the deliciousness of Round Tofu!&#10;Samo-Nim will buy %1$s tofu every %2$s seconds.</info></item>
+        <item id="Majalah Waktu Korea"><title>Tima Magazine</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Korean is one of the country with great economy, so many people read business magazines like TIMA Magazine.&#10;Promote your business at TIMA Magazine Korean edition!&#10;Seonsaengnim will come to buy %1$s tofu every %2$s seconds!</info></item>
+
+        <item id="BrosurJepang"><title>Brochure</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Spread the brochure all over the Japan and invite On'nanoko to buy your Round Tofu!&#10;On'nanoko will come to buy %1$s tofu every %2$s seconds!</info></item>
+        <item id="PosterJepang"><title>Poster</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Brochure is not enough! Spread the Poster and make Otokonoko want to taste this phenomenal Indonesian food!&#10;Otokonoko who is hungry after playing soccer will come every %1$s seconds to buy %2$s tofu!</info></item>
+        <item id="Iklan Socmed Jepang"><title>Social Media</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Tired from school, Kokosei must be hungry and want to buy Round Tofu if you advertised at Social Media!&#10;Every Kokosei will buy %1$s tofu every %2$s seconds!</info></item>
+        <item id="Tabloid Banting Jepang"><title>Stars Tabloid</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>STAR tabloid expand to Japan, who's the reader? Of course Geisha!&#10;Promote your Round Tofu at STAR tabloid Japan edition, to make Geisha taste the deliciousness of Round Tofu!&#10;Geisha will buy %1$s tofu every %2$s seconds.</info></item>
+        <item id="Majalah Waktu Jepang"><title>Tima Magazine</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Japan is one of the country with great economy, so many people read business magazines like TIMA Magazine.&#10;Promote your business at TIMA Magazine Japan edition!&#10;Dai-bosu will come to buy %1$s tofu every %2$s seconds!</info></item>
+        <item id="Festival Jepang"><title>Japan Culture Fest</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Promote your business in the Japan Culture Fest to gain more customers!&#10;Invite the hiding ninjas to buy %1$s round tofu every %2$s second!</info></item>
+
+        <item id="BrosurBelanda"><title>Brochure</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Spread the brochure all over the Netherlands and invite Meisje to buy your Round Tofu!&#10;Meisje will come to buy %1$s tofu every %2$s seconds!</info></item>
+        <item id="PosterBelanda"><title>Poster</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Brochure is not enough! Spread the Poster and make Voetbal Jongen want to taste this phenomenal Indonesian food!&#10;Voetbal Jongen who is hungry after playing soccer will come every %1$s seconds to buy %2$s tofu!</info></item>
+        <item id="Iklan Socmed Belanda"><title>Social Media</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Tired from school, Middelbare Student must be hungry and want to buy Round Tofu if you advertised at Social Media!&#10;Every Middelbare Student will buy %1$s tofu every %2$s seconds!</info></item>
+        <item id="Tabloid Banting Belanda"><title>Stars Tabloid</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>STAR tabloid expand to Netherlands, who's the reader? Of course Tante!&#10;Promote your Round Tofu at STAR tabloid Netherlands edition, to make Tante taste the deliciousness of Round Tofu!&#10;Tante will buy %1$s tofu every %2$s seconds.</info></item>
+        <item id="Majalah Waktu Belanda"><title>Tima Magazine</title><desk>Decrease time delay:&#10;%1$s -> %2$s seconds</desk><info>Netherlands is one of the country with great economy, so many people read business magazines like TIMA Magazine.&#10;Promote your business at TIMA Magazine Netherlands edition!&#10;Rijk Oom will come to buy %1$s tofu every %2$s seconds!</info></item>
+    </promo>
+
+</resources>

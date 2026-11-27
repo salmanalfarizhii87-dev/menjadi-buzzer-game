@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Adduuhh..&#10;Waktunya udah mau habis.. Target belum tercapai nih..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>KAAANGGG!!!&#10;Pasukan Atlantis mulai berdatangan!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Uwapaaaah??!!&#10;Gimana dong?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Kabur dulu aja, Kang..&#10;Daripada ditangkap, ntar ga bisa nyelametin Towa lagi!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Bener juga!!&#10;Oke ayo kita kabur, Tako..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Tenang saja, Towa!&#10;Kami akan kembali lagi untuk menyelamatkanmu!!</desc>
+        </dialog>
+    </skenario>
+</resources>

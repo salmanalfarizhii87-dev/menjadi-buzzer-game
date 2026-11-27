@@ -1,0 +1,141 @@
+<div class="min-h-[884px] max-w-md mx-auto flex flex-col bg-dock-bg" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- Top Purple HUD Bar -->
+    <header class="sticky top-0 z-20 flex flex-col shadow-[0_3px_8px_rgba(0,0,0,0.22)]">
+      <div class="ref-hud-purple flex items-center gap-gutter-sm px-gutter-sm py-gutter-sm">
+        <a href="../01-business-home/Business%20Home.html" aria-label="Kembali ke Home" class="w-11 h-11 rounded-full ref-back-circle flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M15 6L9 12L15 18" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </a>
+
+        <div class="flex-1 ref-cyan-pill rounded-lg px-gutter-md py-1 flex flex-col items-center justify-center min-w-0">
+          <span class="font-headline text-title-md text-light-surface-bright leading-none" data-design-text-token="title-md">Pengaturan</span>
+          <span class="font-mono text-label-sm text-light-surface-bright leading-none mt-0.5" data-design-text-token="label-sm">Opsi Game &amp; Save Lokal</span>
+        </div>
+
+        <div class="px-gutter-sm py-1.5 rounded-lg bg-light-surface-bright flex items-center gap-1 shrink-0">
+          <span class="font-mono text-label-sm text-ink-dark" data-design-text-token="label-sm">v1.0</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col gap-gutter-md p-gutter-md pb-gutter-xl">
+
+      <!-- Player & Save Identity Block -->
+      <article class="ref-card rounded-xl p-gutter-md flex items-center justify-between gap-gutter-md">
+        <div class="flex items-center gap-gutter-md min-w-0">
+          <div data-stitch-img="Avatar @KilatDaily" class="w-14 h-14 rounded-full object-cover border-2 border-hud-purple bg-hud-purple-dark shrink-0 stitch-img" role="img" aria-label="Avatar @KilatDaily"></div>
+          <div class="min-w-0">
+            <h1 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">@KilatDaily</h1>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Save Lokal Aktif • Schema v1</p>
+          </div>
+        </div>
+        <a href="../11-character-customizer/Character%20Customizer.html" class="ref-btn-white px-gutter-md py-gutter-xs rounded-xl font-headline text-label-sm text-ink-dark shrink-0" data-design-text-token="label-sm">
+          Ubah Gaya
+        </a>
+      </article>
+
+      <!-- Section 1: Audio & Feedback -->
+      <section aria-label="Pengaturan audio" class="ref-card rounded-xl p-gutter-lg flex flex-col gap-gutter-md">
+        <div class="flex items-center gap-gutter-sm">
+          <svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M4 9H8L14 4V20L8 15H4V9Z" fill="#FACC15" stroke="#1E1B2E" stroke-width="2" stroke-linejoin="round"></path>
+            <path d="M17.5 8.5C19 10 19 14 17.5 15.5" stroke="#1E1B2E" stroke-width="2" stroke-linecap="round"></path>
+          </svg>
+          <h2 class="font-headline text-title-md text-ink-dark" data-design-text-token="title-md">Audio &amp; Efek</h2>
+        </div>
+
+        <div class="flex items-center justify-between gap-gutter-md">
+          <div>
+            <p class="font-headline text-body-md text-ink-dark" data-design-text-token="body-md">Musik Latar (BGM)</p>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Musik santai ruang kerja buzzer</p>
+          </div>
+          <button type="button" role="switch" aria-checked="true" onclick="toggleSwitch(this, &#39;bgm&#39;)" class="w-14 h-8 rounded-full bg-success border-2 border-ink-dark p-0.5 flex items-center justify-end cursor-pointer" aria-label="Musik Latar">
+            <span class="w-6 h-6 rounded-full bg-light-surface-bright border border-ink-dark"></span>
+          </button>
+        </div>
+
+        <div class="flex items-center justify-between gap-gutter-md">
+          <div>
+            <p class="font-headline text-body-md text-ink-dark" data-design-text-token="body-md">Efek Suara (SFX)</p>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Suara koin, tombol, dan notifikasi</p>
+          </div>
+          <button type="button" role="switch" aria-checked="true" onclick="toggleSwitch(this, &#39;sfx&#39;)" class="w-14 h-8 rounded-full bg-success border-2 border-ink-dark p-0.5 flex items-center justify-end cursor-pointer" aria-label="Efek Suara">
+            <span class="w-6 h-6 rounded-full bg-light-surface-bright border border-ink-dark"></span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Section 2: Gameplay & Safety -->
+      <section aria-label="Pengaturan gameplay" class="ref-card rounded-xl p-gutter-lg flex flex-col gap-gutter-md">
+        <div class="flex items-center gap-gutter-sm">
+          <svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="12" cy="12" r="9" fill="#60A5FA" stroke="#1E1B2E" stroke-width="2"></circle>
+            <path d="M12 7V12L15.5 14" stroke="#1E1B2E" stroke-width="2.2" stroke-linecap="round"></path>
+          </svg>
+          <h2 class="font-headline text-title-md text-ink-dark" data-design-text-token="title-md">Gameplay &amp; Keamanan</h2>
+        </div>
+
+        <div class="flex items-center justify-between gap-gutter-md">
+          <div>
+            <p class="font-headline text-body-md text-ink-dark" data-design-text-token="body-md">Konfirmasi Risiko Tinggi</p>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Minta persetujuan sebelum strategi Agresif</p>
+          </div>
+          <button type="button" role="switch" aria-checked="true" onclick="toggleSwitch(this, &#39;confirmRisk&#39;)" class="w-14 h-8 rounded-full bg-success border-2 border-ink-dark p-0.5 flex items-center justify-end cursor-pointer" aria-label="Konfirmasi Risiko Tinggi">
+            <span class="w-6 h-6 rounded-full bg-light-surface-bright border border-ink-dark"></span>
+          </button>
+        </div>
+
+        <div class="flex items-center justify-between gap-gutter-md">
+          <div>
+            <p class="font-headline text-body-md text-ink-dark" data-design-text-token="body-md">Pop-up Cuan Otomatis</p>
+            <p class="font-body text-body-sm text-light-on-surface-variant text-balance" data-design-text-token="body-sm">Tampilkan angka +Rp saat passive income masuk</p>
+          </div>
+          <button type="button" role="switch" aria-checked="true" onclick="toggleSwitch(this, &#39;incomePop&#39;)" class="w-14 h-8 rounded-full bg-success border-2 border-ink-dark p-0.5 flex items-center justify-end cursor-pointer" aria-label="Pop-up Cuan Otomatis">
+            <span class="w-6 h-6 rounded-full bg-light-surface-bright border border-ink-dark"></span>
+          </button>
+        </div>
+
+        <div class="flex items-center justify-between gap-gutter-md pt-gutter-xs border-t border-slate-200">
+          <div>
+            <p class="font-headline text-body-md text-ink-dark" data-design-text-token="body-md">Mode Uji Deterministik</p>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Khusus QA: hasil roll kampanye konsisten</p>
+          </div>
+          <button type="button" role="switch" aria-checked="false" onclick="toggleSwitch(this, &#39;qaMode&#39;)" class="w-14 h-8 rounded-full bg-slate-300 border-2 border-slate-500 p-0.5 flex items-center justify-start cursor-pointer" aria-label="Mode Uji Deterministik">
+            <span class="w-6 h-6 rounded-full bg-light-surface-bright border border-ink-dark"></span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Section 3: Destructive Zone -->
+      <section aria-label="Manajemen save" class="ref-card rounded-xl p-gutter-lg flex flex-col gap-gutter-sm border-btn-red-dark">
+        <h2 class="font-headline text-title-md text-btn-red-dark" data-design-text-token="title-md">Manajemen Data Save</h2>
+        <p class="font-body text-body-sm text-ink-dark text-pretty" data-design-text-token="body-sm">
+          Mereset save akan menghapus seluruh saldo, upgrade, dan riwayat kampanye lokal, lalu mengembalikan akun ke kondisi awal (Rp 500 &amp; 1.000 Followers).
+        </p>
+
+        <button type="button" onclick="openResetConfirm()" class="ref-btn-red w-full inline-flex items-center justify-center gap-gutter-sm px-gutter-lg py-gutter-md rounded-xl cursor-pointer">
+          <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M5 7H19M9 7V5H15V7M8 7L9 19H15L16 7" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+          <span class="font-headline text-label-lg text-light-surface-bright" data-design-text-token="label-lg">Reset Save Game</span>
+        </button>
+
+        <!-- Confirmation Panel -->
+        <div id="reset-confirm-box" class="hidden mt-gutter-xs bg-light-error-container border-2 border-btn-red-dark rounded-xl p-gutter-md flex flex-col gap-gutter-sm">
+          <p class="font-headline text-body-md text-light-on-error-container" data-design-text-token="body-md">Yakin ingin menghapus seluruh progres lokal?</p>
+          <div class="grid grid-cols-2 gap-gutter-sm">
+            <button type="button" onclick="closeResetConfirm()" class="ref-btn-white py-gutter-sm px-gutter-md rounded-xl font-headline text-label-sm text-ink-dark cursor-pointer" data-design-text-token="label-sm">Batal</button>
+            <button type="button" onclick="confirmResetSave()" class="ref-btn-red py-gutter-sm px-gutter-md rounded-xl font-headline text-label-sm text-light-surface-bright cursor-pointer" data-design-text-token="label-sm">Ya, Reset Semua</button>
+          </div>
+        </div>
+
+        <p id="reset-done-msg" class="hidden font-headline text-body-sm text-success text-center" data-design-text-token="body-sm">
+          Save berhasil direset ke kondisi awal!
+        </p>
+      </section>
+
+    </main>
+  </div>

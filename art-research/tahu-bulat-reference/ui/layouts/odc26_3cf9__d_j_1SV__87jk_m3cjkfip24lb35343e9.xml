@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+	    <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Tako mana, ya?&#10;Kok, ga keliatan?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kanggg!!!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sapa" isHold="true">
+            <desc>Heyy, Tako!&#10;Baru aja dicariin...</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Ada apa, Kang?&#10;Mau bagi Tahu Bulat gratis?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>...................</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Ya... boleh, deh.&#10;Sambil cerita tentang Atlantis lagi, yak!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>..........................</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Hmm? Ada apa, Tako?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Tako... gak berani cerita tentang Atlantis...</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Loh, kenapa?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Seperti yang Towa bilang..&#10;Harusnya cerita Atlantis itu cuma diketahui sama Manusia Ikan saja..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Oiya juga ya...</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Eh, kok Towa mau cerita?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Towa cuma berusaha nepatin janjinya ke Akang aja.. Towa emang gitu orangnya..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Ehh...&#10;Kok, jadi ga enak ya sama, Towa?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Jadi pengen ketemu, Towa...&#10;Kita ke Atlantis lagi, yuk, Tako!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Ayoo!!&#10;Sampe sana bagi Tahu Bulatnya, ya, Kang!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Iya... iya...</desc>
+        </dialog>
+    </skenario>
+</resources>

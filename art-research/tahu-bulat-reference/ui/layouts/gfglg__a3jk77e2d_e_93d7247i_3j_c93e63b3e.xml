@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario lama_muncul="5.0">
+        <dialog karakter="2" ekspresi="happy" alignY="0.5f" y="-120" animasi="0.5">UWOOOAAA!!&#10;Ternyata Tahu Bulatnya ada 2 kali lipat lebih banyak!!</dialog>
+        <dialog karakter="2" ekspresi="bertanya" formatType="jasteenGandakan">Oke, totalnya jadi %1$s yak! Simpen aja kembaliannya. XD</dialog>
+    </skenario>
+</resources>

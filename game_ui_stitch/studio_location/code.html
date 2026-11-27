@@ -1,0 +1,604 @@
+<!DOCTYPE html><html lang="id"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio &amp; Location — Menjadi Buzzer</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">/** @type {import('tailwindcss').Config} */
+globalThis.tailwind = globalThis.tailwind || {};
+globalThis.tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        'wood-bar': '#5C341A',
+        'wood-light': '#6E3F21',
+        'wood-mid': '#4A2812',
+        'wood-dark': '#3A2010',
+        'wood-shadow': '#241005',
+        'cork-board': '#C88A4B',
+        'amber-canvas': '#F7CE7D',
+        'amber-gold': '#F5A623',
+        'gold-bright': '#FDE047',
+        'gold-deep': '#D97706',
+        'parchment': '#FFFBF2',
+        'parchment-border': '#C0835A',
+        'success': '#1F7A26',
+        'on-success': '#FFFFFF',
+        'warning': '#B56100',
+        'on-warning': '#060606',
+        'info': '#1D6FA5',
+        'on-info': '#FFFFFF',
+        'hud-cyan': '#28B8E8',
+        'hud-cyan-dark': '#0E7DB0',
+        'hud-purple': '#6B3FA0',
+        'hud-purple-dark': '#452273',
+        'dock-bg': '#EDF2F7',
+        'ink-dark': '#1E1B2E',
+        'btn-red': '#E53935',
+        'btn-red-dark': '#B71C1C',
+        'btn-orange': '#FB8C00',
+        'btn-orange-dark': '#D85000',
+        'btn-blue': '#039BE5',
+        'btn-blue-dark': '#01579B',
+        'btn-yellow': '#FDD835',
+        'btn-yellow-dark': '#F59E0B',
+        'btn-purple': '#8E24AA',
+        'btn-purple-dark': '#4A148C',
+        'btn-green': '#2EAD39',
+        'btn-green-dark': '#16681D',
+        'light-primary': '#006013',
+        'light-on-primary': '#FFFFFF',
+        'light-primary-container': '#1F7A26',
+        'light-on-primary-container': '#ADFFA2',
+        'light-secondary': '#86522D',
+        'light-on-secondary': '#FFFFFF',
+        'light-secondary-container': '#FFBA8E',
+        'light-on-secondary-container': '#4F2504',
+        'light-tertiary': '#7D4200',
+        'light-on-tertiary': '#FFFFFF',
+        'light-tertiary-container': '#FFE6D5',
+        'light-on-tertiary-container': '#4D2600',
+        'light-error': '#BA1A1A',
+        'light-on-error': '#FFFFFF',
+        'light-error-container': '#FFDAD6',
+        'light-on-error-container': '#93000A',
+        'light-background': '#F7CE7D',
+        'light-on-background': '#2F1502',
+        'light-surface': '#FFFBF2',
+        'light-surface-dim': '#FFE3D2',
+        'light-surface-bright': '#FFFFFF',
+        'light-surface-container-lowest': '#FFFFFF',
+        'light-surface-container-low': '#FFF8F0',
+        'light-surface-container': '#FFF1EA',
+        'light-surface-container-high': '#FFEADE',
+        'light-surface-container-highest': '#FFDCC6',
+        'light-on-surface': '#2F1502',
+        'light-surface-variant': '#DBE6D4',
+        'light-on-surface-variant': '#40493D',
+        'light-outline': '#707A6B',
+        'light-outline-variant': '#C0835A',
+        'light-inverse-surface': '#482911',
+        'light-inverse-on-surface': '#FFEDE4',
+        'light-inverse-primary': '#81DB7A',
+        'light-shadow': '#000000',
+        'light-scrim': '#000000',
+        'dark-primary': '#81DB7A',
+        'dark-on-primary': '#003908',
+        'dark-primary-container': '#1F7A26',
+        'dark-on-primary-container': '#ADFFA2',
+        'dark-secondary': '#FCB78A',
+        'dark-on-secondary': '#4F2504',
+        'dark-secondary-container': '#6D3D1A',
+        'dark-on-secondary-container': '#EDAA7E',
+        'dark-tertiary': '#FFB77D',
+        'dark-on-tertiary': '#4D2600',
+        'dark-tertiary-container': '#A15600',
+        'dark-on-tertiary-container': '#FFE6D5',
+        'dark-error': '#FFB4AB',
+        'dark-on-error': '#690005',
+        'dark-error-container': '#93000A',
+        'dark-on-error-container': '#FFDAD6',
+        'dark-background': '#240D00',
+        'dark-on-background': '#FFDCC6',
+        'dark-surface': '#2F1502',
+        'dark-surface-dim': '#240D00',
+        'dark-surface-bright': '#523119',
+        'dark-surface-container-lowest': '#1C0900',
+        'dark-surface-container-low': '#2F1502',
+        'dark-surface-container': '#341904',
+        'dark-surface-container-high': '#40230B',
+        'dark-surface-container-highest': '#4D2D15',
+        'dark-on-surface': '#FFDCC6',
+        'dark-surface-variant': '#40493D',
+        'dark-on-surface-variant': '#BFCAB9',
+        'dark-outline': '#899484',
+        'dark-outline-variant': '#623F25',
+        'dark-inverse-surface': '#FFDCC6',
+        'dark-inverse-on-surface': '#482911',
+        'dark-inverse-primary': '#0C6E1B',
+        'dark-shadow': '#000000',
+        'dark-scrim': '#000000',
+      },
+      borderRadius: {
+        'sm': '6px',
+        'DEFAULT': '10px',
+        'md': '14px',
+        'lg': '18px',
+        'xl': '24px',
+        'full': '9999px',
+      },
+      spacing: {
+        'gutter-xs': '4px',
+        'gutter-sm': '8px',
+        'gutter-md': '12px',
+        'gutter-lg': '16px',
+        'gutter-xl': '24px',
+        'section': '20px',
+        'page-margin': '14px',
+      },
+      fontFamily: {
+        'display': ['"Fredoka"', 'sans-serif'],
+        'headline': ['"Fredoka"', 'sans-serif'],
+        'title': ['"Fredoka"', 'sans-serif'],
+        'body': ['"Spline Sans"', 'sans-serif'],
+        'label': ['"Fredoka"', 'sans-serif'],
+        'mono': ['"DM Mono"', 'monospace'],
+      },
+      fontSize: {
+        'display-lg': ['36px', { lineHeight: '42px', letterSpacing: '-0.25px', fontWeight: '700' }],
+        'display-lg-mobile': ['28px', { lineHeight: '34px', letterSpacing: '-0.25px', fontWeight: '700' }],
+        'headline-lg': ['24px', { lineHeight: '30px', letterSpacing: '0px', fontWeight: '600' }],
+        'headline-md': ['20px', { lineHeight: '26px', letterSpacing: '0px', fontWeight: '600' }],
+        'title-md': ['16px', { lineHeight: '22px', letterSpacing: '0px', fontWeight: '600' }],
+        'body-md': ['14px', { lineHeight: '20px', letterSpacing: '0px', fontWeight: '500' }],
+        'body-sm': ['12px', { lineHeight: '16px', letterSpacing: '0.1px', fontWeight: '500' }],
+        'label-lg': ['15px', { lineHeight: '20px', letterSpacing: '0.1px', fontWeight: '600' }],
+        'label-sm': ['11px', { lineHeight: '14px', letterSpacing: '0.2px', fontWeight: '700' }],
+        'mono-md': ['14px', { lineHeight: '18px', letterSpacing: '0px', fontWeight: '500' }],
+      },
+      transitionDuration: {
+        'button-press': '100ms',
+        'card-enter': '220ms',
+      },
+      transitionDelay: {
+        'button-press': '0ms',
+        'card-enter': '0ms',
+      },
+      transitionTimingFunction: {
+        'button-press': 'ease-out',
+        'card-enter': 'cubic-bezier(0.2, 0, 0, 1)',
+      },
+    },
+  },
+};
+if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
+</script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&amp;family=Fredoka:wght@600;700&amp;family=Spline+Sans:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    .ref-hud-purple { background: linear-gradient(180deg, #522B7A 0%, #3E1D61 100%); }
+    .ref-back-circle { background: linear-gradient(180deg, #9C72D6 0%, #7C4DFF 100%); box-shadow: 0 2px 4px rgba(0,0,0,0.35), inset 0 2px 0 rgba(255,255,255,0.35); }
+    .ref-cyan-pill { background: linear-gradient(180deg, #0B709E 0%, #074E6E 100%); box-shadow: 0 2px 4px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.35); }
+    .ref-btn-green { background: linear-gradient(180deg, #1F8528 0%, #155E1B 100%); box-shadow: 0 4px 0 #0D3B11, inset 0 2px 0 rgba(255,255,255,0.35); }
+    .ref-btn-green:active { transform: translateY(2px); box-shadow: 0 2px 0 #0D3B11; }
+    .ref-card { background: #FFFFFF; border: 2px solid #CBD5E1; box-shadow: 0 4px 0 #94A3B8; }
+  </style>
+</head>
+<body class="bg-dock-bg text-ink-dark font-body antialiased">
+  <div class="min-h-[884px] max-w-md mx-auto flex flex-col bg-dock-bg" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- Top Purple HUD Bar -->
+    <header class="sticky top-0 z-20 flex flex-col shadow-[0_3px_8px_rgba(0,0,0,0.22)]">
+      <div class="ref-hud-purple flex items-center gap-gutter-sm px-gutter-sm py-gutter-sm">
+        <a href="../01-business-home/Business%20Home.html" aria-label="Kembali ke Home" class="w-11 h-11 rounded-full ref-back-circle flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M15 6L9 12L15 18" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </a>
+
+        <div class="flex-1 ref-cyan-pill rounded-lg px-gutter-md py-1 flex flex-col items-center justify-center min-w-0">
+          <span class="font-headline text-title-md text-light-surface-bright leading-none" data-design-text-token="title-md">Studio &amp; Lokasi</span>
+          <span class="font-mono text-label-sm text-light-surface-bright leading-none mt-0.5" data-design-text-token="label-sm">Environment &amp; Properti</span>
+        </div>
+
+        <div class="px-gutter-sm py-1.5 rounded-lg bg-light-surface-bright flex items-center gap-1 shrink-0">
+          <span class="font-headline text-label-sm text-ink-dark tabular-nums" data-design-text-token="label-sm">Rp 500</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col gap-gutter-md p-gutter-md pb-gutter-xl">
+
+      <!-- Live 2D Vector Environment + Character Preview Card -->
+      <section aria-label="Pratinjau studio 2D" class="ref-card rounded-xl p-gutter-sm flex flex-col gap-gutter-sm">
+        <div class="relative rounded-lg overflow-hidden border-2 border-slate-300">
+          <svg id="env-preview-svg" class="w-full h-56 block" viewBox="0 0 360 220" preserveAspectRatio="xMidYMid slice" fill="none" aria-label="Pratinjau environment 2D dan karakter">
+            <!-- Scene 1: Kamar Kos Senja -->
+            <g id="env-scene-kos-senja">
+              <rect width="360" height="145" fill="#FDE6B8"></rect>
+              <rect y="102" width="360" height="43" fill="#E8BA78"></rect>
+              <rect y="98" width="360" height="6" fill="#86522D" stroke="#1A191B" stroke-width="2"></rect>
+              <rect y="142" width="360" height="78" fill="#9A5E34" stroke="#1A191B" stroke-width="2.5"></rect>
+              <path d="M0 170H360M0 198H360" stroke="#5C341A" stroke-width="1.8"></path>
+              <rect x="18" y="16" width="76" height="68" rx="5" fill="#5C341A" stroke="#1A191B" stroke-width="2.5"></rect>
+              <rect x="23" y="21" width="66" height="58" rx="2" fill="#93C5FD" stroke="#1A191B" stroke-width="1.8"></rect>
+              <circle cx="72" cy="34" r="8" fill="#FDE047"></circle>
+              <path d="M23 79V52H36V42H50V58H64V38H78V54H89V79H23Z" fill="#60A5FA" stroke="#1A191B" stroke-width="1.5"></path>
+              <path d="M56 21V79M23 50H89" stroke="#5C341A" stroke-width="2.5"></path>
+              <rect x="16" y="96" width="54" height="64" rx="4" fill="#6D3D1A" stroke="#1A191B" stroke-width="2.5"></rect>
+              <rect x="21" y="102" width="44" height="24" rx="2" fill="#4D2A13"></rect>
+              <rect x="24" y="108" width="8" height="18" rx="1" fill="#EF4444" stroke="#1A191B" stroke-width="1.5"></rect>
+              <rect x="34" y="110" width="8" height="16" rx="1" fill="#3B82F6" stroke="#1A191B" stroke-width="1.5"></rect>
+              <rect x="21" y="132" width="44" height="22" rx="2" fill="#4D2A13"></rect>
+              <rect x="28" y="142" width="30" height="9" rx="2" fill="#1E293B"></rect>
+              <circle cx="35" cy="146.5" r="1.5" fill="#4ADE80"></circle>
+              <rect x="236" y="116" width="110" height="14" rx="3" fill="#C0835A" stroke="#1A191B" stroke-width="2.5"></rect>
+              <rect x="244" y="130" width="8" height="32" fill="#4D2A13" stroke="#1A191B" stroke-width="2"></rect>
+              <rect x="330" y="130" width="8" height="32" fill="#4D2A13" stroke="#1A191B" stroke-width="2"></rect>
+              <rect x="248" y="82" width="48" height="32" rx="3" fill="#1E293B" stroke="#1A191B" stroke-width="2.2"></rect>
+              <rect x="252" y="86" width="40" height="24" fill="#38BDF8"></rect>
+              <circle cx="322" cy="64" r="14" fill="#FFFDF7" stroke="#1A191B" stroke-width="2.5"></circle>
+              <circle cx="322" cy="64" r="7" fill="#FDE6B8" stroke="#1A191B" stroke-width="1.8"></circle>
+              <path d="M322 78V116" stroke="#334155" stroke-width="3"></path>
+              <ellipse cx="180" cy="182" rx="82" ry="24" fill="#B56100" stroke="#1A191B" stroke-width="2.8"></ellipse>
+              <ellipse cx="180" cy="182" rx="64" ry="17" fill="#F5A623" stroke="#5C341A" stroke-width="1.8"></ellipse>
+            </g>
+
+            <!-- Scene 2: Kamar Kerja Pagi -->
+            <g id="env-scene-kos-pagi" class="hidden">
+              <rect width="360" height="145" fill="#FFFBEB"></rect>
+              <rect y="102" width="360" height="43" fill="#DBEAFE"></rect>
+              <rect y="98" width="360" height="6" fill="#C0835A" stroke="#1A191B" stroke-width="2"></rect>
+              <rect y="142" width="360" height="78" fill="#B47B4C" stroke="#1A191B" stroke-width="2.5"></rect>
+              <rect x="18" y="16" width="84" height="72" rx="5" fill="#86522D" stroke="#1A191B" stroke-width="2.5"></rect>
+              <rect x="24" y="22" width="72" height="60" rx="2" fill="#BAE6FD" stroke="#1A191B" stroke-width="1.8"></rect>
+              <circle cx="76" cy="36" r="9" fill="#FEF08A"></circle>
+              <path d="M58 22V82M24 52H96" stroke="#86522D" stroke-width="2.5"></path>
+              <path d="M28 156L32 134H54L58 156H28Z" fill="#D97706" stroke="#1A191B" stroke-width="2.2"></path>
+              <path d="M43 134C30 116 18 122 22 106C32 104 40 118 43 134Z" fill="#248F2D" stroke="#1A191B" stroke-width="2"></path>
+              <path d="M43 134C56 116 68 122 64 106C54 104 46 118 43 134Z" fill="#4ADE80" stroke="#1A191B" stroke-width="2"></path>
+              <rect x="236" y="116" width="110" height="14" rx="3" fill="#FDE6B8" stroke="#1A191B" stroke-width="2.5"></rect>
+              <rect x="244" y="130" width="8" height="32" fill="#86522D" stroke="#1A191B" stroke-width="2"></rect>
+              <rect x="330" y="130" width="8" height="32" fill="#86522D" stroke="#1A191B" stroke-width="2"></rect>
+              <rect x="252" y="82" width="52" height="32" rx="3" fill="#1E293B" stroke="#1A191B" stroke-width="2.2"></rect>
+              <rect x="256" y="86" width="44" height="24" fill="#86EFAC"></rect>
+              <ellipse cx="180" cy="182" rx="82" ry="24" fill="#1F7A26" stroke="#1A191B" stroke-width="2.8"></ellipse>
+              <ellipse cx="180" cy="182" rx="64" ry="17" fill="#86EFAC" stroke="#093B0D" stroke-width="1.8"></ellipse>
+            </g>
+
+            <!-- Scene 3: Studio Konten Mini -->
+            <g id="env-scene-studio-mini" class="hidden">
+              <rect width="360" height="145" fill="#1E293B"></rect>
+              <rect y="102" width="360" height="43" fill="#0F172A"></rect>
+              <rect y="98" width="360" height="6" fill="#F5A623" stroke="#1A191B" stroke-width="2"></rect>
+              <rect x="16" y="18" width="56" height="66" rx="4" fill="#334155" stroke="#1A191B" stroke-width="2.5"></rect>
+              <path d="M24 28H64M24 40H64M24 52H64M24 64H64M24 76H64" stroke="#1E293B" stroke-width="3" stroke-linecap="round"></path>
+              <rect x="134" y="20" width="92" height="32" rx="6" fill="#7F1D1D" stroke="#1A191B" stroke-width="2.8"></rect>
+              <rect x="140" y="26" width="80" height="20" rx="3" fill="#EF4444"></rect>
+              <text x="180" y="40" text-anchor="middle" fill="#FFFDF7" font-family="Fredoka, sans-serif" font-weight="700" font-size="12">ON AIR</text>
+              <rect y="142" width="360" height="78" fill="#3A2010" stroke="#1A191B" stroke-width="2.5"></rect>
+              <path d="M0 170H360M0 198H360" stroke="#241005" stroke-width="1.8"></path>
+              <path d="M46 92V156M32 156L46 138L60 156" stroke="#64748B" stroke-width="3" stroke-linecap="round"></path>
+              <polygon points="24,62 68,62 58,94 34,94" fill="#FFFDF7" stroke="#1A191B" stroke-width="2.5"></polygon>
+              <rect x="226" y="114" width="122" height="14" rx="3" fill="#334155" stroke="#1A191B" stroke-width="2.5"></rect>
+              <rect x="234" y="128" width="8" height="34" fill="#0F172A" stroke="#1A191B" stroke-width="2"></rect>
+              <rect x="332" y="128" width="8" height="34" fill="#0F172A" stroke="#1A191B" stroke-width="2"></rect>
+              <rect x="236" y="76" width="44" height="34" rx="3" fill="#0F172A" stroke="#1A191B" stroke-width="2.2"></rect>
+              <rect x="240" y="80" width="36" height="24" fill="#22C55E"></rect>
+              <rect x="284" y="76" width="44" height="34" rx="3" fill="#0F172A" stroke="#1A191B" stroke-width="2.2"></rect>
+              <rect x="288" y="80" width="36" height="24" fill="#38BDF8"></rect>
+              <path d="M332 68V114" stroke="#94A3B8" stroke-width="3"></path>
+              <circle cx="332" cy="54" r="16" fill="#FFFDF7" stroke="#1A191B" stroke-width="2.5"></circle>
+              <circle cx="332" cy="54" r="8" fill="#93C5FD" stroke="#1A191B" stroke-width="1.8"></circle>
+              <ellipse cx="180" cy="182" rx="86" ry="25" fill="#1F7A26" stroke="#1A191B" stroke-width="2.8"></ellipse>
+              <ellipse cx="180" cy="182" rx="66" ry="17" fill="#F5A623" stroke="#1A191B" stroke-width="1.8"></ellipse>
+            </g>
+
+            <!-- Ambient Lighting Overlay -->
+            <rect id="env-ambient-tint" width="360" height="220" fill="#000000" fill-opacity="0"></rect>
+
+            <!-- Integrated 2D Chibi Character -->
+            <g transform="translate(114, 56) scale(0.6)">
+              <ellipse cx="110" cy="200" rx="50" ry="11" fill="#1A191B" fill-opacity="0.35"></ellipse>
+              <g id="env-hair-back">
+                <path d="M56 68C48 92 52 122 66 134L78 124L74 138H146L142 124L154 134C168 122 172 92 164 68Z" fill="#3B2314" stroke="#1A191B" stroke-width="4.2" stroke-linejoin="round"></path>
+              </g>
+              <g>
+                <path d="M80 158H106V184H82L80 158Z" fill="#2B3A55" stroke="#1A191B" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M114 158H140L138 184H114V158Z" fill="#2B3A55" stroke="#1A191B" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M71 186C71 177 79 174 90 174H106V198H75C72 198 71 192 71 186Z" fill="#3B261A" stroke="#1A191B" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M72 191H106V198H75C73 198 72 195 72 191Z" fill="#FFFDF7" stroke="#1A191B" stroke-width="2.5"></path>
+                <path d="M114 174H130C141 174 149 177 149 186C149 192 148 198 145 198H114V174Z" fill="#3B261A" stroke="#1A191B" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M114 191H148C148 195 147 198 145 198H114V191Z" fill="#FFFDF7" stroke="#1A191B" stroke-width="2.5"></path>
+              </g>
+              <g id="env-outfit-kaos">
+                <path d="M72 114C58 120 50 136 55 148L72 152L78 134Z" fill="#D97706" stroke="#1A191B" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M56 151C52 156 54 164 62 164C68 164 72 158 70 152Z" fill="#F0B48A" stroke="#1A191B" stroke-width="3.8" stroke-linejoin="round"></path>
+                <path d="M148 114C162 120 170 136 165 148L148 152L142 134Z" fill="#D97706" stroke="#1A191B" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M164 151C168 156 166 164 158 164C152 164 148 158 150 152Z" fill="#F0B48A" stroke="#1A191B" stroke-width="3.8" stroke-linejoin="round"></path>
+                <path d="M72 114C74 106 88 103 110 103C132 103 146 106 148 114L144 166H76L72 114Z" fill="#D97706" stroke="#1A191B" stroke-width="4.2" stroke-linejoin="round"></path>
+                <path d="M96 104H124L120 165H100L96 104Z" fill="#FFF8EB" stroke="#1A191B" stroke-width="3" stroke-linejoin="round"></path>
+                <rect x="76" y="152" width="68" height="10" rx="2.5" fill="#5C341A" stroke="#1A191B" stroke-width="3"></rect>
+                <rect x="102" y="150" width="16" height="14" rx="2.5" fill="#F5A623" stroke="#1A191B" stroke-width="2.8"></rect>
+              </g>
+              <g id="env-outfit-hoodie" class="hidden">
+                <path d="M72 114C58 120 50 136 55 148L72 152L78 134Z" fill="#1F7A26" stroke="#1A191B" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M148 114C162 120 170 136 165 148L148 152L142 134Z" fill="#1F7A26" stroke="#1A191B" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M72 112C74 104 88 101 110 101C132 101 146 104 148 112L144 166H76L72 112Z" fill="#1F7A26" stroke="#1A191B" stroke-width="4.2" stroke-linejoin="round"></path>
+                <path d="M82 106C92 122 128 122 138 106C128 100 92 100 82 106Z" fill="#4ADE80" stroke="#1A191B" stroke-width="3"></path>
+              </g>
+              <g id="env-outfit-jaket" class="hidden">
+                <path d="M72 114C58 120 50 136 55 148L72 152L78 134Z" fill="#F5EFE6" stroke="#1A191B" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M148 114C162 120 170 136 165 148L148 152L142 134Z" fill="#F5EFE6" stroke="#1A191B" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M74 112C76 104 88 101 110 101C132 101 144 104 146 112L144 166H76L74 112Z" fill="#2563EB" stroke="#1A191B" stroke-width="4.2" stroke-linejoin="round"></path>
+                <path d="M110 104V165" stroke="#FACC15" stroke-width="3.5"></path>
+              </g>
+              <g>
+                <rect x="151" y="130" width="20" height="31" rx="4" transform="rotate(-12 151 130)" fill="#F5A623" stroke="#1A191B" stroke-width="3.5"></rect>
+                <rect x="154.5" y="134.5" width="13" height="20" rx="2" transform="rotate(-12 151 130)" fill="#FFFDF7" stroke="#1A191B" stroke-width="2"></rect>
+                <circle cx="168" cy="131" r="4.5" fill="#EF4444" stroke="#1A191B" stroke-width="2.2"></circle>
+              </g>
+              <g>
+                <path d="M63 64C54 64 52 78 63 82Z" fill="#F0B48A" stroke="#1A191B" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M157 64C166 64 168 78 157 82Z" fill="#F0B48A" stroke="#1A191B" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M63 60C63 33 84 23 110 23C136 23 157 33 157 60C157 86 143 102 110 102C77 102 63 86 63 60Z" fill="#F0B48A" stroke="#1A191B" stroke-width="4.4" stroke-linejoin="round"></path>
+                <path d="M67 74C75 94 145 94 153 74C146 100 74 100 67 74Z" fill="#D08C60" fill-opacity="0.65"></path>
+                <path d="M78 58Q91 64 102 61" stroke="#1A191B" stroke-width="4" stroke-linecap="round"></path>
+                <path d="M142 58Q129 64 118 61" stroke="#1A191B" stroke-width="4" stroke-linecap="round"></path>
+                <path d="M80 65H101C101 73 96 76 90 76C84 76 80 73 80 65Z" fill="#FFFDF7" stroke="#1A191B" stroke-width="3" stroke-linejoin="round"></path>
+                <path d="M119 65H140C140 73 136 76 130 76C124 76 119 73 119 65Z" fill="#FFFDF7" stroke="#1A191B" stroke-width="3" stroke-linejoin="round"></path>
+                <circle cx="91" cy="70" r="4.2" fill="#92400E"></circle>
+                <circle cx="129" cy="70" r="4.2" fill="#92400E"></circle>
+                <circle cx="91" cy="70" r="2.2" fill="#1A191B"></circle>
+                <circle cx="129" cy="70" r="2.2" fill="#1A191B"></circle>
+                <path d="M104 75Q110 72 116 75Q118 82 110 83Q102 82 104 75Z" fill="#E29E72" stroke="#1A191B" stroke-width="2.6" stroke-linejoin="round"></path>
+                <path d="M97 90Q110 95 123 89" stroke="#1A191B" stroke-width="3.2" stroke-linecap="round"></path>
+              </g>
+              <g id="env-hair-front">
+                <path d="M60 66C58 34 82 20 110 20C138 20 162 34 160 66L151 54L142 60L132 48L116 55L104 45L88 57L76 50L60 66Z" fill="#3B2314" stroke="#1A191B" stroke-width="4.2" stroke-linejoin="round"></path>
+                <path d="M80 34C96 27 120 27 136 33" stroke="#7A4824" stroke-width="3.8" stroke-linecap="round"></path>
+              </g>
+              <g id="env-acc-glasses">
+                <circle cx="90" cy="69" r="13.5" fill="#93C5FD" fill-opacity="0.38" stroke="#1A191B" stroke-width="3.8"></circle>
+                <circle cx="130" cy="69" r="13.5" fill="#93C5FD" fill-opacity="0.38" stroke="#1A191B" stroke-width="3.8"></circle>
+                <path d="M103.5 69H116.5M63 66L76.5 68M157 66L143.5 68" stroke="#1A191B" stroke-width="3.5" stroke-linecap="round"></path>
+              </g>
+              <g id="env-acc-headset" class="hidden">
+                <path d="M58 66C58 28 80 14 110 14C140 14 162 28 162 66" stroke="#1A191B" stroke-width="7.5" stroke-linecap="round"></path>
+                <rect x="48" y="54" width="16" height="28" rx="6" fill="#F5A623" stroke="#1A191B" stroke-width="3.8"></rect>
+                <rect x="156" y="54" width="16" height="28" rx="6" fill="#F5A623" stroke="#1A191B" stroke-width="3.8"></rect>
+              </g>
+              <g id="env-acc-cap" class="hidden">
+                <path d="M62 46C64 20 86 14 110 14C134 14 156 20 158 46H62Z" fill="#DC2626" stroke="#1A191B" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M154 43H178C178 52 165 55 148 55H62" fill="#FACC15" stroke="#1A191B" stroke-width="4" stroke-linejoin="round"></path>
+              </g>
+            </g>
+          </svg>
+          <span id="env-preview-badge" class="absolute top-2 left-2 px-gutter-sm py-gutter-xs rounded-full bg-hud-purple-dark text-light-surface-bright border-2 border-gold-bright font-headline text-label-sm" data-design-text-token="label-sm">Kamar Kos Senja</span>
+        </div>
+        <div class="flex items-center justify-between px-gutter-xs">
+          <span id="env-bg-label" class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Latar: Senja Hangat</span>
+          <span id="env-props-label" class="font-headline text-label-sm text-success" data-design-text-token="label-sm">2 Properti Aktif</span>
+        </div>
+      </section>
+
+      <!-- Environment Category Tabs -->
+      <div role="tablist" aria-label="Kategori environment" class="grid grid-cols-3 gap-gutter-xs ref-hud-purple p-1.5 rounded-xl border-2 border-ink-dark">
+        <button type="button" role="tab" aria-selected="true" data-tab="locations" onclick="switchEnvTab(&#39;locations&#39;)" class="env-tab px-gutter-sm py-gutter-sm rounded-lg bg-btn-yellow text-ink-dark font-headline text-label-sm cursor-pointer" data-design-text-token="label-sm">Locations</button>
+        <button type="button" role="tab" aria-selected="false" data-tab="backgrounds" onclick="switchEnvTab(&#39;backgrounds&#39;)" class="env-tab px-gutter-sm py-gutter-sm rounded-lg text-light-surface-bright font-headline text-label-sm cursor-pointer" data-design-text-token="label-sm">Backgrounds</button>
+        <button type="button" role="tab" aria-selected="false" data-tab="props" onclick="switchEnvTab(&#39;props&#39;)" class="env-tab px-gutter-sm py-gutter-sm rounded-lg text-light-surface-bright font-headline text-label-sm cursor-pointer" data-design-text-token="label-sm">Props</button>
+      </div>
+
+      <!-- Tab Panel 1: Locations -->
+      <section id="panel-locations" aria-label="Pilih lokasi studio" class="flex flex-col gap-gutter-sm">
+        <button type="button" onclick="selectLocation(this, &#39;kos-senja&#39;, &#39;Kamar Kos Senja&#39;)" class="loc-opt ref-card rounded-xl p-gutter-md flex items-center gap-gutter-md border-success text-left cursor-pointer">
+          <svg class="w-20 h-14 rounded-lg border-2 border-slate-300 shrink-0" viewBox="0 0 80 56" fill="none" aria-hidden="true">
+            <rect width="80" height="36" fill="#FDE6B8"></rect>
+            <rect y="36" width="80" height="20" fill="#9A5E34"></rect>
+            <rect x="8" y="8" width="22" height="18" rx="2" fill="#93C5FD" stroke="#1A191B" stroke-width="1.5"></rect>
+            <rect x="48" y="24" width="24" height="12" rx="2" fill="#C0835A" stroke="#1A191B" stroke-width="1.5"></rect>
+          </svg>
+          <div class="flex-1 min-w-0">
+            <h1 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">Kamar Kos Senja</h1>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Lokasi awal buzzer pemula</p>
+          </div>
+          <span class="loc-status px-gutter-sm py-gutter-xs rounded-full bg-success text-light-surface-bright font-headline text-label-sm shrink-0" data-design-text-token="label-sm">Aktif</span>
+        </button>
+
+        <button type="button" onclick="selectLocation(this, &#39;kos-pagi&#39;, &#39;Kamar Kerja Pagi&#39;)" class="loc-opt ref-card rounded-xl p-gutter-md flex items-center gap-gutter-md text-left cursor-pointer">
+          <svg class="w-20 h-14 rounded-lg border-2 border-slate-300 shrink-0" viewBox="0 0 80 56" fill="none" aria-hidden="true">
+            <rect width="80" height="36" fill="#FFFBEB"></rect>
+            <rect y="36" width="80" height="20" fill="#B47B4C"></rect>
+            <rect x="8" y="8" width="24" height="18" rx="2" fill="#BAE6FD" stroke="#1A191B" stroke-width="1.5"></rect>
+            <circle cx="56" cy="24" r="6" fill="#4ADE80" stroke="#1A191B" stroke-width="1.5"></circle>
+          </svg>
+          <div class="flex-1 min-w-0">
+            <h2 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">Kamar Kerja Pagi</h2>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Meja kayu cerah + monstera</p>
+          </div>
+          <span class="loc-status px-gutter-sm py-gutter-xs rounded-full bg-dock-bg text-ink-dark font-headline text-label-sm shrink-0" data-design-text-token="label-sm">Gratis</span>
+        </button>
+
+        <button type="button" onclick="selectLocation(this, &#39;studio-mini&#39;, &#39;Studio Konten Mini&#39;)" class="loc-opt ref-card rounded-xl p-gutter-md flex items-center gap-gutter-md text-left cursor-pointer">
+          <svg class="w-20 h-14 rounded-lg border-2 border-slate-300 shrink-0" viewBox="0 0 80 56" fill="none" aria-hidden="true">
+            <rect width="80" height="36" fill="#1E293B"></rect>
+            <rect y="36" width="80" height="20" fill="#3A2010"></rect>
+            <rect x="24" y="8" width="32" height="10" rx="2" fill="#EF4444" stroke="#1A191B" stroke-width="1.5"></rect>
+            <circle cx="64" cy="22" r="6" fill="#FFFDF7" stroke="#1A191B" stroke-width="1.5"></circle>
+          </svg>
+          <div class="flex-1 min-w-0">
+            <h2 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">Studio Konten Mini</h2>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Panel akustik • Dual monitor</p>
+          </div>
+          <span class="loc-status px-gutter-sm py-gutter-xs rounded-full bg-btn-yellow text-ink-dark font-headline text-label-sm shrink-0" data-design-text-token="label-sm">Pratinjau</span>
+        </button>
+      </section>
+
+      <!-- Tab Panel 2: Backgrounds -->
+      <section id="panel-backgrounds" aria-label="Pilih latar belakang" class="hidden ref-card rounded-xl p-gutter-md flex flex-col gap-gutter-sm">
+        <h2 class="font-headline text-title-md text-ink-dark" data-design-text-token="title-md">Pilih Pencahayaan &amp; Latar</h2>
+        <button type="button" onclick="selectBg(this, &#39;Senja Hangat&#39;)" class="envbg-opt flex items-center justify-between p-gutter-md rounded-xl border-2 border-success bg-dock-bg cursor-pointer">
+          <span class="font-headline text-body-md text-ink-dark" data-design-text-token="body-md">Senja Hangat</span>
+          <span class="font-headline text-label-sm text-success" data-design-text-token="label-sm">Aktif</span>
+        </button>
+        <button type="button" onclick="selectBg(this, &#39;Neon Malam&#39;)" class="envbg-opt flex items-center justify-between p-gutter-md rounded-xl border-2 border-slate-300 bg-light-surface-bright cursor-pointer">
+          <span class="font-headline text-body-md text-ink-dark" data-design-text-token="body-md">Neon Malam</span>
+          <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Gratis</span>
+        </button>
+        <button type="button" onclick="selectBg(this, &#39;Pagi Cerah&#39;)" class="envbg-opt flex items-center justify-between p-gutter-md rounded-xl border-2 border-slate-300 bg-light-surface-bright cursor-pointer">
+          <span class="font-headline text-body-md text-ink-dark" data-design-text-token="body-md">Pagi Cerah</span>
+          <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Gratis</span>
+        </button>
+      </section>
+
+      <!-- Tab Panel 3: Props -->
+      <section id="panel-props" aria-label="Pilih properti meja" class="hidden ref-card rounded-xl p-gutter-md flex flex-col gap-gutter-sm">
+        <h2 class="font-headline text-title-md text-ink-dark" data-design-text-token="title-md">Properti Meja Kerja</h2>
+        <button type="button" onclick="toggleProp(this)" class="prop-opt flex items-center justify-between p-gutter-md rounded-xl border-2 border-success bg-dock-bg cursor-pointer">
+          <span class="font-headline text-body-md text-ink-dark" data-design-text-token="body-md">Es Kopi Susu</span>
+          <span class="prop-status font-headline text-label-sm text-success" data-design-text-token="label-sm">Terpasang</span>
+        </button>
+        <button type="button" onclick="toggleProp(this)" class="prop-opt flex items-center justify-between p-gutter-md rounded-xl border-2 border-success bg-dock-bg cursor-pointer">
+          <span class="font-headline text-body-md text-ink-dark" data-design-text-token="body-md">Tanaman Monstera</span>
+          <span class="prop-status font-headline text-label-sm text-success" data-design-text-token="label-sm">Terpasang</span>
+        </button>
+        <button type="button" onclick="toggleProp(this)" class="prop-opt flex items-center justify-between p-gutter-md rounded-xl border-2 border-slate-300 bg-light-surface-bright cursor-pointer">
+          <span class="font-headline text-body-md text-ink-dark" data-design-text-token="body-md">Lampu Meja Retro</span>
+          <span class="prop-status font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Simpan</span>
+        </button>
+      </section>
+
+      <!-- Save Toast & CTA -->
+      <p id="env-toast" class="hidden text-center font-headline text-body-sm text-light-surface-bright bg-success border-2 border-ink-dark rounded-xl py-gutter-sm px-gutter-md" data-design-text-token="body-sm">
+        Tampilan studio berhasil disimpan!
+      </p>
+
+      <button type="button" onclick="saveStudio()" class="ref-btn-green w-full inline-flex items-center justify-center gap-gutter-sm px-gutter-lg py-gutter-md rounded-xl cursor-pointer">
+        <span class="font-headline text-label-lg text-light-surface-bright" data-design-text-token="label-lg">Terapkan ke Studio</span>
+      </button>
+
+    </main>
+  </div>
+
+  <script>
+    function switchEnvTab(tabId) {
+      var tabs = document.querySelectorAll('.env-tab');
+      for (var i = 0; i < tabs.length; i++) {
+        var isCurrent = tabs[i].getAttribute('data-tab') === tabId;
+        tabs[i].setAttribute('aria-selected', isCurrent ? 'true' : 'false');
+        tabs[i].className = isCurrent
+          ? 'env-tab px-gutter-sm py-gutter-sm rounded-lg bg-btn-yellow text-ink-dark font-headline text-label-sm cursor-pointer'
+          : 'env-tab px-gutter-sm py-gutter-sm rounded-lg text-light-surface-bright font-headline text-label-sm cursor-pointer';
+      }
+      var panels = ['locations', 'backgrounds', 'props'];
+      for (var j = 0; j < panels.length; j++) {
+        var el = document.getElementById('panel-' + panels[j]);
+        if (panels[j] === tabId) el.classList.remove('hidden');
+        else el.classList.add('hidden');
+      }
+    }
+
+    function selectLocation(btn, sceneKey, name) {
+      ['kos-senja', 'kos-pagi', 'studio-mini'].forEach(function (k) {
+        var g = document.getElementById('env-scene-' + k);
+        if (g) {
+          if (k === sceneKey) g.classList.remove('hidden');
+          else g.classList.add('hidden');
+        }
+      });
+      document.getElementById('env-preview-badge').textContent = name;
+      var opts = document.querySelectorAll('.loc-opt');
+      for (var i = 0; i < opts.length; i++) {
+        opts[i].className = 'loc-opt ref-card rounded-xl p-gutter-md flex items-center gap-gutter-md text-left cursor-pointer';
+        var st = opts[i].querySelector('.loc-status');
+        if (st && st.textContent === 'Aktif') {
+          st.className = 'loc-status px-gutter-sm py-gutter-xs rounded-full bg-dock-bg text-ink-dark font-headline text-label-sm shrink-0';
+          st.textContent = 'Pilih';
+        }
+      }
+      btn.className = 'loc-opt ref-card rounded-xl p-gutter-md flex items-center gap-gutter-md border-success text-left cursor-pointer';
+      var activeSt = btn.querySelector('.loc-status');
+      if (activeSt) {
+        activeSt.className = 'loc-status px-gutter-sm py-gutter-xs rounded-full bg-success text-light-surface-bright font-headline text-label-sm shrink-0';
+        activeSt.textContent = 'Aktif';
+      }
+    }
+
+    function selectBg(btn, name) {
+      document.getElementById('env-bg-label').textContent = 'Latar: ' + name;
+      var tint = document.getElementById('env-ambient-tint');
+      if (tint) {
+        if (name === 'Neon Malam') { tint.setAttribute('fill', '#1E1B4B'); tint.setAttribute('fill-opacity', '0.28'); }
+        else if (name === 'Pagi Cerah') { tint.setAttribute('fill', '#FEF08A'); tint.setAttribute('fill-opacity', '0.12'); }
+        else { tint.setAttribute('fill', '#F59E0B'); tint.setAttribute('fill-opacity', '0.08'); }
+      }
+      var opts = document.querySelectorAll('.envbg-opt');
+      for (var i = 0; i < opts.length; i++) {
+        opts[i].className = 'envbg-opt flex items-center justify-between p-gutter-md rounded-xl border-2 border-slate-300 bg-light-surface-bright cursor-pointer';
+      }
+      btn.className = 'envbg-opt flex items-center justify-between p-gutter-md rounded-xl border-2 border-success bg-dock-bg cursor-pointer';
+    }
+
+    function toggleProp(btn) {
+      var statusEl = btn.querySelector('.prop-status');
+      var active = statusEl.textContent === 'Terpasang';
+      if (active) {
+        statusEl.textContent = 'Simpan';
+        statusEl.className = 'prop-status font-body text-label-sm text-light-on-surface-variant';
+        btn.className = 'prop-opt flex items-center justify-between p-gutter-md rounded-xl border-2 border-slate-300 bg-light-surface-bright cursor-pointer';
+      } else {
+        statusEl.textContent = 'Terpasang';
+        statusEl.className = 'prop-status font-headline text-label-sm text-success';
+        btn.className = 'prop-opt flex items-center justify-between p-gutter-md rounded-xl border-2 border-success bg-dock-bg cursor-pointer';
+      }
+      var count = 0;
+      var all = document.querySelectorAll('.prop-status');
+      for (var i = 0; i < all.length; i++) {
+        if (all[i].textContent === 'Terpasang') count++;
+      }
+      document.getElementById('env-props-label').textContent = count + ' Properti Aktif';
+    }
+
+    function saveStudio() {
+      try {
+        localStorage.setItem('mb_studio_location', document.getElementById('env-preview-badge').textContent);
+      } catch (e) {}
+      var toast = document.getElementById('env-toast');
+      toast.classList.remove('hidden');
+      setTimeout(function () { toast.classList.add('hidden'); }, 2200);
+    }
+
+    (function () {
+      var studioBtn = document.querySelectorAll('.loc-opt')[2];
+      if (studioBtn) selectLocation(studioBtn, 'studio-mini', 'Studio Konten Mini');
+      try {
+        var raw = localStorage.getItem('mb_character');
+        if (raw) {
+          var cfg = JSON.parse(raw);
+          if (cfg) {
+            if (cfg.hairColor) {
+              var hb = document.getElementById('env-hair-back');
+              var hf = document.getElementById('env-hair-front');
+              if (hb) { hb.style.display = cfg.longHair === false ? 'none' : 'block'; hb.querySelector('path').setAttribute('fill', cfg.hairColor); }
+              if (hf) hf.querySelector('path').setAttribute('fill', cfg.hairColor);
+            }
+            if (cfg.outfitKey) {
+              ['kaos', 'hoodie', 'jaket'].forEach(function (k) {
+                var g = document.getElementById('env-outfit-' + k);
+                if (g) { if (k === cfg.outfitKey) g.classList.remove('hidden'); else g.classList.add('hidden'); }
+              });
+            }
+            if (cfg.accKey) {
+              ['glasses', 'headset', 'cap'].forEach(function (k) {
+                var a = document.getElementById('env-acc-' + k);
+                if (a) { if (k === cfg.accKey) a.classList.remove('hidden'); else a.classList.add('hidden'); }
+              });
+            }
+          }
+        }
+      } catch (e) {}
+    })();
+  </script>
+
+
+</body></html>

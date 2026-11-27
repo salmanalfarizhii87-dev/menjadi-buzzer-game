@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<skenario>
+    <dialog karakter="0" ekspresi="idle" hold="false"/>
+    <pilihan alignY="0.5f" y="-120" animasi="0.3" ekspresi="matre" formatType="penghasilan_gandakan">
+        <dialog>Cihuy!!!&#10;Penghasilanmu berhasil digandakan dari %1$s menjadi %2$s!!!</dialog>
+        <buttons>
+            <button tipe="close_kaching" image="UI_baru/ui_btn_normal_ijo.png" text="Mantaap!"/>
+        </buttons>
+    </pilihan>
+</skenario>
+</resources>

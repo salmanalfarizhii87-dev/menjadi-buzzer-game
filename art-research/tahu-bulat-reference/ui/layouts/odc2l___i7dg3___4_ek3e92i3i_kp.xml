@@ -1,0 +1,347 @@
+<resources>
+
+    <container id="root" x="0" y="0">
+        <container id="all_bintang" x="0" y="0" pivotX="0.5" pivotY="0.5">
+            <!--//08142020-->
+            <!--<image id="bintang1" x="0" y="-925"-->
+
+            <image id="bintang1" x="0" y="-825" pivotX="0.5" pivotY="0.5" isVisible="false" path="Header Gacha Rarity/Header_GachaLv1.png" scaleX="2" scaleY="2" pivotScaleX="0.5" pivotScaleY="0.5">
+                <particle id="p_bintang1" xml="xml_ui/rempah/particle/p_bintang1_cling.xml" x="0" y="0"/>
+            </image>
+
+            <image id="bintang2" x="0" y="-825" pivotX="0.5" pivotY="0.5" isVisible="false" path="Header Gacha Rarity/Header_GachaLv2.png" scaleX="2" scaleY="2" pivotScaleX="0.5" pivotScaleY="0.5">
+                <particle id="p_bintang2" xml="xml_ui/rempah/particle/p_bintang1_cling.xml" x="0" y="0"/>
+            </image>
+
+            <image id="bintang3" x="0" y="-825" pivotX="0.5" pivotY="0.5" isVisible="false" path="Header Gacha Rarity/Header_GachaLv3.png" scaleX="2" scaleY="2" pivotScaleX="0.5" pivotScaleY="0.5">
+                <particle id="p_bintang3" xml="xml_ui/rempah/particle/p_bintang3_cling.xml" x="0" y="0"/>
+            </image>
+
+            <image id="bintang4" x="0" y="-825" pivotX="0.5" pivotY="0.5" isVisible="false" path="Header Gacha Rarity/Header_GachaLv4.png" scaleX="2" scaleY="2" pivotScaleX="0.5" pivotScaleY="0.5">
+                <particle id="p_bintang4" xml="xml_ui/rempah/particle/p_bintang3_cling.xml" x="0" y="0"/>
+            </image>
+
+            <image id="bintang5" x="0" y="-825" pivotX="0.5" pivotY="0.5" isVisible="false" path="Header Gacha Rarity/Header_GachaLv5.png" scaleX="2" scaleY="2" pivotScaleX="0.5" pivotScaleY="0.5">
+                <particle id="p_bintang5" xml="xml_ui/rempah/particle/p_bintang5_cling.xml" x="0" y="0"/>
+            </image>
+
+            <image id="bintang6" x="0" y="-825" pivotX="0.5" pivotY="0.5" isVisible="false" path="Header Gacha Rarity/Header_GachaLv6.png" scaleX="2" scaleY="2" pivotScaleX="0.5" pivotScaleY="0.5">
+                <particle id="p_bintang6" xml="xml_ui/rempah/particle/p_bintang5_cling.xml" x="0" y="0"/>
+            </image>
+        </container>
+
+    </container>
+
+    <animation>
+        <bintang_hilang>
+            <sequence>
+                <multiple>
+                    <stopParticle id="p_bintang1"/>
+                    <stopParticle id="p_bintang2"/>
+                    <stopParticle id="p_bintang3"/>
+                    <stopParticle id="p_bintang4"/>
+                    <stopParticle id="p_bintang5"/>
+                    <stopParticle id="p_bintang6"/>
+                </multiple>
+                <multiple>
+                    <scaleX id="bintang1" pivotX="0.5" time="0.05">2.2</scaleX>
+                    <scaleY id="bintang1" pivotY="0.5" time="0.05">2.2</scaleY>
+                    <scaleX id="bintang2" pivotX="0.5" time="0.05">2.2</scaleX>
+                    <scaleY id="bintang2" pivotY="0.5" time="0.05">2.2</scaleY>
+                    <scaleX id="bintang3" pivotX="0.5" time="0.05">2.2</scaleX>
+                    <scaleY id="bintang3" pivotY="0.5" time="0.05">2.2</scaleY>
+                    <scaleX id="bintang4" pivotX="0.5" time="0.05">2.2</scaleX>
+                    <scaleY id="bintang4" pivotY="0.5" time="0.05">2.2</scaleY>
+                    <scaleX id="bintang5" pivotX="0.5" time="0.05">2.2</scaleX>
+                    <scaleY id="bintang5" pivotY="0.5" time="0.05">2.2</scaleY>
+                    <scaleX id="bintang6" pivotX="0.5" time="0.05">2.2</scaleX>
+                    <scaleY id="bintang6" pivotY="0.5" time="0.05">2.2</scaleY>
+                </multiple>
+                <multiple>
+                    <scaleX id="bintang1" pivotX="0.5" time="0.05">0</scaleX>
+                    <scaleY id="bintang1" pivotY="0.5" time="0.05">0</scaleY>
+                    <scaleX id="bintang2" pivotX="0.5" time="0.05">0</scaleX>
+                    <scaleY id="bintang2" pivotY="0.5" time="0.05">0</scaleY>
+                    <scaleX id="bintang3" pivotX="0.5" time="0.05">0</scaleX>
+                    <scaleY id="bintang3" pivotY="0.5" time="0.05">0</scaleY>
+                    <scaleX id="bintang4" pivotX="0.5" time="0.05">0</scaleX>
+                    <scaleY id="bintang4" pivotY="0.5" time="0.05">0</scaleY>
+                    <scaleX id="bintang5" pivotX="0.5" time="0.05">0</scaleX>
+                    <scaleY id="bintang5" pivotY="0.5" time="0.05">0</scaleY>
+                    <scaleX id="bintang6" pivotX="0.5" time="0.05">0</scaleX>
+                    <scaleY id="bintang6" pivotY="0.5" time="0.05">0</scaleY>
+                </multiple>
+            </sequence>
+        </bintang_hilang>
+
+        <bintang_1>
+            <sequence>
+                <multiple>
+<!--                    <hideVisibility id="bintang1"/>-->
+                    <hideVisibility id="bintang2"/>
+                    <hideVisibility id="bintang3"/>
+                    <hideVisibility id="bintang4"/>
+                    <hideVisibility id="bintang5"/>
+                    <hideVisibility id="bintang6"/>
+                </multiple>
+
+                <multiple>
+                    <hideVisibility id="bintang1"/>
+
+
+                    <scaleX id="bintang1" pivotX="0.5" time="0">0</scaleX>
+                    <scaleY id="bintang1" pivotY="0.5" time="0">0</scaleY>
+
+                    <stopParticle id="p_bintang1"/>
+
+
+                    <moveX id="bintang1" time="0">0</moveX>
+                    <moveY id="bintang1" time="0">0</moveY>
+                </multiple>
+
+                <wait time="0.35"/>
+
+                <multiple>
+                    <showVisibility id="bintang1"/>
+
+                    <sequence>
+                        <multiple>
+                            <playParticle id="p_bintang1"/>
+                            <scaleX id="bintang1" pivotX="0.5" time="0.1">2.2</scaleX>
+                            <scaleY id="bintang1" pivotY="0.5" time="0.1">2.2</scaleY>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="bintang1" pivotX="0.5" time="0.05">2</scaleX>
+                            <scaleY id="bintang1" pivotY="0.5" time="0.05">2</scaleY>
+                        </multiple>
+                    </sequence>
+                </multiple>
+            </sequence>
+        </bintang_1>
+
+        <bintang_2>
+            <sequence>
+                <multiple>
+                    <hideVisibility id="bintang1"/>
+<!--                    <hideVisibility id="bintang2"/>-->
+                    <hideVisibility id="bintang3"/>
+                    <hideVisibility id="bintang4"/>
+                    <hideVisibility id="bintang5"/>
+                    <hideVisibility id="bintang6"/>
+                </multiple>
+
+                <multiple>
+                    <hideVisibility id="bintang2"/>
+
+
+                    <scaleX id="bintang2" pivotX="0.5" time="0">0</scaleX>
+                    <scaleY id="bintang2" pivotY="0.5" time="0">0</scaleY>
+
+                    <stopParticle id="p_bintang2"/>
+
+
+                    <moveX id="bintang2" time="0">0</moveX>
+                    <moveY id="bintang2" time="0">0</moveY>
+                </multiple>
+
+                <wait time="0.35"/>
+
+                <multiple>
+                    <showVisibility id="bintang2"/>
+
+                    <sequence>
+                        <multiple>
+                            <playParticle id="p_bintang2"/>
+                            <scaleX id="bintang2" pivotX="0.5" time="0.1">2.2</scaleX>
+                            <scaleY id="bintang2" pivotY="0.5" time="0.1">2.2</scaleY>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="bintang2" pivotX="0.5" time="0.05">2</scaleX>
+                            <scaleY id="bintang2" pivotY="0.5" time="0.05">2</scaleY>
+                        </multiple>
+                    </sequence>
+                </multiple>
+            </sequence>
+        </bintang_2>
+
+        <bintang_3>
+            <sequence>
+                <multiple>
+                    <hideVisibility id="bintang1"/>
+                    <hideVisibility id="bintang2"/>
+<!--                    <hideVisibility id="bintang3"/>-->
+                    <hideVisibility id="bintang4"/>
+                    <hideVisibility id="bintang5"/>
+                    <hideVisibility id="bintang6"/>
+                </multiple>
+
+                <multiple>
+                    <hideVisibility id="bintang3"/>
+
+
+                    <scaleX id="bintang3" pivotX="0.5" time="0">0</scaleX>
+                    <scaleY id="bintang3" pivotY="0.5" time="0">0</scaleY>
+
+                    <stopParticle id="p_bintang3"/>
+
+
+                    <moveX id="bintang3" time="0">0</moveX>
+                    <moveY id="bintang3" time="0">0</moveY>
+                </multiple>
+
+                <wait time="0.35"/>
+
+                <multiple>
+                    <showVisibility id="bintang3"/>
+
+                    <sequence>
+                        <multiple>
+                            <playParticle id="p_bintang3"/>
+                            <scaleX id="bintang3" pivotX="0.5" time="0.1">2.2</scaleX>
+                            <scaleY id="bintang3" pivotY="0.5" time="0.1">2.2</scaleY>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="bintang3" pivotX="0.5" time="0.05">2</scaleX>
+                            <scaleY id="bintang3" pivotY="0.5" time="0.05">2</scaleY>
+                        </multiple>
+                    </sequence>
+                </multiple>
+            </sequence>
+        </bintang_3>
+
+        <bintang_4>
+            <sequence>
+                <multiple>
+                    <hideVisibility id="bintang1"/>
+                    <hideVisibility id="bintang2"/>
+                    <hideVisibility id="bintang3"/>
+<!--                    <hideVisibility id="bintang4"/>-->
+                    <hideVisibility id="bintang5"/>
+                    <hideVisibility id="bintang6"/>
+                </multiple>
+
+                <multiple>
+                    <hideVisibility id="bintang4"/>
+
+
+                    <scaleX id="bintang4" pivotX="0.5" time="0">0</scaleX>
+                    <scaleY id="bintang4" pivotY="0.5" time="0">0</scaleY>
+
+                    <stopParticle id="p_bintang4"/>
+
+
+                    <moveX id="bintang4" time="0">0</moveX>
+                    <moveY id="bintang4" time="0">0</moveY>
+                </multiple>
+
+                <wait time="0.35"/>
+
+                <multiple>
+                    <showVisibility id="bintang4"/>
+
+                    <sequence>
+                        <multiple>
+                            <playParticle id="p_bintang4"/>
+                            <scaleX id="bintang4" pivotX="0.5" time="0.1">2.2</scaleX>
+                            <scaleY id="bintang4" pivotY="0.5" time="0.1">2.2</scaleY>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="bintang4" pivotX="0.5" time="0.05">2</scaleX>
+                            <scaleY id="bintang4" pivotY="0.5" time="0.05">2</scaleY>
+                        </multiple>
+                    </sequence>
+                </multiple>
+            </sequence>
+        </bintang_4>
+
+        <bintang_5>
+            <sequence>
+                <multiple>
+                    <hideVisibility id="bintang1"/>
+                    <hideVisibility id="bintang2"/>
+                    <hideVisibility id="bintang3"/>
+                    <hideVisibility id="bintang4"/>
+<!--                    <hideVisibility id="bintang5"/>-->
+                    <hideVisibility id="bintang6"/>
+                </multiple>
+
+                <multiple>
+                    <hideVisibility id="bintang5"/>
+
+
+                    <scaleX id="bintang5" pivotX="0.5" time="0">0</scaleX>
+                    <scaleY id="bintang5" pivotY="0.5" time="0">0</scaleY>
+
+                    <stopParticle id="p_bintang5"/>
+
+
+                    <moveX id="bintang5" time="0">0</moveX>
+                    <moveY id="bintang5" time="0">0</moveY>
+                </multiple>
+
+                <wait time="0.35"/>
+
+                <multiple>
+                    <showVisibility id="bintang5"/>
+
+                    <sequence>
+                        <multiple>
+                            <playParticle id="p_bintang5"/>
+                            <scaleX id="bintang5" pivotX="0.5" time="0.1">2.2</scaleX>
+                            <scaleY id="bintang5" pivotY="0.5" time="0.1">2.2</scaleY>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="bintang5" pivotX="0.5" time="0.05">2</scaleX>
+                            <scaleY id="bintang5" pivotY="0.5" time="0.05">2</scaleY>
+                        </multiple>
+                    </sequence>
+                </multiple>
+            </sequence>
+        </bintang_5>
+
+        <bintang_6>
+            <sequence>
+                <multiple>
+                    <hideVisibility id="bintang1"/>
+                    <hideVisibility id="bintang2"/>
+                    <hideVisibility id="bintang3"/>
+                    <hideVisibility id="bintang4"/>
+                    <hideVisibility id="bintang5"/>
+<!--                    <hideVisibility id="bintang6"/>-->
+                </multiple>
+
+                <multiple>
+                    <hideVisibility id="bintang6"/>
+
+
+                    <scaleX id="bintang6" pivotX="0.5" time="0">0</scaleX>
+                    <scaleY id="bintang6" pivotY="0.5" time="0">0</scaleY>
+
+                    <stopParticle id="p_bintang6"/>
+
+
+                    <moveX id="bintang6" time="0">0</moveX>
+                    <moveY id="bintang6" time="0">0</moveY>
+                </multiple>
+
+                <wait time="0.35"/>
+
+                <multiple>
+                    <showVisibility id="bintang6"/>
+
+                    <sequence>
+                        <multiple>
+                            <playParticle id="p_bintang6"/>
+                            <scaleX id="bintang6" pivotX="0.5" time="0.1">2.2</scaleX>
+                            <scaleY id="bintang6" pivotY="0.5" time="0.1">2.2</scaleY>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="bintang6" pivotX="0.5" time="0.05">2</scaleX>
+                            <scaleY id="bintang6" pivotY="0.5" time="0.05">2</scaleY>
+                        </multiple>
+                    </sequence>
+                </multiple>
+            </sequence>
+        </bintang_6>
+    </animation>
+</resources>

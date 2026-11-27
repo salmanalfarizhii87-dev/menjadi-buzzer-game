@@ -1,0 +1,363 @@
+<resources>
+    <container id="root" x="384" y="900" pivotX="0" pivotY="0" width="212" height="225" >
+        <container id="bungkus" x="0" y="0" pivotX="0" pivotY="0" width="212" height="225">
+            <image_list id="meidoufu_idle_syal_1" x="60" y="-81" pivotX="0.095" pivotY="0.527">
+                <item>ksatriatahu/pets/meidoufu/meidoufu_idle_syal_1.png</item>
+            </image_list>
+            <image_list id="meidoufu_idle_syal_2" x="38" y="-95" pivotX="0.067" pivotY="0.769">
+                <item>ksatriatahu/pets/meidoufu/meidoufu_idle_syal_2.png</item>
+            </image_list>
+            <!--<container id="meidoufu_idle_body" x="0" y="0" isBaseContainer="true">-->
+                <!--<image_list id="body_i" x="0" y="0" pivotX="0.5" pivotY="0.5" isBaseContainer="true">-->
+                    <!--<item>ksatriatahu/pets/meidoufu/meidoufu_idle_body.png</item>-->
+                <!--</image_list>-->
+            <!--</container>-->
+
+            <image_list id="meidoufu_idle_accessory1" x="-95" y="-154" pivotX="0.86" pivotY="0.096">
+                <item>ksatriatahu/pets/meidoufu/meidoufu_idle_accessory1.png</item>
+            </image_list>
+            <image_list id="meidoufu_idle_accessory2" x="-88" y="-141" pivotX="0.4" pivotY="0.092">
+                <item>ksatriatahu/pets/meidoufu/meidoufu_idle_accessory2.png</item>
+            </image_list>
+            <image_list id="meidoufu_idle_accessory3" x="-80" y="-145" pivotX="0.133" pivotY="0.1">
+                <item>ksatriatahu/pets/meidoufu/meidoufu_idle_accessory3.png</item>
+            </image_list>
+
+            <image_list id="meidoufu_idleflip_body" x="0" y="0" pivotX="0.5" pivotY="1">
+                <item>ksatriatahu/pets/meidoufu/meidoufu_idleflip_body.png</item>
+            </image_list>
+            <image_list id="meidoufu_idle_body" x="0" y="0" pivotX="0.5" pivotY="1" isBaseContainer="true">
+                <item>ksatriatahu/pets/meidoufu/meidoufu_idle_body.png</item>
+            </image_list>
+            <image_list id="meidoufu_idle" x="0" y="0" pivotX="0.5" pivotY="1">
+                <item>ksatriatahu/pets/meidoufu/meidoufu_idle.png</item>
+            </image_list>
+
+            <image_list id="meidoufu_syal" x="9" y="-110" pivotX="0.5" pivotY="0.5">
+                <item>ksatriatahu/pets/meidoufu/meidoufu_syal.png</item>
+            </image_list>
+            <image_list id="meidoufu_walk_body" x="0" y="0" pivotX="0.5" pivotY="1">
+                <item>ksatriatahu/pets/meidoufu/meidoufu_walk_body.png</item>
+            </image_list>
+            <image_list id="meidoufu_walk_body2" x="0" y="0" pivotX="0.5" pivotY="1">
+                <item>ksatriatahu/pets/meidoufu/meidoufu_walk_body2.png</item>
+            </image_list>
+
+            <uiReader pivotX="0.5" pivotY="1" alignX="meidoufu_idle#0.5" alignY="meidoufu_idle#0" id="emoji" xml="ksatriatahu/xml/emoji.xml"/>
+        </container>
+    </container>
+
+    <animation>
+        <stop>
+            <multiple>
+                <alpha id="meidoufu_idle_syal_1" time="0">0</alpha>
+                <alpha id="meidoufu_idle_syal_2" time="0">0</alpha>
+                <alpha id="meidoufu_idle_accessory1" time="0">1</alpha>
+                <alpha id="meidoufu_idle_accessory2" time="0">1</alpha>
+                <alpha id="meidoufu_idle_accessory3" time="0">1</alpha>
+                <alpha id="meidoufu_idle_body" time="0">0</alpha>
+                <alpha id="meidoufu_idleflip_body" time="0">0</alpha>
+                <alpha id="meidoufu_idle" time="0">1</alpha>
+                <alpha id="meidoufu_syal" time="0">0</alpha>
+                <alpha id="meidoufu_walk_body" time="0">0</alpha>
+                <alpha id="meidoufu_walk_body2" time="0">0</alpha>
+            </multiple>
+        </stop>
+        <reset>
+            <multiple>
+                <scaleX id="meidoufu_idle" pivotX="0.5" time="0">1</scaleX>
+                <scaleY id="meidoufu_idle" pivotY="1" time="0">1</scaleY>
+
+                <rotate id="meidoufu_idle_accessory1" pivotX="0.86" pivotY="0.096" time="0">0</rotate>
+                <rotate id="meidoufu_idle_accessory2" pivotX="0.4" pivotY="0.092" time="0">0</rotate>
+                <rotate id="meidoufu_idle_accessory3" pivotX="0.133" pivotY="0.1" time="0">0</rotate>
+
+                <scaleX id="meidoufu_walk_body" pivotX="0.5" time="0">1</scaleX>
+                <scaleY id="meidoufu_walk_body" pivotY="1" time="0">1</scaleY>
+
+                <moveY id="meidoufu_walk_body" time="0">0</moveY>
+                <moveY id="meidoufu_syal" time="0">0</moveY>
+
+                <scaleX id="meidoufu_walk_body2" pivotX="0.5" time="0">1</scaleX>
+                <scaleY id="meidoufu_walk_body2" pivotY="1" time="0">1</scaleY>
+
+                <moveY id="meidoufu_walk_body2" time="0">0</moveY>
+
+                <rotate id="meidoufu_idle_syal_1" pivotX="0.095" pivotY="0.527" time="0">0</rotate>
+                <rotate id="meidoufu_idle_syal_2" pivotX="0.067" pivotY="0.769" time="0">0</rotate>
+
+                <scaleX id="meidoufu_idle_syal_1" pivotX="0.5" time="0">1</scaleX>
+                <moveX id="meidoufu_idle_syal_1" time="0">0</moveX>
+                <moveX id="meidoufu_idle_syal_2" time="0">0</moveX>
+
+                <scaleX id="meidoufu_idleflip_body" pivotX="0.5" time="0">1</scaleX>
+                <scaleY id="meidoufu_idleflip_body" pivotY="1" time="0">1</scaleY>
+                <rotate id="meidoufu_idleflip_body" pivotX="0.5" pivotY="1" time="0">0</rotate>
+
+                <scaleY id="meidoufu_syal" pivotY="0.5" time="0">1</scaleY>
+            </multiple>
+        </reset>
+        <idle repeat="-1">
+            <sequence>
+                <multiple>
+                    <alpha id="meidoufu_idle_syal_1" time="0">0</alpha>
+                    <alpha id="meidoufu_idle_syal_2" time="0">0</alpha>
+                    <alpha id="meidoufu_idle_accessory1" time="0">1</alpha>
+                    <alpha id="meidoufu_idle_accessory2" time="0">1</alpha>
+                    <alpha id="meidoufu_idle_accessory3" time="0">1</alpha>
+                    <alpha id="meidoufu_idle_body" time="0">0</alpha>
+                    <alpha id="meidoufu_idleflip_body" time="0">0</alpha>
+                    <alpha id="meidoufu_idle" time="0">1</alpha>
+                    <alpha id="meidoufu_syal" time="0">0</alpha>
+                    <alpha id="meidoufu_walk_body" time="0">0</alpha>
+                    <alpha id="meidoufu_walk_body2" time="0">0</alpha>
+                </multiple>
+
+                <multiple>
+                    <scaleX id="meidoufu_idle" pivotX="0.5" time="0.3">1.02</scaleX>
+                    <scaleY id="meidoufu_idle" pivotY="1" time="0.3">0.98</scaleY>
+                </multiple>
+                <multiple>
+                    <scaleX id="meidoufu_idle" pivotX="0.5" time="0.1">0.98</scaleX>
+                    <scaleY id="meidoufu_idle" pivotY="1" time="0.1">1.02</scaleY>
+                    <moveY id="bungkus" pivotY="1" time="0.3">-20</moveY>
+                </multiple>
+                <moveY id="bungkus" pivotY="1" time="0.1">0</moveY>
+                <sequence repeat="-1">
+                    <multiple>
+                        <scaleX id="meidoufu_idle" pivotX="0.5" time="0.5">1.02</scaleX>
+                        <scaleY id="meidoufu_idle" pivotY="1" time="0.5">0.98</scaleY>
+                    </multiple>
+                    <multiple>
+                        <scaleX id="meidoufu_idle" pivotX="0.5" time="0.5">0.98</scaleX>
+                        <scaleY id="meidoufu_idle" pivotY="1" time="0.5">1.02</scaleY>
+                    </multiple>
+                </sequence>
+            </sequence>
+            <sequence repeat="-1">
+                <multiple>
+                    <rotate id="meidoufu_idle_accessory1" pivotX="0.86" pivotY="0.096" time="0.5">25</rotate>
+                    <rotate id="meidoufu_idle_accessory2" pivotX="0.4" pivotY="0.092" time="0.5">15</rotate>
+                    <rotate id="meidoufu_idle_accessory3" pivotX="0.133" pivotY="0.1" time="0.5">10</rotate>
+                </multiple>
+                <multiple>
+                    <rotate id="meidoufu_idle_accessory1" pivotX="0.86" pivotY="0.096" time="0.5">0</rotate>
+                    <rotate id="meidoufu_idle_accessory2" pivotX="0.4" pivotY="0.092" time="0.5">0</rotate>
+                    <rotate id="meidoufu_idle_accessory3" pivotX="0.133" pivotY="0.1" time="0.5">0</rotate>
+                </multiple>
+                <multiple>
+                    <rotate id="meidoufu_idle_accessory1" pivotX="0.86" pivotY="0.096" time="0.5">-9</rotate>
+                    <rotate id="meidoufu_idle_accessory2" pivotX="0.4" pivotY="0.092" time="0.5">-12</rotate>
+                    <rotate id="meidoufu_idle_accessory3" pivotX="0.133" pivotY="0.1" time="0.5">-15</rotate>
+                </multiple>
+            </sequence>
+        </idle>
+        <jalan repeat="-1">
+            <multiple>
+                <alpha id="emoji" time="0">0</alpha>
+                <alpha id="meidoufu_idle_syal_1" time="0">0</alpha>
+                <alpha id="meidoufu_idle_syal_2" time="0">0</alpha>
+                <alpha id="meidoufu_idle_accessory1" time="0">0</alpha>
+                <alpha id="meidoufu_idle_accessory2" time="0">0</alpha>
+                <alpha id="meidoufu_idle_accessory3" time="0">0</alpha>
+                <alpha id="meidoufu_idle_body" time="0">0</alpha>
+                <alpha id="meidoufu_idleflip_body" time="0">0</alpha>
+                <alpha id="meidoufu_idle" time="0">0</alpha>
+                <alpha id="meidoufu_syal" time="0">1</alpha>
+                <alpha id="meidoufu_walk_body" time="0">1</alpha>
+                <alpha id="meidoufu_walk_body2" time="0">0</alpha>
+                <scaleX id="meidoufu_syal" pivotX="0.5" time="0">1</scaleX>
+            </multiple>
+            <sequence>
+                <multiple>
+                    <scaleX id="meidoufu_walk_body" pivotX="0.5" time="0.5">0.98</scaleX>
+                    <scaleY id="meidoufu_walk_body" pivotY="1" time="0.5">1.02</scaleY>
+                    <moveY id="meidoufu_walk_body" time="0.5">-10</moveY>
+                    <moveY id="meidoufu_syal" time="0.5">10</moveY>
+                    <scaleY id="meidoufu_syal" pivotY="0.5" time="0.5">1.02</scaleY>
+                </multiple>
+                <multiple>
+                    <scaleX id="meidoufu_walk_body" pivotX="0.5" time="0.5">1.02</scaleX>
+                    <scaleY id="meidoufu_walk_body" pivotY="1" time="0.5">0.98</scaleY>
+                    <moveY id="meidoufu_walk_body" time="0.5">0</moveY>
+                    <moveY id="meidoufu_syal" time="0.5">3</moveY>
+                    <scaleY id="meidoufu_syal" pivotY="0.5" time="0.5">0.98</scaleY>
+                </multiple>
+            </sequence>
+        </jalan>
+        <jalan_kiri repeat="-1">
+            <multiple>
+                <alpha id="emoji" time="0">0</alpha>
+                <alpha id="meidoufu_idle_syal_1" time="0">0</alpha>
+                <alpha id="meidoufu_idle_syal_2" time="0">0</alpha>
+                <alpha id="meidoufu_idle_accessory1" time="0">0</alpha>
+                <alpha id="meidoufu_idle_accessory2" time="0">0</alpha>
+                <alpha id="meidoufu_idle_accessory3" time="0">0</alpha>
+                <alpha id="meidoufu_idle_body" time="0">0</alpha>
+                <alpha id="meidoufu_idleflip_body" time="0">0</alpha>
+                <alpha id="meidoufu_idle" time="0">0</alpha>
+                <alpha id="meidoufu_syal" time="0">1</alpha>
+                <scaleX id="meidoufu_syal" pivotX="0.5" time="0">-1</scaleX>
+                <alpha id="meidoufu_walk_body" time="0">0</alpha>
+                <alpha id="meidoufu_walk_body2" time="0">1</alpha>
+            </multiple>
+            <sequence>
+                <multiple>
+                    <scaleX id="meidoufu_walk_body2" pivotX="0.5" time="0.5">0.98</scaleX>
+                    <scaleY id="meidoufu_walk_body2" pivotY="1" time="0.5">1.02</scaleY>
+                    <moveY id="meidoufu_walk_body2" pivotY="1" time="0.5">-10</moveY>
+                    <moveY id="meidoufu_syal" pivotY="1" time="0.5">10</moveY>
+                    <scaleY id="meidoufu_syal" pivotY="0.5" time="0.5">1.02</scaleY>
+                </multiple>
+                <multiple>
+                    <scaleX id="meidoufu_walk_body2" pivotX="0.5" time="0.5">1.02</scaleX>
+                    <scaleY id="meidoufu_walk_body2" pivotY="1" time="0.5">0.98</scaleY>
+                    <moveY id="meidoufu_walk_body2" pivotY="1" time="0.5">0</moveY>
+                    <moveY id="meidoufu_syal" pivotY="1" time="0.5">3</moveY>
+                    <scaleY id="meidoufu_syal" pivotY="0.5" time="0.5">0.98</scaleY>
+                </multiple>
+            </sequence>
+        </jalan_kiri>
+        <makan>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="makan"></playAnim>
+        </makan>
+        <jurus>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="jurus"></playAnim>
+        </jurus>
+
+        <skill repeat="-1">
+            <alpha id="emoji" time="0">0</alpha>
+            <sequence>
+                <!--<playParticle id="efek_skill"/>-->
+                <sequence>
+                    <multiple>
+                        <rotate id="meidoufu_idle_body" pivotX="0.5" pivotY="1" time="0">0</rotate>
+                        <rotate id="meidoufu_idleflip_body" pivotX="0.5" pivotY="1" time="0">0</rotate>
+                        <alpha id="meidoufu_idle_syal_1" time="0">1</alpha>
+                        <scaleX id="meidoufu_idle_syal_1" pivotX="0.5" time="0">1</scaleX>
+                        <moveX id="meidoufu_idle_syal_1" pivotX="0.5" time="0">0</moveX>
+                        <alpha id="meidoufu_idle_syal_2" time="0">0</alpha>
+                        <scaleX id="meidoufu_idle_syal_2" pivotX="0.5" time="0">1</scaleX>
+                        <moveX id="meidoufu_idle_syal_2" pivotX="0.5" time="0">0</moveX>
+                        <alpha id="meidoufu_idle_accessory1" time="0">1</alpha>
+                        <alpha id="meidoufu_idle_accessory2" time="0">1</alpha>
+                        <alpha id="meidoufu_idle_accessory3" time="0">1</alpha>
+                        <alpha id="meidoufu_idle_body" time="0">1</alpha>
+                        <alpha id="meidoufu_idleflip_body" time="0">0</alpha>
+                        <alpha id="meidoufu_idle" time="0">0</alpha>
+                        <alpha id="meidoufu_syal" time="0">0</alpha>
+                        <alpha id="meidoufu_walk_body" time="0">0</alpha>
+                        <alpha id="meidoufu_walk_body2" time="0">0</alpha>
+                    </multiple>
+                    <multiple>
+                        <sequence repeat="2">
+                            <multiple>
+                                <rotate id="meidoufu_idle_accessory1" pivotX="0.86" pivotY="0.096" time="0.1">-10</rotate>
+                                <rotate id="meidoufu_idle_accessory2" pivotX="0.4" pivotY="0.092" time="0.1">-7</rotate>
+                                <rotate id="meidoufu_idle_accessory3" pivotX="0.133" pivotY="0.1" time="0.1">-4</rotate>
+                            </multiple>
+                            <multiple>
+                                <rotate id="meidoufu_idle_accessory1" pivotX="0.86" pivotY="0.096" time="0.1">0</rotate>
+                                <rotate id="meidoufu_idle_accessory2" pivotX="0.4" pivotY="0.092" time="0.1">0</rotate>
+                                <rotate id="meidoufu_idle_accessory3" pivotX="0.133" pivotY="0.1" time="0.1">0</rotate>
+                            </multiple>
+                            <multiple>
+                                <rotate id="meidoufu_idle_accessory1" pivotX="0.86" pivotY="0.096" time="0.1">4</rotate>
+                                <rotate id="meidoufu_idle_accessory2" pivotX="0.4" pivotY="0.092" time="0.1">7</rotate>
+                                <rotate id="meidoufu_idle_accessory3" pivotX="0.133" pivotY="0.1" time="0.1">10</rotate>
+                            </multiple>
+                        </sequence>
+                        <sequence repeat="2">
+                            <multiple>
+                                <scaleX id="meidoufu_idle_body" pivotX="0.5" time="0.15">1.02</scaleX>
+                                <scaleY id="meidoufu_idle_body" pivotY="1" time="0.15">0.99</scaleY>
+                                <rotate id="meidoufu_idle_body" pivotX="0.5" pivotY="1" time="0.15">-2</rotate>
+                            </multiple>
+                            <multiple>
+                                <scaleX id="meidoufu_idle_body" pivotX="0.5" time="0.15">0.98</scaleX>
+                                <scaleY id="meidoufu_idle_body" pivotY="1" time="0.15">1.01</scaleY>
+                                <rotate id="meidoufu_idle_body" pivotX="0.5" pivotY="1" time="0.15">-3</rotate>
+                            </multiple>
+                        </sequence>
+                        <sequence repeat="2">
+                            <rotate id="meidoufu_idle_syal_1" pivotX="0.095" pivotY="0.527" time="0.08">-20</rotate>
+                            <rotate id="meidoufu_idle_syal_1" pivotX="0.095" pivotY="0.527" time="0.05">0</rotate>
+                            <multiple>
+                                <alpha id="meidoufu_idle_syal_1" time="0">0</alpha>
+                                <alpha id="meidoufu_idle_syal_2" time="0">1</alpha>
+                            </multiple>
+                            <rotate id="meidoufu_idle_syal_2" pivotX="0.067" pivotY="0.769" time="0.08">-30</rotate>
+                            <rotate id="meidoufu_idle_syal_2" pivotX="0.067" pivotY="0.769" time="0.05">25</rotate>
+                            <multiple>
+                                <alpha id="meidoufu_idle_syal_1" time="0">1</alpha>
+                                <alpha id="meidoufu_idle_syal_2" time="0">0</alpha>
+                                <rotate id="meidoufu_idle_syal_2" pivotX="0.067" pivotY="0.769" time="0">0</rotate>
+                            </multiple>
+                        </sequence>
+                    </multiple>
+                </sequence>
+                <sequence>
+                    <multiple>
+                        <alpha id="meidoufu_idle_syal_1" time="0">1</alpha>
+                        <scaleX id="meidoufu_idle_syal_1" pivotX="0.5" time="0">-1</scaleX>
+                        <moveX id="meidoufu_idle_syal_1" pivotX="0.5" time="0">-175</moveX>
+                        <alpha id="meidoufu_idle_syal_2" time="0">0</alpha>
+                        <scaleX id="meidoufu_idle_syal_2" pivotX="0.5" time="0">-1</scaleX>
+                        <moveX id="meidoufu_idle_syal_2" pivotX="0.5" time="0">-185</moveX>
+                        <alpha id="meidoufu_idle_accessory1" time="0">0</alpha>
+                        <alpha id="meidoufu_idle_accessory2" time="0">0</alpha>
+                        <alpha id="meidoufu_idle_accessory3" time="0">0</alpha>
+                        <alpha id="meidoufu_idle_body" time="0">0</alpha>
+                        <alpha id="meidoufu_idleflip_body" time="0">1</alpha>
+                        <alpha id="meidoufu_idle" time="0">0</alpha>
+                        <alpha id="meidoufu_syal" time="0">0</alpha>
+                        <alpha id="meidoufu_walk_body" time="0">0</alpha>
+                        <alpha id="meidoufu_walk_body2" time="0">0</alpha>
+                    </multiple>
+                    <multiple>
+                        <sequence repeat="2">
+                            <multiple>
+                                <scaleX id="meidoufu_idleflip_body" pivotX="0.5" time="0.15">1.02</scaleX>
+                                <scaleY id="meidoufu_idleflip_body" pivotY="1" time="0.15">0.98</scaleY>
+                                <rotate id="meidoufu_idleflip_body" pivotX="0.5" pivotY="1" time="0.15">0</rotate>
+                            </multiple>
+                            <multiple>
+                                <scaleX id="meidoufu_idleflip_body" pivotX="0.5" time="0.15">0.98</scaleX>
+                                <scaleY id="meidoufu_idleflip_body" pivotY="1" time="0.15">1.02</scaleY>
+                                <rotate id="meidoufu_idleflip_body" pivotX="0.5" pivotY="1" time="0.15">3</rotate>
+                            </multiple>
+                        </sequence>
+                        <sequence repeat="2">
+                            <rotate id="meidoufu_idle_syal_1" pivotX="0.905" pivotY="0.527" time="0.1">20</rotate>
+                            <rotate id="meidoufu_idle_syal_1" pivotX="0.905" pivotY="0.527" time="0.05">0</rotate>
+
+                            <multiple>
+                                <alpha id="meidoufu_idle_syal_1" time="0">0</alpha>
+                                <alpha id="meidoufu_idle_syal_2" time="0">1</alpha>
+                            </multiple>
+
+                            <rotate id="meidoufu_idle_syal_2" pivotX="0.933" pivotY="0.769" time="0.1">30</rotate>
+                            <rotate id="meidoufu_idle_syal_2" pivotX="0.933" pivotY="0.769" time="0.05">-25</rotate>
+                            <multiple>
+                                <alpha id="meidoufu_idle_syal_1" time="0">1</alpha>
+                                <alpha id="meidoufu_idle_syal_2" time="0">0</alpha>
+                                <rotate id="meidoufu_idle_syal_2" pivotX="0.933" pivotY="0.769" time="0">0</rotate>
+                            </multiple>
+                        </sequence>
+                    </multiple>
+                </sequence>
+            </sequence>
+        </skill>
+
+        <hati>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="hati"></playAnim>
+        </hati>
+        <evolusi>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="evolusi"></playAnim>
+        </evolusi>
+    </animation>
+</resources>

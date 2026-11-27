@@ -1,0 +1,110 @@
+<div class="min-h-[884px] max-w-md mx-auto relative flex flex-col justify-between overflow-hidden bg-hud-purple-dark" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- Full-Bleed Studio Background + Deep Purple Scrim -->
+    <div data-stitch-img="Latar studio Menjadi Buzzer" class="absolute inset-0 w-full h-full object-cover object-center stitch-img" role="img" aria-label="Latar studio Menjadi Buzzer"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-hud-purple-dark/85 via-hud-purple-dark/45 to-hud-purple-dark/90 pointer-events-none"></div>
+
+    <!-- Top Purple Game Title Plaque -->
+    <header class="relative z-10 px-gutter-lg pt-gutter-xl flex flex-col items-center gap-gutter-sm text-center">
+      <div class="ref-hud-purple border-2 border-hud-purple rounded-2xl px-gutter-xl py-gutter-lg w-full flex flex-col items-center gap-gutter-sm shadow-[0_6px_0_#1E1B2E,0_10px_20px_rgba(0,0,0,0.45)]">
+        <div class="flex items-center gap-gutter-xs">
+          <svg class="w-8 h-8 shrink-0" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <path d="M5 11L19 6V20L5 15V11Z" fill="#EF4444" stroke="#1E1B2E" stroke-width="2" stroke-linejoin="round"></path>
+            <path d="M19 9C21.5 10 22.5 12 22.5 13C22.5 14 21.5 16 19 17" stroke="#FACC15" stroke-width="2.5" stroke-linecap="round"></path>
+            <rect x="7" y="15" width="4" height="6" rx="1.5" fill="#FACC15" stroke="#1E1B2E" stroke-width="2"></rect>
+          </svg>
+          <span class="px-gutter-sm py-gutter-xs rounded-full bg-btn-yellow text-ink-dark font-headline text-label-sm" data-design-text-token="label-sm">v1.0 MVP</span>
+        </div>
+
+        <h1 class="font-display text-display-lg-mobile text-light-surface-bright" data-design-text-token="display-lg-mobile">MENJADI BUZZER</h1>
+        <div class="ref-cyan-pill rounded-full px-gutter-md py-1">
+          <p class="font-body text-body-sm text-light-surface-bright text-balance" data-design-text-token="body-sm">
+            Simulasi Karier Buzzer &amp; Strategi Viral
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Save Slot & Recovery Container -->
+    <main class="relative z-10 px-gutter-md py-gutter-lg flex flex-col gap-gutter-md">
+
+      <!-- Normal Save Slot Card -->
+      <section id="save-ready-card" aria-label="Slot save lokal" class="ref-card rounded-xl p-gutter-lg flex flex-col gap-gutter-md">
+        <div class="flex items-center justify-between gap-gutter-sm">
+          <div class="flex items-center gap-gutter-md min-w-0">
+            <div data-stitch-img="Avatar @KilatDaily" class="w-14 h-14 rounded-full object-cover border-2 border-hud-purple bg-hud-purple-dark shrink-0 stitch-img" role="img" aria-label="Avatar @KilatDaily"></div>
+            <div class="min-w-0">
+              <h2 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">@KilatDaily • Lv 1</h2>
+              <p id="save-summary" class="font-mono text-body-sm text-success tabular-nums" data-design-text-token="body-sm">Rp 500 • 1.000 Followers</p>
+            </div>
+          </div>
+          <span class="px-gutter-sm py-gutter-xs rounded-full bg-success text-light-surface-bright font-headline text-label-sm shrink-0" data-design-text-token="label-sm">Save Siap</span>
+        </div>
+
+        <!-- Primary Continue CTA -->
+        <a href="../01-business-home/Business%20Home.html" class="ref-btn-green w-full inline-flex items-center justify-center gap-gutter-sm px-gutter-lg py-gutter-md rounded-xl">
+          <svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <polygon points="6,4 20,12 6,20" fill="#FACC15" stroke="#0D3B11" stroke-width="2" stroke-linejoin="round"></polygon>
+          </svg>
+          <span class="font-headline text-label-lg text-light-surface-bright" data-design-text-token="label-lg">Lanjutkan Game</span>
+        </a>
+
+        <!-- Secondary New Game -->
+        <div class="grid grid-cols-2 gap-gutter-sm">
+          <button type="button" onclick="openNewGameConfirm()" class="ref-btn-white py-gutter-sm px-gutter-md rounded-xl font-headline text-label-sm text-ink-dark cursor-pointer" data-design-text-token="label-sm">
+            Mulai Save Baru
+          </button>
+          <button type="button" onclick="simulateCorruptSave()" class="ref-btn-white py-gutter-sm px-gutter-md rounded-xl font-headline text-label-sm text-btn-red-dark cursor-pointer" data-design-text-token="label-sm">
+            Uji Save Rusak
+          </button>
+        </div>
+
+        <!-- New Game Confirmation Drawer -->
+        <div id="new-game-confirm" class="hidden bg-light-error-container border-2 border-btn-red-dark rounded-xl p-gutter-md flex flex-col gap-gutter-sm">
+          <p class="font-headline text-body-sm text-light-on-error-container text-balance" data-design-text-token="body-sm">
+            Save lama (@KilatDaily) akan ditimpa. Yakin mulai dari awal?
+          </p>
+          <div class="grid grid-cols-2 gap-gutter-sm">
+            <button type="button" onclick="closeNewGameConfirm()" class="ref-btn-white py-gutter-xs px-gutter-sm rounded-xl font-headline text-label-sm text-ink-dark cursor-pointer" data-design-text-token="label-sm">Batal</button>
+            <a href="../01-business-home/Business%20Home.html" onclick="resetAndStart()" class="ref-btn-red py-gutter-xs px-gutter-sm rounded-xl font-headline text-label-sm text-light-surface-bright text-center" data-design-text-token="label-sm">Ya, Timpa Save</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Save Recovery Card -->
+      <section id="save-recovery-card" aria-label="Pemulihan save rusak" class="hidden ref-card rounded-xl p-gutter-lg flex flex-col gap-gutter-md border-btn-red-dark">
+        <div class="flex items-start gap-gutter-sm">
+          <svg class="w-8 h-8 shrink-0" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <path d="M14 3L26 24H2L14 3Z" fill="#FCA5A5" stroke="#B71C1C" stroke-width="2" stroke-linejoin="round"></path>
+            <path d="M14 11V17" stroke="#B71C1C" stroke-width="2.4" stroke-linecap="round"></path>
+            <circle cx="14" cy="20.5" r="1.4" fill="#B71C1C"></circle>
+          </svg>
+          <div>
+            <h2 class="font-headline text-title-md text-btn-red-dark" data-design-text-token="title-md">Save Lokal Tidak Valid</h2>
+            <p class="font-body text-body-sm text-ink-dark text-pretty" data-design-text-token="body-sm">
+              Data save lokal corrupt atau versi schema tidak cocok. Game tidak menimpa progres secara diam-diam. Pilih pemulihan di bawah:
+            </p>
+          </div>
+        </div>
+
+        <a href="../01-business-home/Business%20Home.html" onclick="resetAndStart()" class="ref-btn-green w-full inline-flex items-center justify-center gap-gutter-sm px-gutter-lg py-gutter-md rounded-xl">
+          <span class="font-headline text-label-lg text-light-surface-bright" data-design-text-token="label-lg">Buat Save Baru yang Bersih</span>
+        </a>
+
+        <button type="button" onclick="restoreNormalView()" class="ref-btn-white w-full py-gutter-sm px-gutter-md rounded-xl font-headline text-label-sm text-ink-dark cursor-pointer" data-design-text-token="label-sm">
+          Kembali ke Slot Save
+        </button>
+      </section>
+
+    </main>
+
+    <!-- Footer Note -->
+    <footer class="relative z-10 px-gutter-md pb-gutter-lg flex justify-center">
+      <div class="ref-gem-box rounded-full px-gutter-md py-gutter-xs border border-hud-purple">
+        <p class="font-body text-label-sm text-light-surface-bright text-center" data-design-text-token="label-sm">
+          Save Lokal Browser • Tidak Ada Offline Earning
+        </p>
+      </div>
+    </footer>
+
+  </div>

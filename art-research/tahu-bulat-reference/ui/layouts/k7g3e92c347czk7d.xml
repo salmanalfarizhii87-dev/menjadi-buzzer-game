@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base" height="145">
+        <button id="btnLabelItem" imageNormal="hpakang/chat/garisbatas.png">
+            <image_list id="bgNotif" isVisible="false">
+                <item>hpakang/chat/notif.png</item>
+            </image_list>
+            <image_list id="foto" x="20" y="20" alignX="bgNotif#0" alignY="bgNotif#0">
+                <item>hpakang/chat/foto_investor.png</item>
+            </image_list>
+            <image_list id="notif" x="10" y="0" pivotX="1" pivotY="0" alignX="foto#1" alignY="foto#0">
+                <item>hpakang/chat/label_off.png</item>
+            </image_list>
+            <text id="namaLabel" x="20" y="0" alignX="foto#1" alignY="foto#0" font="arial" fontSize="30" color="000000">Nama Chat</text>
+
+            <image_list id="bgDesc" y="10" alignX="namaLabel#0" alignY="namaLabel#1">
+                <item>hpakang/chat/containerchat.png</item>
+            </image_list>
+            <text id="desc" x="10" y="10" alignX="bgDesc#0" alignY="bgDesc#0" font="arial" fontSize="25" color="000000">Lorem ipsum blabla...</text>
+        </button>
+    </container>
+
+    <animation>
+    </animation>
+</resources>

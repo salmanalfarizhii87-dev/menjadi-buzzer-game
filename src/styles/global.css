@@ -1,0 +1,188 @@
+/*
+ * Global base.
+ *
+ * Latar kanvas: gradient vertikal + vignette, tanpa pola titik. Alasan (R-07):
+ * pola titik adalah default AI dan tidak menambah identitas; kedalaman ruang
+ * lebih baik dibangun lewat vignette + bayangan panel ber-offset.
+ */
+
+html {
+  background: var(--color-canvas-outer);
+}
+
+body {
+  min-height: 100dvh;
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  font-weight: 500;
+  line-height: var(--leading-normal);
+  color: var(--color-text);
+  background:
+    radial-gradient(120% 80% at 50% 0%, #3a2a1a 0%, #241a10 55%, #1a120a 100%);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overscroll-behavior-y: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-tight);
+  letter-spacing: 0.005em;
+}
+
+h1 {
+  font-size: var(--text-2xl);
+}
+
+h2 {
+  font-size: var(--text-xl);
+}
+
+h3 {
+  font-size: var(--text-md);
+}
+
+h4 {
+  font-size: var(--text-base);
+}
+
+p {
+  line-height: var(--leading-normal);
+  margin: 0;
+}
+
+strong {
+  font-weight: var(--weight-bold);
+}
+
+/* Angka ekonomi selalu tabular agar tidak bergetar saat update. */
+.numeric {
+  font-family: var(--font-numeric);
+  font-variant-numeric: tabular-nums;
+  font-weight: var(--weight-bold);
+  letter-spacing: -0.02em;
+}
+
+/* Teks berpelat: judul di atas warna terang agar tetap terbaca (game title). */
+.text-plate {
+  text-shadow:
+    0 2px 0 rgb(67 41 15 / 35%),
+    0 0 1px rgb(67 41 15 / 45%);
+}
+
+/* ---- Boot ---- */
+
+#boot {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-toast);
+  display: grid;
+  place-items: center;
+  background: var(--color-canvas);
+  color: var(--color-text);
+}
+
+#boot[hidden] {
+  display: none !important;
+}
+
+.boot-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.boot-mark {
+  width: 60px;
+  height: 60px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(180deg, var(--color-brand-300), var(--color-brand-600));
+  border: var(--border-thick) solid var(--color-border-strong);
+  box-shadow: var(--shadow-raised), var(--shadow-inset);
+  animation: boot-pulse 1.4s var(--ease-in-out) infinite;
+}
+
+.boot-text {
+  font-family: var(--font-display);
+  font-size: var(--text-base);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-soft);
+}
+
+.boot-error {
+  max-width: 380px;
+  padding: var(--space-5);
+  text-align: center;
+}
+
+.boot-error h2 {
+  margin-bottom: var(--space-2);
+}
+
+.boot-error p {
+  font-size: var(--text-sm);
+  color: var(--color-text-soft);
+}
+
+.boot-error pre {
+  margin-top: var(--space-3);
+  padding: var(--space-3);
+  overflow-x: auto;
+  font-size: var(--text-2xs);
+  text-align: left;
+  background: var(--color-panel-sunken);
+  border-radius: var(--radius-sm);
+  border: var(--border-hairline) solid var(--color-border-soft);
+}
+
+/* ---- Toast root ---- */
+
+#toast-root {
+  position: fixed;
+  left: 50%;
+  bottom: calc(var(--layout-nav-height) + var(--space-4) + var(--layout-safe-bottom));
+  z-index: var(--z-toast);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  width: min(100% - 2 * var(--space-4), calc(var(--layout-max-width) - 2 * var(--space-4)));
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+/* ---- Overlay root ---- */
+
+#overlay-root {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-overlay);
+  pointer-events: none;
+}
+
+#overlay-root > * {
+  pointer-events: auto;
+}
+
+@keyframes boot-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.92);
+    opacity: 0.8;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .boot-mark {
+    animation: none;
+  }
+}

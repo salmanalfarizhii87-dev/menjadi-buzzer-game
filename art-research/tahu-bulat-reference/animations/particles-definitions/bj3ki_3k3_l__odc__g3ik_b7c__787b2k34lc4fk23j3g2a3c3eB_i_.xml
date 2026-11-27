@@ -1,0 +1,52 @@
+<resources>
+    <particlesystem x="384" y="1100">
+        <emitter pivotX="0.5" pivotY="0.5" type="point">
+            <particle lifetime="1">
+                <imagelist>
+                    <image>ksatriatahu/xml/partikel/img/tabulbot_asap1.png</image>
+                </imagelist>
+                <p_start>
+                    <alpha min="0.2" max="0.5"/>
+                    <scale pivotX="0.5" pivotY="0.5" min="0.5" max="0.8"/>
+                    <angle pivotX="0.5" pivotY="0.5" min="0" max="360"/>
+                    <velocity min="50" max="200" arahMin="-70" arahMax="0"/>
+                </p_start>
+                <p_running>
+                    <alpha min="0.4" max="0.8" when="0.5"/>
+                    <alpha min="0" max="0" when="1"/>
+                    <scale min="1" max="1.5" when="1"/>
+                    <angle min="0" max="360" when="1"/>
+                    <velocity min="10" max="50" when="1"/>
+                </p_running>
+            </particle>
+            <e_start>
+                <burst nBurst="1" burstTime="0.02"/>
+                <emit nEmit="1" repeat="-1" delay="0.06"/>
+            </e_start>
+        </emitter>
+
+        <emitter pivotX="0.5" pivotY="0.5" type="point">
+            <particle lifetime="0.4">
+                <imagelist>
+                    <image>ksatriatahu/xml/partikel/img/tabulbot_asap2.png</image>
+                </imagelist>
+                <p_start>
+                    <alpha min="0.3" max="0.8"/>
+                    <scale pivotX="0.5" pivotY="0.5" min="0.3" max="0.5"/>
+                    <angle pivotX="0.5" pivotY="0.5" min="0" max="360"/>
+                    <velocity min="100" max="250" arahMin="-70" arahMax="0"/>
+                </p_start>
+                <p_running>
+                    <alpha min="0" max="0" when="1"/>
+                    <scale min="1" max="2" when="1"/>
+                    <angle min="0" max="360" when="1"/>
+                    <velocity min="10" max="50" when="1"/>
+                </p_running>
+            </particle>
+            <e_start>
+                <burst nBurst="2" burstTime="0.02"/>
+                <emit nEmit="2" repeat="-1" delay="0.03"/>
+            </e_start>
+        </emitter>
+    </particlesystem>
+</resources>

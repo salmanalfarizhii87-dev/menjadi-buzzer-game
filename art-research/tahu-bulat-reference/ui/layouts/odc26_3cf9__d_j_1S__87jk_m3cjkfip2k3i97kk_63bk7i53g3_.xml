@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Ehhh?? Apah??!&#10;Waktunya sudah habis?!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc isNode="true">
+                <string>
+                    <text>HAHAHAHAHA!!&#10;Kamu pasti tidak berhasil mencapai target </text>
+                    <koin_Festival/>
+                    <text format="target_misi">%s kan?!</text>
+                </string>
+            </desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc isNode="true">
+                <string>
+                    <text>Yaa...&#10;Cuma dapet </text>
+                    <koin_Festival/>
+                    <text format="alltimemoney_feststory"> %s sih...</text>
+                </string>
+            </desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHAHAHAHA!!&#10;Gapapa memang saya hebat, wajar saja kamu kalah.</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Jangan putus asa yah..&#10;Mungkin kalau kamu berjuang 10,000 tahun lagi kamu bisa mengalahkanku!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>K-k-koq kesal ya?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Baiklah, kamu boleh berjualan lagi di sini kalau kamu sudah merasa mampu.</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Saya tunggu kesempatan berikutnya untuk mengalahkanmu lagi!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Yang berikutnya....&#10;Aku pasti menang!!</desc>
+        </dialog>
+    </skenario>
+</resources>

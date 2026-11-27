@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <text id="descAtas" x="-10" y="0" pivotX="0.5" alignX="wLayar#0.5" font="comicneueLight" fontSize="30" color="000000" wrapWidth="650" isCenter="true">Jari Ajaib bekerja!&#10;Kamu mendapatkan Tap Otomatis!!</text>
+
+        <text id="descBar" x="60" y="20" alignY="descAtas#1" font="comicneueLight" fontSize="30" color="000000">Kekuatan jari ajaib:</text>
+        <container id="contBar" x="-10" y="10" alignX="descBar#0" alignY="descBar#1">
+            <image_list id="bgBar" x="0" y="0" isBaseContainer="true">
+                <item>promogame/ui/PG_ui_bar_reward_kosong.png</item>
+            </image_list>
+            <image_list id="isiBar" x="5" y="5" alignX="bgBar#0" alignY="bgBar#0">
+                <item>promogame/ui/PG_ui_bar_reward_isi.png</item>
+            </image_list>
+            <text id="textBar" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="bgBar#0.5" alignY="bgBar#0.5" font="cuckoo" fontSize="35" color="ffffff">1 Tap / 0.0 detik</text>
+        </container>
+
+        <text id="descTimer" x="0" y="20" alignX="descBar#0" alignY="contBar#1" font="comicneueLight" fontSize="30" color="000000" wrapWidth="650" isCenter="false">Durasi:</text>
+        <container id="contBarTimer" x="-5" y="10" alignX="descTimer#0" alignY="descTimer#1">
+            <image_list id="bgBarTimer" x="0" y="0" isBaseContainer="true">
+                <item>UI_baru/ui_lbl_popupData.png</item>
+            </image_list>
+            <text id="textTimer" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="bgBarTimer#0.5" alignY="bgBarTimer#0.5" font="cuckoo" fontSize="35" color="ffffff">00:00</text>
+        </container>
+
+        <text id="descBawah" x="-10" y="20" pivotX="0.5" alignX="wLayar#0.5" alignY="contBarTimer#1" font="comicneueLight" fontSize="30" color="000000" wrapWidth="650" isCenter="true">Perkuat Jari Ajaib dan kembalikan durasi&#10;menjadi 15 menit dengan menonton iklan!</text>
+    </container>
+</resources>

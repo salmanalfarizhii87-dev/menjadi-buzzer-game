@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc></desc>
+        </dialog>
+
+<!--        buka tab bahan-->
+        <aksi tipe="muncul" ui="" hold="false"/>
+        <dialog karakter="1" tipe="kiri" ekspresi="" isHold="true">
+            <desc></desc>
+        </dialog>
+        <aksi tipe="setHighlight" ui="label_rempah" hold="false"/>
+<!--        highlight label rempah2-->
+
+        <dialog karakter="1" tipe="kiri" ekspresi="" isHold="true">
+            <desc></desc>
+        </dialog>
+        <aksi tipe="muncul" ui="jari_pasang" hold="false"/>
+<!--        muncul jari di atas tombol pasang-->
+
+        <dialog karakter="1" tipe="kiri" ekspresi="" isHold="true">
+            <desc></desc>
+        </dialog>
+
+        <dialog karakter="1" tipe="kiri" ekspresi="" isHold="true">
+            <desc></desc>
+        </dialog>
+
+        <dialog karakter="1" tipe="kiri" ekspresi="" isHold="true">
+            <desc></desc>
+        </dialog>
+<!--        buka halaman tambh rempah-->
+
+        <dialog karakter="1" tipe="kiri" ekspresi="" isHold="true">
+            <desc></desc>
+        </dialog>
+
+        <dialog karakter="1" tipe="kiri" ekspresi="" isHold="true">
+            <desc></desc>
+        </dialog>
+
+<!--        <muncul jari di atas tombol chestnya>-->
+        <dialog karakter="1" tipe="kiri" ekspresi="" isHold="true">
+            <desc></desc>
+        </dialog>
+
+        <dialog karakter="1" tipe="kiri" ekspresi="" isHold="true">
+            <desc></desc>
+        </dialog>
+
+<!--        <durasi ga berkurang, harga peridotnya jadi nol, muncul jari di atasnya>-->
+<!--        <player klik, muncul halaman buka peti>-->
+
+        <dialog karakter="1" tipe="kiri" ekspresi="" isHold="true">
+            <desc></desc>
+        </dialog>
+
+<!--        muncul jari di atas tombol back-->
+<!--        <setelah palyer tekan tombol back, kembali ke halaman daftar rempah2>-->
+        <dialog karakter="1" tipe="kiri" ekspresi="!" isHold="true">
+            <desc></desc>
+        </dialog>
+
+<!--        <muncul jari di atas salah satu rempah>-->
+<!--        <abis klik, muncul lagi jari di slot kosong paling kiri>-->
+<!--        <abis klik, kepasang rempahnya, muncul dialog akang>-->
+        <dialog karakter="1" tipe="kiri" ekspresi="" isHold="true">
+            <desc></desc>
+        </dialog>
+
+        <dialog karakter="1" tipe="kiri" ekspresi="" isHold="true">
+            <desc></desc>
+        </dialog>
+
+        <dialog karakter="1" tipe="kiri" ekspresi="!" isHold="true">
+            <desc></desc>
+        </dialog>
+
+        <dialog karakter="1" tipe="kiri" ekspresi="" isHold="true">
+            <desc></desc>
+        </dialog>
+
+    </skenario>
+</resources>

@@ -1,0 +1,157 @@
+<resources>
+    <container id="root" x="384" y="900" pivotX="0" pivotY="0">
+        <image_list id="jang_idle" x="0" y="0" pivotX="0.5" pivotY="1" isBaseContainer="true">
+            <item>ksatriatahu/pets/tamedang/jang_1.png</item>
+        </image_list>
+        <image_list id="jang_walk" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/tamedang/jang_2.png</item>
+        </image_list>
+        <uiReader pivotX="0.5" pivotY="1" alignX="jang_idle#0.5" alignY="jang_idle#0" id="emoji" xml="ksatriatahu/xml/emoji.xml"/>
+    </container>
+
+    <animation>
+        <stop>
+            <alpha id="jang_walk" time="0">0</alpha>
+            <alpha id="jang_idle" time="0">1</alpha>
+            <moveY id="jang_idle"  time="0">-50</moveY>
+        </stop>
+        <reset>
+            <scaleY id="jang_idle" pivotY="1" time="0">1</scaleY>
+            <scaleX id="jang_idle" pivotX="0.5" time="0">1</scaleX>
+            <moveY id="jang_idle"  time="0">0</moveY>
+
+            <moveY id="jang_walk"  time="0">0</moveY>
+            <scaleX id="jang_walk" pivotX="0.5" time="0">1</scaleX>
+            <scaleY id="jang_walk" pivotY="1" time="0">1</scaleY>
+        </reset>
+        <idle repeat="-1">
+            <sequence>
+                <alpha id="jang_walk" time="0">0</alpha>
+                <alpha id="jang_idle" time="0">1</alpha>
+                <multiple>
+                    <scaleX id="jang_idle" pivotX="0.5" time="0.3">1.05</scaleX>
+                    <scaleY id="jang_idle" pivotY="1" time="0.3">0.95</scaleY>
+                </multiple>
+                <multiple>
+                    <scaleX id="jang_idle" pivotX="0.5" time="0.3">0.95</scaleX>
+                    <scaleY id="jang_idle" pivotY="1" time="0.3">1.05</scaleY>
+                </multiple>
+            </sequence>
+        </idle>
+        <idle_kiri repeat="-1">
+            <sequence>
+                <alpha id="jang_idle" time="0">0</alpha>
+                <alpha id="jang_walk" time="0">1</alpha>
+                <multiple>
+                    <scaleX id="jang_walk" pivotX="0.5" time="0.3">1.05</scaleX>
+                    <scaleY id="jang_walk" pivotY="1" time="0.3">0.95</scaleY>
+                </multiple>
+                <multiple>
+                    <scaleX id="jang_walk" pivotX="0.5" time="0.3">0.95</scaleX>
+                    <scaleY id="jang_walk" pivotY="1" time="0.3">1.05</scaleY>
+                </multiple>
+            </sequence>
+        </idle_kiri>
+        <jalan repeat="-1">
+                <sequence>
+                    <multiple>
+                        <alpha id="emoji" time="0">0</alpha>
+                        <alpha id="jang_idle" time="0">1</alpha>
+                        <moveY id="jang_idle" time="0.025">0</moveY>
+                        <alpha id="jang_walk" time="0">0</alpha>
+                        <scaleX id="jang_idle" pivotX="0.5" time="0.025">1.05</scaleX>
+                        <scaleY id="jang_idle" pivotY="1" time="0.025">0.9</scaleY>
+                    </multiple>
+                    <multiple>
+                        <moveY id="jang_idle" time="0.12">-20</moveY>
+                        <scaleX id="jang_idle" pivotX="0.5" time="0.12">0.95</scaleX>
+                        <scaleY id="jang_idle" pivotY="1" time="0.12">1.05</scaleY>
+                    </multiple>
+                    <multiple>
+                        <moveY id="jang_idle" time="0.1">0</moveY>
+                        <scaleX id="jang_idle" pivotX="0.5" time="0.1">1.1</scaleX>
+                        <scaleY id="jang_idle" pivotY="1" time="0.1">0.95</scaleY>
+                    </multiple>
+                    <multiple>
+                        <scaleX id="jang_idle" pivotX="0.5" time="0.025">1</scaleX>
+                        <scaleY id="jang_idle" pivotY="1" time="0.025">1</scaleY>
+                    </multiple>
+                </sequence>
+        </jalan>
+        <jalan_kiri repeat="-1">
+            <sequence>
+                <multiple>
+                    <alpha id="emoji" time="0">0</alpha>
+                    <alpha id="jang_idle" time="0">0</alpha>
+                    <alpha id="jang_walk" time="0">1</alpha>
+                    <moveY id="jang_walk" time="0.025">0</moveY>
+                    <scaleX id="jang_walk" pivotX="0.5" time="0.025">1.05</scaleX>
+                    <scaleY id="jang_walk" pivotY="1" time="0.025">0.9</scaleY>
+                </multiple>
+                <multiple>
+                    <moveY id="jang_walk" time="0.12">-20</moveY>
+                    <scaleX id="jang_walk" pivotX="0.5" time="0.12">0.95</scaleX>
+                    <scaleY id="jang_walk" pivotY="1" time="0.12">1.05</scaleY>
+                </multiple>
+                <multiple>
+                    <moveY id="jang_walk" time="0.1">0</moveY>
+                    <scaleX id="jang_walk" pivotX="0.5" time="0.1">1.1</scaleX>
+                    <scaleY id="jang_walk" pivotY="1" time="0.1">0.95</scaleY>
+                </multiple>
+                <multiple>
+                    <scaleX id="jang_walk" pivotX="0.5" time="0.025">1</scaleX>
+                    <scaleY id="jang_walk" pivotY="1" time="0.025">1</scaleY>
+                </multiple>
+            </sequence>
+        </jalan_kiri>
+        <makan>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="makan"></playAnim>
+        </makan>
+        <jurus>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="jurus"></playAnim>
+        </jurus>
+        <skill repeat="-1">
+            <sequence>
+                <multiple>
+                    <alpha id="jang_walk" time="0">0</alpha>
+                    <alpha id="jang_idle" time="0">1</alpha>
+                </multiple>
+
+                <multiple>
+                    <scaleX id="jang_idle" pivotX="0.5" time="0.1">1.05</scaleX>
+                    <scaleY id="jang_idle" pivotY="1" time="0.1">0.9</scaleY>
+                </multiple>
+                <multiple>
+                    <scaleX id="jang_idle" pivotX="0.5" time="0.1">1</scaleX>
+                    <scaleY id="jang_idle" pivotY="1" time="0.1">1</scaleY>
+                    <moveY id="jang_idle" pivotY="1" time="0.1">-30</moveY>
+                </multiple>
+                <sequence repeat="4">
+                    <moveX id="jang_idle" pivotY="1" time="0.02">-5</moveX>
+                    <moveX id="jang_idle" pivotY="1" time="0.02">5</moveX>
+                </sequence>
+                <moveX id="jang_idle" pivotY="1" time="0.01">0</moveX>
+                <multiple>
+                    <scaleX id="jang_idle" pivotX="0.5" time="0.1">1.05</scaleX>
+                    <scaleY id="jang_idle" pivotY="1" time="0.1">0.9</scaleY>
+                    <moveY id="jang_idle" pivotY="1" time="0.1">0</moveY>
+                </multiple>
+                <multiple>
+                    <scaleX id="jang_idle" pivotX="0.5" time="0.1">1</scaleX>
+                    <scaleY id="jang_idle" pivotY="1" time="0.1">1</scaleY>
+                </multiple>
+                <wait time="0.1"/>
+            </sequence>
+        </skill>
+        <hati>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="hati"></playAnim>
+        </hati>
+        <evolusi>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="evolusi"></playAnim>
+        </evolusi>
+    </animation>
+</resources>

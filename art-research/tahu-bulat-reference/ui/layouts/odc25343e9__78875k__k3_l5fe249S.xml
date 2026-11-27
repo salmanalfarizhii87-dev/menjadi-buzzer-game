@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <character id="effect" x="0" y="-420" isEmpty="true" width = "768" height="420" >-->
+    <character id="effect" x="0" y="-210" isEmpty="true" width = "384" height="210" >
+<!--        <group id="cahaya" x="10" y="139">-->
+        <group id="cahaya" x="5" y="70">
+            <image_list>
+                <item>background/TahuCon_BG1_glow.png</item>
+            </image_list>
+        </group>
+    </character>
+
+    <animation>
+        <sequence>
+            <alpha id="cahaya" time="0.3">1.0</alpha>
+            <alpha id="cahaya" time="0.3">0.5</alpha>
+            <alpha id="cahaya" time="0.3">1.0</alpha>
+            <alpha id="cahaya" time="0.3">0.2</alpha>
+        </sequence>
+    </animation>
+
+</resources>

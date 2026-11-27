@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <container id="base" x="0" y="0">
+        <text id="textKosong" x="0" y="250" pivotX="0.5" pivotY="0" alignX="wLayar#0.5" font="comicneueLight" fontSize="30" color="ffffff" wrapWidth="650" isCenter="true" isVisible="false">Apah?! Tidak ada Tantangan?!&#10;Tenang... Tantangan-tantangan seru dengan berbagai&#10;hadiah menarik sedang disiapkan oleh tim Tahu Bulat!&#10;Mohon ditunggu ya.. ^o^&#10;&#10;&#10;Gak sabar? Ajak ngobrol aja tim Tahu Bulat di fanpage resminya di Facebook, ya! ^o^&#10;Mau email ke gamemaster@own-games.com&#10;juga boleh.. :D</text>
+        <container id="listChallenge" x="0" y="0"/>
+    </container>
+</resources>

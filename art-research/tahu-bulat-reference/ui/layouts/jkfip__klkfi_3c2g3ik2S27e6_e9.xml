@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario lama_muncul="5.0">
+        <dialog karakter="0" ekspresi="semangat" y="100" animasi="0.7" analytics="OB2T_START">Baiklah!&#10;Memang sebaiknya belajar sambil langsung praktik saja!</dialog>
+        <dialog ekspresi="idle">Apabila kamu bingung, kamu bisa melihat kembali pelatihan ini!</dialog>
+        <dialog ekspresi="idle">melalui menu Settings di tab Statistik!</dialog>
+        <dialog ekspresi="mantul" analytics="OB2T_COMPLETED">Selamat berjuang!!&#10;Jangan lupakan Akang ketika kamu sukses kelak nanti!</dialog>
+    </skenario>
+</resources>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <group>
+        <penjual id="0" moveX="-3" moveY="-17" scale="1.5" rarity="1" idKet="AkangTahu">
+            <images>
+                <item>pedagang/Ch_AkangTahu_idle.png</item>
+                <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+                <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+                <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+                <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+            </images>
+            <images id="2016">
+                <item x="-25" y="-5">pedagang/2016/ch_akang2016_idle.png.png</item>
+                <item x="-53" y="-5">pedagang/2016/ch_akang2016_mulai.png</item>
+                <item x="-65" y="-5">pedagang/2016/ch_akang2016_masak1.png</item>
+                <item x="-67" y="-5">pedagang/2016/ch_akang2016_masak2.png</item>
+                <item x="36"  y="-5">pedagang/2016/ch_akang2016_jadi.png</item>
+            </images>
+            <images id="vip_event">
+                <item>pedagang/Ch_akangIdle_jas.png</item>
+                <item x="-40">pedagang/Ch_akangMulai_jas.png</item>
+                <item x="-52">pedagang/Ch_akangMasak_jas.png</item>
+                <item x="-54">pedagang/Ch_akangMasak2_jas.png</item>
+                <item x="36">pedagang/Ch_akangJadi_jas.png</item>
+            </images>
+            <efek>0,1.5,2,3,4,5,6,7,8,9</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="2" moveX="-14" moveY="3" scale="1.7" rarity="1" idKet="KakakBaikHati">
+            <images>
+                <item>pedagang/Ch_KakakBaikHati_idle.png</item>
+                <item x="-68">pedagang/Ch_KakakBaikHati_mulai.png</item>
+                <item x="-90">pedagang/Ch_KakakBaikHati_masak1.png</item>
+                <item x="-78">pedagang/Ch_KakakBaikHati_masak2.png</item>
+                <item x="10">pedagang/Ch_KakakBaikHati_jadi.png</item>
+            </images>
+            <efek>0,1.5,2,3,4,5,6,7,8,9</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="3" moveX="-11" moveY="-9" scale="1.4" rarity="1" idKet="PelatihBola">
+            <images>
+                <item>pedagang/Ch_PelatihBola_idle.png</item>
+                <item x="-64">pedagang/Ch_PelatihBola_mulai.png</item>
+                <item x="-87">pedagang/Ch_PelatihBola_masak1.png</item>
+                <item x="-94">pedagang/Ch_PelatihBola_masak2.png</item>
+                <item x="-21">pedagang/Ch_PelatihBola_jadi.png</item>
+            </images>
+            <efek>0,1.5,2,3,4,5,6,7,8,9</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="4" moveX="-19" moveY="-4" scale="1.4" rarity="1" idKet="GamerSejati">
+            <images>
+                <item>pedagang/Ch_GamerSejati_idle.png</item>
+                <item x="-65">pedagang/Ch_GamerSejati_mulai.png</item>
+                <item x="-98">pedagang/Ch_GamerSejati_masak1.png</item>
+                <item x="-82">pedagang/Ch_GamerSejati_masak2.png</item>
+                <item x="-23">pedagang/Ch_GamerSejati_jadi.png</item>
+            </images>
+            <efek>0,1.5,2,3,4,5,6,7,8,9</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="5" moveX="-8" moveY="-5" scale="1.5" rarity="2" idKet="ArtisImpor">
+            <images>
+                <item>pedagang/Ch_ArtisImpor_idle.png</item>
+                <item x="-44">pedagang/Ch_ArtisImpor_mulai.png</item>
+                <item x="-88">pedagang/Ch_ArtisImpor_masak1.png</item>
+                <item x="-65">pedagang/Ch_ArtisImpor_masak2.png</item>
+                <item x="12">pedagang/Ch_ArtisImpor_jadi.png</item>
+            </images>
+            <efek>0,1.5,2,3,4,5,6,7,8,9</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="6" moveX="13" moveY="0" scale="1.5" rarity="3" idKet="Investor">
+            <images>
+                <item>pedagang/Ch_Investor_idle.png</item>
+                <item x="-68">pedagang/Ch_Investor_mulai.png</item>
+                <item x="-46">pedagang/Ch_Investor_masak1.png</item>
+                <item x="-87">pedagang/Ch_Investor_masak2.png</item>
+                <item x="2">pedagang/Ch_Investor_jadi.png</item>
+            </images>
+            <efek>0,1.5,2,3,4,5,6,7,8,9</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="7" moveX="-15" moveY="8" scale="1.4" rarity="4" idKet="Montir">
+            <images>
+                <item>pedagang/Ch_Montir_idle.png</item>
+                <item x="-43">pedagang/Ch_Montir_mulai.png</item>
+                <item x="-56">pedagang/Ch_Montir_masak1.png</item>
+                <item x="-62">pedagang/Ch_Montir_masak2.png</item>
+                <item x="0">pedagang/Ch_Montir_jadi.png</item>
+            </images>
+            <efek>0,30,35,40,45,50,55,60,65,70</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="8" moveX="-5" moveY="-20" scale="1.7" rarity="4" idKet="FansTako"><!--moveY="-28"-->
+            <images>
+                <item>pedagang/Ch_FansTako_idle.png</item>
+                <item x="-58">pedagang/Ch_FansTako_mulai.png</item>
+                <item x="-90">pedagang/Ch_FansTako_masak1.png</item>
+                <item x="-89">pedagang/Ch_FansTako_masak2.png</item>
+                <item x="-12">pedagang/Ch_FansTako_jadi.png</item>
+            </images>
+            <efek>0,1.5,2,3,4,5,6,7,8,9</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="9" moveX="0" moveY="3" scale="1.5" rarity="4" idKet="IbuGuru">
+            <images>
+                <item>pedagang/Ch_IbuGuru_idle.png</item>
+                <item x="-67">pedagang/Ch_IbuGuru_mulai.png</item>
+                <item x="-76">pedagang/Ch_IbuGuru_masak1.png</item>
+                <item x="-71">pedagang/Ch_IbuGuru_masak2.png</item>
+                <item x="-17">pedagang/Ch_IbuGuru_jadi.png</item>
+            </images>
+            <efek>0,1.5,2,3,4,5,6,7,8,9</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="10" moveX="-7" moveY="4" scale="1.5" rarity="5" idKet="TourGuide">
+            <images>
+                <item>pedagang/Ch_TourGuide_idle.png</item>
+                <item x="-41">pedagang/Ch_TourGuide_mulai.png</item>
+                <item x="-58">pedagang/Ch_TourGuide_masak1.png</item>
+                <item x="-56">pedagang/Ch_TourGuide_masak2.png</item>
+                <item x="6">pedagang/Ch_TourGuide_jadi.png</item>
+            </images>
+            <efek>0,1.5,2,3,4,5,6,7,8,9</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="11" moveX="-56" moveY="1" scale="1.7" rarity="5" idKet="Bankir">
+            <images>
+                <item>pedagang/Ch_Bankir_idle.png</item>
+                <item x="-39">pedagang/Ch_Bankir_mulai.png</item>
+                <item x="-41">pedagang/Ch_Bankir_masak1.png</item>
+                <item x="-55">pedagang/Ch_Bankir_masak2.png</item>
+                <item x="-37">pedagang/Ch_Bankir_jadi.png</item>
+            </images>
+            <efek>0,1,2,3,4,5,6,7,8,9</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="12" moveX="-14" moveY="-4" scale="1.5" rarity="6" idKet="Koki">
+            <images>
+                <item>pedagang/Ch_Koki_idle.png</item>
+                <item x="-47">pedagang/Ch_Koki_mulai.png</item>
+                <item x="-62">pedagang/Ch_Koki_masak1.png</item>
+                <item x="-60">pedagang/Ch_Koki_masak2.png</item>
+                <item x="2">pedagang/Ch_Koki_jadi.png</item>
+            </images>
+            <efek>0,1.5,2,3,4,5,6,7,8,9</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="13" moveX="-4" moveY="1" scale="1.3" rarity="5" idKet="Ajumma">
+            <images>
+                <item>pedagang/Ch_Ajumma_idle.png</item>
+                <item x="-57">pedagang/Ch_Ajumma_mulai.png</item>
+                <item x="-55">pedagang/Ch_Ajumma_masak1.png</item>
+                <item x="-95">pedagang/Ch_Ajumma_masak2.png</item>
+                <item x="9">pedagang/Ch_Ajumma_jadi.png</item>
+            </images>
+            <efek>0,1.5,2,3,4,5,6,7,8,9</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="14" moveX="-11" moveY="2" scale="1.65" rarity="6" idKet="ArtisKPop">
+            <images>
+                <item>pedagang/Ch_ArtisKPop_idle.png</item>
+                <item x="-54">pedagang/Ch_ArtisKPop_mulai.png</item>
+                <item x="-52">pedagang/Ch_ArtisKPop_masak1.png</item>
+                <item x="-66">pedagang/Ch_ArtisKPop_masak2.png</item>
+                <item x="25">pedagang/Ch_ArtisKPop_jadi.png</item>
+            </images>
+            <efek>0,1.5,2,3,4,5,6,7,8,9</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="15" moveX="-36" moveY="3" scale="1.4" rarity="1" idKet="Santa">
+            <images>
+                <item>pedagang/Ch_Santa_idle.png</item>
+                <item x="-93">pedagang/Ch_Santa_mulai.png</item>
+                <item x="-82">pedagang/Ch_Santa_masak1.png</item>
+                <item x="-74">pedagang/Ch_Santa_masak2.png</item>
+                <item x="4">pedagang/Ch_Santa_jadi.png</item>
+            </images>
+            <efek>0,1.5,2,3,4,5,6,7,8,9</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="16" moveX="-85" moveY="6" scale="1.7" rarity="5" idKet="SatpamElit">
+            <images>
+                <item>pedagang/Ch_SatpamElit_idle.png</item>
+                <item x="-58">pedagang/Ch_SatpamElit_mulai.png</item>
+                <item x="-66">pedagang/Ch_SatpamElit_masak1.png</item>
+                <item x="-67">pedagang/Ch_SatpamElit_masak2.png</item>
+                <item x="21">pedagang/Ch_SatpamElit_jadi.png</item>
+            </images>
+            <efek>0,1.5,2,3,4,5,6,7,8,9</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="17" moveX="-19" moveY="-37" scale="1.5" rarity="5" idKet="AkangBaru">
+            <images>
+                <item>pedagang/Ch_AkangTahunBaru_idle.png</item>
+                <item x="-68">pedagang/Ch_AkangTahunBaru_mulai.png</item>
+                <item x="-85">pedagang/Ch_AkangTahunBaru_masak1.png</item>
+                <item x="-78">pedagang/Ch_AkangTahunBaru_masak2.png</item>
+                <item x="-40">pedagang/Ch_AkangTahunBaru_jadi.png</item>
+            </images>
+            <efek>0,10,15,20,25,30,35,40,45,50</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="18" moveX="-33" moveY="7" scale="1.5" rarity="6" idKet="PendakiGunung">
+            <images>
+                <item>pedagang/Ch_PendakiGunung_idle.png</item>
+                <item x="-62">pedagang/Ch_PendakiGunung_mulai.png</item>
+                <item x="-90">pedagang/Ch_PendakiGunung_masak1.png</item>
+                <item x="-87">pedagang/Ch_PendakiGunung_masak2.png</item>
+                <item x="-24">pedagang/Ch_PendakiGunung_jadi.png</item>
+            </images>
+            <efek>0,1,2,3,4,5,6,7,8,10</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="19" moveX="-41" moveY="-12" scale="1.4" rarity="6" idKet="Cosplayer">
+            <images>
+                <item>pedagang/Ch_Cosplayer_idle.png</item>
+                <item x="-64">pedagang/Ch_Cosplayer_mulai.png</item>
+                <item x="-57">pedagang/Ch_Cosplayer_masak1.png</item>
+                <item x="-64">pedagang/Ch_Cosplayer_masak2.png</item>
+                <item x="12">pedagang/Ch_Cosplayer_jadi.png</item>
+            </images>
+            <efek>0,1.5,2,3,4,5,6,7,8,9</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <penjual id="20" moveX="-21" moveY="0" scale="1.5" rarity="5" idKet="Robot">
+            <images>
+                <item>pedagang/Ch_Robot_idle.png</item>
+                <item x="-43">pedagang/Ch_Robot_mulai.png</item>
+                <item x="-44">pedagang/Ch_Robot_masak1.png</item>
+                <item x="-69">pedagang/Ch_Robot_masak2.png</item>
+                <item x="3">pedagang/Ch_Robot_jadi.png</item>
+            </images>
+            <efek>0,1.5,2,3,4,5,6,7,8,9</efek>
+            <syarat>0,2,4,10,25,100,500,1000,5000</syarat>
+            <harga>0,65000000000,125000000000,250000000000,500000000000,750000000000,1000000000000,5000000000000,10000000000000</harga>
+        </penjual>
+
+        <!--<penjual id="1" moveX="-72" moveY="-17" frame="0" scale="1.5" rarity="6">-->
+        <!--<item>pedagang/Ch_AkangPangeran_idle.png</item>-->
+        <!--<item x="-60">pedagang/Ch_AkangPangeran_mulai.png</item>-->
+        <!--<item x="-13">pedagang/Ch_AkangPangeran_masak1.png</item>-->
+        <!--<item x="-50">pedagang/Ch_AkangPangeran_masak2.png</item>-->
+        <!--<item x="-33">pedagang/Ch_AkangPangeran_jadi.png</item>-->
+        <!--</penjual>-->
+        <!--<penjual id="1" moveX="-72" moveY="-17" frame="0" scale="1.5">-->
+        <!--<item>pedagang/Ch_AkangTahuBelanda_Idle.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuBelanda_MulaiMasak.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuBelanda_Masak1.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuBelanda_Masak2.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuBelanda_Jadi.png</item>-->
+        <!--</penjual>-->
+        <!--<penjual id="1" moveX="-72" moveY="-17" frame="0" scale="1.5">-->
+        <!--<item>pedagang/Ch_AkangTahuDubai_idle.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuDubai_mulai.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuDubai_masak1.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuDubai_masak2.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuDubai_jadi.png</item>-->
+        <!--</penjual>-->
+        <!--<penjual id="1" moveX="-72" moveY="-17" frame="0" scale="1.5">-->
+        <!--<item>pedagang/Ch_AkangTahuJamanBatu_idle.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuJamanBatu_mulai.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuJamanBatu_masak1.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuJamanBatu_masak2.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuJamanBatu_jadi.png</item>-->
+        <!--</penjual>-->
+        <!--<penjual id="1" moveX="-72" moveY="-17" frame="0" scale="1.5">-->
+        <!--<item>pedagang/Ch_AkangTahuKorea_idle.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuKorea_mulai.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuKorea_masak1.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuKorea_masak2.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuKorea_jadi.png</item>-->
+        <!--</penjual>-->
+        <!--<penjual id="1" moveX="-72" moveY="-17" frame="0" scale="1.5">-->
+        <!--<item>pedagang/Ch_AkangTahuMajapahit_idle.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuMajapahit_mulai.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuMajapahit_masak1.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuMajapahit_masak2.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuMajapahit_jadi.png</item>-->
+        <!--</penjual>-->
+        <!--<penjual id="1" moveX="-72" moveY="-17" frame="0" scale="1.5">-->
+        <!--<item>pedagang/Ch_AkangTahuYogya_idle.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuYogya_mulai.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuYogya_masak1.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuYogya_masak2.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuYogya_jadi.png</item>-->
+        <!--</penjual>-->
+        <!--<penjual id="1" moveX="-5" moveY="-16" frame="0" scale="1.5" rarity="1">-->
+        <!--<item>pedagang/Ch_AkangTahuJakarta_Idle.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuJakarta_MulaiMasak.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuJakarta_Masak1.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuJakarta_Masak2.png</item>-->
+        <!--<item>pedagang/Ch_AkangTahuJakarta_Jadi.png</item>-->
+        <!--</penjual>-->
+    </group>
+
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <level id="1">
+        <background>
+        </background>
+
+        <aksesoris>
+            <item id="baju" x="76" y="215">UI_baru/AkangBannerProfil/pf_baju_01.png</item>
+        </aksesoris>
+    </level>
+
+    <level id="2">
+        <background>
+            <item id="bgKiri" x="0" y="350" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKiri_01.png</item>
+        </background>
+
+        <aksesoris>
+            <item id="baju" x="76" y="215">UI_baru/AkangBannerProfil/pf_baju_01.png</item>
+        </aksesoris>
+    </level>
+
+    <level id="3">
+        <background>
+            <item id="bgKiri" x="0" y="350" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKiri_01.png</item>
+            <item id="bgKanan" x="0" y="350" pivotX="1" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKanan_01.png</item>
+        </background>
+
+        <aksesoris>
+            <item id="baju" x="76" y="215">UI_baru/AkangBannerProfil/pf_baju_01.png</item>
+        </aksesoris>
+    </level>
+
+    <level id="4">
+        <background>
+            <item id="bgKiri" x="0" y="350" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKiri_01.png</item>
+            <item id="bgKanan" x="0" y="350" pivotX="1" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKanan_01.png</item>
+        </background>
+
+        <aksesoris>
+            <item id="baju" x="73" y="215">UI_baru/AkangBannerProfil/pf_baju_02.png</item>
+        </aksesoris>
+    </level>
+
+    <level id="5">
+        <background>
+            <item id="bgKiri" x="0" y="350" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKiri_01.png</item>
+            <item id="bgKanan" x="768" y="350" pivotX="1" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKanan_01.png</item>
+        </background>
+
+        <aksesoris>
+            <item id="baju" x="73" y="215">UI_baru/AkangBannerProfil/pf_baju_02.png</item>
+            <item id="kacamata" x="82" y="122">UI_baru/AkangBannerProfil/pf_kacamata_01.png</item>
+        </aksesoris>
+    </level>
+
+    <level id="6">
+        <background>
+            <item id="bgKiri" x="0" y="350" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKiri_02.png</item>
+            <item id="bgKanan" x="768" y="350" pivotX="1" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKanan_01.png</item>
+        </background>
+
+        <aksesoris>
+            <item id="baju" x="73" y="215">UI_baru/AkangBannerProfil/pf_baju_02.png</item>
+            <item id="kacamata" x="82" y="122">UI_baru/AkangBannerProfil/pf_kacamata_01.png</item>
+        </aksesoris>
+    </level>
+
+    <level id="7">
+        <background>
+            <item id="bgKiri" x="0" y="350" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKiri_02.png</item>
+            <item id="bgKanan" x="768" y="350" pivotX="1" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKanan_02.png</item>
+        </background>
+
+        <aksesoris>
+            <item id="baju" x="73" y="215">UI_baru/AkangBannerProfil/pf_baju_02.png</item>
+            <item id="kacamata" x="82" y="122">UI_baru/AkangBannerProfil/pf_kacamata_01.png</item>
+        </aksesoris>
+    </level>
+
+    <level id="8">
+        <background>
+            <item id="bgKiri" x="0" y="350" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKiri_02.png</item>
+            <item id="bgKanan" x="768" y="350" pivotX="1" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKanan_02.png</item>
+        </background>
+
+        <aksesoris>
+            <item id="baju" x="71" y="208">UI_baru/AkangBannerProfil/pf_baju_03.png</item>
+            <item id="kacamata" x="82" y="122">UI_baru/AkangBannerProfil/pf_kacamata_01.png</item>
+        </aksesoris>
+    </level>
+
+    <level id="9">
+        <background>
+            <item id="bgKiri" x="0" y="350" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKiri_02.png</item>
+            <item id="bgKanan" x="768" y="350" pivotX="1" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKanan_02.png</item>
+        </background>
+
+        <aksesoris>
+            <item id="baju" x="71" y="208">UI_baru/AkangBannerProfil/pf_baju_03.png</item>
+            <item id="kacamata" x="82" y="122">UI_baru/AkangBannerProfil/pf_kacamata_02.png</item>
+        </aksesoris>
+    </level>
+
+    <level id="10">
+        <background>
+            <item id="bgKiri" x="0" y="350" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKiri_03.png</item>
+            <item id="bgKanan" x="768" y="350" pivotX="1" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKanan_02.png</item>
+        </background>
+
+        <aksesoris>
+            <item id="baju" x="71" y="208">UI_baru/AkangBannerProfil/pf_baju_03.png</item>
+            <item id="kacamata" x="82" y="122">UI_baru/AkangBannerProfil/pf_kacamata_02.png</item>
+        </aksesoris>
+    </level>
+
+    <level id="11">
+        <background>
+            <item id="bgKiri" x="0" y="350" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKiri_03.png</item>
+            <item id="bgKanan" x="768" y="350" pivotX="1" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKanan_03.png</item>
+        </background>
+
+        <aksesoris>
+            <item id="baju" x="71" y="208">UI_baru/AkangBannerProfil/pf_baju_03.png</item>
+            <item id="kacamata" x="82" y="122">UI_baru/AkangBannerProfil/pf_kacamata_02.png</item>
+        </aksesoris>
+    </level>
+
+    <level id="12">
+        <background>
+            <item id="bgKiri" x="0" y="350" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKiri_03.png</item>
+            <item id="bgKanan" x="768" y="350" pivotX="1" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKanan_03.png</item>
+        </background>
+
+        <aksesoris>
+            <item id="baju" x="76" y="215">UI_baru/AkangBannerProfil/pf_baju_04.png</item>
+            <item id="kacamata" x="82" y="122">UI_baru/AkangBannerProfil/pf_kacamata_02.png</item>
+        </aksesoris>
+    </level>
+
+    <level id="13">
+        <background>
+            <item id="bgKiri" x="0" y="350" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKiri_03.png</item>
+            <item id="bgKanan" x="768" y="350" pivotX="1" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKanan_03.png</item>
+        </background>
+
+        <aksesoris>
+            <item id="baju" x="76" y="215">UI_baru/AkangBannerProfil/pf_baju_04.png</item>
+            <item id="kacamata" x="82" y="122">UI_baru/AkangBannerProfil/pf_kacamata_03.png</item>
+        </aksesoris>
+    </level>
+
+    <level id="14">
+        <background>
+            <item id="bgKiri" x="0" y="350" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKiri_03.png</item>
+            <item id="bgKanan" x="768" y="350" pivotX="1" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKanan_03.png</item>
+        </background>
+
+        <aksesoris>
+            <item id="baju" x="76" y="215">UI_baru/AkangBannerProfil/pf_baju_04.png</item>
+            <item id="kacamata" x="82" y="122">UI_baru/AkangBannerProfil/pf_kacamata_03.png</item>
+            <item id="kalung" x="123" y="216">UI_baru/AkangBannerProfil/pf_kalung_01.png</item>
+        </aksesoris>
+    </level>
+
+    <level id="15">
+        <background>
+            <item id="bgKiri" x="0" y="350" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKiri_03.png</item>
+            <item id="bgKanan" x="768" y="350" pivotX="1" pivotY="1">UI_baru/AkangBannerProfil/pf_belakangKanan_03.png</item>
+        </background>
+
+        <aksesoris>
+            <item id="baju" x="76" y="215">UI_baru/AkangBannerProfil/pf_baju_04.png</item>
+            <item id="kacamata" x="82" y="122">UI_baru/AkangBannerProfil/pf_kacamata_03.png</item>
+            <item id="kalung" x="123" y="216">UI_baru/AkangBannerProfil/pf_kalung_02.png</item>
+        </aksesoris>
+    </level>
+</resources>

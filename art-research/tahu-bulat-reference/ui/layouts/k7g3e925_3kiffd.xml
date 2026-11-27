@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base" x="0" y="60">
+        <container id="headerBar">
+            <image_list id="bgHeader" isBaseContainer="true">
+                <item>hpakang/chat/menubar_atas.png</item>
+            </image_list>
+            <button id="btnBack" x="40" y="20" alignX="bgHeader#0" alignY="bgHeader#0" imageNormal="hpakang/chat/button_back_chat.png" onClick="backPressed">
+            </button>
+            <image_list id="foto" x="20" y="5" alignX="btnBack#1">
+                <item>hpakang/chat/foto_investor.png</item>
+            </image_list>
+            <text id="labelNama" x="20" y="20" alignX="foto#1" alignY="foto#0" font="arial" fontSize="35" color="ffffff">Nama Chat</text>
+            <image_list id="labelOnline" x="0" y="10" alignX="labelNama#0" alignY="labelNama#1">
+                <item>hpakang/chat/label_off.png</item>
+            </image_list>
+            <text id="textOnline" x="20" y="0" alignX="labelOnline#1" alignY="labelOnline#0" font="arial" fontSize="25" color="ffffff">sedang aktif</text>
+        </container>
+
+        <scrollView id="scrollListChat" x="0" y="10" alignY="headerBar#1" height="1000"><!--y="10"-->
+        </scrollView>
+
+        <image_list id="bgOpsi" x="0" y="0" alignY="hLayar#0.6"><!--isVisible="false"-->
+            <item>hpakang/chat/barbawah_full.png</item>
+        </image_list>
+
+        <container id="sendBox" y="-78" alignY="hLayar#0.6">
+        <!--<container id="sendBox" y="-220" alignY="hLayar#1">-->
+            <image_list id="bgBox" isBaseContainer="true">
+                <item>hpakang/chat/menubar_tengah.png</item>
+            </image_list>
+            <image_list id="imgTextBox" x="20" y="10" alignX="bgBox#0" alignY="bgBox#0" >
+                <item>hpakang/chat/textbox.png</item>
+            </image_list>
+            <text id="textBox" x="20" y="15" alignX="imgTextBox#0" alignY="imgTextBox#0" font="arial" fontSize="25" color="000000"> </text>
+            <button id="btnSend" x="-20" y="0" pivotX="1" alignX="wLayar#1" alignY="imgTextBox#0" imageNormal="hpakang/chat/button_send.png">
+            </button>
+        </container>
+
+        <scrollView id="scrollListOpsi" x="0" y="0" alignY="sendBox#1" height="500">
+        </scrollView>
+    </container>
+
+    <animation>
+    </animation>
+</resources>

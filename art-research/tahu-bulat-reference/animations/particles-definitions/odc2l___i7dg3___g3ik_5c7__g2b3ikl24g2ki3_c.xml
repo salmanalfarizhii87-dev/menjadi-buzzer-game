@@ -1,0 +1,49 @@
+<resources>
+    <particlesystem x="0" y="0">
+        <emitter pivotX="0" pivotY="0.5" type="point" attach="true">
+            <particle lifetime="0.4">
+                <imagelist>
+                    <image>UI_baru/rempah/chest/chest_particle/p_kartu_bp_line.png</image>
+                </imagelist>
+                <p_start>
+                    <alpha min="0" max="0.2"/>
+                    <scaleX pivotX="0" min="1" max="2.5"/>
+                    <velocity min="300" max="1000" arahMin="0" arahMax="360" rotate="true" pivotX="0" pivotY="0.5"/>
+                </p_start>
+                <p_running>
+                    <alpha min="0.5" max="1" when="0.5"/>
+                    <alpha min="0" max="0" when="1"/>
+                    <velocity min="100" max="500" when="1"/>
+                </p_running>
+            </particle>
+            <e_start>
+                <burst nBurst="1" burstTime="0.01"/>
+                <emit nEmit="1" repeat="-1" delay="0.01"/>
+            </e_start>
+        </emitter>
+
+        <emitter pivotX="0.5" pivotY="0.5" type="point" attach="true">
+            <particle lifetime="0.5">
+                <imagelist>
+                    <image>UI_baru/rempah/chest/chest_particle/p_kartu_bp_round.png</image>
+                </imagelist>
+                <p_start>
+                    <alpha min="0" max="0.2"/>
+                    <scale pivotX="0.5" pivotY="0.5" min="0.4" max="1"/>
+                    <velocity min="300" max="1000" arahMin="0" arahMax="360" rotate="true" pivotX="0" pivotY="0.5"/>
+                </p_start>
+                <p_running>
+                    <alpha min="0.5" max="1" when="0.5"/>
+                    <alpha min="0" max="0" when="1"/>
+                    <scale min="0" max="0.5" when="1"/>
+                    <velocity min="50" max="100" when="1"/>
+                </p_running>
+            </particle>
+            <e_start>
+                <burst nBurst="1" burstTime="0.01"/>
+                <emit nEmit="1" repeat="-1" delay="0.02"/>
+            </e_start>
+        </emitter>
+
+    </particlesystem>
+</resources>

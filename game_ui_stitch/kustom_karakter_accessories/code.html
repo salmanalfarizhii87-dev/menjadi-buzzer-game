@@ -1,0 +1,357 @@
+<!DOCTYPE html><html lang="id"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kustom Karakter: Accessories — Menjadi Buzzer</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">/** @type {import('tailwindcss').Config} */
+globalThis.tailwind = globalThis.tailwind || {};
+globalThis.tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        'wood-bar': '#5C341A',
+        'wood-light': '#6E3F21',
+        'wood-mid': '#4A2812',
+        'wood-dark': '#3A2010',
+        'wood-shadow': '#241005',
+        'cork-board': '#C88A4B',
+        'amber-canvas': '#F7CE7D',
+        'amber-gold': '#F5A623',
+        'gold-bright': '#FDE047',
+        'gold-deep': '#D97706',
+        'parchment': '#FFFBF2',
+        'parchment-border': '#C0835A',
+        'success': '#1F7A26',
+        'on-success': '#FFFFFF',
+        'warning': '#B56100',
+        'on-warning': '#060606',
+        'info': '#1D6FA5',
+        'on-info': '#FFFFFF',
+        'hud-cyan': '#28B8E8',
+        'hud-cyan-dark': '#0E7DB0',
+        'hud-purple': '#6B3FA0',
+        'hud-purple-dark': '#452273',
+        'dock-bg': '#EDF2F7',
+        'ink-dark': '#1E1B2E',
+        'btn-red': '#E53935',
+        'btn-red-dark': '#B71C1C',
+        'btn-orange': '#FB8C00',
+        'btn-orange-dark': '#D85000',
+        'btn-blue': '#039BE5',
+        'btn-blue-dark': '#01579B',
+        'btn-yellow': '#FDD835',
+        'btn-yellow-dark': '#F59E0B',
+        'btn-purple': '#8E24AA',
+        'btn-purple-dark': '#4A148C',
+        'btn-green': '#2EAD39',
+        'btn-green-dark': '#16681D',
+        'light-primary': '#006013',
+        'light-on-primary': '#FFFFFF',
+        'light-primary-container': '#1F7A26',
+        'light-on-primary-container': '#ADFFA2',
+        'light-secondary': '#86522D',
+        'light-on-secondary': '#FFFFFF',
+        'light-secondary-container': '#FFBA8E',
+        'light-on-secondary-container': '#4F2504',
+        'light-tertiary': '#7D4200',
+        'light-on-tertiary': '#FFFFFF',
+        'light-tertiary-container': '#FFE6D5',
+        'light-on-tertiary-container': '#4D2600',
+        'light-error': '#BA1A1A',
+        'light-on-error': '#FFFFFF',
+        'light-error-container': '#FFDAD6',
+        'light-on-error-container': '#93000A',
+        'light-background': '#F7CE7D',
+        'light-on-background': '#2F1502',
+        'light-surface': '#FFFBF2',
+        'light-surface-dim': '#FFE3D2',
+        'light-surface-bright': '#FFFFFF',
+        'light-surface-container-lowest': '#FFFFFF',
+        'light-surface-container-low': '#FFF8F0',
+        'light-surface-container': '#FFF1EA',
+        'light-surface-container-high': '#FFEADE',
+        'light-surface-container-highest': '#FFDCC6',
+        'light-on-surface': '#2F1502',
+        'light-surface-variant': '#DBE6D4',
+        'light-on-surface-variant': '#40493D',
+        'light-outline': '#707A6B',
+        'light-outline-variant': '#C0835A',
+        'light-inverse-surface': '#482911',
+        'light-inverse-on-surface': '#FFEDE4',
+        'light-inverse-primary': '#81DB7A',
+        'light-shadow': '#000000',
+        'light-scrim': '#000000',
+        'dark-primary': '#81DB7A',
+        'dark-on-primary': '#003908',
+        'dark-primary-container': '#1F7A26',
+        'dark-on-primary-container': '#ADFFA2',
+        'dark-secondary': '#FCB78A',
+        'dark-on-secondary': '#4F2504',
+        'dark-secondary-container': '#6D3D1A',
+        'dark-on-secondary-container': '#EDAA7E',
+        'dark-tertiary': '#FFB77D',
+        'dark-on-tertiary': '#4D2600',
+        'dark-tertiary-container': '#A15600',
+        'dark-on-tertiary-container': '#FFE6D5',
+        'dark-error': '#FFB4AB',
+        'dark-on-error': '#690005',
+        'dark-error-container': '#93000A',
+        'dark-on-error-container': '#FFDAD6',
+        'dark-background': '#240D00',
+        'dark-on-background': '#FFDCC6',
+        'dark-surface': '#2F1502',
+        'dark-surface-dim': '#240D00',
+        'dark-surface-bright': '#523119',
+        'dark-surface-container-lowest': '#1C0900',
+        'dark-surface-container-low': '#2F1502',
+        'dark-surface-container': '#341904',
+        'dark-surface-container-high': '#40230B',
+        'dark-surface-container-highest': '#4D2D15',
+        'dark-on-surface': '#FFDCC6',
+        'dark-surface-variant': '#40493D',
+        'dark-on-surface-variant': '#BFCAB9',
+        'dark-outline': '#899484',
+        'dark-outline-variant': '#623F25',
+        'dark-inverse-surface': '#FFDCC6',
+        'dark-inverse-on-surface': '#482911',
+        'dark-inverse-primary': '#0C6E1B',
+        'dark-shadow': '#000000',
+        'dark-scrim': '#000000',
+      },
+      borderRadius: {
+        'sm': '6px',
+        'DEFAULT': '10px',
+        'md': '14px',
+        'lg': '18px',
+        'xl': '24px',
+        'full': '9999px',
+      },
+      spacing: {
+        'gutter-xs': '4px',
+        'gutter-sm': '8px',
+        'gutter-md': '12px',
+        'gutter-lg': '16px',
+        'gutter-xl': '24px',
+        'section': '20px',
+        'page-margin': '14px',
+      },
+      fontFamily: {
+        'display': ['"Fredoka"', 'sans-serif'],
+        'headline': ['"Fredoka"', 'sans-serif'],
+        'title': ['"Fredoka"', 'sans-serif'],
+        'body': ['"Spline Sans"', 'sans-serif'],
+        'label': ['"Fredoka"', 'sans-serif'],
+        'mono': ['"DM Mono"', 'monospace'],
+      },
+      fontSize: {
+        'display-lg': ['36px', { lineHeight: '42px', letterSpacing: '-0.25px', fontWeight: '700' }],
+        'display-lg-mobile': ['28px', { lineHeight: '34px', letterSpacing: '-0.25px', fontWeight: '700' }],
+        'headline-lg': ['24px', { lineHeight: '30px', letterSpacing: '0px', fontWeight: '600' }],
+        'headline-md': ['20px', { lineHeight: '26px', letterSpacing: '0px', fontWeight: '600' }],
+        'title-md': ['16px', { lineHeight: '22px', letterSpacing: '0px', fontWeight: '600' }],
+        'body-md': ['14px', { lineHeight: '20px', letterSpacing: '0px', fontWeight: '500' }],
+        'body-sm': ['12px', { lineHeight: '16px', letterSpacing: '0.1px', fontWeight: '500' }],
+        'label-lg': ['15px', { lineHeight: '20px', letterSpacing: '0.1px', fontWeight: '600' }],
+        'label-sm': ['11px', { lineHeight: '14px', letterSpacing: '0.2px', fontWeight: '700' }],
+        'mono-md': ['14px', { lineHeight: '18px', letterSpacing: '0px', fontWeight: '500' }],
+      },
+      transitionDuration: {
+        'button-press': '100ms',
+        'card-enter': '220ms',
+      },
+      transitionDelay: {
+        'button-press': '0ms',
+        'card-enter': '0ms',
+      },
+      transitionTimingFunction: {
+        'button-press': 'ease-out',
+        'card-enter': 'cubic-bezier(0.2, 0, 0, 1)',
+      },
+    },
+  },
+};
+if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
+</script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&amp;family=Fredoka:wght@600;700&amp;family=Spline+Sans:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    .ref-hud-purple { background: linear-gradient(180deg, #522B7A 0%, #3E1D61 100%); }
+    .ref-back-circle { background: linear-gradient(180deg, #9C72D6 0%, #7C4DFF 100%); box-shadow: 0 2px 4px rgba(0,0,0,0.35), inset 0 2px 0 rgba(255,255,255,0.35); }
+    .ref-cyan-pill { background: linear-gradient(180deg, #0B709E 0%, #074E6E 100%); box-shadow: 0 2px 4px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.35); }
+    .ref-btn-green { background: linear-gradient(180deg, #1F8528 0%, #155E1B 100%); box-shadow: 0 4px 0 #0D3B11, inset 0 2px 0 rgba(255,255,255,0.35); }
+    .ref-btn-green:active { transform: translateY(2px); box-shadow: 0 2px 0 #0D3B11; }
+    .ref-card { background: #FFFFFF; border: 2px solid #CBD5E1; box-shadow: 0 4px 0 #94A3B8; }
+    .ref-stage-spotlight { background: radial-gradient(circle at 50% 42%, #FFFFFF 0%, #EFF6FF 65%, #DBEAFE 100%); border: 2px solid #CBD5E1; box-shadow: 0 4px 0 #94A3B8; }
+  </style>
+</head>
+<body class="bg-dock-bg text-ink-dark font-body antialiased">
+  <div class="min-h-[884px] max-w-md mx-auto flex flex-col bg-dock-bg" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- Top Purple HUD Bar -->
+    <header class="sticky top-0 z-20 flex flex-col shadow-[0_3px_8px_rgba(0,0,0,0.22)]">
+      <div class="ref-hud-purple flex items-center gap-gutter-sm px-gutter-sm py-gutter-sm">
+        <a href="../11-character-customizer/Character%20Customizer.html" aria-label="Kembali ke Kustom Karakter" class="w-11 h-11 rounded-full ref-back-circle flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M15 6L9 12L15 18" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </a>
+
+        <div class="flex-1 ref-cyan-pill rounded-lg px-gutter-md py-1 flex flex-col items-center justify-center min-w-0">
+          <span class="font-headline text-title-md text-light-surface-bright leading-none" data-design-text-token="title-md">Accessories</span>
+          <span class="font-mono text-label-sm text-light-surface-bright leading-none mt-0.5" data-design-text-token="label-sm">Kustom Karakter • @KilatDaily</span>
+        </div>
+
+        <div class="px-gutter-sm py-1.5 rounded-lg bg-light-surface-bright flex items-center gap-1 shrink-0">
+          <span id="acc-balance" class="font-headline text-label-sm text-ink-dark tabular-nums" data-design-text-token="label-sm">Rp 500</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col gap-gutter-md p-gutter-md pb-gutter-xl">
+
+      <!-- Avatar Photo & Accessory Badge Preview Stage -->
+      <section aria-label="Pratinjau aksesori karakter" class="ref-stage-spotlight rounded-xl p-gutter-md flex flex-col items-center gap-gutter-sm">
+        <img id="preview-avatar" src="https://lh3.googleusercontent.com/aida/ALJJyrBHF3InlyRpc17ZPPEbNEpxfWDQQbdOA4nTYMxfP4sFqN3ulYNKn2FC-qkTaEFyS27dAstYpUU_s3e34NCYNtn2u0wfu1wN-sTsdRkdUwK5p7HZG1dFZMYAfg20OyJEIhb5dTqp4HTetJS2ah8TZ56WIFhkcPmM6hiBFxmRFe_jEdvzJ5g-eHX90QPgTZ5xjUY38B3FgrPSRNsNN-cSEGV6pWOu_VuQDvBBYDPSmbiAtlDTtPTL6GtymH69RKghcw" alt="Foto karakter memakai aksesori" class="w-32 h-32 rounded-full object-cover border-4 border-hud-purple shadow-[0_4px_0_#94A3B8]">
+
+        <div class="text-center flex flex-col items-center gap-gutter-xs">
+          <h1 class="font-headline text-headline-md text-ink-dark" data-design-text-token="headline-md">@KilatDaily</h1>
+          <p id="preview-bonus" class="px-gutter-sm py-gutter-xs rounded-full bg-success text-light-surface-bright font-headline text-label-sm" data-design-text-token="label-sm">Aksesori: Kacamata Bulat • +3% Fokus</p>
+        </div>
+      </section>
+
+      <!-- Kustom Karakter Sub-Screen Navigation -->
+      <nav aria-label="Kategori kustom karakter" class="grid grid-cols-3 gap-gutter-xs ref-hud-purple p-1.5 rounded-xl border-2 border-ink-dark">
+        <a href="../11-character-customizer/Character%20Customizer.html" class="text-center px-gutter-sm py-gutter-sm rounded-lg text-light-surface-bright font-headline text-label-sm" data-design-text-token="label-sm">Player</a>
+        <a href="../19-character-outfits/Character%20Outfits.html" class="text-center px-gutter-sm py-gutter-sm rounded-lg text-light-surface-bright font-headline text-label-sm" data-design-text-token="label-sm">Outfits</a>
+        <a href="#" aria-current="page" class="text-center px-gutter-sm py-gutter-sm rounded-lg bg-btn-yellow text-ink-dark font-headline text-label-sm" data-design-text-token="label-sm">Accessories</a>
+      </nav>
+
+      <!-- Accessories Grid -->
+      <section aria-label="Daftar accessories" class="ref-card rounded-xl p-gutter-md flex flex-col gap-gutter-sm">
+        <div class="flex items-center justify-between gap-gutter-sm">
+          <h2 class="font-headline text-title-md text-ink-dark" data-design-text-token="title-md">Koleksi Accessories</h2>
+          <a href="../03-asset-shop/Asset%20Shop.html" class="font-headline text-label-sm text-btn-blue-dark underline" data-design-text-token="label-sm">Beli di Shop</a>
+        </div>
+
+        <div class="grid grid-cols-2 gap-gutter-sm">
+          <!-- Acc 1 -->
+          <button type="button" onclick="selectAcc(this, &#39;Kacamata Bulat&#39;, &#39;glasses&#39;, &#39;+3% Fokus&#39;)" class="acc-opt flex flex-col items-center gap-gutter-xs p-gutter-sm rounded-xl border-2 border-success bg-dock-bg cursor-pointer">
+            <svg class="w-14 h-14" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <circle cx="16" cy="25" r="7" fill="#BFDBFE" stroke="#1E1B2E" stroke-width="2.4"></circle>
+              <circle cx="32" cy="25" r="7" fill="#BFDBFE" stroke="#1E1B2E" stroke-width="2.4"></circle>
+              <path d="M23 25H25M9 24L6 20M39 24L42 20" stroke="#1E1B2E" stroke-width="2.4" stroke-linecap="round"></path>
+            </svg>
+            <span class="font-headline text-body-sm text-ink-dark" data-design-text-token="body-sm">Kacamata Bulat</span>
+            <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">+3% Fokus</span>
+            <span class="acc-status px-gutter-sm py-gutter-xs rounded-full bg-success text-light-surface-bright font-headline text-label-sm" data-design-text-token="label-sm">Dipakai</span>
+          </button>
+
+          <!-- Acc 2 -->
+          <button type="button" onclick="selectAcc(this, &#39;Headset Studio&#39;, &#39;headset&#39;, &#39;+5% Audio&#39;)" class="acc-opt flex flex-col items-center gap-gutter-xs p-gutter-sm rounded-xl border-2 border-slate-300 bg-light-surface-bright cursor-pointer">
+            <svg class="w-14 h-14" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <path d="M11 26V22C11 14.8 16.8 9 24 9C31.2 9 37 14.8 37 22V26" stroke="#1E1B2E" stroke-width="3" stroke-linecap="round"></path>
+              <rect x="8" y="23" width="7" height="12" rx="3" fill="#FACC15" stroke="#1E1B2E" stroke-width="2"></rect>
+              <rect x="33" y="23" width="7" height="12" rx="3" fill="#FACC15" stroke="#1E1B2E" stroke-width="2"></rect>
+            </svg>
+            <span class="font-headline text-body-sm text-ink-dark" data-design-text-token="body-sm">Headset Studio</span>
+            <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">+5% Audio</span>
+            <span class="acc-status px-gutter-sm py-gutter-xs rounded-full bg-dock-bg text-ink-dark font-headline text-label-sm" data-design-text-token="label-sm">Milikmu</span>
+          </button>
+
+          <!-- Acc 3 -->
+          <button type="button" onclick="selectAcc(this, &#39;Topi Terbalik&#39;, &#39;cap&#39;, &#39;+4% Hype&#39;)" class="acc-opt flex flex-col items-center gap-gutter-xs p-gutter-sm rounded-xl border-2 border-slate-300 bg-light-surface-bright cursor-pointer">
+            <svg class="w-14 h-14" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <path d="M12 27C12 18 17 13 24 13C31 13 36 18 36 27H12Z" fill="#EF4444" stroke="#1E1B2E" stroke-width="2.2"></path>
+              <path d="M35 27H43C43 30 39 31 35 31H12" fill="#FACC15" stroke="#1E1B2E" stroke-width="2.2" stroke-linejoin="round"></path>
+            </svg>
+            <span class="font-headline text-body-sm text-ink-dark" data-design-text-token="body-sm">Topi Terbalik</span>
+            <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">+4% Hype</span>
+            <span class="acc-status px-gutter-sm py-gutter-xs rounded-full bg-dock-bg text-ink-dark font-headline text-label-sm" data-design-text-token="label-sm">Milikmu</span>
+          </button>
+
+          <!-- Acc 4 (Shop) -->
+          <a href="../03-asset-shop/Asset%20Shop.html" class="flex flex-col items-center justify-center gap-gutter-xs p-gutter-sm rounded-xl border-2 border-dashed border-slate-400 bg-dock-bg">
+            <svg class="w-14 h-14" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <rect x="18" y="8" width="12" height="32" rx="3" fill="#CBD5E1" stroke="#334155" stroke-width="2"></rect>
+              <circle cx="24" cy="24" r="9" fill="#FACC15" stroke="#1E1B2E" stroke-width="2.2"></circle>
+              <path d="M24 19V24L27 26" stroke="#1E1B2E" stroke-width="2" stroke-linecap="round"></path>
+            </svg>
+            <span class="font-headline text-body-sm text-ink-dark" data-design-text-token="body-sm">Jam Emas</span>
+            <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">+10% Status</span>
+            <span class="px-gutter-sm py-gutter-xs rounded-full bg-btn-yellow text-ink-dark font-headline text-label-sm tabular-nums" data-design-text-token="label-sm">Shop • Rp 300</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Save Feedback Toast -->
+      <p id="save-toast" class="hidden text-center font-headline text-body-sm text-light-surface-bright bg-success border-2 border-ink-dark rounded-xl py-gutter-sm px-gutter-md" data-design-text-token="body-sm">
+        Aksesori berhasil dipasang &amp; disimpan!
+      </p>
+
+      <!-- Save CTA -->
+      <button type="button" onclick="saveAcc()" class="ref-btn-green w-full inline-flex items-center justify-center gap-gutter-sm px-gutter-lg py-gutter-md rounded-xl cursor-pointer">
+        <svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M5 12.5L9.5 17L19 7.5" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        <span class="font-headline text-label-lg text-light-surface-bright" data-design-text-token="label-lg">Pasang Aksesori</span>
+      </button>
+
+    </main>
+  </div>
+
+  <script data-stitch-original-script="f0f324ab45919aba===../../images/avatar_buzzer_cap.jpg|||e3f4db425b5ab362===../../images/avatar_buzzer_hoodie.jpg|||fae3baad7f07aa91===../../images/avatar_buzzer_glasses.jpg">
+    var currentAcc = { label: 'Kacamata Bulat', key: 'glasses' };
+
+    try {
+      var savedBal = localStorage.getItem('mb_mvp_balance');
+      if (savedBal && !isNaN(parseFloat(savedBal))) {
+        document.getElementById('acc-balance').textContent = 'Rp ' + Math.floor(parseFloat(savedBal)).toLocaleString('id-ID');
+      }
+    } catch (e) {}
+
+    function selectAcc(btn, label, accKey, bonusText) {
+      currentAcc.label = label;
+      currentAcc.key = accKey;
+      document.getElementById('preview-bonus').textContent = 'Aksesori: ' + label + ' • ' + bonusText;
+      var avatarEl = document.getElementById('preview-avatar');
+      if (avatarEl) {
+        if (accKey === 'cap') avatarEl.src = 'https://lh3.googleusercontent.com/aida/ALJJyrBPoWOutPAHnIAiL8xFV7X52USEipSnpYOW3fGn9PTBBF9CCrpaogkPTsbteMzOv0I5RHitrK9-DXZq0noSB5Ghm2Uy6SzxdY7cFF5Uj_Rvy1mBIb4jGb7HCyvrjIRyt0zqTxNqgrrrUSXKNZEbAQXlO3wEJdFGL0wrO6rlCOA4zYTDiMfW8KiJlA2mFK_XCVbH9TVjTcKlJKF1vyZdAE2gnbXz0O3yxuhbehyFkeyWNi-jMQTKTOZ3PyQ';
+        else if (accKey === 'headset') avatarEl.src = 'https://lh3.googleusercontent.com/aida/ALJJyrCyOImizkH3Lv_mlMzSBX2NGc-a19qXhmrnmHNLMlczeZENQLw5IMByPHlXazcScoDu2KMt2ny-DkJpCGWENj4XZHsU21sqCYLbeQzqC9EaklvleSPNeHgaSp-kO-4XuQiwNU7GNgeIuM5Lo-aJlxPO_h8q6FcXmuYDHnwWgGUS37CBIlszM_aqZ2OIX53qNNtNXrvP-pqZ_mb1Amh-vX_pCsCX2c5gsv-CTpIEaKr75qdlCrcOkdH7S6e8FtpD';
+        else avatarEl.src = 'https://lh3.googleusercontent.com/aida/ALJJyrBHF3InlyRpc17ZPPEbNEpxfWDQQbdOA4nTYMxfP4sFqN3ulYNKn2FC-qkTaEFyS27dAstYpUU_s3e34NCYNtn2u0wfu1wN-sTsdRkdUwK5p7HZG1dFZMYAfg20OyJEIhb5dTqp4HTetJS2ah8TZ56WIFhkcPmM6hiBFxmRFe_jEdvzJ5g-eHX90QPgTZ5xjUY38B3FgrPSRNsNN-cSEGV6pWOu_VuQDvBBYDPSmbiAtlDTtPTL6GtymH69RKghcw';
+      }
+
+      var opts = document.querySelectorAll('.acc-opt');
+      for (var i = 0; i < opts.length; i++) {
+        opts[i].className = 'acc-opt flex flex-col items-center gap-gutter-xs p-gutter-sm rounded-xl border-2 border-slate-300 bg-light-surface-bright cursor-pointer';
+        var st = opts[i].querySelector('.acc-status');
+        if (st) {
+          st.className = 'acc-status px-gutter-sm py-gutter-xs rounded-full bg-dock-bg text-ink-dark font-headline text-label-sm';
+          st.textContent = 'Milikmu';
+        }
+      }
+      btn.className = 'acc-opt flex flex-col items-center gap-gutter-xs p-gutter-sm rounded-xl border-2 border-success bg-dock-bg cursor-pointer';
+      var activeSt = btn.querySelector('.acc-status');
+      if (activeSt) {
+        activeSt.className = 'acc-status px-gutter-sm py-gutter-xs rounded-full bg-success text-light-surface-bright font-headline text-label-sm';
+        activeSt.textContent = 'Dipakai';
+      }
+    }
+
+    function saveAcc() {
+      try {
+        var existing = {};
+        var raw = localStorage.getItem('mb_character');
+        if (raw) existing = JSON.parse(raw) || {};
+        existing.accessory = currentAcc.label;
+        existing.accKey = currentAcc.key;
+        localStorage.setItem('mb_character', JSON.stringify(existing));
+      } catch (e) {}
+      var toast = document.getElementById('save-toast');
+      toast.classList.remove('hidden');
+      setTimeout(function () { toast.classList.add('hidden'); }, 2200);
+    }
+  </script>
+
+
+</body></html>

@@ -1,0 +1,361 @@
+<!DOCTYPE html><html lang="id"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engagement Challenge — Menjadi Buzzer</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">/** @type {import('tailwindcss').Config} */
+globalThis.tailwind = globalThis.tailwind || {};
+globalThis.tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        'wood-bar': '#5C341A',
+        'wood-light': '#6E3F21',
+        'wood-mid': '#4A2812',
+        'wood-dark': '#3A2010',
+        'wood-shadow': '#241005',
+        'cork-board': '#C88A4B',
+        'amber-canvas': '#F7CE7D',
+        'amber-gold': '#F5A623',
+        'gold-bright': '#FDE047',
+        'gold-deep': '#D97706',
+        'parchment': '#FFFBF2',
+        'parchment-border': '#C0835A',
+        'success': '#1F7A26',
+        'on-success': '#FFFFFF',
+        'warning': '#B56100',
+        'on-warning': '#060606',
+        'info': '#1D6FA5',
+        'on-info': '#FFFFFF',
+        'hud-cyan': '#28B8E8',
+        'hud-cyan-dark': '#0E7DB0',
+        'hud-purple': '#6B3FA0',
+        'hud-purple-dark': '#452273',
+        'dock-bg': '#EDF2F7',
+        'ink-dark': '#1E1B2E',
+        'btn-red': '#E53935',
+        'btn-red-dark': '#B71C1C',
+        'btn-orange': '#FB8C00',
+        'btn-orange-dark': '#D85000',
+        'btn-blue': '#039BE5',
+        'btn-blue-dark': '#01579B',
+        'btn-yellow': '#FDD835',
+        'btn-yellow-dark': '#F59E0B',
+        'btn-purple': '#8E24AA',
+        'btn-purple-dark': '#4A148C',
+        'btn-green': '#2EAD39',
+        'btn-green-dark': '#16681D',
+        'light-primary': '#006013',
+        'light-on-primary': '#FFFFFF',
+        'light-primary-container': '#1F7A26',
+        'light-on-primary-container': '#ADFFA2',
+        'light-secondary': '#86522D',
+        'light-on-secondary': '#FFFFFF',
+        'light-secondary-container': '#FFBA8E',
+        'light-on-secondary-container': '#4F2504',
+        'light-tertiary': '#7D4200',
+        'light-on-tertiary': '#FFFFFF',
+        'light-tertiary-container': '#FFE6D5',
+        'light-on-tertiary-container': '#4D2600',
+        'light-error': '#BA1A1A',
+        'light-on-error': '#FFFFFF',
+        'light-error-container': '#FFDAD6',
+        'light-on-error-container': '#93000A',
+        'light-background': '#F7CE7D',
+        'light-on-background': '#2F1502',
+        'light-surface': '#FFFBF2',
+        'light-surface-dim': '#FFE3D2',
+        'light-surface-bright': '#FFFFFF',
+        'light-surface-container-lowest': '#FFFFFF',
+        'light-surface-container-low': '#FFF8F0',
+        'light-surface-container': '#FFF1EA',
+        'light-surface-container-high': '#FFEADE',
+        'light-surface-container-highest': '#FFDCC6',
+        'light-on-surface': '#2F1502',
+        'light-surface-variant': '#DBE6D4',
+        'light-on-surface-variant': '#40493D',
+        'light-outline': '#707A6B',
+        'light-outline-variant': '#C0835A',
+        'light-inverse-surface': '#482911',
+        'light-inverse-on-surface': '#FFEDE4',
+        'light-inverse-primary': '#81DB7A',
+        'light-shadow': '#000000',
+        'light-scrim': '#000000',
+        'dark-primary': '#81DB7A',
+        'dark-on-primary': '#003908',
+        'dark-primary-container': '#1F7A26',
+        'dark-on-primary-container': '#ADFFA2',
+        'dark-secondary': '#FCB78A',
+        'dark-on-secondary': '#4F2504',
+        'dark-secondary-container': '#6D3D1A',
+        'dark-on-secondary-container': '#EDAA7E',
+        'dark-tertiary': '#FFB77D',
+        'dark-on-tertiary': '#4D2600',
+        'dark-tertiary-container': '#A15600',
+        'dark-on-tertiary-container': '#FFE6D5',
+        'dark-error': '#FFB4AB',
+        'dark-on-error': '#690005',
+        'dark-error-container': '#93000A',
+        'dark-on-error-container': '#FFDAD6',
+        'dark-background': '#240D00',
+        'dark-on-background': '#FFDCC6',
+        'dark-surface': '#2F1502',
+        'dark-surface-dim': '#240D00',
+        'dark-surface-bright': '#523119',
+        'dark-surface-container-lowest': '#1C0900',
+        'dark-surface-container-low': '#2F1502',
+        'dark-surface-container': '#341904',
+        'dark-surface-container-high': '#40230B',
+        'dark-surface-container-highest': '#4D2D15',
+        'dark-on-surface': '#FFDCC6',
+        'dark-surface-variant': '#40493D',
+        'dark-on-surface-variant': '#BFCAB9',
+        'dark-outline': '#899484',
+        'dark-outline-variant': '#623F25',
+        'dark-inverse-surface': '#FFDCC6',
+        'dark-inverse-on-surface': '#482911',
+        'dark-inverse-primary': '#0C6E1B',
+        'dark-shadow': '#000000',
+        'dark-scrim': '#000000',
+      },
+      borderRadius: {
+        'sm': '6px',
+        'DEFAULT': '10px',
+        'md': '14px',
+        'lg': '18px',
+        'xl': '24px',
+        'full': '9999px',
+      },
+      spacing: {
+        'gutter-xs': '4px',
+        'gutter-sm': '8px',
+        'gutter-md': '12px',
+        'gutter-lg': '16px',
+        'gutter-xl': '24px',
+        'section': '20px',
+        'page-margin': '14px',
+      },
+      fontFamily: {
+        'display': ['"Fredoka"', 'sans-serif'],
+        'headline': ['"Fredoka"', 'sans-serif'],
+        'title': ['"Fredoka"', 'sans-serif'],
+        'body': ['"Spline Sans"', 'sans-serif'],
+        'label': ['"Fredoka"', 'sans-serif'],
+        'mono': ['"DM Mono"', 'monospace'],
+      },
+      fontSize: {
+        'display-lg': ['36px', { lineHeight: '42px', letterSpacing: '-0.25px', fontWeight: '700' }],
+        'display-lg-mobile': ['28px', { lineHeight: '34px', letterSpacing: '-0.25px', fontWeight: '700' }],
+        'headline-lg': ['24px', { lineHeight: '30px', letterSpacing: '0px', fontWeight: '600' }],
+        'headline-md': ['20px', { lineHeight: '26px', letterSpacing: '0px', fontWeight: '600' }],
+        'title-md': ['16px', { lineHeight: '22px', letterSpacing: '0px', fontWeight: '600' }],
+        'body-md': ['14px', { lineHeight: '20px', letterSpacing: '0px', fontWeight: '500' }],
+        'body-sm': ['12px', { lineHeight: '16px', letterSpacing: '0.1px', fontWeight: '500' }],
+        'label-lg': ['15px', { lineHeight: '20px', letterSpacing: '0.1px', fontWeight: '600' }],
+        'label-sm': ['11px', { lineHeight: '14px', letterSpacing: '0.2px', fontWeight: '700' }],
+        'mono-md': ['14px', { lineHeight: '18px', letterSpacing: '0px', fontWeight: '500' }],
+      },
+      transitionDuration: {
+        'button-press': '100ms',
+        'card-enter': '220ms',
+      },
+      transitionDelay: {
+        'button-press': '0ms',
+        'card-enter': '0ms',
+      },
+      transitionTimingFunction: {
+        'button-press': 'ease-out',
+        'card-enter': 'cubic-bezier(0.2, 0, 0, 1)',
+      },
+    },
+  },
+};
+if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
+</script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&amp;family=Fredoka:wght@600;700&amp;family=Spline+Sans:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    .ref-hud-purple { background: linear-gradient(180deg, #522B7A 0%, #3E1D61 100%); }
+    .ref-back-circle { background: linear-gradient(180deg, #9C72D6 0%, #7C4DFF 100%); box-shadow: 0 2px 4px rgba(0,0,0,0.35), inset 0 2px 0 rgba(255,255,255,0.35); }
+    .ref-cyan-pill { background: linear-gradient(180deg, #0B709E 0%, #074E6E 100%); box-shadow: 0 2px 4px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.35); }
+    .ref-btn-green { background: linear-gradient(180deg, #1F8528 0%, #155E1B 100%); box-shadow: 0 4px 0 #0D3B11, inset 0 2px 0 rgba(255,255,255,0.35); }
+    .ref-btn-green:active { transform: translateY(2px); box-shadow: 0 2px 0 #0D3B11; }
+    .ref-card { background: #FFFFFF; border: 2px solid #CBD5E1; box-shadow: 0 4px 0 #94A3B8; }
+    .ref-gauge-track {
+      background: linear-gradient(90deg, #B71C1C 0%, #B71C1C 20%, #FACC15 20%, #FACC15 38%, #1F8528 38%, #1F8528 62%, #FACC15 62%, #FACC15 80%, #B71C1C 80%, #B71C1C 100%);
+      border: 3px solid #1E1B2E;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.4), 0 3px 0 #94A3B8;
+    }
+  </style>
+</head>
+<body class="bg-dock-bg text-ink-dark font-body antialiased">
+  <div class="min-h-[884px] max-w-md mx-auto flex flex-col bg-dock-bg" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- Top Purple HUD Bar -->
+    <header class="sticky top-0 z-20 flex flex-col shadow-[0_3px_8px_rgba(0,0,0,0.22)]">
+      <div class="ref-hud-purple flex items-center gap-gutter-sm px-gutter-sm py-gutter-sm">
+        <a href="../07-strategy-risk/Strategy%20%26%20Risk%20Selection.html" aria-label="Kembali ke Strategi" class="w-11 h-11 rounded-full ref-back-circle flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M15 6L9 12L15 18" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </a>
+
+        <div class="flex-1 ref-cyan-pill rounded-lg px-gutter-md py-1 flex flex-col items-center justify-center min-w-0">
+          <span class="font-headline text-title-md text-light-surface-bright leading-none" data-design-text-token="title-md">Engagement Boost</span>
+          <span class="font-mono text-label-sm text-light-surface-bright leading-none mt-0.5" data-design-text-token="label-sm">Mini-Game #2 • 1x Sesi</span>
+        </div>
+
+        <div class="px-gutter-sm py-1.5 rounded-lg bg-light-surface-bright flex items-center gap-1 shrink-0">
+          <span id="tap-counter" class="font-headline text-label-sm text-ink-dark tabular-nums" data-design-text-token="label-sm">0 / 3</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col gap-gutter-md p-gutter-md pb-gutter-xl">
+
+      <!-- Objective & Instructions Card -->
+      <article class="ref-card rounded-xl p-gutter-md flex items-start gap-gutter-sm">
+        <svg class="w-8 h-8 shrink-0" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <path d="M14 2L17 10L25 11L19 16.5L20.5 25L14 21L7.5 25L9 16.5L3 11L11 10L14 2Z" fill="#FACC15" stroke="#1E1B2E" stroke-width="2"></path>
+        </svg>
+        <div>
+          <h1 class="font-headline text-title-md text-ink-dark" data-design-text-token="title-md">Tangkap Puncak Algoritma!</h1>
+          <p class="font-body text-body-sm text-light-on-surface-variant text-pretty" data-design-text-token="body-sm">
+            Tekan tombol BOOST tepat saat jarum berada di zona hijau tengah. Kamu punya 3 ketukan dalam 1 sesi tanpa ulang gratis.
+          </p>
+        </div>
+      </article>
+
+      <!-- Live Score & Hit History Card -->
+      <section aria-label="Skor eksekusi" class="ref-card rounded-xl p-gutter-lg flex flex-col gap-gutter-md">
+        <div class="flex items-center justify-between">
+          <div>
+            <p class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Skor Eksekusi</p>
+            <p id="eng-score" class="font-display text-display-lg-mobile text-success tabular-nums" data-design-text-token="display-lg-mobile">0 / 100</p>
+          </div>
+          <span id="hit-badge" class="px-gutter-md py-gutter-xs rounded-full bg-dock-bg text-ink-dark border-2 border-slate-300 font-headline text-label-sm" data-design-text-token="label-sm">Siap Ketuk!</span>
+        </div>
+
+        <!-- Timing Gauge -->
+        <div class="flex flex-col gap-gutter-xs">
+          <div class="relative w-full h-10 ref-gauge-track rounded-full overflow-hidden">
+            <div class="absolute inset-y-0 left-1/2 -translate-x-1/2 w-1 bg-light-surface-bright"></div>
+            <div id="timing-needle" style="left: 50%;" class="absolute top-0 bottom-0 -translate-x-1/2 w-3 bg-light-surface-bright border-2 border-ink-dark rounded-full shadow-md"></div>
+          </div>
+          <div class="flex items-center justify-between px-gutter-xs">
+            <span class="font-body text-label-sm text-btn-red-dark" data-design-text-token="label-sm">Meleset</span>
+            <span class="font-headline text-label-sm text-success" data-design-text-token="label-sm">Zona Perfect</span>
+            <span class="font-body text-label-sm text-btn-red-dark" data-design-text-token="label-sm">Meleset</span>
+          </div>
+        </div>
+
+        <!-- 3 Tap Slots -->
+        <div class="grid grid-cols-3 gap-gutter-sm">
+          <div id="slot-1" class="bg-dock-bg border-2 border-slate-300 rounded-xl p-gutter-sm text-center font-headline text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Ketuk 1</div>
+          <div id="slot-2" class="bg-dock-bg border-2 border-slate-300 rounded-xl p-gutter-sm text-center font-headline text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Ketuk 2</div>
+          <div id="slot-3" class="bg-dock-bg border-2 border-slate-300 rounded-xl p-gutter-sm text-center font-headline text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Ketuk 3</div>
+        </div>
+      </section>
+
+      <!-- Primary Tap Action Button -->
+      <button id="boost-btn" type="button" onclick="hitBoost()" class="ref-btn-green w-full py-gutter-lg px-gutter-lg rounded-xl flex items-center justify-center gap-gutter-sm cursor-pointer">
+        <svg class="w-7 h-7 shrink-0" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M13 2L4 14H11L10 22L20 10H13L13 2Z" fill="#FACC15" stroke="#0D3B11" stroke-width="2" stroke-linejoin="round"></path>
+        </svg>
+        <span class="font-headline text-headline-md text-light-surface-bright" data-design-text-token="headline-md">TAP BOOST!</span>
+      </button>
+
+      <!-- Continue to Result CTA -->
+      <a id="result-cta" href="../09-campaign-result/Campaign%20Result.html" class="hidden ref-btn-green w-full inline-flex items-center justify-center gap-gutter-sm px-gutter-lg py-gutter-md rounded-xl">
+        <span class="font-headline text-label-lg text-light-surface-bright" data-design-text-token="label-lg">Lihat Hasil Kampanye</span>
+      </a>
+
+    </main>
+  </div>
+
+  <script>
+    (function () {
+      var pos = 50;
+      var dir = 1.6;
+      var taps = 0;
+      var totalScore = 0;
+      var locked = false;
+
+      try {
+        var saved = localStorage.getItem('mb_engagement_score');
+        if (saved !== null && !isNaN(parseInt(saved, 10))) {
+          totalScore = parseInt(saved, 10);
+          taps = 3;
+          locked = true;
+        }
+      } catch (e) {}
+
+      var needle = document.getElementById('timing-needle');
+      var scoreEl = document.getElementById('eng-score');
+      var counterEl = document.getElementById('tap-counter');
+      var badgeEl = document.getElementById('hit-badge');
+      var boostBtn = document.getElementById('boost-btn');
+      var resultCta = document.getElementById('result-cta');
+
+      function finishGame() {
+        locked = true;
+        if (totalScore > 100) totalScore = 100;
+        scoreEl.textContent = totalScore + ' / 100';
+        counterEl.textContent = '3 / 3';
+        boostBtn.classList.add('hidden');
+        resultCta.classList.remove('hidden');
+        try {
+          localStorage.setItem('mb_engagement_score', String(totalScore));
+        } catch (e) {}
+      }
+
+      if (locked) {
+        finishGame();
+        badgeEl.textContent = 'Selesai';
+      } else {
+        setInterval(function () {
+          if (locked) return;
+          pos += dir;
+          if (pos >= 95) { pos = 95; dir = -1.6; }
+          if (pos <= 5) { pos = 5; dir = 1.6; }
+          needle.style.left = pos + '%';
+        }, 16);
+      }
+
+      window.hitBoost = function () {
+        if (locked) return;
+        taps++;
+        var pts = 15;
+        var label = 'Meleset +15';
+        var badgeCls = 'px-gutter-md py-gutter-xs rounded-full bg-btn-red-dark text-light-surface-bright font-headline text-label-sm';
+        if (pos >= 38 && pos <= 62) {
+          pts = 35;
+          label = 'PERFECT! +35';
+          badgeCls = 'px-gutter-md py-gutter-xs rounded-full bg-success text-light-surface-bright font-headline text-label-sm';
+        } else if (pos >= 20 && pos <= 80) {
+          pts = 25;
+          label = 'BAGUS! +25';
+          badgeCls = 'px-gutter-md py-gutter-xs rounded-full bg-btn-yellow text-ink-dark font-headline text-label-sm';
+        }
+        totalScore = Math.min(100, totalScore + pts);
+        scoreEl.textContent = totalScore + ' / 100';
+        counterEl.textContent = taps + ' / 3';
+        badgeEl.textContent = label;
+        badgeEl.className = badgeCls;
+
+        var slot = document.getElementById('slot-' + taps);
+        if (slot) {
+          slot.textContent = '+' + pts;
+          slot.className = 'bg-light-surface-bright border-2 border-success rounded-xl p-gutter-sm text-center font-headline text-label-sm text-success';
+        }
+
+        if (taps >= 3) {
+          finishGame();
+        }
+      };
+    })();
+  </script>
+
+
+</body></html>

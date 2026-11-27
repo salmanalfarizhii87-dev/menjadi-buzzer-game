@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="ingatkan" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Akang lagi berpikir...&#10;Harusnya kita jual Tahu ini ke kalangan pelajar..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Terutama anak SMA...&#10;Mereka kan bentar lagi masuk perguruan tinggi!</desc>
+        </dialog>
+	<dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hmmph...&#10;Apa coba hubungannya jualan Tahu sama Perguruan Tinggi??</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sapa" isHold="true">
+            <desc>Eh, Kang Pfhh- pPh- Phvicky!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="kaget" isHold="true">
+            <desc>Cape juga... Terserah deh..&#10;Mau panggil Piki juga gapapa..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="ketawa2" isHold="true">
+            <desc>Nah kitu atuh, Kang Piki!&#10;Kan jadi gampang! wkwk</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="kaget" isHold="true">
+            <desc>..............</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Terus jadi apa hubungannya Tahu sama Perguruan Tinggi??</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Nah itu dia... &#10;Anak SMA tuh perlu banyak makan Tahu..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="ingatkan" isHold="true">
+            <desc>Kan, katanya Tahu itu bikin pintar!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="false">
+            <desc>HAHAHAHAHAHAHA!!&#10;HAHAHAHAHAHAAH!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Loh kok, ketawa??</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="false">
+            <desc>Ya jelas pasti ketawa lah!!&#10;Hmphh... HWAHAHAHAH!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Apa ada yang salah ya??</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHAH! Mungkin ngga..&#10;HAHAHAH!!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Ya sudah, kebetulan lagi ada Olimpiade Sains tingkat SMA..</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Ayo kita coba jualan Tahu Bulat di sana. Siapa tahu laris!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Olimpiade Sains?&#10;Hayu atuh buruan ke sana!</desc>
+        </dialog>
+    </skenario>
+</resources>

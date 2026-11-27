@@ -1,0 +1,256 @@
+<resources>
+    <container id="root" x="384" y="900" pivotX="0" pivotY="0" width="147" height="127">
+        <container id="protobul_all" x="0" y="0" pivotX="0" pivotY="0">
+            <particle id="asap" xml="ksatriatahu/xml/partikel/efek_protobul_asap.xml" x="-30" y="-20" alignX="protobul_body#0.5" alignY="protobul_body#0.5"/>
+            <particle id="asap_jalanKiri" xml="ksatriatahu/xml/partikel/efek_protobul_asap_jalanKiri.xml" x="-30" y="-20" alignX="protobul_body#0.5" alignY="protobul_body#0.5"/>
+
+            <image_list id="protobul_hand" x="55" y="-60" pivotX="0.222" pivotY="0.235">
+                <item>ksatriatahu/pets/tabulbot/protobul_hand.png</item>
+            </image_list>
+            <image_list id="protobul_body" x="0" y="-30" pivotX="0.5" pivotY="1" isBaseContainer="true">
+                <item>ksatriatahu/pets/tabulbot/protobul_body.png</item>
+            </image_list>
+            <image_list id="protobul_shield" x="-78" y="-41" pivotX="0.38" pivotY="0.467">
+                <item>ksatriatahu/pets/tabulbot/protobul_shield.png</item>
+            </image_list>
+        </container>
+
+        <uiReader pivotX="0.5" pivotY="1" alignX="protobul_body#0.5" alignY="protobul_body#0" id="emoji" xml="ksatriatahu/xml/emoji.xml"/>
+    </container>
+
+    <animation>
+        <stop>
+            <alpha id="protobul_body" time="0">1</alpha>
+            <alpha id="protobul_shield" time="0">1</alpha>
+            <alpha id="protobul_hand" time="0">1</alpha>
+        </stop>
+        <reset>
+            <rotate id="protobul_hand" pivotX="0.222" pivotY="0.235" time="0">0</rotate>
+            <rotate id="protobul_shield" pivotX="0.38" pivotY="0.467" time="0">0</rotate>
+            <rotate id="protobul_body" pivotX="0.5" pivotY="0.5" time="0">0</rotate>
+            <moveY id="protobul_shield" time="0">0</moveY>
+            <moveY id="protobul_hand" time="0">0</moveY>
+            <moveY id="protobul_body" time="0">0</moveY>
+            <moveX id="protobul_shield" time="0">0</moveX>
+            <moveX id="protobul_hand" time="0">0</moveX>
+            <moveX id="protobul_body" time="0">0</moveX>
+            <scaleY id="protobul_shield" pivotY="1" time="0">1</scaleY>
+            <scaleY id="protobul_hand" pivotY="1" time="0">1</scaleY>
+            <scaleY id="protobul_body" pivotY="1" time="0">1</scaleY>
+
+        </reset>
+        <idle repeat="-1">
+            <scaleX id="protobul_shield" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="protobul_hand" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="protobul_body" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="protobul_all" pivotX="0" time="0">1</scaleX>
+            <alpha id="protobul_body" time="0">1</alpha>
+            <alpha id="protobul_shield" time="0">1</alpha>
+            <alpha id="protobul_hand" time="0">1</alpha>
+            <stopParticle id="asap"/>
+            <stopParticle id="asap_jalanKiri"/>
+            <sequence>
+                <multiple>
+                    <scaleX id="protobul_body" pivotX="0.5" time="0.3">1.03</scaleX>
+                    <scaleY id="protobul_body" pivotY="1" time="0.3">0.95</scaleY>
+                    <moveY id="protobul_shield" pivotY="1" time="0.3">-3</moveY>
+                    <moveY id="protobul_hand" pivotY="1" time="0.3">-3</moveY>
+                    <rotate id="protobul_hand" pivotX="0.222" pivotY="0.235" time="0.3">0</rotate>
+                    <rotate id="protobul_shield" pivotX="0.38" pivotY="0.467" time="0.3">-10</rotate>
+                </multiple>
+                <multiple>
+                    <scaleX id="protobul_body" pivotX="0.5" time="0.3">0.97</scaleX>
+                    <scaleY id="protobul_body" pivotY="1" time="0.3">1.03</scaleY>
+                    <moveY id="protobul_shield" pivotY="1" time="0.3">12</moveY>
+                    <moveY id="protobul_hand" pivotY="1" time="0.3">12</moveY>
+                    <rotate id="protobul_hand" pivotX="0.222" pivotY="0.235" time="0.3">-15</rotate>
+                    <rotate id="protobul_shield" pivotX="0.38" pivotY="0.467" time="0.3">0</rotate>
+                </multiple>
+            </sequence>
+        </idle>
+        <idle_kiri repeat="-1">
+            <scaleX id="protobul_shield" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="protobul_hand" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="protobul_body" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="protobul_all" pivotX="0" time="0">-1</scaleX>
+            <alpha id="protobul_body" time="0">1</alpha>
+            <alpha id="protobul_shield" time="0">1</alpha>
+            <alpha id="protobul_hand" time="0">1</alpha>
+            <stopParticle id="asap"/>
+            <stopParticle id="asap_jalanKiri"/>
+            <sequence>
+                <multiple>
+                    <scaleX id="protobul_body" pivotX="0.5" time="0.3">1.03</scaleX>
+                    <scaleY id="protobul_body" pivotY="1" time="0.3">0.95</scaleY>
+                    <moveY id="protobul_shield" pivotY="1" time="0.3">-3</moveY>
+                    <moveY id="protobul_hand" pivotY="1" time="0.3">-3</moveY>
+                    <rotate id="protobul_hand" pivotX="0.222" pivotY="0.235" time="0.3">0</rotate>
+                    <rotate id="protobul_shield" pivotX="0.38" pivotY="0.467" time="0.3">-10</rotate>
+                </multiple>
+                <multiple>
+                    <scaleX id="protobul_body" pivotX="0.5" time="0.3">0.97</scaleX>
+                    <scaleY id="protobul_body" pivotY="1" time="0.3">1.03</scaleY>
+                    <moveY id="protobul_shield" pivotY="1" time="0.3">12</moveY>
+                    <moveY id="protobul_hand" pivotY="1" time="0.3">12</moveY>
+                    <rotate id="protobul_hand" pivotX="0.222" pivotY="0.235" time="0.3">-15</rotate>
+                    <rotate id="protobul_shield" pivotX="0.38" pivotY="0.467" time="0.3">0</rotate>
+                </multiple>
+            </sequence>
+        </idle_kiri>
+
+        <jalan repeat="-1">
+            <scaleX id="protobul_shield" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="protobul_hand" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="protobul_body" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="protobul_all" pivotX="0" time="0">1</scaleX>
+            <stopParticle id="asap"/>
+            <stopParticle id="asap_jalanKiri"/>
+            <alpha id="emoji" time="0">0</alpha>
+            <alpha id="protobul_body" time="0">1</alpha>
+            <alpha id="protobul_shield" time="0">1</alpha>
+            <alpha id="protobul_hand" time="0">1</alpha>
+            <sequence>
+
+                <multiple>
+                    <moveY id="protobul_body" time="0.25">0</moveY>
+                    <moveY id="protobul_hand" pivotY="0.235" time="0.25">0</moveY>
+                    <moveY id="protobul_shield" pivotY="0.235" time="0.25">0</moveY>
+
+                    <rotate id="protobul_body" pivotX="0.5" pivotY="0.5" time="0.25">0</rotate>
+                    <moveX id="protobul_shield" pivotX="0.38" time="0.25">0</moveX>
+                    <moveX id="protobul_hand" pivotX="0" time="0.25">0</moveX>
+                    <rotate id="protobul_hand" pivotX="0.222" pivotY="0.235" time="0.25">0</rotate>
+                    <rotate id="protobul_shield" pivotX="0.38" pivotY="0.467" time="0.25">0</rotate>
+                </multiple>
+                <playParticle id="asap"/>
+                <multiple>
+                    <moveY id="protobul_body" time="0.5">-30</moveY>
+                    <moveY id="protobul_shield" pivotY="0.235" time="0.5">-70</moveY>
+                    <moveY id="protobul_hand" pivotY="0.235" time="0.5">8</moveY>
+
+                    <rotate id="protobul_body" pivotX="0.5" pivotY="0.5" time="0.5">20</rotate>
+                    <moveX id="protobul_shield" pivotX="0.38" time="0.5">-30</moveX>
+                    <moveX id="protobul_hand" pivotX="0" time="0.5">-55</moveX>
+                    <rotate id="protobul_hand" pivotX="0.222" pivotY="0.235" time="0.3">15</rotate>
+                    <rotate id="protobul_shield" pivotX="0.38" pivotY="0.467" time="0.3">23</rotate>
+                </multiple>
+                <stopParticle id="asap"/>
+                <wait time="0.8"/>
+            </sequence>
+        </jalan>
+        <jalan_kiri repeat="-1">
+            <scaleX id="protobul_shield" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="protobul_hand" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="protobul_body" pivotX="0.5" time="0">1</scaleX>
+            <stopParticle id="asap"/>
+            <stopParticle id="asap_jalanKiri"/>
+            <alpha id="emoji" time="0">0</alpha>
+            <alpha id="protobul_body" time="0">1</alpha>
+            <alpha id="protobul_shield" time="0">1</alpha>
+            <alpha id="protobul_hand" time="0">1</alpha>
+            <scaleX id="protobul_all" pivotX="0" time="0">-1</scaleX>
+            <sequence>
+
+                <multiple>
+                    <moveY id="protobul_body" time="0.25">0</moveY>
+                    <moveY id="protobul_hand" pivotY="0.235" time="0.25">0</moveY>
+                    <moveY id="protobul_shield" pivotY="0.235" time="0.25">0</moveY>
+
+                    <rotate id="protobul_body" pivotX="0.5" pivotY="0.5" time="0.25">0</rotate>
+                    <moveX id="protobul_shield" pivotX="0.38" time="0.25">0</moveX>
+                    <moveX id="protobul_hand" pivotX="0" time="0.25">0</moveX>
+                    <rotate id="protobul_hand" pivotX="0.222" pivotY="0.235" time="0.25">0</rotate>
+                    <rotate id="protobul_shield" pivotX="0.38" pivotY="0.467" time="0.25">0</rotate>
+                </multiple>
+                <playParticle id="asap_jalanKiri"/>
+                <multiple>
+                    <moveY id="protobul_body" time="0.5">-30</moveY>
+                    <moveY id="protobul_shield" pivotY="0.235" time="0.5">-70</moveY>
+                    <moveY id="protobul_hand" pivotY="0.235" time="0.5">8</moveY>
+
+                    <rotate id="protobul_body" pivotX="0.5" pivotY="0.5" time="0.5">20</rotate>
+                    <moveX id="protobul_shield" pivotX="0.38" time="0.5">-30</moveX>
+                    <moveX id="protobul_hand" pivotX="0" time="0.5">-55</moveX>
+                    <rotate id="protobul_hand" pivotX="0.222" pivotY="0.235" time="0.3">15</rotate>
+                    <rotate id="protobul_shield" pivotX="0.38" pivotY="0.467" time="0.3">23</rotate>
+                </multiple>
+                <stopParticle id="asap_jalanKiri"/>
+                <wait time="0.8"/>
+            </sequence>
+        </jalan_kiri>
+        <makan>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="makan"></playAnim>
+        </makan>
+        <jurus>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="jurus"></playAnim>
+        </jurus>
+        <skill repeat="-1">
+            <multiple>
+                <scaleX id="protobul_shield" pivotX="0.5" time="0">1</scaleX>
+                <scaleX id="protobul_hand" pivotX="0.5" time="0">1</scaleX>
+                <scaleX id="protobul_body" pivotX="0.5" time="0">1</scaleX>
+                <scaleX id="protobul_all" pivotX="0" time="0">1</scaleX>
+                <alpha id="protobul_body" time="0">1</alpha>
+                <alpha id="protobul_shield" time="0">1</alpha>
+                <alpha id="protobul_hand" time="0">1</alpha>
+                <stopParticle id="asap"/>
+                <stopParticle id="asap_jalanKiri"/>
+            </multiple>
+
+            <sequence>
+
+                <multiple>
+                    <scaleX id="protobul_body" pivotX="0.5" time="0.1">1.03</scaleX>
+                    <scaleY id="protobul_body" pivotY="1" time="0.1">0.95</scaleY>
+                    <rotate id="protobul_body" pivotX="0.5" pivotY="0.5" time="0.15">-4</rotate>
+                    <moveX id="protobul_body" time="0.15">-10</moveX>
+                    <moveY id="protobul_body" time="0.15">5</moveY>
+                    <moveY id="protobul_shield" time="0.15" ease="0#1#0#1">-30</moveY>
+                    <moveY id="protobul_hand" time="0.15" ease="0#1#0#1">-30</moveY>
+                    <moveX id="protobul_shield" time="0.15">10</moveX>
+                    <moveX id="protobul_hand" time="0.15">10</moveX>
+                    <rotate id="protobul_hand" pivotX="0.222" pivotY="0.235" time="0.15">-60</rotate>
+                    <rotate id="protobul_shield" pivotX="0.38" pivotY="0.467" time="0.15">-10</rotate>
+                </multiple>
+
+                <multiple>
+                    <scaleX id="protobul_body" pivotX="0.5" time="0.1">0.97</scaleX>
+                    <scaleY id="protobul_body" pivotY="1" time="0.1">1.03</scaleY>
+                    <rotate id="protobul_body" pivotX="0.5" pivotY="0.5" time="0.05">4</rotate>
+                    <moveX id="protobul_body" time="0.05">5</moveX>
+                    <moveY id="protobul_body" time="0.05">-5</moveY>
+                    <moveY id="protobul_shield" time="0.05" ease="1#0#1#0">10</moveY>
+                    <moveY id="protobul_hand" time="0.05" ease="1#0#1#0">10</moveY>
+                    <moveX id="protobul_shield" time="0.05">20</moveX>
+                    <moveX id="protobul_hand" time="0.05">20</moveX>
+                    <rotate id="protobul_hand" pivotX="0.222" pivotY="0.235" time="0.05">0</rotate>
+                    <rotate id="protobul_shield" pivotX="0.38" pivotY="0.467" time="0.05">5</rotate>
+                </multiple>
+                <wait time="0.1"/>
+                <multiple>
+                    <scaleX id="protobul_body" pivotX="0.5" time="0.1">1</scaleX>
+                    <scaleY id="protobul_body" pivotY="1" time="0.1">1</scaleY>
+                    <rotate id="protobul_body" pivotX="0.5" pivotY="0.5" time="0.15">0</rotate>
+                    <moveX id="protobul_body" time="0.15">0</moveX>
+                    <moveY id="protobul_body" time="0.15">0</moveY>
+                    <moveY id="protobul_shield" time="0.15">0</moveY>
+                    <moveY id="protobul_hand" time="0.15">0</moveY>
+                    <moveX id="protobul_shield" time="0.15">0</moveX>
+                    <moveX id="protobul_hand" time="0.15">0</moveX>
+                    <rotate id="protobul_hand" pivotX="0.222" pivotY="0.235" time="0.15">0</rotate>
+                    <rotate id="protobul_shield" pivotX="0.38" pivotY="0.467" time="0.15">0</rotate>
+                </multiple>
+            </sequence>
+        </skill>
+        <hati>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="hati"></playAnim>
+        </hati>
+        <evolusi>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="evolusi"></playAnim>
+        </evolusi>
+    </animation>
+</resources>

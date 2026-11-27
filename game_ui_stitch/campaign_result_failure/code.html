@@ -1,0 +1,275 @@
+<!DOCTYPE html><html lang="id"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campaign Result (Failure) — Menjadi Buzzer</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">/** @type {import('tailwindcss').Config} */
+globalThis.tailwind = globalThis.tailwind || {};
+globalThis.tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        'wood-bar': '#5C341A',
+        'wood-light': '#6E3F21',
+        'wood-mid': '#4A2812',
+        'wood-dark': '#3A2010',
+        'wood-shadow': '#241005',
+        'cork-board': '#C88A4B',
+        'amber-canvas': '#F7CE7D',
+        'amber-gold': '#F5A623',
+        'gold-bright': '#FDE047',
+        'gold-deep': '#D97706',
+        'parchment': '#FFFBF2',
+        'parchment-border': '#C0835A',
+        'success': '#1F7A26',
+        'on-success': '#FFFFFF',
+        'warning': '#B56100',
+        'on-warning': '#060606',
+        'info': '#1D6FA5',
+        'on-info': '#FFFFFF',
+        'hud-cyan': '#28B8E8',
+        'hud-cyan-dark': '#0E7DB0',
+        'hud-purple': '#6B3FA0',
+        'hud-purple-dark': '#452273',
+        'dock-bg': '#EDF2F7',
+        'ink-dark': '#1E1B2E',
+        'btn-red': '#E53935',
+        'btn-red-dark': '#B71C1C',
+        'btn-orange': '#FB8C00',
+        'btn-orange-dark': '#D85000',
+        'btn-blue': '#039BE5',
+        'btn-blue-dark': '#01579B',
+        'btn-yellow': '#FDD835',
+        'btn-yellow-dark': '#F59E0B',
+        'btn-purple': '#8E24AA',
+        'btn-purple-dark': '#4A148C',
+        'btn-green': '#2EAD39',
+        'btn-green-dark': '#16681D',
+        'light-primary': '#006013',
+        'light-on-primary': '#FFFFFF',
+        'light-primary-container': '#1F7A26',
+        'light-on-primary-container': '#ADFFA2',
+        'light-secondary': '#86522D',
+        'light-on-secondary': '#FFFFFF',
+        'light-secondary-container': '#FFBA8E',
+        'light-on-secondary-container': '#4F2504',
+        'light-tertiary': '#7D4200',
+        'light-on-tertiary': '#FFFFFF',
+        'light-tertiary-container': '#FFE6D5',
+        'light-on-tertiary-container': '#4D2600',
+        'light-error': '#BA1A1A',
+        'light-on-error': '#FFFFFF',
+        'light-error-container': '#FFDAD6',
+        'light-on-error-container': '#93000A',
+        'light-background': '#F7CE7D',
+        'light-on-background': '#2F1502',
+        'light-surface': '#FFFBF2',
+        'light-surface-dim': '#FFE3D2',
+        'light-surface-bright': '#FFFFFF',
+        'light-surface-container-lowest': '#FFFFFF',
+        'light-surface-container-low': '#FFF8F0',
+        'light-surface-container': '#FFF1EA',
+        'light-surface-container-high': '#FFEADE',
+        'light-surface-container-highest': '#FFDCC6',
+        'light-on-surface': '#2F1502',
+        'light-surface-variant': '#DBE6D4',
+        'light-on-surface-variant': '#40493D',
+        'light-outline': '#707A6B',
+        'light-outline-variant': '#C0835A',
+        'light-inverse-surface': '#482911',
+        'light-inverse-on-surface': '#FFEDE4',
+        'light-inverse-primary': '#81DB7A',
+        'light-shadow': '#000000',
+        'light-scrim': '#000000',
+        'dark-primary': '#81DB7A',
+        'dark-on-primary': '#003908',
+        'dark-primary-container': '#1F7A26',
+        'dark-on-primary-container': '#ADFFA2',
+        'dark-secondary': '#FCB78A',
+        'dark-on-secondary': '#4F2504',
+        'dark-secondary-container': '#6D3D1A',
+        'dark-on-secondary-container': '#EDAA7E',
+        'dark-tertiary': '#FFB77D',
+        'dark-on-tertiary': '#4D2600',
+        'dark-tertiary-container': '#A15600',
+        'dark-on-tertiary-container': '#FFE6D5',
+        'dark-error': '#FFB4AB',
+        'dark-on-error': '#690005',
+        'dark-error-container': '#93000A',
+        'dark-on-error-container': '#FFDAD6',
+        'dark-background': '#240D00',
+        'dark-on-background': '#FFDCC6',
+        'dark-surface': '#2F1502',
+        'dark-surface-dim': '#240D00',
+        'dark-surface-bright': '#523119',
+        'dark-surface-container-lowest': '#1C0900',
+        'dark-surface-container-low': '#2F1502',
+        'dark-surface-container': '#341904',
+        'dark-surface-container-high': '#40230B',
+        'dark-surface-container-highest': '#4D2D15',
+        'dark-on-surface': '#FFDCC6',
+        'dark-surface-variant': '#40493D',
+        'dark-on-surface-variant': '#BFCAB9',
+        'dark-outline': '#899484',
+        'dark-outline-variant': '#623F25',
+        'dark-inverse-surface': '#FFDCC6',
+        'dark-inverse-on-surface': '#482911',
+        'dark-inverse-primary': '#0C6E1B',
+        'dark-shadow': '#000000',
+        'dark-scrim': '#000000',
+      },
+      borderRadius: {
+        'sm': '6px',
+        'DEFAULT': '10px',
+        'md': '14px',
+        'lg': '18px',
+        'xl': '24px',
+        'full': '9999px',
+      },
+      spacing: {
+        'gutter-xs': '4px',
+        'gutter-sm': '8px',
+        'gutter-md': '12px',
+        'gutter-lg': '16px',
+        'gutter-xl': '24px',
+        'section': '20px',
+        'page-margin': '14px',
+      },
+      fontFamily: {
+        'display': ['"Fredoka"', 'sans-serif'],
+        'headline': ['"Fredoka"', 'sans-serif'],
+        'title': ['"Fredoka"', 'sans-serif'],
+        'body': ['"Spline Sans"', 'sans-serif'],
+        'label': ['"Fredoka"', 'sans-serif'],
+        'mono': ['"DM Mono"', 'monospace'],
+      },
+      fontSize: {
+        'display-lg': ['36px', { lineHeight: '42px', letterSpacing: '-0.25px', fontWeight: '700' }],
+        'display-lg-mobile': ['28px', { lineHeight: '34px', letterSpacing: '-0.25px', fontWeight: '700' }],
+        'headline-lg': ['24px', { lineHeight: '30px', letterSpacing: '0px', fontWeight: '600' }],
+        'headline-md': ['20px', { lineHeight: '26px', letterSpacing: '0px', fontWeight: '600' }],
+        'title-md': ['16px', { lineHeight: '22px', letterSpacing: '0px', fontWeight: '600' }],
+        'body-md': ['14px', { lineHeight: '20px', letterSpacing: '0px', fontWeight: '500' }],
+        'body-sm': ['12px', { lineHeight: '16px', letterSpacing: '0.1px', fontWeight: '500' }],
+        'label-lg': ['15px', { lineHeight: '20px', letterSpacing: '0.1px', fontWeight: '600' }],
+        'label-sm': ['11px', { lineHeight: '14px', letterSpacing: '0.2px', fontWeight: '700' }],
+        'mono-md': ['14px', { lineHeight: '18px', letterSpacing: '0px', fontWeight: '500' }],
+      },
+      transitionDuration: {
+        'button-press': '100ms',
+        'card-enter': '220ms',
+      },
+      transitionDelay: {
+        'button-press': '0ms',
+        'card-enter': '0ms',
+      },
+      transitionTimingFunction: {
+        'button-press': 'ease-out',
+        'card-enter': 'cubic-bezier(0.2, 0, 0, 1)',
+      },
+    },
+  },
+};
+if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
+</script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&amp;family=Fredoka:wght@600;700&amp;family=Spline+Sans:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    .ref-hud-purple { background: linear-gradient(180deg, #522B7A 0%, #3E1D61 100%); }
+    .ref-cyan-pill { background: linear-gradient(180deg, #0B709E 0%, #074E6E 100%); box-shadow: 0 2px 4px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.35); }
+    .ref-banner-fail { background: linear-gradient(180deg, #C62828 0%, #991B1B 100%); box-shadow: 0 4px 0 #5C0005, inset 0 2px 0 rgba(255,255,255,0.3); }
+    .ref-btn-green { background: linear-gradient(180deg, #1F8528 0%, #155E1B 100%); box-shadow: 0 4px 0 #0D3B11, inset 0 2px 0 rgba(255,255,255,0.35); }
+    .ref-btn-white { background: linear-gradient(180deg, #FFFFFF 0%, #E2E8F0 100%); box-shadow: 0 3px 0 #94A3B8, inset 0 2px 0 #FFFFFF; }
+    .ref-card { background: #FFFFFF; border: 2px solid #CBD5E1; box-shadow: 0 4px 0 #94A3B8; }
+  </style>
+</head>
+<body class="bg-dock-bg text-ink-dark font-body antialiased">
+  <div class="min-h-[884px] max-w-md mx-auto flex flex-col bg-dock-bg" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- Top Purple HUD Bar -->
+    <header class="sticky top-0 z-20 ref-hud-purple px-gutter-md py-gutter-sm flex items-center justify-between gap-gutter-sm shadow-[0_3px_8px_rgba(0,0,0,0.22)]">
+      <div class="flex-1 ref-cyan-pill rounded-lg px-gutter-md py-1 flex flex-col items-center justify-center min-w-0">
+        <h1 class="font-headline text-title-md text-light-surface-bright leading-none" data-design-text-token="title-md">Hasil Kampanye</h1>
+        <p class="font-mono text-label-sm text-light-surface-bright leading-none mt-0.5" data-design-text-token="label-sm">Konter Isu • Gagal</p>
+      </div>
+
+      <div class="px-gutter-sm py-1.5 rounded-lg bg-light-surface-bright shrink-0">
+        <span class="font-headline text-label-sm text-ink-dark tabular-nums" data-design-text-token="label-sm">Rp 420</span>
+      </div>
+    </header>
+
+    <main class="flex-1 flex flex-col gap-gutter-md p-gutter-md pb-gutter-xl">
+
+      <section aria-label="Status hasil kampanye" class="ref-banner-fail rounded-xl p-gutter-lg flex items-center gap-gutter-md">
+        <span class="w-12 h-12 rounded-full bg-btn-yellow flex items-center justify-center shrink-0 font-headline text-headline-md text-ink-dark">!</span>
+        <div>
+          <h2 class="font-headline text-headline-lg text-light-surface-bright" data-design-text-token="headline-lg">Kampanye Gagal!</h2>
+          <p class="font-body text-body-sm text-light-surface-bright" data-design-text-token="body-sm">Skor Eksekusi: <span class="font-headline tabular-nums">42 / 100</span></p>
+        </div>
+      </section>
+
+      <article class="ref-card rounded-xl p-gutter-lg flex flex-col gap-gutter-sm">
+        <div class="flex items-center justify-between gap-gutter-xs">
+          <h3 class="font-headline text-title-md text-ink-dark" data-design-text-token="title-md">Rincian Konsekuensi</h3>
+          <span class="px-gutter-sm py-gutter-xs rounded-full bg-light-error text-light-on-error font-headline text-label-sm shrink-0" data-design-text-token="label-sm">Sudah Diterapkan</span>
+        </div>
+
+        <div class="flex flex-col gap-gutter-xs bg-dock-bg rounded-xl p-gutter-md">
+          <div class="flex items-center justify-between">
+            <span class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Bayaran Kontrak</span>
+            <span class="font-headline text-body-md text-ink-dark tabular-nums" data-design-text-token="body-md">Rp 0</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Denda Pelanggaran</span>
+            <span class="font-headline text-body-md text-light-error tabular-nums" data-design-text-token="body-md">-Rp 80</span>
+          </div>
+          <div class="border-t border-ink-dark/15 pt-gutter-xs flex items-center justify-between">
+            <span class="font-headline text-title-md text-ink-dark" data-design-text-token="title-md">Status Akun Baru</span>
+            <span class="px-gutter-sm py-gutter-xs rounded-full bg-light-tertiary text-light-on-tertiary font-headline text-label-sm" data-design-text-token="label-sm">Warning</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="ref-card rounded-xl p-gutter-lg flex flex-col gap-gutter-sm">
+        <h3 class="font-headline text-title-md text-ink-dark" data-design-text-token="title-md">Perubahan Statistik @KilatDaily</h3>
+        <div class="grid grid-cols-2 gap-gutter-sm">
+          <div class="bg-dock-bg rounded-xl p-gutter-sm flex items-center justify-between">
+            <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Followers</span>
+            <span class="font-headline text-body-md text-light-error tabular-nums" data-design-text-token="body-md">-35</span>
+          </div>
+          <div class="bg-dock-bg rounded-xl p-gutter-sm flex items-center justify-between">
+            <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Performance</span>
+            <span class="font-headline text-body-md text-light-error tabular-nums" data-design-text-token="body-md">-8</span>
+          </div>
+          <div class="bg-dock-bg rounded-xl p-gutter-sm flex items-center justify-between">
+            <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Reputation</span>
+            <span class="font-headline text-body-md text-light-error tabular-nums" data-design-text-token="body-md">-5</span>
+          </div>
+          <div class="bg-dock-bg rounded-xl p-gutter-sm flex items-center justify-between">
+            <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Suspicion</span>
+            <span class="font-headline text-body-md text-light-error tabular-nums" data-design-text-token="body-md">+15</span>
+          </div>
+        </div>
+      </article>
+
+      <aside class="ref-card rounded-xl p-gutter-md flex items-start gap-gutter-sm">
+        <span class="w-7 h-7 rounded-full bg-btn-red-dark text-light-surface-bright flex items-center justify-center shrink-0 font-headline text-body-sm">✕</span>
+        <p class="font-body text-body-sm text-ink-dark text-pretty" data-design-text-token="body-sm">
+          Strategi Agresif memicu filter spam Chirper saat skor eksekusi rendah. Suspicion naik ke 25/100 dan akun mendapat status Warning.
+        </p>
+      </aside>
+
+      <div class="flex flex-col gap-gutter-sm pt-gutter-xs">
+        <a href="../02-campaign-board/Campaign%20Board.html" class="ref-btn-green w-full inline-flex items-center justify-center gap-gutter-sm px-gutter-lg py-gutter-md rounded-xl">
+          <span class="font-headline text-label-lg text-light-surface-bright" data-design-text-token="label-lg">Kembali ke Campaign Board</span>
+        </a>
+        <a href="../05-finance-history/Finance%20%26%20History.html" class="ref-btn-white w-full inline-flex items-center justify-center gap-gutter-sm px-gutter-lg py-gutter-sm rounded-xl">
+          <span class="font-headline text-label-lg text-ink-dark" data-design-text-token="label-lg">Cek Keuangan &amp; Riwayat</span>
+        </a>
+      </div>
+
+    </main>
+  </div>
+
+
+</body></html>

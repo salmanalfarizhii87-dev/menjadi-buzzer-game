@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario lama_muncul="5.0" skippable="true">
+        <!--<dialog karakter="0" ekspresi="idle" y="100" animasi="0.3" alignY="0.5f" hold="false"/>-->
+        <!--<dialog hold="false"/>-->
+        <!--<pilihan>-->
+            <!--<dialog>Halo!!&#10;Kita berjumpa kembali!!</dialog>-->
+            <!--<buttons>-->
+                <!--<button tipe="next" image="UI_baru/ui_btn_normal_merah.png" text_colour="0x3ddb15" text="Halo"/>-->
+            <!--</buttons>-->
+        <!--</pilihan>-->
+        <!--<dialog>ini dialog 1</dialog>-->
+        <!--<aksi tipe="highlight" ui="bintang_level" hold="false"/>-->
+        <!--<aksi tipe="muncul" ui="bintang_level" hold="false"/>-->
+        <!--<dialog>ini dialog 2</dialog>-->
+        <!--<aksi tipe="showPopUp" ui="inputNama" hold="false"/>-->
+        <!--<syarat tipe="validName"/>-->
+        <!--<dialog formatType="nama_pemain">nama valid : nama : %1$s</dialog>-->
+        <!--<dialog formatType="level_pemain">Dengan Tekad Bulat...&#10;Bisnis Tahu Bulatmu naik tingkat ke tingkat %1$s!CAKEPP!!</dialog>-->
+        <!--<dialog>the end</dialog>-->
+
+        <aksi tipe="muncul" ui="buttonSkip" hold="false"/>
+
+        <dialog karakter="0" ekspresi="idle" y="100" animasi="0.3" alignY="0.0f" hold="false" analytics="OB3_START"/>
+        <dialog hold="false"/>
+        <dialog>Bisnis Tahu Bulat yang sukses,&#10;tidak hanya mendatangkan pembeli saja..</dialog>
+        <dialog ekspresi="ingatkan">Ingat!!! Kamu tidak akan benar-&#10;benar sukses, kalau cuma tekan-&#10;tekan layar saja!</dialog>
+        <dialog ekspresi="tekad_bulad">Ingat!!&#10;Butuh strategi, Bro!</dialog>
+        <dialog ekspresi="belajar">Jadi.. mari kita pelajari bisnis ini lebih lanjut...</dialog>
+        <dialog ekspresi="idle" hold="false"/>
+
+        <aksi tipe="muncul" ui="box_informasi" hold="false"/>
+        <aksi tipe="highlight" ui="box_informasi" hold="false"/>
+        <dialog ekspresi="ingatkan" y="430" animasi="0.7" analytics="OB3_FL1_NOTES">Ini adalah informasi utama seputar bisnis Tahu Bulatmu..</dialog>
+        <dialog ekspresi="aha">Di sini kamu bisa mengetahui uang yang kamu miliki...</dialog>
+        <dialog ekspresi="aha">harga tahu yang kamu jual...&#10;dan jumlah tahu/menit!</dialog>
+
+        <aksi tipe="muncul" ui="tab_mobil" hold="false"/>
+        <aksi tipe="highlight" ui="tab_mobil" hold="false"/>
+        <dialog y ="-270" alignY="0.5f" animasi="0.25" ekspresi="idle" hold="false"/>
+        <dialog ekspresi="belajar" analytics="OB3_FL2_MOBIL">Nah... kalau yang ini namanya Tab Mobil!</dialog>
+        <dialog ekspresi="aha">Di tab ini, kamu bisa membeli barang-barang untuk membuat mobil kamu makin keren!</dialog>
+        <dialog ekspresi="sedap">Setiap barang di tab mobil, memiliki efeknya masing-masing..</dialog>
+
+        <aksi tipe="highlight" ui="speaker_mobil_info" hold="false"/>
+        <dialog ekspresi="ingatkan" hold="false">Nah.. untuk mengetahui efeknya,&#10;silahkan tekan tombol informasi ini ya..</dialog>
+        <syarat tipe="tekanTombol" ui="info_speaker"/>
+        <aksi analytics="OB3_FL2_INFO" tipe="disable" ui="popup_button" hold="false"/>
+        <syarat tipe="closePopup"/>
+
+        <aksi tipe="muncul" ui="tab_resep" hold="false"/>
+        <aksi tipe="highlight" ui="tab_resep" hold="false"/>
+        <dialog ekspresi="belajar" analytics="OB3_FL3_BAHAN">Yang ini adalah Tab Resep!&#10;Di tab ini, kamu bisa meningkatkan bahan-bahan untuk membuat Tahu Bulat!</dialog>
+        <dialog ekspresi="aha">Dengan meningkatkan bahan-bahan ini, harga jual Tahu Bulatmu juga akan meningkat, lho!</dialog>
+
+        <aksi tipe="muncul" ui="tab_promo" hold="false"/>
+        <aksi tipe="highlight" ui="tab_promo" hold="false"/>
+        <dialog ekspresi="belajar" analytics="OB3_FL4_PROMO">Kalau yang ini Tab Promo!</dialog>
+        <dialog ekspresi="belajar">Agar bisnismu berkembang, kamu perlu mendatangkan banyak pelanggan..</dialog>
+        <dialog ekspresi="mantul">Lakukan berbagai promosi untuk mendatangkan pelanggan setia ke bisnis Tahu Bulatmu!</dialog>
+
+        <aksi tipe="muncul" ui="tab_spesial" hold="false"/>
+        <aksi tipe="highlight" ui="tab_spesial" hold="false"/>
+        <dialog ekspresi="tekad_bulad" analytics="OB3_FL5_SPESIAL">Nah, yang ini spesial banget!!&#10;Namanya aja Tab Spesial!</dialog>
+        <dialog ekspresi="semangat">Kamu bisa mendapatkan barang-&#10;barang dengan kemampuan luar biasa!</dialog>
+        <dialog ekspresi="semangat">Kamu bisa mendapatkannya dengan membelinya di tab ini</dialog>
+        <dialog ekspresi="aha">Eits! Ga cuma barang berbayar aja, lho! Ada yang lain juga!</dialog>
+        <dialog ekspresi="ingatkan">Sering-sering cek Tab ini, ya!</dialog>
+
+        <aksi tipe="muncul" ui="tab_statistik" hold="false"/>
+        <aksi tipe="highlight" ui="tab_statistik" hold="false"/>
+        <dialog ekspresi="belajar" analytics="OB3_FL6_STATISTIK">Lalu.. tab paling ujung ini adalah Tab Statistik!</dialog>
+        <dialog ekspresi="aha">Kamu bisa mendapatkan informasi lebih lengkap tentang bisnis Tahu Bulatmu di sini!</dialog>
+        <dialog>Kamu bisa mendapatkan informasi lebih lengkap tentang bisnis Tahu Bulatmu di sini!</dialog>
+        <dialog ekspresi="mantul">Selain itu, kamu juga bisa&#10;melakukan berbagai macam hal lain di tab ini..</dialog>
+        <dialog ekspresi="idle">Seperti mendapatkan karakter pedagang baru, pindah cabang...</dialog>
+        <dialog>dan transfer dana ke cabang lainnya!</dialog>
+
+        <aksi tipe="hide" ui="boxMenuBawah" hold="false"/>
+        <aksi tipe="hide" ui="buttonSkip" hold="false"/>
+        <aksi tipe="muncul" ui="button_hp_akang" hold="false"/>
+        <aksi tipe="highlight" ui="button_hp_akang" hold="false"/>
+        <dialog ekspresi="belajar" analytics="OB4_START_HPAKANG">Terakhir...&#10;yang ini adalah HP Akang!!</dialog>
+        <dialog ekspresi="aha">Kamu bisa pinjam HP Akang untuk mendapatkan banyak informasi seputar game Tahu Bulat..</dialog>
+        <dialog ekspresi="sedap">Ada banyak mini game seru yang bisa bikin kamu dapat banyak hadiah juga, lho!</dialog>
+        <dialog ekspresi="kaget">Ehh, boleh pinjam...&#10;Tapi.. Jangan ngoprek-ngoprek HP Akang, ya!</dialog>
+
+        <aksi tipe="muncul" ui="bar_peridot" hold="false"/>
+        <aksi tipe="muncul" ui="bar_fever" hold="false"/>
+        <dialog ekspresi="idle">Fyuhh.. selesai juga penjelasannya..</dialog>
+        <dialog ekspresi="belajar">Lupa?  Tenang..&#10;Kamu bisa mengulang penjelasan akang kapanpun, kok!</dialog>
+        <dialog ekspresi="idle">Penjelasan dapat diulang melalui menu pengaturan pada Tab Statistik.</dialog>
+        <dialog ekspresi="semangat">Selamat berjuang membangun bisnis Tahu Bulat!!!</dialog>
+        <dialog ekspresi="tekad_bulad" analytics="OB5_COMPLETED">Bulatkan Tekadmu!&#10;Sebulat Tahu Bulat!!</dialog>
+    </skenario>
+</resources>

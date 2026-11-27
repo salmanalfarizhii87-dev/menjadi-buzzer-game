@@ -1,0 +1,242 @@
+/*
+ * Mini-game: kartu ronde, opsi caption, dan trek timing.
+ * Semua kontrol utama minimal 44 px agar bisa disentuh.
+ */
+
+.minigame-stage {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.minigame-prompt {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-snug);
+  color: var(--color-text);
+}
+
+.minigame-step {
+  font-family: var(--font-display);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-black);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.minigame-keyhint {
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-muted);
+}
+
+/* ---- Caption ---- */
+
+.caption-options {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.caption-option {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 52px;
+  padding: var(--space-2) var(--space-3);
+  text-align: left;
+  background: linear-gradient(180deg, #fffaf0, #f6e7cb);
+  border: var(--border-thin) solid var(--color-border-soft);
+  border-radius: var(--radius-sm);
+  box-shadow: 0 2px 0 rgb(106 69 34 / 22%);
+  transition:
+    transform var(--duration-fast) var(--ease-out),
+    border-color var(--duration-fast) var(--ease-out);
+}
+
+.caption-option:hover:not(:disabled) {
+  border-color: var(--color-brand-500);
+  transform: translateY(-1px);
+}
+
+.caption-option:active:not(:disabled) {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.caption-option:disabled {
+  opacity: 0.72;
+}
+
+.caption-option.is-picked {
+  opacity: 1;
+  background: linear-gradient(180deg, #eafaf5, #d3ece6);
+  border-color: var(--color-brand-600);
+  box-shadow: 0 2px 0 rgb(20 101 90 / 35%);
+}
+
+.caption-option__key {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  font-family: var(--font-numeric);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-black);
+  color: var(--color-text-inverse);
+  background: linear-gradient(180deg, #5e4226, #6b4c2c);
+  border: var(--border-hairline) solid rgb(0 0 0 / 35%);
+  border-radius: var(--radius-xs);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 30%);
+}
+
+.caption-option__text {
+  font-size: var(--text-sm);
+  line-height: var(--leading-snug);
+  color: var(--color-text);
+}
+
+.caption-feedback {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  background: linear-gradient(180deg, #fdf2d4, #f3dfb6);
+  border: var(--border-thin) solid var(--color-gold-600);
+  border-radius: var(--radius-sm);
+}
+
+.caption-feedback__score {
+  flex-shrink: 0;
+  font-family: var(--font-numeric);
+  font-size: var(--text-base);
+  font-weight: var(--weight-black);
+  color: var(--color-gold-700);
+}
+
+.caption-feedback__note {
+  font-size: var(--text-xs);
+  line-height: var(--leading-snug);
+  color: var(--color-text-soft);
+}
+
+/* ---- Engagement ---- */
+
+.timing-track {
+  position: relative;
+  height: 64px;
+  overflow: hidden;
+  background:
+    repeating-linear-gradient(
+      90deg,
+      rgb(255 248 233 / 10%) 0 2px,
+      transparent 2px 20px
+    ),
+    linear-gradient(180deg, #4a3218, #2c1c0d);
+  border: var(--border-thick) solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  box-shadow:
+    inset 0 3px 8px rgb(0 0 0 / 45%),
+    0 3px 0 rgb(106 69 34 / 25%);
+}
+
+.timing-zone {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgb(120 196 122 / 55%), rgb(31 138 122 / 55%));
+  border-inline: 2px solid #9df0d9;
+  box-shadow: inset 0 0 12px rgb(157 240 217 / 45%);
+}
+
+.timing-marker {
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  left: 0;
+  z-index: 1;
+  width: 8px;
+  margin-left: -4px;
+  background: linear-gradient(180deg, #ffe1a0, #f2bf5c 45%, #c9871f);
+  border: var(--border-thin) solid #3a2510;
+  border-radius: 3px;
+  box-shadow:
+    0 0 10px rgb(255 217 166 / 65%),
+    inset 0 1px 0 rgb(255 255 255 / 55%);
+  will-change: left;
+}
+
+.minigame-pips {
+  display: flex;
+  gap: var(--space-1);
+}
+
+.minigame-pip {
+  flex: 1;
+  height: 10px;
+  border-radius: 2px;
+  background: rgb(106 69 34 / 18%);
+  border: var(--border-hairline) solid rgb(106 69 34 / 32%);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 35%);
+}
+
+.minigame-pip.is-on {
+  background: linear-gradient(180deg, #f6c76d, var(--color-gold-600));
+  border-color: #6b4413;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 45%);
+}
+
+.minigame-stop {
+  min-height: 54px;
+}
+
+/* ---- Hasil ---- */
+
+.score-plate {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: var(--space-1);
+  padding: var(--space-4);
+  background:
+    radial-gradient(90% 100% at 50% 0%, #fdf2d4 0%, #f1dcb4 100%);
+  border: var(--border-thick) solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: inset 0 2px 0 rgb(255 255 255 / 60%), 0 3px 0 rgb(106 69 34 / 22%);
+}
+
+.score-plate__label {
+  align-self: center;
+  margin-right: var(--space-2);
+  font-family: var(--font-display);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-black);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.score-plate__value {
+  font-family: var(--font-numeric);
+  font-size: var(--text-3xl);
+  font-weight: var(--weight-black);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-brand-700);
+  text-shadow: 0 2px 0 rgb(255 255 255 / 70%);
+}
+
+.score-plate__unit {
+  font-family: var(--font-numeric);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .timing-marker {
+    will-change: auto;
+  }
+}

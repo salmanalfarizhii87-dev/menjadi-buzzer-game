@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kamu jago berenang, Kang?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hmm...&#10;Ya... masih bisa ngambang lah.. Kenapa gitu?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Ya.. siapa tahu mau jadi Manusia Ikan juga. Harus bisa berenanglah!</desc>
+        </dialog>
+	    <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Jadi manusia Ikan???!</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Iya, kayaknya udah cocok, Kang!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Jangan deh, Akang masih ingin hidup di darat aja..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="aha" isHold="true">
+            <desc>Oh bener juga!&#10;Kemarin ini kamu bilang kalau Manusia Ikan itu tadinya hidup di darat kan, ya?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>.................&#10;Dah lupakan saja.&#10;Ga penting itu..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Ehhh.. Jangan gitu, jadi makin penasaran nih!!</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>........................</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Ya udah, dikasih tahu...&#10;Tapi Akang Tahu harus jadi Manusia Ikan juga.</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eh?! Kenapa?!!</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Ya.. karena jawaban dari Misteri Atlantis ini cuma boleh diketahui oleh Manusia Ikan juga!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Aduhhh...&#10;Ya udah deh ga jadi kepo..&#10;Masih pengen hidup di darat..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Hmm bentar, jadi kamu Manusia Ikan juga Towa? Tako juga, dong?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Kalau Jasteen, Pinat, sama Tarra gimana?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Loh, kok kamu jadi balik nanya sih?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Ya... Tadi katanya ga jadi kepo, tapi malah lanjut nanya-nanya..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>.................</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Kalau mau tahu jawabannya, Akang Tahu harus jadi Cantatiotura juga!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Emang bisa??!</desc>
+        </dialog>
+        <aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>..................&#10;Ditinggal lagi pas lagi nanya dong..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Akangunyoooo!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Hai Tako....</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Lagi... sedih... Kang?&#10;Sedih kenapa, kang?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="aha" isHold="true">
+            <desc>Bener juga, aku tanya kamu aja ya...</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Eh? Mau nanya apa, Kang?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Jadi.. kamu, Towa, Pinat, Jasteen, Tarra... itu manusia ikan??</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>............&#10;Tanya sama Towa aja deh,&#10;Kang!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Ih! Kok kamu ga mau jawab&#10;juga sih Tako!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Mau dijawab...&#10;Atau mau Peti Rempah-rempah??</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="ketawa1" isHold="true">
+            <desc>Oh jelas Peti Rempah-rempah, dong!&#10;HAHAHAHAHA!!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Sudah kuduga..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Ya udah nih, Peti Rempah-rempahnya, Kang!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Oyeee!!&#10;Yuk pulang, terus kita buka petinya!!</desc>
+        </dialog>
+    </skenario>
+</resources>

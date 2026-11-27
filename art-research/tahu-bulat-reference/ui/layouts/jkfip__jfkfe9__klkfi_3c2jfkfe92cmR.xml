@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario skippable="true">
+        <aksi tipe="highlight" ui="sotong_bakSotong" hold="false"/>
+        <dialog karakter="0" ekspresi="belajar" alignY="0.5f" y="-120" animasi="0.5">Ini Sotong yang masih mentah..&#10;Sepertinya terlalu besar dan belum bisa digoreng.</dialog>
+
+        <aksi tipe="addHighlight" ui="sotong_bakSotong" hold="false"/>
+        <aksi tipe="addHighlight" ui="sotong_talenanSotong" hold="false"/>
+        <aksi tipe="addHighlight" ui="sotong_sotongMentah" hold="false"/>
+        <aksi tipe="addHighlight" ui="sotong_jariTutorial" hold="false"/>
+
+        <dialog ekspresi="semangat" hold="false" >Ayo, kita coba pindahkan dulu sotongnya ke talenan...</dialog>
+        <aksi tipe="aksi_sotong" hold="false" ui="dragKeTalenan"/>
+        <syarat tipe="syarat_sotong" ui="dragKeTalenan"/>
+
+        <aksi tipe="removeHighlight" ui="sotong_bakSotong" hold="false"/>
+        <dialog ekspresi="mantul" hold="false">Siiiip!!&#10;Ayo kita mulai potong sotongnya!</dialog>
+        <aksi tipe="aksi_sotong" hold="false" ui="jariTapTalenan"/>
+        <syarat tipe="syarat_sotong" ui="tapTalenan1"/>
+
+        <aksi tipe="addHighlight" ui="sotong_wadahSotong" hold="false"/>
+        <aksi tipe="addHighlight" ui="sotong_sotongAktif" hold="false"/>
+
+        <dialog ekspresi="aha">Wah, jadi kaya donat gini ya?&#10;Ini hasil potongan Sotong-mu..</dialog>
+        <dialog ekspresi="semangat" hold="false">Oke, masih ada sisa sotong-nya, ayo lanjut potong Sotongnya lagi!</dialog>
+        <syarat tipe="syarat_sotong" ui="tapTalenan2"/>
+
+<!--        <dialog ekspresi="semangat" hold="false" alignY="0.0f" y="100" animasi="0.3"/>-->
+
+        <!--pembeli akan masuk-->
+        <aksi tipe="clearHighlight" hold="false"/>
+        <aksi tipe="aksi_sotong" ui="pembeliMasuk" hold="false"/>
+
+        <dialog karakter="0" ekspresi="mantul" alignY="0.0f" y="100" animasi="0.5">Wokeh! Mantuul!&#10;Udah ada yang mau beli aja nih!!</dialog>
+        <aksi tipe="addHighlight" ui="sotong_pesananPembeli" hold="false"/>
+        <dialog ekspresi="belajar">Pesanannya adalah... &#10;Satu tusuk Sotong sebanyak 1 buah... Oke!</dialog>
+
+        <aksi tipe="addHighlight" ui="sotong_bakTusukSate" hold="false"/>
+        <aksi tipe="addHighlight" ui="sotong_talenanTusukan" hold="false"/>
+        <aksi tipe="addHighlight" ui="sotong_lidiTusuk" hold="false"/>
+
+        <aksi tipe="addHighlight" ui="sotong_jariTutorial" hold="false"/>
+        <dialog ekspresi="semangat" hold="false">Ayo kita mulai siapkan pesanannya!&#10;Pertama ambil tusuk sate...</dialog>
+
+        <aksi tipe="aksi_sotong" ui="dragTusukanSate" hold="false"/>
+        <syarat tipe="syarat_sotong" ui="dragTusukanSate"/>
+
+        <aksi tipe="addHighlight" ui="sotong_tusukanAktif" hold="false"/>
+        <aksi tipe="removeHighlight" ui="sotong_bakTusukSate" hold="false"/>
+        <aksi tipe="addHighlight" ui="sotong_wadahSotong" hold="false"/>
+        <aksi tipe="addHighlight" ui="sotong_sotongAktif" hold="false"/>
+
+        <dialog ekspresi="belajar" hold="false">Lalu kita tusuk Sotongnya...</dialog>
+
+        <aksi tipe="removeHighlight" ui="sotong_jariTutorial" hold="false"/>
+        <aksi tipe="addHighlight" ui="sotong_jariTutorial" hold="false"/>
+
+        <aksi tipe="aksi_sotong" hold="false" ui="dragKeTusukan"/>
+        <syarat tipe="syarat_sotong" ui="dragKeTusukan"/>
+
+        <!--hilangin semua sotong/tusukan-->
+<!--        <aksi tipe="clearHighlight" hold="false"/>-->
+        <aksi tipe="highlight" ui="sotong_setelahTusukan" hold="false"/>
+<!--        <aksi tipe="addHighlight" ui="sotong_panggangan" hold="false"/>-->
+<!--        <aksi tipe="addHighlight" ui="sotong_talenanTusukan" hold="false"/>-->
+<!--        <aksi tipe="addHighlight" ui="sotong_tusukanAktif" hold="false"/>-->
+<!--        <aksi tipe="addHighlight" ui="sotong_pesananPembeli" hold="false"/>-->
+<!--        <aksi tipe="addHighlight" ui="sotong_jariTutorial" hold="false"/>-->
+
+        <dialog ekspresi="tekad_bulad" hold="false">Terus tinggal dibakar deh!</dialog>
+
+        <aksi tipe="aksi_sotong" ui="dragKePanggangan" hold="false"/>
+        <syarat tipe="syarat_sotong" ui="dragKePanggangan"/>
+
+        <aksi tipe="removeHighlight" ui="sotong_talenanTusukan" hold="false"/>
+
+        <dialog ekspresi="belajar" hold="false">Nah.. tinggal ditunggu matang deh...&#10;Hmmm....</dialog>
+        <syarat tipe="syarat_sotong" ui="sotongMatang"/>
+        <dialog ekspresi="mantul">Wah, kalau udah berkilau keemasan gini, pasti sudah matang!</dialog>
+        <dialog ekspresi="ingatkan" hold="false">Ayo, segera kita sajikan!&#10;Jangan kelamaan, nanti gosong..</dialog>
+
+        <aksi tipe="aksi_sotong" ui="dragKePembeli" hold="false"/>
+        <syarat tipe="syarat_sotong" ui="dragKePembeli"/>
+
+        <!--setelah pembeli keluar-->
+        <aksi tipe="clearHighlight" hold="false"/>
+
+        <dialog ekspresi="matre">Mantap!&#10;Penjualan Sotong Perdana kita!!</dialog>
+        <dialog ekspresi="idle" karakter="0" alignY="0.5f" y="-120" animasi="0.5">Gimana? Seru kan jualan Sotong di Tahu Bulat?</dialog>
+
+        <pilihan ekspresi="belajar">
+            <dialog>Kamu mau ditemani membuat Sotong sama Akang lagi?</dialog>
+            <buttons>
+                <button tipe="btnDelegate" idAksi="ulangTutorialSotong" image="UI_baru/ui_btn_normal_merah.png" text="Ulangi Lagi"/>
+                <button tipe="next" image="UI_baru/ui_btn_normal_ijo.png" text="Tidak Usah"/>
+            </buttons>
+        </pilihan>
+
+        <dialog ekspresi="mantul">Wokeh, mantuull!!&#10;Kalau gitu, selamat jualan sotong, yak!</dialog>
+
+    </skenario>
+</resources>

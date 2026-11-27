@@ -1,0 +1,284 @@
+/*
+ * Saham: portofolio, daftar emiten, grafik, dan form transaksi.
+ */
+
+.stock-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.stock-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  width: 100%;
+  padding: var(--space-2) var(--space-3);
+  text-align: left;
+  background: linear-gradient(180deg, #fffaf0, #f6e7cb);
+  border: var(--border-thin) solid var(--color-border-soft);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-card-soft);
+  transition:
+    transform var(--duration-fast) var(--ease-out),
+    box-shadow var(--duration-fast) var(--ease-out);
+}
+
+.stock-row:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-card);
+}
+
+.stock-row:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.stock-row__ticker {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 52px;
+  height: 34px;
+  font-family: var(--font-numeric);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-black);
+  letter-spacing: 0.04em;
+  color: var(--color-text-inverse);
+  background: linear-gradient(180deg, #6b4320, #42270f);
+  border: var(--border-hairline) solid #1c1208;
+  border-radius: var(--radius-xs);
+  box-shadow: inset 0 1px 0 rgb(255 233 197 / 25%);
+}
+
+.stock-row__body {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1;
+}
+
+.stock-row__name {
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-black);
+  color: var(--color-text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.stock-row__sector {
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-muted);
+}
+
+.stock-row__price {
+  font-family: var(--font-numeric);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-black);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text);
+}
+
+.stock-change {
+  min-width: 54px;
+  padding: 1px var(--space-2);
+  font-family: var(--font-numeric);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-black);
+  text-align: center;
+  border: var(--border-hairline) solid rgb(0 0 0 / 26%);
+  border-radius: var(--radius-xs);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 30%);
+}
+
+.stock-change--up {
+  color: var(--color-text-inverse);
+  background: linear-gradient(180deg, var(--color-success-600), var(--color-success-600));
+}
+
+.stock-change--down {
+  color: var(--color-text-inverse);
+  background: linear-gradient(180deg, var(--color-danger-600), var(--color-danger-600));
+}
+
+.stock-change--flat {
+  color: var(--color-text-soft);
+  background: var(--color-panel-sunken);
+}
+
+/* ---- Portofolio ---- */
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-2);
+}
+
+.portfolio-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: var(--space-2);
+  background: var(--color-panel-sunken);
+  border: var(--border-hairline) solid var(--color-border-soft);
+  border-radius: var(--radius-sm);
+}
+
+.portfolio-tile__label {
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-muted);
+}
+
+.portfolio-tile__value {
+  font-family: var(--font-numeric);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-black);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text);
+}
+
+.portfolio-tile__value--up {
+  color: var(--color-success-600);
+}
+.portfolio-tile__value--down {
+  color: var(--color-danger-600);
+}
+
+/* ---- Detail emiten ---- */
+
+.stock-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.stock-head__name {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: var(--weight-black);
+  line-height: var(--leading-tight);
+  color: var(--color-text);
+}
+
+.stock-head__sector {
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-muted);
+}
+
+.stock-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+
+.stock-price__value {
+  font-family: var(--font-numeric);
+  font-size: var(--text-xl);
+  font-weight: var(--weight-black);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text);
+}
+
+.sparkline {
+  display: block;
+  width: 100%;
+  height: 72px;
+  color: var(--color-brand-600);
+}
+
+.stock-facts {
+  display: flex;
+  flex-direction: column;
+}
+
+.stock-fact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-2) 0;
+  border-bottom: var(--border-hairline) dashed rgb(106 69 34 / 28%);
+}
+
+.stock-fact:last-child {
+  border-bottom: none;
+}
+
+.stock-fact__label {
+  font-size: var(--text-xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-muted);
+}
+
+.stock-fact__value {
+  font-family: var(--font-numeric);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-black);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text);
+}
+
+.stock-fact__value--up {
+  color: var(--color-success-600);
+}
+.stock-fact__value--down {
+  color: var(--color-danger-600);
+}
+
+/* ---- Form transaksi ---- */
+
+.stock-trade {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.stock-trade__row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.stock-input {
+  flex: 1;
+  min-width: 0;
+  min-height: 44px;
+  padding: var(--space-2) var(--space-3);
+  font-family: var(--font-numeric);
+  font-size: var(--text-base);
+  font-weight: var(--weight-black);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text);
+  background: var(--color-panel-sunken);
+  border: var(--border-thin) solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-shadow: inset 0 2px 0 rgb(106 69 34 / 14%);
+}
+
+.stock-estimate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--text-xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-muted);
+}
+
+.stock-estimate__value {
+  font-family: var(--font-numeric);
+  font-weight: var(--weight-black);
+  color: var(--color-text);
+}
+
+.stock-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2);
+}

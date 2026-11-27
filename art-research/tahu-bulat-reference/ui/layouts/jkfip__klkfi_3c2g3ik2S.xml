@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario lama_muncul="5.0">
+        <dialog karakter="0" ekspresi="sapa" y="100" alignY="0.0f" analytics="OB1_DIALOG_1">Wilujeng Sumping!&#10;Selamat datang di Kota Bandung!</dialog>
+        <dialog ekspresi="idle" analytics="OB1_DIALOG_2">Katanya kamu di sini karena mau jadi pebisnis Tahu Bulat yang sukses?</dialog>
+        <dialog ekspresi="semangat" analytics="OB1_DIALOG_3">Yuk, atuh, kita mulai bisnisnya!&#10;Bunyikan speaker untuk&#10;mendatangkan pembeli!</dialog>
+
+        <dialog ekspresi="idle" hold="false" analytics="OB1_DIALOG_4">Tekan di mana saja pada layar, untuk membunyikan speaker dan mendatangkan pembeli.</dialog>
+        <syarat tipe="tapLayar" value="1" target="0"/>
+
+        <dialog ekspresi="mantul" analytics="OB1_DIALOG_5">Mantuuul!!!!&#10;Setiap kali kamu tekan layar, akan ada satu pembeli datang!</dialog>
+
+        <dialog ekspresi="semangat" hold="false" analytics="OB1_DIALOG_6">Ayo, datangkan pembeli sebanyak-&#10;banyaknya!!</dialog>
+        <syarat tipe="tapLayar" value="5"/>
+
+        <dialog ekspresi="sedap" hold="false" analytics="OB1_DIALOG_7">Nah, kitu!&#10;Pelanggan mulai berdatangan!&#10;Ayo, tekan terus layarnya!</dialog>
+        <syarat tipe="tapLayar" value="5"/>
+
+        <dialog ekspresi="matre" hold="false" analytics="OB1_DIALOG_8">Wihhh....&#10;Bisnis begini mah enak..&#10;Tekan terus, biar makin laris!!</dialog>
+        <syarat tipe="tapLayar" value="10"/>
+
+        <dialog ekspresi="mantul" hold="false" analytics="OB1_DIALOG_9">Mantulll!!!&#10;Oke, ayo tap lagi untuk&#10;mendatangkan 5 pembeli lagi!</dialog>
+        <syarat tipe="tapLayar" value="1"/>
+
+        <dialog ekspresi="matre" hold="false" analytics="OB1_DIALOG_10">Mantulll!!!&#10;Oke, ayo tap lagi untuk&#10;mendatangkan 4 pembeli lagi!</dialog>
+        <syarat tipe="tapLayar" value="1"/>
+
+        <dialog ekspresi="mantul" hold="false" analytics="OB1_DIALOG_11">Mantulll!!!&#10;Oke, ayo tap lagi untuk&#10;mendatangkan 3 pembeli lagi!</dialog>
+        <syarat tipe="tapLayar" value="1"/>
+
+        <dialog ekspresi="semangat" hold="false" analytics="OB1_DIALOG_12">Dua pembeli lagi!!</dialog>
+        <syarat tipe="tapLayar" value="1"/>
+
+        <dialog ekspresi="matre" hold="false" analytics="OB1_DIALOG_13">Sekali lagi!!</dialog>
+        <syarat tipe="tapLayar" value="1"/>
+
+        <dialog ekspresi="tekad_bulad" analytics="OB1_DIALOG_14">Mantulll!!!&#10;Wah, kamu benar-benar berbakat di Bisnis Tahu Bulat!!</dialog>
+        <dialog ekspresi="idle" analytics="OB1_DIALOG_15">Oke.. Sebenarnya kamu sudah cukup paham cara mendapatkan keuntungan di Tahu Bulat..</dialog>
+        <dialog ekspresi="idle" hold="false" analytics="OB2_START"/>
+        <pilihan y="450" animasi="0.3" ekspresi="sapa">
+            <dialog>Apakah kamu mau mendapatkan penjelasan lebih lanjut tentang game ini?</dialog>
+            <buttons>
+                <button tipe="storyXML" image="UI_baru/ui_btn_normal_merah.png" text="Tidak" analytics="OB2_TIDAK">story/tutorial_part_1_ending.xml</button>
+                <button tipe="storyXML" image="UI_baru/ui_btn_normal_ijo.png" text="Tentu saja!" analytics="OB2_YA">story/tutorial_part_2.xml</button>
+            </buttons>
+        </pilihan>
+    </skenario>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <character id="effect" x="278" y="-396" isEmpty="true" width = "481" height="251">-->
+    <character id="effect" x="139" y="-198" isEmpty="true" width = "241" height="125">
+<!--        <group id="highlight_air" x="50" y="10">-->
+        <group id="highlight_air" x="25" y="5">
+            <image_list>
+                <item>background/Bali_Bg2_highlight.png</item>
+            </image_list>
+        </group>
+    </character>
+
+    <animation>
+        <sequence>
+            <alpha id="highlight_air" time="0.3">0.8</alpha>
+            <alpha id="highlight_air" time="0.3">0.2</alpha>
+            <alpha id="highlight_air" time="0.3">0.6</alpha>
+            <alpha id="highlight_air" time="0.3">0.2</alpha>
+        </sequence>
+    </animation>
+
+</resources>

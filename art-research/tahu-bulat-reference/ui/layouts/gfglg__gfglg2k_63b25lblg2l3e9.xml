@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario>
+        <dialog karakter="0" ekspresi="idle" alignY="0.5f" y="-120" hold="false"/>
+        <pilihan alignY="0.5f" y="-120" animasi="0.3" ekspresi="kaget" formatType="resetvarkesatu">
+            <dialog>Waduh!&#10;Uang kamu kurang %1$s..</dialog>
+            <buttons>
+                <button tipe="close" image="UI_baru/ui_btn_default.png" text="Upsss..."/>
+            </buttons>
+        </pilihan>
+    </skenario>
+</resources>

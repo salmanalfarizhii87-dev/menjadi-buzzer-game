@@ -1,0 +1,423 @@
+<resources>
+    <container id="root" x="384" y="900" pivotX="0" pivotY="0">
+        <image_list id="tamedang_idle_1" x="0" y="0" pivotX="0.5" pivotY="1" isBaseContainer="true">
+            <item>ksatriatahu/pets/tamedang/tamedang_idle_1.png</item>
+        </image_list>
+        <image_list id="tamedang_idle_2" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/tamedang/tamedang_idle_2.png</item>
+        </image_list>
+        <image_list id="tamedang_idleflip_1" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/tamedang/tamedang_idleflip_1.png</item>
+        </image_list>
+        <image_list id="tamedang_idleflip_2" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/tamedang/tamedang_idleflip_2.png</item>
+        </image_list>
+        <image_list id="tamedang_walk_1" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/tamedang/tamedang_walk_1.png</item>
+        </image_list>
+        <image_list id="tamedang_walk_2" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/tamedang/tamedang_walk_2.png</item>
+        </image_list>
+        <image_list id="tamedang_walkflip_1" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/tamedang/tamedang_walkflip_1.png</item>
+        </image_list>
+        <image_list id="tamedang_walkflip_2" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/tamedang/tamedang_walkflip_2.png</item>
+        </image_list>
+        <image_listv2 id="tamedang_glow1" pivotX="0.5" pivotY="0.5" x="91" y="-139">
+            <images>
+                <item>ksatriatahu/pets/tamedang/tamedang_glow1.png</item>
+            </images>
+            <child_list>
+                <particle id="cling" xml="ksatriatahu/xml/partikel/efek_tamedang_cling.xml" x="0" y="0"/>
+            </child_list>
+        </image_listv2>
+        <image_list id="tamedang_glow2" x="91" y="-139" pivotX="0.5" pivotY="0.5">
+            <item>ksatriatahu/pets/tamedang/tamedang_glow2.png</item>
+        </image_list>
+        <image_list id="tamedang_glow3" x="91" y="-139" pivotX="0.5" pivotY="0.5">
+            <item>ksatriatahu/pets/tamedang/tamedang_glow3.png</item>
+        </image_list>
+        <image_list id="tamedang_glow4" x="91" y="-139" pivotX="0.5" pivotY="0.5">
+            <item>ksatriatahu/pets/tamedang/tamedang_glow4.png</item>
+        </image_list>
+
+        <image_list id="kujang" x="88" y="-152" pivotX="0.5" pivotY="0.5">
+            <item>ksatriatahu/pets/tamedang/kujang.png</item>
+        </image_list>
+        <uiReader pivotX="0.5" pivotY="1" alignX="tamedang_idle_1#0.5" alignY="tamedang_idle_1#0" id="emoji" xml="ksatriatahu/xml/emoji.xml"/>
+    </container>
+
+    <animation>
+        <stop>
+            <multiple>
+                <alpha id="tamedang_idle_1" time="0">1</alpha>
+                <alpha id="tamedang_idle_2" time="0">0</alpha>
+                <alpha id="tamedang_idleflip_1" time="0">0</alpha>
+                <alpha id="tamedang_idleflip_2" time="0">0</alpha>
+                <alpha id="kujang" time="0">0</alpha>
+                <alpha id="tamedang_walk_1" time="0">0</alpha>
+                <alpha id="tamedang_walk_2" time="0">0</alpha>
+                <alpha id="tamedang_walkflip_1" time="0">0</alpha>
+                <alpha id="tamedang_walkflip_2" time="0">0</alpha>
+                <alpha id="tamedang_glow1" time="0">0</alpha>
+                <alpha id="tamedang_glow2" time="0">0</alpha>
+                <alpha id="tamedang_glow3" time="0">0</alpha>
+                <alpha id="tamedang_glow4" time="0">0</alpha>
+                <scaleX id="kujang" pivotX="0.5" time="0">1</scaleX>
+                <moveX id="kujang" pivotX="0.5" time="0">0</moveX>
+                <moveY id="kujang" pivotY="1" time="0">0</moveY>
+            </multiple>
+        </stop>
+        <reset>
+            <rotate id="kujang" pivotX="0.5" pivotY="0.5" time="0">0</rotate>
+            <moveX id="kujang" time="0">15</moveX>
+            <moveY id="kujang" time="0">90</moveY>
+            <scaleX id="kujang" pivotX="0.5" time="0">1</scaleX>
+
+            <scaleX id="tamedang_idle_1" pivotX="0.5" time="0">1</scaleX>
+            <scaleY id="tamedang_idle_1" pivotY="0.5" time="0">1</scaleY>
+
+            <scaleX id="tamedang_idle_2" pivotX="0.5" time="0">1</scaleX>
+            <scaleY id="tamedang_idle_2" pivotY="1" time="0">1</scaleY>
+
+            <scaleX id="tamedang_idleflip_1" pivotX="0.5" time="0">1</scaleX>
+            <scaleY id="tamedang_idleflip_1" pivotY="0.5" time="0">1</scaleY>
+
+            <scaleX id="tamedang_idleflip_2" pivotX="0.5" time="0">1</scaleX>
+            <scaleY id="tamedang_idleflip_2" pivotY="1" time="0">1</scaleY>
+
+            <moveX id="tamedang_glow2" time="0">0</moveX>
+            <moveX id="tamedang_glow3" time="0">0</moveX>
+            <moveX id="tamedang_glow4" time="0">0</moveX>
+            <moveY id="tamedang_glow1" time="0">0</moveY>
+            <moveY id="tamedang_glow2" time="0">0</moveY>
+            <moveY id="tamedang_glow3" time="0">0</moveY>
+            <moveY id="tamedang_glow4" time="0">0</moveY>
+            <moveY id="tamedang_glow1" time="0">-50</moveY>
+            <moveY id="tamedang_glow2" time="0">-50</moveY>
+            <moveY id="tamedang_glow3" time="0">-50</moveY>
+            <moveY id="tamedang_glow4" time="0">-50</moveY>
+        </reset>
+        <idle repeat="-1">
+            <sequence>
+                <multiple>
+                    <stopParticle id="cling"/>
+                    <alpha id="tamedang_idle_1" time="0">1</alpha>
+                    <alpha id="tamedang_idle_2" time="0">0</alpha>
+                    <alpha id="tamedang_idleflip_1" time="0">0</alpha>
+                    <alpha id="tamedang_idleflip_2" time="0">0</alpha>
+                    <alpha id="kujang" time="0">0</alpha>
+                    <alpha id="tamedang_walk_1" time="0">0</alpha>
+                    <alpha id="tamedang_walk_2" time="0">0</alpha>
+                    <alpha id="tamedang_walkflip_1" time="0">0</alpha>
+                    <alpha id="tamedang_walkflip_2" time="0">0</alpha>
+                    <alpha id="tamedang_glow1" time="0">0</alpha>
+                    <alpha id="tamedang_glow2" time="0">0</alpha>
+                    <alpha id="tamedang_glow3" time="0">0</alpha>
+                    <alpha id="tamedang_glow4" time="0">0</alpha>
+                    <scaleX id="kujang" pivotX="0.5" time="0">1</scaleX>
+                    <moveX id="kujang" time="0">15</moveX>
+                    <moveY id="kujang" time="0">90</moveY>
+                </multiple>
+
+                <sequence repeat="3">
+                    <multiple>
+                        <scaleX id="tamedang_idle_1" pivotX="0.5" time="0.2">1.01</scaleX>
+                        <scaleY id="tamedang_idle_1" pivotY="1" time="0.2">0.96</scaleY>
+                    </multiple>
+                    <multiple>
+                        <scaleX id="tamedang_idle_1" pivotX="0.5" time="0.2">0.99</scaleX>
+                        <scaleY id="tamedang_idle_1" pivotY="1" time="0.2">1.03</scaleY>
+                    </multiple>
+                </sequence>
+                <multiple>
+                    <alpha id="tamedang_idle_1" time="0">0</alpha>
+                    <alpha id="tamedang_idle_2" time="0">1</alpha>
+                    <alpha id="kujang" time="0">1</alpha>
+                </multiple>
+                <multiple>
+                    <sequence>
+                        <multiple>
+                            <scaleX id="tamedang_idle_2" pivotX="0.5" time="0.1">1.05</scaleX>
+                            <scaleY id="tamedang_idle_2" pivotY="1" time="0.1">0.95</scaleY>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="tamedang_idle_2" pivotX="0.5" time="0.05">1.1</scaleX>
+                            <scaleY id="tamedang_idle_2" pivotY="1" time="0.05">1.1</scaleY>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="tamedang_idle_2" pivotX="0.5" time="0.1">1</scaleX>
+                            <scaleY id="tamedang_idle_2" pivotY="1" time="0.1">1</scaleY>
+                        </multiple>
+                    </sequence>
+                    <rotate id="kujang" pivotX="0.5" pivotY="0.5" time="0.49">-380</rotate>
+                    <sequence>
+                        <moveY id="kujang" time="0.3">-50</moveY>
+                        <moveY id="kujang" time="0.2">90</moveY>
+                        <alpha id="kujang" time="0">0</alpha>
+                        <multiple>
+                            <alpha id="tamedang_idle_2" time="0">0</alpha>
+                            <alpha id="tamedang_idle_1" time="0">1</alpha>
+                        </multiple>
+                    </sequence>
+                </multiple>
+
+
+                <sequence repeat="5">
+                    <multiple>
+                        <scaleX id="tamedang_idle_1" pivotX="0.5" time="0.3">1.01</scaleX>
+                        <scaleY id="tamedang_idle_1" pivotY="1" time="0.3">0.96</scaleY>
+                    </multiple>
+                    <multiple>
+                        <scaleX id="tamedang_idle_1" pivotX="0.5" time="0.3">0.99</scaleX>
+                        <scaleY id="tamedang_idle_1" pivotY="1" time="0.3">1.03</scaleY>
+                    </multiple>
+                </sequence>
+            </sequence>
+        </idle>
+        <jalan repeat="-1">
+            <stopParticle id="cling"/>
+            <alpha id="emoji" time="0">0</alpha>
+            <sequence>
+                <multiple>
+                    <alpha id="tamedang_idle_1" time="0">0</alpha>
+                    <alpha id="tamedang_idle_2" time="0">0</alpha>
+                    <alpha id="tamedang_idleflip_1" time="0">0</alpha>
+                    <alpha id="tamedang_idleflip_2" time="0">0</alpha>
+                    <alpha id="kujang" time="0">0</alpha>
+                    <alpha id="tamedang_idle_2" time="0">0</alpha>
+                    <alpha id="tamedang_walk_1" time="0">1</alpha>
+                    <alpha id="tamedang_walk_2" time="0">0</alpha>
+                    <alpha id="tamedang_walkflip_1" time="0">0</alpha>
+                    <alpha id="tamedang_walkflip_2" time="0">0</alpha>
+                    <alpha id="tamedang_glow1" time="0">0</alpha>
+                    <alpha id="tamedang_glow2" time="0">0</alpha>
+                    <alpha id="tamedang_glow3" time="0">0</alpha>
+                    <alpha id="tamedang_glow4" time="0">0</alpha>
+                </multiple>
+                <multiple>
+                    <alpha id="tamedang_walkflip_2" time="0">0</alpha>
+                    <alpha id="tamedang_walk_1" time="0">1</alpha>
+                    <alpha id="tamedang_walk_2" time="0">0</alpha>
+                </multiple>
+                <wait time="0.1"/>
+                <multiple>
+                    <alpha id="tamedang_walk_1" time="0">0</alpha>
+                    <alpha id="tamedang_walk_2" time="0">1</alpha>
+                </multiple>
+                <wait time="0.1"/>
+            </sequence>
+        </jalan>
+
+        <jalan_kiri repeat="-1">
+            <stopParticle id="cling"/>
+            <alpha id="emoji" time="0">0</alpha>
+            <sequence>
+                <multiple>
+                    <alpha id="tamedang_idle_1" time="0">0</alpha>
+                    <alpha id="tamedang_idle_2" time="0">0</alpha>
+                    <alpha id="tamedang_idleflip_1" time="0">0</alpha>
+                    <alpha id="tamedang_idleflip_2" time="0">0</alpha>
+                    <alpha id="kujang" time="0">0</alpha>
+                    <alpha id="tamedang_idle_2" time="0">0</alpha>
+                    <alpha id="tamedang_walk_1" time="0">0</alpha>
+                    <alpha id="tamedang_walk_2" time="0">0</alpha>
+                    <alpha id="tamedang_walkflip_1" time="0">1</alpha>
+                    <alpha id="tamedang_walkflip_2" time="0">0</alpha>
+                    <alpha id="tamedang_glow1" time="0">0</alpha>
+                    <alpha id="tamedang_glow2" time="0">0</alpha>
+                    <alpha id="tamedang_glow3" time="0">0</alpha>
+                    <alpha id="tamedang_glow4" time="0">0</alpha>
+                </multiple>
+                <multiple>
+                    <alpha id="tamedang_walk_2" time="0">0</alpha>
+                    <alpha id="tamedang_walkflip_1" time="0">1</alpha>
+                    <alpha id="tamedang_walkflip_2" time="0">0</alpha>
+                </multiple>
+                <wait time="0.1"/>
+                <multiple>
+                    <alpha id="tamedang_walkflip_1" time="0">0</alpha>
+                    <alpha id="tamedang_walkflip_2" time="0">1</alpha>
+                </multiple>
+                <wait time="0.1"/>
+            </sequence>
+        </jalan_kiri>
+        <makan>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="makan"></playAnim>
+        </makan>
+        <jurus>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="jurus"></playAnim>
+        </jurus>
+        <skill repeat="-1">
+            <sequence repeat="-1">
+                <multiple>
+                    <stopParticle id="cling"/>
+                    <alpha id="emoji" time="0">0</alpha>
+                    <alpha id="tamedang_idle_1" time="0">1</alpha>
+                    <alpha id="tamedang_idle_2" time="0">0</alpha>
+                    <alpha id="tamedang_idleflip_1" time="0">0</alpha>
+                    <alpha id="tamedang_idleflip_2" time="0">0</alpha>
+                    <alpha id="kujang" time="0">0</alpha>
+                    <alpha id="tamedang_walk_1" time="0">0</alpha>
+                    <alpha id="tamedang_walk_2" time="0">0</alpha>
+                    <alpha id="tamedang_walkflip_1" time="0">0</alpha>
+                    <alpha id="tamedang_walkflip_2" time="0">0</alpha>
+                    <alpha id="tamedang_glow1" time="0">0</alpha>
+                    <alpha id="tamedang_glow2" time="0">0</alpha>
+                    <alpha id="tamedang_glow3" time="0">0</alpha>
+                    <alpha id="tamedang_glow4" time="0">0</alpha>
+                    <moveX id="tamedang_glow1" time="0">0</moveX>
+                    <moveX id="tamedang_glow2" time="0">0</moveX>
+                    <moveX id="tamedang_glow3" time="0">0</moveX>
+                    <moveX id="tamedang_glow4" time="0">0</moveX>
+                    <moveY id="tamedang_glow1" time="0">-50</moveY>
+                    <moveY id="tamedang_glow2" time="0">-50</moveY>
+                    <moveY id="tamedang_glow3" time="0">-50</moveY>
+                    <moveY id="tamedang_glow4" time="0">-50</moveY>
+                    <scaleX id="kujang" pivotX="0.5" time="0">1</scaleX>
+                    <moveX id="kujang" pivotX="0.5" time="0">15</moveX>
+                    <moveY id="kujang" pivotY="1" time="0">90</moveY>
+                    <rotate id="kujang" pivotX="0.5" pivotY="0.5" time="0">0</rotate>
+                </multiple>
+
+                <sequence>
+                    <multiple>
+                        <scaleX id="tamedang_idle_1" pivotX="0.5" time="0.1">1.01</scaleX>
+                        <scaleY id="tamedang_idle_1" pivotY="1" time="0.1">0.96</scaleY>
+                    </multiple>
+                    <multiple>
+                        <scaleX id="tamedang_idle_1" pivotX="0.5" time="0.1">0.99</scaleX>
+                        <scaleY id="tamedang_idle_1" pivotY="1" time="0.1">1.03</scaleY>
+                    </multiple>
+                </sequence>
+
+                <multiple>
+                    <alpha id="tamedang_idle_1" time="0">0</alpha>
+                    <alpha id="tamedang_idle_2" time="0">1</alpha>
+                    <alpha id="kujang" time="0">1</alpha>
+                </multiple>
+
+                <multiple>
+                    <sequence>
+                        <multiple>
+                            <scaleX id="tamedang_idle_2" pivotX="0.5" time="0.1">1.05</scaleX>
+                            <scaleY id="tamedang_idle_2" pivotY="1" time="0.1">0.95</scaleY>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="tamedang_idle_2" pivotX="0.5" time="0.05">1.1</scaleX>
+                            <scaleY id="tamedang_idle_2" pivotY="1" time="0.05">1.1</scaleY>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="tamedang_idle_2" pivotX="0.5" time="0.1">1</scaleX>
+                            <scaleY id="tamedang_idle_2" pivotY="1" time="0.1">1</scaleY>
+                        </multiple>
+                    </sequence>
+                    <rotate id="kujang" pivotX="0.5" pivotY="0.5" time="0.49">-380</rotate>
+                    <sequence>
+                        <moveY id="kujang" time="0.3">-50</moveY>
+                        <moveY id="kujang" time="0.2">90</moveY>
+                        <alpha id="kujang" time="0">0</alpha>
+                        <multiple>
+                            <alpha id="tamedang_idle_2" time="0">0</alpha>
+                            <alpha id="tamedang_idle_1" time="0">1</alpha>
+                        </multiple>
+                    </sequence>
+                </multiple>
+
+<!--                kedua-->
+                <rotate id="kujang" pivotX="0.5" pivotY="0.5" time="0">0</rotate>
+
+                <sequence>
+                    <multiple>
+                        <scaleX id="tamedang_idle_1" pivotX="0.5" time="0.1">1.01</scaleX>
+                        <scaleY id="tamedang_idle_1" pivotY="1" time="0.1">0.96</scaleY>
+                    </multiple>
+                    <multiple>
+                        <scaleX id="tamedang_idle_1" pivotX="0.5" time="0.1">0.99</scaleX>
+                        <scaleY id="tamedang_idle_1" pivotY="1" time="0.1">1.03</scaleY>
+                    </multiple>
+                </sequence>
+
+                <multiple>
+                    <alpha id="tamedang_idle_1" time="0">0</alpha>
+                    <alpha id="tamedang_idle_2" time="0">1</alpha>
+                    <alpha id="kujang" time="0">1</alpha>
+                </multiple>
+
+                <multiple>
+                    <sequence repeat="2">
+                        <multiple>
+                            <scaleX id="tamedang_idle_2" pivotX="0.5" time="0.1">1.05</scaleX>
+                            <scaleY id="tamedang_idle_2" pivotY="1" time="0.1">0.95</scaleY>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="tamedang_idle_2" pivotX="0.5" time="0.05">1.1</scaleX>
+                            <scaleY id="tamedang_idle_2" pivotY="1" time="0.05">1.1</scaleY>
+                        </multiple>
+                        <multiple>
+                            <scaleX id="tamedang_idle_2" pivotX="0.5" time="0.1">1</scaleX>
+                            <scaleY id="tamedang_idle_2" pivotY="1" time="0.1">1</scaleY>
+                        </multiple>
+                    </sequence>
+                    <rotate id="kujang" pivotX="0.5" pivotY="0.5" time="1.5">-1140</rotate>
+
+                    <sequence>
+                        <wait time="0.23"/>
+                        <sequence>
+                            <multiple>
+                                <alpha id="tamedang_glow2" time="0">1</alpha>
+                                <playParticle id="cling"/>
+                            </multiple>
+                            <multiple>
+                                <alpha id="tamedang_glow2" time="0">0</alpha>
+                                <alpha id="tamedang_glow3" time="0">1</alpha>
+                            </multiple>
+                            <wait time="0.05"/>
+                            <multiple>
+                                <alpha id="tamedang_glow3" time="0">0</alpha>
+                                <alpha id="tamedang_glow1" time="0">1</alpha>
+                            </multiple>
+                            <wait time="0.05"/>
+                            <multiple>
+                                <alpha id="tamedang_glow1" time="0">0</alpha>
+                                <alpha id="tamedang_glow4" time="0">1</alpha>
+                            </multiple>
+                            <multiple>
+                                <alpha id="tamedang_glow4" time="0">0</alpha>
+                                <alpha id="tamedang_glow2" time="0">1</alpha>
+                            </multiple>
+                            <wait time="0.05"/>
+                            <multiple>
+                                <alpha id="tamedang_glow2" time="0">0</alpha>
+                                <stopParticle id="cling"/>
+                            </multiple>
+                        </sequence>
+                    </sequence>
+
+                    <sequence>
+                        <moveY id="kujang" time="0.2">-50</moveY>
+                        <moveY id="kujang" time="1">-50</moveY>
+                        <moveY id="kujang" time="0.2">90</moveY>
+                        <alpha id="kujang" time="0">0</alpha>
+                        <multiple>
+                            <alpha id="tamedang_idle_2" time="0">0</alpha>
+                            <alpha id="tamedang_idle_1" time="0">1</alpha>
+                        </multiple>
+                    </sequence>
+                </multiple>
+
+            </sequence>
+        </skill>
+        <hati>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="hati"></playAnim>
+        </hati>
+        <evolusi>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="evolusi"></playAnim>
+        </evolusi>
+    </animation>
+</resources>

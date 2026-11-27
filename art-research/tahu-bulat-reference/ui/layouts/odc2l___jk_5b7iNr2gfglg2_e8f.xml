@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <container id="stickers" height="200">
+<!--            <image_list id="sticker2" x="-20" y="0" pivotX="0.5" alignX="wLayar#0.5" scaleX="0.35" scaleY="0.35" pivotScaleX="0.5" pivotScaleY="0">-->
+<!--                <item>stikerWA/akangtahu/swa_akang01.webp</item>-->
+<!--            </image_list>-->
+
+<!--            <image_list id="sticker1" x="-150" y="0" pivotX="1" alignX="wLayar#0.5" scaleX="0.35" scaleY="0.35" pivotScaleX="1" pivotScaleY="0">-->
+<!--                <item>stikerWA/akangtahu/swa_akang01.webp</item>-->
+<!--            </image_list>-->
+
+<!--            <image_list id="sticker3" x="110" y="0" pivotX="0" alignX="wLayar#0.5" scaleX="0.35" scaleY="0.35" pivotScaleX="0" pivotScaleY="0">-->
+<!--                <item>stikerWA/akangtahu/swa_akang01.webp</item>-->
+<!--            </image_list>-->
+            <image_list id="sticker1" x="-10" y="20" pivotX="0.5" alignX="wLayar#0.5">
+                <item>icon/iap/icn_celengan3.png</item>
+            </image_list>
+            <image_list id="sticker2" x="-10" y="20" pivotX="0.5" alignX="wLayar#0.5" isVisible="false">
+                <item>icon/iap/icn_celengan3.png</item>
+            </image_list>
+            <image_list id="sticker3" x="-10" y="20" pivotX="0.5" alignX="wLayar#0.5" isVisible="false">
+                <item>icon/iap/icn_celengan3.png</item>
+            </image_list>
+            <image_list id="sticker4" x="-10" y="20" pivotX="0.5" alignX="wLayar#0.5" isVisible="false">
+                <item>icon/iap/icn_celengan3.png</item>
+            </image_list>
+        </container>
+
+        <text id="desc" x="-30" y="20" pivotX="0.5" alignX="wLayar#0.5" alignY="stickers#1" font="comicneueLight" fontSize="30" color="000000" wrapWidth="650" isCenter="true">lorem ipsum</text>
+
+        <container isVisible="false" id="divBarLevel" x="-120" y="20" alignX="wLayar#0.5" alignY="desc#1" width="150" height="100">
+            <image_list id="barKosongExp" x="75" y="30">
+                <item>UI_baru/bar_peridot.png</item>
+            </image_list>
+            <image_list id="barIsiExp" x="75" y="30" scaleX="1.0">
+                <item>UI_baru/bar_isi.png</item>
+            </image_list>
+            <image_list id="labelExp" x="0" y="0" scaleX="0.6" scaleY="0.6">
+                <item>UI_baru/label_level.png</item>
+            </image_list>
+            <text id="textLevel" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="labelExp#0.5" alignY="labelExp#0.5" font="cuckoo" fontSize="30" color="000000">1</text>
+            <text id="textBarExp" x="0" y="5" pivotX="0.5" alignX="barKosongExp#0.5" alignY="barKosongExp#0" font="cuckoo" fontSize="30" color="ffffff">50%</text>
+        </container>
+    </container>
+
+    <animation>
+    </animation>
+</resources>

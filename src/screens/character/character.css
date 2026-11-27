@@ -1,0 +1,316 @@
+/*
+ * Layar Karakter.
+ * Hero dibentuk seperti panggung kecil: bingkai tebal, lantai, dan plakat saldo.
+ */
+
+.character-hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4) var(--space-4);
+  background:
+    radial-gradient(120% 70% at 50% 0%, #fdf6e6 0%, var(--color-panel) 46%, #f6e6c9 100%);
+  border: var(--border-thick) solid var(--color-border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+/* Garis dalam bingkai. */
+.character-hero::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: var(--border-hairline) solid rgb(200 168 120 / 75%);
+  border-radius: calc(var(--radius-xl) - 5px);
+  pointer-events: none;
+}
+
+.character-hero__scene {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  min-height: 176px;
+  margin: calc(-1 * var(--space-3)) calc(-1 * var(--space-4)) 0;
+  padding: var(--space-2) 0 var(--space-3);
+  background:
+    linear-gradient(180deg, #cfe9e2 0%, #e8f3ee 42%, #f6e6c9 100%);
+  border-bottom: var(--border-thin) solid rgb(106 69 34 / 28%);
+  overflow: hidden;
+}
+
+/* Lantai panggung: memberi pijakan, bukan latar datar. */
+.character-hero__scene::before {
+  content: '';
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  bottom: 6px;
+  height: 22%;
+  background: radial-gradient(60% 100% at 50% 100%, rgb(106 69 34 / 20%), transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.character-hero__location {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: 2px var(--space-3);
+  font-family: var(--font-display);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-black);
+  letter-spacing: 0.02em;
+  color: var(--color-brand-700);
+  background: linear-gradient(180deg, #eaf7f2, var(--color-brand-100));
+  border: var(--border-thin) solid var(--color-brand-300);
+  border-radius: var(--radius-sm);
+  box-shadow: 0 2px 0 rgb(20 101 90 / 25%);
+}
+
+.character-hero__location svg {
+  width: 13px;
+  height: 13px;
+  stroke-width: 2.6;
+}
+
+.character-hero__outfit {
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.character-hero__balance-label {
+  margin-top: var(--space-1);
+  font-family: var(--font-display);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.character-hero__balance::before {
+  content: '';
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: var(--space-2);
+  vertical-align: -2px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 34% 30%, #ffe1a0 0%, #f2bf5c 42%, #c9871f 100%);
+  border: var(--border-thin) solid #6b4413;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 55%);
+}
+
+.character-hero__balance {
+  font-family: var(--font-numeric);
+  font-size: var(--text-3xl);
+  font-weight: var(--weight-black);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+  line-height: 1.02;
+  color: var(--color-text);
+  text-shadow: 0 2px 0 rgb(255 255 255 / 70%);
+}
+
+.character-hero__balance--debt {
+  color: var(--color-danger-600);
+}
+
+.character-hero__debt-note {
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-danger-600);
+  text-align: center;
+}
+
+/* Chip rate: plakat kecil, bukan teks mengambang. */
+.character-hero__rate {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 3px var(--space-3);
+  font-family: var(--font-numeric);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-black);
+  color: var(--color-brand-700);
+  background: linear-gradient(180deg, #f2fbf7, var(--color-brand-100));
+  border: var(--border-thin) solid var(--color-brand-300);
+  border-radius: var(--radius-sm);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 70%);
+}
+
+.character-hero__rate svg {
+  width: 16px;
+  height: 16px;
+  stroke-width: 2.6;
+}
+
+.character-hero__rate.is-ticking {
+  animation: bump var(--duration-slow) var(--ease-out);
+}
+
+.character-hero__float {
+  position: absolute;
+  top: 46%;
+  right: var(--space-4);
+  z-index: var(--z-sticky);
+  font-family: var(--font-numeric);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-black);
+  color: var(--color-success-600);
+  text-shadow: 0 1px 0 rgb(255 255 255 / 90%);
+  pointer-events: none;
+  animation: float-up 900ms var(--ease-out) forwards;
+}
+
+@keyframes float-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px) scale(0.9);
+  }
+  25% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-22px) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .character-hero__float {
+    animation: none;
+    opacity: 0;
+  }
+}
+
+/* ---- Shortcut: 4 tombol bertile ---- */
+
+.character-shortcuts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-2);
+}
+
+.character-shortcut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-2) var(--space-1) var(--space-3);
+  text-align: center;
+  background: linear-gradient(180deg, var(--color-panel-raised), #f3e2c3);
+  border: var(--border-thin) solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card-soft);
+  transition:
+    transform var(--duration-fast) var(--ease-out),
+    box-shadow var(--duration-fast) var(--ease-out);
+}
+
+.character-shortcut:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}
+
+.character-shortcut__icon {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 30px;
+  color: var(--color-text-inverse);
+  background: linear-gradient(180deg, var(--color-brand-300), var(--color-brand-600));
+  border: var(--border-thin) solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 40%);
+}
+
+.character-shortcut__icon svg {
+  width: 17px;
+  height: 17px;
+  stroke-width: 2.6;
+}
+
+.character-shortcut__label {
+  font-family: var(--font-display);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-text);
+  line-height: 1.15;
+}
+
+/* ---- Koleksi negara ---- */
+
+.character-collection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+}
+
+.character-collection__chip {
+  padding: 2px var(--space-2);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-soft);
+  background: var(--color-panel-sunken);
+  border: var(--border-hairline) solid var(--color-border-soft);
+  border-radius: var(--radius-xs);
+}
+
+/* ---- Ringkasan akun ---- */
+
+.active-campaign__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.active-campaign__name {
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  color: var(--color-text);
+}
+
+.active-campaign__client {
+  font-size: var(--text-2xs);
+  color: var(--color-text-muted);
+}
+
+.account-summary__identity {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.account-summary__avatar {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(180deg, var(--color-brand-100), #cfe9e2);
+  border: var(--border-thin) solid var(--color-border);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 60%);
+  overflow: hidden;
+}
+
+.account-summary__name {
+  font-family: var(--font-display);
+  font-size: var(--text-base);
+  font-weight: var(--weight-black);
+  color: var(--color-text);
+}
+
+.account-summary__platform {
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-muted);
+}

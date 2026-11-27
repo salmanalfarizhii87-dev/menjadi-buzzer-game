@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="5" tipe="kiri" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Fyuh..&#10;Syukurlah masih sempat...</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Terima kasih banyak, Pinat!!&#10;Nanti Tako mintain Tahu Bulat gratis dari Akang!</desc>
+        </dialog>
+	<dialog karakter="5" tipe="kiri" ekspresi="bayar" isHold="true">
+            <desc>Yeeyy!!&#10;Sama-sama Tako, aku pamit dulu yak!</desc>
+        </dialog>
+	<dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Dah Pinaaatttt!!</desc>
+        </dialog>
+	<aksi tipe="hide" ui="contDialogKiri" hold="false"/>
+	<dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Kang, kang, kaaangg!!&#10;Bangun, Kang!!</desc>
+        </dialog>
+	<dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="false">
+            <desc>*Siram Akang Tahu pakai Air Laut*</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>A-A-AASSSINN!!!</desc>
+        </dialog>
+	<dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Nyoo...&#10;Akhirnya kamu bangun juga, Kang...</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Eh? Tako?!&#10;Dimana kita? Perasaan tadi kita lagi ke pinggir kali..</desc>
+        </dialog>
+	<dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Iya.. terus kalinya meluap, terus kita hanyut..</desc>
+        </dialog>
+	<dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="false">
+            <desc>Untung kita ketemu Pinat!&#10;Jadi mobilnya dirubah sama Pinat! Makanya kita ga tenggelam..</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Waduh!!&#10;Ini rodanya pada kemana?!!</desc>
+        </dialog>
+	<dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Ada yang lebih penting dari roda, Kang..</desc>
+        </dialog>
+	<dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="false">
+            <desc>Coba lihat ini di sekeliling kita ada apa...</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>EEHhh?!!&#10;M-M-Manusia ikan?!!</desc>
+        </dialog>
+	<dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>S-sepertinya mereka mau pesen Tahu Bulat, kang!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Wogh.. bisnis dong?!</desc>
+        </dialog>
+	<dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>............&#10;Ya coba aja tawarin, siapa tahu mereka mau bayar..</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="ketawa2" isHold="true">
+            <desc>Pastinya harus dong!!&#10;Masa beli tahu ga bayar?&#10;Wkwkwkwk..</desc>
+        </dialog>
+    </skenario>
+</resources>

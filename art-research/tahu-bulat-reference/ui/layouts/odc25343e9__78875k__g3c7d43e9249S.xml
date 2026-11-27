@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <character id="effect" x="250" y="-339" isEmpty="true" width = "158" height="203" >-->
+    <character id="effect" x="125" y="-164" isEmpty="true" width = "79" height="101" >
+        <group id="highlight_air" x="0" y="0">
+            <image_list>
+                <item>background/Palembang_BG1_highlightair.png</item>
+            </image_list>
+        </group>
+    </character>
+
+    <animation>
+        <sequence>
+            <alpha id="highlight_air" time="0.3">0.9</alpha>
+            <alpha id="highlight_air" time="0.3">0.2</alpha>
+            <alpha id="highlight_air" time="0.3">1.0</alpha>
+            <alpha id="highlight_air" time="0.3">0.4</alpha>
+            <alpha id="highlight_air" time="0.3">0.3</alpha>
+            <alpha id="highlight_air" time="0.3">0.6</alpha>
+        </sequence>
+    </animation>
+
+</resources>

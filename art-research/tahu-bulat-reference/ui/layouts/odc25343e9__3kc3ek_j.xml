@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <leaderboard_id id="atm">CgkIu6ntpLwSEAIQBw</leaderboard_id>
+    <leaderboard_id id="tpm">CgkIu6ntpLwSEAIQBg</leaderboard_id>
+
+    <news>
+        <uang>
+            <item unlock="0">Telah terjadi fenomena penjualan Tahu Bulat dengan menggunakan pick-up.</item>
+            <item unlock="1000">Pedagang Tahu Bulat dikabarkan mulai meraih untung meskipun belum signifikan.</item>
+            <item unlock="100000">Tahu Bulat mulai menjamur. Maksudnya pedagangnya, bukan tahunya.</item>
+            <item unlock="1000000">Lagu Tahu Bulat berhasil menduduki peringkat satu tangga lagu Indonesia.</item>
+            <item unlock="10000000">Berdasarkan statistik, penjualan Tahu Bulat mulai mencukupi untuk menghidupi anak dan istri.</item>
+            <item unlock="100000000">Lagu Tahu Bulat dikabarkan akan dinyanyikan ulang oleh idol grup waralaba asal negeri sakura.</item>
+            <item unlock="500000000">Fakta terungkap: Jari adalah bagian tubuh yang paling kelelahan ketika menjual Tahu Bulat.</item>
+            <item unlock="1000000000">Seorang profesor termodinamika berhasil mengungkap fakta mengapa Tahu Bulat berbentuk bulat.</item>
+            <item unlock="5000000000">Demam Tahu menjadi istilah populer di kalangan masyarakat saat ini.</item>
+            <item unlock="10000000000">Pedagang Tahu Bulat konsisten untuk menjual Tahu berbentuk Bulat. Bukan kotak, segitiga, ataupun X.</item>
+            <item unlock="50000000000">Beberapa orang dikabarkan kecewa ketika mendapati Tahu Bulat yang berbentuk agak lonjong.</item>
+            <item unlock="100000000000">Ajaib! Pembeli ini berhasil membeli Tahu Bulat yang berbentuk bulat sempurna!</item>
+            <item unlock="500000000000">Kompetisi untuk membuat Tahu Bulat yang paling Bulat semakin digemari oleh pedagang Tahu Bulat.</item>
+            <item unlock="1000000000000">Tahu Bulat mulai diusulkan untuk menjadi makanan pokok pengganti nasi.</item>
+            <item unlock="5000000000000">Persaingan bisnis Tahu Bulat semakin sengit, diusulkan dibentuknya asosiasi pedagang tahu bulat.</item>
+            <item unlock="10000000000000">Terlalu digemari, pedagang Tahu Bulat mulai kerepotan mencari supplier bahan baku.</item>
+            <item unlock="50000000000000">Perjalanan usaha pedagang Tahu Bulat dinobatkan menjadi kisah bisnis UKM terinspiratif.</item>
+            <item unlock="100000000000000">Pedagang Tahu Bulat dikabarkan akan memiliki program acara motivasi bernama "Tahu Bulat Ways" di salah satu televisi swasta.</item>
+        </uang>
+        <mobil>
+            <item unlock="0">Harga pasaran mobil second tipe pick-up berwarna putih dikabarkan meningkat.</item>
+            <item unlock="1">Para pemburu mobil bekas mulai melirik tipe gren maks untuk diberdayakan menjadi penjual Tahu Bulat.</item>
+            <item unlock="2">Seorang pedagang Tahu Bulat sukses dikabarkan mulai menggunakan mobil pick-up jenis hiluks untuk menjajakan dagangannya.</item>
+            <item unlock="3">Kreatif! Sekarang pedagang Tahu Bulat mulai memodifikasi mobil mewah "Alfred" untuk menjual dagangannya.</item>
+        </mobil>
+        <tenda>
+            <item unlock="0">Beberapa pembeli Tahu Bulat merasa canggung melihat tenda biru di mobil Tahu Bulat.</item>
+            <item unlock="1">Ibu-ibu merasa anak-anaknya sulit membedakan odong-odong dengan pedagang Tahu Bulat yang memasang tenda festival.</item>
+            <item unlock="2">Kritikus restoran ternama menilai tenda kastil sangat cocok untuk meningkatkan citarasa Tahu Bulat.</item>
+            <item unlock="3">Tenda Kastil Emas menjadi ciri khas utama pedagang Tahu Bulat yang sudah mulai sukses.</item>
+        </tenda>
+        <pelang>
+            <item unlock="0">Dirasa kurang menarik perhatian, mobil Tahu Bulat mulai dilengkapi dengan pelang "Tahu Bulat".</item>
+            <item unlock="1">Pedagang Tahu Bulat mulai meningkatkan estetika bentuk pelang promosi Tahu Bulat mereka.</item>
+            <item unlock="2">Pedagang Lampu LED mengalami peningkatan penjualan yang cukup signifikan.</item>
+        </pelang>
+        <kipas>
+            <item unlock="0">Inovasi abad ini! Pedagang Tahu Bulat berusaha memanjakan pembeli dengan memasang kipas angin di mobilnya.</item>
+            <item unlock="1">Beberapa pedagang Tahu Bulat diketahui mulai memasang 2 buah kipas angin di mobilnya untuk menarik perhatian.</item>
+            <item unlock="2">Servis adalah hal yang paling penting, menurut pedagang Tahu Bulat yang sudah memasang AC di mobilnya.</item>
+        </kipas>
+        <tv>
+            <item unlock="0">Panjangnya antrian untuk membeli Tahu Bulat, membuat pedagang Tahu Bulat memasang TV di mobilnya untuk dinikmati pelanggan saat menunggu pesanan.</item>
+            <item unlock="1">Trend terbaru: anak-anak menonton film kartun gratis melalui TV LED Berwarna di mobil Tahu Bulat.</item>
+            <item unlock="2">Pedagang Tahu Bulat direncanakan akan mengadakan nobar keliling piala dunia menggunakan TV Keurf di mobilnya.</item>
+        </tv>
+        <speaker>
+            <item unlock="0">Warga menilai suara dari speaker mobil Tahu Bulat agak rebek.</item>
+            <item unlock="1">Para warga mempertanyakan manfaat speaker emas untuk berjualan Tahu Bulat.</item>
+            <item unlock="2">Speaker berukuran jumbo dinilai efektif untuk menarik pembeli Tahu Bulat.</item>
+            <item unlock="3">Speaker jumbo berwarna emas menjadi daya tarik tersendiri bagi pembeli Tahu Bulat.</item>
+        </speaker>
+        <panci>
+            <item unlock="0">Ada perbincangan seru antara sesama pedagang Tahu Bulat tentang perbedaan panci dan katel.</item>
+            <item unlock="1">Panci Melamin dinilai memudahkan proses pencucian sehingga pedagang Tahu Bulat bisa beristirahat lebih banyak.</item>
+            <item unlock="2">Pedagang Tahu Bulat menggunakan Panci Emas untuk menarik lebih banyak pembeli.</item>
+        </panci>
+        <resep>
+            <item unlock="4">Koki Terkenal: Tahu Bulat mengalami peningkatan rasa yang signifikan.</item>
+            <item unlock="5">Masih makan pisang keju? Sekarang ada Tahu Bulat rasa Keju!</item>
+            <item unlock="6">Beberapa pembeli Tahu Bulat rasa BBQ merasa kecewa ketika Tahu Bulatnya kempes setelah ditusuk lidi.</item>
+            <item unlock="7">Pembeli merasa kenaikan harga Tahu Bulat cukup wajar, dikarenakan harga cengek yang juga tinggi.</item>
+            <item unlock="8">Dinilai monoton, kini penjual Tahu Bulat menyediakan Sambal Ijo sebagai pengganti cengek.</item>
+            <item unlock="9">Bumbu baru bagi penikmat Tahu Bulat: Sambal Oncom! Ceriakan harimu dengan Sambal Oncom!</item>
+            <item unlock="10">Tahu Bulat celup Kuah Kari! Nikmat! Lezat! Menakjubkan!</item>
+            <item unlock="11">Tukang Tahu Bulat menemukan inovasi yang sangat menakjubkan: Tahu Bulat isi Petai!</item>
+        </resep>
+        <promo>
+            <item unlock="0">Anak-anak dikabarkan semakin gemar menyanyikan Lagu Tahu Bulat untuk kelas Seni Musik.</item>
+            <item unlock="1">Tahu Bulat menjadi jajanan paling populer bagi anak-anak yang habis bermain bola.</item>
+            <item unlock="2">Anak SMA: "Gak gaul kalau belum nyoba Tahu Bulat!"</item>
+            <item unlock="3">Tahu Bulat menjadi cemilan wajib di kalangan Tante-tante doyan arisan.</item>
+            <item unlock="4">Terinspirasi dengan kisah sukses Tahu Bulat, para pebisnis mulai mengganti Kopi di pagi hari dengan Tahu Bulat.</item>
+            <item unlock="5">Membutuhkan tenaga ekstra untuk mengalahkan boredom, Accel, superhero dari webcomic Innaria mampir membeli Tahu Bulat.</item>
+            <item unlock="6">Terbukti makanan segala usia, pasangan Aki dan Nini turut meramaikan toko Tahu Bulat.</item>
+            <item unlock="7">Iklan TV sangat efektif! Bahkan artis sinetron-pun mulai jajan Tahu Bulat. Meskipun masih diem-diem sih..</item>
+            <item unlock="8">Cahaya lampu darurat digunakan oleh para pedagang Tahu Bulat untuk memanggil Superhero. Untuk apa? Membantu melariskan dagangan tentunya..</item>
+            <item unlock="9">Presiden dikabarkan akan mengunjungi pedagang Tahu Bulat yang baru-baru ini membantu mempromosikan pariwisata di Indonesia.</item>
+        </promo>
+    </news>
+
+    <!--RETOUCH-->
+    <background warnaLangit="44e0f8" warnaLangitPagi="44e0f8">
+        <item id="siluetmalam">background/Atlantis_siluet.png</item>
+        <item id="siluetsiang" beranimasi="gameobject.xml">background/Atlantis_siluet.png</item>
+        <item id="bg1">background/Atlantis_BG1.png</item>
+        <item id="bg2">background/Atlantis_BG2.png</item>
+        <item id="jalan">background/Atlantis_jalan.png</item>
+        <item id="langitsiang" dyBg="-250">background/Atlantis_langit.png</item>
+        <item id="langitmalam" dyBg="-250">background/Atlantis_langit.png</item>
+    </background>
+
+    <!--CHRISTMAS-->
+<!--    <background warnaLangit="616681" warnaLangitPagi="5ec4f6">-->
+<!--        <item id="siluetmalam">christmas/background/bg_bdg_siluetmalam_salju.png</item>-->
+<!--        <item id="siluetsiang" beranimasi="gameobject.xml">christmas/background/bg_bdg_siluetsiang_salju.png</item>-->
+<!--        <item id="bg1">christmas/background/bg_bdg_1_salju.png</item>-->
+<!--        <item id="bg2">christmas/background/bg_bdg_2_salju.png</item>-->
+<!--        <item id="jalan">christmas/background/bg_jalan_salju.png</item>-->
+<!--        <item id="langitsiang">background/langit_pagi_gradient.png</item>-->
+<!--        <item id="langitmalam">background/langit_malam_gradient.png</item>-->
+<!--    </background>-->
+
+    <!--17AGUSTUS-->
+    <!--<background warnaLangit= "ungu">-->
+        <!--<item id="siluetmalam">background/bg_bdg_siluetmalam.png</item>-->
+        <!--<item id="siluetsiang" beranimasi="gameobject.xml">background/bg_bdg_siluetsiang.png</item>-->
+        <!--<item id="bg1">17Agustus/bandung_17Agustus_BG1.png</item>-->
+        <!--<item id="bg2">17Agustus/bandung_17Agustus_BG2.png</item>-->
+        <!--<item id="jalan">background/bg_bdg_jalan.png</item>-->
+    <!--</background>-->
+
+    <!--<kurs>-->
+        <!--&lt;!&ndash;<item id="Jakarta">1.0</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item id="Medan">1.0</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item id="Bali">1.0</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item id="Palembang">1.0</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item id="Surabaya">1.0</item>&ndash;&gt;-->
+        <!--<item id="Korea">1.0,1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9,1.10,1.11,1.12,1.13</item>-->
+        <!--<item id="Belanda">2.0,2.1,2.2,2.3,2.4,2.5,2.6,2.7,2.8,2.9,2.10,2.11,2.12,2.13</item>-->
+        <!--<item id="Jepang">3.0,3.1,3.2,3.3,3.4,3.5,3.6,3.7,3.8,3.9,3.10,3.11,3.12,3.13</item>-->
+        <!--<item id="Dubai">4.0,4.1,4.2,4.3,4.4,4.5,4.6,4.7,4.8,4.9,4.10,4.11,4.12,4.13</item>-->
+        <!--<item id="Purba">5.0,5.1,5.2,5.3,5.4,5.5,5.6,5.7,5.8,5.9,5.10,5.11,5.12,5.13</item>-->
+        <!--<item id="Majapahit">6.0,6.1,6.2,6.3,6.4,6.5,6.6,6.7,6.8,6.9,6.10,6.11,6.12,6.13</item>-->
+        <!--<item id="Tahu Con">7.0,7.1,7.2,7.3,7.4,7.5,7.6,7.7,7.8,7.9,7.10,7.11,7.12,7.13</item>-->
+    <!--</kurs>-->
+
+    <mobilPenjual>
+        <item id="1" geserPivotX="0" geserPivotY="0">mobil/mobil_bdglv1.png</item>
+        <item id="2" geserPivotX="0" geserPivotY="0">mobil/mobil_bdglv2.png</item>
+        <item id="3" geserPivotX="0" geserPivotY="0">mobil/mobil_bdglv3.png</item>
+        <item id="4" geserPivotX="0" geserPivotY="0">mobil/mobil_bdglv4.png</item>
+    </mobilPenjual>
+
+    <!--YANG BAWAH INI HARUS PINDAH XML BARU-->
+<!--    <listPenjual>-->
+<!--        <penjual id="Ch_AkangTahu" geserPivotX="0" geserPivotY="0">-->
+<!--            <item>pedagang/Ch_AkangTahu_idle.png</item>-->
+<!--            <item>pedagang/Ch_AkangTahu_mulai.png</item>-->
+<!--            <item>pedagang/Ch_AkangTahu_masak1.png</item>-->
+<!--            <item>pedagang/Ch_AkangTahu_masak2.png</item>-->
+<!--            <item>pedagang/Ch_AkangTahu_jadi.png</item>-->
+<!--        </penjual>-->
+<!--    </listPenjual>-->
+    <!--SAMPE SINI-->
+
+    <listPembeli>
+        <pembeli id="bocah1" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="15" y="-57">pembeli_baru/atlantis/kriboMerahAtlantis_datang1.png</item>
+                <item x="20" y="-65">pembeli_baru/atlantis/kriboMerahAtlantis_datang2.png</item>
+                <item x="0" y="-49">pembeli_baru/atlantis/kriboMerahAtlantis_bayar.png</item>
+                <item x="10" y="-58">pembeli_baru/atlantis/kriboMerahAtlantis_pergi1.png</item>
+                <item x="6" y="-59">pembeli_baru/atlantis/kriboMerahAtlantis_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="bocah2" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="16" y="-59">pembeli_baru/atlantis/kriboKuningAtlantis_datang1.png</item>
+                <item x="8" y="-60">pembeli_baru/atlantis/kriboKuningAtlantis_datang2.png</item>
+                <item x="0" y="-57">pembeli_baru/atlantis/kriboKuningAtlantis_bayar.png</item>
+                <item x="5" y="-57">pembeli_baru/atlantis/kriboKuningAtlantis_pergi1.png</item>
+                <item x="-10" y="-52">pembeli_baru/atlantis/kriboKuningAtlantis_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="bocah3" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="15" y="-61">pembeli_baru/atlantis/kriboHitamAtlantis_datang1.png</item>
+                <item x="-4" y="-61">pembeli_baru/atlantis/kriboHitamAtlantis_datang2.png</item>
+                <item x="0" y="-56">pembeli_baru/atlantis/kriboHitamAtlantis_bayar.png</item>
+                <item x="0" y="-58">pembeli_baru/atlantis/kriboHitamAtlantis_pergi1.png</item>
+                <item x="-10" y="-51">pembeli_baru/atlantis/kriboHitamAtlantis_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="tarra" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="8.5" y="-1.5">pembeli_baru/atlantis/tarra_datang1.png</item>
+                <item x="-5.75" y="-0.25">pembeli_baru/atlantis/tarra_datang2.png</item>
+                <item x="0" y="0">pembeli_baru/atlantis/tarra_bayar.png</item>
+                <item x="-21.75" y="-0.25">pembeli_baru/atlantis/tarra_pergi1.png</item>
+                <item x="-7.5" y="-0.25">pembeli_baru/atlantis/tarra_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="pinat" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="9.25" y="-0.5">pembeli_baru/atlantis/pinat_datang1.png</item>
+                <item x="-17.25" y="-0.75">pembeli_baru/atlantis/pinat_datang2.png</item>
+                <item x="0" y="0">pembeli_baru/atlantis/pinat_bayar.png</item>
+                <item x="-32.25" y="-0.75">pembeli_baru/atlantis/pinat_pergi1.png</item>
+                <item x="-11.75" y="-0.75">pembeli_baru/atlantis/pinat_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="anakceweAtlantis" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="16" y="-46">pembeli_baru/atlantis/anakCeweAtlantis_datang1.png</item>
+                <item x="28" y="-35">pembeli_baru/atlantis/anakCeweAtlantis_datang2.png</item>
+                <item x="0" y="-46">pembeli_baru/atlantis/anakCeweAtlantis_bayar.png</item>
+                <item x="26" y="-30">pembeli_baru/atlantis/anakCeweAtlantis_pergi1.png</item>
+                <item x="-2" y="-52">pembeli_baru/atlantis/anakCeweAtlantis_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="bocahbolaAtlantis" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="3" y="-36">pembeli_baru/atlantis/bocahBolaAtlantis_datang1.png</item>
+                <item x="5" y="-36">pembeli_baru/atlantis/bocahBolaAtlantis_datang2.png</item>
+                <item x="0" y="-21">pembeli_baru/atlantis/bocahBolaAtlantis_bayar.png</item>
+                <item x="-3" y="-29">pembeli_baru/atlantis/bocahBolaAtlantis_pergi1.png</item>
+                <item x="-18" y="-38">pembeli_baru/atlantis/bocahBolaAtlantis_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="anaksmaAtlantis" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="66" y="-8">pembeli_baru/atlantis/anakSmaAtlantis_datang1.png</item>
+                <item x="15" y="-1">pembeli_baru/atlantis/anakSmaAtlantis_datang2.png</item>
+                <item x="0" y="-4">pembeli_baru/atlantis/anakSmaAtlantis_bayar.png</item>
+                <item x="-28" y="-2">pembeli_baru/atlantis/anakSmaAtlantis_pergi1.png</item>
+                <item x="3" y="8">pembeli_baru/atlantis/anakSmaAtlantis_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="tanteeksisAtlantis" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="47" y="13">pembeli_baru/atlantis/tanteEksisAtlantis_datang1.png</item>
+                <item x="18" y="7">pembeli_baru/atlantis/tanteEksisAtlantis_datang2.png</item>
+                <item x="0" y="17">pembeli_baru/atlantis/tanteEksisAtlantis_bayar.png</item>
+                <item x="-17" y="27">pembeli_baru/atlantis/tanteEksisAtlantis_pergi1.png</item>
+                <item x="-25" y="14">pembeli_baru/atlantis/tanteEksisAtlantis_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="omtajirAtlantis" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="9" y="-6">pembeli_baru/atlantis/omTajirAtlantis_datang1.png</item>
+                <item x="10" y="23">pembeli_baru/atlantis/omTajirAtlantis_datang2.png</item>
+                <item x="0" y="0">pembeli_baru/atlantis/omTajirAtlantis_bayar.png</item>
+                <item x="-21" y="-2">pembeli_baru/atlantis/omTajirAtlantis_pergi1.png</item>
+                <item x="-24" y="4">pembeli_baru/atlantis/omTajirAtlantis_pergi2.png</item>
+            </images>
+        </pembeli>
+        <pembeli id="towa" geserPivotX="0" geserPivotY="0">
+            <images>
+                <item x="2" y="-15">pembeli_baru/atlantis/towa_datang1.png</item>
+                <item x="22" y="-31">pembeli_baru/atlantis/towa_datang2.png</item>
+                <item x="0" y="-17">pembeli_baru/atlantis/towa_bayar.png</item>
+                <item x="-13" y="-100">pembeli_baru/atlantis/towa_pergi1.png</item>
+                <item x="-25" y="-4">pembeli_baru/atlantis/towa_pergi2.png</item>
+            </images>
+        </pembeli>
+<!--        <pembeli id="aksa" geserPivotX="0" geserPivotY="0">-->
+<!--            <images>-->
+<!--                <item x="-18.75" y="0.5">pembeli_baru/atlantis/aksa_datang1.png</item>-->
+<!--                <item x="41.5" y="2.25">pembeli_baru/atlantis/aksa_datang2.png</item>-->
+<!--                <item x="0" y="0">pembeli_baru/atlantis/aksa_bayar.png</item>-->
+<!--                <item x="18.25" y="-100">pembeli_baru/atlantis/aksa_pergi1.png</item>-->
+<!--                <item x="18" y="-150">pembeli_baru/atlantis/aksa_pergi2.png</item>-->
+<!--            </images>-->
+<!--        </pembeli>-->
+<!--        <pembeli id="festivalBdg" geserPivotX="0" geserPivotY="0">-->
+<!--            <images>-->
+<!--                <item x="28.75" y="2">pembeli_baru/atlantis/mapagPengantenBandung_datang1.png</item>-->
+<!--                <item x="35.75" y="0.75">pembeli_baru/atlantis/mapagPengantenBandung_datang2.png</item>-->
+<!--                <item x="0" y="0">pembeli_baru/atlantis/mapagPengantenBandung_bayar.png</item>-->
+<!--                <item x="37.5" y="2">pembeli_baru/atlantis/mapagPengantenBandung_pergi1.png</item>-->
+<!--                <item x="26" y="-0.75">pembeli_baru/atlantis/mapagPengantenBandung_pergi2.png</item>-->
+<!--            </images>-->
+<!--        </pembeli>-->
+<!--        <pembeli id="artis" geserPivotX="0" geserPivotY="0">-->
+<!--            <images>-->
+<!--                <item x="32" y="-0.5">pembeli_baru/atlantis/artis_datang1.png</item>-->
+<!--                <item x="30.25" y="-0.25">pembeli_baru/atlantis/artis_datang2.png</item>-->
+<!--                <item x="0" y="0">pembeli_baru/atlantis/artis_bayar.png</item>-->
+<!--                <item x="27.25" y="0">pembeli_baru/atlantis/artis_pergi1.png</item>-->
+<!--                <item x="26.25" y="-0.25">pembeli_baru/atlantis/artis_pergi2.png</item>-->
+<!--            </images>-->
+<!--        </pembeli>-->
+<!--        <pembeli id="supertahuman" geserPivotX="0" geserPivotY="0">-->
+<!--            <images>-->
+<!--                <item x="-80.25" y="-260">pembeli_baru/atlantis/supertahuman_datang1.png</item>-->
+<!--                <item x="1" y="-230">pembeli_baru/atlantis/supertahuman_datang2.png</item>-->
+<!--                <item x="0" y="0">pembeli_baru/atlantis/supertahuman_bayar.png</item>-->
+<!--                <item x="54" y="-210">pembeli_baru/atlantis/supertahuman_pergi1.png</item>-->
+<!--                <item x="27.5" y="-300">pembeli_baru/atlantis/supertahuman_pergi2.png</item>-->
+<!--            </images>-->
+<!--        </pembeli>-->
+<!--        <pembeli id="presiden" geserPivotX="0" geserPivotY="0">-->
+<!--            <images>-->
+<!--                <item x="5" y="0">pembeli_baru/atlantis/paspampresPresiden_datang1.png</item>-->
+<!--                <item x="19" y="-1">pembeli_baru/atlantis/paspampresPresiden_datang2.png</item>-->
+<!--                <item x="0" y="0">pembeli_baru/atlantis/paspampresPresiden_bayar.png</item>-->
+<!--                <item x="-14.75" y="0">pembeli_baru/atlantis/paspampresPresiden_pergi1.png</item>-->
+<!--                <item x="12.75" y="-1.75">pembeli_baru/atlantis/paspampresPresiden_pergi2.png</item>-->
+<!--            </images>-->
+<!--        </pembeli>-->
+    </listPembeli>
+
+
+    <extra_item>
+        <minuman id="Air Jeruk" icon="ic_esjeruk.png"/>
+        <tokopedia id="tokopedia_0" notHave="ic_tokopedia0.png" icon="ic_tokopedia1.png" every="10" startValue="1" plusEfek="1" isFinal="false" startLevel="0">500000,750000,1125000,1687500,2531250,3796875,5695313,8542969,12814453,19221680,80000000</tokopedia>
+        <tokopedia id="tokopedia_1" icon="ic_tokopedia2.png" every="15" startValue="15" plusEfek="5" isFinal="false" startLevel="10">80000000,120000000,180000000,270000000,405000000,607500000,911250000,1366875000,2050312500,3075468750,5000000000</tokopedia>
+        <tokopedia id="tokopedia_2" icon="ic_tokopedia3.png" every="20" startValue="80" plusEfek="10" isFinal="false" startLevel="20">5000000000,7500000000,11250000000,16875000000,25312500000,37968750000,56953125000,85429687500,128144531250,192216796875,600000000000</tokopedia>
+        <tokopedia id="tokopedia_3" icon="ic_tokopedia4.png" every="25" startValue="200" plusEfek="50" isFinal="true" startLevel="30">600000000000,900000000000,1350000000000,2025000000000,3037500000000,4556250000000,6834375000000,10251562500000,15377343750000,23066015625000</tokopedia>
+        <!--<kolak id="Kolak" icon="fitur kolak/ic_kolak.png"/>-->
+        <wifi id="Modem2G" icon="ic_modem lv1.png" plusEfek="0" startValue="2.0" startLevel="0" isFinal="false">500000000,60000000000</wifi>
+        <wifi id="Modem3G" icon="ic_modem lv2.png" plusEfek="0" startValue="3.0" startLevel="1" isFinal="false">60000000000,800000000000</wifi>
+        <wifi id="Modem4G" icon="ic_modem lv3.png" plusEfek="0" startValue="4.0" startLevel="2" isFinal="true">800000000000</wifi>
+
+        <ksatriatahu id="ksatriatahu" icon="ksatriatahu/icon/ic_spatulaKujang.png"/>
+<!--        <sotong id="sotong" icon="UI_baru/ic_sotong.png"/>-->
+    </extra_item>
+
+    <ksatriatahu>
+        <resep>
+            <item idResep="0" harga="5000000" hargaUnlock="50000000"/>
+            <item idResep="1" harga="50000000" hargaUnlock="250000000"/>
+            <item idResep="2" harga="50000000" hargaUnlock="1000000000"/>
+        </resep>
+        <rateGacha>12,11,10,9,8,7,6,5,4,3,2,1</rateGacha>
+    </ksatriatahu>
+
+    <!--START MENU BAWAH-->
+    <!--//05082019-sher-->
+    <kolak>
+        <resep>
+            <item id="0">8</item><!--pisang-->
+            <item id="1">5</item><!--kolang-->
+            <item id="2">4</item><!--candil-->
+            <item id="3">4</item><!--mutiara-->
+            <item id="4">3</item><!--gula-->
+            <item id="5">2</item><!--santan-->
+            <item id="6">1</item><!--es-->
+            <item id="7">0</item><!--air-->
+        </resep>
+        <balancing>
+            <item idPembeli="bocah1" JumlahPisangIjo="2" JumlahKolangKaling ="2" JumlahCandil="2" JumlahMutiara="2" JumlahEsBatu="6" JumlahSantan="3" JumlahGula="6" JumlahAir="1" NilaiToleransi="2" JumlahUnitBeliMaks="10000000" HargaBeliMinimum="0" HargaBeliMaksimum="3251"/>
+            <item idPembeli="bocah2" JumlahPisangIjo="1" JumlahKolangKaling ="4" JumlahCandil="2" JumlahMutiara="3" JumlahEsBatu="5" JumlahSantan="1" JumlahGula="7" JumlahAir="1" NilaiToleransi="2" JumlahUnitBeliMaks="25000000" HargaBeliMinimum="0" HargaBeliMaksimum="3501"/>
+            <item idPembeli="bocah3" JumlahPisangIjo="4" JumlahKolangKaling ="1" JumlahCandil="3" JumlahMutiara="1" JumlahEsBatu="6" JumlahSantan="2" JumlahGula="6" JumlahAir="1" NilaiToleransi="2" JumlahUnitBeliMaks="50000000" HargaBeliMinimum="0" HargaBeliMaksimum="3751"/>
+            <item idPembeli="anakcewe" JumlahPisangIjo="4" JumlahKolangKaling ="8" JumlahCandil="3" JumlahMutiara="9" JumlahEsBatu="2" JumlahSantan="4" JumlahGula="3" JumlahAir="2" NilaiToleransi="1" JumlahUnitBeliMaks="100000000" HargaBeliMinimum="74" HargaBeliMaksimum="7001"/>
+            <item idPembeli="bocahbola" JumlahPisangIjo="8" JumlahKolangKaling ="4" JumlahCandil="6" JumlahMutiara="6" JumlahEsBatu="4" JumlahSantan="2" JumlahGula="7" JumlahAir="4" NilaiToleransi="1" JumlahUnitBeliMaks="250000000" HargaBeliMinimum="249" HargaBeliMaksimum="10001"/>
+            <item idPembeli="anaksma" JumlahPisangIjo="5" JumlahKolangKaling ="10" JumlahCandil="5" JumlahMutiara="5" JumlahEsBatu="2" JumlahSantan="8" JumlahGula="6" JumlahAir="5" NilaiToleransi="1" JumlahUnitBeliMaks="500000000" HargaBeliMinimum="499" HargaBeliMaksimum="15001"/>
+            <item idPembeli="tante" JumlahPisangIjo="8" JumlahKolangKaling ="7" JumlahCandil="12" JumlahMutiara="7" JumlahEsBatu="2" JumlahSantan="4" JumlahGula="5" JumlahAir="6" NilaiToleransi="0.8" JumlahUnitBeliMaks="750000000" HargaBeliMinimum="999" HargaBeliMaksimum="20001"/>
+            <item idPembeli="om" JumlahPisangIjo="12" JumlahKolangKaling ="9" JumlahCandil="7" JumlahMutiara="12" JumlahEsBatu="1" JumlahSantan="3" JumlahGula="4" JumlahAir="8" NilaiToleransi="0.8" JumlahUnitBeliMaks="1000000000" HargaBeliMinimum="2499" HargaBeliMaksimum="25001"/>
+        </balancing>
+    </kolak>
+
+    <!--START MENU BAWAH-->
+    <mobil>
+        <item tipe="speaker" id="Speaker" icon="ic_TOA_lv1.png" plusEfek="0.1" startValue="1" startLevel="0" isFinal="false" nextStartValue="12">0,10,11,12,13,14,16,17,19,21,23,25,28,31,34,38,41,45,50,55,61,67,74,81,89,98,108,119,131,144,158,174,191,211,232,255,281,309,340,374,411,452,497,547,602,662,728,801,882,970,1067,1173,1291,1420,1562,1718,1890,2079,2287,2516,2768,3044,3349,3684,4052,4457,4903,5394,5933,6526,7179,7897,8687,9555,10511,11562,12719,13990,15389,16928,18621,20484,22532,24785,27264,29990,32989,36288,39917,43909,48300,53130,58443,64287,70716,77788,85566,94123,103535,113889,500000</item>
+        <item tipe="speaker" id="Speaker Emas" icon="ic_TOA_lv2.png" plusEfek="0.1" startValue="12" startLevel="100" isFinal="false" nextStartValue="23">500000,550000,605000,665500,732050,805255,885780,974358,1071794,1178973,1296871,1426558,1569214,1726135,1898749,2088624,2297486,2527235,2779958,3057954,3363750,3700125,4070137,4477151,4924866,5417353,5959088,6554997,7210496,7931546,8724701,9597171,10556888,11612577,12773834,14051218,15456340,17001974,18702171,20572388,22629627,24892590,27381849,30120034,33132038,36445241,40089766,44098742,48508616,53359478,58695426,64564969,71021466,78123612,85935973,94529571,103982528,114380781,125818859,138400745,152240819,167464901,184211391,202632531,222895784,245185362,269703898,296674288,326341717,358975889,394873478,434360826,477796908,525576599,578134259,635947685,699542454,769496699,846446369,931091006,1024200107,1126620118,1239282129,1363210342,1499531377,1649484514,1814432966,1995876262,2195463889,2415010278,2656511305,2922162436,3214378680,3535816548,3889398203,4278338023,4706171825,5176789008,5694467909,6263914699,20000000000</item>
+        <item tipe="speaker" id="Speaker Jumbo" icon="ic_TOA_lv3.png" plusEfek="0.1" startValue="23" startLevel="200" isFinal="false" nextStartValue="33">20000000000,22000000000,24200000000,26620000000,29282000000,32210200000,35431220000,38974342000,42871776200,47158953820,51874849202,57062334122,62768567534,69045424287,75949966716,83544963388,91899459727,101089405699,111198346269,122318180896,134549998986,148004998885,162805498773,179086048651,196994653516,216694118867,238363530754,262199883830,288419872213,317261859434,348988045377,383886849915,422275534907,464503088397,510953397237,562048736961,618253610657,680078971723,748086868895,822895555785,905185111363,995703622499,1095273984749,1204801383224,1325281521547,1457809673702,1603590641072,1763949705179,1940344675697,2134379143267,2347817057593,2582598763353,2840858639688,3124944503657,3437438954023,3781182849425,4159301134368,4575231247805,5032754372585,5536029809844,6089632790828,6698596069911,7368455676902,8105301244592,8915831369051,9807414505957,10788155956552,11866971552208,13053668707428,14359035578171,15794939135988,17374433049587,19111876354546,21023063990001,23125370389001,25437907427901,27981698170691,30779867987760,33857854786536,37243640265190,40968004291709,45064804720880,49571285192968,54528413712265,59981255083492,65979380591841,72577318651025,79835050516127,87818555567740,96600411124514,106260452236966,116886497460663,128575147206729,141432661927402,155575928120142,171133520932157,188246873025372,207071560327910,227778716360701,250556587996771,555555555555555</item>
+        <item tipe="speaker" id="Speaker Jumbo Emas" icon="ic_TOA_lv4.png" plusEfek="0.1" startValue="33" startLevel="300" isFinal="true">555555555555555</item>
+
+        <item tipe="wajan" id="Panci Biasa" icon="ic_wajan_lv1.png" plusEfek="0.1" startValue="0" startLevel="0" isFinal="false" nextStartValue="1.5">0,30,33,36,39,43,48,53,58,64,100</item>
+        <item tipe="wajan" id="Panci Melamin" icon="ic_wajan_lv2.png" plusEfek="0.1" startValue="1.5" startLevel="10" isFinal="false" nextStartValue="2.9">100,150,225,337,506,759,1139,1708,2562,3844,5766,10000</item>
+        <item tipe="wajan" id="Panci Emas" icon="ic_wajan_lv3.png" plusEfek="0.1" startValue="2.9" startLevel="21" isFinal="true">10000</item>
+
+        <item tipe="tenda" id="Tenda Biru" icon="ic_tenda_lv1.png" plusEfek="0.1" startValue="0" startLevel="0" isFinal="false" nextStartValue="2.5">0,50,55,60,66,73,80,88,97,107,250</item>
+        <item tipe="tenda" id="Tenda Festival" icon="ic_tenda_lv2.png" plusEfek="0.1" startValue="2.5" startLevel="10" isFinal="false" nextStartValue="4">250,375,562,843,1265,1898,2847,4271,6407,9610,14416,25000</item>
+        <item tipe="tenda" id="Tenda Kastil" icon="ic_tenda_lv3.png" plusEfek="0.1" startValue="4" startLevel="21" isFinal="false" nextStartValue="4.9">25000,50000,100000,200000,400000,800000,1600000</item>
+        <item tipe="tenda" id="Tenda Kastil Emas" icon="ic_tenda_lv4.png" plusEfek="0.1" startValue="4.9" startLevel="27" isFinal="true">1600000</item>
+
+        <item tipe="bodyMobil" id="Prahukep" icon="ic_mobil_atlantis_lv1.png" plusEfek="0.1" startValue="0" startLevel="0" isFinal="false" nextStartValue="1">0,500,600,720,864,1036,1244,1493,1791,2149,4500</item>
+        <item tipe="bodyMobil" id="Gren Boat X" icon="ic_mobil_atlantis_lv2.png" plusEfek="0.1" startValue="1" startLevel="10" isFinal="false" nextStartValue="4">4500,6750,10125,15187,22781,34171,51257,76886,115330,172995,259492,10000000</item>
+        <item tipe="bodyMobil" id="Boatlux" icon="ic_mobil_atlantis_lv3.png" plusEfek="0.1" startValue="4" startLevel="21" isFinal="false" nextStartValue="5">10000000,18000000,32400000,58320000,104976000,188956800,340122240,612220032,1101996057,1983592903,3570467226</item>
+        <item tipe="bodyMobil" id="Alfreboat" icon="ic_mobil_atlantis_lv4.png" plusEfek="0.1" startValue="5" startLevel="31" isFinal="true">3570467226,80000000000,144000000000,259200000000,466560000000,839808000000,1511654400000,2720977920000,88888888888888</item>
+
+<!--        <item tipe="pelang" id="Pelang Biasa" icon="ic_pelang_lv1.png" plusEfek="0.1" startValue="0.1" startLevel="0" isFinal="false" nextStartValue="11">1000000,1500000,2250000,3375000,5062500,7593750,11390625,17085938,25628906,38443359,80000000,120000000</item>-->
+<!--        <item tipe="pelang" id="Pelang Gambar" icon="ic_pelang_lv2.png" plusEfek="0.1" startValue="2" startLevel="11" isFinal="false" nextStartValue="14">120000000,180000000,270000000,405000000,607500000,911250000,1366875000,2050312500,3075468750,6000000000,9000000000</item>-->
+<!--        <item tipe="pelang" id="Pelang LED" icon="ic_pelang_lv3.png" plusEfek="0.1" startValue="5" startLevel="21" isFinal="true">9000000000,13500000000,20250000000,30375000000,45562500000,68343750000,102515625000,153773437500,230660156250,500000000000</item>-->
+
+<!--        <item tipe="kipas" id="Kipas Angin" icon="ic_ac_lv1.png" plusEfek="0.2" startValue="0.2" startLevel="0" isFinal="false" nextStartValue="5">10000000,15000000,22500000,33750000,50625000,75937500,113906250,170859375,256289063,384433594,800000000,1200000000</item>-->
+<!--        <item tipe="kipas" id="Kipas Angin x2" icon="ic_ac_lv2.png" plusEfek="0.2" startValue="5" startLevel="11" isFinal="false" nextStartValue="10">1200000000,1800000000,2700000000,4050000000,6075000000,9112500000,13668750000,20503125000,30754687500,60000000000,90000000000</item>-->
+<!--        <item tipe="kipas" id="Air Conditioner" icon="ic_ac_lv3.png" plusEfek="0.2" startValue="10" startLevel="21" isFinal="true">90000000000,135000000000,202500000000,303750000000,455625000000,683437500000,1025156250000,1537734375000,2306601562500,5000000000000</item>-->
+
+<!--        <item tipe="televisi" id="TV Hitam Putih" icon="ic_tv_lv1.png" plusEfek="0.3" startValue="0.3" startLevel="0" isFinal="false" nextStartValue="6">100000000,150000000,225000000,337500000,506250000,759375000,1139062500,1708593750,2562890625,3844335938,8000000000,12000000000</item>-->
+<!--        <item tipe="televisi" id="TV LED" icon="ic_tv_lv2.png" plusEfek="0.3" startValue="6" startLevel="11" isFinal="false" nextStartValue="12">12000000000,18000000000,27000000000,40500000000,60750000000,91125000000,136687500000,205031250000,307546875000,600000000000,900000000000</item>-->
+<!--        <item tipe="televisi" id="TV Layar Lengkung" icon="ic_tv_lv3.png" plusEfek="0.3" startValue="12" startLevel="21" isFinal="true">900000000000,1350000000000,2025000000000,3037500000000,4556250000000,6834375000000,10251562500000,15377343750000,23066015625000,50000000000000</item>-->
+    </mobil>
+
+    <resep>
+
+
+
+        <item id="Tahu Putih" icon="ic_tahu.png" plusEfek="1" startValue="1">0,10,15,22,33,50,75,113,170,256,384,576,865,1297,1946,2919,4378,6568,9852,14778,22168,33252,49878,74818,112227,168341,252511,378767,568151,852226,1278340,1917510,2876265,4314398,6471598,9707397,14561096,21841644,32762466,49143699,73715548,110573323,165859984,248789977,373184965,559777448,839666173,1259499259,1889248889,2833873334,4250810001</item>
+        <item id="Telur" icon="ic_telur.png" plusEfek="2" plusLv1="1" startValue="0">0,50,75,112,168,253,379,569,854,1281,1922,2883,4324,6487,9731,14596,21894,32842,49263,73894,110841,166262,249394,374091,561137,841705,1262558,1893837,2840756,4261134,6391702,9587553,14381329,21571994,32357991,48536986,72805480,109208220,163812330,245718496,368577744,552866616,829299924,1243949886,1865924829,2798887243,4198330865,6297496298,9446244447,14169366671,21254050007</item>
+        <item id="Minyak Goreng" icon="ic_minyak.png" plusEfek="3" startValue="0">0,200,300,450,675,1012,1518,2278,3417,5125,7688,11533,17299,25949,38923,58385,87578,131368,197052,295578,443367,665051,997577,1496365,2244548,3366822,5050233,7575350,11363025,17044538,25566807,38350211,57525317,86287976,129431965,194147947,291221921,436832881,655249322,982873984,1474310976,2211466464,3317199696,4975799544,7463699316,11195548975,16793323462,25189985193,37784977790,56677466685,85016200028</item>
+        <item id="Terigu" icon="ic_tepung.png" plusEfek="5" startValue="0">0,500,750,1125,1687,2531,3796,5695,8543,12814,19221,28832,43248,64873,97309,145964,218946,328420,492630,738945,1108418,1662628,2493942,3740913,5611370,8417056,12625584,18938376,28407564,42611346,63917019,95875529,143813294,215719941,323579912,485369868,728054803,1092082204,1638123306,2457184960,3685777440,5528666160,8292999240,12439498861,18659248291,27988872437,41983308656,62974962984,94462444476,141693666714,212540500071</item>
+        <item id="Bumbu" icon="ic_bumbu.png" plusEfek="10" startValue="0">0,1000,1500,2250,3375,5062,7593,11390,17085,25628,38443,57665,86497,129746,194619,291929,437893,656840,985261,1477891,2216837,3325256,4987885,7481827,11222741,16834112,25251168,37876752,56815128,85222693,127834039,191751059,287626588,431439883,647159824,970739737,1456109606,2184164409,3276246613,4914369920,7371554880,11057332320,16585998481,24878997722,37318496583,55977744874,83966617312,125949925968,188924888952,283387333428,425081000142</item>
+        <item id="Keju" icon="ic_keju.png" plusEfek="20" startValue="0">0,5000,7500,11250,16875,25312,37968,56953,85429,128144,192216,288325,432487,648731,973097,1459646,2189469,3284204,4926306,7389459,11084189,16626283,24939425,37409138,56113707,84170561,126255841,189383762,284075643,426113465,639170197,958755296,1438132944,2157199416,3235799124,4853698686,7280548030,10920822045,16381233068,24571849602,36857774403,55286661604,82929992407,124394988610,186592482915,279888724373,419833086560,629749629841,944624444761,1416936667142,2125405000713</item>
+        <item id="Saus BBQ" icon="ic_bbq.png" plusEfek="45" startValue="0">0,20000,30000,45000,67500,101250,151875,227812,341718,512578,768867,1153300,1729951,2594926,3892390,5838585,8757877,13136816,19705225,29557837,44336756,66505134,99757701,149636552,224454829,336682243,505023365,757535048,1136302573,1704453859,2556680789,3835021184,5752531777,8628797665,12943196498,19414794747,29122192121,43683288181,65524932272,98287398408,147431097612,221146646418,331719969628,497579954442,746369931663,1119554897495,1679332346242,2518998519364,3778497779046,5667746668569,8501620002854</item>
+
+        <item id="Wakame" icon="atlantis/ic_wakame.png" plusEfek="100" startValue="0">0,50000,75000,112500,168750,253125,379687,569531,854296,1281445,1922168,2883252,4324877,6487316,9730975,14596463,21894694,32842041,49263062,73894594,110841891,166262836,249394254,374091382,561137073,841705609,1262558414,1893837622,2840756433,4261134649,6391701974,9587552961,14381329442,21571994163,32357991245,48536986868,72805480302,109208220453,163812330680,245718496020,368577744031,552866616047,829299924070,1243949886105,1865924829158,2798887243737,4198330865606,6297496298410,9446244447615,14169366671423,21254050007135</item>
+        <item id="Sate Laut" icon="atlantis/ic_satebbq.png" plusEfek="250" startValue="0">0,150000,225000,337500,506250,759375,1139062,1708593,2562890,3844335,5766503,8649755,12974633,19461950,29192926,43789389,65684083,98526125,147789188,221683782,332525673,498788509,748182764,1122274146,1683411219,2525116829,3787675244,5681512866,8522269299,12783403948,19175105923,28762658884,43143988327,64715982491,97073973736,145610960605,218416440907,327624661361,491436992041,737155488062,1105733232094,1658599848141,2487899772211,3731849658317,5597774487475,8396661731213,12594992596820,18892488895231,28338733342846,42508100014270,63762150021405</item>
+        <item id="Ikan Bakar" icon="atlantis/ic_ikanbakar.png" plusEfek="500" startValue="0">0,350000,525000,787500,1181250,1771875,2657812,3986718,5980078,8970117,13455175,20182763,30274145,45411218,68116827,102175241,153262861,229894292,344841438,517262158,775893237,1163839855,1745759783,2618639674,3927959512,5891939268,8837908902,13256863354,19885295031,29827942547,44741913821,67112870731,100669306097,151003959145,226505938718,339758908078,509638362117,764457543176,1146686314764,1720029472146,2580044208219,3870066312329,5805099468493,8707649202740,13061473804110,19592210706165,29388316059248,44082474088872,66123711133308,99185566699963,148778350049945</item>
+        <item id="Kepiting Pedas" icon="atlantis/ic_chillicrab.png" plusEfek="750" startValue="0">0,800000,1200000,1800000,2700000,4050000,6075000,9112500,13668750,20503125,30754687,46132031,69198046,103797070,155695605,233543408,350315112,525472668,788209002,1182313504,1773470256,2660205384,3990308076,5985462114,8978193171,13467289756,20200934635,30301401952,45452102929,68178154393,102267231590,153400847386,230101271079,345151906619,517727859928,776591789893,1164887684839,1747331527259,2620997290889,3931495936334,5897243904501,8845865856752,13268798785128,19903198177692,29854797266538,44782195899807,67173293849710,100759940774566,151139911161849,226709866742773,340064800114160</item>
+        <item id="Lobster" icon="atlantis/ic_lobster.png" plusEfek="1000" startValue="0">0,1500000,2250000,3375000,5062500,7593750,11390625,17085937,25628906,38443359,57665039,86497558,129746337,194619506,291929260,437893890,656840835,985261253,1477891880,2216837820,3325256730,4987885095,7481827642,11222741464,16834112196,25251168294,37876752441,56815128661,85222692992,127834039488,191751059232,287626588849,431439883274,647159824911,970739737366,1456109606049,2184164409074,3276246613611,4914369920417,7371554880626,11057332320940,16585998481410,24878997722115,37318496583172,55977744874758,83966617312138,125949925968207,188924888952311,283387333428467,425081000142700,637621500214050</item>
+    </resep>
+
+    <promo>
+        <item id="Rumput Laut" namaKarakter="anakceweAtlantis" icon="ic_marketing_atlantis_anakCewe.png" minusWaktu="0.3" startWaktu="3" startMultiplier="1" plusMultiplier="1">0,1000000,1500000,2250000,3375000,5062500,7593750,11390625,17085937,25628906,38443359</item>
+        <item id="Botol Pesan" namaKarakter="bocahbolaAtlantis" icon="ic_marketing_atlantis_bocahBola.png" minusWaktu="1" startWaktu="10" startMultiplier="3" plusMultiplier="3">0,2500000,3750000,5625000,8437500,12656250,18984375,28476562,42714843,64072265,96108398</item>
+        <item id="Buku Kuno" namaKarakter="anaksmaAtlantis" icon="ic_marketing_atlantis_anakSma.png" minusWaktu="3" startWaktu="30" startMultiplier="8" plusMultiplier="8">0,6000000,9000000,13500000,20250000,30375000,45562500,68343750,102515625,153773437,230660156</item>
+        <item id="Kerang Mutiara" namaKarakter="tanteeksisAtlantis" icon="ic_marketing_atlantis_tanteEksis.png" minusWaktu="6" startWaktu="60" startMultiplier="20" plusMultiplier="20">0,15000000,22500000,33750000,50625000,75937500,113906250,170859375,256289062,384433593,576650390</item>
+        <item id="Koin Kuno" namaKarakter="omtajirAtlantis" icon="ic_marketing_atlantis_omTajir.png" minusWaktu="30" startWaktu="300" startMultiplier="60" plusMultiplier="60">0,30000000,45000000,67500000,101250000,151875000,227812500,341718750,512578125,768867187,1153300781</item>
+        <item id="Foto Tahu" namaKarakter="towa" icon="ic_marketing_atlantis_towa.png" minusWaktu="150" startWaktu="1500" startMultiplier="150" plusMultiplier="150">0,70000000,105000000,157500000,236250000,354375000,531562500,797343750,1196015625,1794023437,2691035156</item>
+<!--        <item id="Web Comic" namaKarakter="aksa" icon="ic_webcomic.png" minusWaktu="150" startWaktu="1500" startMultiplier="150" plusMultiplier="150">0,700000000,1050000000,1575000000,2362500000,3543750000,5315625000,7973437500,11960156250,17940234375,26910351563</item>-->
+<!--        <item id="Mapag Penganten" namaKarakter="festivalBdg" icon="ic_marketing_ondel_bandung.png" minusWaktu="360" startWaktu="3600" startMultiplier="500" plusMultiplier="500">0,1500000000,2250000000,3375000000,5062500000,7593750000,11390625000,17085937500,25628906250,38443359375,57665039063</item>-->
+<!--        <item id="Iklan TV" namaKarakter="artis" icon="ic_iklantv.png" minusWaktu="720" startWaktu="7200" startMultiplier="1000" plusMultiplier="1000">0,3000000000,4500000000,6750000000,10125000000,15187500000,22781250000,34171875000,51257812500,76886718750,115330078125</item>-->
+<!--        <item id="Lampu Sorot" namaKarakter="supertahuman" icon="ic_lampusorot.png" minusWaktu="1440" startWaktu="14400" startMultiplier="2000" plusMultiplier="2000">0,7000000000,10500000000,15750000000,23625000000,35437500000,53156250000,79734375000,119601562500,179402343750,269103515625</item>-->
+<!--        <item id="Brosur Wisata" namaKarakter="presiden" icon="ic_brosurwisata.png" minusWaktu="2880" startWaktu="28800" startMultiplier="4000" plusMultiplier="4000">0,15000000000,22500000000,33750000000,50625000000,75937500000,113906250000,170859375000,256289062500,384433593750,576650390625</item>-->
+    </promo>
+
+    <!--TODO PINDAHIN KE 1 XML TERPISAH, INI LIST NGAMBIL DARI XML TSB-->
+    <spesial>
+       <item id="jamketupat1" icon="icn_jamKetupat.png" iapId="jamketupat" labelItem="UI_baru/lbl_base_ramadhan.png"></item>
+       <item id="jamketupat2" icon="icn_jamKetupatx3.png" iapId="jamketupat2" labelItem="UI_baru/lbl_base_ramadhan.png"></item>
+        <!-- <item id="com.tahubulat.jamlampion1" icon="icn_jam1_imlek.png" iapId="com.tahubulat.jamlampion1"></item>
+        <item id="com.tahubulat.jamlampion2" icon="icn_jam2_imlek.png" iapId="com.tahubulat.jamlampion2"></item> -->
+        <!-- <item id="com.owngames.tahubulat.jam_8" icon="ic_IAP_anniv8_1.png" iapId="com.owngames.tahubulat.jam_8" labelItem="UI_baru/lbl_base_kuning.png"></item>
+        <item id="com.owngames.tahubulat.jam_emas_8" icon="ic_IAP_anniv8_2.png" iapId="com.owngames.tahubulat.jam_emas_8" labelItem="UI_baru/lbl_base_kuning.png"></item>
+        <item id="com.owngames.tahubulat.jam_kristal_8" icon="ic_IAP_anniv8_3.png" iapId="com.owngames.tahubulat.jam_kristal_8" labelItem="UI_baru/lbl_base_kuning.png"></item> -->
+        <item id="jam1" icon="icn_jam1.png" iapId="jam1"></item>
+        <item id="jam2" icon="icn_jam2.png" iapId="jam2"></item>
+        <item id="jam3" icon="icn_jam3.png" iapId="jam3"></item>
+        <item id="jam4" icon="icn_jam4.png" iapId="jam4"></item>
+        <item id="jam5" icon="icn_jam5.png" iapId="jam5"></item>
+        <item id="celengan1" icon="icn_celengan1.png" iapId="ayam1"></item>
+        <item id="celengan2" icon="icn_celengan2.png" iapId="ayam2"></item>
+        <item id="celengan3" icon="icn_celengan3.png" iapId="ayam3"></item>
+        <item id="koperemas" icon="icn_koper.png" iapId="koper" isForever="true"></item>
+        <item id="tako" icon="icn_tako.png" iapId="talitako" isForever="true"></item>
+        <item id="kuota" icon="icn_kuota.png" iapId="unlimkuota" isForever="true"></item>
+        <item id="peridot1" icon="icn_peridot1.png" iapId="peridot1"></item>
+        <item id="peridot2" icon="tb2ui_ic_chest.png" iapId="peridot2"></item>
+        <item id="peridot3" icon="tb2ui_ic_grobak.png" iapId="peridot3"></item>
+        <item id="peridot_banyak_1" icon="icn_peridot1.png" iapId="peridot_banyak_1"></item>
+        <item id="peridot_banyak_2" icon="tb2ui_ic_chest.png" iapId="peridot_banyak_2"></item>
+        <item id="peridot_banyak_3" icon="tb2ui_ic_grobak.png" iapId="peridot_banyak_3"></item>
+        <item id="peti_perunggu" icon="ic_chestBronze.png" iapId="peti_perunggu"></item>
+        <item id="peti_perak" icon="ic_chestSilver.png" iapId="peti_perak"></item>
+        <item id="peti_emas" icon="ic_chestGold.png" iapId="peti_emas"></item>
+    </spesial>
+
+    <data>
+    </data>
+
+    <!--END MENU BAWAH-->
+</resources>

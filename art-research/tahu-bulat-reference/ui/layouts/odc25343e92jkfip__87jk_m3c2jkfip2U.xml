@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <story lamaFestival="172800" noMisi="4" delayFestival="86400">
+        <judul>Olimpiade!</judul>
+        <image>UI_baru/banner_popUp_festival_story.png</image>
+        <syarat_buka>
+            <item tipe="penghasilan" cabang="Bandung">150000000</item>
+            <item tipe="story" cabang="Atlantis Story" value="1"/>
+        </syarat_buka>
+        <storyBukaCabang>xml_dialog/misi 4/festivalstory_bukacabang.xml</storyBukaCabang>
+        <storyAwalDiCabang>xml_dialog/misi 4/festivalstory_awal.xml</storyAwalDiCabang>
+        <storyTargetTercapai>xml_dialog/misi 4/festivalstory_targettercapai.xml</storyTargetTercapai>
+        <storyTargetTidakTercapai>xml_dialog/misi 4/festivalstory_targettidaktercapai.xml</storyTargetTidakTercapai>
+        <popup_reward>
+            <judul>Olimpiade Sains!</judul>
+            <desc>Akang Tahu ditertawakan Vicky karena menganggap Tahu bisa bikin pintar...&#10;&#10;Ayo, kita tunjukkan kepadanya bahwa peserta Olimpiade Sains-pun suka makan tahu, biar pintar!</desc>
+        </popup_reward>
+        <reward>
+            <item target="1000000000" namaHadiah="Peti Perunggu" tipeHadiah="chest" idHadiah="chest_bronze" jumlahHadiah="1"/>
+        </reward>
+        <trio_kribo>
+            <bocah1 cabang="Majapahit"/>
+            <bocah2 cabang="Majapahit"/>
+            <bocah3 cabang="Majapahit"/>
+        </trio_kribo>
+        <menu_item>
+            <mobil>
+                <bodyMobil cabang="Jakarta"/>
+            </mobil>
+            <minuman>
+                <item id="Tetesan Embun" icon="ic_embun.png"/>
+            </minuman>
+            <resep banyakItem="10">
+                <item cabang="Purba" idx="6"/>
+                <item cabang="Purba" idx="7"/>
+                <item cabang="Purba" idx="8"/>
+                <item cabang="Bandung" idx="11"/>
+                <item cabang="Bandung" idx="7"/>
+                <item cabang="Bandung" idx="8"/>
+                <item cabang="Bandung" idx="9"/>
+                <item cabang="Korea" idx="8"/>
+                <item cabang="Korea" idx="9"/>
+                <item cabang="Korea" idx="7"/>
+            </resep>
+            <promo banyakItem="8">
+                <item cabang="Bandung" idx="2"/>
+                <item cabang="Dubai" idx="2"/>
+                <item cabang="Belanda" idx="2"/>
+                <item cabang="Jepang" idx="2"/>
+                <item cabang="Korea" idx="2"/>
+                <item cabang="Majapahit" idx="2"/>
+                <item cabang="Purba" idx="2"/>
+                <item cabang="Mars" idx="2"/>
+            </promo>
+        </menu_item>
+    </story>
+</resources>

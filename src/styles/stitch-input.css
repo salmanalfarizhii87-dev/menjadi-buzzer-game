@@ -1,0 +1,98 @@
+@tailwind components;
+@tailwind utilities;
+
+/* Reset terbatas hanya di dalam template Stitch. */
+.stitch-root,
+.stitch-root *,
+.stitch-root *::before,
+.stitch-root *::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+.stitch-root {
+  font-family: 'Spline Sans', sans-serif;
+  color: #1e1b2e;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100dvh;
+}
+
+.stitch-root button,
+.stitch-root input,
+.stitch-root select,
+.stitch-root textarea {
+  font: inherit;
+  color: inherit;
+}
+
+.stitch-root img,
+.stitch-root svg {
+  display: block;
+  max-width: 100%;
+}
+
+.stitch-root a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.stitch-img {
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(80% 60% at 50% 30%, #ffe6b8 0%, #f6cf8b 55%, #d89a4c 100%);
+  color: #6b3f1d;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  overflow: hidden;
+}
+
+.stitch-img::after {
+  content: '★';
+  font-size: 28px;
+  opacity: 0.45;
+}
+
+.stitch-img[data-stitch-img='avatar'],
+.stitch-img[data-stitch-img='Karakter @KilatDaily'],
+.stitch-img[data-stitch-img='Karakter utama @KilatDaily bekerja di laptop studio buzzer'] {
+  background:
+    radial-gradient(70% 70% at 50% 35%, #fff3d6 0%, #f7ce7d 60%, #c88a4b 100%);
+}
+
+.stitch-root {
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+}
+
+.stitch-root .ref-btn-green,
+.stitch-root .ref-btn-red {
+  color: #ffffff;
+}
+
+.stitch-root .ref-btn-green .text-ink-dark,
+.stitch-root .ref-btn-red .text-ink-dark {
+  color: #ffffff;
+}
+
+.stitch-portrait {
+  animation: portrait-idle 3.2s ease-in-out infinite;
+}
+
+.game-stage__char.stitch-portrait {
+  animation: none;
+}
+
+@keyframes portrait-idle {
+  0%, 100% { transform: scale(1) translateY(0); }
+  50% { transform: scale(1.025) translateY(-2px); }
+}

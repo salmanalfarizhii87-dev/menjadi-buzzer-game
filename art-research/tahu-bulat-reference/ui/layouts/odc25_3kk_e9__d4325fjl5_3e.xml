@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--story pertama-->
+    <story idStory="0" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="3.0f">Kang</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="false" nextTimer="3.0f">Lagi sibuk ga?</item>
+            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="true" nextTimer="3.0f">Eh? Mba Cosu-chan?</item>
+            <item idItemChat="4" nextTipe="chat" nextId="5" isFromUser="true" nextTimer="3.0f">Ngga, ada apa?</item>
+            <item idItemChat="5" nextTipe="chat" nextId="6" isFromUser="false" nextTimer="3.0f">Besok ada acara cosplay di alun-alun</item>
+            <item idItemChat="6" nextTipe="chat" nextId="7" isFromUser="false" nextTimer="3.0f">Akang temenin yuk?</item>
+            <item idItemChat="7" nextTipe="chat" nextId="8" isFromUser="true" nextTimer="3.0f">Waduh, ga bisa.</item>
+            <item idItemChat="8" nextTipe="opsi" nextId="1" isFromUser="false" nextTimer="3.0f">Yah.. gimana dong?</item>
+
+            <item idItemChat="9" nextTipe="notif" nextId="1" isFromUser="false" nextTimer="0.5f">Ya... oke deh kalau gitu</item>
+            <item idItemChat="10" nextTipe="notif" nextId="3" isFromUser="false" nextTimer="0.5f">Ya... oke deh kalau gitu</item>
+        </chat>
+        <opsi idOpsi="1">
+            <item idItemOpsi="1" nextTipe="chat" nextId="9" nextTimer="3.0f">Coba ajak Satpam Elit aja</item>
+            <item idItemOpsi="2" nextTipe="chat" nextId="10" nextTimer="3.0f">Coba ajak Guru Olahraga aja</item>
+        </opsi>
+        <notif>
+            <!--satpam-->
+            <item idItemNotif="1" nextTipe="notif" nextId="2" nextTimer="0.2f">Chat bagian pertama selesai</item>
+            <item idItemNotif="2" nextTipe="story" nextId="1" nextTimer="4.0f" regex="timer_delayStory#cosuchan" isNextFromUser="true" delayStory="30.0f">Silahkan cek lagi dalam %1$s</item>
+
+            <!--guru-->
+            <item idItemNotif="3" nextTipe="notif" nextId="4" nextTimer="0.2f">Chat bagian pertama selesai</item>
+            <item idItemNotif="4" nextTipe="story" nextId="2" nextTimer="4.0f" regex="timer_delayStory#cosuchan" isNextFromUser="true" delayStory="30.0f">Silahkan cek lagi dalam %1$s</item>
+        </notif>
+    </story>
+
+    <!--pilih satpam-->
+    <story idStory="1" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="true" nextTimer="3.0f">Gimana Mba?</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="true" nextTimer="3.0f">Seru acaranya?</item>
+            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="false" nextTimer="3.0f">Lumayan...</item>
+            <item idItemChat="4" nextTipe="chat" nextId="5" isFromUser="false" nextTimer="3.0f">Satpam Elit ternyata disuruh jaga gerbang acara cosplay</item>
+            <item idItemChat="5" nextTipe="chat" nextId="6" isFromUser="false" nextTimer="3.0f">Jadi nongkrong di depan gerbang bareng satpam</item>
+            <item idItemChat="6" nextTipe="chat" nextId="7" isFromUser="true" nextTimer="3.0f">Hah?</item>
+            <item idItemChat="7" nextTipe="chat" nextId="8" isFromUser="false" nextTimer="3.0f">Iyah, untung di depan banyak yang ngajak foto juga</item>
+            <item idItemChat="8" nextTipe="chat" nextId="9" isFromUser="true" nextTimer="3.0f">Bagus dong?</item>
+            <item idItemChat="9" nextTipe="chat" nextId="10" isFromUser="false" nextTimer="3.0f">Iya</item>
+            <item idItemChat="10" nextTipe="chat" nextId="11" isFromUser="false" nextTimer="3.0f">Besok masih ada acaranya kang</item>
+            <item idItemChat="11" nextTipe="story" nextId="3" isFromUser="false" nextTimer="3.0f">Mau ikut?</item>
+        </chat>
+    </story>
+
+    <!--pilih guru-->
+    <story idStory="2" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="true" nextTimer="3.0f">Gimana Mba?</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="true" nextTimer="3.0f">Seru acaranya?</item>
+            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="false" nextTimer="3.0f">Seru banget!</item>
+            <item idItemChat="4" nextTipe="chat" nextId="5" isFromUser="false" nextTimer="3.0f">Nyesel loh kang ga ikut!</item>
+            <item idItemChat="5" nextTipe="chat" nextId="6" isFromUser="true" nextTimer="3.0f">Ahhhh.. Mo kumaha atuh..</item>
+            <item idItemChat="6" nextTipe="chat" nextId="7" isFromUser="true" nextTimer="3.0f">Gimana Pak guru olahraga?</item>
+            <item idItemChat="7" nextTipe="chat" nextId="8" isFromUser="true" nextTimer="3.0f">Jadi ikut dia?</item>
+            <item idItemChat="8" nextTipe="chat" nextId="9" isFromUser="false" nextTimer="3.0f">Ga datang dong dia!</item>
+            <item idItemChat="9" nextTipe="chat" nextId="10" isFromUser="false" nextTimer="3.0f">Keterlaluan!</item>
+            <item idItemChat="10" nextTipe="chat" nextId="11" isFromUser="true" nextTimer="3.0f">......</item>
+            <item idItemChat="11" nextTipe="chat" nextId="12" isFromUser="true" nextTimer="3.0f">Ya... yasudah yang penting seru acaranya</item>
+            <item idItemChat="12" nextTipe="chat" nextId="13" isFromUser="false" nextTimer="3.0f">Besok masih ada nih kang</item>
+            <item idItemChat="13" nextTipe="story" nextId="3" isFromUser="false" nextTimer="3.0f">Ikut yuk!</item>
+        </chat>
+    </story>
+
+    <!--opsi ikut/kaga-->
+    <story idStory="3" showingFirst="opsi#1">
+        <opsi idOpsi="1">
+            <item idItemOpsi="1" nextTipe="story" nextId="4" nextTimer="2.0f">Yaaa... boleh deh.</item>
+            <item idItemOpsi="2" nextTipe="story" nextId="5" nextTimer="2.0f">Ga bisa euy..</item>
+        </opsi>
+    </story>
+
+    <!--mau ikut-->
+    <story idStory="4" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="3.0f">Asik!</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="true" nextTimer="3.0f">Eh, tapi baru bisa jam 3 sore</item>
+            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="false" nextTimer="3.0f">Yahh.. udah bubar atuh acaranya</item>
+            <item idItemChat="4" nextTipe="chat" nextId="5" isFromUser="true" nextTimer="3.0f">Dikira teh acaranya malam..</item>
+            <item idItemChat="5"  nextTipe="notif" nextId="1" isFromUser="false" nextTimer="3.0f">ckckck</item>
+        </chat>
+
+        <notif>
+            <item idItemNotif="1" nextTipe="notif" nextId="2" nextTimer="0.2f">Chat bagian kedua selesai</item>
+            <item idItemNotif="2" nextTipe="story" nextId="6" nextTimer="4.0f" regex="timer_delayStory#cosuchan" isNextFromUser="true" delayStory="30.0f">Silahkan cek lagi dalam %1$s</item>
+        </notif>
+    </story>
+
+    <!--ga mau ikut-->
+    <story idStory="5" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="3.0f">Ah, si akang mah!</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="true" nextTimer="3.0f">Ya maap atuh</item>
+            <item idItemChat="3"  nextTipe="notif" nextId="1" isFromUser="false" nextTimer="3.0f">ckckck</item>
+        </chat>
+
+        <notif>
+            <item idItemNotif="1" nextTipe="notif" nextId="2" nextTimer="0.2f">Chat bagian kedua selesai</item>
+            <item idItemNotif="2" nextTipe="story" nextId="6" nextTimer="4.0f" regex="timer_delayStory#cosuchan" isNextFromUser="true" delayStory="30.0f">Silahkan cek lagi dalam %1$s</item>
+        </notif>
+    </story>
+
+    <story idStory="6" showingFirst="opsi#1">
+        <opsi idOpsi="1">
+            <item idItemOpsi="1">aaaaaaa</item>
+            <item idItemOpsi="2">bbbbbb</item>
+        </opsi>
+    </story>
+
+</resources>

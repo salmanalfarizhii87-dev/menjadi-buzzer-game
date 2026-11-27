@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base" x="0" y="60">
+        <container id="headerBar" y="0">
+            <image_list id="bgHeader" y="0" isBaseContainer="true">
+                <item>hpakang/chat/menubar_atas.png</item>
+            </image_list>
+            <image_list id="logo" y="10" pivotX="0.5" alignX="wLayar#0.5" alignY="bgHeader#0">
+                <item>hpakang/chat/logo.png</item>
+            </image_list>
+            <button id="btnContact" x="-40" y="20" pivotX="1" alignX="bgHeader#1" alignY="bgHeader#0" imageNormal="hpakang/chat/button_kontak.png" onClick="pindahState#tepangContact">
+            </button>
+        </container>
+
+        <text id="textKosong" x="0" y="-30" pivotX="0.5" pivotY="0.5" alignX="wLayar#0.5" alignY="hLayar#0.5" font="comicneueLight" fontSize="35" color="5b5b5b" wrapWidth="650" isCenter="true" isVisible="false">Belum ada chatting...&#10;Ayo, mulai chatting sekarang dengan menekan&#10;tombol buku kontak di pojok kanan atas layar.</text>
+
+        <scrollView id="scrollHome" x="0" y="0" alignY="headerBar#1" height="1000">
+        </scrollView>
+    </container>
+
+    <animation>
+    </animation>
+</resources>

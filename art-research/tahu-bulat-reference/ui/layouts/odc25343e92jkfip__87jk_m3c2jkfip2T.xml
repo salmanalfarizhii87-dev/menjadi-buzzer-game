@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <story lamaFestival="86400" noMisi="2" delayFestival="86400">
+        <judul>Tanding Bola</judul>
+        <image>UI_baru/banner_popUp_festival_story.png</image>
+        <syarat_buka>
+            <item tipe="penghasilan" cabang="Bandung">10000000</item>
+            <item tipe="story" cabang="Festival Story" value="1"/>
+        </syarat_buka>
+        <storyBukaCabang>xml_dialog/misi 2/festivalstory_bukacabang.xml</storyBukaCabang>
+        <storyAwalDiCabang>xml_dialog/misi 2/festivalstory_awal.xml</storyAwalDiCabang>
+        <storyTargetTercapai>xml_dialog/misi 2/festivalstory_targettercapai.xml</storyTargetTercapai>
+        <storyTargetTidakTercapai>xml_dialog/misi 2/festivalstory_targettidaktercapai.xml</storyTargetTidakTercapai>
+        <popup_reward>
+            <judul>Tanding Bola</judul>
+            <desc>Kali ini Vicky menantang Akang Tahu untuk menjual Tahu Bulat untuk para Bocah Bola yang lagi ikut Tanding Bola!&#10;&#10;Mari berjuang! Jangan sampai kalah!</desc>
+        </popup_reward>
+        <reward>
+            <item target="50000000" namaHadiah="Peti Perunggu" tipeHadiah="chest" idHadiah="chest_bronze" jumlahHadiah="1"/>
+<!--            <item target="25000000" namaHadiah="Bawang Putih" tipeHadiah="rempah" idHadiah="1" jumlahHadiah="1"/>-->
+            <!--<item target="1000" namaHadiah="Sticker Ramadhan" tipeHadiah="stickerWA" idHadiah="ramadhan" jumlahHadiah="2" namaPengganti="Chest Kayu" tipePengganti="chest" idPengganti="chest_kayu" jumlahPengganti="1"/>-->
+        </reward>
+        <trio_kribo>
+            <bocah1 cabang="Purba"/>
+            <bocah2 cabang="Purba"/>
+            <bocah3 cabang="Purba"/>
+        </trio_kribo>
+        <menu_item>
+            <mobil>
+                <bodyMobil cabang="Palembang"/>
+            </mobil>
+            <minuman>
+                <item id="Lait Soja" icon="ic_lait soja - connoitre rond.png"/>
+            </minuman>
+            <resep banyakItem="10">
+                <item cabang="Belanda" idx="6"/>
+                <item cabang="Purba" idx="7"/>
+                <item cabang="Belanda" idx="8"/>
+                <item cabang="Belanda" idx="9"/>
+                <item cabang="Purba" idx="8"/>
+                <item cabang="Purba" idx="9"/>
+                <item cabang="Belanda" idx="7"/>
+                <item cabang="Belanda" idx="11"/>
+                <item cabang="Belanda" idx="10"/>
+                <item cabang="Purba" idx="10"/>
+            </resep>
+            <promo banyakItem="8">
+                <item cabang="Bandung" idx="1"/>
+                <item cabang="Jepang" idx="1"/>
+                <item cabang="Dubai" idx="1"/>
+                <item cabang="Belanda" idx="1"/>
+                <item cabang="Korea" idx="1"/>
+                <item cabang="Majapahit" idx="1"/>
+                <item cabang="Purba" idx="1"/>
+                <item cabang="Mars" idx="1"/>
+            </promo>
+        </menu_item>
+    </story>
+</resources>

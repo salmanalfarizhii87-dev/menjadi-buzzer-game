@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <image_list id="banner" scaleX="2.0" scaleY="2.0"><!--//06212020-->
+            <item>UI_baru/banner_stickerWA.png</item>
+        </image_list>
+        <image_list id="batasMenu" alignY="banner#1">
+            <item>UI_baru/ui_batas_menu.png</item>
+        </image_list>
+
+        <container id="extra" alignY="batasMenu#1" height="200">
+            <image_list id="penutupGradasi" y="171">
+                <item>UI_baru/batas_gradient.png</item>
+            </image_list>
+
+            <image_list id="bgPaperClip" y="10">
+                <item>UI_baru/label_paperclip_lampu_PENDEK.png</item>
+            </image_list>
+
+            <text id="textPaperClip" x="120" y="-5" pivotY="0.5" alignX="bgPaperClip#0" alignY="bgPaperClip#0.5" font="comicneueLight" fontSize="30" color="000000" wrapWidth="420" isCenter="false">Naikkan levelmu, dan dapatkan Stiker WA sebagai Hadiah!</text>
+
+            <container id="badgeLevel" x="40" alignX="bgPaperClip#1" y="-10" alignY="bgPaperClip#0" scaleX="0.8" scaleY="0.8" pivotScaleX="0" pivotScaleY="0">
+                <image_list id="bgBadgeLevel" x="0" y="0" isBaseContainer="true">
+                    <item>UI_baru/label_level.png</item>
+                </image_list>
+                <text id="textBadgeLevel" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="bgBadgeLevel#0.5" alignY="bgBadgeLevel#0.5" font="cuckoo" fontSize="32" color="000000">1</text>
+            </container>
+
+            <container id="barExp" x="45" y="5" alignY="badgeLevel#1" alignX="bgPaperClip#1" scaleX="0.8" scaleY="0.8" pivotScaleX="0" pivotScaleY="0">
+                <image_list id="barKosongExp" x="0" y="0" isBaseContainer="true">
+                    <item>UI_baru/bar_peridot.png</item>
+                </image_list>
+                <image_list id="barIsiExp" x="0" y="0" scaleX="0.5">
+                    <item>UI_baru/bar_isi.png</item>
+                </image_list>
+                <text id="textBarExp" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="barKosongExp#0.5" alignY="barKosongExp#0.5" font="cuckoo" fontSize="28" color="ffffff">50%</text>
+            </container>
+        </container>
+
+        <container id="tabs" x="25" y="10" height="114" alignY="extra#1">
+            <button id="btnAkang" x="20" y="0" imageNormal="UI_baru/btn_tab_biru_sisi_dekok.png">
+                <container id="tab0" x="-25" y="30">
+                    <image_list id="iconAkang" x="85" y="25" pivotY="0.5" scaleX="0.75" scaleY="0.75">
+                        <item>stikerWA/ic_stikerAkang.png</item>
+                    </image_list>
+                    <text id="labelAkang" x="0" y="60" pivotY="1" font="comicneueLight" fontSize="21" color="ffffff" wrapWidth="220" isCenter="true">Akang Tahu</text>
+                </container>
+                <image_list id="alert_akang" pivotY="0" pivotX="1" x="164" y="0" isVisible="false">
+                    <item>UI_baru/ic_alert.png</item>
+                </image_list>
+            </button>
+            <button id="btnRamadhan" x="0" y="0" alignX="btnAkang#1" alignY="btnAkang#0" imageNormal="UI_baru/btn_tab_biru_tengah_timbul.png">
+                <container id="tab1" x="-25" y="30">
+                    <image_list id="iconRamadhan" x="85" y="25" pivotY="0.5" scaleX="0.75" scaleY="0.75">
+                        <item>stikerWA/ic_stikerRamadhan.png</item>
+                    </image_list>
+                    <text id="labelRamadhan" x="0" y="60" pivotY="1"  font="comicneueLight" fontSize="21" color="ffffff" wrapWidth="220" isCenter="true">Edisi Ramadhan</text>
+                </container>
+                <image_list id="alert_ramadhan" pivotY="0" pivotX="1" x="164" y="0" isVisible="false">
+                    <item>UI_baru/ic_alert.png</item>
+                </image_list>
+            </button>
+            <button id="btnUltahTB8" x="0" y="0" alignX="btnRamadhan#1" alignY="btnAkang#0" imageNormal="UI_baru/btn_tab_biru_tengah_timbul.png">
+                <container id="tab2" x="-25" y="30">
+                    <image_list id="iconUltahWA" x="85" y="25" pivotY="0.5" scaleX="0.75" scaleY="0.75"><!--x="170" y="28"-->
+                        <item>stikerWA/ultahwa/TB_ic_Sticker8thAnniv_tab.png</item>
+                    </image_list>
+                    <text id="labelUltahWA" x="0" y="60" pivotY="1"  font="comicneueLight" fontSize="21" color="ffffff" wrapWidth="220" isCenter="true">Edisi Ultah</text>
+                </container>
+                <image_list id="alert_ultahwa" pivotY="0" pivotX="1" x="164" y="0" isVisible="false">
+                    <item>UI_baru/ic_alert.png</item>
+                </image_list>
+            </button>
+            <button id="btnComingSoon2" x="0" y="0" scaleX="-1" pivotScaleX="0.5" alignX="btnUltahTB8#1" alignY="btnUltahTB8#0" imageNormal="UI_baru/btn_tab_biru_sisi_timbul.png">
+                <container id="tab3" x="-25" y="30">
+                    <image_list id="iconComingSoon2" x="135" y="25" pivotY="0.5" scaleX="-0.75" scaleY="0.75"><!--x="170" y="28"-->
+                        <item>stikerWA/ic_stikerKamingsun.png</item>
+                    </image_list>
+                    <text id="labelComingSoon2" x="0" y="60" pivotY="1" scaleX="-1" pivotScaleX="0" font="comicneueLight" fontSize="21" color="ffffff" wrapWidth="220" isCenter="true">Kamingsun!</text>
+                </container>
+            </button>
+        </container>
+
+        <scrollView id="scrollData" x="0" alignY="tabs#1" y="20" height="1000">
+        </scrollView>
+
+        <text id="textKosong" x="0" y="20" pivotX="0.5" alignX="wLayar#0.5" pivotY="0.5" alignY="tabs#1" font="comicneueLight" fontSize="32" color="ffffff" isCenter="true" wrapWidth="650" isVisible="false">Segera hadir seri stiker Tahu Bulat berikutnya!&#10;&#10;Kamu mau stiker WA seperti apa? Yuk cerita ke admin tim Tahu di fanpage Tahu Bulat di Facebook atau ke Instagram @takodkk</text>
+
+<!--        <container id="contData" x="0" alignY="extra#1" y="-25" height="1000">-->
+<!--            <container id="contBelumAmbil" x="0" y="10" height="500">-->
+<!--            </container>-->
+<!--            <container id="contSudahAmbil" x="0" y="10" alignY="belumAmbil#1" height="500">-->
+<!--            </container>-->
+<!--        </container>-->
+
+<!--        <image_list id="notifWA" x="0" y="0" pivotX="1" pivotY="0" isVisible="false">-->
+<!--            <item>UI_baru/ic_alert.png</item>-->
+<!--        </image_list>-->
+
+        <container id="barBackMenu" y="-137" alignY="hLayar#1" height="137">
+            <image_list id="bgMenuBack" y="137" pivotY="1">
+                <item>UI_baru/ui_batas_menu_back.png</item>
+            </image_list>
+            <button id="btnBack" x="20" imageNormal="UI_baru/btn_back.png" y="137" pivotY="1" onClick="backPressed">
+            </button>
+            <button id="btnInfo" x="-20" pivotX="1" alignX="wLayar#1" imageNormal="UI_baru/button_bulat_besar_kuning.png" y="137" pivotY="1">
+                <image_list id="labelInfo" x="-61" y="-78" pivotY="0.5" pivotX="0.5">
+                    <item>UI_baru/ic_info.png</item>
+                </image_list>
+            </button>
+        </container>
+    </container>
+
+    <animation>
+        <alertAkang>
+            <sequence repeat="-1">
+                <alpha id="alert_akang" time="0.3">0</alpha>
+                <alpha id="alert_akang" time="0.3">1</alpha>
+            </sequence>
+        </alertAkang>
+        <alertRamadhan>
+            <sequence repeat="-1">
+                <alpha id="alert_ramadhan" time="0.3">0</alpha>
+                <alpha id="alert_ramadhan" time="0.3">1</alpha>
+            </sequence>
+        </alertRamadhan>
+    </animation>
+</resources>

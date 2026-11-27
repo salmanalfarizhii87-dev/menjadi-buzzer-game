@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>HAHAHAHAHA!!!&#10;Ga sampe target, ya?</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>.........................</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Tenang saja...&#10;Suatu saat kamu akan menang..</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Meskipun mungkin baru setelah 10,000 tahun lagi!&#10;HAHAHAHAHA!!</desc>
+        </dialog>
+	<aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>.........&#10;Yang berikutnya..&#10;Pasti aku menang!!</desc>
+        </dialog>
+    </skenario>
+</resources>

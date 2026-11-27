@@ -1,0 +1,337 @@
+<!DOCTYPE html><html lang="id"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title Screen — Menjadi Buzzer</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">/** @type {import('tailwindcss').Config} */
+globalThis.tailwind = globalThis.tailwind || {};
+globalThis.tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        'wood-bar': '#5C341A',
+        'wood-light': '#6E3F21',
+        'wood-mid': '#4A2812',
+        'wood-dark': '#3A2010',
+        'wood-shadow': '#241005',
+        'cork-board': '#C88A4B',
+        'amber-canvas': '#F7CE7D',
+        'amber-gold': '#F5A623',
+        'gold-bright': '#FDE047',
+        'gold-deep': '#D97706',
+        'parchment': '#FFFBF2',
+        'parchment-border': '#C0835A',
+        'success': '#1F7A26',
+        'on-success': '#FFFFFF',
+        'warning': '#B56100',
+        'on-warning': '#060606',
+        'info': '#1D6FA5',
+        'on-info': '#FFFFFF',
+        'hud-cyan': '#28B8E8',
+        'hud-cyan-dark': '#0E7DB0',
+        'hud-purple': '#6B3FA0',
+        'hud-purple-dark': '#452273',
+        'dock-bg': '#EDF2F7',
+        'ink-dark': '#1E1B2E',
+        'btn-red': '#E53935',
+        'btn-red-dark': '#B71C1C',
+        'btn-orange': '#FB8C00',
+        'btn-orange-dark': '#D85000',
+        'btn-blue': '#039BE5',
+        'btn-blue-dark': '#01579B',
+        'btn-yellow': '#FDD835',
+        'btn-yellow-dark': '#F59E0B',
+        'btn-purple': '#8E24AA',
+        'btn-purple-dark': '#4A148C',
+        'btn-green': '#2EAD39',
+        'btn-green-dark': '#16681D',
+        'light-primary': '#006013',
+        'light-on-primary': '#FFFFFF',
+        'light-primary-container': '#1F7A26',
+        'light-on-primary-container': '#ADFFA2',
+        'light-secondary': '#86522D',
+        'light-on-secondary': '#FFFFFF',
+        'light-secondary-container': '#FFBA8E',
+        'light-on-secondary-container': '#4F2504',
+        'light-tertiary': '#7D4200',
+        'light-on-tertiary': '#FFFFFF',
+        'light-tertiary-container': '#FFE6D5',
+        'light-on-tertiary-container': '#4D2600',
+        'light-error': '#BA1A1A',
+        'light-on-error': '#FFFFFF',
+        'light-error-container': '#FFDAD6',
+        'light-on-error-container': '#93000A',
+        'light-background': '#F7CE7D',
+        'light-on-background': '#2F1502',
+        'light-surface': '#FFFBF2',
+        'light-surface-dim': '#FFE3D2',
+        'light-surface-bright': '#FFFFFF',
+        'light-surface-container-lowest': '#FFFFFF',
+        'light-surface-container-low': '#FFF8F0',
+        'light-surface-container': '#FFF1EA',
+        'light-surface-container-high': '#FFEADE',
+        'light-surface-container-highest': '#FFDCC6',
+        'light-on-surface': '#2F1502',
+        'light-surface-variant': '#DBE6D4',
+        'light-on-surface-variant': '#40493D',
+        'light-outline': '#707A6B',
+        'light-outline-variant': '#C0835A',
+        'light-inverse-surface': '#482911',
+        'light-inverse-on-surface': '#FFEDE4',
+        'light-inverse-primary': '#81DB7A',
+        'light-shadow': '#000000',
+        'light-scrim': '#000000',
+        'dark-primary': '#81DB7A',
+        'dark-on-primary': '#003908',
+        'dark-primary-container': '#1F7A26',
+        'dark-on-primary-container': '#ADFFA2',
+        'dark-secondary': '#FCB78A',
+        'dark-on-secondary': '#4F2504',
+        'dark-secondary-container': '#6D3D1A',
+        'dark-on-secondary-container': '#EDAA7E',
+        'dark-tertiary': '#FFB77D',
+        'dark-on-tertiary': '#4D2600',
+        'dark-tertiary-container': '#A15600',
+        'dark-on-tertiary-container': '#FFE6D5',
+        'dark-error': '#FFB4AB',
+        'dark-on-error': '#690005',
+        'dark-error-container': '#93000A',
+        'dark-on-error-container': '#FFDAD6',
+        'dark-background': '#240D00',
+        'dark-on-background': '#FFDCC6',
+        'dark-surface': '#2F1502',
+        'dark-surface-dim': '#240D00',
+        'dark-surface-bright': '#523119',
+        'dark-surface-container-lowest': '#1C0900',
+        'dark-surface-container-low': '#2F1502',
+        'dark-surface-container': '#341904',
+        'dark-surface-container-high': '#40230B',
+        'dark-surface-container-highest': '#4D2D15',
+        'dark-on-surface': '#FFDCC6',
+        'dark-surface-variant': '#40493D',
+        'dark-on-surface-variant': '#BFCAB9',
+        'dark-outline': '#899484',
+        'dark-outline-variant': '#623F25',
+        'dark-inverse-surface': '#FFDCC6',
+        'dark-inverse-on-surface': '#482911',
+        'dark-inverse-primary': '#0C6E1B',
+        'dark-shadow': '#000000',
+        'dark-scrim': '#000000',
+      },
+      borderRadius: {
+        'sm': '6px',
+        'DEFAULT': '10px',
+        'md': '14px',
+        'lg': '18px',
+        'xl': '24px',
+        'full': '9999px',
+      },
+      spacing: {
+        'gutter-xs': '4px',
+        'gutter-sm': '8px',
+        'gutter-md': '12px',
+        'gutter-lg': '16px',
+        'gutter-xl': '24px',
+        'section': '20px',
+        'page-margin': '14px',
+      },
+      fontFamily: {
+        'display': ['"Fredoka"', 'sans-serif'],
+        'headline': ['"Fredoka"', 'sans-serif'],
+        'title': ['"Fredoka"', 'sans-serif'],
+        'body': ['"Spline Sans"', 'sans-serif'],
+        'label': ['"Fredoka"', 'sans-serif'],
+        'mono': ['"DM Mono"', 'monospace'],
+      },
+      fontSize: {
+        'display-lg': ['36px', { lineHeight: '42px', letterSpacing: '-0.25px', fontWeight: '700' }],
+        'display-lg-mobile': ['28px', { lineHeight: '34px', letterSpacing: '-0.25px', fontWeight: '700' }],
+        'headline-lg': ['24px', { lineHeight: '30px', letterSpacing: '0px', fontWeight: '600' }],
+        'headline-md': ['20px', { lineHeight: '26px', letterSpacing: '0px', fontWeight: '600' }],
+        'title-md': ['16px', { lineHeight: '22px', letterSpacing: '0px', fontWeight: '600' }],
+        'body-md': ['14px', { lineHeight: '20px', letterSpacing: '0px', fontWeight: '500' }],
+        'body-sm': ['12px', { lineHeight: '16px', letterSpacing: '0.1px', fontWeight: '500' }],
+        'label-lg': ['15px', { lineHeight: '20px', letterSpacing: '0.1px', fontWeight: '600' }],
+        'label-sm': ['11px', { lineHeight: '14px', letterSpacing: '0.2px', fontWeight: '700' }],
+        'mono-md': ['14px', { lineHeight: '18px', letterSpacing: '0px', fontWeight: '500' }],
+      },
+      transitionDuration: {
+        'button-press': '100ms',
+        'card-enter': '220ms',
+      },
+      transitionDelay: {
+        'button-press': '0ms',
+        'card-enter': '0ms',
+      },
+      transitionTimingFunction: {
+        'button-press': 'ease-out',
+        'card-enter': 'cubic-bezier(0.2, 0, 0, 1)',
+      },
+    },
+  },
+};
+if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
+</script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&amp;family=Fredoka:wght@600;700&amp;family=Spline+Sans:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    .ref-hud-purple { background: linear-gradient(180deg, #522B7A 0%, #3E1D61 100%); }
+    .ref-cyan-pill { background: linear-gradient(180deg, #0B709E 0%, #074E6E 100%); box-shadow: 0 2px 4px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.35); }
+    .ref-gem-box { background: linear-gradient(180deg, #351754 0%, #260E40 100%); box-shadow: 0 2px 4px rgba(0,0,0,0.35); }
+    .ref-card { background: #FFFFFF; border: 2px solid #CBD5E1; box-shadow: 0 4px 0 #94A3B8; }
+    .ref-btn-green { background: linear-gradient(180deg, #1F8528 0%, #155E1B 100%); box-shadow: 0 4px 0 #0D3B11, inset 0 2px 0 rgba(255,255,255,0.35); }
+    .ref-btn-green:active { transform: translateY(2px); box-shadow: 0 2px 0 #0D3B11; }
+    .ref-btn-white { background: linear-gradient(180deg, #FFFFFF 0%, #E2E8F0 100%); box-shadow: 0 3px 0 #94A3B8, inset 0 2px 0 #FFFFFF; }
+    .ref-btn-white:active { transform: translateY(2px); box-shadow: 0 1px 0 #94A3B8; }
+    .ref-btn-red { background: linear-gradient(180deg, #C62828 0%, #B71C1C 100%); box-shadow: 0 4px 0 #7F1D1D, inset 0 2px 0 rgba(255,255,255,0.35); }
+    .ref-btn-red:active { transform: translateY(2px); box-shadow: 0 2px 0 #7F1D1D; }
+  </style>
+</head>
+<body class="bg-hud-purple-dark text-ink-dark font-body antialiased">
+  <div class="min-h-[884px] max-w-md mx-auto relative flex flex-col justify-between overflow-hidden bg-hud-purple-dark" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- Full-Bleed Studio Background + Deep Purple Scrim -->
+    <img src="https://lh3.googleusercontent.com/aida/ALJJyrAalnJ4ovKNt73RGJPxdnKB8rWv5XK5fB4GH-yneKwoXWFdjSDxRANsar91yn7T2Z-VfTFzMcR4hmn3pSh7gJUB-hsG2SxDoCuZIufEdSEUS4_m53Tq4E-E3qcKlUHJ6lA_TpJb-L9yUY3nNNntsJu9lWUTvp2f0SifddUIwadVQduIxXe-rbV4IVVigRFEpcK_FN8rGTJgJwITnVhvY9qWNLTvJat2OQlXOuOfyaS86J8i_AIhFKoBlWhr" alt="Latar studio Menjadi Buzzer" class="absolute inset-0 w-full h-full object-cover object-center">
+    <div class="absolute inset-0 bg-gradient-to-b from-hud-purple-dark/85 via-hud-purple-dark/45 to-hud-purple-dark/90 pointer-events-none"></div>
+
+    <!-- Top Purple Game Title Plaque -->
+    <header class="relative z-10 px-gutter-lg pt-gutter-xl flex flex-col items-center gap-gutter-sm text-center">
+      <div class="ref-hud-purple border-2 border-hud-purple rounded-2xl px-gutter-xl py-gutter-lg w-full flex flex-col items-center gap-gutter-sm shadow-[0_6px_0_#1E1B2E,0_10px_20px_rgba(0,0,0,0.45)]">
+        <div class="flex items-center gap-gutter-xs">
+          <svg class="w-8 h-8 shrink-0" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <path d="M5 11L19 6V20L5 15V11Z" fill="#EF4444" stroke="#1E1B2E" stroke-width="2" stroke-linejoin="round"></path>
+            <path d="M19 9C21.5 10 22.5 12 22.5 13C22.5 14 21.5 16 19 17" stroke="#FACC15" stroke-width="2.5" stroke-linecap="round"></path>
+            <rect x="7" y="15" width="4" height="6" rx="1.5" fill="#FACC15" stroke="#1E1B2E" stroke-width="2"></rect>
+          </svg>
+          <span class="px-gutter-sm py-gutter-xs rounded-full bg-btn-yellow text-ink-dark font-headline text-label-sm" data-design-text-token="label-sm">v1.0 MVP</span>
+        </div>
+
+        <h1 class="font-display text-display-lg-mobile text-light-surface-bright" data-design-text-token="display-lg-mobile">MENJADI BUZZER</h1>
+        <div class="ref-cyan-pill rounded-full px-gutter-md py-1">
+          <p class="font-body text-body-sm text-light-surface-bright text-balance" data-design-text-token="body-sm">
+            Simulasi Karier Buzzer &amp; Strategi Viral
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Save Slot & Recovery Container -->
+    <main class="relative z-10 px-gutter-md py-gutter-lg flex flex-col gap-gutter-md">
+
+      <!-- Normal Save Slot Card -->
+      <section id="save-ready-card" aria-label="Slot save lokal" class="ref-card rounded-xl p-gutter-lg flex flex-col gap-gutter-md">
+        <div class="flex items-center justify-between gap-gutter-sm">
+          <div class="flex items-center gap-gutter-md min-w-0">
+            <img src="https://lh3.googleusercontent.com/aida/ALJJyrAAmkiNzby98xt46n-ryFksxewrXx7qnm5rwhRKW9fRIbYR7o_2q0m3j6jw95TvR7tC-TkZf742d6nSyMKq5PEteWEAF1P3rpYCneuedNsIl5v1RdwThVe3OtFY7WUCBc5H_BbYdVqJBY-Ejfkqz2B0Z1-GDxF8bbSOh3h5ZIrG68Y4H7mMvmk8rD47midmOM_fn3tZs8_7eZ79LjIhN3C-1E89hYyNrS70FabYl_Rj3qLkLqpV1A" alt="Avatar @KilatDaily" class="w-14 h-14 rounded-full object-cover border-2 border-hud-purple bg-hud-purple-dark shrink-0">
+            <div class="min-w-0">
+              <h2 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">@KilatDaily • Lv 1</h2>
+              <p id="save-summary" class="font-mono text-body-sm text-success tabular-nums" data-design-text-token="body-sm">Rp 500 • 1.000 Followers</p>
+            </div>
+          </div>
+          <span class="px-gutter-sm py-gutter-xs rounded-full bg-success text-light-surface-bright font-headline text-label-sm shrink-0" data-design-text-token="label-sm">Save Siap</span>
+        </div>
+
+        <!-- Primary Continue CTA -->
+        <a href="../01-business-home/Business%20Home.html" class="ref-btn-green w-full inline-flex items-center justify-center gap-gutter-sm px-gutter-lg py-gutter-md rounded-xl">
+          <svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <polygon points="6,4 20,12 6,20" fill="#FACC15" stroke="#0D3B11" stroke-width="2" stroke-linejoin="round"></polygon>
+          </svg>
+          <span class="font-headline text-label-lg text-light-surface-bright" data-design-text-token="label-lg">Lanjutkan Game</span>
+        </a>
+
+        <!-- Secondary New Game -->
+        <div class="grid grid-cols-2 gap-gutter-sm">
+          <button type="button" onclick="openNewGameConfirm()" class="ref-btn-white py-gutter-sm px-gutter-md rounded-xl font-headline text-label-sm text-ink-dark cursor-pointer" data-design-text-token="label-sm">
+            Mulai Save Baru
+          </button>
+          <button type="button" onclick="simulateCorruptSave()" class="ref-btn-white py-gutter-sm px-gutter-md rounded-xl font-headline text-label-sm text-btn-red-dark cursor-pointer" data-design-text-token="label-sm">
+            Uji Save Rusak
+          </button>
+        </div>
+
+        <!-- New Game Confirmation Drawer -->
+        <div id="new-game-confirm" class="hidden bg-light-error-container border-2 border-btn-red-dark rounded-xl p-gutter-md flex flex-col gap-gutter-sm">
+          <p class="font-headline text-body-sm text-light-on-error-container text-balance" data-design-text-token="body-sm">
+            Save lama (@KilatDaily) akan ditimpa. Yakin mulai dari awal?
+          </p>
+          <div class="grid grid-cols-2 gap-gutter-sm">
+            <button type="button" onclick="closeNewGameConfirm()" class="ref-btn-white py-gutter-xs px-gutter-sm rounded-xl font-headline text-label-sm text-ink-dark cursor-pointer" data-design-text-token="label-sm">Batal</button>
+            <a href="../01-business-home/Business%20Home.html" onclick="resetAndStart()" class="ref-btn-red py-gutter-xs px-gutter-sm rounded-xl font-headline text-label-sm text-light-surface-bright text-center" data-design-text-token="label-sm">Ya, Timpa Save</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Save Recovery Card -->
+      <section id="save-recovery-card" aria-label="Pemulihan save rusak" class="hidden ref-card rounded-xl p-gutter-lg flex flex-col gap-gutter-md border-btn-red-dark">
+        <div class="flex items-start gap-gutter-sm">
+          <svg class="w-8 h-8 shrink-0" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <path d="M14 3L26 24H2L14 3Z" fill="#FCA5A5" stroke="#B71C1C" stroke-width="2" stroke-linejoin="round"></path>
+            <path d="M14 11V17" stroke="#B71C1C" stroke-width="2.4" stroke-linecap="round"></path>
+            <circle cx="14" cy="20.5" r="1.4" fill="#B71C1C"></circle>
+          </svg>
+          <div>
+            <h2 class="font-headline text-title-md text-btn-red-dark" data-design-text-token="title-md">Save Lokal Tidak Valid</h2>
+            <p class="font-body text-body-sm text-ink-dark text-pretty" data-design-text-token="body-sm">
+              Data save lokal corrupt atau versi schema tidak cocok. Game tidak menimpa progres secara diam-diam. Pilih pemulihan di bawah:
+            </p>
+          </div>
+        </div>
+
+        <a href="../01-business-home/Business%20Home.html" onclick="resetAndStart()" class="ref-btn-green w-full inline-flex items-center justify-center gap-gutter-sm px-gutter-lg py-gutter-md rounded-xl">
+          <span class="font-headline text-label-lg text-light-surface-bright" data-design-text-token="label-lg">Buat Save Baru yang Bersih</span>
+        </a>
+
+        <button type="button" onclick="restoreNormalView()" class="ref-btn-white w-full py-gutter-sm px-gutter-md rounded-xl font-headline text-label-sm text-ink-dark cursor-pointer" data-design-text-token="label-sm">
+          Kembali ke Slot Save
+        </button>
+      </section>
+
+    </main>
+
+    <!-- Footer Note -->
+    <footer class="relative z-10 px-gutter-md pb-gutter-lg flex justify-center">
+      <div class="ref-gem-box rounded-full px-gutter-md py-gutter-xs border border-hud-purple">
+        <p class="font-body text-label-sm text-light-surface-bright text-center" data-design-text-token="label-sm">
+          Save Lokal Browser • Tidak Ada Offline Earning
+        </p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    try {
+      var saved = localStorage.getItem('mb_mvp_balance');
+      if (saved && !isNaN(parseFloat(saved))) {
+        document.getElementById('save-summary').textContent =
+          'Rp ' + Math.floor(parseFloat(saved)).toLocaleString('id-ID') + ' • 1.000 Followers';
+      }
+    } catch (e) {}
+
+    function openNewGameConfirm() {
+      document.getElementById('new-game-confirm').classList.remove('hidden');
+    }
+
+    function closeNewGameConfirm() {
+      document.getElementById('new-game-confirm').classList.add('hidden');
+    }
+
+    function resetAndStart() {
+      try {
+        localStorage.setItem('mb_mvp_balance', '500');
+      } catch (e) {}
+    }
+
+    function simulateCorruptSave() {
+      document.getElementById('save-ready-card').classList.add('hidden');
+      document.getElementById('save-recovery-card').classList.remove('hidden');
+    }
+
+    function restoreNormalView() {
+      document.getElementById('save-recovery-card').classList.add('hidden');
+      document.getElementById('save-ready-card').classList.remove('hidden');
+    }
+  </script>
+
+
+</body></html>

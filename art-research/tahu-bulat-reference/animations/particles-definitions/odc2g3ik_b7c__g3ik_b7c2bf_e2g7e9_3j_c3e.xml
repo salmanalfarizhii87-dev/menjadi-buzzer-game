@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <particlesystem>
+        <emitter id="koin_jatuh" pivotX="0.5" pivotY="0.5" type="line">
+            <particle lifetime="3.0">
+                <imagelist>
+                    <image type="0">UI_baru/icon_koin.png</image>
+                </imagelist>
+                <p_start>
+                    <!--<alpha min="0.8" max="1.0"/>-->
+                    <scale pivotX="0.5" pivotY="0.5" min="0.25" max="0.5" />
+                    <angle pivotX="0.5" pivotY="0.5" min="0" max="90"/>
+                    <!--<velocity arahMin="90" arahMax="90" min="300" max="600" />-->
+                    <velocity arahMin="90" arahMax="90" min="8" max="13" kelipatan="100"/>
+                </p_start>
+                <p_running randCCW="true">
+                    <!--<angle pivotX="0.5" pivotY="0.5" min="90" max="180" when="0.2"/>-->
+                    <!--<angle pivotX="0.5" pivotY="0.5" min="180" max="270" when="0.5"/>-->
+                    <!--<angle pivotX="0.5" pivotY="0.5" min="270" max="360" when="0.7"/>-->
+                    <angle pivotX="0.5" pivotY="0.5" min="90" max="180" when="0.15"/>
+                    <angle pivotX="0.5" pivotY="0.5" min="180" max="270" when="0.45"/>
+                    <angle pivotX="0.5" pivotY="0.5" min="270" max="360" when="0.65"/>
+                    <!--<scale min="0.5" max="1" when="0.1" />-->
+                </p_running>
+            </particle>
+            <e_start>
+                <!--<burst nBurst="5" burstTime="0.001"/>-->
+                <burst nBurst="10" burstTime="0.001"/>
+                <!--<emit nEmit="1" delay="0.1" repeat="8"/>-->
+                <emit nEmit="2" delay="0.3" repeat="15"/>
+                <source>
+                    <point x="0" y="0"/>
+                    <point x="768" y="0"/>
+                </source>
+            </e_start>
+            <e_running></e_running>
+        </emitter>
+    </particlesystem>
+</resources>

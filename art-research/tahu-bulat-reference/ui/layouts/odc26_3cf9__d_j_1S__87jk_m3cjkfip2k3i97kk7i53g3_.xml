@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="tekad_bulad" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Target Penjualan TERCAPAIII!!!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="mantul" isHold="true">
+            <desc>Manttulll!&#10;Terima kasih atas perjuangannya ya, Partner!!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>NYOooOEEEYYY!!&#10;Selamat selamat selamattt!!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Dengan ini bisnis Tahu Bulat&#10;kita pasti makin terkenal! Nyo!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="ketawa1" isHold="true">
+            <desc>WAHAHAHA!!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hmmphh..&#10;Baru sampai target segitu saja sudah senang..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Eh, Kang Piki..&#10;Targetnya tercapai juga loh sama saya..</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHAHAHA!!&#10;Sayang sekali saya sudah berhasil mencapai target yang lebih tinggi lagi sekarang!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Oya? Berapa??</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="kaget" isHold="true">
+            <desc>Uh, itu, anu...</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Yaaaa... banyaklah pokoknya!&#10;HAHAHAHAHA!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Kok.. rasanya seperti dibohongi ya?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hmph, baiklah..&#10;Aku mau pulang dulu..</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Tenang saja, di festival berikutnya aku pasti tidak akan kalah!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Loh, jadinya memang aku yang menang ya?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="kaget" isHold="true">
+            <desc>Euh...&#10;Sudahlah, tak penting itu.</desc>
+        </dialog>
+
+        <aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>...................&#10;Kang Piki itu unik ya orangnya...</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kangg... &#10;Si Kang Piki udah pergi?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Oh Tako! Iya udah pergi..&#10;Dari mana kamu?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Tadi panitia Pasar Gembira manggil, terus ngasih Peti Perunggu ini buat kita!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Peti Perunggu?&#10;Apaan tuh?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Katanya peti ini berisi Rempah-rempah ajaib yang bisa meningkatkan harga jual Tahu Bulat milik kita!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="aha" isHold="true">
+            <desc>Rempah-rempah?!&#10;Wah mantul, bakal makin tambah enak dong Tahu Bulat jualan kita!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Ayo langsung kita buka Peti Perunggu ini!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Eh tunggu dulu, jangan buka di sini, udah mau tutup tempatnya. Nyoo..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Bener juga, ntar kita lagi setengah buka diusir lagi..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Okedehh!!&#10;Yuk, ah kita balik mangkal lagi depan Gedung Sate..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Wokeeee... nyoo!&#10;Sampe sana bikinin Tahu lagi ya, Kang!</desc>
+        </dialog>
+
+    </skenario>
+</resources>

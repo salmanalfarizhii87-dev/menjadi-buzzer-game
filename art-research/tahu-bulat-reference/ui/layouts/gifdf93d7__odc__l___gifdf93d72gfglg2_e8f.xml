@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <text id="textDesc" x="-20" y="0" pivotX="0.5" alignX="wLayar#0.5" font="comicneueLight" fontSize="30" color="000000" wrapWidth="650" isCenter="true">Mainkan Gamenya, Dapatkan Hadiahnya!&#10;Game spesial di event kali ini:</text>
+        <text id="textJudul" x="-20" y="20" pivotX="0.5" alignX="wLayar#0.5" alignY="textDesc#1" font="cuckoo" fontSize="40" color="000000" wrapWidth="650" isCenter="true">Masaru Block Puzzle</text>
+        <text id="textReward" x="-20" y="20" pivotX="0.5" alignX="wLayar#0.5" alignY="textJudul#1" font="comicneueLight" fontSize="30" color="000000" wrapWidth="650" isCenter="true">Hadiah dan tantangan akan berganti&#10;setiap hari, jadi jangan lupa&#10;untuk cek tiap hari yak!&#10;&#10;Event tersedia hingga&#10;%s</text>
+    </container>
+</resources>

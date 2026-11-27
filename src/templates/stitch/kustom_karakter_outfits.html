@@ -1,0 +1,110 @@
+<div class="min-h-[884px] max-w-md mx-auto flex flex-col bg-dock-bg" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- Top Purple HUD Bar -->
+    <header class="sticky top-0 z-20 flex flex-col shadow-[0_3px_8px_rgba(0,0,0,0.22)]">
+      <div class="ref-hud-purple flex items-center gap-gutter-sm px-gutter-sm py-gutter-sm">
+        <a href="../11-character-customizer/Character%20Customizer.html" aria-label="Kembali ke Kustom Karakter" class="w-11 h-11 rounded-full ref-back-circle flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M15 6L9 12L15 18" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </a>
+
+        <div class="flex-1 ref-cyan-pill rounded-lg px-gutter-md py-1 flex flex-col items-center justify-center min-w-0">
+          <span class="font-headline text-title-md text-light-surface-bright leading-none" data-design-text-token="title-md">Outfits</span>
+          <span class="font-mono text-label-sm text-light-surface-bright leading-none mt-0.5" data-design-text-token="label-sm">Kustom Karakter • @KilatDaily</span>
+        </div>
+
+        <div class="px-gutter-sm py-1.5 rounded-lg bg-light-surface-bright flex items-center gap-1 shrink-0">
+          <span id="outfits-balance" class="font-headline text-label-sm text-ink-dark tabular-nums" data-design-text-token="label-sm">Rp 500</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col gap-gutter-md p-gutter-md pb-gutter-xl">
+
+      <!-- Avatar Photo & Outfit Badge Preview Stage -->
+      <section aria-label="Pratinjau outfit karakter" class="ref-stage-spotlight rounded-xl p-gutter-md flex flex-col items-center gap-gutter-sm">
+        <div data-stitch-img="Foto karakter memakai outfit" class="w-32 h-32 rounded-full object-cover border-4 border-hud-purple shadow-[0_4px_0_#94A3B8] stitch-img" role="img" aria-label="Foto karakter memakai outfit"></div>
+
+        <div class="text-center flex flex-col items-center gap-gutter-xs">
+          <h1 class="font-headline text-headline-md text-ink-dark" data-design-text-token="headline-md">@KilatDaily</h1>
+          <p id="preview-bonus" class="px-gutter-sm py-gutter-xs rounded-full bg-success text-light-surface-bright font-headline text-label-sm" data-design-text-token="label-sm">Outfit: Kaos Santai • +2% Performa</p>
+        </div>
+      </section>
+
+      <!-- Kustom Karakter Sub-Screen Navigation -->
+      <nav aria-label="Kategori kustom karakter" class="grid grid-cols-3 gap-gutter-xs ref-hud-purple p-1.5 rounded-xl border-2 border-ink-dark">
+        <a href="../11-character-customizer/Character%20Customizer.html" class="text-center px-gutter-sm py-gutter-sm rounded-lg text-light-surface-bright font-headline text-label-sm" data-design-text-token="label-sm">Player</a>
+        <a href="#" aria-current="page" class="text-center px-gutter-sm py-gutter-sm rounded-lg bg-btn-yellow text-ink-dark font-headline text-label-sm" data-design-text-token="label-sm">Outfits</a>
+        <a href="../20-character-accessories/Character%20Accessories.html" class="text-center px-gutter-sm py-gutter-sm rounded-lg text-light-surface-bright font-headline text-label-sm" data-design-text-token="label-sm">Accessories</a>
+      </nav>
+
+      <!-- Outfits Grid -->
+      <section aria-label="Daftar outfits" class="ref-card rounded-xl p-gutter-md flex flex-col gap-gutter-sm">
+        <div class="flex items-center justify-between gap-gutter-sm">
+          <h2 class="font-headline text-title-md text-ink-dark" data-design-text-token="title-md">Koleksi Outfits</h2>
+          <a href="../03-asset-shop/Asset%20Shop.html" class="font-headline text-label-sm text-btn-blue-dark underline" data-design-text-token="label-sm">Beli di Shop</a>
+        </div>
+
+        <div class="grid grid-cols-2 gap-gutter-sm">
+          <!-- Outfit 1 -->
+          <button type="button" onclick="selectOutfit(this, &#39;Kaos Santai&#39;, &#39;kaos&#39;, &#39;+2% Performa&#39;)" class="outfit-opt flex flex-col items-center gap-gutter-xs p-gutter-sm rounded-xl border-2 border-success bg-dock-bg cursor-pointer">
+            <svg class="w-14 h-14" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <path d="M14 10L20 8C21.5 10 26.5 10 28 8L34 10L40 17L35 22L32 19V38H16V19L13 22L8 17L14 10Z" fill="#FACC15" stroke="#1E1B2E" stroke-width="2.2" stroke-linejoin="round"></path>
+            </svg>
+            <span class="font-headline text-body-sm text-ink-dark" data-design-text-token="body-sm">Kaos Santai</span>
+            <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">+2% Performa</span>
+            <span class="outfit-status px-gutter-sm py-gutter-xs rounded-full bg-success text-light-surface-bright font-headline text-label-sm" data-design-text-token="label-sm">Dipakai</span>
+          </button>
+
+          <!-- Outfit 2 -->
+          <button type="button" onclick="selectOutfit(this, &#39;Hoodie Emerald&#39;, &#39;hoodie&#39;, &#39;+5% Gaya&#39;)" class="outfit-opt flex flex-col items-center gap-gutter-xs p-gutter-sm rounded-xl border-2 border-slate-300 bg-light-surface-bright cursor-pointer">
+            <svg class="w-14 h-14" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <path d="M15 11C17 7 31 7 33 11L40 18L35 23L32 20V38H16V20L13 23L8 18L15 11Z" fill="#1F8528" stroke="#1E1B2E" stroke-width="2.2" stroke-linejoin="round"></path>
+              <path d="M20 12H28L27 18H21L20 12Z" fill="#86EFAC" stroke="#1E1B2E" stroke-width="1.5"></path>
+            </svg>
+            <span class="font-headline text-body-sm text-ink-dark" data-design-text-token="body-sm">Hoodie Emerald</span>
+            <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">+5% Gaya</span>
+            <span class="outfit-status px-gutter-sm py-gutter-xs rounded-full bg-dock-bg text-ink-dark font-headline text-label-sm" data-design-text-token="label-sm">Milikmu</span>
+          </button>
+
+          <!-- Outfit 3 -->
+          <button type="button" onclick="selectOutfit(this, &#39;Jaket Streetwear&#39;, &#39;jaket&#39;, &#39;+8% Hype&#39;)" class="outfit-opt flex flex-col items-center gap-gutter-xs p-gutter-sm rounded-xl border-2 border-slate-300 bg-light-surface-bright cursor-pointer">
+            <svg class="w-14 h-14" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <path d="M14 10L20 9L24 14L28 9L34 10L41 18L36 23L33 20V38H15V20L12 23L7 18L14 10Z" fill="#3B82F6" stroke="#1E1B2E" stroke-width="2.2" stroke-linejoin="round"></path>
+              <path d="M24 14V38" stroke="#FACC15" stroke-width="2"></path>
+            </svg>
+            <span class="font-headline text-body-sm text-ink-dark" data-design-text-token="body-sm">Jaket Streetwear</span>
+            <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">+8% Hype</span>
+            <span class="outfit-status px-gutter-sm py-gutter-xs rounded-full bg-dock-bg text-ink-dark font-headline text-label-sm" data-design-text-token="label-sm">Milikmu</span>
+          </button>
+
+          <!-- Outfit 4 (Shop) -->
+          <a href="../03-asset-shop/Asset%20Shop.html" class="flex flex-col items-center justify-center gap-gutter-xs p-gutter-sm rounded-xl border-2 border-dashed border-slate-400 bg-dock-bg">
+            <svg class="w-14 h-14" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <path d="M15 10L21 9L24 16L27 9L33 10L39 18L35 23L32 20V38H16V20L13 23L9 18L15 10Z" fill="#CBD5E1" stroke="#334155" stroke-width="2.2" stroke-linejoin="round"></path>
+              <rect x="20" y="21" width="8" height="7" rx="1.5" fill="#FACC15" stroke="#1E1B2E" stroke-width="1.8"></rect>
+            </svg>
+            <span class="font-headline text-body-sm text-ink-dark" data-design-text-token="body-sm">Jas Eksekutif</span>
+            <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">+15% Reputasi</span>
+            <span class="px-gutter-sm py-gutter-xs rounded-full bg-btn-yellow text-ink-dark font-headline text-label-sm tabular-nums" data-design-text-token="label-sm">Shop • Rp 450</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Save Feedback Toast -->
+      <p id="save-toast" class="hidden text-center font-headline text-body-sm text-light-surface-bright bg-success border-2 border-ink-dark rounded-xl py-gutter-sm px-gutter-md" data-design-text-token="body-sm">
+        Outfit berhasil dipasang &amp; disimpan!
+      </p>
+
+      <!-- Save CTA -->
+      <button type="button" onclick="saveOutfit()" class="ref-btn-green w-full inline-flex items-center justify-center gap-gutter-sm px-gutter-lg py-gutter-md rounded-xl cursor-pointer">
+        <svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M5 12.5L9.5 17L19 7.5" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        <span class="font-headline text-label-lg text-light-surface-bright" data-design-text-token="label-lg">Pasang Outfit</span>
+      </button>
+
+    </main>
+  </div>

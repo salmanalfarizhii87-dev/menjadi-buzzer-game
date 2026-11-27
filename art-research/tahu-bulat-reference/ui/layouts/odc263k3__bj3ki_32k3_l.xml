@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--stage 0=baby, 1=child, 2=adult-->
+    <!--exp 0,30=750,60=2250,100=5250-->
+
+    <daftarLevel>30,60,100</daftarLevel>
+    <daftarExp>0,3,6,9,12,15,20,25,30,35,40,45,50,60,70,80,90,100,110,120,145,170,195,220,245,270,295,345,395,445,750,760,770,780,790,800,820,840,860,880,900,950,1000,1050,1100,1150,1200,1250,1300,1350,1400,1450,1500,1550,1600,1650,1710,1770,1830,1890,2250,2260,2270,2280,2290,2300,2325,2350,2375,2400,2450,2500,2550,2600,2650,2700,2750,2800,2850,2900,2960,3020,3080,3140,3200,3260,3335,3410,3485,3560,3635,3710,3785,3860,3935,4010,4085,4185,4385,4685,5250</daftarExp>
+    <delayJurus>0,5,10,15,20,25,30,35,40,45</delayJurus><!--dalam menit-->
+    <random_nama>Andi Katel,Dian Katel,Dina Katel,Asta,Agan,Bonbon,Budi,Bimbo,Ciko,Cecep,Dodo,Djaka,Eep,Embul,Fizzi,Felix,Gogo,Gugun,Hatci,Hero,Ito,Icha,Jajang,Joe,Kuro,Komar,Leo,Lucky,Lala,Marsudi,Miki,Nero,Nolla,Oskar,Okky,Pedro,Poyii,Purnama,Romeo,Ria,Shiro,Sujana,Timi,TIrta,Ucup,Ujang,Willi,Yayan,Yoyo,Zoa</random_nama>
+
+    <pets>
+        <ksatria idKsatria="1" nama="Tabulboy" stage="0" idResep="0" hargaEvolve="20000000" multiplierOwn="0" maxEffective="10" valueJurus="1" isPunyaAnimFlipX="false">
+            <deskripsi>Bocah Tahu Bulat. Baik hati, ramah, gemar&#10;menabung, tapi kadang pelit dan sering lapar&#10;dadakan. Yang penting, dia Gurih-Gurih-Nyoi!</deskripsi>
+            <xml_animasi>ksatriatahu/xml/tabulboy.xml</xml_animasi>
+            <icon_jurus>ksatriatahu/ui/ic_skill_tahuBulat.png</icon_jurus>
+            <image>ksatriatahu/pets/resize/tabulboy_resizeKecil.png</image>
+        </ksatria>
+
+        <ksatria idKsatria="2" nama="Protobul" stage="1" idResep="0" hargaEvolve="50000000" multiplierOwn="0.2" maxEffective="20" valueJurus="5" isPunyaAnimFlipX="true" isPunyaIdleKiri="true">
+            <deskripsi>Protoype robot yang dibuat Tabulboy dengan&#10;menggunakan mobil Akang Tahu. Protobul dilengkapi&#10;dengan Tameng Katel untuk melindungi dirinya.&#10;"Mahal bikinnya, cuy!" katanya..</deskripsi>
+            <xml_animasi>ksatriatahu/xml/protobul.xml</xml_animasi>
+            <icon_jurus>ksatriatahu/ui/ic_skill_tahuBulat.png</icon_jurus>
+            <image>ksatriatahu/pets/resize/protobul_resizeKecil.png</image>
+        </ksatria>
+
+        <ksatria idKsatria="3" nama="Tabulbot" stage="2" idResep="0" hargaEvolve="0" multiplierOwn="0.3" maxEffective="30" valueJurus="10" isPunyaAnimFlipX="true">
+            <deskripsi>Robot Tahu Bulat yang telah disempurnakan.&#10;Dilengkapi dengan Tameng Katel dan Pedang&#10;Spatula,siap menggoreng para musuh yang&#10;menghadang!</deskripsi>
+            <xml_animasi>ksatriatahu/xml/tabulbot.xml</xml_animasi>
+            <icon_jurus>ksatriatahu/ui/ic_skill_tahuBulat.png</icon_jurus>
+            <image>ksatriatahu/pets/resize/tabulbot_resizeKecil.png</image>
+        </ksatria>
+
+        <ksatria idKsatria="4" nama="Jang" stage="0" idResep="1" hargaEvolve="100000000" multiplierOwn="0.5" maxEffective="10" valueJurus="2" isPunyaAnimFlipX="true" isPunyaIdleKiri="true">
+            <deskripsi>Anak dari keluarga petani di Kabupaten Sumedang. Senang Pencak Silat, tapi belum bisa belajar karena masih terlalu kecil.</deskripsi>
+            <xml_animasi>ksatriatahu/xml/jang.xml</xml_animasi>
+            <icon_jurus>ksatriatahu/ui/ic_skill_tahuSumedang.png</icon_jurus>
+            <image>ksatriatahu/pets/resize/jang_resizeKecil.png</image>
+        </ksatria>
+
+        <ksatria idKsatria="5" nama="Tahujang" stage="1" idResep="1" hargaEvolve="500000000" multiplierOwn="1" maxEffective="20" valueJurus="5" isPunyaAnimFlipX="true">
+            <deskripsi>Berlatih Pencak Silat secara otodidak, di sela-sela waktunya mengurus sawah dan sapi di ladang.</deskripsi>
+            <xml_animasi>ksatriatahu/xml/tahujang.xml</xml_animasi>
+            <icon_jurus>ksatriatahu/ui/ic_skill_tahuSumedang.png</icon_jurus>
+            <image>ksatriatahu/pets/resize/tahujang_resizeKecil.png</image>
+        </ksatria>
+
+        <ksatria idKsatria="6" nama="Tamedang" stage="2" idResep="1" hargaEvolve="0" multiplierOwn="1.5" maxEffective="30" valueJurus="10" isPunyaAnimFlipX="true">
+            <deskripsi>Petani yang terpanggil jiwanya untuk bertarung dan membela tanah Parahyangan. Ahli bela diri Pencak Silat dan juga mahir menggunakan Kujang!</deskripsi>
+            <xml_animasi>ksatriatahu/xml/tamedang.xml</xml_animasi>
+            <icon_jurus>ksatriatahu/ui/ic_skill_tahuSumedang.png</icon_jurus>
+            <image>ksatriatahu/pets/resize/tamedang_resizeKecil.png</image>
+        </ksatria>
+
+        <ksatria idKsatria="7" nama="Xiao Mei" stage="0" idResep="2" hargaEvolve="100000000" multiplierOwn="10" maxEffective="10" valueJurus="25" isPunyaAnimFlipX="false">
+            <deskripsi>Lahir tepat di tengah Jalur Sutra,&#10;bercita-cita menjadi pebisnis tersukses di&#10;Jalur Sutra.</deskripsi>
+            <xml_animasi>ksatriatahu/xml/xiaomei.xml</xml_animasi>
+            <icon_jurus>ksatriatahu/ui/ic_skill_tahuSutera.png</icon_jurus>
+            <image>ksatriatahu/pets/resize/xiaomei_resizeKecil.png</image>
+        </ksatria>
+
+        <ksatria idKsatria="8" nama="Mei Er" stage="1" idResep="2" hargaEvolve="500000000" multiplierOwn="50" maxEffective="20" valueJurus="100" isPunyaAnimFlipX="true">
+            <deskripsi>Belajar Wushu dari kecil, demi melindungi diri&#10;di tengah kerasnya kehidupan di Jalur Sutra.&#10;Eits, tetep sempet dandan, dong!</deskripsi>
+            <xml_animasi>ksatriatahu/xml/meier.xml</xml_animasi>
+            <icon_jurus>ksatriatahu/ui/ic_skill_tahuSutera.png</icon_jurus>
+            <image>ksatriatahu/pets/resize/meier_resizeKecil.png</image>
+        </ksatria>
+
+        <ksatria idKsatria="9" nama="Mei Dou Fu" stage="2" idResep="2" hargaEvolve="0" multiplierOwn="100" maxEffective="30" valueJurus="200" isPunyaAnimFlipX="true">
+            <deskripsi>Pebisnis sukses di Jalur Sutra.&#10;Tidak hanya disegani dari kehandalannya dalam berbisnis,&#10;namun juga dari kecantikan dan serangan jurusnya!</deskripsi>
+            <xml_animasi>ksatriatahu/xml/meidoufu.xml</xml_animasi>
+            <icon_jurus>ksatriatahu/ui/ic_skill_tahuSutera.png</icon_jurus>
+            <image>ksatriatahu/pets/resize/meidoufu_resizeKecil.png</image>
+        </ksatria>
+    </pets>
+
+    <resep>
+        <item idResep="0" nama="Tahu Bulat" waktuProses="86400" icon="ksatriatahu/icon/ic_bukuResepTabul.png" maxStage="2">
+            <deskripsi>Berguna untuk melahirkan&#10;Kesatria Tahu Bulat!</deskripsi>
+            <syarat_unlock></syarat_unlock>
+            <jurus>
+                <nama>Gurih, Gurih, Nyoi</nama>
+                <durasi>5</durasi>
+                <deskripsi>Menambah jumlah Trio Kribo yang datang sebanyak %1$d orang per 1x tap.</deskripsi>
+                <info>Dengan kekuatan speakernya, bisa mendatangkan %d Bocah Kribo lebih banyak setiap 1x tap, loh!&#10;Oh... sungguh gurih!!&#10;&#10;Multiplier Own saat ini: %.02fx&#10;Tingkatkan jumlah Own dari Kesatria Tahu ini untuk membuat jurusnya semakin dahsyat!!</info>
+            </jurus>
+        </item>
+        <item idResep="1" nama="Tahu Sumedang" waktuProses="86400" icon="ksatriatahu/icon/ic_bukuResepTamedang.png" maxStage="2">
+            <deskripsi>Berguna untuk melahirkan&#10;Kesatria Tahu Sumedang!</deskripsi>
+            <syarat_unlock>
+                <generasi idResep="0" noGenerasi="1"/>
+            </syarat_unlock>
+            <jurus>
+                <nama>Terjangan Kilat</nama>
+                <durasi>10</durasi>
+                <deskripsi>Meningkatkan efek dari salah satu bahan secara random sebesar %.02f kali lipat.</deskripsi>
+                <info>Terjang bahan-bahanmu dengan kekuatan ajaib secepat kilat!!&#10;Tingkatkan efek dari salah satu bahan sebesar %d kali lipat!&#10;&#10;Multiplier Own saat ini: %.02fx&#10;Tingkatkan jumlah Own dari Kesatria Tahu ini untuk membuat jurusnya semakin dahsyat!!</info>
+            </jurus>
+        </item>
+        <item idResep="2" nama="Tahu Sutra" waktuProses="86400" icon="ksatriatahu/icon/ic_bukuResepTasutra.png" maxStage="2">
+            <deskripsi>Berguna untuk melahirkan&#10;Kesatria Tahu Sutra!</deskripsi>
+            <syarat_unlock>
+                <generasi idResep="0" noGenerasi="5"/>
+            </syarat_unlock>
+            <jurus>
+                <nama>Sutra Pemikat</nama>
+                <durasi>10</durasi>
+                <deskripsi>Menambah harga jual tahu sebesar %1$d%%</deskripsi>
+                <info>Pikat para pembeli untuk belanja lebih banyak!&#10;Tarik mereka dengan kain sutramu yang berkualitas tinggi, asli jalur sutra!!&#10;&#10;Multiplier Own saat ini: %1$d%&#10;Tingkatkan jumlah Own dari Kesatria Tahu ini untuk membuat jurusnya semakin dahsyat!!</info>
+            </jurus>
+        </item>
+    </resep>
+
+    <makanan>
+        <item id="0" expPerTap="1" icon="ksatriatahu/icon/ic_kacangHijau.png" isIAP="false" harga="10000000">
+            <title>Kacang Ijo</title>
+            <deskripsi>Menambah EXP Kesatria Tahu sebesar 1 Poin untuk 1x tap.</deskripsi>
+            <desc_popup>Kacang Ijo mengandung protein yang baik untuk membuat Kesatria Tahu-mu semakin kuat!&#10;&#10;Tingkatkan Level Kesatria Tahumu&#10;dengan menggunakan Kacang Ijo!&#10;Kacang Ijo akan meningkatkan EXP Kesatria Tahu sebesar 1 Poin untuk setiap tap selama proses memperkuat berlangsung!&#10;&#10;Gunakan Kacang Ijo?</desc_popup>
+        </item>
+        <item id="1" expPerTap="2" icon="ksatriatahu/icon/ic_kuaci.png" isIAP="false" harga="500000000">
+            <title>Kuaci</title>
+            <deskripsi>Menambah EXP Kesatria Tahu sebesar 2 Poin untuk 1x tap.</deskripsi>
+            <desc_popup>Kuaci yang terbuat dari Biji Bunga Matahari&#10;mengandung banyak protein yang mampu&#10;memperkuat Kesatria Tahu!&#10;&#10;Tingkatkan Level Kesatria Tahumu&#10;dengan menggunakan Kuaci!&#10;Kuaci akan meningkatkan EXP Kesatria Tahu sebesar 2 Poin untuk setiap tap selama proses memperkuat berlangsung!&#10;&#10;Gunakan Kuaci?</desc_popup>
+        </item>
+        <item id="2" expPerTap="5" icon="ksatriatahu/icon/ic_kacangPolong.png" isIAP="false" harga="10000000000">
+            <title>Kacang Polong</title>
+            <deskripsi>Menambah EXP Kesatria Tahu sebesar 5 Poin untuk 1x tap.</deskripsi>
+            <desc_popup>Kacang Polong tidak hanya baik bagi kesehatan saja. Kandungan Protein dalam Kacang Polong yang tinggi juga mampu membuat Kesatria Tahumu semakin kuat!!&#10;&#10;Tingkatkan Level Kesatria Tahumu&#10;dengan menggunakan Kacang Polong!&#10;Kacang Polong akan meningkatkan EXP Kesatria Tahu sebesar 5 Poin untuk setiap tap selama proses memperkuat berlangsung!&#10;&#10;Gunakan Kacang Polong?</desc_popup>
+        </item>
+        <item id="3" expPerTap="50" icon="ksatriatahu/icon/ic_kacangKedelai.png" isIAP="true" harga="10000000000">
+            <title>Kacang Kedelai</title>
+            <deskripsi>Menambah EXP Kesatria Tahu sebesar 50 Poin untuk 1x tap.</deskripsi>
+            <desc_popup>Kamu tahu kan kalau bahan dasar untuk membuat Tahu itu adalah Kacang Kedelai?&#10;Jadi, tidak ada sumber makanan lain yang dapat memperkuat Kesatria Tahu seperti Kacang Kedelai!&#10;&#10;Tingkatkan Level Kesatria Tahumu&#10;dengan menggunakan Kacang Kedelai!&#10;Kacang Kedelai akan meningkatkan EXP Kesatria Tahu sebesar 50 Poin untuk setiap tap selama proses memperkuat berlangsung! Konon dengan menggunakan Kacang Kedelai, level Kesatria Tahu-mu bisa langsung maksimum! Mantap!!&#10;&#10;Gunakan Kacang Kedelai?</desc_popup>
+        </item>
+    </makanan>
+
+</resources>

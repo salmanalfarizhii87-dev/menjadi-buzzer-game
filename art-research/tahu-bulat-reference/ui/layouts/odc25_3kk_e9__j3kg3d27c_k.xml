@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--PART 1-->
+    <story idStory="0" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="2.0f" analytics="CS_VAL1_Start">Kang</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="false" nextTimer="2.0f">Punya duit nganggur ga?</item>
+            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="true" nextTimer="2.0f">Hah?</item>
+            <item idItemChat="4" nextTipe="chat" nextId="5" isFromUser="true" nextTimer="2.0f">Kaga, duitnya sibuk bajak sawah.</item>
+            <item idItemChat="5" nextTipe="chat" nextId="6" isFromUser="false" nextTimer="2.0f">Yee.. dikira sapi emang?</item>
+            <item idItemChat="6" nextTipe="chat" nextId="7" isFromUser="true" nextTimer="2.0f">Yakali tiba2 punya duit nganggur..</item>
+            <item idItemChat="7" nextTipe="chat" nextId="8" isFromUser="true" nextTimer="2.0f">Buat apaan emang?</item>
+            <item idItemChat="8" nextTipe="chat" nextId="9" isFromUser="false" nextTimer="2.0f">Besok ada acara cosplay</item>
+            <item idItemChat="9" nextTipe="chat" nextId="10" isFromUser="false" nextTimer="2.0f">Butuh duit buat beli tiket masuk</item>
+            <item idItemChat="10" nextTipe="chat" nextId="11" isFromUser="true" nextTimer="2.0f">Hah?! Emangnya kamu suka acara jejepangan gitu ya?</item>
+            <item idItemChat="11" nextTipe="chat" nextId="12" isFromUser="false" nextTimer="2.0f">Sukalah!</item>
+            <item idItemChat="12" nextTipe="chat" nextId="13" isFromUser="false" nextTimer="2.0f">Kalau ga buat apa pergi?</item>
+            <item idItemChat="13" nextTipe="chat" nextId="14" isFromUser="true" nextTimer="2.0f">Akang baru tahu...</item>
+            <item idItemChat="14" nextTipe="chat" nextId="15" isFromUser="false" nextTimer="2.0f">Jadi gimana kang?</item>
+            <item idItemChat="15" nextTipe="opsi" nextId="1" isFromUser="false" nextTimer="2.0f" analytics="CS_VAL1_Ask">Ada duit nganggur ga?</item>
+
+            <item idItemChat="16" nextTipe="chat" nextId="17" isFromUser="false" nextTimer="2.0f">Yeee.. si akang mah..</item>
+            <item idItemChat="17" nextTipe="chat" nextId="18" isFromUser="false" nextTimer="2.0f">Tajir-tajir tapi pelit!</item>
+            <item idItemChat="18" nextTipe="chat" nextId="19" isFromUser="true" nextTimer="2.0f">Hush</item>
+            <item idItemChat="19" nextTipe="notif" nextId="1" isFromUser="true" nextTimer="2.0f" analytics="CS_VAL1_End">Masih usaha ini juga tau</item>
+        </chat>
+        <opsi idOpsi="1">
+            <item idItemOpsi="1" nextTipe="chat" nextId="16" nextTimer="2.0f" analytics="CS_VAL1_Choose_A">Ga ada, lagi bajak sawah</item>
+            <item idItemOpsi="2" nextTipe="chat" nextId="16" nextTimer="2.0f" analytics="CS_VAL1_Choose_B">Mau duit? Sana dagang tahu</item>
+        </opsi>
+        <notif>
+            <item idItemNotif="1" nextTipe="notif" nextId="2" nextTimer="0.1f">Cerita chat bagian #1 telah selesai</item>
+            <item idItemNotif="2" nextTipe="story" nextId="1" nextTimer="4.0f" regex="timer_delayStory#satpam" isNextFromUser="false" delayStory="86400.0f">Silahkan cek lagi dalam %1$s</item>
+            <!--//todo hapus, ganti yg diatas-->
+<!--            <item idItemNotif="2" nextTipe="story" nextId="9" nextTimer="4.0f" regex="timer_delayStory#satpam" isNextFromUser="false" delayStory="86400.0f">Silahkan cek lagi dalam %1$s</item>-->
+        </notif>
+    </story>
+
+    <!--PART 2-->
+    <story idStory="1" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="2.0f" analytics="CS_VAL2_Start">Kang bagi duit dongg</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="true" nextTimer="2.0f">....</item>
+            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="true" nextTimer="2.0f">Mau duit?</item>
+            <item idItemChat="4" nextTipe="chat" nextId="5" isFromUser="true" nextTimer="2.0f">Dagang Tahu Bulat sana</item>
+            <item idItemChat="5" nextTipe="chat" nextId="6" isFromUser="false" nextTimer="2.0f">Udah</item>
+            <item idItemChat="6" nextTipe="chat" nextId="7" isFromUser="false" nextTimer="2.0f">Terus waktu lagi dagang, dipanggil bos</item>
+            <item idItemChat="7" nextTipe="chat" nextId="8" isFromUser="false" nextTimer="2.0f">Disuruh jaga gerbang kampung</item>
+            <item idItemChat="8" nextTipe="chat" nextId="9" isFromUser="false" nextTimer="2.0f">Ada Pak Camat datang tadi</item>
+            <item idItemChat="9" nextTipe="chat" nextId="10" isFromUser="false" nextTimer="2.0f">Jadi ga cukup duitnya nih</item>
+            <item idItemChat="10" nextTipe="chat" nextId="11" isFromUser="true" nextTimer="2.0f">Yaaaa..... Udah dagang lagi aja</item>
+            <item idItemChat="11" nextTipe="chat" nextId="12" isFromUser="false" nextTimer="2.0f">Acaranya besok nih kang!</item>
+            <item idItemChat="12" nextTipe="chat" nextId="13" isFromUser="false" nextTimer="2.0f">Mana sempet dagang dulu, keburu selesai acaranya</item>
+            <item idItemChat="13" nextTipe="chat" nextId="14" isFromUser="true" nextTimer="2.0f">Masih ada waktu sampai subuh</item>
+            <item idItemChat="14" nextTipe="chat" nextId="15" isFromUser="true" nextTimer="2.0f">Kalau ada niat, pasti ada jalan!</item>
+            <item idItemChat="15" nextTipe="chat" nextId="16" isFromUser="false" nextTimer="2.0f">Yeeee...</item>
+            <item idItemChat="16" nextTipe="chat" nextId="17" isFromUser="false" nextTimer="2.0f">Emangnya ini lagi puasa apa jualan tahu bulat subuh-subuh</item>
+            <item idItemChat="17" nextTipe="chat" nextId="18" isFromUser="false" nextTimer="2.0f">Gimana nih kang?</item>
+            <item idItemChat="18" nextTipe="opsi" nextId="1" isFromUser="false" nextTimer="2.0f" analytics="CS_VAL2_Ask">Boleh pinjem ga?</item>
+
+            <!--itemopsi1-->
+            <item idItemChat="19" nextTipe="chat" nextId="20" isFromUser="false" nextTimer="2.0f">Asseeekk</item>
+            <item idItemChat="20" nextTipe="chat" nextId="21" isFromUser="false" nextTimer="2.0f">dua ratus rebu aja kang</item>
+            <item idItemChat="21" nextTipe="chat" nextId="22" isFromUser="true" nextTimer="2.0f">Mahal amat?!</item>
+            <item idItemChat="22" nextTipe="chat" nextId="23" isFromUser="false" nextTimer="2.0f">Lima puluh buat tiket</item>
+            <item idItemChat="23" nextTipe="chat" nextId="24" isFromUser="false" nextTimer="2.0f">Lima puluh buat ongkos</item>
+            <item idItemChat="24" nextTipe="chat" nextId="25" isFromUser="false" nextTimer="2.0f">Sisanya buat jajan, masa ga jajan</item>
+            <item idItemChat="25" nextTipe="chat" nextId="26" isFromUser="true" nextTimer="2.0f">............</item>
+            <item idItemChat="26" nextTipe="chat" nextId="27" isFromUser="true" nextTimer="2.0f">Sekali ini aja ya</item>
+            <item idItemChat="27" nextTipe="chat" nextId="28" isFromUser="false" nextTimer="2.0f">Makasih kang</item>
+            <item idItemChat="28" nextTipe="chat" nextId="29" isFromUser="false" nextTimer="2.0f">hehehehehehehehehehe</item>
+            <item idItemChat="29" nextTipe="chat" nextId="30" isFromUser="true" nextTimer="2.0f">Balikin loh!</item>
+            <item idItemChat="30" nextTipe="notif" nextId="1" isFromUser="false" nextTimer="2.0f" analytics="CS_VAL2_End">hehehehehehehehehehe</item>
+
+            <!--itemopsi2-->
+            <item idItemChat="31" nextTipe="chat" nextId="32" isFromUser="false" nextTimer="2.0f">Ih, pedit amat sih</item>
+            <item idItemChat="32" nextTipe="chat" nextId="33" isFromUser="false" nextTimer="2.0f">Kepepet nihhh</item>
+            <item idItemChat="33" nextTipe="chat" nextId="34" isFromUser="true" nextTimer="2.0f">Hadoh</item>
+            <item idItemChat="34" nextTipe="chat" nextId="35" isFromUser="true" nextTimer="2.0f">Kalau minjem buat yang penting-penting, okelah</item>
+            <item idItemChat="35" nextTipe="chat" nextId="36" isFromUser="true" nextTimer="2.0f">Ini mah cuma buat hura-hura</item>
+            <item idItemChat="36" nextTipe="chat" nextId="37" isFromUser="true" nextTimer="2.0f">Ga usah deh</item>
+            <item idItemChat="37" nextTipe="chat" nextId="38" isFromUser="false" nextTimer="2.0f">Ih</item>
+            <item idItemChat="38" nextTipe="notif" nextId="3" isFromUser="false" nextTimer="2.0f" analytics="CS_VAL2_End">pedit</item>
+        </chat>
+
+        <opsi idOpsi="1">
+            <item idItemOpsi="1" nextTipe="chat" nextId="19" nextTimer="2.0f" analytics="CS_VAL2_Choose_A">Ya udah, berapa?</item>
+            <item idItemOpsi="2" nextTipe="chat" nextId="31" nextTimer="2.0f" analytics="CS_VAL2_Choose_B">Haduh.. Jangan deh</item>
+        </opsi>
+
+        <notif>
+            <item idItemNotif="1" nextTipe="notif" nextId="2" nextTimer="0.1f">Cerita chat bagian #2 telah selesai</item>
+            <item idItemNotif="2" nextTipe="story" nextId="2" nextTimer="4.0f" regex="timer_delayStory#satpam" isNextFromUser="false" delayStory="86400.0f">Silahkan cek lagi dalam %1$s</item>
+
+            <item idItemNotif="3" nextTipe="notif" nextId="4" nextTimer="0.1f">Cerita chat bagian #2 telah selesai</item>
+            <item idItemNotif="4" nextTipe="story" nextId="3" nextTimer="4.0f" regex="timer_delayStory#satpam" isNextFromUser="false" delayStory="86400.0f">Silahkan cek lagi dalam %1$s</item>
+        </notif>
+    </story>
+
+    <!--PART 3-->
+    <!--kalau minjamin-->
+    <story idStory="2" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="2.0f" analytics="CS_VAL3_Start">Kang....</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="true" nextTimer="2.0f">Hey</item>
+            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="true" nextTimer="2.0f">Gimana? Seru acaranya?</item>
+            <item idItemChat="4" nextTipe="chat" nextId="5" isFromUser="false" nextTimer="2.0f">itu kang...</item>
+            <item idItemChat="5" nextTipe="chat" nextId="6" isFromUser="true" nextTimer="2.0f">itu apaan?</item>
+            <item idItemChat="6" nextTipe="chat" nextId="7" isFromUser="false" nextTimer="2.0f">Ga jadi masuk acaranya kang</item>
+            <item idItemChat="7" nextTipe="chat" nextId="8" isFromUser="true" nextTimer="2.0f">Hah? Maksudnya?</item>
+            <item idItemChat="8" nextTipe="chat" nextId="9" isFromUser="false" nextTimer="2.0f">iya itu tadi...</item>
+            <item idItemChat="9" nextTipe="chat" nextId="10" isFromUser="false" nextTimer="2.0f">duitnya....</item>
+            <item idItemChat="10" nextTipe="chat" nextId="11" isFromUser="false" nextTimer="2.0f">ilang...</item>
+            <item idItemChat="11" nextTipe="chat" nextId="12" isFromUser="true" nextTimer="2.0f">HAH?!</item>
+            <item idItemChat="12" nextTipe="chat" nextId="13" isFromUser="false" nextTimer="2.0f">iya ilang pas mau bayar angkot udah ga ada</item>
+            <item idItemChat="13" nextTipe="chat" nextId="14" isFromUser="true" nextTimer="2.0f">HAH?!</item>
+            <item idItemChat="14" nextTipe="chat" nextId="15" isFromUser="true" nextTimer="2.0f">Dicopet?!</item>
+            <item idItemChat="15" nextTipe="chat" nextId="16" isFromUser="true" nextTimer="2.0f">Satpam kok bisa kena copet?</item>
+            <item idItemChat="16" nextTipe="chat" nextId="17" isFromUser="false" nextTimer="2.0f">Gak lah!</item>
+            <item idItemChat="17" nextTipe="chat" nextId="18" isFromUser="false" nextTimer="2.0f">Mana bisa Satpam Elit kena copet?!</item>
+            <item idItemChat="18" nextTipe="chat" nextId="19" isFromUser="true" nextTimer="2.0f">Lah itu ilang duitnya!</item>
+            <item idItemChat="19" nextTipe="chat" nextId="20" isFromUser="false" nextTimer="2.0f">Kayaknya sih...</item>
+            <item idItemChat="20" nextTipe="chat" nextId="21" isFromUser="false" nextTimer="2.0f">Jatoh...</item>
+            <item idItemChat="21" nextTipe="chat" nextId="22" isFromUser="true" nextTimer="2.0f">..............</item>
+            <item idItemChat="22" nextTipe="chat" nextId="23" isFromUser="true" nextTimer="2.0f">Jadi tadi gimana?</item>
+            <item idItemChat="23" nextTipe="story" nextId="4" isFromUser="false" nextTimer="2.0f">Jadi kan udah sampe tempatnya, tapi ga ada duit buat beli tiket..</item>
+        </chat>
+    </story>
+    <!--kalau ga minjamin-->
+    <story idStory="3" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="2.0f" analytics="CS_VAL3_Start">Kang</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="true" nextTimer="2.0f">Hey</item>
+            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="false" nextTimer="2.0f">Saya jadi pergi tadi ke acara cosplaynya</item>
+            <item idItemChat="4" nextTipe="chat" nextId="5" isFromUser="true" nextTimer="2.0f">Oya? Kok bisa?</item>
+            <item idItemChat="5" nextTipe="chat" nextId="6" isFromUser="true" nextTimer="2.0f">Katanya ga ada duit?</item>
+            <item idItemChat="6" nextTipe="chat" nextId="7" isFromUser="false" nextTimer="2.0f">Ongkos doang mah ada lah</item>
+            <item idItemChat="7" nextTipe="story" nextId="4" isFromUser="false" nextTimer="2.0f">Tapi ga punya duit buat beli tiket masuk..</item>
+        </chat>
+    </story>
+    <!--alur utama-->
+    <story idStory="4" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="2.0f">Jadi nangkring depan gerbang deh</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="true" nextTimer="2.0f">Hah? Seharian? Depan Gerbang?</item>
+            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="true" nextTimer="2.0f">Ga cape ya?</item>
+            <item idItemChat="4" nextTipe="chat" nextId="5" isFromUser="false" nextTimer="2.0f">Kagalah, namanya juga Satpam</item>
+            <item idItemChat="5" nextTipe="chat" nextId="6" isFromUser="false" nextTimer="2.0f">Udah biasa kali</item>
+            <item idItemChat="6" nextTipe="chat" nextId="7" isFromUser="true" nextTimer="2.0f">Terus?</item>
+            <item idItemChat="7" nextTipe="chat" nextId="8" isFromUser="false" nextTimer="2.0f">Ya... itu...</item>
+            <item idItemChat="8" nextTipe="chat" nextId="9" isFromUser="true" nextTimer="2.0f">Itu apa?</item>
+            <item idItemChat="9" nextTipe="chat" nextId="10" isFromUser="true" nextTimer="2.0f">Ga jelas ih, udahanlah chatnya</item>
+            <item idItemChat="10" nextTipe="chat" nextId="11" isFromUser="false" nextTimer="2.0f">Sabar atuh, ini tuh lagi mau curhat</item>
+            <item idItemChat="11" nextTipe="chat" nextId="12" isFromUser="true" nextTimer="2.0f">...........</item>
+            <item idItemChat="12" nextTipe="chat" nextId="13" isFromUser="false" nextTimer="2.0f">Denger ya..</item>
+            <item idItemChat="13" nextTipe="chat" nextId="14" isFromUser="false" nextTimer="2.0f">Jadi tadi pas nangkring depan gerbang..</item>
+            <item idItemChat="14" nextTipe="chat" nextId="15" isFromUser="false" nextTimer="2.0f">Ada mba-mba cosplayer gitu</item>
+            <item idItemChat="15" nextTipe="chat" nextId="16" isFromUser="false" nextTimer="2.0f">Dompetnya jatoh</item>
+            <item idItemChat="16" nextTipe="chat" nextId="17" isFromUser="false" nextTimer="2.0f">Jadi saya ambil, terus saya balikin</item>
+            <item idItemChat="17" nextTipe="chat" nextId="18" isFromUser="false" nextTimer="2.0f">...........</item>
+            <item idItemChat="18" nextTipe="chat" nextId="19" isFromUser="true" nextTimer="2.0f">......?</item>
+            <item idItemChat="19" nextTipe="chat" nextId="20" isFromUser="true" nextTimer="2.0f">Terus?</item>
+            <item idItemChat="20" nextTipe="chat" nextId="21" isFromUser="false" nextTimer="2.0f">terus....</item>
+            <item idItemChat="21" nextTipe="chat" nextId="22" isFromUser="false" nextTimer="2.0f">dia bilang makasih..</item>
+            <item idItemChat="22" nextTipe="chat" nextId="23" isFromUser="true" nextTimer="2.0f">Oh...</item>
+            <item idItemChat="23" nextTipe="chat" nextId="24" isFromUser="false" nextTimer="2.0f">Ih, kok oh doang?</item>
+            <item idItemChat="24" nextTipe="chat" nextId="25" isFromUser="true" nextTimer="2.0f">Lah, terus kenapa?</item>
+            <item idItemChat="25" nextTipe="chat" nextId="26" isFromUser="false" nextTimer="2.0f">Ya itu...</item>
+            <item idItemChat="26" nextTipe="chat" nextId="27" isFromUser="false" nextTimer="2.0f">Lucu mbaknya..</item>
+            <item idItemChat="27" nextTipe="chat" nextId="28" isFromUser="false" nextTimer="2.0f">Saya...</item>
+            <item idItemChat="28" nextTipe="chat" nextId="29" isFromUser="false" nextTimer="2.0f">Tahu-tahu cinta..</item>
+            <item idItemChat="29" nextTipe="chat" nextId="30" isFromUser="true" nextTimer="2.0f">HAH?!</item>
+            <item idItemChat="30" nextTipe="chat" nextId="31" isFromUser="true" nextTimer="2.0f">Serius ini teh?</item>
+            <item idItemChat="31" nextTipe="chat" nextId="32" isFromUser="false" nextTimer="2.0f">Ya serius atuh kang</item>
+            <item idItemChat="32" nextTipe="chat" nextId="33" isFromUser="false" nextTimer="2.0f">Makanya ini teh... mau balik lagi besok</item>
+            <item idItemChat="33" nextTipe="opsi" nextId="1" isFromUser="false" nextTimer="2.0f" analytics="CS_VAL3_Ask">Siapa tahu ketemu lagi..</item>
+
+            <!--item opsi1-->
+            <!--semangatin-->
+            <item idItemChat="34" nextTipe="chat" nextId="35" isFromUser="false" nextTimer="2.0f">Betuuulll</item>
+            <item idItemChat="35" nextTipe="chat" nextId="36" isFromUser="false" nextTimer="2.0f">Yawes, saya bakal nangkring depan gerbang lagi</item>
+            <item idItemChat="36" nextTipe="chat" nextId="37" isFromUser="false" nextTimer="2.0f">Dari subuh!</item>
+            <item idItemChat="37" nextTipe="chat" nextId="38" isFromUser="false" nextTimer="2.0f">Sampe subuh!</item>
+            <item idItemChat="38" nextTipe="chat" nextId="39" isFromUser="false" nextTimer="2.0f">Sampe ketemu lagi sama si Mba Cosplayer</item>
+            <item idItemChat="39" nextTipe="chat" nextId="40" isFromUser="true" nextTimer="2.0f">hahaha</item>
+            <item idItemChat="40" nextTipe="notif" nextId="1" isFromUser="true" nextTimer="2.0f" analytics="CS_VAL3_End">Semangat bang</item>
+
+            <!--item opsi2-->
+            <!--gayakin-->
+            <item idItemChat="41" nextTipe="chat" nextId="42" isFromUser="false" nextTimer="2.0f">Yakinlah! Kan besok masih ada acaranya</item>
+            <item idItemChat="42" nextTipe="chat" nextId="43" isFromUser="true" nextTimer="2.0f">Bukan itu, orangnya kan banyak</item>
+            <item idItemChat="43" nextTipe="chat" nextId="44" isFromUser="false" nextTimer="2.0f">Iya banyak, tapi semua kan bakal lewat gerbang</item>
+            <item idItemChat="44" nextTipe="chat" nextId="45" isFromUser="false" nextTimer="2.0f">Jadi besok ga bakal beli tiket juga</item>
+            <item idItemChat="45" nextTipe="chat" nextId="46" isFromUser="false" nextTimer="2.0f">Cuma bakal nangkring di gerbang, nunggu si Mba-nya lewat lagi</item>
+            <item idItemChat="46" nextTipe="chat" nextId="47" isFromUser="false" nextTimer="2.0f">Dari subuh!</item>
+            <item idItemChat="47" nextTipe="chat" nextId="48" isFromUser="false" nextTimer="2.0f">Sampe subuh!</item>
+            <item idItemChat="48" nextTipe="chat" nextId="49" isFromUser="true" nextTimer="2.0f">Yaaa.....</item>
+            <item idItemChat="49" nextTipe="notif" nextId="3" isFromUser="true" nextTimer="2.0f" analytics="CS_VAL3_End">Semangat ya kalau gitu</item>
+        </chat>
+
+        <opsi idOpsi="1">
+            <item idItemOpsi="1" nextTipe="chat" nextId="41" nextTimer="2.0f" analytics="CS_VAL3_Choose_A">Err... yakin bakal ketemu?</item>
+            <item idItemOpsi="2" nextTipe="chat" nextId="34" nextTimer="2.0f" analytics="CS_VAL3_Choose_B">Yah, semangat! Jodoh emang harus dikejar!</item>
+        </opsi>
+
+        <notif>
+            <!--semangatin-->
+            <item idItemNotif="1" nextTipe="notif" nextId="2" nextTimer="0.1f">Cerita chat bagian #3 telah selesai</item>
+            <item idItemNotif="2" nextTipe="story" nextId="5" nextTimer="4.0f" regex="timer_delayStory#satpam" isNextFromUser="false" delayStory="86400.0f">Silahkan cek lagi dalam %1$s</item>
+
+            <!--gayakin-->
+            <item idItemNotif="3" nextTipe="notif" nextId="4" nextTimer="0.1f">Cerita chat bagian #3 telah selesai</item>
+            <item idItemNotif="4" nextTipe="story" nextId="7" nextTimer="4.0f" regex="timer_delayStory#satpam" isNextFromUser="false" delayStory="86400.0f">Silahkan cek lagi dalam %1$s</item>
+        </notif>
+    </story>
+
+    <!--PART 4-->
+    <!--semangatin-->
+    <story idStory="5" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="2.0f" analytics="CS_VAL4_Start,CS_VAL4A_Start">Kang...</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="true" nextTimer="2.0f">Ya?</item>
+            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="false" nextTimer="2.0f">Ga datang kang</item>
+            <item idItemChat="4" nextTipe="chat" nextId="5" isFromUser="true" nextTimer="2.0f">Hah? Siapa?</item>
+            <item idItemChat="5" nextTipe="chat" nextId="6" isFromUser="false" nextTimer="2.0f">Si Mba Cosplayer</item>
+            <item idItemChat="6" nextTipe="chat" nextId="7" isFromUser="false" nextTimer="2.0f">Udah ditungguin dari subuh sampe subuh ga datang-datang</item>
+            <item idItemChat="7" nextTipe="chat" nextId="8" isFromUser="true" nextTimer="2.0f">.....</item>
+            <item idItemChat="8" nextTipe="chat" nextId="9" isFromUser="true" nextTimer="2.0f">Jadi hari ini udah ga ada acaranya?</item>
+            <item idItemChat="9" nextTipe="chat" nextId="10" isFromUser="false" nextTimer="2.0f">Ada</item>
+            <item idItemChat="10" nextTipe="chat" nextId="11" isFromUser="false" nextTimer="2.0f">Tapi Mbanya ga ada</item>
+            <item idItemChat="11" nextTipe="chat" nextId="12" isFromUser="false" nextTimer="2.0f">Sedih akutuh kalau gini</item>
+            <item idItemChat="12" nextTipe="chat" nextId="13" isFromUser="true" nextTimer="2.0f">cup cup cup</item>
+            <item idItemChat="13" nextTipe="chat" nextId="14" isFromUser="false" nextTimer="2.0f">Yeeee</item>
+            <item idItemChat="14" nextTipe="chat" nextId="15" isFromUser="false" nextTimer="2.0f">Serius ini teh</item>
+            <item idItemChat="15" nextTipe="chat" nextId="16" isFromUser="true" nextTimer="2.0f">I-iya..</item>
+            <item idItemChat="16" nextTipe="chat" nextId="17" isFromUser="true" nextTimer="2.0f">Terus bisa apa dong?</item>
+            <item idItemChat="17" nextTipe="chat" nextId="18" isFromUser="false" nextTimer="2.0f">Dihibur kek</item>
+            <item idItemChat="18" nextTipe="chat" nextId="19" isFromUser="false" nextTimer="2.0f">Dikasih duit kek</item>
+            <item idItemChat="19" nextTipe="opsi" nextId="1" isFromUser="true" nextTimer="2.0f" analytics="CS_VAL4_Ask,CS_VAL4A_Ask">Yah, duit lagi</item>
+
+            <!--item opsi 1 -->
+            <!--dagang tahu -->
+            <item idItemChat="20" nextTipe="chat" nextId="21" isFromUser="false" nextTimer="2.0f">Yaila</item>
+            <item idItemChat="21" nextTipe="chat" nextId="22" isFromUser="false" nextTimer="2.0f">Dagang tahu mulu si akang mah</item>
+            <item idItemChat="22" nextTipe="chat" nextId="23" isFromUser="true" nextTimer="2.0f">Yeee...</item>
+            <item idItemChat="23" nextTipe="chat" nextId="24" isFromUser="true" nextTimer="2.0f">Kan katanya butuh duit</item>
+            <item idItemChat="24" nextTipe="chat" nextId="25" isFromUser="true" nextTimer="2.0f">Sama siapa tahu dagang tahu bisa bikin move on</item>
+            <item idItemChat="25" nextTipe="chat" nextId="26" isFromUser="false" nextTimer="2.0f">Apaan si akang</item>
+            <item idItemChat="26" nextTipe="chat" nextId="27" isFromUser="false" nextTimer="2.0f">malah udah suruh move on lagi</item>
+            <item idItemChat="27" nextTipe="chat" nextId="28" isFromUser="true" nextTimer="2.0f">Ya.. mo gimana</item>
+            <item idItemChat="28" nextTipe="chat" nextId="29" isFromUser="false" nextTimer="2.0f">..................</item>
+            <item idItemChat="29" nextTipe="notif" nextId="1" isFromUser="true" nextTimer="2.0f" analytics="CS_VAL4_End,CS_VAL4A_End">..................</item>
+
+            <!--item opsi 2 -->
+            <!--jaga gerbang -->
+            <item idItemChat="30" nextTipe="chat" nextId="31" isFromUser="false" nextTimer="2.0f">Mana bisa</item>
+            <item idItemChat="31" nextTipe="chat" nextId="32" isFromUser="false" nextTimer="2.0f">Besok udah ga ada acaranya</item>
+            <item idItemChat="32" nextTipe="chat" nextId="33" isFromUser="false" nextTimer="2.0f">Tadi terakhir</item>
+            <item idItemChat="33" nextTipe="chat" nextId="34" isFromUser="true" nextTimer="2.0f">Yah...</item>
+            <item idItemChat="34" nextTipe="chat" nextId="35" isFromUser="false" nextTimer="2.0f">Jadi gimana dong?</item>
+            <item idItemChat="35" nextTipe="chat" nextId="36" isFromUser="true" nextTimer="2.0f">Dagang tahu bulat aja</item>
+            <item idItemChat="36" nextTipe="chat" nextId="37" isFromUser="true" nextTimer="2.0f">Biar bisa cepet move on</item>
+            <item idItemChat="37" nextTipe="chat" nextId="38" isFromUser="false" nextTimer="2.0f">Yeh.. kok disuruh move on?</item>
+            <item idItemChat="38" nextTipe="chat" nextId="39" isFromUser="true" nextTimer="2.0f">Terus mo gimana dong?</item>
+            <item idItemChat="39" nextTipe="chat" nextId="40" isFromUser="false" nextTimer="2.0f">................</item>
+            <item idItemChat="40" nextTipe="notif" nextId="1" isFromUser="true" nextTimer="2.0f" analytics="CS_VAL4_End,CS_VAL4A_End">................</item>
+        </chat>
+
+        <opsi idOpsi="1">
+            <item idItemOpsi="1" nextTipe="chat" nextId="20" nextTimer="2.0f" analytics="CS_VAL4_Choose_A,CS_VAL4A_Choose_A">Mau duit mah dagang tahu aja</item>
+            <item idItemOpsi="2" nextTipe="chat" nextId="30" nextTimer="2.0f" analytics="CS_VAL4_Choose_B,CS_VAL4A_Choose_B">Besok jaga gerbang lagi aja</item>
+        </opsi>
+
+        <notif>
+            <item idItemNotif="1" nextTipe="notif" nextId="2" nextTimer="0.1f">Cerita chat bagian #4 telah selesai</item>
+            <item idItemNotif="2" nextTipe="story" nextId="6" nextTimer="4.0f" regex="timer_delayStory#satpam" isNextFromUser="false" delayStory="86400.0f">Silahkan cek lagi dalam %1$s</item>
+        </notif>
+    </story>
+
+    <!--PART 5-->
+    <!--ending versi 1-->
+    <story idStory="6" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="2.0f" analytics="CS_VAL5_Start,CS_VAL5A_Start">Galau kang</item>
+
+
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="false" nextTimer="2.0f">GALAU!!</item>
+            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="false" nextTimer="2.0f">G</item>
+            <item idItemChat="4" nextTipe="chat" nextId="5" isFromUser="false" nextTimer="2.0f">A</item>
+            <item idItemChat="5" nextTipe="chat" nextId="6" isFromUser="false" nextTimer="2.0f">L</item>
+            <item idItemChat="6" nextTipe="chat" nextId="7" isFromUser="false" nextTimer="2.0f">U</item>
+            <item idItemChat="7" nextTipe="chat" nextId="8" isFromUser="false" nextTimer="2.0f">!!!</item>
+            <item idItemChat="8" nextTipe="chat" nextId="9" isFromUser="true" nextTimer="2.0f">Galu?</item>
+            <item idItemChat="9" nextTipe="chat" nextId="10" isFromUser="false" nextTimer="2.0f">Eh...</item>
+            <item idItemChat="10" nextTipe="chat" nextId="11" isFromUser="false" nextTimer="2.0f">G</item>
+            <item idItemChat="11" nextTipe="chat" nextId="12" isFromUser="false" nextTimer="2.0f">A</item>
+            <item idItemChat="12" nextTipe="chat" nextId="13" isFromUser="false" nextTimer="2.0f">L</item>
+            <item idItemChat="13" nextTipe="chat" nextId="14" isFromUser="false" nextTimer="2.0f">A</item>
+            <item idItemChat="14" nextTipe="chat" nextId="15" isFromUser="false" nextTimer="2.0f">U</item>
+            <item idItemChat="15" nextTipe="chat" nextId="16" isFromUser="false" nextTimer="2.0f">!!!</item>
+            <item idItemChat="16" nextTipe="chat" nextId="17" isFromUser="true" nextTimer="2.0f">Iya iya tau</item>
+            <item idItemChat="17" nextTipe="chat" nextId="18" isFromUser="true" nextTimer="2.0f">Udah atuh jangan nyepam</item>
+            <item idItemChat="18" nextTipe="chat" nextId="19" isFromUser="false" nextTimer="2.0f">Galau kang galau</item>
+            <item idItemChat="19" nextTipe="chat" nextId="20" isFromUser="true" nextTimer="2.0f">Iya tahuuu</item>
+            <item idItemChat="20" nextTipe="chat" nextId="21" isFromUser="true" nextTimer="2.0f">Bulattt</item>
+            <item idItemChat="21" nextTipe="chat" nextId="22" isFromUser="false" nextTimer="2.0f">Nyoiii</item>
+            <item idItemChat="22" nextTipe="chat" nextId="23" isFromUser="true" nextTimer="2.0f">wkwkwk</item>
+            <item idItemChat="23" nextTipe="chat" nextId="24" isFromUser="false" nextTimer="2.0f">Doh, kang gimana ini kang</item>
+            <item idItemChat="24" nextTipe="chat" nextId="25" isFromUser="false" nextTimer="2.0f">Beneran galau ini</item>
+            <item idItemChat="25" nextTipe="chat" nextId="26" isFromUser="true" nextTimer="2.0f">Ya mo gimana lagi</item>
+            <item idItemChat="26" nextTipe="chat" nextId="27" isFromUser="true" nextTimer="2.0f">Bisa apa</item>
+            <item idItemChat="27" nextTipe="chat" nextId="28" isFromUser="true" nextTimer="2.0f">Kamu sih pake tahu-tahu cinta segala</item>
+            <item idItemChat="28" nextTipe="chat" nextId="29" isFromUser="true" nextTimer="2.0f">Udah, sekarang tahu-tahu move on aja</item>
+            <item idItemChat="29" nextTipe="chat" nextId="30" isFromUser="false" nextTimer="2.0f">Jyah</item>
+            <item idItemChat="30" nextTipe="chat" nextId="31" isFromUser="false" nextTimer="2.0f">Mana bisa</item>
+            <item idItemChat="31" nextTipe="chat" nextId="32" isFromUser="true" nextTimer="2.0f">Lah, kenapa kemaren bisa tahu-tahu cinta?</item>
+            <item idItemChat="32" nextTipe="chat" nextId="33" isFromUser="false" nextTimer="2.0f">Mana tahu?!</item>
+            <item idItemChat="33" nextTipe="chat" nextId="34" isFromUser="true" nextTimer="2.0f">Yah, siapa tahu sekarang bisa tahu-tahu move on</item>
+            <item idItemChat="34" nextTipe="chat" nextId="35" isFromUser="false" nextTimer="2.0f">Hadeh</item>
+            <item idItemChat="35" nextTipe="chat" nextId="36" isFromUser="false" nextTimer="2.0f">Tahu-tahu ketemu lagi, kek</item>
+            <item idItemChat="36" nextTipe="chat" nextId="37" isFromUser="false" nextTimer="2.0f">Tahu-tahu dia cinta juga, kek</item>
+            <item idItemChat="37" nextTipe="chat" nextId="38" isFromUser="false" nextTimer="2.0f">Tahu-tahu.... Apa ya?</item>
+            <item idItemChat="38" nextTipe="chat" nextId="39" isFromUser="true" nextTimer="2.0f">Bulaaattt!</item>
+            <item idItemChat="39" nextTipe="chat" nextId="40" isFromUser="true" nextTimer="2.0f">Digorengggg!!</item>
+            <item idItemChat="40" nextTipe="chat" nextId="41" isFromUser="true" nextTimer="2.0f">Di mobilll!!</item>
+            <item idItemChat="41" nextTipe="chat" nextId="42" isFromUser="false" nextTimer="2.0f">kang...</item>
+            <item idItemChat="42" nextTipe="chat" nextId="43" isFromUser="true" nextTimer="2.0f">Gurihhh...</item>
+            <item idItemChat="43" nextTipe="chat" nextId="44" isFromUser="false" nextTimer="2.0f">KANG!!</item>
+            <item idItemChat="44" nextTipe="chat" nextId="45" isFromUser="true" nextTimer="2.0f">GUURIIHHHHH</item>
+            <item idItemChat="45" nextTipe="chat" nextId="46" isFromUser="false" nextTimer="2.0f">KAAAAAAAAAAAAANNNNGGGG!</item>
+            <item idItemChat="46" nextTipe="chat" nextId="47" isFromUser="true" nextTimer="2.0f">NYYYYYYYYYYYYYYYOIIIIII!!</item>
+            <item idItemChat="47" nextTipe="chat" nextId="48" isFromUser="false" nextTimer="2.0f">WOI</item>
+            <item idItemChat="48" nextTipe="chat" nextId="49" isFromUser="true" nextTimer="2.0f">wkwkwk</item>
+            <item idItemChat="49" nextTipe="chat" nextId="50" isFromUser="false" nextTimer="2.0f">Gajelah si akang</item>
+            <item idItemChat="50" nextTipe="chat" nextId="51" isFromUser="true" nextTimer="2.0f">Dah move on aja</item>
+            <item idItemChat="51" nextTipe="chat" nextId="52" isFromUser="true" nextTimer="2.0f">Siapa tahu ntar tahu-tahu beneran ketemu lagi</item>
+            <item idItemChat="52" nextTipe="chat" nextId="53" isFromUser="true" nextTimer="2.0f">Abis itu baru tahu-tahu cinta lagi</item>
+            <item idItemChat="53" nextTipe="chat" nextId="54" isFromUser="true" nextTimer="2.0f">Kalau jodoh kan ga akan kemana</item>
+            <item idItemChat="54" nextTipe="chat" nextId="55" isFromUser="false" nextTimer="2.0f">..........</item>
+            <item idItemChat="55" nextTipe="chat" nextId="56" isFromUser="false" nextTimer="2.0f">Yah, semoga ya kang</item>
+            <item idItemChat="56" nextTipe="chat" nextId="57" isFromUser="true" nextTimer="2.0f">Amin</item>
+            <item idItemChat="57" nextTipe="chat" nextId="58" isFromUser="false" nextTimer="2.0f">AMINNN</item>
+            <item idItemChat="58" nextTipe="chat" nextId="59" isFromUser="true" nextTimer="2.0f">Ya udah sana dagang tahu</item>
+            <item idItemChat="59" nextTipe="notif" nextId="1" isFromUser="false" nextTimer="1.0f" analytics="CS_VAL5_End,CS_VAL5A_End">Jyah si akang</item>
+<!--            <item idItemChat="59" isFromUser="false" analytics="CS_VAL5_End,CS_VAL5A_End">Jyah si akang</item>-->
+        </chat>
+
+        <notif>
+<!--            <item idItemNotif="1">Cerita chat "Tahu-tahu Cinta" telah selesai</item>-->
+            <item idItemNotif="1" nextTipe="notif" nextId="2" nextTimer="0.1f">Cerita chat "Tahu-tahu Cinta" telah selesai</item>
+            <item idItemNotif="2">Apakah kamu mau mengulang ceritanya lagi?</item>
+        </notif>
+    </story>
+
+
+    <!--PART 4-->
+    <!--gayakin-->
+    <story idStory="7" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="2.0f" analytics="CS_VAL4_Start,CS_VAL4B_Start">Kang</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="true" nextTimer="2.0f">Ya</item>
+            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="false" nextTimer="2.0f">Ga nemu kang</item>
+            <item idItemChat="4" nextTipe="chat" nextId="5" isFromUser="true" nextTimer="2.0f">Apaan?</item>
+            <item idItemChat="5" nextTipe="chat" nextId="6" isFromUser="false" nextTimer="2.0f">Mba Cosplayer</item>
+            <item idItemChat="6" nextTipe="chat" nextId="7" isFromUser="true" nextTimer="2.0f">Nah kan</item>
+            <item idItemChat="7" nextTipe="chat" nextId="8" isFromUser="false" nextTimer="2.0f">Terus digaji Kang</item>
+            <item idItemChat="8" nextTipe="chat" nextId="9" isFromUser="true" nextTimer="2.0f">Hah? Apaan nih?</item>
+            <item idItemChat="9" nextTipe="chat" nextId="10" isFromUser="false" nextTimer="2.0f">Dapet gaji kang</item>
+            <item idItemChat="10" nextTipe="chat" nextId="11" isFromUser="true" nextTimer="2.0f">Siapa yang gaji?!</item>
+            <item idItemChat="11" nextTipe="chat" nextId="12" isFromUser="false" nextTimer="2.0f">Tadi lagi nungguin gerbang</item>
+            <item idItemChat="12" nextTipe="chat" nextId="13" isFromUser="false" nextTimer="2.0f">Yang punya acara datang</item>
+            <item idItemChat="13" nextTipe="chat" nextId="14" isFromUser="false" nextTimer="2.0f">Kayaknya dikira satpam yang tugas di sana</item>
+            <item idItemChat="14" nextTipe="chat" nextId="15" isFromUser="false" nextTimer="2.0f">Terus digaji</item>
+            <item idItemChat="15" nextTipe="chat" nextId="16" isFromUser="true" nextTimer="2.0f">WKWKWKWKWKWKW</item>
+            <item idItemChat="16" nextTipe="chat" nextId="17" isFromUser="true" nextTimer="2.0f">Seriusan?</item>
+            <item idItemChat="17" nextTipe="chat" nextId="18" isFromUser="true" nextTimer="2.0f">Asik dong?!</item>
+            <item idItemChat="18" nextTipe="chat" nextId="19" isFromUser="false" nextTimer="2.0f">Ya asik sih</item>
+            <item idItemChat="19" nextTipe="chat" nextId="20" isFromUser="false" nextTimer="2.0f">Tapi ga nemu Mba Cosplayer-nya nih</item>
+            <item idItemChat="20" nextTipe="chat" nextId="21" isFromUser="true" nextTimer="2.0f">ya... kemaren kan udah dibilangin</item>
+            <item idItemChat="21" nextTipe="chat" nextId="22" isFromUser="false" nextTimer="2.0f">Terus gimana dong kang</item>
+            <item idItemChat="22" nextTipe="chat" nextId="23" isFromUser="true" nextTimer="2.0f">Ya udah disyukuri aja</item>
+            <item idItemChat="23" nextTipe="chat" nextId="24" isFromUser="false" nextTimer="2.0f">Apanya?</item>
+            <item idItemChat="24" nextTipe="chat" nextId="25" isFromUser="true" nextTimer="2.0f">Duit</item>
+            <item idItemChat="25" nextTipe="chat" nextId="26" isFromUser="false" nextTimer="2.0f">O iya ya</item>
+            <item idItemChat="26" nextTipe="chat" nextId="27" isFromUser="false" nextTimer="2.0f">Kemaren ini Tahu-tahu Cinta</item>
+            <item idItemChat="27" nextTipe="chat" nextId="28" isFromUser="false" nextTimer="2.0f">Sekarang Tahu-tahu dapat duit</item>
+            <item idItemChat="28" nextTipe="opsi" nextId="1" isFromUser="false" nextTimer="2.0f" analytics="CS_VAL4_Ask,CS_VAL4B_Ask">Besok Tahu-tahu apa ya?</item>
+
+            <!--item opsi 1-->
+            <!--dagang tahu-->
+            <item idItemChat="29" nextTipe="chat" nextId="30" isFromUser="false" nextTimer="2.0f">Ih, dagang tahu aja terus</item>
+            <item idItemChat="30" nextTipe="chat" nextId="31" isFromUser="true" nextTimer="2.0f">Ya.. usaha dong</item>
+            <item idItemChat="31" nextTipe="chat" nextId="32" isFromUser="true" nextTimer="2.0f">Siapa tahu rejeki</item>
+            <item idItemChat="32" nextTipe="chat" nextId="33" isFromUser="true" nextTimer="2.0f">Siapa tahu jodoh</item>
+            <item idItemChat="33" nextTipe="chat" nextId="34" isFromUser="false" nextTimer="2.0f">Jodoh gimana?</item>
+            <item idItemChat="34" nextTipe="chat" nextId="35" isFromUser="true" nextTimer="2.0f">Ya siapa tahu, si Mbanya beli tahu bulat besok</item>
+            <item idItemChat="35" nextTipe="chat" nextId="36" isFromUser="false" nextTimer="2.0f">Bener kang?</item>
+            <item idItemChat="36" nextTipe="chat" nextId="37" isFromUser="true" nextTimer="2.0f">Yeee... meneketehe</item>
+            <item idItemChat="37" nextTipe="chat" nextId="38" isFromUser="true" nextTimer="2.0f">Coba aja dulu</item>
+            <item idItemChat="38" nextTipe="chat" nextId="39" isFromUser="true" nextTimer="2.0f">Tahu-tahu datang lagi ntar</item>
+            <item idItemChat="39" nextTipe="notif" nextId="1" isFromUser="false" nextTimer="2.0f" analytics="CS_VAL4_End,CS_VAL4B_End">Ya..........</item>
+
+            <!--item opsi 2-->
+            <!--bayar cicilan-->
+            <item idItemChat="40" nextTipe="chat" nextId="41" isFromUser="false" nextTimer="2.0f">Oiya, masi ada cicilan motor</item>
+            <item idItemChat="41" nextTipe="chat" nextId="42" isFromUser="false" nextTimer="2.0f">Iya deh, ini duit bisa dipake bayar cicilan</item>
+            <item idItemChat="42" nextTipe="chat" nextId="43" isFromUser="false" nextTimer="2.0f">Makasih ya kang</item>
+            <item idItemChat="43" nextTipe="notif" nextId="3" isFromUser="true" nextTimer="2.0f" analytics="CS_VAL4_End,CS_VAL4B_End">Ya... sama-sama..</item>
+        </chat>
+
+        <opsi idOpsi="1">
+            <item idItemOpsi="1" nextTipe="chat" nextId="29" nextTimer="2.0f" analytics="CS_VAL4_Choose_A,CS_VAL4B_Choose_A">Tahu-tahu dagang tahu</item>
+            <item idItemOpsi="2" nextTipe="chat" nextId="40" nextTimer="2.0f" analytics="CS_VAL4_Choose_B,CS_VAL4B_Choose_B">Tahu-tahu bayar cicilan</item>
+        </opsi>
+
+        <notif>
+            <!--dagang tahu-->
+            <item idItemNotif="1" nextTipe="notif" nextId="2" nextTimer="0.1f">Cerita chat bagian #4 telah selesai</item>
+            <item idItemNotif="2" nextTipe="story" nextId="8" nextTimer="4.0f" regex="timer_delayStory#satpam" isNextFromUser="false" delayStory="86400.0f">Silahkan cek lagi dalam %1$s</item>
+
+            <!--bayar cicilan-->
+            <item idItemNotif="3" nextTipe="notif" nextId="4" nextTimer="0.1f">Cerita chat bagian #4 telah selesai</item>
+            <item idItemNotif="4" nextTipe="story" nextId="9" nextTimer="4.0f" regex="timer_delayStory#satpam" isNextFromUser="false" delayStory="86400.0f">Silahkan cek lagi dalam %1$s</item>
+        </notif>
+    </story>
+
+    <!--PART 5-->
+    <!--ending - best ending - versi dagang tahu-->
+    <story idStory="8" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="2.0f" analytics="CS_VAL5_Start,CS_VAL5C_Start">KANG</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="true" nextTimer="2.0f">KUNGKINGKANG</item>
+            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="false" nextTimer="2.0f">KANG!</item>
+            <item idItemChat="4" nextTipe="chat" nextId="5" isFromUser="true" nextTimer="2.0f">Iyaaaa</item>
+            <item idItemChat="5" nextTipe="chat" nextId="6" isFromUser="true" nextTimer="2.0f">Apa?</item>
+            <item idItemChat="6" nextTipe="chat" nextId="7" isFromUser="false" nextTimer="2.0f">Semalem ketemu Mba Cosplayer</item>
+            <item idItemChat="7" nextTipe="chat" nextId="8" isFromUser="true" nextTimer="2.0f">Hah? Kok bisa?</item>
+            <item idItemChat="8" nextTipe="chat" nextId="9" isFromUser="false" nextTimer="2.0f">Dalam mimpi</item>
+            <item idItemChat="9" nextTipe="chat" nextId="10" isFromUser="true" nextTimer="2.0f">...........</item>
+            <item idItemChat="10" nextTipe="chat" nextId="11" isFromUser="true" nextTimer="2.0f">Mau digoreng?</item>
+            <item idItemChat="11" nextTipe="chat" nextId="12" isFromUser="false" nextTimer="2.0f">Serius kang</item>
+            <item idItemChat="12" nextTipe="chat" nextId="13" isFromUser="true" nextTimer="2.0f">Serius juga ini</item>
+            <item idItemChat="13" nextTipe="chat" nextId="14" isFromUser="false" nextTimer="2.0f">Doh, gimana kang</item>
+            <item idItemChat="14" nextTipe="chat" nextId="15" isFromUser="false" nextTimer="2.0f">Tahu-tahu ketemu</item>
+            <item idItemChat="15" nextTipe="chat" nextId="16" isFromUser="false" nextTimer="2.0f">Tahu-tahu cinta</item>
+            <item idItemChat="16" nextTipe="chat" nextId="17" isFromUser="false" nextTimer="2.0f">Tahu-tahu mimpiin</item>
+            <item idItemChat="17" nextTipe="chat" nextId="18" isFromUser="true" nextTimer="2.0f">......</item>
+            <item idItemChat="18" nextTipe="chat" nextId="19" isFromUser="true" nextTimer="2.0f">Ngomong-ngomong</item>
+            <item idItemChat="19" nextTipe="chat" nextId="20" isFromUser="true" nextTimer="2.0f">Ini tahu-tahu ada lamaran kerja masuk</item>
+            <item idItemChat="20" nextTipe="chat" nextId="21" isFromUser="true" nextTimer="2.0f">Tahu-tahu yang ngelamarnya juga cosplayer</item>
+            <item idItemChat="21" nextTipe="chat" nextId="22" isFromUser="false" nextTimer="2.0f">HAH?! SERIUSAN?!</item>
+            <item idItemChat="22" nextTipe="chat" nextId="23" isFromUser="true" nextTimer="2.0f">Iya, namanya "Mba Cosu-chan"</item>
+            <item idItemChat="23" nextTipe="chat" nextId="24" isFromUser="false" nextTimer="2.0f">HAH?</item>
+            <item idItemChat="24" nextTipe="chat" nextId="25" isFromUser="false" nextTimer="2.0f">MANA?</item>
+            <item idItemChat="25" nextTipe="chat" nextId="26" isFromUser="true" nextTimer="2.0f">Bentar</item>
+            <item idItemChat="26" nextTipe="chat" nextId="27" isFromUser="true" nextTimer="2.0f" idFoto="ppcosuchan"/>
+            <item idItemChat="27" nextTipe="chat" nextId="28" isFromUser="true" nextTimer="2.0f">Tuh fotonya</item>
+            <item idItemChat="28" nextTipe="chat" nextId="29" isFromUser="false" nextTimer="2.0f">KAAAAAAAAAAAAAAAAAAANGGGG</item>
+            <item idItemChat="29" nextTipe="chat" nextId="30" isFromUser="false" nextTimer="2.0f">KAAAAAAAAAAAANNGGG</item>
+            <item idItemChat="30" nextTipe="chat" nextId="31" isFromUser="false" nextTimer="2.0f">KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAANNNNNNNNNNNNNNNN&#10;NNGGGGGGGGGGGGGGGGGGGGGGGGGGG&#10;GGGGGGGGGGGGGGGGGGGGGGGGGGGGG</item>
+            <item idItemChat="31" nextTipe="chat" nextId="32" isFromUser="true" nextTimer="2.0f">APAAAAAAA</item>
+            <item idItemChat="32" nextTipe="chat" nextId="33" isFromUser="false" nextTimer="2.0f">ITU MBANYA KANG</item>
+            <item idItemChat="33" nextTipe="chat" nextId="34" isFromUser="false" nextTimer="2.0f">ITU MBA YANG KETEMU KEMAREN</item>
+            <item idItemChat="34" nextTipe="chat" nextId="35" isFromUser="false" nextTimer="2.0f">DSFSDJFLATAHUJEASEDFJAWE</item>
+            <item idItemChat="35" nextTipe="chat" nextId="36" isFromUser="true" nextTimer="2.0f">HAH? SERIUS?</item>
+            <item idItemChat="36" nextTipe="chat" nextId="37" isFromUser="true" nextTimer="2.0f">Kok bisa tahu-tahu ngelamar?</item>
+            <item idItemChat="37" nextTipe="chat" nextId="38" isFromUser="false" nextTimer="2.0f">GA TAHU KANG GA TAHU</item>
+            <item idItemChat="38" nextTipe="chat" nextId="39" isFromUser="true" nextTimer="2.0f">Kok cosplayer mau dagang tahu?</item>
+            <item idItemChat="39" nextTipe="chat" nextId="40" isFromUser="false" nextTimer="2.0f">GA TAHU KANG GA TAHU</item>
+            <item idItemChat="40" nextTipe="chat" nextId="41" isFromUser="true" nextTimer="2.0f">Jadi kamu ga tahu?</item>
+            <item idItemChat="41" nextTipe="chat" nextId="42" isFromUser="false" nextTimer="2.0f">GA TAHU KANG GA TAHU</item>
+            <item idItemChat="42" nextTipe="chat" nextId="43" isFromUser="true" nextTimer="2.0f">Terus gimana dong?</item>
+            <item idItemChat="43" nextTipe="chat" nextId="44" isFromUser="false" nextTimer="2.0f">GA TAHU KANG GA TAHU</item>
+            <item idItemChat="44" nextTipe="chat" nextId="45" isFromUser="true" nextTimer="2.0f">ga tahu aja terus</item>
+            <item idItemChat="45" nextTipe="chat" nextId="46" isFromUser="false" nextTimer="2.0f">MEMANG GA TAHU KANG</item>
+            <item idItemChat="46" nextTipe="chat" nextId="47" isFromUser="true" nextTimer="2.0f">Ya udah</item>
+            <item idItemChat="47" nextTipe="chat" nextId="48" isFromUser="true" nextTimer="2.0f">Kalem bang kalem</item>
+            <item idItemChat="48" nextTipe="chat" nextId="49" isFromUser="false" nextTimer="2.0f">Oke</item>
+            <item idItemChat="49" nextTipe="chat" nextId="50" isFromUser="false" nextTimer="2.0f">Kalem</item>
+            <item idItemChat="50" nextTipe="chat" nextId="51" isFromUser="true" nextTimer="2.0f">wkwk</item>
+            <item idItemChat="51" nextTipe="chat" nextId="52" isFromUser="true" nextTimer="2.0f">Tul kan, kalau jodoh mah ga kemana</item>
+            <item idItemChat="52" nextTipe="chat" nextId="53" isFromUser="false" nextTimer="2.0f">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</item>
+            <item idItemChat="53" nextTipe="chat" nextId="54" isFromUser="true" nextTimer="2.0f">...........</item>
+            <item idItemChat="54" nextTipe="chat" nextId="55" isFromUser="true" nextTimer="2.0f">Dah, dah</item>
+            <item idItemChat="55" nextTipe="chat" nextId="56" isFromUser="true" nextTimer="2.0f">Jadi udah lega sekarang?</item>
+            <item idItemChat="56" nextTipe="chat" nextId="57" isFromUser="false" nextTimer="2.0f">Tahu-tahu lega kang</item>
+            <item idItemChat="57" nextTipe="chat" nextId="58" isFromUser="true" nextTimer="2.0f">yawes, semoga ntar bisa ketemu ya</item>
+            <item idItemChat="58" nextTipe="chat" nextId="59" isFromUser="false" nextTimer="2.0f">KETEMUIN DONG KANG</item>
+            <item idItemChat="59" nextTipe="chat" nextId="60" isFromUser="true" nextTimer="2.0f">Ntar, wawancara dulu sampe beres</item>
+            <item idItemChat="60" nextTipe="chat" nextId="61" isFromUser="true" nextTimer="2.0f">Kalau keterima baru diketemuin</item>
+            <item idItemChat="61" nextTipe="chat" nextId="62" isFromUser="false" nextTimer="2.0f">MASA GA DITERIMA?!</item>
+            <item idItemChat="62" nextTipe="chat" nextId="63" isFromUser="true" nextTimer="2.0f">Hush</item>
+            <item idItemChat="63" nextTipe="chat" nextId="64" isFromUser="true" nextTimer="2.0f">Profesional</item>
+            <item idItemChat="64" nextTipe="chat" nextId="65" isFromUser="true" nextTimer="2.0f">Tidak ada alasan pribadi!</item>
+            <item idItemChat="65" nextTipe="chat" nextId="66" isFromUser="false" nextTimer="2.0f">Hadeh</item>
+            <item idItemChat="66" nextTipe="chat" nextId="67" isFromUser="true" nextTimer="2.0f">Tapi seneng kan?</item>
+            <item idItemChat="67" nextTipe="chat" nextId="68" isFromUser="false" nextTimer="2.0f">Seneng dong!</item>
+            <item idItemChat="68" nextTipe="chat" nextId="69" isFromUser="false" nextTimer="2.0f">WKWKKWKWKWKW</item>
+            <item idItemChat="69" nextTipe="notif" nextId="1" isFromUser="true" nextTimer="1.0f" analytics="CS_VAL5_End,CS_VAL5C_End">WKWKWKWKWKWK</item>
+<!--            <item idItemChat="69" isFromUser="true" analytics="CS_VAL5_End,CS_VAL5C_End">WKWKWKWKWKWK</item>-->
+        </chat>
+
+        <notif>
+<!--            <item idItemNotif="1">Cerita chat "Tahu-tahu Cinta" telah selesai</item>-->
+            <item idItemNotif="1" nextTipe="notif" nextId="2" nextTimer="0.1f">Cerita chat "Tahu-tahu Cinta" telah selesai</item>
+            <item idItemNotif="2">Apakah kamu mau mengulang ceritanya lagi?</item>
+        </notif>
+    </story>
+
+
+    <!--PART 5-->
+    <!--ending - versi bayar cicilan-->
+    <story idStory="9" showingFirst="chat#1">
+        <chat>
+            <item idItemChat="1" nextTipe="chat" nextId="2" isFromUser="false" nextTimer="2.0f" analytics="CS_VAL5_Start,CS_VAL5B_Start">Kang</item>
+            <item idItemChat="2" nextTipe="chat" nextId="3" isFromUser="false" nextTimer="2.0f">Tadi bayar cicilan motor</item>
+            <item idItemChat="3" nextTipe="chat" nextId="4" isFromUser="false" nextTimer="2.0f">Ada mba cosplayer!</item>
+            <item idItemChat="4" nextTipe="chat" nextId="5" isFromUser="true" nextTimer="2.0f">Hah?</item>
+            <item idItemChat="5" nextTipe="chat" nextId="6" isFromUser="true" nextTimer="2.0f">Seriusan?</item>
+            <item idItemChat="6" nextTipe="chat" nextId="7" isFromUser="false" nextTimer="2.0f">Iyah, Mba Adminnya mirip banget!</item>
+            <item idItemChat="7" nextTipe="chat" nextId="8" isFromUser="true" nextTimer="2.0f">Mirip atau memang orangnya?</item>
+            <item idItemChat="8" nextTipe="chat" nextId="9" isFromUser="false" nextTimer="2.0f">Mirip</item>
+            <item idItemChat="9" nextTipe="chat" nextId="10" isFromUser="true" nextTimer="2.0f">Lah, bukan si Mba Cosplayer dong?!</item>
+            <item idItemChat="10" nextTipe="chat" nextId="11" isFromUser="false" nextTimer="2.0f">Iya... sih kayaknya</item>
+            <item idItemChat="11" nextTipe="chat" nextId="12" isFromUser="false" nextTimer="2.0f">Mungkin..</item>
+            <item idItemChat="12" nextTipe="chat" nextId="13" isFromUser="false" nextTimer="2.0f">Kayaknya ya...</item>
+            <item idItemChat="13" nextTipe="chat" nextId="14" isFromUser="true" nextTimer="2.0f">Loh? Kok kayaknya?</item>
+            <item idItemChat="14" nextTipe="chat" nextId="15" isFromUser="false" nextTimer="2.0f">ga tau kang</item>
+            <item idItemChat="15" nextTipe="chat" nextId="16" isFromUser="true" nextTimer="2.0f">.............</item>
+            <item idItemChat="16" nextTipe="chat" nextId="17" isFromUser="false" nextTimer="2.0f">jadi gimana kang?</item>
+            <item idItemChat="17" nextTipe="chat" nextId="18" isFromUser="true" nextTimer="2.0f">Loh, kok malah nanya?</item>
+            <item idItemChat="18" nextTipe="chat" nextId="19" isFromUser="false" nextTimer="2.0f">Kan akang yang suruh bayar cicilan</item>
+            <item idItemChat="19" nextTipe="chat" nextId="20" isFromUser="true" nextTimer="2.0f">Ih, itu kan gara-gara situ emang harus bayar</item>
+            <item idItemChat="20" nextTipe="chat" nextId="21" isFromUser="false" nextTimer="2.0f">iya juga sih...</item>
+            <item idItemChat="21" nextTipe="chat" nextId="22" isFromUser="true" nextTimer="2.0f">Jadi gimana ini?</item>
+            <item idItemChat="22" nextTipe="chat" nextId="23" isFromUser="false" nextTimer="2.0f">Ya.. ga tahu..</item>
+            <item idItemChat="23" nextTipe="chat" nextId="24" isFromUser="true" nextTimer="2.0f">Tahu-tahu lunasin dulu aja cicliannya</item>
+            <item idItemChat="24" nextTipe="chat" nextId="25" isFromUser="false" nextTimer="2.0f">Biar bisa sering ketemu ya?</item>
+            <item idItemChat="25" nextTipe="chat" nextId="26" isFromUser="true" nextTimer="2.0f">....</item>
+            <item idItemChat="26" nextTipe="chat" nextId="27" isFromUser="false" nextTimer="2.0f">Biar bisa tahu-tahu kenalan?</item>
+            <item idItemChat="27" nextTipe="chat" nextId="28" isFromUser="true" nextTimer="2.0f">Ya.....</item>
+            <item idItemChat="28" nextTipe="chat" nextId="29" isFromUser="false" nextTimer="2.0f">Biar bisa tahu-tahu jalan bareng?</item>
+            <item idItemChat="29" nextTipe="chat" nextId="30" isFromUser="true" nextTimer="2.0f">Bebaslah</item>
+            <item idItemChat="30" nextTipe="chat" nextId="31" isFromUser="false" nextTimer="2.0f">Tahu-tahu mau bilang makasih nih kang</item>
+            <item idItemChat="31" nextTipe="chat" nextId="32" isFromUser="true" nextTimer="2.0f">.......</item>
+            <item idItemChat="32" nextTipe="chat" nextId="33" isFromUser="true" nextTimer="2.0f">Iya... tahu...</item>
+            <item idItemChat="33" nextTipe="notif" nextId="1" isFromUser="true" nextTimer="1.0f" analytics="CS_VAL5_End,CS_VAL5B_End">Sama-sama..</item>
+<!--            <item idItemChat="33" isFromUser="true" analytics="CS_VAL5_End,CS_VAL5B_End">Sama-sama..</item>-->
+        </chat>
+
+        <notif>
+<!--            <item idItemNotif="1">Cerita chat "Tahu-tahu Cinta" telah selesai</item>-->
+            <item idItemNotif="1" nextTipe="notif" nextId="2" nextTimer="0.1f">Cerita chat "Tahu-tahu Cinta" telah selesai</item>
+            <item idItemNotif="2">Apakah kamu mau mengulang ceritanya lagi?</item>
+        </notif>
+    </story>
+
+</resources>

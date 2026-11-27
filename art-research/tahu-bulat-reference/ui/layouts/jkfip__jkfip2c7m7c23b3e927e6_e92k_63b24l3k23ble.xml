@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario punya_warna_belakang="0x000000">
+        <dialog karakter="0" ekspresi="idle" y="300" formatType="nama_pemain">Oke! Apabila nanti Kak %1$s mau membuat Akun Own Connect,&#10;tinggal buka HP Akang ya..</dialog>
+        <dialog ekspresi="mantul" formatType="nama_pemain_dan_level" analytics="POB4_START_BINTANG">Sekali lagi, selamat!!&#10;Kak %1$s sudah menjadi&#10;Tukang Tahu Bulat Level %2$s!!</dialog>
+        <aksi tipe="highlight" ui="bintang_level" hold="false"/>
+        <aksi tipe="muncul" ui="bintang_level" hold="false"/>
+        <dialog ekspresi="idle">Level Tukang Tahu Bulat beserta&#10;proses peningkatannya ditampilkan dalam bentuk bintang.</dialog>
+        <dialog ekspresi="semangat">Tingkatkan terus total penghasilan selamanya untuk meningkatkan&#10;Level Tukang Tahu Bulat!</dialog>
+        <dialog ekspresi="tekad_bulad" analytics="POB5_COMPLETED">Ayo, bulatkan Tekad!!!&#10;Sebulat Tahu Bulat!!!</dialog>
+    </skenario>
+</resources>

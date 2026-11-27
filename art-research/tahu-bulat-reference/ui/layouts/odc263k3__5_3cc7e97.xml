@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <challenge>
+        <item id="1" tglMulai="01-04-2019" tglSelesai="30-05-2019" target="200" rewards="peridot#100">https://4.bp.blogspot.com/-mvyQjSPNIb0/XFGf8x414EI/AAAAAAAABNo/tr3EtOohvvgqhOU0byJjezJPeSy5SsIOQCK4BGAYYCw/s1600/liveops%2Bpromo%2Bon%2Btb.png</item>
+
+        <item id="2" tglMulai="02-04-2019" tglSelesai="22-05-2019" target="100" rewards="peridot#200">https://4.bp.blogspot.com/-mvyQjSPNIb0/XFGf8x414EI/AAAAAAAABNo/tr3EtOohvvgqhOU0byJjezJPeSy5SsIOQCK4BGAYYCw/s1600/liveops%2Bpromo%2Bon%2Btb.png</item>
+    </challenge>
+
+    <detailChallenge>
+        <item idChallenge="1" namaGame="Give Me My Sushi">
+            <descTarget>target 111 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</descTarget>
+            <descReward>reward 111 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</descReward>
+        </item>
+        <item idChallenge="2" namaGame="Give Me My Sushi 222">
+            <descTarget>target 222 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</descTarget>
+            <descReward>reward 222 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</descReward>
+        </item>
+    </detailChallenge>
+
+</resources>

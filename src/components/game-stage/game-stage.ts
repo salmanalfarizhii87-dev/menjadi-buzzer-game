@@ -1,0 +1,150 @@
+/**
+ * Stage game hidup: background bergerak (parallax), karakter bisa jalan/lompat,
+ * partikel, dan reaksi klik. DOM + CSS + rAF, tanpa Canvas.
+ */
+
+import { el } from '@/core/dom';
+import './game-stage.css';
+
+const LINES = [
+  'Santai, cuan jalan terus.',
+  'Siap posting lagi, bos?',
+  'Kopi dulu sebelum gas.',
+  'Heat naik! Gas poll.',
+];
+
+export interface GameStageElement extends HTMLElement {
+  stopStage?: () => void;
+}
+
+export interface GameStageOptions {
+  outfitId: string;
+  /** Tombol panah untuk menggerakkan karakter. */
+  controls?: boolean;
+  signal?: AbortSignal;
+}
+
+export function gameStage(options: GameStageOptions): HTMLElement {
+  const { outfitId, controls = true, signal } = options;
+
+  const avatarKey = outfitId === 'outfit-basic' ? 'base' : outfitId.replace('outfit-', '') || 'base';
+
+  const root = el('div', { class: 'game-stage' });
+  const background = el('img', {
+    class: 'game-stage__bg',
+    src: '/assets/stitch/room-bg.jpg',
+    alt: '',
+    'aria-hidden': 'true',
+  });
+  root.appendChild(background);
+
+  const sweep = el('span', { class: 'game-stage__sweep', 'aria-hidden': 'true' });
+  root.appendChild(sweep);
+
+  const motes = el('span', { class: 'game-stage__motes', 'aria-hidden': 'true' });
+  for (let index = 0; index < 9; index += 1) {
+    motes.appendChild(el('span', { class: `game-stage__mote game-stage__mote--${index % 3}` }));
+  }
+  root.appendChild(motes);
+
+  const shadow = el('span', { class: 'game-stage__shadow', 'aria-hidden': 'true' });
+  root.appendChild(shadow);
+
+  const actor = el('button', {
+    type: 'button',
+    class: 'game-stage__actor',
+    'aria-label': 'Karakter — ketuk untuk reaksi',
+  });
+  const bubble = el('span', { class: 'game-stage__bubble' });
+  const portrait = el('img', {
+    class: 'game-stage__char',
+    src: `/assets/stitch/avatar-${avatarKey}.jpg`,
+    alt: 'Karakter pemain',
+  });
+  actor.append(bubble, portrait);
+  root.appendChild(actor);
+
+  if (controls) {
+    const pad = el('div', { class: 'game-stage__pad', role: 'group', 'aria-label': 'Gerakkan karakter' });
+    const left = el('button', { type: 'button', class: 'game-stage__pad-btn', text: '◀', 'aria-label': 'Jalan ke kiri' });
+    const jump = el('button', { type: 'button', class: 'game-stage__pad-btn game-stage__pad-btn--jump', text: '▲', 'aria-label': 'Lompat' });
+    const right = el('button', { type: 'button', class: 'game-stage__pad-btn', text: '▶', 'aria-label': 'Jalan ke kanan' });
+    pad.append(left, jump, right);
+    root.appendChild(pad);
+
+    const hold = (button: HTMLButtonElement, value: number): void => {
+      button.addEventListener('pointerdown', (event) => {
+        event.preventDefault();
+        direction = value;
+      });
+      for (const type of ['pointerup', 'pointerleave', 'pointercancel']) {
+        button.addEventListener(type, () => {
+          if (direction === value) direction = 0;
+        });
+      }
+    };
+    hold(left, -1);
+    hold(right, 1);
+    jump.addEventListener('click', () => {
+      if (height < 2) velocityY = 11;
+    });
+  }
+
+  let direction = 0;
+  let x = 0;
+  let velocityX = 0;
+  let height = 0;
+  let velocityY = 0;
+  let frame = 0;
+  let bubbleTimer: number | null = null;
+
+  const react = (): void => {
+    bubble.textContent = LINES[Math.floor(Math.random() * LINES.length)] ?? LINES[0]!;
+    bubble.classList.add('is-visible');
+    actor.classList.remove('is-reacting');
+    void actor.offsetWidth;
+    actor.classList.add('is-reacting');
+    if (bubbleTimer !== null) window.clearTimeout(bubbleTimer);
+    bubbleTimer = window.setTimeout(() => bubble.classList.remove('is-visible'), 2100);
+  };
+  actor.addEventListener('click', react);
+
+  const tick = (): void => {
+    velocityX += direction * 0.9;
+    velocityX *= 0.9;
+    x += velocityX;
+    if (x > 86 || x < -86) {
+      x = Math.max(-86, Math.min(86, x));
+      velocityX *= -0.35;
+    }
+
+    if (height > 0 || velocityY > 0) {
+      height += velocityY;
+      velocityY -= 0.9;
+      if (height <= 0) {
+        height = 0;
+        velocityY = 0;
+      }
+    }
+
+    actor.style.setProperty('--x', `${x.toFixed(1)}px`);
+    actor.style.setProperty('--y', `${height.toFixed(1)}px`);
+    actor.classList.toggle('is-walking', Math.abs(velocityX) > 0.7);
+    shadow.style.setProperty('--x', `${x.toFixed(1)}px`);
+    shadow.style.setProperty('--s', String(1 - height / 180));
+    background.style.setProperty('--pan', `${(-x * 0.3).toFixed(1)}px`);
+    motes.style.setProperty('--pan', `${(-x * 0.55).toFixed(1)}px`);
+
+    frame = window.requestAnimationFrame(tick);
+  };
+
+  const stop = (): void => {
+    window.cancelAnimationFrame(frame);
+    if (bubbleTimer !== null) window.clearTimeout(bubbleTimer);
+  };
+  signal?.addEventListener('abort', stop, { once: true });
+
+  frame = window.requestAnimationFrame(tick);
+  (root as GameStageElement).stopStage = stop;
+  return root;
+}

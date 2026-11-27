@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <story idFestival="1" xmlStory="xml_cabang_story/festival_story_1.xml"/><!--//misi 1-->
+    <story idFestival="2" xmlStory="xml_cabang_story/festival_story_2.xml"/><!--//misi 2-->
+    <story idFestival="3" xmlStory="xml_cabang_story/festival_story_3.xml"/><!--//misi 4-->
+    <story idFestival="4" xmlStory="xml_cabang_story/festival_story_4.xml"/><!--//misi 5-->
+    <story idFestival="5" xmlStory="xml_cabang_story/festival_story_5.xml"/><!--//misi 6-->
+    <story idFestival="6" xmlStory="xml_cabang_story/festival_story_6.xml"/><!--//misi 8-->
+    <story idFestival="7" xmlStory="xml_cabang_story/festival_story_7.xml"/><!--//misi 9-->
+    <story idFestival="8" xmlStory="xml_cabang_story/festival_story_8.xml"/><!--//misi 11-->
+    <!--//07172020 festival9 pending-->
+    <!--//08142020-->
+    <story idFestival="9" xmlStory="xml_cabang_story/festival_story_9.xml"/><!--//misi 15-->
+</resources>

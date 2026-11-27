@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <container id="base">
+        <container id="bungkus" x="0" y="0" pivotX="0" pivotY="0">
+            <image_list id="charPembeli" x="0" y="200" pivotX="0.5" pivotY="0" scaleX="1.7f" scaleY="1.7f" pivotScaleX="0.5" pivotScaleY="0">
+                <item>pembeli_baru/kriboMerah_datang1.png</item>
+                <item>pembeli_baru/kriboMerah_datang2.png</item>
+                <item>pembeli_baru/kriboMerah_bayar.png</item>
+                <item>pembeli_baru/kriboMerah_pergi1.png</item>
+                <item>pembeli_baru/kriboMerah_pergi2.png</item>
+            </image_list>
+
+            <container id="contPesanan" x="0" y="0" pivotX="0.5" pivotY="0" isVisible="false">
+                <image_list id="dialog" x="0" y="0" pivotX="0.5" pivotY="0" isBaseContainer="true">
+                    <item>sotong/ui/ui_bubble_pesanan.png</item>
+                </image_list>
+
+                <container id="contTimer" x="4" y="5" alignX="dialog#0" alignY="dialog#0" isVisible="false">
+                    <image_list id="barMerah" x="0" y="0" isBaseContainer="true">
+                        <item>sotong/ui/ui_barEmosi_isi_merah.png</item>
+                    </image_list>
+                    <image_list id="barKuning" x="0" y="0">
+                        <item>sotong/ui/ui_barEmosi_isi_kuning.png</item>
+                    </image_list>
+                    <image_list id="barHijau" x="0" y="0">
+                        <item>sotong/ui/ui_barEmosi_isi_hijau.png</item>
+                    </image_list>
+                </container>
+                <uiReader id="emoji_bar" x="30" y="45" alignX="dialog#0" alignY="dialog#1" xml="sotong/xml/ui/sotong_emoji_bar.xml" isExternal="false"/>
+            </container>
+
+            <uiReader id="emoji" x="0" y="0" pivotX="0.5" pivotY="0" alignY="charPembeli#0" xml="sotong/xml/ui/sotong_emoji.xml" isVisible="false" isExternal="false"/>
+            <particle id="senang" xml="sotong/xml/partikel/senang.xml" x="0" y="0" pivotX="0.5" pivotY="0" alignY="charPembeli#0.5"/>
+
+            <particle id="marah" xml="sotong/xml/partikel/marah.xml" x="0" y="0" pivotX="0.5" pivotY="0" alignY="charPembeli#0"/>
+        </container>
+    </container>
+
+    <animation>
+        <reset>
+            <multiple>
+                <scaleX id="charPembeli" pivotX="0.5" time="0">1.7</scaleX>
+                <scaleY id="charPembeli" pivotY="0" time="0">1.7</scaleY>
+                <stopParticle id="senang"/>
+                <stopParticle id="marah"/>
+            </multiple>
+        </reset>
+
+        <masuk>
+            <sequence>
+                <multiple>
+                    <moveY id="bungkus" time="0.3">-400</moveY>
+                    <scaleX id="charPembeli" pivotX="0.5" time="0.3">1.5</scaleX>
+                </multiple>
+                <multiple>
+                    <moveY id="charPembeli" time="0.05">20</moveY>
+                    <scaleX id="charPembeli" pivotX="0.5" time="0.05">1.7</scaleX>
+                </multiple>
+            </sequence>
+        </masuk>
+
+        <keluar>
+            <sequence>
+                <moveY id="charPembeli" time="0.1">-20</moveY>
+                <multiple>
+                    <moveX id="bungkus" time="1.6">1000</moveX>
+                    <sequence repeat="4">
+                        <moveY id="charPembeli" time="0.2">-15</moveY>
+                        <moveY id="charPembeli" time="0.2">15</moveY>
+                    </sequence>
+                </multiple>
+            </sequence>
+        </keluar>
+
+        <keluar_kiri>
+            <!--jalan ke kiri-->
+            <sequence>
+                <moveY id="charPembeli" time="0.1">-20</moveY>
+                <multiple>
+                    <moveX id="bungkus" time="1.6">-1000</moveX>
+                    <sequence repeat="4">
+                        <moveY id="charPembeli" time="0.2">-15</moveY>
+                        <moveY id="charPembeli" time="0.2">15</moveY>
+                    </sequence>
+                </multiple>
+            </sequence>
+        </keluar_kiri>
+
+        <idle repeat="-1">
+          <sequence>
+              <multiple>
+                  <scaleX id="charPembeli" pivotX="0.5" time="0.3">1.72</scaleX>
+                  <scaleY id="charPembeli" pivotY="0" time="0.3">1.68</scaleY>
+                  <moveY id="charPembeli" time="0.3">2</moveY>
+              </multiple>
+              <multiple>
+                  <scaleX id="charPembeli" pivotX="0.5" time="0.3">1.7</scaleX>
+                  <scaleY id="charPembeli" pivotY="0" time="0.3">1.7</scaleY>
+                  <moveY id="charPembeli" time="0.3">0</moveY>
+
+              </multiple>
+              <multiple>
+                  <scaleX id="charPembeli" pivotX="0.5" time="0.3">1.68</scaleX>
+                  <scaleY id="charPembeli" pivotY="0" time="0.3">1.72</scaleY>
+                  <moveY id="charPembeli" time="0.3">-3</moveY>
+
+              </multiple>
+              <multiple>
+                  <scaleX id="charPembeli" pivotX="0.5" time="0.3">1.7</scaleX>
+                  <scaleY id="charPembeli" pivotY="0" time="0.3">1.7</scaleY>
+                  <moveY id="charPembeli" time="0.3">0</moveY>
+
+              </multiple>
+          </sequence>
+        </idle>
+
+        <senang>
+            <sequence>
+                <playParticle id="senang"/>
+                <multiple>
+                    <scaleX id="charPembeli" pivotX="0.5" time="0.2">1.75</scaleX>
+                    <scaleY id="charPembeli" pivotY="0" time="0.2">1.75</scaleY>
+                    <moveY id="charPembeli" time="0.2">-50</moveY>
+                </multiple>
+                <stopParticle id="senang"/>
+                <moveY id="charPembeli" time="0.1">0</moveY>
+            </sequence>
+
+        </senang>
+
+        <marah>
+            <sequence>
+                <multiple>
+                    <geter id="charPembeli" time="2.5" getar="4"/>
+                    <playParticle id="marah"/>
+                </multiple>
+                <stopParticle id="marah"/>
+            </sequence>
+        </marah>
+
+    </animation>
+</resources>

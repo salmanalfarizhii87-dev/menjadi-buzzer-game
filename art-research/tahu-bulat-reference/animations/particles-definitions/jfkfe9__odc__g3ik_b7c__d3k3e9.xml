@@ -1,0 +1,35 @@
+<resources>
+    <particlesystem x="380" y="550">
+        <emitter pivotX="0.5" pivotY="0.5" type="area">
+            <particle lifetime="1">
+                <imagelist>
+                    <image>sotong/xml/partikel/img/p_cling.png</image>
+                </imagelist>
+                <p_start>
+                    <alpha min="0" max="0.7"/>
+                    <scale pivotX="0.5" pivotY="0.5" min="0.5" max="3.5"/>
+                    <velocity min="0" max="30" arahMin="0" arahMax="360"/>
+                </p_start>
+                <p_running>
+                    <alpha min="0.5" max="1" when="0.2"/>
+                    <alpha min="0.1" max="0.3" when="0.4"/>
+                    <alpha min="1" max="1" when="0.6"/>
+                    <alpha min="0.5" max="0.7" when="0.7"/>
+                    <alpha min="1" max="1" when="0.85"/>
+                    <alpha min="0.5" max="0.7" when="1"/>
+                    <!--<scale min="1" max="3" when="0.8"/>-->
+                    <!--<velocity min="0" max="0" when="0.7"/>-->
+                </p_running>
+            </particle>
+            <e_start>
+                <!--<burst nBurst="3" burstTime="10"/>-->
+                <emit nEmit="3" repeat="50" delay="0.7"/>
+                <burst nBurst="3" burstTime="0.1"/>
+                <source>
+                    <point x="-60" y="-100"/>
+                    <point x="60" y="60"/>
+                </source>
+            </e_start>
+        </emitter>
+    </particlesystem>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="root" width="62" height="178">
+
+        <image_list id="tusukUtuh" x="0" y="0" pivotX="0.5" pivotY="0.5">
+            <item>sotong/ui/tusukSate.png</item>
+        </image_list>
+
+        <!--tusukan 3 paling atas-->
+        <container id="tusukan3" x="0" y="10" pivotX="0.5" alignX="tusukUtuh#0.5" alignY="tusukUtuh#0" width="62" height="53">
+            <image_list id="sotong3" x="0" y="0" pivotX="0.5f">
+                <item>sotong/ui/sotong_bumbu/sotong_mentah.png</item>
+            </image_list>
+            <image_list id="tambal3" x="0" y="14" alignY="sotong3#0" alignX="sotong3#0.5" pivotX="0.5">
+                <item>sotong/ui/tusukSate_tambal1.png</item>
+            </image_list>
+        </container>
+
+        <container id="tusukan2" x="0" y="-10" pivotX="0.5" alignX="tusukUtuh#0.5" alignY="tusukan3#1" width="62" height="53">
+            <image_list id="sotong2" x="0" y="0" pivotX="0.5f">
+                <item>sotong/ui/sotong_bumbu/sotong_mentah.png</item>
+            </image_list>
+            <image_list id="tambal2" x="0" y="14" alignY="sotong2#0" alignX="sotong2#0.5" pivotX="0.5">
+                <item>sotong/ui/tusukSate_tambal1.png</item>
+            </image_list>
+        </container>
+
+        <container id="tusukan1" x="0" y="-10" pivotX="0.5" alignX="tusukUtuh#0.5" alignY="tusukan2#1" width="62" height="53">
+            <image_list id="sotong1" x="0" y="0" pivotX="0.5f">
+                <item>sotong/ui/sotong_bumbu/sotong_mentah.png</item>
+            </image_list>
+            <image_list id="tambal1" x="0" y="14" alignY="sotong1#0" alignX="sotong1#0.5" pivotX="0.5">
+                <item>sotong/ui/tusukSate_tambal1.png</item>
+            </image_list>
+            <image_list id="tambal1a" x="0" y="-8" alignY="sotong1#1" alignX="sotong1#0.5" pivotX="0.5" isVisible="true">
+                <item>sotong/ui/tusukSate_tambal2.png</item>
+            </image_list>
+        </container>
+
+        <particle id="partikelMatang" x="0" y="0" alignY="tusukUtuh#0.5" alignX="tusukUtuh#0.5" pivotX="0.5" pivotY="0.5" xml="sotong/xml/partikel/matang.xml"/>
+        <particle id="partikelGosong" x="0" y="0" alignY="tusukUtuh#0.5" alignX="tusukUtuh#0.5" pivotX="0.5" pivotY="0.5" xml="sotong/xml/partikel/gosong.xml"/>
+    </container>
+
+    <animation>
+    </animation>
+</resources>

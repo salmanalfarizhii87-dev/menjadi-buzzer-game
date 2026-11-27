@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario>
+        <dialog karakter="2" ekspresi="sad" alignY="0.5f" y="-120" animasi="0.5">Huyaa.... Aku ditolak... Sedihhh...&#10;Tapi gapapa deh.. Kapan-kapan aku tawarin lagi ya..</dialog>
+        <!--<pilihan karakter="2" ekspresi="sad" alignY="0.5f" y="-120" animasi="1.2">-->
+            <!--<dialog>Huyaa.... Aku ditolak... Sedihhh...&#10;Tapi gapapa deh.. Kapan-kapan aku tawarin lagi ya..</dialog>-->
+            <!--<buttons>-->
+                <!--<button tipe="btnDelegate" idAksi="jasteen_beliitem_tidak" image="UI_baru/ui_btn_default.png" text="Oke"/>-->
+            <!--</buttons>-->
+        <!--</pilihan>-->
+    </skenario>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base" x="0" y="0" height="450">
+        <text id="textInfo" x="0" y="50" pivotX="0.5" pivotY="0.5" alignX="wLayar#0.5" font="comicneueLight" fontSize="30" color="000000" wrapWidth="650" isCenter="true">Ayo tumbuhkan kesatria tahu-mu!&#10;Jadikan dia bahagia dan kuat!&#10;Gunakan juga jurus-jurusnya&#10;untuk meningkatkan penghasilanmu!</text>
+
+        <container id="contEmoji" x="40" y="30" alignY="textInfo#1" height="400">
+            <image_list id="emojiHati" x="40" y="0" pivotX="0.5">
+                <item>ksatriatahu/ui/ic_emoji_happy.png</item>
+            </image_list>
+            <text id="textEmojiHati" x="130" y="0" pivotY="0.5" alignY="emojiHati#0.5" font="comicneueLight" fontSize="30" color="000000">Kesatria tahu sedang senang</text>
+
+            <image_list id="emojiEvolusi" x="0" y="15" pivotX="0.5" alignX="emojiHati#0.5" alignY="emojiHati#1">
+                <item>ksatriatahu/ui/ic_emoji_evolusi.png</item>
+            </image_list>
+            <text id="textEmojiEvolusi" x="130" y="0" pivotY="0.5" alignY="emojiEvolusi#0.5" font="comicneueLight" fontSize="30" color="000000">Kesatria tahu siap evolusi</text>
+
+            <image_list id="emojiJurus" x="0" y="15" pivotX="0.5" alignX="emojiHati#0.5" alignY="emojiEvolusi#1">
+                <item>ksatriatahu/ui/ic_emoji_siap.png</item>
+            </image_list>
+            <text id="textEmojiJurus" x="130" y="0" pivotY="0.5" alignY="emojiJurus#0.5" font="comicneueLight" fontSize="30" color="000000">Kesatria tahu siap mengeluarkan jurus</text>
+
+            <image_list id="emojiMakan" x="0" y="15" pivotX="0.5" alignX="emojiHati#0.5" alignY="emojiJurus#1">
+                <item>ksatriatahu/ui/ic_emoji_powerUp.png</item>
+            </image_list>
+            <text id="textEmojiMakan" x="130" y="0" pivotY="0.5" alignY="emojiMakan#0.5" font="comicneueLight" fontSize="30" color="000000">Kesatria tahu sudah bisa diperkuat lagi</text>
+        </container>
+    </container>
+</resources>

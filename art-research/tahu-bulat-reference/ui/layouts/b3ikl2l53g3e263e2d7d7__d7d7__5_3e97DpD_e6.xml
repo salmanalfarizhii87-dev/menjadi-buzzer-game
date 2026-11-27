@@ -1,0 +1,36 @@
+<resources>
+    <!--font :-->
+    <!--comicneueLight-->
+    <!--comicneueBold-->
+    <!--arial-->
+    <!--ttt-->
+    <!--cuckoo-->
+    <!--theBoldFont-->
+    <nama>Tantang Saya</nama>
+    <image>ui_kartu_meme/meme/meme_changeMyMind.png</image>
+    <variasi>
+        <image>
+            <!--<input id="0">-->
+            <!--<item x="189" y="578" width="335" alignX="0.0f" alignY="0.0f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "19" min_font_size="30" max_font_size="40"/>-->
+            <!--</input>-->
+        </image>
+        <text>
+            <item id="0">
+                <varian>
+                    <!--<item x="200" y="365" width="300" alignX="0.0f" alignY="0.0f" colour="0x000000" fontSize="36" font="cuckoo" isCenter="true">Mohon maaf lahir dan bathin.</item>-->
+                </varian>
+            </item>
+        </text>
+    </variasi>
+    <input>
+        <item id="0" x="250" y="520" width="230" alignX="0.0f" alignY="0.5f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "50" min_font_size="30" max_font_size="45"/>
+    </input>
+    <contoh>
+        <input id="0">
+            <item>Gunyoi, gunyoi, erih...</item>
+            <item>Auto click = cheater</item>
+            <item>Jam lebih bagus daripada celengan</item>
+        </input>
+
+    </contoh>
+</resources>

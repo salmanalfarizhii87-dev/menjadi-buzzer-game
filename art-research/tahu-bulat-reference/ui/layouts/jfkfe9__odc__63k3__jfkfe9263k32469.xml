@@ -1,0 +1,2408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bg_sotong>
+        <background dx="0" dy="70"/>
+        <siluet dx="0" dy="40"/>
+        <langit dx="0" dy="-230"/>
+    </bg_sotong>
+
+    <data>
+        <hargaUnlock>10000000</hargaUnlock>
+        <penaltyPoin_Tong>2</penaltyPoin_Tong>
+        <penaltyPoin_SalahNgasih>1</penaltyPoin_SalahNgasih>
+        <bonusPoinSotong>1</bonusPoinSotong>
+        <bonusPoinBumbu>3</bonusPoinBumbu>
+    </data>
+
+    <tutorial>
+        <level id="0" xmlTutorial="story/sotong/tutorial_sotong_lv0.xml">
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="0"/>
+            </wave>
+            <bumbu>
+                <!--<item id="1" isTutup="true">pedas</item>-->
+                <!--<item id="2" isTutup="true">bbq</item>-->
+                <!--<item id="3" isTutup="true">sambal_hijau</item>-->
+                <!--<item id="4" isTutup="true">strawberry</item>-->
+                <!--<item id="5" isTutup="true">bubblegum</item>-->
+            </bumbu>
+            <tahu>
+                <jumlah>0</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak>
+            </tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>2</waktu_matang>
+                <waktu_gosong>99999</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+    </tutorial>
+
+    <listPembeli>
+        <!--datang1, datang2, bayar, pergi1, pergi2-->
+        <item id="bocah1">
+            <frameMasuk rotate="15" dx="0" dy="57">0</frameMasuk>
+            <frameNunggu rotate="15">0</frameNunggu>
+            <frameKeluar rotate="15">0</frameKeluar>
+        </item>
+        <item id="bocah2">
+            <frameMasuk rotate="20" dx="0" dy="73">0</frameMasuk>
+            <frameNunggu rotate="20">0</frameNunggu>
+            <frameKeluar rotate="20">0</frameKeluar>
+        </item>
+        <item id="bocah3_a">
+            <frameMasuk rotate="0" dx="0" dy="80">2</frameMasuk>
+            <frameNunggu rotate="0">2</frameNunggu>
+            <frameKeluar rotate="0">2</frameKeluar>
+        </item>
+        <item id="bocah3_b">
+            <frameMasuk rotate="15" dx="0" dy="50">0</frameMasuk>
+            <frameNunggu rotate="15">0</frameNunggu>
+            <frameKeluar rotate="15">0</frameKeluar>
+        </item>
+        <item id="anakcewe">
+            <frameMasuk rotate="0" dx="10" dy="68">2</frameMasuk>
+            <frameNunggu rotate="10">2</frameNunggu>
+            <frameKeluar rotate="10">2</frameKeluar>
+        </item>
+        <item id="bocahbola">
+            <frameMasuk rotate="0" dx="0" dy="3">2</frameMasuk>
+            <frameNunggu rotate="0">2</frameNunggu>
+            <frameKeluar rotate="0">2</frameKeluar>
+        </item>
+        <item id="anaksma">
+            <frameMasuk rotate="0" dx="0" dy="-41">1</frameMasuk>
+            <frameNunggu rotate="0">1</frameNunggu>
+            <frameKeluar rotate="0">1</frameKeluar>
+        </item>
+        <item id="tarra_a">
+            <frameMasuk rotate="0" dx="0" dy="102">2</frameMasuk>
+            <frameNunggu rotate="0">2</frameNunggu>
+            <frameKeluar rotate="0">2</frameKeluar>
+        </item>
+        <item id="tarra_b">
+            <frameMasuk rotate="0" dx="0" dy="83">0</frameMasuk>
+            <frameNunggu rotate="0">0</frameNunggu>
+            <frameKeluar rotate="0">0</frameKeluar>
+        </item>
+        <item id="pinat_a">
+            <frameMasuk rotate="0" dx="0" dy="57">2</frameMasuk>
+            <frameNunggu rotate="0">2</frameNunggu>
+            <frameKeluar rotate="0">2</frameKeluar>
+        </item>
+        <item id="pinat_b">
+            <frameMasuk rotate="0" dx="0" dy="69">0</frameMasuk>
+            <frameNunggu rotate="0">0</frameNunggu>
+            <frameKeluar rotate="0">0</frameKeluar>
+        </item>
+        <item id="tanteeksis">
+            <frameMasuk rotate="0" dx="0" dy="-45">0</frameMasuk>
+            <frameNunggu rotate="0">0</frameNunggu>
+            <frameKeluar rotate="0">0</frameKeluar>
+        </item>
+        <item id="omtajir">
+            <frameMasuk rotate="0" dx="0" dy="-89">1</frameMasuk>
+            <frameNunggu rotate="0">1</frameNunggu>
+            <frameKeluar rotate="0">1</frameKeluar>
+        </item>
+        <item id="aksa_a">
+            <frameMasuk rotate="25" dx="0" dy="-74">0</frameMasuk>
+            <frameNunggu rotate="25">0</frameNunggu>
+            <frameKeluar rotate="25">0</frameKeluar>
+        </item>
+        <item id="aksa_b">
+            <frameMasuk rotate="-15" dx="0" dy="-160">1</frameMasuk>
+            <frameNunggu rotate="-15">1</frameNunggu>
+            <frameKeluar rotate="-15">1</frameKeluar>
+        </item>
+        <item id="artis">
+            <frameMasuk rotate="0" dx="0" dy="-10.5">1</frameMasuk>
+            <frameNunggu rotate="0">1</frameNunggu>
+            <frameKeluar rotate="0">1</frameKeluar>
+        </item>
+        <item id="supertahuman">
+            <frameMasuk rotate="0" dx="0" dy="-181">0</frameMasuk>
+            <frameNunggu rotate="0">0</frameNunggu>
+            <frameKeluar rotate="0">0</frameKeluar>
+        </item>
+    </listPembeli>
+
+    <!--    <endless>-->
+    <!--        <rewards>-->
+    <!--            <target id="0">-->
+    <!--                <item id="peridot">10</item>-->
+    <!--            </target>-->
+    <!--            <target id="1">-->
+    <!--                <item id="peridot">10</item>-->
+    <!--                <item id="koin">10000</item>-->
+    <!--            </target>-->
+    <!--            <target id="2">-->
+    <!--                <item id="koin">10000</item>-->
+    <!--            </target>-->
+    <!--        </rewards>-->
+    <!--        <bumbu>-->
+    <!--            <item id="1" isTutup="false">pedas</item>-->
+    <!--            <item id="2" isTutup="false">bbq</item>-->
+    <!--            <item id="3" isTutup="false">sambal_hijau</item>-->
+    <!--            <item id="4" isTutup="false">strawberry</item>-->
+    <!--            <item id="5" isTutup="false">bubblegum</item>-->
+    <!--        </bumbu>-->
+    <!--        <tahu>-->
+    <!--            <jumlah>2</jumlah>-->
+    <!--           <tambah_timer>10</tambah_timer>-->
+    <!--        </tahu>-->
+    <!--        <panggangan>-->
+    <!--            <jumlah>3</jumlah>-->
+    <!--            <waktu_matang>3</waktu_matang>-->
+    <!--            <waktu_gosong>13</waktu_gosong>-->
+    <!--        </panggangan>-->
+    <!--        <pembeli>-->
+    <!--            <item id="anakcewe_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>-->
+    <!--            <item id="bocah1_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>-->
+    <!--            <item id="bocah1_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>-->
+    <!--            <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>-->
+    <!--        </pembeli>-->
+    <!--    </endless>-->
+
+    <listLevel>
+        <!--<level_1>-->
+        <level id="0" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="100">
+            <syarat>
+            </syarat>
+            <target>25,55,95</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="koin" jumlah="100000" idItem="koin"/>
+                </target>
+                <target id="2">
+                    <item tipe="peridot" jumlah="2" idItem="peridot"/>
+                </target>
+                <target id="3">
+                    <item tipe="iap" jumlah="1" idItem="jam1"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="5000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="2" delay="8" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="3" delay="16" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="4" delay="24" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="5" delay="30" jumlah_sotong="1" jumlah_bumbu="0"/>
+            </wave>
+            <bumbu>
+                <!--<item id="1" isTutup="true">pedas</item>-->
+                <!--<item id="2" isTutup="true">bbq</item>-->
+                <!--<item id="3" isTutup="true">sambal_hijau</item>-->
+                <!--<item id="4" isTutup="true">strawberry</item>-->
+                <!--<item id="5" isTutup="true">bubblegum</item>-->
+            </bumbu>
+            <tahu>
+                <jumlah>0</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_2>-->
+        <level id="1" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="90">
+            <syarat>
+            </syarat>
+            <target>25,50,85</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="loker" jumlah="5" idItem="loker_b"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="250000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="koin" jumlah="500000" idItem="koin"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="10000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="2" delay="7" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="3" delay="14" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="4" delay="22" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="5" delay="28" jumlah_sotong="2" jumlah_bumbu="0"/>
+            </wave>
+            <bumbu>
+                <!--<item id="1" isTutup="true">pedas</item>-->
+                <item id="2" isTutup="true">bbq</item>
+                <!--<item id="3" isTutup="true">sambal_hijau</item>-->
+                <!--<item id="4" isTutup="true">strawberry</item>-->
+                <!--<item id="5" isTutup="true">bubblegum</item>-->
+            </bumbu>
+            <tahu>
+                <jumlah>0</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_3>-->
+        <level id="2" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="80">
+            <syarat>
+            </syarat>
+            <target>25,55,85</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="koin" jumlah="500000" idItem="koin"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="500000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="peridot" jumlah="3" idItem="peridot"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="25000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="2" delay="7" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="3" delay="14" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="4" delay="22" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="5" delay="28" jumlah_sotong="2" jumlah_bumbu="0"/>
+            </wave>
+            <bumbu>
+                <!--<item id="1" isTutup="true">pedas</item>-->
+                <!--<item id="2" isTutup="true">bbq</item>-->
+                <!--<item id="3" isTutup="true">sambal_hijau</item>-->
+                <item id="4" isTutup="true">strawberry</item>
+                <item id="5" isTutup="true">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>0</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_4>-->
+        <level id="3" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="75">
+            <syarat>
+            </syarat>
+            <target>30,55,90</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="peridot" jumlah="1" idItem="peridot"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="500000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="loker" jumlah="3" idItem="loker_l"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="50000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="2" delay="6" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="3" delay="12" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="4" delay="17" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="5" delay="24" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="6" delay="30" jumlah_sotong="3" jumlah_bumbu="0"/>
+            </wave>
+            <bumbu>
+                <!--<item id="1" isTutup="true">pedas</item>-->
+                <item id="2" isTutup="true">bbq</item>
+                <!--<item id="3" isTutup="true">sambal_hijau</item>-->
+                <item id="4" isTutup="true">strawberry</item>
+                <!--<item id="5" isTutup="true">bubblegum</item>-->
+            </bumbu>
+            <tahu>
+                <jumlah>1</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_5>-->
+        <level id="4" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="60">
+            <syarat>
+                <item tipe="penghasilan">100000000</item>
+            </syarat>
+            <target>25,45,80</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="koin" jumlah="500000" idItem="koin"/>
+                </target>
+                <target id="2">
+                    <item tipe="peridot" jumlah="2" idItem="peridot"/>
+                </target>
+                <target id="3">
+                    <item tipe="koin" jumlah="750000" idItem="koin"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="75000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="2" delay="4" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="3" delay="10" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="4" delay="15" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="5" delay="22" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="6" delay="29" jumlah_sotong="2" jumlah_bumbu="0"/>
+            </wave>
+            <bumbu>
+                <!--<item id="1" isTutup="true">pedas</item>-->
+                <item id="2" isTutup="true">bbq</item>
+                <item id="3" isTutup="true">sambal_hijau</item>
+                <item id="4" isTutup="true">strawberry</item>
+                <!--<item id="5" isTutup="true">bubblegum</item>-->
+            </bumbu>
+            <tahu>
+                <jumlah>1</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_6>-->
+        <level id="5" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="75">
+            <syarat>
+            </syarat>
+            <target>50,75,120</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="loker" jumlah="3" idItem="loker_lb"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="750000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="koin" jumlah="1000000" idItem="koin"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="100000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="2" delay="5" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="3" delay="11" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="4" delay="19" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="5" delay="26" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="6" delay="31" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="7" delay="36" jumlah_sotong="2" jumlah_bumbu="2"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="true">pedas</item>
+                <!--<item id="2" isTutup="true">bbq</item>-->
+                <item id="3" isTutup="true">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="true">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>1</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_7>-->
+        <level id="6" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="65">
+            <syarat>
+                <item tipe="penghasilan">500000000</item>
+            </syarat>
+            <target>65,85,110</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="koin" jumlah="1000000" idItem="koin"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="1000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="peridot" jumlah="3" idItem="peridot"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="150000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="2" delay="4" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="3" delay="10" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="4" delay="16" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="5" delay="22" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="6" delay="27" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="7" delay="35" jumlah_sotong="1" jumlah_bumbu="1"/>
+            </wave>
+            <bumbu>
+                <!--<item id="1" isTutup="true">pedas</item>-->
+                <item id="2" isTutup="true">bbq</item>
+                <!--<item id="3" isTutup="true">sambal_hijau</item>-->
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="true">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_8>-->
+        <level id="7" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="75">
+            <syarat>
+            </syarat>
+            <target>65,85,130</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="peridot" jumlah="1" idItem="peridot"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="1000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="loker" jumlah="3" idItem="loker_sl"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="200000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="2" delay="5" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="3" delay="11" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="4" delay="18" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="5" delay="24" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="6" delay="29" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="7" delay="36" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="8" delay="42" jumlah_sotong="3" jumlah_bumbu="1"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="true">pedas</item>
+                <item id="2" isTutup="true">bbq</item>
+                <item id="3" isTutup="true">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="true">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_9>-->
+        <level id="8" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="75">
+            <syarat>
+                <item tipe="penghasilan">1000000000</item>
+            </syarat>
+            <target>75,95,125</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="koin" jumlah="1000000" idItem="koin"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="1000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="peridot" jumlah="3" idItem="peridot"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="250000" idItem="koin"/>            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="2" delay="10" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="3" delay="18" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="4" delay="24" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="5" delay="28" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="6" delay="35" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="7" delay="41" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="8" delay="46" jumlah_sotong="3" jumlah_bumbu="3"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="true">pedas</item>
+                <item id="2" isTutup="true">bbq</item>
+                <item id="3" isTutup="true">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="true">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_10>-->
+        <level id="9" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="75">
+            <syarat>
+            </syarat>
+            <target>80,105,140</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="loker" jumlah="5" idItem="loker_b"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="1000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="koin" jumlah="2500000" idItem="koin"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="300000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="2" delay="5" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="3" delay="12" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="4" delay="18" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="5" delay="26" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="6" delay="33" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="7" delay="39" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="8" delay="43" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="9" delay="48" jumlah_sotong="3" jumlah_bumbu="3"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="true">pedas</item>
+                <item id="2" isTutup="true">bbq</item>
+                <item id="3" isTutup="false">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="true">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_11>-->
+        <level id="10" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="75">
+            <syarat>
+            </syarat>
+            <target>75,105,140</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="koin" jumlah="2500000" idItem="koin"/>
+                </target>
+                <target id="2">
+                    <item tipe="peridot" jumlah="3" idItem="peridot"/>
+                </target>
+                <target id="3">
+                    <item tipe="iap" jumlah="1" idItem="jam1"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="400000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="2" delay="4" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="3" delay="11" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="4" delay="17" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="5" delay="24" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="6" delay="31" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="7" delay="37" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="8" delay="45" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="9" delay="52" jumlah_sotong="3" jumlah_bumbu="3"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="true">pedas</item>
+                <!--<item id="2" isTutup="true">bbq</item>-->
+                <item id="3" isTutup="false">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="true">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_12>-->
+        <level id="11" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="80">
+            <syarat>
+                <item tipe="pembeli" id="omtajir" level="5"/>
+            </syarat>
+            <target>70,95,140</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="loker" jumlah="5" idItem="loker_b"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="2500000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="koin" jumlah="5000000" idItem="koin"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="500000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="2" delay="5" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="3" delay="15" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="4" delay="24" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="5" delay="28" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="6" delay="35" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="7" delay="41" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="8" delay="46" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="9" delay="52" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="10" delay="58" jumlah_sotong="1" jumlah_bumbu="1"/>
+            </wave>
+            <bumbu>
+                <!--<item id="1" isTutup="true">pedas</item>-->
+                <item id="2" isTutup="true">bbq</item>
+                <item id="3" isTutup="false">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <!--<item id="5" isTutup="true">bubblegum</item>-->
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_13>-->
+        <level id="12" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="35">
+            <syarat>
+            </syarat>
+            <target>50,60,65</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="koin" jumlah="5000000" idItem="koin"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="5000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="peridot" jumlah="3" idItem="peridot"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="600000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="2" delay="5" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="3" delay="10" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="4" delay="15" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="5" delay="20" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <!--<item id="6" delay="25" jumlah_sotong="2" jumlah_bumbu="0"/>-->
+                <!--<item id="7" delay="30" jumlah_sotong="1" jumlah_bumbu="0"/>-->
+                <!--<item id="8" delay="35" jumlah_sotong="2" jumlah_bumbu="0"/>-->
+                <!--<item id="9" delay="40" jumlah_sotong="3" jumlah_bumbu="0"/>-->
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="true">pedas</item>
+                <item id="2" isTutup="true">bbq</item>
+                <item id="3" isTutup="true">sambal_hijau</item>
+                <item id="4" isTutup="true">strawberry</item>
+                <item id="5" isTutup="true">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>0</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_14>-->
+        <level id="13" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="75">
+            <syarat>
+            </syarat>
+            <target>65,95,135</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="peridot" jumlah="1" idItem="peridot"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="5000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="loker" jumlah="3" idItem="loker_sl"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="700000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="2" delay="5" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="3" delay="11" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="4" delay="16" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="5" delay="24" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="6" delay="29" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="7" delay="36" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="8" delay="42" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="9" delay="49" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="10" delay="55" jumlah_sotong="2" jumlah_bumbu="0"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="true">pedas</item>
+                <!--<item id="2" isTutup="true">bbq</item>-->
+                <item id="3" isTutup="false">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="false">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_15>-->
+        <level id="14" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="85">
+            <syarat>
+            </syarat>
+            <target>90,115,170</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="koin" jumlah="5000000" idItem="koin"/>
+                </target>
+                <target id="2">
+                    <item tipe="peridot" jumlah="2" idItem="peridot"/>
+                </target>
+                <target id="3">
+                    <item tipe="koin" jumlah="7500000" idItem="koin"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="800000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="2" delay="4" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="3" delay="11" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="4" delay="17" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="5" delay="24" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="6" delay="31" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="7" delay="37" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="8" delay="45" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="9" delay="52" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="10" delay="60" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="11" delay="65" jumlah_sotong="3" jumlah_bumbu="1"/>
+            </wave>
+            <bumbu>
+                <!--<item id="1" isTutup="true">pedas</item>-->
+                <item id="2" isTutup="true">bbq</item>
+                <item id="3" isTutup="false">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="false">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_16>-->
+        <level id="15" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="85">
+            <syarat>
+                <item tipe="speaker" level="154"/>
+            </syarat>
+            <target>100,125,170</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="loker" jumlah="3" idItem="loker_l"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="7500000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="koin" jumlah="10000000" idItem="koin"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="1000000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="2" delay="5" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="3" delay="15" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="4" delay="20" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="5" delay="23" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="6" delay="29" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="7" delay="37" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="8" delay="44" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="9" delay="50" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="10" delay="56" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="11" delay="63" jumlah_sotong="3" jumlah_bumbu="1"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="true">pedas</item>
+                <item id="2" isTutup="true">bbq</item>
+                <item id="3" isTutup="false">sambal_hijau</item>
+                <!--<item id="4" isTutup="false">strawberry</item>-->
+                <item id="5" isTutup="false">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>1</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_17>-->
+        <level id="16" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="42">
+            <syarat>
+            </syarat>
+            <target>55,65,75</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="koin" jumlah="10000000" idItem="koin"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="10000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="peridot" jumlah="2" idItem="peridot"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="1250000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="2" delay="5" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="3" delay="10" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="4" delay="15" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="5" delay="21" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="6" delay="27" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <!--<item id="7" delay="32" jumlah_sotong="1" jumlah_bumbu="0"/>-->
+                <!--<item id="8" delay="36" jumlah_sotong="2" jumlah_bumbu="0"/>-->
+                <!--<item id="9" delay="41" jumlah_sotong="3" jumlah_bumbu="0"/>-->
+                <!--<item id="10" delay="45" jumlah_sotong="3" jumlah_bumbu="0"/>-->
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="true">pedas</item>
+                <item id="2" isTutup="true">bbq</item>
+                <item id="3" isTutup="true">sambal_hijau</item>
+                <item id="4" isTutup="true">strawberry</item>
+                <item id="5" isTutup="true">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>0</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_18>-->
+        <level id="17" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="85">
+            <syarat>
+            </syarat>
+            <target>105,140,180</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="peridot" jumlah="1" idItem="peridot"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="10000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="loker" jumlah="3" idItem="loker_m"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="1500000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="2" delay="4" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="3" delay="11" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="4" delay="17" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="5" delay="24" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="6" delay="31" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="7" delay="37" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="8" delay="42" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="9" delay="47" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="10" delay="55" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="11" delay="60" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="12" delay="66" jumlah_sotong="1" jumlah_bumbu="2"/>
+            </wave>
+            <bumbu>
+                <!--<item id="1" isTutup="true">pedas</item>-->
+                <item id="2" isTutup="false">bbq</item>
+                <item id="3" isTutup="false">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="false">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_19>-->
+        <level id="18" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="90">
+            <syarat>
+            </syarat>
+            <target>110,150,200</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="koin" jumlah="10000000" idItem="koin"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="10000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="peridot" jumlah="2" idItem="peridot"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="1750000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="2" delay="5" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="3" delay="11" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="4" delay="17" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="5" delay="23" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="6" delay="31" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="7" delay="36" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="8" delay="42" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="9" delay="48" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="10" delay="54" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="11" delay="60" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="12" delay="64" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="13" delay="70" jumlah_sotong="3" jumlah_bumbu="3"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="true">pedas</item>
+                <item id="2" isTutup="false">bbq</item>
+                <item id="3" isTutup="false">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="false">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_20>-->
+        <level id="19" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="105">
+            <syarat>
+                <item tipe="pelang" level="22"/>
+            </syarat>
+            <target>105,140,195</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="loker" jumlah="10" idItem="loker_lb"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="10000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="koin" jumlah="12500000" idItem="koin"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="2000000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="2" delay="8" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="3" delay="16" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="4" delay="20" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="5" delay="24" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="6" delay="30" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="7" delay="41" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="8" delay="46" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="9" delay="52" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="10" delay="58" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="11" delay="64" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="12" delay="70" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="13" delay="76" jumlah_sotong="3" jumlah_bumbu="1"/>
+            </wave>
+            <bumbu>
+                <!--<item id="1" isTutup="true">pedas</item>-->
+                <item id="2" isTutup="false">bbq</item>
+                <item id="3" isTutup="false">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="true">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_21>-->
+        <level id="20" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="45">
+            <syarat>
+            </syarat>
+            <target>85,95,105</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="koin" jumlah="12500000" idItem="koin"/>
+                </target>
+                <target id="2">
+                     <item tipe="peridot" jumlah="3" idItem="peridot"/>
+                </target>
+                <target id="3">
+                    <item tipe="iap" jumlah="1" idItem="jam1"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="2500000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="2" delay="2" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="3" delay="5" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="4" delay="9" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="5" delay="12" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="6" delay="15" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="7" delay="19" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="8" delay="22" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <!--<item id="9" delay="24" jumlah_sotong="3" jumlah_bumbu="0"/>-->
+                <!--<item id="10" delay="29" jumlah_sotong="3" jumlah_bumbu="0"/>-->
+                <!--<item id="11" delay="33" jumlah_sotong="2" jumlah_bumbu="0"/>-->
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="true">pedas</item>
+                <item id="2" isTutup="true">bbq</item>
+                <item id="3" isTutup="true">sambal_hijau</item>
+                <item id="4" isTutup="true">strawberry</item>
+                <item id="5" isTutup="true">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>0</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_22>-->
+        <level id="21" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="105">
+            <syarat>
+            </syarat>
+            <target>125,170,220</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="loker" jumlah="5" idItem="loker_l"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="12500000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="koin" jumlah="15000000" idItem="koin"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="3000000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="2" delay="4" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="3" delay="11" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="4" delay="17" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="5" delay="24" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="6" delay="31" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="7" delay="37" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="8" delay="45" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="9" delay="52" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="10" delay="60" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="11" delay="65" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="12" delay="71" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="13" delay="75" jumlah_sotong="3" jumlah_bumbu="1"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="false">pedas</item>
+                <item id="2" isTutup="false">bbq</item>
+                <item id="3" isTutup="false">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="false">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_23>-->
+        <level id="22" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="95">
+            <syarat>
+                <item tipe="kipas" level="20"/>
+            </syarat>
+            <target>120,155,210</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="koin" jumlah="15000000" idItem="koin"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="15000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="peridot" jumlah="3" idItem="peridot"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="3500000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="2" delay="6" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="3" delay="12" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="4" delay="18" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="5" delay="25" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="6" delay="30" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="7" delay="35" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="8" delay="39" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="9" delay="43" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="10" delay="50" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="11" delay="56" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="12" delay="62" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="13" delay="66" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="14" delay="70" jumlah_sotong="3" jumlah_bumbu="1"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="false">pedas</item>
+                <item id="2" isTutup="false">bbq</item>
+                <item id="3" isTutup="false">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="false">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_24>-->
+        <level id="23" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="100">
+            <syarat>
+            </syarat>
+            <target>130,165,230</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="peridot" jumlah="2" idItem="peridot"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="15000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="loker" jumlah="3" idItem="loker_m"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="4000000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="2" delay="6" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="3" delay="10" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="4" delay="16" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="5" delay="21" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="6" delay="26" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="7" delay="30" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="8" delay="37" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="9" delay="43" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="10" delay="47" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="11" delay="50" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="12" delay="57" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="13" delay="65" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="14" delay="72" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="14" delay="77" jumlah_sotong="1" jumlah_bumbu="1"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="false">pedas</item>
+                <item id="2" isTutup="false">bbq</item>
+                <item id="3" isTutup="false">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="false">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_25>-->
+        <level id="24" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="100">
+            <syarat>
+            </syarat>
+            <target>125,165,220</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="koin" jumlah="15000000" idItem="koin"/>
+                </target>
+                <target id="2">
+                    <item tipe="peridot" jumlah="3" idItem="peridot"/>
+                </target>
+                <target id="3">
+                    <item tipe="koin" jumlah="20000000" idItem="koin"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="4500000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="2" delay="6" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="3" delay="12" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="4" delay="18" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="5" delay="25" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="6" delay="30" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="7" delay="35" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="8" delay="39" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="9" delay="43" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="10" delay="50" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="11" delay="56" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="12" delay="62" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="13" delay="66" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="14" delay="70" jumlah_sotong="2" jumlah_bumbu="1"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="false">pedas</item>
+                <item id="2" isTutup="false">bbq</item>
+                <item id="3" isTutup="true">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="false">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_26>-->
+        <level id="25" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="100">
+            <syarat>
+                <item tipe="televisi" level="15"/>
+            </syarat>
+            <target>130,165,220</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="loker" jumlah="3" idItem="loker_sl"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="20000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="koin" jumlah="25000000" idItem="koin"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="5000000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="2" delay="6" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="3" delay="10" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="4" delay="16" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="5" delay="21" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="6" delay="26" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="7" delay="30" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="8" delay="37" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="9" delay="43" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="10" delay="47" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="11" delay="50" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="12" delay="57" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="13" delay="65" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="14" delay="72" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="15" delay="77" jumlah_sotong="1" jumlah_bumbu="1"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="false">pedas</item>
+                <item id="2" isTutup="false">bbq</item>
+                <!--<item id="3" isTutup="true">sambal_hijau</item>-->
+                <!--<item id="4" isTutup="false">strawberry</item>-->
+                <item id="5" isTutup="false">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>0</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_27>-->
+        <level id="26" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="55">
+            <syarat>
+            </syarat>
+            <target>100,115,125</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="koin" jumlah="25000000" idItem="koin"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="25000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="peridot" jumlah="3" idItem="peridot"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="5500000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="2" delay="4" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="3" delay="8" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="4" delay="12" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="5" delay="18" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="6" delay="21" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="7" delay="26" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="8" delay="31" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="9" delay="24" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="10" delay="38" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <!--<item id="11" delay="41" jumlah_sotong="2" jumlah_bumbu="0"/>-->
+                <!--<item id="12" delay="45" jumlah_sotong="3" jumlah_bumbu="0"/>-->
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="true">pedas</item>
+                <item id="2" isTutup="true">bbq</item>
+                <item id="3" isTutup="true">sambal_hijau</item>
+                <item id="4" isTutup="true">strawberry</item>
+                <item id="5" isTutup="true">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>0</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_28>-->
+        <level id="27" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="95">
+            <syarat>
+            </syarat>
+            <target>140,185,235</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="peridot" jumlah="2" idItem="peridot"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="50000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="loker" jumlah="3" idItem="loker_lg"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="6000000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="2" delay="4" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="3" delay="9" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="4" delay="12" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="5" delay="18" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="6" delay="23" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="7" delay="28" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="8" delay="32" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="9" delay="35" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="10" delay="41" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="11" delay="46" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="12" delay="52" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="13" delay="57" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="14" delay="60" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="15" delay="64" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="16" delay="69" jumlah_sotong="1" jumlah_bumbu="1"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="false">pedas</item>
+                <item id="2" isTutup="false">bbq</item>
+                <item id="3" isTutup="false">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="false">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_29>-->
+        <level id="28" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="110">
+            <syarat>
+                <item tipe="resep" level="50" id="Terigu"/>
+            </syarat>
+            <target>165,215,280</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="koin" jumlah="100000000" idItem="koin"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="100000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="peridot" jumlah="3" idItem="peridot"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="7000000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="2" delay="6" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="3" delay="12" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="4" delay="18" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="5" delay="25" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="6" delay="30" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="7" delay="35" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="8" delay="39" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="9" delay="43" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="10" delay="50" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="11" delay="56" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="12" delay="62" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="13" delay="66" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="14" delay="70" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="15" delay="75" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="16" delay="79" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="17" delay="84" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="18" delay="89" jumlah_sotong="1" jumlah_bumbu="1"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="false">pedas</item>
+                <item id="2" isTutup="false">bbq</item>
+                <item id="3" isTutup="false">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="false">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_30>-->
+        <level id="29" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="120">
+            <syarat>
+            </syarat>
+            <target>185,240,320</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="loker" jumlah="5" idItem="loker_l"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="250000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="koin" jumlah="250000000" idItem="koin"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="8000000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="2" delay="6" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="3" delay="10" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="4" delay="16" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="5" delay="21" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="6" delay="26" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="7" delay="30" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="8" delay="37" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="9" delay="43" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="10" delay="47" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="11" delay="50" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="12" delay="57" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="13" delay="65" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="14" delay="72" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="15" delay="77" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="16" delay="81" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="17" delay="88" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="18" delay="94" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="19" delay="97" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="20" delay="102" jumlah_sotong="3" jumlah_bumbu="3"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="false">pedas</item>
+                <item id="2" isTutup="false">bbq</item>
+                <item id="3" isTutup="false">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="false">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_31>-->
+        <level id="30" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="140">
+            <syarat>
+            </syarat>
+            <target>205,265,345</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="koin" jumlah="250000000" idItem="koin"/>
+               </target>
+                <target id="2">
+                    <item tipe="peridot" jumlah="5" idItem="peridot"/>
+                </target>
+                <target id="3">
+                    <item tipe="iap" jumlah="1" idItem="jam2"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="9000000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="2" delay="6" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="3" delay="12" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="4" delay="17" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="5" delay="24" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="6" delay="30" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="7" delay="36" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="8" delay="40" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="9" delay="45" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="10" delay="52" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="11" delay="58" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="12" delay="65" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="13" delay="71" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="14" delay="76" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="15" delay="82" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="16" delay="89" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="17" delay="93" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="18" delay="99" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="19" delay="107" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="20" delay="113" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="21" delay="116" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="22" delay="121" jumlah_sotong="2" jumlah_bumbu="2"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="false">pedas</item>
+                <item id="2" isTutup="false">bbq</item>
+                <!--<item id="3" isTutup="false">sambal_hijau</item>-->
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="false">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+        <!--<level_32>-->
+        <level id="31" xmlLayout="sotong/xml/ui/sotong_gameplay.xml" lamaMain="160">
+            <syarat>
+                <item tipe="resep" level="35" id="Petai"/>
+            </syarat>
+            <target>235,300,400</target>
+            <rewards>
+                <target id="1">
+                    <item tipe="loker" jumlah="5" idItem="loker_m"/>
+                </target>
+                <target id="2">
+                    <item tipe="koin" jumlah="250000000" idItem="koin"/>
+                </target>
+                <target id="3">
+                    <item tipe="iap" jumlah="1" idItem="peridot1"/>
+                </target>
+            </rewards>
+            <rewards_repeat>
+                <item tipe="koin" jumlah="10000000" idItem="koin"/>
+            </rewards_repeat>
+            <wave>
+                <item id="1" delay="0" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="2" delay="6" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="3" delay="11" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="4" delay="19" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="5" delay="24" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="6" delay="29" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="7" delay="33" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="8" delay="41" jumlah_sotong="2" jumlah_bumbu="1"/>
+                <item id="9" delay="47" jumlah_sotong="3" jumlah_bumbu="0"/>
+                <item id="10" delay="51" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="11" delay="56" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="12" delay="63" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="13" delay="68" jumlah_sotong="3" jumlah_bumbu="2"/>
+                <item id="14" delay="75" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="15" delay="80" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="16" delay="85" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="17" delay="91" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="18" delay="98" jumlah_sotong="1" jumlah_bumbu="1"/>
+                <item id="19" delay="103" jumlah_sotong="2" jumlah_bumbu="2"/>
+                <item id="20" delay="109" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="21" delay="117" jumlah_sotong="2" jumlah_bumbu="0"/>
+                <item id="22" delay="123" jumlah_sotong="1" jumlah_bumbu="0"/>
+                <item id="23" delay="127" jumlah_sotong="3" jumlah_bumbu="3"/>
+                <item id="24" delay="134" jumlah_sotong="3" jumlah_bumbu="1"/>
+                <item id="25" delay="139" jumlah_sotong="3" jumlah_bumbu="2"/>
+            </wave>
+            <bumbu>
+                <item id="1" isTutup="false">pedas</item>
+                <item id="2" isTutup="false">bbq</item>
+                <item id="3" isTutup="false">sambal_hijau</item>
+                <item id="4" isTutup="false">strawberry</item>
+                <item id="5" isTutup="false">bubblegum</item>
+            </bumbu>
+            <tahu>
+                <jumlah>2</jumlah>
+                <tambah_timer>10</tambah_timer>
+                <timer_masak>3</timer_masak></tahu>
+            <panggangan>
+                <jumlah>3</jumlah>
+                <waktu_matang>3</waktu_matang>
+                <waktu_gosong>15</waktu_gosong>
+            </panggangan>
+            <pembeli>
+                <item id="bocah1" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah2" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocah3_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tarra_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="pinat_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anakcewe" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="bocahbola" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="anaksma" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="tanteeksis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="omtajir" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_a" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="aksa_b" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="artis" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+                <item id="supertahuman" rate="30" lamaNunggu="30" durasiHappy="10" durasiMid="10" durasiBete="10" poinHappy="10" poinMid="5" poinBete="2" poinMarah="1" penaltyTimerSalahNgasih="5"/>
+            </pembeli>
+        </level>
+
+
+    </listLevel>
+</resources>

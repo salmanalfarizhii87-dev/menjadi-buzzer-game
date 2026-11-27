@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <particlesystem>
+        <emitter id="bling" pivotX="0.5" pivotY="0.5" type="line">
+            <particle lifetime="3.0">
+                <imagelist>
+                    <image type="0">UI_baru/tb2ui_clingDemamTahu.png</image>
+                </imagelist>
+                <p_start>
+                    <alpha min="1.0" max="1.0"/>
+                    <scale pivotX="0.5" pivotY="0.5" min="0.5" max="1.0" />
+                    <!--<velocity arahMin="-90" arahMax="-90" min="500" max="1000" />-->
+                    <velocity arahMin="-90" arahMax="-90" min="300" max="500" />
+                </p_start>
+                <p_running>
+                    <alpha min="0.5" max="0.5" when="0.1"/>
+                    <alpha min="1.0" max="1.0" when="0.2"/>
+                    <alpha min="0.5" max="0.5" when="0.3"/>
+                    <alpha min="1.0" max="1.0" when="0.4"/>
+                    <alpha min="0.5" max="0.5" when="0.5"/>
+                    <alpha min="1.0" max="1.0" when="0.6"/>
+                    <alpha min="0.5" max="0.5" when="0.7"/>
+                    <alpha min="1.0" max="1.0" when="0.8"/>
+                    <alpha min="0.5" max="0.5" when="0.9"/>
+                    <alpha min="1.0" max="1.0" when="1.0"/>
+                </p_running>
+            </particle>
+            <e_start>
+                <burst nBurst="10" burstTime="0.001"/>
+                <emit nEmit="2" delay="0.3" repeat="50"/>
+                <source>
+                    <point x="0" y="0"/>
+                    <point x="768" y="0"/>
+                </source>
+            </e_start>
+            <e_running></e_running>
+        </emitter>
+    </particlesystem>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <story lamaFestival="43200" noMisi="3" delayFestival="86400">
+        <judul>Banjir?!</judul>
+        <image>UI_baru/banner_popUp_atlantis_story.png</image>
+        <syarat_buka>
+            <item tipe="penghasilan" cabang="Bandung">50000000</item>
+            <item tipe="story" cabang="Festival Story" value="2"/>
+        </syarat_buka>
+        <storyBukaCabang>xml_dialog/misi 3/festivalstory_bukacabang.xml</storyBukaCabang>
+        <storyAwalDiCabang>xml_dialog/misi 3/festivalstory_awal.xml</storyAwalDiCabang>
+        <storyTargetTercapai>xml_dialog/misi 3/festivalstory_targettercapai.xml</storyTargetTercapai>
+        <storyTargetTidakTercapai>xml_dialog/misi 3/festivalstory_targettidaktercapai.xml</storyTargetTidakTercapai>
+        <popup_reward>
+            <judul>Banjir?!</judul>
+            <desc>Hujan yang tidak kunjung berhenti membuat banjir!&#10;Akang Tahu dan Tako hanyut sampai menemukan Atlantis!&#10;Mau ngapain ya di Atlantis?&#10;Ya jualan Tahu Bulat, dong!</desc>
+        </popup_reward>
+        <reward>
+            <item target="100000000" namaHadiah="Peti Emas" tipeHadiah="chest" idHadiah="chest_gold" jumlahHadiah="1"/>
+        </reward>
+        <menu_item>
+            <mobil>
+                <bodyMobil cabang="Atlantis"/>
+            </mobil>
+            <resep banyakItem="8">
+                <item cabang="Atlantis" idx="7"/>
+                <item cabang="Purba" idx="9"/>
+                <item cabang="Atlantis" idx="8"/>
+                <item cabang="Purba" idx="10"/>
+                <item cabang="Atlantis" idx="9"/>
+                <item cabang="Belanda" idx="10"/>
+                <item cabang="Atlantis" idx="11"/>
+                <item cabang="Atlantis" idx="10"/>
+            </resep>
+        </menu_item>
+    </story>
+</resources>

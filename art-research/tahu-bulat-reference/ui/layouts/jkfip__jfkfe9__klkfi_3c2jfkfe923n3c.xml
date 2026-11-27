@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario lama_muncul="5.0">
+        <dialog karakter="0" ekspresi="sapa" y="100" alignY="0.0f">Halo kak, apa kabar?</dialog>
+        <dialog ekspresi="mantul">Wah, mantull!&#10;Sekarang sudah mulai jualan Sotong juga?</dialog>
+        <dialog ekspresi="sedap">Bagus, bagus...&#10;Memang bisnis itu harus terus berinovasi!</dialog>
+        <dialog ekspresi="kaget">Eehh...??!&#10;Kamu mau jualan tapi belum tahu gimana cara masak sotong-nya?</dialog>
+        <dialog ekspresi="semangat">Ya udah, mari kita coba masak bareng-bareng aja yak!</dialog>
+    </skenario>
+</resources>

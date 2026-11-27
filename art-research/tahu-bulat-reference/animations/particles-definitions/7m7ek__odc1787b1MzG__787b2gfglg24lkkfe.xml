@@ -1,0 +1,33 @@
+<resources>
+    <particlesystem x="354" y="0">
+        <!--ini buat di button-->
+        <emitter pivotX="0" pivotY="0" type="area">
+            <particle lifetime="2">
+                <imagelist>
+                    <image>event/xml efek VIP/tabul/partikel_cling.png</image>
+                </imagelist>
+                <p_start>
+                    <alpha min="0" max="0"/>
+                    <scale pivotX="0.5" pivotY="0.5" min="0" max="0"/>
+                    <!--<velocity min="50" max="250" arahMin="290" arahMax="360"/>-->
+                </p_start>
+                <p_running>
+                    <alpha min="0" max="0" when="0.5"/>
+                    <alpha min="1" max="1" when="0.6"/>
+                    <alpha min="0" max="0" when="0.7"/>
+                    <alpha min="1" max="1" when="0.8"/>
+                    <alpha min="0" max="0" when="1"/>
+                    <scale min="0.2" max="0.8" when="1"/>
+                </p_running>
+            </particle>
+            <e_start>
+                <burst nBurst="2" burstTime="0.1"/>
+                <emit nEmit="2" repeat="-1" delay="0.4"/>
+                <source>
+                    <point x="-95" y="-50"/>
+                    <point x="95" y="100"/>
+                </source>
+            </e_start>
+        </emitter>
+    </particlesystem>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base" width="734" height="300">
+        <image_list id="bgAtas">
+            <item>UI_baru/lbl_kertaspita_atas.png</item>
+        </image_list>
+        <image_list id="bgTengah" alignY="bgAtas#1" scaleY="3.0">
+            <item>UI_baru/lbl_kertaspita_tengah.png</item>
+        </image_list>
+
+        <image_list id="bgBawah" alignY="bgTengah#1">
+            <item>UI_baru/lbl_kertaspita_bawah.png</item>
+        </image_list>
+
+        <!--//05192020-->
+        <image_list id="iconCabang" x="90" y="15" pivotX="0.5">
+            <item>icon/icon kota cabang tanpa ilustrasi/ic_game_fttb.png</item>
+        </image_list>
+
+        <text id="judulCabang" x="0" y="15" alignX="iconCabang#1" font="cuckoo" fontSize="31" color="ffffff">Cabang</text>
+
+        <container id="contBelumKonek" x="0" y="25" alignY="judulCabang#1" height="300" isVisible="false">
+            <text id="descBelumKonek1" x="0" y="0" alignX="judulCabang#0" font="comicneueLight" fontSize="27" color="000000" wrapWidth="300" isCenter="false">aaa</text>
+
+            <image_list id="iconHadiahPerdana" x="25" y="115" pivotX="0">
+                <item>icon/iap/tb2ui_ic_grobak.png</item>
+            </image_list>
+
+            <text id="descBelumKonek2" x="5" y="0" alignX="iconHadiahPerdana#1" alignY="iconHadiahPerdana#0" font="comicneueLight" fontSize="27" color="000000" wrapWidth="300" isCenter="false">bbb</text>
+
+            <button id="btnSambung" x="-20" y="-15" alignX="bgBawah#1" alignY="iconHadiahPerdana#0" pivotX="1" pivotY="0" imageNormal="UI_baru/ui_btn_big.png">
+                <text id="labelBtnSambung" x="-101" y="58" pivotY="0.5" pivotX="0.5" font="cuckoo" fontSize="30" color="ffffff" wrapWidth="203" isCenter="true">Sambung!</text>
+            </button>
+        </container>
+
+        <container id="contSudahKonek" x="0" y="25" alignY="judulCabang#1" height="300">
+            <text id="descSudahKonek1" x="0" y="0" alignX="judulCabang#0" font="comicneueLight" fontSize="27" color="000000" wrapWidth="300" isCenter="false">aaa</text>
+            <text id="descSudahKonek2" x="55" y="80" font="comicneueLight" fontSize="27" color="000000" wrapWidth="500" isCenter="false">bbb</text>
+
+            <container id="contBar" x="0" y="10" alignX="descSudahKonek2#0" alignY="descSudahKonek2#1">
+                <image_list id="bgBar" x="0" y="0" isBaseContainer="true">
+                    <item>promogame/ui/PG_ui_bar_reward_kosong.png</item>
+                </image_list>
+                <image_list id="isiBar" x="5" y="5" alignX="bgBar#0" alignY="bgBar#0">
+                    <item>promogame/ui/PG_ui_bar_reward_isi.png</item>
+                </image_list>
+<!--                <text id="textBar" x="0" y="-3" pivotX="0.5" pivotY="0.5" alignX="bgBar#0.5" alignY="bgBar#0.5" font="cuckoo" fontSize="40" color="ffffff">0/00</text>-->
+                <text id="textBar0" x="0" y="-3" pivotX="1" pivotY="0.5" alignX="bgBar#0.5" alignY="bgBar#0.5" font="cuckoo" fontSize="40" color="ffffff">0000</text>
+                <text id="textBar1" x="0" y="-3" pivotX="0" pivotY="0.5" alignX="bgBar#0.5" alignY="bgBar#0.5" font="cuckoo" fontSize="40" color="ffffff"> / 0000</text>
+            </container>
+
+            <container id="contReward" x="0" y="-20" pivotX="0.5" pivotY="1" alignX="contBar#1" alignY="contBar#1">
+                <image_list id="bgReward" x="0" y="0" pivotX="0.5" pivotY="1" isBaseContainer="true">
+                    <item>promogame/ui/PG_ui_reward_label.png</item>
+                </image_list>
+
+                <container id="reward" x="0" y="145" pivotY="0" pivotX="0.5" alignX="bgReward#0.5" alignY="bgReward#0">
+                    <image_list id="icReward" x="0" y="35" pivotY="0.5" pivotX="0.5" alignX="bgReward#0.5" alignY="bgReward#0" >
+                        <item>UI_baru/ic_koin_dalamNegeri.png</item>
+                    </image_list>
+                    <text id="textReward" x="0" y="65" pivotX="0.5" alignY="bgReward#0" font="cuckoo" fontSize="25" color="ffffff">x000</text>
+                </container>
+            </container>
+
+            <button id="btnPeriksa" x="0" y="20" pivotX="0.5" alignX="bgBawah#0.5" alignY="contBar#1" imageNormal="UI_baru/ui_btn_normal_ijo.png">
+                <text id="labelBtnPeriksa" x="0" y="48" pivotY="0.5" pivotX="0.5" font="cuckoo" fontSize="30" color="ffffff" wrapWidth="203" isCenter="true">Periksa</text>
+            </button>
+        </container>
+
+    </container>
+
+    <animation>
+    </animation>
+</resources>

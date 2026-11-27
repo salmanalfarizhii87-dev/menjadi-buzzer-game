@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hmm...&#10;Towa-nya gak keliatan...</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Yawes..Sambil nungguin si Towa, mumpung udah sampe Atlantis lagi, kita sambil dagang aja, yuk!!</desc>
+        </dialog>
+    </skenario>
+</resources>

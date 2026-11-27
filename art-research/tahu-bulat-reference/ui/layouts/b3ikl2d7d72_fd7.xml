@@ -1,0 +1,10 @@
+<resources>
+    <container id="base" x="0" y="60" height="800">
+        <container id="headerBar" height="160">
+            <button id="btnBack" x="40" y="41" imageNormal="ui_kartu_meme/button_back.png" onClick="backPressed"/>
+            <text id="textJudulApps" x="30" y="83" pivotX="0.0" pivotY="0.5" alignX="btnBack#1.0" font="theBoldFont" fontSize="45" color="ffffff">Meme Apps</text>
+        </container>
+        <container id="container" x="0" y="0" alignY="headerBar#1"/>
+
+    </container>
+</resources>

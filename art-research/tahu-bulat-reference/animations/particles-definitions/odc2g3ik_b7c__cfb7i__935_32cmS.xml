@@ -1,0 +1,74 @@
+<resources>
+    <particlesystem x="380" y="200">
+        <!--<emitter pivotX="0.5" pivotY="0.5" type="point">-->
+            <!--<particle lifetime="180">-->
+                <!--<imagelist>-->
+                    <!--<image>gacha/Header_GachaLv1_Biasa.png</image>-->
+                <!--</imagelist>-->
+                <!--<p_start>-->
+                    <!--<alpha min="1" max="1"/>-->
+                <!--</p_start>-->
+                <!--<p_running>-->
+                <!--</p_running>-->
+            <!--</particle>-->
+            <!--<e_start>-->
+                <!--<burst nBurst="1" burstTime="0.1"/>-->
+            <!--</e_start>-->
+        <!--</emitter>-->
+
+        <emitter pivotX="0.5" pivotY="0.5" type="area">
+            <particle lifetime="0.8">
+                <imagelist>
+                    <image>Header Gacha Rarity/cling_bling2_768.png</image>
+                </imagelist>
+                <p_start>
+                    <alpha min="1" max="1"/>
+                    <scale pivotX="0.5" pivotY="0.5" min="0" max="0"/>
+                </p_start>
+                <p_running>
+                    <alpha min="0" max="0" when="0.6"/>
+                    <alpha min="1" max="1" when="0.8"/>
+                    <alpha min="0" max="0" when="1" />
+                    <scale min="0.6" max="1.8" when="1"/>
+                </p_running>
+            </particle>
+            <e_start>
+                <burst nBurst="3" burstTime="0.1"/>
+                <emit nEmit="1" repeat="-1" delay="0.5"/>
+                <source>
+                    <point x="-200" y="-100"/>
+                    <point x="200" y="120"/>
+                </source>
+            </e_start>
+        </emitter>
+
+        <!--<emitter pivotX="0.5" pivotY="0.5" type="area">-->
+            <!--<particle lifetime="1.2">-->
+                <!--<imagelist>-->
+                    <!--<image>tabul/ui_logo_tb_fx2.png</image>-->
+                <!--</imagelist>-->
+                <!--<p_start>-->
+                    <!--<alpha min="1" max="1"/>-->
+                    <!--<scale pivotX="0.5" pivotY="0.5" min="0" max="0"/>-->
+                <!--</p_start>-->
+                <!--<p_running>-->
+                    <!--<alpha min="1" max="1" when="0.1"/>-->
+                    <!--<alpha min="0" max="0" when="0.4"/>-->
+                    <!--<alpha min="1" max="1" when="0.7"/>-->
+                    <!--<alpha min="0" max="0" when="1" />-->
+                    <!--<scale min="0.5" max="4" when="1"/>-->
+                <!--</p_running>-->
+            <!--</particle>-->
+            <!--<e_start>-->
+                <!--<burst nBurst="3" burstTime="0.1"/>-->
+                <!--<emit nEmit="1" repeat="-1" delay="0.5"/>-->
+                <!--<source>-->
+                    <!--<point x="-180" y="-180"/>-->
+                    <!--<point x="180" y="180"/>-->
+                <!--</source>-->
+            <!--</e_start>-->
+        <!--</emitter>-->
+
+
+    </particlesystem>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <text id="descHeader" x="0" y="0" font="comicneueLight" fontSize="30" color="000000" wrapWidth="725" isCenter="true">lorem ipsum blabla</text>
+
+        <scrollView id="scrollData" x="0" y="20" alignY="descHeader#1" height="500">
+            <container id="hadiah" x="0" y="0">
+                <container id="curProgress" x="-20" y="0" isVisible="false" pivotY="0.5" alignX="wLayar#0.5">
+                    <image_list id="bgProgress" isBaseContainer="true" x="0" y="0" pivotX="0.5" pivotY="0.5">
+                        <item>UI_baru/segmen_kuning_1.png</item>
+                    </image_list>
+                    <image_list id="iconKamu" x="-20" y="0" alignX="bgProgress#1" pivotX="1" alignY="bgProgress#0.5" pivotY="0.5">
+                        <item>UI_baru/segmen_kamu.png</item>
+                    </image_list>
+                </container>
+
+                <image_list id="bgHadiah" x="28">
+                    <item>UI_baru/segmen_biru_2.png</item>
+                </image_list>
+
+                <text id="labelHadiah" x="60" y="5" alignX="bgHadiah#0" alignY="bgHadiah#0" font="cuckoo" fontSize="35" color="ffffff">Hadiah</text>
+                <text id="labelTarget" x="440" y="5" alignX="bgHadiah#0" alignY="bgHadiah#0" font="cuckoo" fontSize="35" color="ffffff">Target</text>
+
+                <container id="isiHadiah" x="0" y="30" alignY="bgHadiah#1">
+                </container>
+            </container>
+        </scrollView>
+
+        <container id="descBawah" x="0" y="30" alignY="hadiah#1">
+            <text id="descTimer" x="0" y="0" font="comicneueLight" fontSize="30" color="000000" wrapWidth="725" isCenter="true">Festival masih akan dibuka selama:</text>
+            <container id="waktuSisa" x="60" y="10" alignX="descTimer#0" alignY="descTimer#1">
+                <image_list id="bgBarTimer" x="0" y="0" isBaseContainer="true">
+                    <item>UI_baru/ui_lbl_popupData.png</item>
+                </image_list>
+                <text id="textWaktuSisa" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="bgBarTimer#0.5" alignY="bgBarTimer#0.5" font="cuckoo" fontSize="35" color="ffffff">00:00</text>
+            </container>
+
+            <container id="penghasilan" alignY="waktuSisa#1" x="0" y="15" alignX="descTimer#0" height="120">
+                <text id="labelPenghasilan" x="0" y="0" font="comicneueLight" fontSize="30" color="000000" wrapWidth="725" isCenter="true">Penghasilanmu di Festival ini:</text>
+                <image_list id="bgBarPenghasilan" x="60" y="10" alignY="labelPenghasilan#1">
+                    <item>UI_baru/ui_lbl_popupData.png</item>
+                </image_list>
+                <textWithImage id="textPenghasilan" x="0" y="-5" pivotX="0.5" pivotY="0.5" alignX="bgBarPenghasilan#0.5" alignY="bgBarPenghasilan#0.5" font="cuckoo" fontSize="35" color="ffffff" isCenter="true">
+                    <string>
+                        <koin_Festival/>
+                        <text> 00000</text>
+                    </string>
+                </textWithImage>
+            </container>
+
+            <container id="contDapatHadiah" alignY="penghasilan#1" x="0" y="15" alignX="descTimer#0" height="120">
+                <text id="labelDapatHadiah" x="0" y="0" font="comicneueLight" fontSize="30" color="000000" wrapWidth="725" isCenter="true">Selamat! Kamu berhasil mendapatkan:</text>
+                <image_list id="bgDapatHadiah" x="60" y="10" alignY="labelDapatHadiah#1">
+                    <item>UI_baru/ui_lbl_popupData.png</item>
+                </image_list>
+                <text id="textDapatHadiah" x="0" y="20" pivotX="0.5" pivotY="0.5" alignX="bgDapatHadiah#0.5" alignY="bgDapatHadiah#0.5" font="cuckoo" fontSize="35" color="ffffff" isCenter="true">0 buah jam emas</text>
+<!--                <textWithImage id="textDapatHadiah" x="0" y="-5" pivotX="0.5" pivotY="0.5" alignX="bgDapatHadiah#0.5" alignY="bgDapatHadiah#0.5" font="cuckoo" fontSize="35" color="ffffff" isCenter="true">-->
+<!--                    <string>-->
+<!--                        <text>0 buah jam emas</text>-->
+<!--                    </string>-->
+<!--                </textWithImage>-->
+            </container>
+
+            <text id="textAmbil" isVisible="false" x="0" y="15" alignY="contDapatHadiah#1" font="comicneueLight" fontSize="30" color="000000" wrapWidth="725" isCenter="true"> </text>
+        </container>
+
+
+    </container>
+
+    <animation>
+    </animation>
+</resources>

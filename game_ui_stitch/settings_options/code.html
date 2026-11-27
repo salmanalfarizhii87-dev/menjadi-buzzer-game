@@ -1,0 +1,370 @@
+<!DOCTYPE html><html lang="id"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings &amp; Options — Menjadi Buzzer</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">/** @type {import('tailwindcss').Config} */
+globalThis.tailwind = globalThis.tailwind || {};
+globalThis.tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        'wood-bar': '#5C341A',
+        'wood-light': '#6E3F21',
+        'wood-mid': '#4A2812',
+        'wood-dark': '#3A2010',
+        'wood-shadow': '#241005',
+        'cork-board': '#C88A4B',
+        'amber-canvas': '#F7CE7D',
+        'amber-gold': '#F5A623',
+        'gold-bright': '#FDE047',
+        'gold-deep': '#D97706',
+        'parchment': '#FFFBF2',
+        'parchment-border': '#C0835A',
+        'success': '#1F7A26',
+        'on-success': '#FFFFFF',
+        'warning': '#B56100',
+        'on-warning': '#060606',
+        'info': '#1D6FA5',
+        'on-info': '#FFFFFF',
+        'hud-cyan': '#28B8E8',
+        'hud-cyan-dark': '#0E7DB0',
+        'hud-purple': '#6B3FA0',
+        'hud-purple-dark': '#452273',
+        'dock-bg': '#EDF2F7',
+        'ink-dark': '#1E1B2E',
+        'btn-red': '#E53935',
+        'btn-red-dark': '#B71C1C',
+        'btn-orange': '#FB8C00',
+        'btn-orange-dark': '#D85000',
+        'btn-blue': '#039BE5',
+        'btn-blue-dark': '#01579B',
+        'btn-yellow': '#FDD835',
+        'btn-yellow-dark': '#F59E0B',
+        'btn-purple': '#8E24AA',
+        'btn-purple-dark': '#4A148C',
+        'btn-green': '#2EAD39',
+        'btn-green-dark': '#16681D',
+        'light-primary': '#006013',
+        'light-on-primary': '#FFFFFF',
+        'light-primary-container': '#1F7A26',
+        'light-on-primary-container': '#ADFFA2',
+        'light-secondary': '#86522D',
+        'light-on-secondary': '#FFFFFF',
+        'light-secondary-container': '#FFBA8E',
+        'light-on-secondary-container': '#4F2504',
+        'light-tertiary': '#7D4200',
+        'light-on-tertiary': '#FFFFFF',
+        'light-tertiary-container': '#FFE6D5',
+        'light-on-tertiary-container': '#4D2600',
+        'light-error': '#BA1A1A',
+        'light-on-error': '#FFFFFF',
+        'light-error-container': '#FFDAD6',
+        'light-on-error-container': '#93000A',
+        'light-background': '#F7CE7D',
+        'light-on-background': '#2F1502',
+        'light-surface': '#FFFBF2',
+        'light-surface-dim': '#FFE3D2',
+        'light-surface-bright': '#FFFFFF',
+        'light-surface-container-lowest': '#FFFFFF',
+        'light-surface-container-low': '#FFF8F0',
+        'light-surface-container': '#FFF1EA',
+        'light-surface-container-high': '#FFEADE',
+        'light-surface-container-highest': '#FFDCC6',
+        'light-on-surface': '#2F1502',
+        'light-surface-variant': '#DBE6D4',
+        'light-on-surface-variant': '#40493D',
+        'light-outline': '#707A6B',
+        'light-outline-variant': '#C0835A',
+        'light-inverse-surface': '#482911',
+        'light-inverse-on-surface': '#FFEDE4',
+        'light-inverse-primary': '#81DB7A',
+        'light-shadow': '#000000',
+        'light-scrim': '#000000',
+        'dark-primary': '#81DB7A',
+        'dark-on-primary': '#003908',
+        'dark-primary-container': '#1F7A26',
+        'dark-on-primary-container': '#ADFFA2',
+        'dark-secondary': '#FCB78A',
+        'dark-on-secondary': '#4F2504',
+        'dark-secondary-container': '#6D3D1A',
+        'dark-on-secondary-container': '#EDAA7E',
+        'dark-tertiary': '#FFB77D',
+        'dark-on-tertiary': '#4D2600',
+        'dark-tertiary-container': '#A15600',
+        'dark-on-tertiary-container': '#FFE6D5',
+        'dark-error': '#FFB4AB',
+        'dark-on-error': '#690005',
+        'dark-error-container': '#93000A',
+        'dark-on-error-container': '#FFDAD6',
+        'dark-background': '#240D00',
+        'dark-on-background': '#FFDCC6',
+        'dark-surface': '#2F1502',
+        'dark-surface-dim': '#240D00',
+        'dark-surface-bright': '#523119',
+        'dark-surface-container-lowest': '#1C0900',
+        'dark-surface-container-low': '#2F1502',
+        'dark-surface-container': '#341904',
+        'dark-surface-container-high': '#40230B',
+        'dark-surface-container-highest': '#4D2D15',
+        'dark-on-surface': '#FFDCC6',
+        'dark-surface-variant': '#40493D',
+        'dark-on-surface-variant': '#BFCAB9',
+        'dark-outline': '#899484',
+        'dark-outline-variant': '#623F25',
+        'dark-inverse-surface': '#FFDCC6',
+        'dark-inverse-on-surface': '#482911',
+        'dark-inverse-primary': '#0C6E1B',
+        'dark-shadow': '#000000',
+        'dark-scrim': '#000000',
+      },
+      borderRadius: {
+        'sm': '6px',
+        'DEFAULT': '10px',
+        'md': '14px',
+        'lg': '18px',
+        'xl': '24px',
+        'full': '9999px',
+      },
+      spacing: {
+        'gutter-xs': '4px',
+        'gutter-sm': '8px',
+        'gutter-md': '12px',
+        'gutter-lg': '16px',
+        'gutter-xl': '24px',
+        'section': '20px',
+        'page-margin': '14px',
+      },
+      fontFamily: {
+        'display': ['"Fredoka"', 'sans-serif'],
+        'headline': ['"Fredoka"', 'sans-serif'],
+        'title': ['"Fredoka"', 'sans-serif'],
+        'body': ['"Spline Sans"', 'sans-serif'],
+        'label': ['"Fredoka"', 'sans-serif'],
+        'mono': ['"DM Mono"', 'monospace'],
+      },
+      fontSize: {
+        'display-lg': ['36px', { lineHeight: '42px', letterSpacing: '-0.25px', fontWeight: '700' }],
+        'display-lg-mobile': ['28px', { lineHeight: '34px', letterSpacing: '-0.25px', fontWeight: '700' }],
+        'headline-lg': ['24px', { lineHeight: '30px', letterSpacing: '0px', fontWeight: '600' }],
+        'headline-md': ['20px', { lineHeight: '26px', letterSpacing: '0px', fontWeight: '600' }],
+        'title-md': ['16px', { lineHeight: '22px', letterSpacing: '0px', fontWeight: '600' }],
+        'body-md': ['14px', { lineHeight: '20px', letterSpacing: '0px', fontWeight: '500' }],
+        'body-sm': ['12px', { lineHeight: '16px', letterSpacing: '0.1px', fontWeight: '500' }],
+        'label-lg': ['15px', { lineHeight: '20px', letterSpacing: '0.1px', fontWeight: '600' }],
+        'label-sm': ['11px', { lineHeight: '14px', letterSpacing: '0.2px', fontWeight: '700' }],
+        'mono-md': ['14px', { lineHeight: '18px', letterSpacing: '0px', fontWeight: '500' }],
+      },
+      transitionDuration: {
+        'button-press': '100ms',
+        'card-enter': '220ms',
+      },
+      transitionDelay: {
+        'button-press': '0ms',
+        'card-enter': '0ms',
+      },
+      transitionTimingFunction: {
+        'button-press': 'ease-out',
+        'card-enter': 'cubic-bezier(0.2, 0, 0, 1)',
+      },
+    },
+  },
+};
+if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
+</script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&amp;family=Fredoka:wght@600;700&amp;family=Spline+Sans:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    .ref-hud-purple { background: linear-gradient(180deg, #522B7A 0%, #3E1D61 100%); }
+    .ref-back-circle { background: linear-gradient(180deg, #9C72D6 0%, #7C4DFF 100%); box-shadow: 0 2px 4px rgba(0,0,0,0.35), inset 0 2px 0 rgba(255,255,255,0.35); }
+    .ref-cyan-pill { background: linear-gradient(180deg, #0B709E 0%, #074E6E 100%); box-shadow: 0 2px 4px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.35); }
+    .ref-card { background: #FFFFFF; border: 2px solid #CBD5E1; box-shadow: 0 4px 0 #94A3B8; }
+    .ref-btn-white { background: linear-gradient(180deg, #FFFFFF 0%, #E2E8F0 100%); box-shadow: 0 3px 0 #94A3B8, inset 0 2px 0 #FFFFFF; }
+    .ref-btn-white:active { transform: translateY(2px); box-shadow: 0 1px 0 #94A3B8; }
+    .ref-btn-red { background: linear-gradient(180deg, #C62828 0%, #B71C1C 100%); box-shadow: 0 4px 0 #7F1D1D, inset 0 2px 0 rgba(255,255,255,0.35); }
+    .ref-btn-red:active { transform: translateY(2px); box-shadow: 0 2px 0 #7F1D1D; }
+  </style>
+</head>
+<body class="bg-dock-bg text-ink-dark font-body antialiased">
+  <div class="min-h-[884px] max-w-md mx-auto flex flex-col bg-dock-bg" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- Top Purple HUD Bar -->
+    <header class="sticky top-0 z-20 flex flex-col shadow-[0_3px_8px_rgba(0,0,0,0.22)]">
+      <div class="ref-hud-purple flex items-center gap-gutter-sm px-gutter-sm py-gutter-sm">
+        <a href="../01-business-home/Business%20Home.html" aria-label="Kembali ke Home" class="w-11 h-11 rounded-full ref-back-circle flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M15 6L9 12L15 18" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </a>
+
+        <div class="flex-1 ref-cyan-pill rounded-lg px-gutter-md py-1 flex flex-col items-center justify-center min-w-0">
+          <span class="font-headline text-title-md text-light-surface-bright leading-none" data-design-text-token="title-md">Pengaturan</span>
+          <span class="font-mono text-label-sm text-light-surface-bright leading-none mt-0.5" data-design-text-token="label-sm">Opsi Game &amp; Save Lokal</span>
+        </div>
+
+        <div class="px-gutter-sm py-1.5 rounded-lg bg-light-surface-bright flex items-center gap-1 shrink-0">
+          <span class="font-mono text-label-sm text-ink-dark" data-design-text-token="label-sm">v1.0</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col gap-gutter-md p-gutter-md pb-gutter-xl">
+
+      <!-- Player & Save Identity Block -->
+      <article class="ref-card rounded-xl p-gutter-md flex items-center justify-between gap-gutter-md">
+        <div class="flex items-center gap-gutter-md min-w-0">
+          <img src="https://lh3.googleusercontent.com/aida/ALJJyrAAmkiNzby98xt46n-ryFksxewrXx7qnm5rwhRKW9fRIbYR7o_2q0m3j6jw95TvR7tC-TkZf742d6nSyMKq5PEteWEAF1P3rpYCneuedNsIl5v1RdwThVe3OtFY7WUCBc5H_BbYdVqJBY-Ejfkqz2B0Z1-GDxF8bbSOh3h5ZIrG68Y4H7mMvmk8rD47midmOM_fn3tZs8_7eZ79LjIhN3C-1E89hYyNrS70FabYl_Rj3qLkLqpV1A" alt="Avatar @KilatDaily" class="w-14 h-14 rounded-full object-cover border-2 border-hud-purple bg-hud-purple-dark shrink-0">
+          <div class="min-w-0">
+            <h1 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">@KilatDaily</h1>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Save Lokal Aktif • Schema v1</p>
+          </div>
+        </div>
+        <a href="../11-character-customizer/Character%20Customizer.html" class="ref-btn-white px-gutter-md py-gutter-xs rounded-xl font-headline text-label-sm text-ink-dark shrink-0" data-design-text-token="label-sm">
+          Ubah Gaya
+        </a>
+      </article>
+
+      <!-- Section 1: Audio & Feedback -->
+      <section aria-label="Pengaturan audio" class="ref-card rounded-xl p-gutter-lg flex flex-col gap-gutter-md">
+        <div class="flex items-center gap-gutter-sm">
+          <svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M4 9H8L14 4V20L8 15H4V9Z" fill="#FACC15" stroke="#1E1B2E" stroke-width="2" stroke-linejoin="round"></path>
+            <path d="M17.5 8.5C19 10 19 14 17.5 15.5" stroke="#1E1B2E" stroke-width="2" stroke-linecap="round"></path>
+          </svg>
+          <h2 class="font-headline text-title-md text-ink-dark" data-design-text-token="title-md">Audio &amp; Efek</h2>
+        </div>
+
+        <div class="flex items-center justify-between gap-gutter-md">
+          <div>
+            <p class="font-headline text-body-md text-ink-dark" data-design-text-token="body-md">Musik Latar (BGM)</p>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Musik santai ruang kerja buzzer</p>
+          </div>
+          <button type="button" role="switch" aria-checked="true" onclick="toggleSwitch(this, &#39;bgm&#39;)" class="w-14 h-8 rounded-full bg-success border-2 border-ink-dark p-0.5 flex items-center justify-end cursor-pointer" aria-label="Musik Latar">
+            <span class="w-6 h-6 rounded-full bg-light-surface-bright border border-ink-dark"></span>
+          </button>
+        </div>
+
+        <div class="flex items-center justify-between gap-gutter-md">
+          <div>
+            <p class="font-headline text-body-md text-ink-dark" data-design-text-token="body-md">Efek Suara (SFX)</p>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Suara koin, tombol, dan notifikasi</p>
+          </div>
+          <button type="button" role="switch" aria-checked="true" onclick="toggleSwitch(this, &#39;sfx&#39;)" class="w-14 h-8 rounded-full bg-success border-2 border-ink-dark p-0.5 flex items-center justify-end cursor-pointer" aria-label="Efek Suara">
+            <span class="w-6 h-6 rounded-full bg-light-surface-bright border border-ink-dark"></span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Section 2: Gameplay & Safety -->
+      <section aria-label="Pengaturan gameplay" class="ref-card rounded-xl p-gutter-lg flex flex-col gap-gutter-md">
+        <div class="flex items-center gap-gutter-sm">
+          <svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="12" cy="12" r="9" fill="#60A5FA" stroke="#1E1B2E" stroke-width="2"></circle>
+            <path d="M12 7V12L15.5 14" stroke="#1E1B2E" stroke-width="2.2" stroke-linecap="round"></path>
+          </svg>
+          <h2 class="font-headline text-title-md text-ink-dark" data-design-text-token="title-md">Gameplay &amp; Keamanan</h2>
+        </div>
+
+        <div class="flex items-center justify-between gap-gutter-md">
+          <div>
+            <p class="font-headline text-body-md text-ink-dark" data-design-text-token="body-md">Konfirmasi Risiko Tinggi</p>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Minta persetujuan sebelum strategi Agresif</p>
+          </div>
+          <button type="button" role="switch" aria-checked="true" onclick="toggleSwitch(this, &#39;confirmRisk&#39;)" class="w-14 h-8 rounded-full bg-success border-2 border-ink-dark p-0.5 flex items-center justify-end cursor-pointer" aria-label="Konfirmasi Risiko Tinggi">
+            <span class="w-6 h-6 rounded-full bg-light-surface-bright border border-ink-dark"></span>
+          </button>
+        </div>
+
+        <div class="flex items-center justify-between gap-gutter-md">
+          <div>
+            <p class="font-headline text-body-md text-ink-dark" data-design-text-token="body-md">Pop-up Cuan Otomatis</p>
+            <p class="font-body text-body-sm text-light-on-surface-variant text-balance" data-design-text-token="body-sm">Tampilkan angka +Rp saat passive income masuk</p>
+          </div>
+          <button type="button" role="switch" aria-checked="true" onclick="toggleSwitch(this, &#39;incomePop&#39;)" class="w-14 h-8 rounded-full bg-success border-2 border-ink-dark p-0.5 flex items-center justify-end cursor-pointer" aria-label="Pop-up Cuan Otomatis">
+            <span class="w-6 h-6 rounded-full bg-light-surface-bright border border-ink-dark"></span>
+          </button>
+        </div>
+
+        <div class="flex items-center justify-between gap-gutter-md pt-gutter-xs border-t border-slate-200">
+          <div>
+            <p class="font-headline text-body-md text-ink-dark" data-design-text-token="body-md">Mode Uji Deterministik</p>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Khusus QA: hasil roll kampanye konsisten</p>
+          </div>
+          <button type="button" role="switch" aria-checked="false" onclick="toggleSwitch(this, &#39;qaMode&#39;)" class="w-14 h-8 rounded-full bg-slate-300 border-2 border-slate-500 p-0.5 flex items-center justify-start cursor-pointer" aria-label="Mode Uji Deterministik">
+            <span class="w-6 h-6 rounded-full bg-light-surface-bright border border-ink-dark"></span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Section 3: Destructive Zone -->
+      <section aria-label="Manajemen save" class="ref-card rounded-xl p-gutter-lg flex flex-col gap-gutter-sm border-btn-red-dark">
+        <h2 class="font-headline text-title-md text-btn-red-dark" data-design-text-token="title-md">Manajemen Data Save</h2>
+        <p class="font-body text-body-sm text-ink-dark text-pretty" data-design-text-token="body-sm">
+          Mereset save akan menghapus seluruh saldo, upgrade, dan riwayat kampanye lokal, lalu mengembalikan akun ke kondisi awal (Rp 500 &amp; 1.000 Followers).
+        </p>
+
+        <button type="button" onclick="openResetConfirm()" class="ref-btn-red w-full inline-flex items-center justify-center gap-gutter-sm px-gutter-lg py-gutter-md rounded-xl cursor-pointer">
+          <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M5 7H19M9 7V5H15V7M8 7L9 19H15L16 7" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+          <span class="font-headline text-label-lg text-light-surface-bright" data-design-text-token="label-lg">Reset Save Game</span>
+        </button>
+
+        <!-- Confirmation Panel -->
+        <div id="reset-confirm-box" class="hidden mt-gutter-xs bg-light-error-container border-2 border-btn-red-dark rounded-xl p-gutter-md flex flex-col gap-gutter-sm">
+          <p class="font-headline text-body-md text-light-on-error-container" data-design-text-token="body-md">Yakin ingin menghapus seluruh progres lokal?</p>
+          <div class="grid grid-cols-2 gap-gutter-sm">
+            <button type="button" onclick="closeResetConfirm()" class="ref-btn-white py-gutter-sm px-gutter-md rounded-xl font-headline text-label-sm text-ink-dark cursor-pointer" data-design-text-token="label-sm">Batal</button>
+            <button type="button" onclick="confirmResetSave()" class="ref-btn-red py-gutter-sm px-gutter-md rounded-xl font-headline text-label-sm text-light-surface-bright cursor-pointer" data-design-text-token="label-sm">Ya, Reset Semua</button>
+          </div>
+        </div>
+
+        <p id="reset-done-msg" class="hidden font-headline text-body-sm text-success text-center" data-design-text-token="body-sm">
+          Save berhasil direset ke kondisi awal!
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+    function toggleSwitch(btn, key) {
+      var isChecked = btn.getAttribute('aria-checked') === 'true';
+      var next = !isChecked;
+      btn.setAttribute('aria-checked', next ? 'true' : 'false');
+      if (next) {
+        btn.className = 'w-14 h-8 rounded-full bg-success border-2 border-ink-dark p-0.5 flex items-center justify-end cursor-pointer';
+      } else {
+        btn.className = 'w-14 h-8 rounded-full bg-slate-300 border-2 border-slate-500 p-0.5 flex items-center justify-start cursor-pointer';
+      }
+      try {
+        var opts = JSON.parse(localStorage.getItem('mb_options') || '{}');
+        opts[key] = next;
+        localStorage.setItem('mb_options', JSON.stringify(opts));
+      } catch (e) {}
+    }
+
+    function openResetConfirm() {
+      document.getElementById('reset-confirm-box').classList.remove('hidden');
+      document.getElementById('reset-done-msg').classList.add('hidden');
+    }
+
+    function closeResetConfirm() {
+      document.getElementById('reset-confirm-box').classList.add('hidden');
+    }
+
+    function confirmResetSave() {
+      try {
+        localStorage.removeItem('mb_character');
+        localStorage.removeItem('mb_options');
+        localStorage.removeItem('mb_balance');
+        localStorage.removeItem('mb_minigame_score');
+      } catch (e) {}
+      document.getElementById('reset-confirm-box').classList.add('hidden');
+      document.getElementById('reset-done-msg').classList.remove('hidden');
+    }
+  </script>
+
+
+</body></html>

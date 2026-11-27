@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario lama_muncul="5.0">
+        <dialog karakter="2" ekspresi="happy" alignY="0.5f" y="-120">Horeeee!! Kalau gitu, aku tunggu di Mars, yak!</dialog>
+        <dialog ekspresi="idle">Untuk pergi ke Mars, tinggal cek saja di Peta di Tab "Lintas Dimensi", yak!</dialog>
+        <dialog ekspresi="bertanya">Gak sabar mau nyobain Tahu Bulatmu di Planet Mars!!&#10;Sampai jumpaaa~ Huyaaa~</dialog>
+        <!--<pilihan alignY="0.5f" y="-120" animasi="0.3" ekspresi="bertanya">-->
+            <!--<dialog ekspresi="bertanya">Gak sabar mau nyobain Tahu Bulatmu di Planet Mars...&#10;Sampai jumpaaa~ Huyaaa~</dialog>-->
+            <!--<buttons>-->
+                <!--<button tipe="btnDelegate" idAksi="jasteen_hideufo" image="UI_baru/ui_btn_normal_ijo.png" text="Oke"/>-->
+            <!--</buttons>-->
+        <!--</pilihan>-->
+    </skenario>
+</resources>

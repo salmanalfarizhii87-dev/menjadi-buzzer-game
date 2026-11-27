@@ -1,0 +1,252 @@
+/*
+ * Layout: satu kolom potret, terpusat di desktop (keputusan D-06).
+ * Bingkai luar memakai papan gelap agar kolom game terasa seperti perangkat/plakat.
+ */
+
+.app-frame {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: var(--layout-max-width);
+  min-height: 100dvh;
+  margin-inline: auto;
+  background:
+    radial-gradient(100% 46% at 50% 0%, #fdf3dd 0%, var(--color-canvas) 58%, var(--color-canvas-deep) 100%);
+  border-inline: var(--border-thick) solid var(--color-border-strong);
+  overflow-x: hidden;
+}
+
+@media (min-width: 481px) {
+  .app-frame {
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 25%), 0 18px 60px rgb(0 0 0 / 45%);
+  }
+}
+
+/* ---- Top bar: papan kayu ---- */
+
+.app-topbar {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-sticky);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: var(--layout-topbar-height);
+  padding: var(--space-2) var(--layout-gutter);
+  background: linear-gradient(180deg, #7d5127 0%, #67401c 62%, #553315 100%);
+  border-bottom: var(--border-thick) solid var(--color-border-strong);
+  box-shadow:
+    inset 0 2px 0 rgb(255 233 197 / 30%),
+    0 3px 0 rgb(36 26 16 / 22%);
+}
+
+.app-topbar__titles {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1;
+}
+
+.app-topbar__title {
+  font-family: var(--font-display);
+  font-size: var(--text-md);
+  font-weight: var(--weight-black);
+  color: var(--color-text-inverse);
+  line-height: var(--leading-tight);
+  letter-spacing: 0.01em;
+  text-shadow: 0 2px 0 rgb(36 26 16 / 55%);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.app-topbar__subtitle {
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  color: rgb(255 233 197 / 72%);
+  line-height: var(--leading-snug);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.app-topbar__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-shrink: 0;
+}
+
+/* Tombol ikon di top bar harus kontras di atas kayu. */
+.app-topbar .btn-icon {
+  color: var(--color-text-inverse);
+  background: rgb(255 248 233 / 14%);
+  border-color: rgb(36 26 16 / 45%);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 18%);
+}
+
+.app-topbar .btn-icon:active {
+  background: rgb(36 26 16 / 22%);
+}
+
+/* ---- Main ---- */
+
+.app-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-4) var(--layout-gutter)
+    calc(var(--layout-nav-height) + var(--space-6) + var(--layout-safe-bottom));
+  min-height: 0;
+}
+
+.app-main--full {
+  padding-bottom: calc(var(--space-6) + var(--layout-safe-bottom));
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  min-width: 0;
+}
+
+.screen--fill {
+  flex: 1;
+  min-height: 0;
+}
+
+/* ---- Bottom navigation: tab bertile ---- */
+
+.app-nav {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  z-index: var(--z-nav);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  max-width: var(--layout-max-width);
+  padding: var(--space-1) var(--space-1) calc(var(--space-1) + var(--layout-safe-bottom));
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, #6b4320 0%, #4b2d13 100%);
+  border-top: var(--border-thick) solid #1c1208;
+  box-shadow: inset 0 2px 0 rgb(255 233 197 / 22%);
+}
+
+.app-nav__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  min-height: calc(var(--layout-nav-height) - var(--space-2));
+  padding: var(--space-1) 0;
+  font-family: var(--font-display);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  color: rgb(255 233 197 / 62%);
+  background: transparent;
+  border: none;
+  text-shadow: 0 1px 0 rgb(28 18 8 / 60%);
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+/* Tile ikon: memberi bentuk tombol nyata, bukan tautan teks. */
+.app-nav__tile {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 30px;
+  border-radius: var(--radius-sm);
+  border: var(--border-thin) solid transparent;
+  transition:
+    background-color var(--duration-fast) var(--ease-out),
+    border-color var(--duration-fast) var(--ease-out),
+    transform var(--duration-fast) var(--ease-out);
+}
+
+.app-nav__item svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 2.4;
+}
+
+.app-nav__item:hover {
+  color: var(--color-text-soft);
+}
+
+.app-nav__item:hover .app-nav__tile {
+  background: rgb(106 69 34 / 8%);
+}
+
+.app-nav__item[aria-current='page'] {
+  color: #ffd9a6;
+}
+
+.app-nav__item[aria-current='page'] .app-nav__tile {
+  color: #3a2510;
+  background: linear-gradient(180deg, #f8d488 0%, var(--color-gold-500) 48%, var(--color-gold-600) 100%);
+  border-color: #1c1208;
+  box-shadow:
+    0 3px 0 rgb(28 18 8 / 75%),
+    inset 0 2px 0 rgb(255 248 225 / 70%);
+  transform: translateY(-4px);
+}
+
+.app-nav__item[aria-current='page'] svg {
+  stroke-width: 2.6;
+}
+
+.app-nav__label {
+  line-height: 1.1;
+}
+
+/* ---- Helpers ---- */
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.stack--tight {
+  gap: var(--space-2);
+}
+
+.stack--loose {
+  gap: var(--space-5);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.row--between {
+  justify-content: space-between;
+}
+
+.row--wrap {
+  flex-wrap: wrap;
+}
+
+.grow {
+  flex: 1;
+  min-width: 0;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+}
+
+@media (max-width: 359px) {
+  .card-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

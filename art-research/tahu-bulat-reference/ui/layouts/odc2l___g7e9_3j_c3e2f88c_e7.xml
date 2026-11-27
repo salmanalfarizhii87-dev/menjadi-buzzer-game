@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base_offline_revenue" y="60">
+<!--        <rect id="bg" widthPersen="1" heightPersen="1" color="000000"/>-->
+        <text id="atau" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="wLayar#0.5" alignY="hLayar#0.5" font="cuckoo" fontSize="55" color="ffffff" isCenter="true">Atau</text>
+        <button id="btn_biasa" x="0" y="-64" pivotX="0.5" pivotY="1" alignX="atau#0.5" alignY="atau#0.5" imageNormal="UI_baru/ui_btn_default.png">
+        <!--isi sesuai hasil offline -->
+<!--            <text id="hasil_biasa" x="0" y="-50" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="40" color="ffffff" isCenter="true">+000,000k</text>-->
+            <textWithImage id="hasil_biasa" x="0" y="-57" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="40" color="ffffff" isCenter="true">
+                <string>
+                    <koin_Bandung/>
+                    <text>+000,000k</text>
+                </string>
+            </textWithImage>
+        </button>
+
+        <image_list id="lbl_offline_small" x="0" y="-121" pivotX="0.5" pivotY="1" alignX="btn_biasa#0.5" alignY="btn_biasa#1">
+<!--        <image_list id="lbl_offline_small" x="0" y="-110" pivotX="0.5" pivotY="1" alignX="btn_biasa#0.5" alignY="btn_biasa#1">-->
+            <item>UI_baru/lbl_icon_offline_small.png</item>
+        </image_list>
+        <particle id="p_offline_normal" xml="xml_partikel/p_offline_normal.xml" x="0" y="0" alignX="lbl_offline_small#0.5" alignY="lbl_offline_small#0.5"/>
+
+        <container id="base_dialog_offline" x="-9" y="-193" pivotX="0.5" pivotY="1" alignX="lbl_offline_small#0.5" alignY="lbl_offline_small#1" width="726" height="279">
+            <image_list id="lbl_dialog_offline" x="9" y="0" pivotX="0.5" pivotY="1">
+                <item>floating_box/lbl_tutorial.png</item>
+            </image_list>
+<!--            <image_list id="ayam_offline" x="-250" y="-143" pivotX="0.5" pivotY="0.5">-->
+<!--            <image_list id="ayam_offline" x="-225" y="-162" pivotX="0.5" pivotY="0.5">--><!--idle-->
+            <image_list id="ayam_offline" x="-238" y="-179" pivotX="0.5" pivotY="0.5">
+                <item>pemeran/akang/dialog_akangSapa.png</item>
+            </image_list>
+            <text id="txt_ayam" x="-118" y="-172" pivotX="0" pivotY="1" font="cuckoo" fontSize="35" color="ffffff" isCenter="false">Akang Tahu</text>
+            <text id="txt_ayam_dialog" x="-118" y="-152" pivotX="0" pivotY="0" font="comicneueBold" fontSize="32" color="000000" wrapWidth="450" isCenter="false">Dari mana aja Bosque?!&#10;Ini hasil penjualan Tahu Bulat selama kamu pergi.</text>
+        </container>
+
+        <image_list id="lbl_offline_big" x="0" y="-58" pivotX="0.5" pivotY="0" alignX="atau#0.5" alignY="atau#0.5">
+<!--        <image_list id="lbl_offline_big" x="0" y="-25" pivotX="0.5" pivotY="0" alignX="atau#0.5" alignY="atau#0.5">-->
+            <item>UI_baru/lbl_icon_offline_big.png</item>
+        </image_list>
+        <particle id="p_offline_ads" xml="xml_partikel/p_offline_ads.xml" x="0" y="0" alignX="lbl_offline_big#0.5" alignY="lbl_offline_big#0.5"/>
+
+<!--        <container id="base_btn_2x" x="0" y="397" pivotX="0.5" pivotY="0.5" alignX="lbl_offline_big#0.5" alignY="lbl_offline_big#0" width="475" height="176">-->
+        <container id="base_btn_2x" x="0" y="350" pivotX="0.5" pivotY="0.5" alignX="lbl_offline_big#0.5" alignY="lbl_offline_big#0" width="475" height="176">
+            <button id="btn_2x" x="-6" y="89" pivotX="0.5" pivotY="0.5" imageNormal="UI_baru/ui_btn_kuningBesar.png">
+                <image_list id="ic_ads" x="-166" y="-33" pivotX="0.5" pivotY="0.5" scaleX="1.25" scaleY="1.25" pScaleX="0.5" pScaleY="0.5">
+                    <item>ui_turis/ic_kameraAds.png</item>
+                </image_list>
+
+                <image_list id="lbl_multiplier" x="196" y="45" pivotX="0.5" pivotY="0.5">
+                    <item>UI_baru/lbl_offline_multiplier.png</item>
+                </image_list>
+                <text id="2x" x="9" y="8" pivotX="0.5" pivotY="0.5" alignX="lbl_multiplier#0.5" alignY="lbl_multiplier#0.5" font="cuckoo" fontSize="55" color="000000" isCenter="true">2x</text>
+                <!--isi sesuai hasil offline 2x-->
+<!--                <text id="hasil_2x" x="26" y="-3" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="55" color="000000" isCenter="true">+000,000k</text>-->
+                <textWithImage id="hasil_2x" x="26" y="-15" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="55" color="000000" isCenter="true">
+                    <string>
+                        <koin_Bandung/>
+                        <text>+000,000k</text>
+                    </string>
+                </textWithImage>
+            </button>
+        </container>
+
+    </container>
+
+    <animation>
+        <offline_rev>
+<!--            <alpha id="bg" time="0">0.75</alpha>-->
+            <playParticle id="p_offline_ads"/>
+            <playParticle id="p_offline_normal"/>
+<!--            <wait time="10"/>-->
+        </offline_rev>
+    </animation>
+</resources>

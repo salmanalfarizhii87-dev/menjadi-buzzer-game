@@ -1,0 +1,160 @@
+<resources>
+    <container id="root" x="384" y="900" pivotX="0" pivotY="0">
+        <image_list id="tabulboy_idle" x="0" y="0" pivotX="0.5" pivotY="1" isBaseContainer="true">
+            <item>ksatriatahu/pets/tabulbot/tabulboy_idle.png</item>
+        </image_list>
+        <image_list id="tabulboy_walk" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/pets/tabulbot/tabulboy_walk.png</item>
+        </image_list>
+        <uiReader pivotX="0.5" pivotY="1" alignX="tabulboy_idle#0.5" alignY="tabulboy_idle#0" id="emoji" xml="ksatriatahu/xml/emoji.xml"/>
+    </container>
+
+    <animation>
+        <stop>
+            <alpha id="tabulboy_walk" time="0">0</alpha>
+            <alpha id="tabulboy_idle" time="0">1</alpha>
+            <moveY id="tabulboy_idle" time="0">-40</moveY>
+        </stop>
+        <reset>
+            <moveX id="tabulboy_idle" time="0">0</moveX>
+            <moveX id="tabulboy_walk" time="0">0</moveX>
+            <moveY id="tabulboy_idle" time="0">0</moveY>
+            <moveY id="tabulboy_walk" time="0">0</moveY>
+            <scaleX id="tabulboy_idle" pivotX="0.5" time="0">1</scaleX>
+            <scaleX id="tabulboy_walk" pivotX="0.5" time="0">1</scaleX>
+            <scaleY id="tabulboy_idle" pivotY="1" time="0">1</scaleY>
+            <scaleY id="tabulboy_walk" pivotY="1" time="0">1</scaleY>
+        </reset>
+        <idle repeat="-1">
+            <sequence>
+                <multiple>
+                    <moveY id="tabulboy_idle" pivotY="1" time="0">0</moveY>
+                    <moveY id="tabulboy_walk" pivotY="1" time="0">0</moveY>
+                </multiple>
+                <multiple>
+                    <alpha id="tabulboy_walk" time="0">0</alpha>
+                    <!--<alpha id="tabulbot_partikel4" time="0">0</alpha>-->
+                    <alpha id="tabulboy_idle" time="0">1</alpha>
+                </multiple>
+                <multiple>
+                    <scaleX id="tabulboy_idle" pivotX="0.5" time="0.3">1.05</scaleX>
+                    <scaleY id="tabulboy_idle" pivotY="1" time="0.3">0.95</scaleY>
+                </multiple>
+                <multiple>
+                    <scaleX id="tabulboy_idle" pivotX="0.5" time="0.3">0.95</scaleX>
+                    <scaleY id="tabulboy_idle" pivotY="1" time="0.3">1.05</scaleY>
+                </multiple>
+            </sequence>
+        </idle>
+
+        <jalan repeat="-1">
+            <sequence>
+                <alpha id="emoji" time="0">0</alpha>
+                <multiple>
+                    <alpha id="tabulboy_walk" time="0">0</alpha>
+                    <alpha id="tabulboy_idle" time="0">1</alpha>
+                    <scaleX id="tabulboy_idle" pivotX="0.5" time="0.025">1.15</scaleX>
+                    <scaleY id="tabulboy_idle" pivotY="1" time="0.025">0.85</scaleY>
+                    <moveY id="tabulboy_idle" time="0.025">0</moveY>
+                </multiple>
+                <multiple>
+                    <scaleX id="tabulboy_idle" pivotX="0.5" time="0.12">0.9</scaleX>
+                    <scaleY id="tabulboy_idle" pivotY="1" time="0.12">1.1</scaleY>
+                    <moveY id="tabulboy_idle" time="0.12">-50</moveY>
+                </multiple>
+                <multiple>
+                    <alpha id="tabulboy_idle" time="0">0</alpha>
+                    <alpha id="tabulboy_walk" time="0">1</alpha>
+                    <moveY id="tabulboy_walk" time="0">-50</moveY>
+                    <scaleX id="tabulboy_walk" pivotX="0.5" time="0">0.85</scaleX>
+                    <scaleY id="tabulboy_walk" pivotY="1" time="0">1.15</scaleY>
+                </multiple>
+                <multiple>
+                    <moveY id="tabulboy_walk" time="0.1">0</moveY>
+                    <moveY id="tabulboy_idle" time="0.1">0</moveY>
+                    <scaleX id="tabulboy_walk" pivotX="0.5" time="0.1">1.15</scaleX>
+                    <scaleY id="tabulboy_walk" pivotY="1" time="0.1">0.85</scaleY>
+                </multiple>
+                <multiple>
+                    <alpha id="tabulboy_idle" time="0">1</alpha>
+                    <scaleX id="tabulboy_idle" pivotX="0.5" time="0.025">1.15</scaleX>
+                    <scaleY id="tabulboy_idle" pivotY="1" time="0.025">0.9</scaleY>
+                    <alpha id="tabulboy_walk" time="0">0</alpha>
+                </multiple>
+                <multiple>
+                    <alpha id="tabulboy_idle" time="0">1</alpha>
+                    <scaleX id="tabulboy_idle" pivotX="0.5" time="0.025">1</scaleX>
+                    <scaleY id="tabulboy_idle" pivotY="1" time="0.025">1</scaleY>
+                    <alpha id="tabulboy_walk" time="0">0</alpha>
+                </multiple>
+            </sequence>
+        </jalan>
+        <makan>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="makan"></playAnim>
+        </makan>
+        <jurus>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="jurus"></playAnim>
+        </jurus>
+        <skill repeat="-1">
+            <sequence>
+                <sequence repeat="2">
+                    <multiple>
+                        <alpha id="tabulboy_walk" time="0">0</alpha>
+                        <alpha id="tabulboy_idle" time="0">1</alpha>
+                    </multiple>
+                    <multiple>
+                        <scaleX id="tabulboy_idle" pivotX="0.5" time="0.1">1.05</scaleX>
+                        <scaleY id="tabulboy_idle" pivotY="1" time="0.1">0.9</scaleY>
+                    </multiple>
+                    <multiple>
+                        <scaleX id="tabulboy_idle" pivotX="0.5" time="0.1">0.95</scaleX>
+                        <scaleY id="tabulboy_idle" pivotY="1" time="0.1">1.05</scaleY>
+                    </multiple>
+                </sequence>
+                <sequence repeat="2">
+                    <multiple>
+                        <alpha id="tabulboy_walk" time="0">0</alpha>
+                        <alpha id="tabulboy_idle" time="0">1</alpha>
+                        <scaleX id="tabulboy_idle" pivotX="0.5" time="0.1">1.15</scaleX>
+                        <scaleY id="tabulboy_idle" pivotY="1" time="0.1">0.85</scaleY>
+                        <moveY id="tabulboy_idle" pivotY="1" time="0.1">0</moveY>
+                    </multiple>
+                    <multiple>
+                        <scaleX id="tabulboy_idle" pivotX="0.5" time="0.1">0.9</scaleX>
+                        <scaleY id="tabulboy_idle" pivotY="1" time="0.1">1.1</scaleY>
+                        <moveY id="tabulboy_idle" pivotY="1" time="0.1">-30</moveY>
+                    </multiple>
+                    <multiple>
+                        <alpha id="tabulboy_idle" time="0">0</alpha>
+                        <alpha id="tabulboy_walk" time="0">1</alpha>
+                        <moveY id="tabulboy_walk" pivotY="1" time="0">-35</moveY>
+                        <scaleX id="tabulboy_walk" pivotX="0.5" time="0">0.85</scaleX>
+                        <scaleY id="tabulboy_walk" pivotY="1" time="0">1.15</scaleY>
+                    </multiple>
+                    <multiple>
+                        <moveY id="tabulboy_walk" pivotY="1" time="0.05">0</moveY>
+                        <moveY id="tabulboy_idle" pivotY="1" time="0.05">0</moveY>
+                        <scaleX id="tabulboy_walk" pivotX="0.5" time="0.05">1.15</scaleX>
+                        <scaleY id="tabulboy_walk" pivotY="1" time="0.05">0.85</scaleY>
+                    </multiple>
+                    <multiple>
+                        <alpha id="tabulboy_idle" time="0">1</alpha>
+                        <scaleX id="tabulboy_idle" pivotX="0.5" time="0.1">1</scaleX>
+                        <scaleY id="tabulboy_idle" pivotY="1" time="0.1">1</scaleY>
+                        <alpha id="tabulboy_walk" time="0">0</alpha>
+                    </multiple>
+                </sequence>
+            </sequence>
+        </skill>
+        <hati>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="hati"></playAnim>
+        </hati>
+        <evolusi>
+            <alpha id="emoji" time="0">1</alpha>
+            <playAnim id="emoji" nama="evolusi"></playAnim>
+        </evolusi>
+    </animation>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+
+        <container id="divBukti" y="0" alignY="hLayar#0.15">
+            <image_list id="bgBukti" pivotX="0.5" alignX="wLayar#0.5" isBaseContainer="true">
+                <item>UI_baru/label_bukti transferpolosan_768.png</item>
+            </image_list>
+
+            <!--asal-->
+            <image_list id="iconAsal" x="80" y="-50" alignX="bgBukti#0" alignY="bgBukti#0.5">
+                <item>icon/icon kota cabang tanpa ilustrasi/ic_gedung sate.png</item>
+            </image_list>
+            <image_list id="iconKoinAsal" x="0" y="15" pivotX="0.7" alignX="iconAsal#0" alignY="iconAsal#1">
+                <item>UI_baru/ic_koin_dalamNegeri.png</item>
+            </image_list>
+            <text id="textKoinAsal" x="10" y="0" alignX="iconKoinAsal#1" alignY="iconKoinAsal#0" font="cuckoo" fontSize="35" color="000000">-999 M</text>
+
+            <!--tujuan-->
+            <image_list id="iconTujuan" x="-80" y="0" pivotX="1" alignX="bgBukti#1" alignY="iconAsal#0">
+                <item>icon/icon kota cabang tanpa ilustrasi/ic_gedung sate.png</item>
+            </image_list>
+            <image_list id="iconKoinTujuan" x="0" y="15" pivotX="0.7" alignX="iconTujuan#0" alignY="iconTujuan#1">
+                <item>UI_baru/ic_koin_dalamNegeri.png</item>
+            </image_list>
+            <text id="textKoinTujuan" x="10" y="0" alignX="iconKoinTujuan#1" alignY="iconKoinTujuan#0" font="cuckoo" fontSize="35" color="000000">+999 M</text>
+
+            <!--biaya-->
+            <text id="labelBiaya" x="0" y="40" pivotX="0.5" alignX="bgBukti#0.5" alignY="iconKoinTujuan#1" font="cuckoo" fontSize="35" color="000000">Biaya:</text>
+            <image_list id="iconKoinBiaya" x="-30" y="15" alignX="labelBiaya#0" alignY="labelBiaya#1">
+                <item>UI_baru/ic_koin_dalamNegeri.png</item>
+            </image_list>
+            <text id="textKoinBiaya" x="10" y="0" alignX="iconKoinBiaya#1" alignY="iconKoinBiaya#0" font="cuckoo" fontSize="35" color="000000">999 M</text>
+        </container>
+
+        <button id="btnOk" x="0" y="50" pivotX="0.5" alignX="wLayar#0.5" alignY="divBukti#1"  imageNormal="UI_baru/ui_btn_normal_ijo.png" onClick="backPressed">
+            <text id="labelOk" x="0" y="48" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="40" color="ffffff">Ok!</text>
+        </button>
+    </container>
+</resources>

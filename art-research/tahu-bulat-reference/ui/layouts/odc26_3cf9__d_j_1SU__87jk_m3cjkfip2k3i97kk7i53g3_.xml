@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Gimana, Kang?&#10;Laris??</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Lariiissss dongg!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eh, loh? Towa??!!&#10;Darimana aja kamu??</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Gak kemana-mana, kok!</desc>
+        </dialog>
+	    <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Oke, jangan kemana-mana, yak..Akang masih mau nanya nih...</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Masih penasaran apaan sih, Kang?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Kok.... kamu bisa tahu sih kalau Manusia Ikan itu tadinya hidup di darat?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hadeeh....&#10;Oke, dijelasin, dengerin baik-baik ya, Kang..</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Jadi ribuan tahun silam, ada sebuah Kerajaan Besar di Tanah Sunda...</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Pemimpinnya adil dan bijaksana...&#10;Rakyatnya juga hidup makmur dan bahagia..</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Sayangnya kerajaan tersebut diserbu oleh tentara asing.. sampai kerajaan tersebut hampir hancur..</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Namun... tahu-tahu Kerajaan tersebut menghilang bersama seluruh isinya dalam semalam!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Hilang sama isi-isinya?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Iya... pindah ke sini.&#10;Atlantis ini sebenarnya adalah Kerajaan Besar yang menghilang itu..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Hah?? Kok bisa??!&#10;Gimana caranya??</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Gak ada yang tahu jawabannya... Tapi setelah pindah, mereka bertemu nenek moyang kami.</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Bersama nenek moyang Cantatiotura, penduduk kerajaan membangun Atlantis bersama-sama..</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Dan mereka hidup bahagia selamanya!!!&#10;Tamat!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>.........................</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Ini.. ceritanya beneran, Towa?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Ya... itu yang ditulis di buku pelajaran sejarah Sekolah Negri Atlantis!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>...........................</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Kenapa, Kang?&#10;Shock? Kaget?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Aku.... masih berusaha mencerna ceritamu tadi..</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hmmphh..&#10;Oke, kalau gitu, sekarang giliran kamu, Tako!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Loh? Masih ada lanjutannya??&#10;Tadi katanya Tamat?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Jadi ga mau dapat Peti Perunggu ini, Kang??</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Eh? Peti Perunggu??&#10;Mau dong!!</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Yasudah, pulang dulu, Kang!&#10;Bentar lagi jalan pulangnya tertutup, tuh!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Wokeh, siap!!&#10;Akang puas sama jawaban kamu, Towa!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="mantul" isHold="true">
+            <desc>Terima kasih, yak!&#10;Nanti kita ngobrol-ngobrol lagi tentang Atlantis, yak!</desc>
+        </dialog>
+    </skenario>
+</resources>

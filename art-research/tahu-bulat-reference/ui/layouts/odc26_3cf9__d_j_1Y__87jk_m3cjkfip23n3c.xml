@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Yosshhh!!&#10;Sampai lagi kita di Atlantis!!</desc>
+        </dialog>
+	<dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Horeeeeee!!!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Eh, loh?&#10;Si Towa kemana? Koq ilang??</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Ehh.. Nyoo...&#10;Ga tau, Tako juga ga liat, Kang!!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Ya sudahlah, ayo kita dagang Tahu Bulat aja dulu.. Hehe...</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc isNode="true">
+                <string>
+                    <text>Kali ini, mari kita coba kejar target </text>
+                    <koin_Atlantis/>
+                    <text format="target_misi"> %s!</text>
+                </string>
+            </desc>
+        </dialog>
+    </skenario>
+</resources>

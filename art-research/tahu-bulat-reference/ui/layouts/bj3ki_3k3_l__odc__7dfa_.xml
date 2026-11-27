@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="root" x="0" y="0" pivotX="0.5" pivotY="1">
+        <image_list id="bc1" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/ui/bc_1.png</item>
+        </image_list>
+
+        <image_list id="bc2" x="0" y="-20" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/ui/bc_2.png</item>
+        </image_list>
+
+        <image_list id="bc3" x="0" y="-52" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/ui/bc_3.png</item>
+        </image_list>
+
+        <image_list id="hati" x="0" y="-100" pivotX="0.5" pivotY="0.5">
+            <item>ksatriatahu/ui/ic_emoji_happy.png</item>
+        </image_list>
+
+        <image_list id="jurus" x="0" y="-108" pivotX="0.5" pivotY="0.5">
+            <item>ksatriatahu/ui/ic_emoji_siap.png</item>
+        </image_list>
+
+        <image_list id="evolusi" x="0" y="-100" pivotX="0.5" pivotY="0.5">
+            <item>ksatriatahu/ui/ic_emoji_evolusi.png</item>
+        </image_list>
+
+        <image_list id="makan" x="0" y="-102" pivotX="0.5" pivotY="0.5">
+            <item>ksatriatahu/ui/ic_emoji_powerUp.png</item>
+        </image_list>
+    </container>
+
+    <animation>
+        <hati repeat="-1">
+            <sequence>
+                <multiple>
+                    <alpha id="jurus" time="0">0</alpha>
+                    <alpha id="evolusi" time="0">0</alpha>
+                    <alpha id="makan" time="0">0</alpha>
+                    <alpha id="hati" time="0">0</alpha>
+                    <alpha id="bc1" time="0">0</alpha>
+                    <alpha id="bc2" time="0">0</alpha>
+                    <alpha id="bc3" time="0">0</alpha>
+                </multiple>
+                <multiple>
+                    <alpha id="bc1" time="0.05">1</alpha>
+                    <scaleY id="bc1" time="0.1" pivotY="1">1.5</scaleY>
+                </multiple>
+                <scaleY id="bc1" time="0.1" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="bc2" time="0.05">1</alpha>
+                    <scaleY id="bc2" time="0.1" pivotY="1">1.35</scaleY>
+                </multiple>
+                <scaleY id="bc2" time="0.1" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="bc3" time="0.05">1</alpha>
+                    <scaleY id="bc3" time="0.1" pivotY="1">1.2</scaleY>
+                </multiple>
+                <scaleY id="bc3" time="0.1" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="hati" time="0">1</alpha>
+                    <scaleY id="hati" time="0.1" pivotY="1">1.2</scaleY>
+                </multiple>
+                <sequence repeat="3">
+                    <multiple>
+                        <scaleY id="hati" time="0.3" pivotY="0.5">1</scaleY>
+                        <scaleX id="hati" time="0.3" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc3" time="0.3" pivotY="0.5">1.05</scaleY>
+                        <scaleX id="bc3" time="0.3" pivotX="0.5">1.05</scaleX>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="hati" time="0.2" pivotY="0.5">1.2</scaleY>
+                        <scaleX id="hati" time="0.2" pivotX="0.5">1.2</scaleX>
+                        <scaleY id="bc3" time="0.2" pivotY="0.5">1</scaleY>
+                        <scaleX id="bc3" time="0.2" pivotX="0.5">1</scaleX>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="hati" time="0.3" pivotY="0.5">1</scaleY>
+                        <scaleX id="hati" time="0.3" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc3" time="0.3" pivotY="0.5">1.05</scaleY>
+                        <scaleX id="bc3" time="0.3" pivotX="0.5">1.05</scaleX>
+                    </multiple>
+                </sequence>
+            </sequence>
+        </hati>
+
+        <jurus repeat="-1">
+            <sequence>
+                <multiple>
+                    <alpha id="jurus" time="0">0</alpha>
+                    <alpha id="evolusi" time="0">0</alpha>
+                    <alpha id="makan" time="0">0</alpha>
+                    <alpha id="hati" time="0">0</alpha>
+                    <alpha id="bc1" time="0">0</alpha>
+                    <alpha id="bc2" time="0">0</alpha>
+                    <alpha id="bc3" time="0">0</alpha>
+                </multiple>
+                <multiple>
+                    <alpha id="bc1" time="0.05">1</alpha>
+                    <scaleY id="bc1" time="0.1" pivotY="1">1.5</scaleY>
+                </multiple>
+                <scaleY id="bc1" time="0.1" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="bc2" time="0.05">1</alpha>
+                    <scaleY id="bc2" time="0.1" pivotY="1">1.35</scaleY>
+                </multiple>
+                <scaleY id="bc2" time="0.1" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="bc3" time="0.05">1</alpha>
+                    <scaleY id="bc3" time="0.1" pivotY="1">1.2</scaleY>
+                </multiple>
+                <scaleY id="bc3" time="0.1" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="jurus" time="0">1</alpha>
+                    <scaleY id="jurus" time="0.1" pivotY="1">1.2</scaleY>
+                </multiple>
+                <sequence repeat="3">
+                    <multiple>
+                        <scaleY id="jurus" time="0.3" pivotY="0.5">1</scaleY>
+                        <scaleX id="jurus" time="0.3" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc3" time="0.3" pivotY="0.5">1.05</scaleY>
+                        <scaleX id="bc3" time="0.3" pivotX="0.5">1.05</scaleX>
+                        <scaleY id="bc2" time="0.3" pivotY="0.5">1.1</scaleY>
+                        <scaleX id="bc2" time="0.3" pivotX="0.5">1.1</scaleX>
+                        <scaleY id="bc1" time="0.3" pivotY="0.5">1.2</scaleY>
+                        <scaleX id="bc1" time="0.3" pivotX="0.5">1.2</scaleX>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="jurus" time="0.2" pivotY="0.5">1.1</scaleY>
+                        <scaleX id="jurus" time="0.2" pivotX="0.5">1.1</scaleX>
+                        <scaleY id="bc3" time="0.2" pivotY="0.5">1</scaleY>
+                        <scaleX id="bc3" time="0.2" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc2" time="0.3" pivotY="0.5">1.05</scaleY>
+                        <scaleX id="bc2" time="0.3" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc1" time="0.3" pivotY="0.5">1</scaleY>
+                        <scaleX id="bc1" time="0.3" pivotX="0.5">1</scaleX>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="jurus" time="0.3" pivotY="0.5">1</scaleY>
+                        <scaleX id="jurus" time="0.3" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc3" time="0.3" pivotY="0.5">1.05</scaleY>
+                        <scaleX id="bc3" time="0.3" pivotX="0.5">1.05</scaleX>
+                        <scaleY id="bc2" time="0.3" pivotY="0.5">1</scaleY>
+                        <scaleX id="bc2" time="0.3" pivotX="0.5">1.1</scaleX>
+                        <scaleY id="bc1" time="0.3" pivotY="0.5">1.2</scaleY>
+                        <scaleX id="bc1" time="0.3" pivotX="0.5">1.2</scaleX>
+                    </multiple>
+                </sequence>
+            </sequence>
+        </jurus>
+
+        <evolusi repeat="-1">
+            <sequence>
+                <multiple>
+                    <alpha id="jurus" time="0">0</alpha>
+                    <alpha id="evolusi" time="0">0</alpha>
+                    <alpha id="makan" time="0">0</alpha>
+                    <alpha id="hati" time="0">0</alpha>
+                    <alpha id="bc1" time="0">0</alpha>
+                    <alpha id="bc2" time="0">0</alpha>
+                    <alpha id="bc3" time="0">0</alpha>
+                </multiple>
+                <multiple>
+                    <alpha id="bc1" time="0.05">1</alpha>
+                    <scaleY id="bc1" time="0.1" pivotY="1">1.5</scaleY>
+                </multiple>
+                <scaleY id="bc1" time="0.1" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="bc2" time="0.05">1</alpha>
+                    <scaleY id="bc2" time="0.1" pivotY="1">1.35</scaleY>
+                </multiple>
+                <scaleY id="bc2" time="0.1" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="bc3" time="0.05">1</alpha>
+                    <scaleY id="bc3" time="0.1" pivotY="1">1.2</scaleY>
+                </multiple>
+                <scaleY id="bc3" time="0.1" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="evolusi" time="0">1</alpha>
+                    <scaleY id="evolusi" time="0.1" pivotY="1">1.2</scaleY>
+                </multiple>
+                <sequence repeat="3">
+                    <multiple>
+                        <scaleY id="evolusi" time="0.3" pivotY="0.5">1</scaleY>
+                        <scaleX id="evolusi" time="0.3" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc3" time="0.3" pivotY="0.5">1.05</scaleY>
+                        <scaleX id="bc3" time="0.3" pivotX="0.5">1.05</scaleX>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="evolusi" time="0.2" pivotY="0.5">1.2</scaleY>
+                        <scaleX id="evolusi" time="0.2" pivotX="0.5">1.2</scaleX>
+                        <scaleY id="bc3" time="0.2" pivotY="0.5">1</scaleY>
+                        <scaleX id="bc3" time="0.2" pivotX="0.5">1</scaleX>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="evolusi" time="0.3" pivotY="0.5">1</scaleY>
+                        <scaleX id="evolusi" time="0.3" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc3" time="0.3" pivotY="0.5">1.05</scaleY>
+                        <scaleX id="bc3" time="0.3" pivotX="0.5">1.05</scaleX>
+                    </multiple>
+                </sequence>
+            </sequence>
+        </evolusi>
+
+        <makan repeat="-1">
+            <sequence>
+                <multiple>
+                    <alpha id="jurus" time="0">0</alpha>
+                    <alpha id="evolusi" time="0">0</alpha>
+                    <alpha id="makan" time="0">0</alpha>
+                    <alpha id="hati" time="0">0</alpha>
+                    <alpha id="bc1" time="0">0</alpha>
+                    <alpha id="bc2" time="0">0</alpha>
+                    <alpha id="bc3" time="0">0</alpha>
+                </multiple>
+                <multiple>
+                    <alpha id="bc1" time="0.05">1</alpha>
+                    <scaleY id="bc1" time="0.1" pivotY="1">1.5</scaleY>
+                </multiple>
+                <scaleY id="bc1" time="0.1" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="bc2" time="0.05">1</alpha>
+                    <scaleY id="bc2" time="0.1" pivotY="1">1.35</scaleY>
+                </multiple>
+                <scaleY id="bc2" time="0.1" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="bc3" time="0.05">1</alpha>
+                    <scaleY id="bc3" time="0.1" pivotY="1">1.2</scaleY>
+                </multiple>
+                <scaleY id="bc3" time="0.1" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="makan" time="0">1</alpha>
+                    <scaleY id="makan" time="0.1" pivotY="1">1.1</scaleY>
+                </multiple>
+                <sequence repeat="3">
+                    <multiple>
+                        <scaleY id="makan" time="0.3" pivotY="0.5">1</scaleY>
+                        <scaleX id="makan" time="0.3" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc3" time="0.3" pivotY="0.5">1.05</scaleY>
+                        <scaleX id="bc3" time="0.3" pivotX="0.5">1.05</scaleX>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="makan" time="0.2" pivotY="0.5">1.1</scaleY>
+                        <scaleX id="makan" time="0.2" pivotX="0.5">1.1</scaleX>
+                        <scaleY id="bc3" time="0.2" pivotY="0.5">1</scaleY>
+                        <scaleX id="bc3" time="0.2" pivotX="0.5">1</scaleX>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="makan" time="0.3" pivotY="0.5">1</scaleY>
+                        <scaleX id="makan" time="0.3" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc3" time="0.3" pivotY="0.5">1.05</scaleY>
+                        <scaleX id="bc3" time="0.3" pivotX="0.5">1.05</scaleX>
+                    </multiple>
+                </sequence>
+            </sequence>
+        </makan>
+    </animation>
+</resources>

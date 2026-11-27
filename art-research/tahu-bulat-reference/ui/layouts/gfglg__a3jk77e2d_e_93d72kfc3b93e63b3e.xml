@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario lama_muncul="5.0">
+        <dialog karakter="2" ekspresi="idle" alignY="0.5f" y="-120" animasi="0.5">Yah... gapapa deh..&#10;Nanti aku mampir lagi kalau sudah selesai makan semua Tahu ini!!</dialog>
+    </skenario>
+</resources>

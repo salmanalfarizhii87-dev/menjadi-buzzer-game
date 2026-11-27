@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hmm... Ada acara apa ya kali ini?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Katanya hari ini lagi ada festival Korea, Kang!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Eh, Tako!&#10;Kamu liat Kang Piki?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Lihat tadi lagi lari-lari, Kang!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Lari-lari??&#10;Ngapain?? Jogging?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>N-ngapain Kang Piki jogging di acara Korea-koreaan, Kang?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="ketawa2" isHold="true">
+            <desc>wkwkwkw ya Akang juga ga tahu..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Ckckck&#10;Katanya Akang Tahu... kok gak tahu sih..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>.......................</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Ya... gak usah dipikirin deh. Mari kita mulai dagang aja dulu, udah rame nih.</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc isNode="true">
+                <string>
+                    <text>Mari kita kejar target penjualan </text>
+                    <koin_Festival/>
+                    <text format="target_misi"> %s di festival kali ini!!</text>
+                </string>
+            </desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Semangat, Kang!!</desc>
+        </dialog>
+    </skenario>
+</resources>

@@ -1,0 +1,157 @@
+<div class="min-h-[884px] max-w-md mx-auto relative flex flex-col overflow-hidden bg-hud-purple-dark" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- Top Casual Game HUD (100% Reference Match: Deep Purple Bar + White Progress Strip) -->
+    <header class="relative z-20 flex flex-col shadow-[0_3px_8px_rgba(0,0,0,0.35)]">
+      <!-- Row 1: Deep Purple Top Bar -->
+      <div class="ref-hud-purple flex items-center gap-gutter-sm px-gutter-sm py-gutter-sm">
+        <!-- Left Lavender Menu Circle -->
+        <a href="../12-settings-options/Settings%20%26%20Options.html" aria-label="Buka Pengaturan" class="w-11 h-11 rounded-full ref-menu-circle flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="5.5" cy="7" r="1.4" fill="#FFFFFF"></circle>
+            <rect x="9" y="6" width="10" height="2" rx="1" fill="#FFFFFF"></rect>
+            <circle cx="5.5" cy="12" r="1.4" fill="#FFFFFF"></circle>
+            <rect x="9" y="11" width="10" height="2" rx="1" fill="#FFFFFF"></rect>
+            <circle cx="5.5" cy="17" r="1.4" fill="#FFFFFF"></circle>
+            <rect x="9" y="16" width="10" height="2" rx="1" fill="#FFFFFF"></rect>
+          </svg>
+        </a>
+
+        <!-- Center Cyan Balance & Rate Pill -->
+        <a href="../05-finance-history/Finance%20%26%20History.html" class="flex-1 ref-cyan-pill rounded-lg px-gutter-md py-1 flex flex-col items-center justify-center min-w-0">
+          <div class="flex items-center gap-1.5">
+            <span id="hud-balance" class="font-headline text-title-md text-light-surface-bright tabular-nums leading-none" data-design-text-token="title-md">Rp 500</span>
+            <svg class="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <circle cx="10" cy="10" r="8.5" fill="#FACC15" stroke="#B45309" stroke-width="1.5"></circle>
+              <text x="10" y="13" text-anchor="middle" fill="#1E1B2E" font-family="Fredoka, sans-serif" font-weight="700" font-size="8">Rp</text>
+            </svg>
+          </div>
+          <span id="hud-rate" class="font-mono text-label-sm text-light-surface-bright tabular-nums leading-none mt-0.5" data-design-text-token="label-sm">+Rp 12/dtk</span>
+        </a>
+
+        <!-- Right Dark Purple Lv/Gem Box + White '+' Button -->
+        <div class="ref-gem-box rounded-lg flex items-stretch overflow-hidden shrink-0">
+          <a href="../04-account-detail/Account%20Detail.html" class="px-2.5 py-1 flex flex-col items-center justify-center min-w-12">
+            <svg class="w-4 h-4" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <path d="M10 2L17 7L10 18L3 7L10 2Z" fill="#C4B5FD"></path>
+            </svg>
+            <span class="font-headline text-label-sm text-light-surface-bright leading-none tabular-nums mt-0.5" data-design-text-token="label-sm">Lv 1</span>
+          </a>
+          <a href="../03-asset-shop/Asset%20Shop.html" aria-label="Buka Upgrade Shop" class="w-8 bg-light-surface-bright flex items-center justify-center font-headline text-headline-md text-btn-blue-dark leading-none rounded-l-md" data-design-text-token="headline-md">+</a>
+        </div>
+      </div>
+
+      <!-- Row 2: White Status Strip with Red Top Ribbon & Split Yellow CTA -->
+      <div class="bg-light-surface-bright flex items-center justify-between gap-gutter-sm pr-gutter-sm pb-1.5">
+        <div class="flex-1 min-w-0 flex flex-col gap-1">
+          <!-- Red Ribbon Banner -->
+          <div class="bg-btn-red-dark rounded-br-lg px-gutter-sm py-1 flex items-center justify-between gap-2 max-w-[230px]">
+            <span class="font-headline text-label-sm text-light-surface-bright truncate leading-none" data-design-text-token="label-sm">@KilatDaily</span>
+            <span class="px-1.5 py-0.5 rounded bg-light-surface-bright text-btn-red-dark font-headline text-label-sm leading-none" data-design-text-token="label-sm">1.2K</span>
+            <span class="font-headline text-label-sm text-gold-bright tabular-nums leading-none" data-design-text-token="label-sm">+Rp 12</span>
+          </div>
+          <!-- Progress Label & Striped Bar -->
+          <div class="pl-gutter-sm flex flex-col gap-0.5">
+            <div class="flex items-center justify-between text-label-sm">
+              <span class="font-body text-ink-dark leading-none" data-design-text-token="label-sm">Suspicion...</span>
+              <span class="font-headline text-ink-dark tabular-nums leading-none" data-design-text-token="label-sm">10/100</span>
+            </div>
+            <div class="w-full h-2.5 rounded-full ref-progress-track overflow-hidden">
+              <div class="h-full w-[18%] bg-hud-cyan rounded-full"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Split-Tone Yellow Action Button -->
+        <a href="../02-campaign-board/Campaign%20Board.html" class="ref-yellow-split rounded-lg px-2.5 py-1.5 mt-1 flex items-center gap-2.5 shrink-0">
+          <svg class="w-4 h-4" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M11 2L4 11H10L9 18L16 9H10L11 2Z" fill="#FEF08A"></path>
+          </svg>
+          <span class="font-headline text-title-md text-ink-dark leading-none tabular-nums" data-design-text-token="title-md">3</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Full-Bleed In-World Buzzer Room Stage -->
+    <main class="relative flex-1 flex flex-col justify-between pb-20 overflow-hidden">
+      <div data-stitch-img="Karakter utama @KilatDaily bekerja di laptop studio buzzer" class="absolute inset-0 w-full h-full object-cover object-[34%_center] stitch-img" role="img" aria-label="Karakter utama @KilatDaily bekerja di laptop studio buzzer"></div>
+
+      <!-- Top-Right Floating Circular Game Badges (Matching Reference Blue/Yellow Circle) -->
+      <div class="relative z-10 flex justify-end p-gutter-md">
+        <div class="flex flex-col gap-gutter-sm items-center">
+          <a href="../14-rewards-collectibles/Rewards%20%26%20Collectibles.html" aria-label="Hadiah dan Koleksi" class="relative w-12 h-12 rounded-full bg-hud-cyan border-2 border-gold-bright shadow-[0_3px_6px_rgba(0,0,0,0.35)] flex items-center justify-center">
+            <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M6 5H18V10C18 13.3 15.3 16 12 16C8.7 16 6 13.3 6 10V5Z" fill="#FDE047"></path>
+              <path d="M12 16V20M8 20H16" stroke="#FDE047" stroke-width="2.2" stroke-linecap="round"></path>
+            </svg>
+            <span class="absolute -top-1 -right-1 w-5 h-5 rounded-full bg-btn-red-dark border-2 border-light-surface-bright text-light-surface-bright font-headline text-label-sm flex items-center justify-center" data-design-text-token="label-sm">!</span>
+          </a>
+
+          <a href="../11-character-customizer/Character%20Customizer.html" aria-label="Kustom Karakter" class="w-12 h-12 rounded-full bg-hud-purple border-2 border-light-surface-bright shadow-[0_3px_6px_rgba(0,0,0,0.35)] overflow-hidden">
+            <div data-stitch-img="Karakter @KilatDaily" class="w-full h-full object-cover stitch-img" role="img" aria-label="Karakter @KilatDaily"></div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Bottom Room Pill + Glossy Primary Action Row -->
+      <section aria-label="Aksi studio" class="relative z-10 px-gutter-md pb-gutter-md flex items-center gap-gutter-sm">
+        <a href="../13-studio-location/Studio%20%26%20Location.html" class="bg-light-surface-bright rounded-xl px-gutter-md py-2 shadow-[0_3px_0_#CBD5E1,0_4px_8px_rgba(0,0,0,0.3)] flex flex-col items-center justify-center shrink-0">
+          <span class="font-headline text-body-sm text-ink-dark leading-none" data-design-text-token="body-sm">Studio</span>
+          <span class="font-body text-label-sm text-ink-dark leading-tight" data-design-text-token="label-sm">Kamar Kos</span>
+        </a>
+
+        <a href="../02-campaign-board/Campaign%20Board.html" class="flex-1 ref-btn-green rounded-xl px-gutter-md py-2.5 flex items-center justify-between gap-gutter-sm">
+          <span class="flex items-center gap-2">
+            <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 10L17 5V17L4 12V10Z" fill="#FDE047"></path>
+              <rect x="6" y="13" width="3.5" height="5.5" rx="1" fill="#FFFFFF"></rect>
+            </svg>
+            <span class="font-headline text-title-md text-light-surface-bright leading-none" data-design-text-token="title-md">Buka Kampanye</span>
+          </span>
+          <span class="px-2 py-0.5 rounded-full bg-btn-yellow font-headline text-label-sm text-ink-dark tabular-nums" data-design-text-token="label-sm">3</span>
+        </a>
+      </section>
+    </main>
+
+    <!-- Persistent 5-Circle Bottom Navigation Bar (100% Reference Match: Deep Purple Bar + Glossy Candy Circles) -->
+    <nav aria-label="Navigasi utama" class="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md z-20 ref-hud-purple border-t-2 border-ink-dark px-gutter-md py-1.5 grid grid-cols-5 gap-gutter-sm items-center justify-items-center">
+      <!-- 1. Home (Active Larger Protruding Red Circle) -->
+      <a href="#" aria-current="page" aria-label="Home" class="w-16 h-16 -mt-5 rounded-full ref-circle-red ref-nav-circle flex items-center justify-center">
+        <svg class="w-8 h-8" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <path d="M4 13L14 5L24 13V23H17V17H11V23H4V13Z" fill="#FFFFFF"></path>
+        </svg>
+      </a>
+
+      <!-- 2. Akun (Coral-Orange Circle) -->
+      <a href="../04-account-detail/Account%20Detail.html" aria-label="Akun" class="w-12 h-12 rounded-full ref-circle-orange ref-nav-circle flex items-center justify-center">
+        <svg class="w-6 h-6" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <circle cx="14" cy="10" r="4.5" fill="#FFFFFF"></circle>
+          <path d="M5 23C5 18.6 9 16 14 16C19 16 23 18.6 23 23H5Z" fill="#FFFFFF"></path>
+        </svg>
+      </a>
+
+      <!-- 3. Kampanye (Sky-Blue Circle with White-Bordered Dark-Red Badge) -->
+      <a href="../02-campaign-board/Campaign%20Board.html" aria-label="Kampanye" class="relative w-12 h-12 rounded-full ref-circle-blue ref-nav-circle flex items-center justify-center">
+        <svg class="w-6 h-6" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <path d="M5 11L19 6V20L5 15V11Z" fill="#FFFFFF"></path>
+          <rect x="7" y="15" width="4" height="6" rx="1.5" fill="#FFFFFF"></rect>
+        </svg>
+        <span class="absolute -top-1 -right-1 min-w-5 h-5 px-1 rounded-full bg-btn-red-dark border-2 border-light-surface-bright text-light-surface-bright font-headline text-label-sm flex items-center justify-center tabular-nums shadow-[0_2px_4px_rgba(0,0,0,0.35)]" data-design-text-token="label-sm">3</span>
+      </a>
+
+      <!-- 4. Upgrade (Sunny Yellow Circle) -->
+      <a href="../03-asset-shop/Asset%20Shop.html" aria-label="Upgrade" class="w-12 h-12 rounded-full ref-circle-yellow ref-nav-circle flex items-center justify-center">
+        <svg class="w-6 h-6" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <path d="M14 3L6 15H13L11 25L22 12H15L14 3Z" fill="#FFFFFF"></path>
+        </svg>
+      </a>
+
+      <!-- 5. Keuangan (Lime-Green Circle) -->
+      <a href="../05-finance-history/Finance%20%26%20History.html" aria-label="Keuangan" class="w-12 h-12 rounded-full ref-circle-lime ref-nav-circle flex items-center justify-center">
+        <svg class="w-6 h-6" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <circle cx="14" cy="14" r="9" fill="#FFFFFF"></circle>
+          <text x="14" y="17.5" text-anchor="middle" fill="#4D7C0F" font-family="Fredoka, sans-serif" font-weight="700" font-size="10">Rp</text>
+        </svg>
+      </a>
+    </nav>
+
+  </div>

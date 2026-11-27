@@ -1,0 +1,202 @@
+/* Bingkai ponsel. Wadah visual, bukan navigasi. */
+
+.phone-frame {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-2) var(--space-4);
+  background: #2b2419;
+  border: var(--border-thick) solid #14100b;
+  border-radius: 28px;
+  box-shadow:
+    0 6px 0 #14100b,
+    0 10px 24px rgb(0 0 0 / 28%);
+}
+
+/* Takik speaker */
+.phone-frame::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  width: 54px;
+  height: 5px;
+  border-radius: var(--radius-pill);
+  background: #14100b;
+  transform: translateX(-50%);
+}
+
+.phone-frame__status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-2) 0;
+  font-family: var(--font-numeric);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  color: rgb(255 250 240 / 70%);
+}
+
+.phone-frame__screen {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  min-height: 320px;
+  padding: var(--space-3);
+  background: var(--color-canvas);
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+/* Kisi ikon aplikasi */
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-3);
+  padding: var(--space-2) 0;
+}
+
+.app-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-2) var(--space-1);
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-md);
+  transition: background-color var(--duration-fast) var(--ease-out);
+}
+
+.app-tile:hover {
+  background: var(--color-panel-sunken);
+}
+
+.app-tile__icon {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  color: var(--color-text-inverse);
+  background: linear-gradient(180deg, var(--color-brand-300), var(--color-brand-600));
+  border: var(--border-thin) solid var(--color-border);
+  border-radius: 14px;
+  box-shadow: var(--shadow-card-soft);
+}
+
+.app-tile__icon svg {
+  width: 26px;
+  height: 26px;
+}
+
+.app-tile__icon--pulse {
+  background: linear-gradient(180deg, #e8928d, var(--color-danger-600));
+}
+
+.app-tile__icon--loop {
+  background: linear-gradient(180deg, #9fc4ec, var(--color-accent-600));
+}
+
+.app-tile__icon--selected {
+  outline: 3px solid var(--color-brand-700);
+  outline-offset: 2px;
+}
+
+.app-tile__name {
+  font-family: var(--font-display);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-text);
+}
+
+.app-tile__dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--color-brand-500);
+  visibility: hidden;
+}
+
+.app-tile--selected .app-tile__dot {
+  visibility: visible;
+}
+
+/* Layar feed di dalam ponsel */
+.phone-feed {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  background: var(--color-panel);
+  border: var(--border-hairline) solid var(--color-border-soft);
+  border-radius: var(--radius-sm);
+}
+
+.phone-feed__title {
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  color: var(--color-text);
+}
+
+.phone-feed__body {
+  font-size: var(--text-xs);
+  line-height: var(--leading-snug);
+  color: var(--color-text-muted);
+}
+
+.phone-feed__stat {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--text-2xs);
+  color: var(--color-text-soft);
+}
+
+.phone-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-inverse);
+  background: var(--color-danger-600);
+  border-radius: var(--radius-sm);
+}
+
+.phone-banner svg {
+  flex-shrink: 0;
+  width: 14px;
+  height: 14px;
+}
+
+.cooldown-bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  font-family: var(--font-numeric);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-soft);
+  background: var(--color-panel-sunken);
+  border: var(--border-hairline) solid var(--color-border-soft);
+  border-radius: var(--radius-sm);
+}
+
+.cooldown-bar__track {
+  flex: 1;
+  height: 6px;
+  overflow: hidden;
+  background: var(--color-canvas-deep);
+  border-radius: var(--radius-pill);
+}
+
+.cooldown-bar__fill {
+  height: 100%;
+  background: var(--color-brand-500);
+  border-radius: inherit;
+  transition: width var(--duration-slow) linear;
+}

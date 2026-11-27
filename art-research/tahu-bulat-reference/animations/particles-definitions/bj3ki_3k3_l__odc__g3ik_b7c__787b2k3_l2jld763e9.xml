@@ -1,0 +1,53 @@
+<resources>
+    <particlesystem x="768" y="600">
+        <!--efek ke_1-->
+        <emitter pivotX="0.5" pivotY="0.5" type="line">
+            <particle lifetime="0.8">
+                <imagelist>
+                    <image>ksatriatahu/xml/partikel/img/partikel_tahusumedang.png</image>
+                </imagelist>
+                <p_start>
+                    <scale pivotX="0.5" pivotY="0.5" min="0.5" max="1"/>
+                    <alpha min="1" max="1"/>
+                    <velocity arahMin="180" arahMax="180" min="700" max="1250"/>
+                    <angle pivotX="0.5" pivotY="0.5" min="180" max="360"/>
+                </p_start>
+                <p_running>
+                    <angle min="0" max="720" when="1"/>
+                </p_running>
+            </particle>
+            <e_start>
+                <burst nBurst="3" burstTime="0.05"/>
+                <emit nEmit="1" repeat="-1" delay="0.1"/>
+                <source>
+                    <point x="0" y="-100"/>
+                    <point x="0" y="100"/>
+                </source>
+            </e_start>
+        </emitter>
+        <emitter pivotX="0.5" pivotY="0.5" type="line">
+            <particle lifetime="0.8">
+                <imagelist>
+                    <image>ksatriatahu/xml/partikel/img/partikel_tahusumedang2.png</image>
+                </imagelist>
+                <p_start>
+                    <scale pivotX="0.5" pivotY="0.5" min="0.5" max="1"/>
+                    <alpha min="1" max="1"/>
+                    <velocity arahMin="180" arahMax="180" min="700" max="1250"/>
+                    <angle pivotX="0.5" pivotY="0.5" min="180" max="360"/>
+                </p_start>
+                <p_running>
+                    <angle min="0" max="720" when="1"/>
+                </p_running>
+            </particle>
+            <e_start>
+                <burst nBurst="3" burstTime="0.05"/>
+                <emit nEmit="1" repeat="-1" delay="0.1"/>
+                <source>
+                    <point x="0" y="-100"/>
+                    <point x="0" y="100"/>
+                </source>
+            </e_start>
+        </emitter>
+    </particlesystem>
+</resources>

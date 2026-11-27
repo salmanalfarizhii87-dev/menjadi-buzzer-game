@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Tik-tik-tik...&#10;Bunyi hujan di atas genting...</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="ketawa2" isHold="true">
+            <desc>Lagu jaman kapan iniiii..?</desc>
+        </dialog>
+	<dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Ketauan deh umur si Akang berapa...</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="false">
+            <desc>Eh, enak aja!&#10;Umur yang nulis ceritanya, lah!!</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Wkwkwkwk</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Ngomong-ngomong, ada apa Towa?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hmmpph..&#10;Pura-pura ga tau ya?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Mumpung hujan, jalur menuju Atlantis terbuka lagi.</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Kamu mau ke Atlantis lagi ga?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="tekad_bulad" isHold="true">
+            <desc>Oh tentu saja mau dong!!</desc>
+        </dialog>
+	<dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Tako juga ikuttt!!!</desc>
+        </dialog>  
+    </skenario>
+</resources>

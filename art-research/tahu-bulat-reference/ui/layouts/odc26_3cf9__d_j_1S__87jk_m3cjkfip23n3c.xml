@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hmmmm...&#10;Jadi ini Pentas Seninya?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Nyonyo!! Betul!!&#10;Katanya nama acaranya kali ini adalah “Pasar Gembira”!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eh, loh?!&#10;Mobil tabul kita kok jadi gini?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>NYOOO!!!&#10;Tako hias selama di jalan tadi kang, biar tambah laris dagangnya!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Perhatian sekali kamu Tako...&#10;Oke deh, mari kita coba mulai jualan saja di sini!</desc>
+        </dialog>
+
+        <aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="marah" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Hey, kamu!!&#10;Ngapain kamu ke sini?!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Ehh?? Hah?&#10;S-s-siapa? Aku?</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="marah" isHold="true">
+            <desc>Iyalah, siapa lagi?&#10;Ngapain kamu ke sini?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>E-eu-euhhh...&#10;Aku ke sini mau...</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="tekad_bulad" isHold="true">
+            <desc>Dagang Tahu Bulat dooongg!!</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="marah" isHold="true">
+            <desc>Ga usah dagang di sini.&#10;Kamu ga lihat kalau udah ada yang dagang Tahu Bulat di sini??</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>O-oya??&#10;Jadi ga boleh dagang&#10;bareng-bareng, ya??</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="marah" isHold="true">
+            <desc>..................</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Saya berubah pikiran!&#10;Kamu boleh jualan di sini..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Wah, beneran boleh?&#10;Baiklaahh.. terima kasihhh... permisi...</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="marah" isHold="true">
+            <desc>Heh! Tunggu dulu!&#10;Enak aja kamu mau kabur&#10;waktu orang masih lagi ngomong!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Oh, oh, i-iya...&#10;Ada apa lagi atuh Kang?</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Kalau mau dagang di sini, kamu harus memberitahu hasil penjualanmu ke saya!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="tanpa_uang" isHold="true">
+            <desc>Waduh? Mau diminta setoran ini teh? Saya masih kere bang, jangan minta uang ke saya atuhh..</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHAHAHA!!&#10;Siapa juga yang mau uang&#10;kamu?</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Saya cuma mau tahu kamu bisa dapet berapa dari jualan di sini.</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Asal kamu tahu saja, saya juga Tukang Tahu Bulat!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Hah? Seriusan?&#10;Kok tampilannya kaya gitu?</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHAHAHAHA!!&#10;Emangnya ga boleh tampilan keren gini jualan Tahu Bulat??</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Ga... panas ya?</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>...................................</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="marah" isHold="true">
+            <desc>Sudahlah, bukan urusan kamu!!</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc isNode="true">
+                <string>
+                    <text>Asal kamu tahu saja, saya dalam 24 jam sudah berhasil mendapatkan keuntungan sebesar </text>
+                    <koin_Festival/>
+                    <text format="target_misi"> %s!!</text>
+                </string>
+            </desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Saya mau tahu apakah kamu juga bisa mendapatkan penghasilan sebanyak itu hanya dalam 24 jam!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Ohhh.. segitu doang?&#10;Bisa banget lah!</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>...............</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>HAHAHAHAHAA&#10;Ngomong doang sih gampang!!</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Saya tunggu pembuktian kamu. Jangan kabur ya!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Iya iya, tenang aja, cuma gitu doang masa harus kabur..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true">
+            <desc>Ngomong-ngomong ini namanya Kang siapa ya?</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hmmphh..&#10;Nama saya bukan buat sembarang orang..</desc>
+        </dialog>
+        <dialog karakter="3" namaPemeran="???" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Tapi.. baiklah..&#10;Kamu bisa memanggilku Vicky.</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sapa" isHold="true">
+            <desc>Okeh siappp..&#10;Salam kenal Kang Piki!&#10;Saya Akang Tahu!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="marah" isHold="true">
+            <desc>VICKY!!&#10;Pake V bukan P!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>E-e-eeh...&#10;iya iya, maap..</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hmmpph...&#10;Baiklah, saya tunggu&#10;pembuktianmu.</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc isNode="true">
+                <string>
+                    <text>Buktikan kalau kamu bisa dapat lebih dari </text>
+                    <koin_Festival/>
+                    <text format="target_misi"> %s hanya dalam 24 jam!</text>
+                </string>
+            </desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Siaaaapp...!</desc>
+        </dialog>
+    </skenario>
+</resources>

@@ -1,0 +1,34 @@
+<resources>
+    <particlesystem x="0" y="0">
+        <emitter pivotX="0.5" pivotY="0.5" type="area">
+            <particle lifetime="0.6">
+                <imagelist>
+                    <image>UI_baru/rempah/chest/chest_particle/p_chest_asap.png</image>
+                </imagelist>
+                <p_start>
+                    <alpha min="0.1" max="0.3"/>
+                    <scale pivotX="0.5" pivotY="0.5" min="0.5" max="1.5"/>
+                    <angle pivotX="0.5" pivotY="0.5" min="0" max="200"/>
+                    <velocity min="200" max="400" arahMin="0" arahMax="360"/>
+                </p_start>
+                <p_running>
+                    <!--<alpha min="0.4" max="0.8" when="1"/>-->
+                    <alpha min="0" max="0" when="1"/>
+                    <scale min="2" max="4" when="0.3"/>
+                    <angle min="0" max="200" when="1"/>
+                    <velocity min="200" max="400" when="0.5"/>
+                    <velocity min="0" max="100" when="1"/>
+                </p_running>
+            </particle>
+            <e_start>
+                <burst nBurst="15" burstTime="0.01"/>
+<!--                <emit nEmit="1" repeat="-1" delay="0.03"/>-->
+                <source>
+                    <point x="-50" y="0"/>
+                    <point x="50" y="0"/>
+                </source>
+            </e_start>
+        </emitter>
+
+    </particlesystem>
+</resources>

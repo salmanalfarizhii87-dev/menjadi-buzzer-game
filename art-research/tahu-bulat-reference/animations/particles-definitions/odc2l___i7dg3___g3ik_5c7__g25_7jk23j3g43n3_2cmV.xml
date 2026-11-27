@@ -1,0 +1,97 @@
+<resources>
+    <particlesystem x="0" y="0">
+        <emitter pivotX="0.5" pivotY="0.5" type="area">
+            <particle lifetime="0.6">
+                <imagelist>
+                    <image>UI_baru/rempah/chest/chest_particle/p_chest_asap2.png</image>
+                </imagelist>
+                <p_start>
+                    <alpha min="0.1" max="0.2"/>
+                    <scale pivotX="0.5" pivotY="0.5" min="0.5" max="1.5"/>
+                    <angle pivotX="0.5" pivotY="0.5" min="0" max="200"/>
+                    <velocity min="200" max="350" arahMin="-30" arahMax="0"/>
+                </p_start>
+                <p_running>
+                    <!--<alpha min="0.4" max="0.8" when="1"/>-->
+                    <alpha min="0" max="0" when="1"/>
+                    <scale min="1" max="3" when="0.3"/>
+                    <angle min="0" max="200" when="1"/>
+                    <velocity min="150" max="300" when="0.5"/>
+                    <velocity min="0" max="100" when="1"/>
+                </p_running>
+            </particle>
+            <e_start>
+                <burst nBurst="15" burstTime="0.01"/>
+                <!--                <emit nEmit="1" repeat="-1" delay="0.03"/>-->
+                <source>
+                    <point x="-200" y="0"/>
+                    <point x="200" y="0"/>
+                </source>
+            </e_start>
+        </emitter>
+
+        <emitter pivotX="0.5" pivotY="0.5" type="area">
+            <particle lifetime="0.6">
+                <imagelist>
+                    <image>UI_baru/rempah/chest/chest_particle/p_chest_asap2.png</image>
+                </imagelist>
+                <p_start>
+                    <alpha min="0.1" max="0.2"/>
+                    <scale pivotX="0.5" pivotY="0.5" min="0.5" max="1.5"/>
+                    <angle pivotX="0.5" pivotY="0.5" min="0" max="200"/>
+                    <velocity min="200" max="350" arahMin="180" arahMax="210"/>
+                </p_start>
+                <p_running>
+                    <!--<alpha min="0.4" max="0.8" when="1"/>-->
+                    <alpha min="0" max="0" when="1"/>
+                    <scale min="1" max="3" when="0.3"/>
+                    <angle min="0" max="200" when="1"/>
+                    <velocity min="150" max="300" when="0.5"/>
+                    <velocity min="0" max="100" when="1"/>
+                </p_running>
+            </particle>
+            <e_start>
+                <burst nBurst="15" burstTime="0.01"/>
+                <!--                <emit nEmit="1" repeat="-1" delay="0.03"/>-->
+                <source>
+                    <point x="-200" y="0"/>
+                    <point x="200" y="0"/>
+                </source>
+            </e_start>
+        </emitter>
+
+        <emitter id="cling" pivotX="0.5" pivotY="0.5" type="area">
+            <particle lifetime="0.8">
+                <imagelist>
+                    <image type="0">UI_baru/rempah/chest/chest_particle/p_cling2.png</image>
+                </imagelist>
+                <p_start>
+                    <scale pivotX="0.5" pivotY="0.5" min="0.8" max="1.2"/>
+                    <velocity min="200" max="800" arahMin="-90" arahMax="-90"/>
+                    <!--                    <angle pivotX="0.5" pivotY="0.5" min="0" max="0"/>-->
+                    <alpha min="0" max="0"/>
+                </p_start>
+                <p_running>
+                    <velocity min="10" max="200" when="1"/>
+                    <!--                    <angle min="-360" max="360" when="1"/>-->
+                    <scale min="1.2" max="2.2" when="0.4"/>
+                    <scale min="0" max="0.2" when="1"/>
+                    <alpha min="0.5" max="1" when="0.2"/>
+                    <alpha min="0.4" max="0.8" when="0.5"/>
+                    <alpha min="0" max="0" when="1"/>
+                </p_running>
+            </particle>
+            <e_start>
+                <source>
+                    <point x="-220" y="-100"/>
+                    <point x="220" y="80"/>
+                </source>
+                <burst nBurst="1" burstTime="0.01"/>
+                <emit nEmit="1" delay="0.01" repeat="20"/>
+            </e_start>
+            <e_running>
+
+            </e_running>
+        </emitter>
+    </particlesystem>
+</resources>

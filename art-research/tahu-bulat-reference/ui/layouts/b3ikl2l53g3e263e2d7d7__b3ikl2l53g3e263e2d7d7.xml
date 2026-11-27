@@ -1,0 +1,57 @@
+<resources>
+    <kartu_ucapan>
+<!--        <item id="0" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/lebaran_akang_tako_1.xml" variasi="1" syarat="0"/>-->
+<!--        <item id="1" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/lebaran_akang_tako_2.xml" variasi="1" syarat="0"/>-->
+<!--        <item id="6" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/lebaran_bulan.xml" variasi="1" syarat="1"/>-->
+<!--        <item id="2" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/lebaran_om.xml" variasi="1" syarat="0"/>-->
+<!--        <item id="3" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/lebaran_tante.xml" variasi="1" syarat="0"/>-->
+
+        <item id="4" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/kartu_puasa1.xml" variasi="0" syarat="0"/>
+        <item id="5" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/kartu_puasa2.xml" variasi="0" syarat="0"/>
+        <item id="6" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/kartu_puasa3.xml" variasi="0" syarat="0"/>
+        <item id="12" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/kartu_puasa4.xml" variasi="0" syarat="0"/>
+
+        <item id="0" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/kartu_lebaran1.xml" variasi="0" syarat="0"/>
+        <item id="1" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/kartu_lebaran2.xml" variasi="0" syarat="0"/>
+        <item id="2" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/kartu_lebaran3.xml" variasi="0" syarat="0"/>
+        <item id="3" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/kartu_lebaran4.xml" variasi="0" syarat="0"/>
+
+        <item id="7" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/selamat_pagi.xml" variasi="0" syarat="1"/>
+        <item id="8" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/selamat_malam.xml" variasi="0" syarat="1"/>
+        <item id="10" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/selamat_tidur.xml" variasi="0" syarat="1"/>
+        <item id="9" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/selamat_ultah.xml" variasi="0" syarat="1"/>
+        <item id="11" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/semoga_beruntung.xml" variasi="0" syarat="1"/>
+
+
+        <!--contoh dari vincent<item id="4" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/lebaran_akang_tako.xml" variasi="1" syarat="1"/>-->
+        <!--contoh dari vincent<item id="5" xmlName="kartu_ucapan_dan_meme/kartu_ucapan/kartu_1.xml" variasi="1" syarat="1"/>-->
+
+    </kartu_ucapan>
+    <meme>
+        <item versi="12.2.2" id="5" xmlName="kartu_ucapan_dan_meme/meme/lol.xml" variasi="0" syarat="0"/>
+        <item versi="12.2.2" id="4" xmlName="kartu_ucapan_dan_meme/meme/derp_face.xml" variasi="0" syarat="0"/>
+        <item versi="12.2.2" id="7" xmlName="kartu_ucapan_dan_meme/meme/me_Gusta.xml" variasi="0" syarat="0"/>
+        <item versi="12.2.2" id="3" xmlName="kartu_ucapan_dan_meme/meme/to_buy_or_not.xml" variasi="0" syarat="1"/>
+        <item versi="12.2.2" id="2" xmlName="kartu_ucapan_dan_meme/meme/not_sure.xml" variasi="0" syarat="1"/>
+        <item versi="12.2.2" id="0" xmlName="kartu_ucapan_dan_meme/meme/drake.xml" variasi="0" syarat="1"/>
+        <item versi="12.2.2" id="1" xmlName="kartu_ucapan_dan_meme/meme/drake_flip.xml" variasi="0" syarat="1"/>
+        <item versi="12.2.2" id="8" xmlName="kartu_ucapan_dan_meme/meme/not_simple.xml" variasi="0" syarat="2"/>
+        <item versi="12.2.2" id="6" xmlName="kartu_ucapan_dan_meme/meme/shut_up.xml" variasi="0" syarat="3"/>
+        <item versi="12.2.2" id="9" xmlName="kartu_ucapan_dan_meme/meme/triggered.xml" variasi="0" syarat="3"/>
+        <item versi="12.2.2" id="10" xmlName="kartu_ucapan_dan_meme/meme/think_smart.xml" variasi="0" syarat="4"/>
+        <item versi="12.2.2" id="11" xmlName="kartu_ucapan_dan_meme/meme/pooh_Godfather.xml" variasi="0" syarat="4"/>
+        <item versi="12.2.2" id="12" xmlName="kartu_ucapan_dan_meme/meme/fine.xml" variasi="0" syarat="5"/>
+        <item versi="12.2.2" id="13" xmlName="kartu_ucapan_dan_meme/meme/brain_expanding.xml" variasi="0" syarat="5"/>
+        <item versi="12.3.5" id="14" xmlName="kartu_ucapan_dan_meme/meme/tante_solo.xml" variasi="0" syarat="6"/>
+        <item versi="12.3.5" id="15" xmlName="kartu_ucapan_dan_meme/meme/who_we.xml" variasi="0" syarat="7"/>
+        <item versi="12.3.5" id="16" xmlName="kartu_ucapan_dan_meme/meme/butterfly.xml" variasi="0" syarat="8"/>
+        <item versi="12.3.5" id="17" xmlName="kartu_ucapan_dan_meme/meme/leonardo.xml" variasi="0" syarat="9"/>
+        <item versi="12.3.5" id="18" xmlName="kartu_ucapan_dan_meme/meme/changeMyMind.xml" variasi="0" syarat="9"/>
+
+        <item versi="15.0.0" id="19" xmlName="kartu_ucapan_dan_meme/meme/stonks.xml" variasi="0" syarat="10"/>
+        <item versi="15.0.0" id="20" xmlName="kartu_ucapan_dan_meme/meme/nyinyir.xml" variasi="0" syarat="10"/>
+        <item versi="15.0.0" id="21" xmlName="kartu_ucapan_dan_meme/meme/kucing.xml" variasi="0" syarat="11"/>
+        <item versi="15.0.0" id="22" xmlName="kartu_ucapan_dan_meme/meme/jutaan_orang.xml" variasi="0" syarat="11"/>
+
+    </meme>
+</resources>

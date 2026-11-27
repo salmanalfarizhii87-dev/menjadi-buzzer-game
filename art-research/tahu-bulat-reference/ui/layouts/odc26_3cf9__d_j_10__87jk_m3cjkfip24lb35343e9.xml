@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Katanya Olimpiade untuk siswa SMA sudah sampai di Tingkat Nasional!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Dan tentu saja kita bisa jualan lagi di Bazaar di dekat tempat Olimpiadenya!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Ga takut ketemu Kang Piki, nanti kang?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="tanpa_uang" isHold="true">
+            <desc>Masih galau sih kalau ketemu...&#10;Tapi dompet Akang udah jadi sarang laler nih..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Sarang laler....?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Dan para peserta Olimpiade juga tetap butuh makan Tahu, biar pintar!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>.................</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Dah, jangan protes mulu!&#10;Yuk, kita bisnis dulu!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Ih, Tako ga komentar apa-apa kok dari tadi!</desc>
+        </dialog>
+    </skenario>
+</resources>

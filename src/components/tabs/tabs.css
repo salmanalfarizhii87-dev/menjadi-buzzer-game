@@ -1,0 +1,38 @@
+/* Tab internal berbentuk pelat; dipakai Task dan Shop. */
+
+.inner-tabs {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: var(--space-1);
+  padding: var(--space-1);
+  background: var(--color-panel-sunken);
+  border: var(--border-hairline) solid var(--color-border-soft);
+  border-radius: var(--radius-md);
+}
+
+.inner-tab {
+  padding: var(--space-2) var(--space-1);
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-muted);
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-sm);
+}
+
+.inner-tab[aria-selected='true'] {
+  color: var(--color-text);
+  background: var(--color-panel);
+  box-shadow: var(--shadow-card-soft);
+}
+
+.inner-tab__badge {
+  margin-left: var(--space-1);
+  padding: 0 var(--space-1);
+  font-size: var(--text-2xs);
+  color: var(--color-text-inverse);
+  background: var(--color-danger-600);
+  border-radius: var(--radius-pill);
+}

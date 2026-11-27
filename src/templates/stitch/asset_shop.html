@@ -1,0 +1,201 @@
+<div class="min-h-[884px] max-w-md mx-auto relative flex flex-col bg-dock-bg pb-20" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- Top Casual Game HUD (100% Reference Match) -->
+    <header class="sticky top-0 z-20 flex flex-col shadow-[0_3px_8px_rgba(0,0,0,0.22)]">
+      <div class="ref-hud-purple flex items-center gap-gutter-sm px-gutter-sm py-gutter-sm">
+        <a href="../12-settings-options/Settings%20%26%20Options.html" aria-label="Buka Pengaturan" class="w-11 h-11 rounded-full ref-menu-circle flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="5.5" cy="7" r="1.4" fill="#FFFFFF"></circle>
+            <rect x="9" y="6" width="10" height="2" rx="1" fill="#FFFFFF"></rect>
+            <circle cx="5.5" cy="12" r="1.4" fill="#FFFFFF"></circle>
+            <rect x="9" y="11" width="10" height="2" rx="1" fill="#FFFFFF"></rect>
+            <circle cx="5.5" cy="17" r="1.4" fill="#FFFFFF"></circle>
+            <rect x="9" y="16" width="10" height="2" rx="1" fill="#FFFFFF"></rect>
+          </svg>
+        </a>
+
+        <div class="flex-1 ref-cyan-pill rounded-lg px-gutter-md py-1 flex flex-col items-center justify-center min-w-0">
+          <div class="flex items-center gap-1.5">
+            <span id="shop-balance" class="font-headline text-title-md text-light-surface-bright tabular-nums leading-none" data-design-text-token="title-md">Rp 500</span>
+            <svg class="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <circle cx="10" cy="10" r="8.5" fill="#FACC15" stroke="#B45309" stroke-width="1.5"></circle>
+              <text x="10" y="13" text-anchor="middle" fill="#1E1B2E" font-family="Fredoka, sans-serif" font-weight="700" font-size="8">Rp</text>
+            </svg>
+          </div>
+          <span class="font-mono text-label-sm text-light-surface-bright tabular-nums leading-none mt-0.5" data-design-text-token="label-sm">+Rp 12/dtk</span>
+        </div>
+
+        <div class="ref-gem-box rounded-lg flex items-stretch overflow-hidden shrink-0">
+          <a href="../04-account-detail/Account%20Detail.html" class="px-2.5 py-1 flex flex-col items-center justify-center min-w-12">
+            <svg class="w-4 h-4" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <path d="M10 2L17 7L10 18L3 7L10 2Z" fill="#C4B5FD"></path>
+            </svg>
+            <span class="font-headline text-label-sm text-light-surface-bright leading-none tabular-nums mt-0.5" data-design-text-token="label-sm">Lv 1</span>
+          </a>
+          <a href="../02-campaign-board/Campaign%20Board.html" aria-label="Buka Kampanye" class="w-8 bg-light-surface-bright flex items-center justify-center font-headline text-headline-md text-btn-blue-dark leading-none rounded-l-md" data-design-text-token="headline-md">+</a>
+        </div>
+      </div>
+
+      <!-- White Sub-Header Strip -->
+      <div class="bg-light-surface-bright border-b border-light-outline-variant/30 px-gutter-md py-1.5 flex items-center justify-between gap-gutter-sm">
+        <div class="flex items-center gap-2 min-w-0">
+          <span class="px-2 py-0.5 rounded bg-btn-yellow font-headline text-label-sm text-ink-dark leading-none" data-design-text-token="label-sm">SHOP</span>
+          <h1 class="font-headline text-title-md text-ink-dark truncate leading-none" data-design-text-token="title-md">Gaya &amp; Aset</h1>
+        </div>
+        <span class="font-body text-label-sm text-light-on-surface-variant shrink-0" data-design-text-token="label-sm">4 Kategori</span>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col gap-gutter-md p-gutter-md">
+
+      <!-- 4 Shop Categories: Pakaian | Properti | Kendaraan | Tiket -->
+      <div role="tablist" aria-label="Kategori shop" class="grid grid-cols-4 gap-gutter-xs">
+        <button type="button" role="tab" aria-selected="true" data-tab="pakaian" onclick="switchShopTab(&#39;pakaian&#39;)" class="shop-tab ref-btn-yellow px-gutter-xs py-gutter-sm rounded-xl text-ink-dark font-headline text-label-sm cursor-pointer" data-design-text-token="label-sm">Pakaian</button>
+        <button type="button" role="tab" aria-selected="false" data-tab="properti" onclick="switchShopTab(&#39;properti&#39;)" class="shop-tab ref-btn-white px-gutter-xs py-gutter-sm rounded-xl text-ink-dark font-headline text-label-sm cursor-pointer" data-design-text-token="label-sm">Properti</button>
+        <button type="button" role="tab" aria-selected="false" data-tab="kendaraan" onclick="switchShopTab(&#39;kendaraan&#39;)" class="shop-tab ref-btn-white px-gutter-xs py-gutter-sm rounded-xl text-ink-dark font-headline text-label-sm cursor-pointer" data-design-text-token="label-sm">Kendaraan</button>
+        <button type="button" role="tab" aria-selected="false" data-tab="tiket" onclick="switchShopTab(&#39;tiket&#39;)" class="shop-tab ref-btn-white px-gutter-xs py-gutter-sm rounded-xl text-ink-dark font-headline text-label-sm cursor-pointer" data-design-text-token="label-sm">Tiket</button>
+      </div>
+
+      <!-- Panel 1: Pakaian -->
+      <section id="panel-pakaian" aria-label="Kategori pakaian" class="flex flex-col gap-gutter-sm">
+        <article class="ref-card rounded-xl p-gutter-md flex items-center justify-between gap-gutter-md">
+          <div class="flex items-center gap-gutter-md min-w-0">
+            <div data-stitch-img="Kaos Santai" class="w-14 h-14 rounded-lg object-cover border-2 border-dock-bg shrink-0 stitch-img" role="img" aria-label="Kaos Santai"></div>
+            <div class="min-w-0">
+              <h2 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">Kaos Santai</h2>
+              <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Outfit dasar buzzer</p>
+            </div>
+          </div>
+          <span class="px-gutter-sm py-gutter-xs rounded-full bg-success text-on-success font-headline text-label-sm shrink-0" data-design-text-token="label-sm">Terpasang</span>
+        </article>
+
+        <article class="ref-card rounded-xl p-gutter-md flex items-center justify-between gap-gutter-md">
+          <div class="flex items-center gap-gutter-md min-w-0">
+            <div data-stitch-img="Hoodie Emerald" class="w-14 h-14 rounded-lg object-cover border-2 border-dock-bg shrink-0 stitch-img" role="img" aria-label="Hoodie Emerald"></div>
+            <div class="min-w-0">
+              <h2 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">Hoodie Emerald</h2>
+              <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">+2 Kredibilitas</p>
+            </div>
+          </div>
+          <button type="button" onclick="buyShopItem(this, 150)" class="ref-btn-green px-gutter-md py-gutter-xs rounded-lg font-headline text-label-sm text-light-surface-bright tabular-nums shrink-0 cursor-pointer" data-design-text-token="label-sm">Rp 150</button>
+        </article>
+
+        <article class="ref-card rounded-xl p-gutter-md flex items-center justify-between gap-gutter-md">
+          <div class="flex items-center gap-gutter-md min-w-0">
+            <div data-stitch-img="Jaket Strategi" class="w-14 h-14 rounded-lg object-cover border-2 border-dock-bg shrink-0 stitch-img" role="img" aria-label="Jaket Strategi"></div>
+            <div class="min-w-0">
+              <h2 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">Jaket Strategi</h2>
+              <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">+5 Kredibilitas</p>
+            </div>
+          </div>
+          <button type="button" onclick="buyShopItem(this, 320)" class="ref-btn-green px-gutter-md py-gutter-xs rounded-lg font-headline text-label-sm text-light-surface-bright tabular-nums shrink-0 cursor-pointer" data-design-text-token="label-sm">Rp 320</button>
+        </article>
+      </section>
+
+      <!-- Panel 2: Properti -->
+      <section id="panel-properti" aria-label="Kategori properti" class="hidden flex flex-col gap-gutter-sm">
+        <article class="ref-card rounded-xl p-gutter-md flex items-center justify-between gap-gutter-md">
+          <div class="flex items-center gap-gutter-md min-w-0">
+            <div data-stitch-img="Kamar Kos Senja" class="w-16 h-12 rounded-lg object-cover border-2 border-dock-bg shrink-0 stitch-img" role="img" aria-label="Kamar Kos Senja"></div>
+            <div class="min-w-0">
+              <h2 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">Kamar Kos Senja</h2>
+              <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Lokasi dasar</p>
+            </div>
+          </div>
+          <span class="px-gutter-sm py-gutter-xs rounded-full bg-success text-on-success font-headline text-label-sm shrink-0" data-design-text-token="label-sm">Dimiliki</span>
+        </article>
+
+        <article class="ref-card rounded-xl p-gutter-md flex items-center justify-between gap-gutter-md">
+          <div class="flex items-center gap-gutter-md min-w-0">
+            <div data-stitch-img="Studio Konten Mini" class="w-16 h-12 rounded-lg object-cover border-2 border-dock-bg shrink-0 stitch-img" role="img" aria-label="Studio Konten Mini"></div>
+            <div class="min-w-0">
+              <h2 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">Studio Konten Mini</h2>
+              <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">+25% Passive Income</p>
+            </div>
+          </div>
+          <button type="button" onclick="buyShopItem(this, 1500)" class="ref-btn-green px-gutter-md py-gutter-xs rounded-lg font-headline text-label-sm text-light-surface-bright tabular-nums shrink-0 cursor-pointer" data-design-text-token="label-sm">Rp 1.500</button>
+        </article>
+      </section>
+
+      <!-- Panel 3: Kendaraan -->
+      <section id="panel-kendaraan" aria-label="Kategori kendaraan" class="hidden flex flex-col gap-gutter-sm">
+        <article class="ref-card rounded-xl p-gutter-md flex items-center justify-between gap-gutter-md">
+          <div class="min-w-0">
+            <h2 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">Skuter Listrik Kilat</h2>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">+5% Efisiensi Kampanye</p>
+          </div>
+          <button type="button" onclick="buyShopItem(this, 400)" class="ref-btn-green px-gutter-md py-gutter-xs rounded-lg font-headline text-label-sm text-light-surface-bright tabular-nums shrink-0 cursor-pointer" data-design-text-token="label-sm">Rp 400</button>
+        </article>
+
+        <article class="ref-card rounded-xl p-gutter-md flex items-center justify-between gap-gutter-md">
+          <div class="min-w-0">
+            <h2 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">Motor Retro Senja</h2>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">+12% Prestise &amp; Reputation</p>
+          </div>
+          <button type="button" onclick="buyShopItem(this, 950)" class="ref-btn-green px-gutter-md py-gutter-xs rounded-lg font-headline text-label-sm text-light-surface-bright tabular-nums shrink-0 cursor-pointer" data-design-text-token="label-sm">Rp 950</button>
+        </article>
+      </section>
+
+      <!-- Panel 4: Tiket -->
+      <section id="panel-tiket" aria-label="Kategori tiket travel" class="hidden flex flex-col gap-gutter-sm">
+        <article class="ref-card rounded-xl p-gutter-md flex items-center justify-between gap-gutter-md">
+          <div class="min-w-0">
+            <h2 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">Tiket Singapura</h2>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Buka Travel: Merlion</p>
+          </div>
+          <button type="button" onclick="buyShopItem(this, 350)" class="ref-btn-green px-gutter-md py-gutter-xs rounded-lg font-headline text-label-sm text-light-surface-bright tabular-nums shrink-0 cursor-pointer" data-design-text-token="label-sm">Rp 350</button>
+        </article>
+
+        <article class="ref-card rounded-xl p-gutter-md flex items-center justify-between gap-gutter-md">
+          <div class="min-w-0">
+            <h2 class="font-headline text-title-md text-ink-dark truncate" data-design-text-token="title-md">Tiket Jepang</h2>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Buka Travel: Menara Tokyo</p>
+          </div>
+          <button type="button" onclick="buyShopItem(this, 800)" class="ref-btn-green px-gutter-md py-gutter-xs rounded-lg font-headline text-label-sm text-light-surface-bright tabular-nums shrink-0 cursor-pointer" data-design-text-token="label-sm">Rp 800</button>
+        </article>
+      </section>
+
+      <p id="shop-msg" class="hidden text-center font-headline text-body-sm text-ink-dark bg-light-surface-variant border-2 border-success rounded-xl py-gutter-xs px-gutter-md" data-design-text-token="body-sm"></p>
+
+    </main>
+
+    <!-- Persistent 5-Circle Bottom Navigation Bar (100% Reference Match: Upgrade Active) -->
+    <nav aria-label="Navigasi utama" class="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md z-20 ref-hud-purple border-t-2 border-ink-dark px-gutter-md py-1.5 grid grid-cols-5 gap-gutter-sm items-center justify-items-center">
+      <a href="../01-business-home/Business%20Home.html" aria-label="Home" class="w-12 h-12 rounded-full ref-circle-red ref-nav-circle flex items-center justify-center">
+        <svg class="w-6 h-6" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <path d="M4 13L14 5L24 13V23H17V17H11V23H4V13Z" fill="#FFFFFF"></path>
+        </svg>
+      </a>
+
+      <a href="../04-account-detail/Account%20Detail.html" aria-label="Akun" class="w-12 h-12 rounded-full ref-circle-orange ref-nav-circle flex items-center justify-center">
+        <svg class="w-6 h-6" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <circle cx="14" cy="10" r="4.5" fill="#FFFFFF"></circle>
+          <path d="M5 23C5 18.6 9 16 14 16C19 16 23 18.6 23 23H5Z" fill="#FFFFFF"></path>
+        </svg>
+      </a>
+
+      <a href="../02-campaign-board/Campaign%20Board.html" aria-label="Kampanye" class="relative w-12 h-12 rounded-full ref-circle-blue ref-nav-circle flex items-center justify-center">
+        <svg class="w-6 h-6" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <path d="M5 11L19 6V20L5 15V11Z" fill="#FFFFFF"></path>
+          <rect x="7" y="15" width="4" height="6" rx="1.5" fill="#FFFFFF"></rect>
+        </svg>
+        <span class="absolute -top-1 -right-1 min-w-5 h-5 px-1 rounded-full bg-btn-red-dark border-2 border-light-surface-bright text-light-surface-bright font-headline text-label-sm flex items-center justify-center tabular-nums shadow-[0_2px_4px_rgba(0,0,0,0.35)]" data-design-text-token="label-sm">3</span>
+      </a>
+
+      <!-- Active Upgrade (Larger Protruding Yellow Circle) -->
+      <a href="#" aria-current="page" aria-label="Upgrade" class="w-16 h-16 -mt-5 rounded-full ref-circle-yellow ref-nav-circle flex items-center justify-center">
+        <svg class="w-8 h-8" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <path d="M14 3L6 15H13L11 25L22 12H15L14 3Z" fill="#FFFFFF"></path>
+        </svg>
+      </a>
+
+      <a href="../05-finance-history/Finance%20%26%20History.html" aria-label="Keuangan" class="w-12 h-12 rounded-full ref-circle-lime ref-nav-circle flex items-center justify-center">
+        <svg class="w-6 h-6" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <circle cx="14" cy="14" r="9" fill="#FFFFFF"></circle>
+          <text x="14" y="17.5" text-anchor="middle" fill="#4D7C0F" font-family="Fredoka, sans-serif" font-weight="700" font-size="10">Rp</text>
+        </svg>
+      </a>
+    </nav>
+
+  </div>

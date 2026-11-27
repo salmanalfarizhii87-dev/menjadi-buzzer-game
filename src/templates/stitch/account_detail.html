@@ -1,0 +1,162 @@
+<div class="min-h-[884px] max-w-md mx-auto relative flex flex-col bg-dock-bg pb-20" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- Top Casual Game HUD (100% Reference Match) -->
+    <header class="sticky top-0 z-20 flex flex-col shadow-[0_3px_8px_rgba(0,0,0,0.22)]">
+      <div class="ref-hud-purple flex items-center gap-gutter-sm px-gutter-sm py-gutter-sm">
+        <a href="../12-settings-options/Settings%20%26%20Options.html" aria-label="Buka Pengaturan" class="w-11 h-11 rounded-full ref-menu-circle flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="5.5" cy="7" r="1.4" fill="#FFFFFF"></circle>
+            <rect x="9" y="6" width="10" height="2" rx="1" fill="#FFFFFF"></rect>
+            <circle cx="5.5" cy="12" r="1.4" fill="#FFFFFF"></circle>
+            <rect x="9" y="11" width="10" height="2" rx="1" fill="#FFFFFF"></rect>
+            <circle cx="5.5" cy="17" r="1.4" fill="#FFFFFF"></circle>
+            <rect x="9" y="16" width="10" height="2" rx="1" fill="#FFFFFF"></rect>
+          </svg>
+        </a>
+
+        <div class="flex-1 ref-cyan-pill rounded-lg px-gutter-md py-1 flex flex-col items-center justify-center min-w-0">
+          <div class="flex items-center gap-1.5">
+            <span id="acc-balance" class="font-headline text-title-md text-light-surface-bright tabular-nums leading-none" data-design-text-token="title-md">Rp 500</span>
+            <svg class="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <circle cx="10" cy="10" r="8.5" fill="#FACC15" stroke="#B45309" stroke-width="1.5"></circle>
+              <text x="10" y="13" text-anchor="middle" fill="#1E1B2E" font-family="Fredoka, sans-serif" font-weight="700" font-size="8">Rp</text>
+            </svg>
+          </div>
+          <span class="font-mono text-label-sm text-light-surface-bright tabular-nums leading-none mt-0.5" data-design-text-token="label-sm">+Rp 12/dtk</span>
+        </div>
+
+        <div class="ref-gem-box rounded-lg flex items-stretch overflow-hidden shrink-0">
+          <a href="#" class="px-2.5 py-1 flex flex-col items-center justify-center min-w-12">
+            <svg class="w-4 h-4" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <path d="M10 2L17 7L10 18L3 7L10 2Z" fill="#C4B5FD"></path>
+            </svg>
+            <span class="font-headline text-label-sm text-light-surface-bright leading-none tabular-nums mt-0.5" data-design-text-token="label-sm">Lv 1</span>
+          </a>
+          <a href="../03-asset-shop/Asset%20Shop.html" aria-label="Buka Upgrade Shop" class="w-8 bg-light-surface-bright flex items-center justify-center font-headline text-headline-md text-btn-blue-dark leading-none rounded-l-md" data-design-text-token="headline-md">+</a>
+        </div>
+      </div>
+
+      <!-- White Sub-Header Strip -->
+      <div class="bg-light-surface-bright border-b border-light-outline-variant/30 px-gutter-md py-1.5 flex items-center justify-between gap-gutter-sm">
+        <div class="flex items-center gap-2 min-w-0">
+          <span class="px-2 py-0.5 rounded bg-btn-orange text-ink-dark font-headline text-label-sm leading-none" data-design-text-token="label-sm">AKUN</span>
+          <h1 class="font-headline text-title-md text-ink-dark truncate leading-none" data-design-text-token="title-md">Detail @KilatDaily</h1>
+        </div>
+        <span class="font-headline text-label-sm text-success shrink-0" data-design-text-token="label-sm">Normal</span>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col gap-gutter-md p-gutter-md">
+
+      <!-- Account Identity Card -->
+      <article class="ref-card rounded-xl p-gutter-lg flex items-center justify-between gap-gutter-md">
+        <div class="flex items-center gap-gutter-md min-w-0">
+          <div class="relative shrink-0">
+            <div data-stitch-img="Avatar akun @KilatDaily" class="w-16 h-16 rounded-full object-cover border-2 border-dock-bg stitch-img" role="img" aria-label="Avatar akun @KilatDaily"></div>
+            <span class="absolute -bottom-1 -right-1 px-gutter-xs rounded-full bg-btn-yellow border border-ink-dark font-headline text-label-sm text-ink-dark tabular-nums" data-design-text-token="label-sm">Lv 1</span>
+          </div>
+          <div class="min-w-0">
+            <h2 class="font-headline text-headline-md text-ink-dark truncate" data-design-text-token="headline-md">@KilatDaily</h2>
+            <p class="font-body text-body-sm text-light-on-surface-variant" data-design-text-token="body-sm">Platform: Chirper • Auto Lv 0</p>
+            <p class="font-headline text-label-sm text-success tabular-nums pt-gutter-xs" data-design-text-token="label-sm">Income: +Rp 12/dtk</p>
+          </div>
+        </div>
+
+        <span role="status" class="inline-flex items-center gap-gutter-xs px-gutter-sm py-gutter-xs rounded-full bg-success text-on-success shrink-0">
+          <span class="font-headline text-label-sm" data-design-text-token="label-sm">Normal</span>
+        </span>
+      </article>
+
+      <!-- Core Metrics Grid -->
+      <section aria-label="Statistik utama akun" class="grid grid-cols-2 gap-gutter-sm">
+        <div class="ref-card rounded-xl p-gutter-md flex flex-col gap-gutter-xs">
+          <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Followers</span>
+          <p class="font-headline text-headline-md text-ink-dark tabular-nums" data-design-text-token="headline-md">1.000</p>
+        </div>
+
+        <div class="ref-card rounded-xl p-gutter-md flex flex-col gap-gutter-xs">
+          <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Reputation</span>
+          <p class="font-headline text-headline-md text-ink-dark tabular-nums" data-design-text-token="headline-md">0</p>
+        </div>
+      </section>
+
+      <!-- Performance & Suspicion Progress Bars -->
+      <article class="ref-card rounded-xl p-gutter-lg flex flex-col gap-gutter-md">
+        <h2 class="font-headline text-title-md text-ink-dark" data-design-text-token="title-md">Kondisi &amp; Kesehatan Akun</h2>
+
+        <div class="flex flex-col gap-gutter-xs">
+          <div class="flex items-center justify-between">
+            <span class="font-body text-body-sm text-ink-dark" data-design-text-token="body-sm">Performance</span>
+            <span class="font-headline text-body-sm text-success tabular-nums" data-design-text-token="body-sm">50 / 100</span>
+          </div>
+          <div class="w-full h-3.5 rounded-full ref-progress-track overflow-hidden">
+            <div class="h-full w-1/2 rounded-full bg-hud-cyan"></div>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-gutter-xs">
+          <div class="flex items-center justify-between">
+            <span class="font-body text-body-sm text-ink-dark" data-design-text-token="body-sm">Dicurigai (Warning di 60+)</span>
+            <span class="font-headline text-body-sm text-light-tertiary tabular-nums" data-design-text-token="body-sm">10 / 100 • Aman</span>
+          </div>
+          <div class="w-full h-3.5 rounded-full ref-progress-track overflow-hidden">
+            <div class="h-full w-1/12 rounded-full bg-btn-yellow"></div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Formula Tip Card -->
+      <aside class="ref-card rounded-xl p-gutter-md flex items-start gap-gutter-sm">
+        <span class="w-7 h-7 rounded-full ref-circle-yellow flex items-center justify-center shrink-0 font-headline text-body-sm text-ink-dark">!</span>
+        <p class="font-body text-body-sm text-ink-dark text-balance" data-design-text-token="body-sm">
+          Followers dan Performance memengaruhi passive income per detik. Tingkatkan aset di Shop atau buat postingan di Handphone untuk penghasilan tambahan.
+        </p>
+      </aside>
+
+      <!-- Shortcut Shop CTA -->
+      <a href="../03-asset-shop/Asset%20Shop.html" class="ref-btn-green w-full inline-flex items-center justify-center gap-gutter-sm px-gutter-lg py-gutter-md rounded-xl">
+        <span class="font-headline text-label-lg text-light-surface-bright" data-design-text-token="label-lg">Upgrade Aset &amp; Strategi</span>
+      </a>
+
+    </main>
+
+    <!-- Persistent 5-Circle Bottom Navigation Bar (100% Reference Match: Akun Active) -->
+    <nav aria-label="Navigasi utama" class="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md z-20 ref-hud-purple border-t-2 border-ink-dark px-gutter-md py-1.5 grid grid-cols-5 gap-gutter-sm items-center justify-items-center">
+      <a href="../01-business-home/Business%20Home.html" aria-label="Home" class="w-12 h-12 rounded-full ref-circle-red ref-nav-circle flex items-center justify-center">
+        <svg class="w-6 h-6" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <path d="M4 13L14 5L24 13V23H17V17H11V23H4V13Z" fill="#FFFFFF"></path>
+        </svg>
+      </a>
+
+      <!-- Active Akun (Larger Protruding Orange Circle) -->
+      <a href="#" aria-current="page" aria-label="Akun" class="w-16 h-16 -mt-5 rounded-full ref-circle-orange ref-nav-circle flex items-center justify-center">
+        <svg class="w-8 h-8" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <circle cx="14" cy="10" r="4.5" fill="#FFFFFF"></circle>
+          <path d="M5 23C5 18.6 9 16 14 16C19 16 23 18.6 23 23H5Z" fill="#FFFFFF"></path>
+        </svg>
+      </a>
+
+      <a href="../02-campaign-board/Campaign%20Board.html" aria-label="Kampanye" class="relative w-12 h-12 rounded-full ref-circle-blue ref-nav-circle flex items-center justify-center">
+        <svg class="w-6 h-6" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <path d="M5 11L19 6V20L5 15V11Z" fill="#FFFFFF"></path>
+          <rect x="7" y="15" width="4" height="6" rx="1.5" fill="#FFFFFF"></rect>
+        </svg>
+        <span class="absolute -top-1 -right-1 min-w-5 h-5 px-1 rounded-full bg-btn-red-dark border-2 border-light-surface-bright text-light-surface-bright font-headline text-label-sm flex items-center justify-center tabular-nums shadow-[0_2px_4px_rgba(0,0,0,0.35)]" data-design-text-token="label-sm">3</span>
+      </a>
+
+      <a href="../03-asset-shop/Asset%20Shop.html" aria-label="Upgrade" class="w-12 h-12 rounded-full ref-circle-yellow ref-nav-circle flex items-center justify-center">
+        <svg class="w-6 h-6" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <path d="M14 3L6 15H13L11 25L22 12H15L14 3Z" fill="#FFFFFF"></path>
+        </svg>
+      </a>
+
+      <a href="../05-finance-history/Finance%20%26%20History.html" aria-label="Keuangan" class="w-12 h-12 rounded-full ref-circle-lime ref-nav-circle flex items-center justify-center">
+        <svg class="w-6 h-6" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <circle cx="14" cy="14" r="9" fill="#FFFFFF"></circle>
+          <text x="14" y="17.5" text-anchor="middle" fill="#4D7C0F" font-family="Fredoka, sans-serif" font-weight="700" font-size="10">Rp</text>
+        </svg>
+      </a>
+    </nav>
+
+  </div>

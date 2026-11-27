@@ -1,0 +1,50 @@
+<resources>
+    <!--font :-->
+    <!--comicneueLight-->
+    <!--comicneueBold-->
+    <!--arial-->
+    <!--ttt-->
+    <!--cuckoo-->
+    <!--theBoldFont-->
+    <nama>K. Lebaran B</nama>
+    <image>ui_kartu_meme/kartu_ucapan/kartu_lebaran2.png</image>
+    <variasi>
+        <image>
+            <!--<input id="0">-->
+            <!--<item x="189" y="578" width="335" alignX="0.0f" alignY="0.0f" colour="0x000000" font="cuckoo" isCenter="true" min_char = "0" max_char = "19" min_font_size="30" max_font_size="40"/>-->
+            <!--</input>-->
+        </image>
+        <text>
+            <item id="0">
+                <varian>
+                    <!--<item x="200" y="365" width="300" alignX="0.0f" alignY="0.0f" colour="0x000000" fontSize="36" font="cuckoo" isCenter="true">Mohon maaf lahir dan bathin.</item>-->
+                </varian>
+            </item>
+        </text>
+    </variasi>
+    <input>
+        <item id="0" x="187" y="426" width="345" alignX="0.0f" alignY="0.0f" colour="0x2c4e4d" font="cuckoo" isCenter="true" min_char = "0" max_char = "75" min_font_size="26" max_font_size="36"/>
+        <item id="1" x="20" y="50" width="230" alignX="0.0f" alignY="0.0f" colour="0xfffeff" font="cuckoo" min_char = "0" max_char = "20" min_font_size="28" max_font_size="32"/>
+        <item id="2" x="690" y="645" width="230" alignX="0.0f" alignY="0.0f" colour="0xfffeff" font="cuckoo" isRight="true" min_char = "0" max_char = "20" min_font_size="28" max_font_size="32"/>
+    </input>
+    <contoh>
+        <input id="0">
+            <!--ucapan-->
+            <item>Selamat Idul Fitri, mohon maaf lahir dan batin.</item>
+            <item>Yay! Selamat Idul Fitri dan mengumpulkan amplop lebaran!</item>
+            <item>Semoga amal ibadah kita berkah dan bisa bertemu Ramadhan tahun depan lagi yaa.</item>
+        </input>
+        <input id="1">
+            <!--dari-->
+            <item>Akang Tahu</item>
+            <item>Tako</item>
+            <item>Aku</item>
+        </input>
+        <input id="2">
+            <!--untuk-->
+            <item>Teman-teman</item>
+            <item>Kawan-kawan</item>
+            <item>Kamu</item>
+        </input>
+    </contoh>
+</resources>

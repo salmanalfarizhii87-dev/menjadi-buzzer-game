@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario>
+        <dialog karakter="0" ekspresi="idle" y="100" alignY="0.0f">Halo!&#10;Mari kita belajar masak Sotong ala Tahu Bulat!</dialog>
+    </skenario>
+</resources>

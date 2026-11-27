@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario>
+        <dialog karakter="2" ekspresi="bertanya" alignY="0.5f" y="-120" animasi="0.5">Huya!!&#10;Mau Tahu Bulatnya lagi dong!!&#10;Kirim sebanyak-banyaknya dalam 15 detik yak~</dialog>
+    </skenario>
+</resources>

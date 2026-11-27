@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <character id="effect" x="0" y="-672" isEmpty="true" width = "768" height="672" >-->
+    <character id="effect" x="0" y="0" isEmpty="true" width = "170" height="198" >
+<!--        <group id="highlight_air" x="307" y="415">-->
+        <group id="highlight_1" x="0" y="0" pivotX="0.5" pivotY="0.5">
+            <image_list jeda="0.8">
+                <item>background/kembangApi_f1.png</item>
+            </image_list>
+        </group>
+
+        <group id="highlight_2" x="0" y="0" pivotX="0.5" pivotY="0.5">
+            <image_list jeda="0.8">
+                <item>background/kembangApi_f2.png</item>
+            </image_list>
+        </group>
+    </character>
+
+    <animation>
+        <sequence>
+            <multiple>
+                <alpha id="highlight_2" time="0">0.0</alpha>
+                <alpha id="highlight_1" time="0">0.0</alpha>
+            </multiple>
+
+            <alpha id="highlight_1" time="0.1">1.0</alpha>
+            <multiple>
+                <alpha id="highlight_2" time="0.1">1.0</alpha>
+                <alpha id="highlight_1" time="0.1">0.0</alpha>
+            </multiple>
+
+            <multiple>
+                <alpha id="highlight_2" time="0.1">0.0</alpha>
+                <alpha id="highlight_1" time="0.1">1.0</alpha>
+            </multiple>
+
+            <multiple>
+                <alpha id="highlight_2" time="0.1">1.0</alpha>
+                <alpha id="highlight_1" time="0.1">0.0</alpha>
+            </multiple>
+
+            <multiple>
+                <alpha id="highlight_2" time="0.1">0.0</alpha>
+                <alpha id="highlight_1" time="0.1">1.0</alpha>
+            </multiple>
+
+            <multiple>
+                <alpha id="highlight_2" time="0.1">1.0</alpha>
+                <alpha id="highlight_1" time="0.1">0.0</alpha>
+            </multiple>
+
+            <alpha id="highlight_2" time="0.3">0.0</alpha>
+        </sequence>
+    </animation>
+
+</resources>

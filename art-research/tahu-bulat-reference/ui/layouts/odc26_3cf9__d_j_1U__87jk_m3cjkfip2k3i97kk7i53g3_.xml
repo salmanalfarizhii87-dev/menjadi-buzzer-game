@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Wih.. laris..&#10;Ternyata di sini juga pada suka Tahu Bulat!!</desc>
+        </dialog>
+	    <dialog karakter="0" tipe="kiri" ekspresi="ketawa1" isHold="true">
+            <desc>Bagus, bagus...&#10;Banyak makan Tahu bisa bikin pintar...</desc>
+        </dialog>
+	    <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="false" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kang!&#10;Airnya surut!! Kita harus pulang!!</desc>
+        </dialog>
+	    <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>E-e-eh surut..?&#10;Oke, ayo kita pulang...</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Terima kasih sudah mampir ke Atlantis, yak!&#10;Kamu bisa bawa pulang ini..</desc>
+        </dialog>
+	    <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Loh, kamu juga ikut ke sini&#10;Towa?</desc>
+        </dialog>
+        <dialog karakter="4" tipe="kanan" ekspresi="nantang" isHold="true">
+            <desc>Udah, buruan pulang sebelum kamu terjebak.. Nih, bawa pulang Peti Emas ini!</desc>
+        </dialog>
+	    <dialog karakter="0" tipe="kiri" ekspresi="matre" isHold="true">
+            <desc>Peti Emas?!!&#10;Wohoho..</desc>
+        </dialog>
+	    <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>KAAAAAAAAAAAANNGG!&#10;Buruaaannn!!</desc>
+        </dialog>
+	    <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>I-iya-iya, ayo kita pulang..&#10;Makasih ya Towa..</desc>
+        </dialog>
+    </skenario>
+</resources>

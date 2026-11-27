@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <character id="effect" x="0" y="-355" isEmpty="true" width = "768" height="355" >-->
+    <character id="effect" x="0" y="-246" isEmpty="true" width = "384" height="197" >
+<!--        <group id="cahaya1" x="13" y="-216">-->
+        <group id="cahaya1" x="0" y="0">
+            <image_list>
+                <item>background/bg_bdg_1_glow.png</item>
+            </image_list>
+        </group>
+    </character>
+
+    <animation>
+        <sequence>
+        <alpha id="cahaya1" time="0.1">1.0</alpha>
+        <alpha id="cahaya1" time="0.1">0.5</alpha>
+        <alpha id="cahaya1" time="0.1">1.0</alpha>
+        <alpha id="cahaya1" time="0.1">0.2</alpha>
+        <alpha id="cahaya1" time="0.1">1.0</alpha>
+        <alpha id="cahaya1" time="5">1.0</alpha>
+        </sequence>
+    </animation>
+
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kaaanggg!!&#10;Ada kabar dari Atlantis!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>EEehh???&#10;Towa sudah dibebaskan??</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Sayangnya belum nih, Kang..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Waduh!!&#10;Gimana atuh..?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Apa kita menyelinap aja ke Penjara terus bebasin Towa?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Waduh, gak akan bisa Kang..&#10;Penjaranya di dalam air..</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true">
+            <desc>Seandainya aku manusia ikan juga...</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Mau jadi manusia ikan, kang?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Oh, nggak-nggak.&#10;Akang senang punya kaki dua.</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>...........................</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Jadi ada kabar apa dari Atlantis, Tako? Kok kamu ga cerita-cerita dari tadi?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Ya.. Akangnya ngomong mulu..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Jadi gini, Kang..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Di Atlantis lagi ada demo..&#10;Rakyat Atlantis pada kangen makan Tahu Bulat kita..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Terus mereka tahu kalau Akang ga dateng lagi ke Atlantis gara-gara takut ditangkap..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Jadi mereka demo biar Akang Tahu ga ditangkap.. Supaya Akang Tahu bisa jualan Tahu Bulat di Atlantis lagi...</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="tekad_bulad" isHold="true">
+            <desc>Uwwoooghhh!!&#10;Hebat gitu kekuatan Tahu Bulat!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="ketawa1" isHold="true">
+            <desc>Berkat Tahu Bulat, semua urusan beres!! MWAHWAHWAHWA!!!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Errr... Tunggu dulu..&#10;Kata siapa udah beres?</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eh, loh? &#10;Tapi kan Rakyat Atlantis udah demo?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Iya.. tapi gak semudah itu, Kang..</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Raja Atlantis bilang kalau Akang Tahu harus buktiin dulu kalau memang banyak Rakyat Atlantis yang suka Tahu Bulat.</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Ca....ranya??&#10;Jualan lagi di Atlantis?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="haha" isHold="true">
+            <desc>Betul! Kalau Akang Tahu bisa jualan sesuai target dari Raja Atlantis, maka Akang akan bebas berdagang di Atlantis!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Towa juga bakal dibebasin?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Betullll!!&#10;Towa juga akan dibebaskan!!</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Okelah, tunggu apalagi?&#10;Ayo kita ke Atlantis!</desc>
+        </dialog>
+    </skenario>
+</resources>

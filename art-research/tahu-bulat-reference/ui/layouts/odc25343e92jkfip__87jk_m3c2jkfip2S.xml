@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <story lamaFestival="86400" noMisi="1">
+        <judul>Pentas Seni</judul>
+        <image>UI_baru/banner_popUp_festival_story.png</image>
+        <syarat_buka>
+            <item tipe="penghasilan" cabang="Bandung">2500000</item>
+        </syarat_buka>
+        <storyBukaCabang>xml_dialog/misi 1/festivalstory_bukacabang.xml</storyBukaCabang>
+        <storyAwalDiCabang>xml_dialog/misi 1/festivalstory_awal.xml</storyAwalDiCabang>
+        <storyTargetTercapai>xml_dialog/misi 1/festivalstory_targettercapai.xml</storyTargetTercapai>
+        <storyTargetTidakTercapai>xml_dialog/misi 1/festivalstory_targettidaktercapai.xml</storyTargetTidakTercapai>
+        <popup_reward>
+            <judul>Pentas Seni</judul>
+            <desc>Akang bertemu Vicky!&#10;Vicky menantang Akang untuk menjual&#10;Tahu Bulat lebih banyak darinya.&#10;&#10;Ayo kita tunjukkan siapa Tukang Tahu&#10;yang lebih sukses!</desc>
+        </popup_reward>
+        <reward>
+            <item target="5000000" namaHadiah="Peti Perunggu" tipeHadiah="chest" idHadiah="chest_bronze" jumlahHadiah="1"/>
+<!--            <item target="1000" namaHadiah="Bawang Putih" tipeHadiah="rempah" idHadiah="1" jumlahHadiah="1"/>-->
+            <!--<item target="1000" namaHadiah="Sticker Ramadhan" tipeHadiah="stickerWA" idHadiah="ramadhan" jumlahHadiah="2" namaPengganti="Chest Kayu" tipePengganti="chest" idPengganti="chest_kayu" jumlahPengganti="1"/>-->
+        </reward>
+        <trio_kribo>
+            <bocah1 cabang="Belanda"/>
+            <bocah2 cabang="Dubai"/>
+            <bocah3 cabang="Korea"/>
+        </trio_kribo>
+        <menu_item>
+            <mobil>
+                <bodyMobil cabang="Korea"/>
+            </mobil>
+            <minuman>
+                <item id="Es Cendol" icon="ic_escendol.png"/>
+            </minuman>
+            <resep banyakItem="10">
+                <item cabang="Tahu Con" idx="6"/>
+                <item cabang="Tahu Con" idx="8"/>
+                <item cabang="Tahu Con" idx="7"/>
+                <item cabang="Tahu Con" idx="9"/>
+                <item cabang="Tahu Con" idx="11"/>
+                <item cabang="Tahu Con" idx="10"/>
+                <item cabang="Korea" idx="10"/>
+                <item cabang="Jepang" idx="9"/>
+                <item cabang="Korea" idx="11"/>
+                <item cabang="Jepang" idx="7"/>
+            </resep>
+            <promo banyakItem="8">
+                <item cabang="Bandung" idx="0"/>
+                <item cabang="Jepang" idx="0"/>
+                <item cabang="Dubai" idx="0"/>
+                <item cabang="Belanda" idx="0"/>
+                <item cabang="Korea" idx="0"/>
+                <item cabang="Majapahit" idx="0"/>
+                <item cabang="Purba" idx="0"/>
+                <item cabang="Mars" idx="0"/>
+            </promo>
+        </menu_item>
+    </story>
+</resources>

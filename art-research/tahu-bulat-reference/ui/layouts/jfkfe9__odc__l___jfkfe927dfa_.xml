@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="root" x="0" y="0" pivotX="0.5" pivotY="1">
+        <image_list id="bc1" x="0" y="0" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/ui/bc_1.png</item>
+        </image_list>
+
+        <image_list id="bc2" x="0" y="-20" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/ui/bc_2.png</item>
+        </image_list>
+
+        <image_list id="bc3" x="0" y="-52" pivotX="0.5" pivotY="1">
+            <item>ksatriatahu/ui/bc_3.png</item>
+        </image_list>
+
+        <image_list id="emoji2" x="0" y="-108" pivotX="0.5" pivotY="0.5">
+            <item>sotong/ui/emoji/emoji_2.png</item>
+        </image_list>
+
+        <image_list id="emoji3" x="0" y="-100" pivotX="0.5" pivotY="0.5">
+            <item>sotong/ui/emoji/emoji_3.png</item>
+        </image_list>
+
+        <image_list id="emoji4" x="0" y="-102" pivotX="0.5" pivotY="0.5">
+            <item>sotong/ui/emoji/emoji_4.png</item>
+        </image_list>
+
+        <image_list id="emoji5" x="0" y="-100" pivotX="0.5" pivotY="0.5">
+            <item>sotong/ui/emoji/emoji_5.png</item>
+        </image_list>
+    </container>
+
+    <animation>
+        <emoji2>
+            <!--emoji2-->
+            <sequence>
+                <multiple>
+                    <alpha id="emoji2" time="0">0</alpha>
+                    <alpha id="emoji3" time="0">0</alpha>
+                    <alpha id="emoji4" time="0">0</alpha>
+                    <alpha id="emoji5" time="0">0</alpha>
+                    <alpha id="bc1" time="0">0</alpha>
+                    <alpha id="bc2" time="0">0</alpha>
+                    <alpha id="bc3" time="0">0</alpha>
+                </multiple>
+                <multiple>
+                    <alpha id="bc1" time="0.01">1</alpha>
+                    <scaleY id="bc1" time="0.03" pivotY="1">1.5</scaleY>
+                </multiple>
+                <scaleY id="bc1" time="0.03" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="bc2" time="0.01">1</alpha>
+                    <scaleY id="bc2" time="0.03" pivotY="1">1.35</scaleY>
+                </multiple>
+                <scaleY id="bc2" time="0.03" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="bc3" time="0.01">1</alpha>
+                    <scaleY id="bc3" time="0.03" pivotY="1">1.2</scaleY>
+                </multiple>
+                <scaleY id="bc3" time="0.03" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="emoji2" time="0">1</alpha>
+                    <scaleY id="emoji2" time="0.1" pivotY="1">1.2</scaleY>
+                </multiple>
+                <sequence repeat="3">
+                    <multiple>
+                        <scaleY id="emoji2" time="0.05" pivotY="0.5">1</scaleY>
+                        <scaleX id="emoji2" time="0.05" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc3" time="0.05" pivotY="0.5">1.05</scaleY>
+                        <scaleX id="bc3" time="0.05" pivotX="0.5">1.05</scaleX>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="emoji2" time="0.05" pivotY="0.5">1.2</scaleY>
+                        <scaleX id="emoji2" time="0.05" pivotX="0.5">1.2</scaleX>
+                        <scaleY id="bc3" time="0.05" pivotY="0.5">1</scaleY>
+                        <scaleX id="bc3" time="0.05" pivotX="0.5">1</scaleX>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="emoji2" time="0.05" pivotY="0.5">1</scaleY>
+                        <scaleX id="emoji2" time="0.05" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc3" time="0.05" pivotY="0.5">1.05</scaleY>
+                        <scaleX id="bc3" time="0.05" pivotX="0.5">1.05</scaleX>
+                    </multiple>
+                </sequence>
+            </sequence>
+        </emoji2>
+
+        <emoji5>
+            <sequence>
+                <multiple>
+                    <alpha id="emoji2" time="0">0</alpha>
+                    <alpha id="emoji3" time="0">0</alpha>
+                    <alpha id="emoji4" time="0">0</alpha>
+                    <alpha id="emoji5" time="0">0</alpha>
+                    <alpha id="bc1" time="0">0</alpha>
+                    <alpha id="bc2" time="0">0</alpha>
+                    <alpha id="bc3" time="0">0</alpha>
+                </multiple>
+                <multiple>
+                    <alpha id="bc1" time="0.01">1</alpha>
+                    <scaleY id="bc1" time="0.03" pivotY="1">1.5</scaleY>
+                </multiple>
+                <scaleY id="bc1" time="0.03" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="bc2" time="0.01">1</alpha>
+                    <scaleY id="bc2" time="0.03" pivotY="1">1.35</scaleY>
+                </multiple>
+                <scaleY id="bc2" time="0.03" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="bc3" time="0.01">1</alpha>
+                    <scaleY id="bc3" time="0.03" pivotY="1">1.2</scaleY>
+                </multiple>
+                <scaleY id="bc3" time="0.03" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="emoji5" time="0">1</alpha>
+                    <scaleY id="emoji5" time="0.1" pivotY="1">1.2</scaleY>
+                </multiple>
+                <sequence repeat="3">
+                    <multiple>
+                        <scaleY id="emoji5" time="0.05" pivotY="0.5">1</scaleY>
+                        <scaleX id="emoji5" time="0.05" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc3" time="0.05" pivotY="0.5">1.05</scaleY>
+                        <scaleX id="bc3" time="0.05" pivotX="0.5">1.05</scaleX>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="emoji5" time="0.05" pivotY="0.5">1.2</scaleY>
+                        <scaleX id="emoji5" time="0.05" pivotX="0.5">1.2</scaleX>
+                        <scaleY id="bc3" time="0.05" pivotY="0.5">1</scaleY>
+                        <scaleX id="bc3" time="0.05" pivotX="0.5">1</scaleX>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="emoji5" time="0.05" pivotY="0.5">1</scaleY>
+                        <scaleX id="emoji5" time="0.05" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc3" time="0.05" pivotY="0.5">1.05</scaleY>
+                        <scaleX id="bc3" time="0.05" pivotX="0.5">1.05</scaleX>
+                    </multiple>
+                </sequence>
+            </sequence>
+        </emoji5>
+
+        <emoji4>
+            <sequence>
+                <multiple>
+                    <alpha id="emoji2" time="0">0</alpha>
+                    <alpha id="emoji3" time="0">0</alpha>
+                    <alpha id="emoji4" time="0">0</alpha>
+                    <alpha id="emoji5" time="0">0</alpha>
+                    <alpha id="bc1" time="0">0</alpha>
+                    <alpha id="bc2" time="0">0</alpha>
+                    <alpha id="bc3" time="0">0</alpha>
+                </multiple>
+                <multiple>
+                    <alpha id="bc1" time="0.01">1</alpha>
+                    <scaleY id="bc1" time="0.03" pivotY="1">1.5</scaleY>
+                </multiple>
+                <scaleY id="bc1" time="0.03" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="bc2" time="0.01">1</alpha>
+                    <scaleY id="bc2" time="0.03" pivotY="1">1.35</scaleY>
+                </multiple>
+                <scaleY id="bc2" time="0.03" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="bc3" time="0.01">1</alpha>
+                    <scaleY id="bc3" time="0.03" pivotY="1">1.2</scaleY>
+                </multiple>
+                <scaleY id="bc3" time="0.03" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="emoji4" time="0">1</alpha>
+                    <scaleY id="emoji4" time="0.1" pivotY="1">1.2</scaleY>
+                </multiple>
+                <sequence repeat="3">
+                    <multiple>
+                        <scaleY id="emoji4" time="0.05" pivotY="0.5">1</scaleY>
+                        <scaleX id="emoji4" time="0.05" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc3" time="0.05" pivotY="0.5">1.05</scaleY>
+                        <scaleX id="bc3" time="0.05" pivotX="0.5">1.05</scaleX>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="emoji4" time="0.05" pivotY="0.5">1.2</scaleY>
+                        <scaleX id="emoji4" time="0.05" pivotX="0.5">1.2</scaleX>
+                        <scaleY id="bc3" time="0.05" pivotY="0.5">1</scaleY>
+                        <scaleX id="bc3" time="0.05" pivotX="0.5">1</scaleX>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="emoji4" time="0.05" pivotY="0.5">1</scaleY>
+                        <scaleX id="emoji4" time="0.05" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc3" time="0.05" pivotY="0.5">1.05</scaleY>
+                        <scaleX id="bc3" time="0.05" pivotX="0.5">1.05</scaleX>
+                    </multiple>
+                </sequence>
+            </sequence>
+        </emoji4>
+
+        <emoji3>
+            <sequence>
+                <multiple>
+                    <alpha id="emoji2" time="0">0</alpha>
+                    <alpha id="emoji3" time="0">0</alpha>
+                    <alpha id="emoji4" time="0">0</alpha>
+                    <alpha id="emoji5" time="0">0</alpha>
+                    <alpha id="bc1" time="0">0</alpha>
+                    <alpha id="bc2" time="0">0</alpha>
+                    <alpha id="bc3" time="0">0</alpha>
+                </multiple>
+                <multiple>
+                    <alpha id="bc1" time="0.01">1</alpha>
+                    <scaleY id="bc1" time="0.03" pivotY="1">1.5</scaleY>
+                </multiple>
+                <scaleY id="bc1" time="0.03" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="bc2" time="0.01">1</alpha>
+                    <scaleY id="bc2" time="0.03" pivotY="1">1.35</scaleY>
+                </multiple>
+                <scaleY id="bc2" time="0.03" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="bc3" time="0.01">1</alpha>
+                    <scaleY id="bc3" time="0.03" pivotY="1">1.2</scaleY>
+                </multiple>
+                <scaleY id="bc3" time="0.03" pivotY="1">1</scaleY>
+                <multiple>
+                    <alpha id="emoji3" time="0">1</alpha>
+                    <scaleY id="emoji3" time="0.1" pivotY="1">1.2</scaleY>
+                </multiple>
+                <sequence repeat="3">
+                    <multiple>
+                        <scaleY id="emoji3" time="0.05" pivotY="0.5">1</scaleY>
+                        <scaleX id="emoji3" time="0.05" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc3" time="0.05" pivotY="0.5">1.05</scaleY>
+                        <scaleX id="bc3" time="0.05" pivotX="0.5">1.05</scaleX>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="emoji3" time="0.05" pivotY="0.5">1.2</scaleY>
+                        <scaleX id="emoji3" time="0.05" pivotX="0.5">1.2</scaleX>
+                        <scaleY id="bc3" time="0.05" pivotY="0.5">1</scaleY>
+                        <scaleX id="bc3" time="0.05" pivotX="0.5">1</scaleX>
+                    </multiple>
+                    <multiple>
+                        <scaleY id="emoji3" time="0.05" pivotY="0.5">1</scaleY>
+                        <scaleX id="emoji3" time="0.05" pivotX="0.5">1</scaleX>
+                        <scaleY id="bc3" time="0.05" pivotY="0.5">1.05</scaleY>
+                        <scaleX id="bc3" time="0.05" pivotX="0.5">1.05</scaleX>
+                    </multiple>
+                </sequence>
+            </sequence>
+        </emoji3>
+
+    </animation>
+</resources>

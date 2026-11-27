@@ -1,0 +1,48 @@
+<resources>
+
+    <container id="root" x="0" y="0">
+        <image id="icon_upgrade" x="0" y="0" pivotX="0.5" pivotY="0.5" path="UI_baru/rempah/chest/card_mark_upgrade.png"/>
+    </container>
+
+    <animation>
+        <upgrade_chest>
+            <sequence repeat="-1">
+                <multiple>
+                    <moveY id="icon_upgrade" time="0">0</moveY>
+                    <scaleX id="icon_upgrade" pivotX="0.5" time="0">1</scaleX>
+                    <scaleY id="icon_upgrade" pivotY="0.5" time="0">1</scaleY>
+                </multiple>
+                <moveY id="icon_upgrade" time="1">-30</moveY>
+                <multiple>
+                    <scaleX id="icon_upgrade" pivotX="0.5" time="0.1">1.1</scaleX>
+                    <scaleY id="icon_upgrade" pivotY="0.5" time="0.1">1.1</scaleY>
+                </multiple>
+                <multiple>
+                    <scaleX id="icon_upgrade" pivotX="0.5" time="0.05">1</scaleX>
+                    <scaleY id="icon_upgrade" pivotY="0.5" time="0.05">1</scaleY>
+                </multiple>
+                <wait time="0.2"/>
+            </sequence>
+        </upgrade_chest>
+
+        <upgrade_general>
+            <sequence repeat="-1">
+                <multiple>
+                    <moveY id="icon_upgrade" time="0">0</moveY>
+                    <scaleX id="icon_upgrade" pivotX="0.5" time="0">0.8</scaleX>
+                    <scaleY id="icon_upgrade" pivotY="0.5" time="0">0.8</scaleY>
+                </multiple>
+                <moveY id="icon_upgrade" time="1">-15</moveY>
+                <multiple>
+                    <scaleX id="icon_upgrade" pivotX="0.5" time="0.1">0.9</scaleX>
+                    <scaleY id="icon_upgrade" pivotY="0.5" time="0.1">0.9</scaleY>
+                </multiple>
+                <multiple>
+                    <scaleX id="icon_upgrade" pivotX="0.5" time="0.05">0.8</scaleX>
+                    <scaleY id="icon_upgrade" pivotY="0.5" time="0.05">0.8</scaleY>
+                </multiple>
+                <wait time="0.2"/>
+            </sequence>
+        </upgrade_general>
+    </animation>
+</resources>

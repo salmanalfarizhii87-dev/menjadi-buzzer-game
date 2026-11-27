@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--testing -->
+<!--tidak kepakai, yg dipakai kelas LabelItem.cpp-->
+<resources>
+
+    <container id="cont1" x="0" y="0">
+        <image_list id="base" x="0" y="0">
+            <item>UI_baru/ui_lbl_base.png</item>
+        </image_list>
+
+        <image_list id="icon" x="40" y="20">
+            <item>icon/makanan/ic_makanan_01_religiuese tahbol.png</item>
+        </image_list>
+
+        <text id="judul" x="170" y="15" font="textFont" fontSize="40" color="ffffff">
+            Judul
+        </text>
+
+        <text id="desc" x="170" y="70" font="textFont" fontSize="30" color="000000" wrapWidth="50" isCenter="false">
+            Tahu tahu tahu tahu t a h u t a h u t a h u t a h u
+        </text>
+
+        <toogleButton id="mata" x="360" y="0" imageActive="UI_baru/ui_btn_hide.png" imageNonActive="UI_baru/ui_btn_unhide.png" isActive="false">
+            <!--<button id="active" imageNormal="UI_baru/ui_btn_hide.png">-->
+            <!--</button>-->
+            <!--<button id="nonactive" imageNormal="UI_baru/ui_btn_unhide.png">-->
+            <!--</button>-->
+        </toogleButton>
+
+        <button id="info" x="430" y="0" imageNormal="UI_baru/ui_btn_info.png">
+        </button>
+
+        <image_list id="koin" x="540" y="25">
+            <item>UI_baru/ic_koin_dalamNegeri.png</item>
+        </image_list>
+
+        <text id="harga" x="600" y="32" font="textFont" fontSize="40" color="000000">
+            1.000
+        </text>
+
+        <button id="aksi" x="530" y="75" imageNormal="UI_baru/ui_btn_buy.png">
+            <text id="textAksi" x="0" y="32" font="textFont" fontSize="35" color="FFFFFF" pivotY="0.5" wrapWidth="203" isCenter="true">
+                Buy
+            </text>
+        </button>
+
+    </container>
+
+</resources>

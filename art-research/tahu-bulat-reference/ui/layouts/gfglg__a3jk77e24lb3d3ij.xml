@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario>
+        <dialog karakter="2" ekspresi="idle" alignY="0.5f" y="-120">Huyaa...&#10;Tiba-tiba kepikiran..</dialog>
+        <dialog ekspresi="sad">Sepertinya repot kalau harus selalu bulak-balik buat beli Tahu Bulat.</dialog>
+        <dialog ekspresi="bertanya">Gimana kalau... kamu jualan Tahu Bulat juga di Planet Mars?</dialog>
+        <dialog ekspresi="bertanya" hold="false"/>
+        <pilihan alignY="0.5f" y="-120" animasi="0.3" ekspresi="bertanya">
+            <dialog ekspresi="bertanya">Mau ya? Aku bakal tetap sering belanja di sini juga kok...</dialog>
+            <buttons>
+                <button tipe="btnDelegate" idAksi="jasteenBukaMars" image="UI_baru/ui_btn_normal_ijo.png" text="Err.. oke.."/>
+                <button tipe="btnDelegate" idAksi="jasteenBukaMars" image="UI_baru/ui_btn_normal_ijo.png" text="Ya..."/>
+            </buttons>
+        </pilihan>
+    </skenario>
+</resources>

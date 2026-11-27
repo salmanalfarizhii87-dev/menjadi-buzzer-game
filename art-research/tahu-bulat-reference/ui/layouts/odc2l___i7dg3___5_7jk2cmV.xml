@@ -1,0 +1,243 @@
+<resources>
+
+    <container id="root" x="0" y="0">
+<!--        <container id="chest" x="0" y="-300"-->
+        <container id="chest" x="0" y="-250" pivotX="0.5" pivotY="1" alignX="wLayar#0.5" alignY="hLayar#1">
+            <uiReader id="kartu" xml="xml_ui/rempah/kartu.xml" x="0" y="0" pivotX="0.5" pivotY="0.5"/>
+            <uiReader id="bintang" xml="xml_ui/rempah/bintang_rarity.xml" x="0" y="0" pivotX="0.5" pivotY="0.5"/>
+
+            <image id="chest_atas" x="-3" y="-390" pivotX="0.5" pivotY="0" path="UI_baru/rempah/chest/chest_lv4_tutup2.png" isVisible="false"/>
+            <particle id="p_trailtutup" xml="xml_ui/rempah/particle/p_chest_trail_lv3.xml" x="0" y="0" alignX="chest_atas#0.5" alignY="chest_atas#0.5"/>
+
+            <particle id="p_semprot" xml="xml_ui/rempah/particle/p_chest_semprot_lv4.xml" x="0" y="-220"/>
+            <particle id="p_glow" xml="xml_ui/rempah/particle/p_chest_glow_lv2.xml" x="-10" y="-225"/>
+            <image_listv2 id="chest_bawah" x="0" y="0" pivotX="0.5" pivotY="1" jeda="1" isVisible="false">
+                <images>
+                    <item x="0" y="0">UI_baru/rempah/chest/chest_lv4_normal.png</item>
+                    <item x="0" y="0">UI_baru/rempah/chest/chest_lv4_cembung.png</item>
+                    <item x="0" y="0">UI_baru/rempah/chest/chest_lv4_cekung.png</item>
+                    <item x="0" y="0">UI_baru/rempah/chest/chest_lv4_normal2.png</item>
+                </images>
+            </image_listv2>
+
+            <particle id="p_asapbawah" xml="xml_ui/rempah/particle/p_chest_asapbawah_lv4.xml" x="0" y="0"/>
+            <particle id="p_asaprotate" xml="xml_ui/rempah/particle/p_chest_asaprotate_lv4.xml" x="0" y="0"/>
+            <particle id="p_asaphilang" xml="xml_ui/rempah/particle/p_chest_asaphilang_lv4.xml" x="0" y="0"/>
+            <particle id="p_cling" xml="xml_ui/rempah/particle/p_chest_cling_lv4.xml" x="0" y="0"/>
+        </container>
+
+        <text id="isi_chest" font="cuckoo" fontSize="50" color="ffffff" x="0" y="80" pivotX="0.5" pivotY="0.5" alignX="chest#0.5" alignY="chest#1" isVisible="false">ISI: 5/10</text>
+        <text id="tap_chest" font="cuckoo" fontSize="50" color="ffffff" x="0" y="180" pivotX="0.5" pivotY="0.5" alignX="chest#0.5" alignY="chest#1" isVisible="false">-Tap untuk melanjutkan-</text>
+
+    </container>
+
+    <animation>
+        <chest_muncul>
+            <sequence>
+                <!--//06262020-->
+                <multiple>
+                    <playAnim id="kartu" nama="rempah_hilang"/>
+                </multiple>
+
+                <multiple>
+                    <changeFrame id="chest_bawah">0</changeFrame>
+
+                    <scaleX id="chest" pivotX="0.5" time="0">0</scaleX>
+                    <scaleY id="chest" pivotY="1" time="0">0</scaleY>
+                    <moveY id="chest" time="0">0</moveY>
+
+
+                    <hideVisibility id="chest_atas"/>
+                    <!--                    <moveToY id="chest_atas" y="0" alignY="basePos#0.5" time="0"/>-->
+
+                    <scaleY id="chest_bawah" pivotY="1" time="0">1</scaleY>
+                    <scaleX id="chest_bawah" pivotX="0.5" time="0">1</scaleX>
+
+                    <alpha id="isi_chest">0</alpha>
+                    <alpha id="tap_chest">0</alpha>
+                </multiple>
+
+                <multiple>
+                    <showVisibility id="chest_bawah"/>
+                    <moveY id="chest" time="0.25">-300</moveY>
+                    <scaleX id="chest" pivotX="0.5" time="0.25">0.95</scaleX>
+                    <scaleY id="chest" pivotY="1" time="0.25">1.05</scaleY>
+                </multiple>
+
+                <multiple>
+                    <moveY id="chest" time="0.05">0</moveY>
+                    <scaleX id="chest" pivotX="0.5" time="0.08">1.05</scaleX>
+                    <scaleY id="chest" pivotY="1" time="0.08">0.95</scaleY>
+                    <sequence>
+                        <wait time="0.03"/>
+                        <playParticle id="p_asapbawah"/>
+                        <playParticle id="p_cling"/>
+                    </sequence>
+                </multiple>
+
+                <multiple>
+                    <scaleX id="chest" pivotX="0.5" time="0.1">1</scaleX>
+                    <scaleY id="chest" pivotY="1" time="0.1">1</scaleY>
+
+                    <showVisibility id="isi_chest"/>
+                    <showVisibility id="tap_chest"/>
+                    <alpha id="isi_chest" time="0.2">1</alpha>
+                    <alpha id="tap_chest" time="0.2">1</alpha>
+                </multiple>
+            </sequence>
+        </chest_muncul>
+
+        <chest_buka>
+            <sequence>
+                <multiple>
+                    <scaleX id="chest" pivotX="0.5" time="0.1">1</scaleX>
+                    <scaleY id="chest" pivotY="1" time="0.1">0.95</scaleY>
+                </multiple>
+
+                <multiple>
+                    <changeFrame id="chest_bawah">1</changeFrame>
+                    <scaleX id="chest" pivotX="0.5" time="0">1</scaleX>
+                    <scaleY id="chest" pivotY="1" time="0">1</scaleY>
+
+                    <sequence>
+                        <sequence repeat="2">
+                            <playParticle id="p_asaprotate"/>
+                            <rotate id="chest_bawah" pivotX="0.5" pivotY="1" time="0.05">20</rotate>
+                            <rotate id="chest_bawah" pivotX="0.5" pivotY="1" time="0.05">-20</rotate>
+                            <rotate id="chest_bawah" pivotX="0.5" pivotY="1" time="0.05">15</rotate>
+                            <rotate id="chest_bawah" pivotX="0.5" pivotY="1" time="0.05">-15</rotate>
+                        </sequence>
+                        <rotate id="chest_bawah" pivotX="0.5" pivotY="1" time="0.05">0</rotate>
+                    </sequence>
+
+                    <scaleY id="chest_bawah" pivotY="1" time="0.5">0.7</scaleY>
+                </multiple>
+
+                <multiple>
+                    <scaleX id="chest" pivotX="0.5" time="0">1</scaleX>
+                    <scaleY id="chest" pivotY="1" time="0">1</scaleY>
+                    <showVisibility id="chest_atas"/>
+
+
+                    <sequence>
+                        <playParticle id="p_trailtutup"/>
+                        <multiple>
+                            <moveToY id="p_trailtutup" y="-500" alignY="hLayar#-1" time="0.3"/>
+                            <moveToY id="chest_atas" y="-500" alignY="hLayar#-1" time="0.25"/>
+                        </multiple>
+
+                        <hideVisibility id="chest_atas"/>
+                    </sequence>
+
+                    <sequence>
+                        <playParticle id="p_semprot"/>
+                        <multiple>
+                            <changeFrame id="chest_bawah">2</changeFrame>
+                            <scaleY id="chest_bawah" pivotY="1" time="0.05">1.2</scaleY>
+                            <scaleX id="chest_bawah" pivotX="0.5" time="0.05">1.2</scaleX>
+                        </multiple>
+
+                        <wait time="0.05"/>
+
+                        <multiple>
+                            <scaleY id="chest_bawah" pivotY="1" time="0.1">1</scaleY>
+                            <scaleX id="chest_bawah" pivotX="0.5" time="0.1">1</scaleX>
+                        </multiple>
+
+                        <multiple>
+                            <showVisibility id="p_glow"/>
+                            <playParticle id="p_glow"/>
+                            <changeFrame id="chest_bawah">3</changeFrame>
+                        </multiple>
+                    </sequence>
+
+                    <playAnim id="kartu" nama="rempah_keluar"/>
+<!--                    <playAnim id="bintang" nama="bintang_1"/>-->
+
+
+                    <!--                    kalo baru play : icon_rempah_baru-->
+                    <!--                    kalo full bar play : alpha_bar_penuh-->
+                    <wait time="1.4"/>
+                </multiple>
+            </sequence>
+        </chest_buka>
+
+        <chest_buka_next>
+            <sequence>
+                <multiple>
+                    <hideVisibility id="p_glow"/>
+                    <stopParticle id="p_glow"/>
+                    <playAnim id="kartu" nama="rempah_hilang"/>
+                    <playAnim id="bintang" nama="bintang_hilang"/>
+                </multiple>
+
+                <wait time="0.2"/>
+
+                <multiple>
+                    <sequence>
+                        <multiple>
+                            <scaleY id="chest_bawah" pivotY="1" time="0.05">0.85</scaleY>
+                            <scaleX id="chest_bawah" pivotX="0.5" time="0.05">1.2</scaleX>
+                        </multiple>
+                        <playParticle id="p_semprot"/>
+                        <multiple>
+                            <changeFrame id="chest_bawah">2</changeFrame>
+                            <scaleY id="chest_bawah" pivotY="1" time="0.05">1.2</scaleY>
+                            <scaleX id="chest_bawah" pivotX="0.5" time="0.05">1.2</scaleX>
+                        </multiple>
+
+                        <wait time="0.05"/>
+
+                        <multiple>
+                            <scaleY id="chest_bawah" pivotY="1" time="0.1">1</scaleY>
+                            <scaleX id="chest_bawah" pivotX="0.5" time="0.1">1</scaleX>
+                        </multiple>
+
+                        <multiple>
+                            <showVisibility id="p_glow"/>
+                            <playParticle id="p_glow"/>
+                            <changeFrame id="chest_bawah">3</changeFrame>
+                        </multiple>
+                    </sequence>
+
+                    <playAnim id="kartu" nama="rempah_keluar"/>
+<!--                    <playAnim id="bintang" nama="bintang_1"/>-->
+
+
+                    <!--                    kalo baru play : icon_rempah_baru-->
+                    <!--                    kalo full bar play : alpha_bar_penuh-->
+                    <wait time="1.4"/>
+                </multiple>
+            </sequence>
+        </chest_buka_next>
+
+        <chest_hilang>
+            <sequence>
+                <multiple>
+                    <hideVisibility id="p_glow"/>
+                    <stopParticle id="p_glow"/>
+                    <playAnim id="kartu" nama="rempah_hilang"/>
+                    <playAnim id="bintang" nama="bintang_hilang"/>
+
+                    <hideVisibility id="p_cling"/>
+                    <stopParticle id="p_cling"/>
+                    <hideVisibility id="isi_chest"/>
+                    <hideVisibility id="tap_chest"/>
+                    <alpha id="isi_chest">0</alpha>
+                    <alpha id="tap_chest">0</alpha>
+                </multiple>
+
+                <multiple>
+                    <scaleY id="chest_bawah" pivotY="1" time="0.15">1.2</scaleY>
+                    <scaleX id="chest_bawah" pivotX="0.5" time="0.15">1.2</scaleX>
+                </multiple>
+
+                <multiple>
+                    <playParticle id="p_asaphilang"/>
+                    <scaleY id="chest_bawah" pivotY="1" time="0.1">0</scaleY>
+                    <scaleX id="chest_bawah" pivotX="0.5" time="0.1">0</scaleX>
+                </multiple>
+            </sequence>
+        </chest_hilang>
+    </animation>
+</resources>

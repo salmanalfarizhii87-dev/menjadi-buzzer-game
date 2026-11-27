@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <container id="base" x="0" y="0" height="790">
+
+        <container id="labeldata" x="0" y="25">
+            <image_list id="bgLabelData" x="0" y="35" isBaseContainer="true">
+                <item>UI_baru/label_data.png</item>
+            </image_list>
+
+            <image_list id="iconKota" x="50" y="0">
+                <item>icon/icon kota cabang tanpa ilustrasi/ic_gedung sate.png</item>
+            </image_list>
+
+            <text id="namaKota" x="15" y="48" alignX="iconKota#1" font="cuckoo" fontSize="32" color="ffffff">Bandung</text>
+
+            <!--<container id="divFotoPedagang" x="80" y="25" alignY="iconKota#1">-->
+                <!--&lt;!&ndash;171x197&ndash;&gt;-->
+                <!--<image_list id="bgFotoPedagang" x="15" y="15">-->
+                    <!--<item>UI_baru/frame_BG_1.png</item>-->
+                <!--</image_list>-->
+                <!--<image_list id="fotoPedagang" x="85" y="98" pivotX="0.5" pivotY="0.5">-->
+                    <!--<item>pedagang/Ch_AkangTahu_idle.png</item>-->
+                <!--</image_list>-->
+                <!--<image_list id="frameFotoPedagang" isBaseContainer="true">-->
+                    <!--<item>UI_baru/frame_1.png</item>-->
+                <!--</image_list>-->
+            <!--</container>-->
+
+            <!--<image_list id="labelLevelPedagang" x="-20" y="-20" pivotX="0" pivotY="0" alignX="divFotoPedagang#0" alignY="divFotoPedagang#0">-->
+                <!--<item>UI_baru/label_pedagang_level.png</item>-->
+            <!--</image_list>-->
+            <!--<text id="textLevelPedagang" x="0" y="5" pivotX="0.5" pivotY="1" alignX="labelLevelPedagang#0.5" alignY="labelLevelPedagang#0.5" font="cuckoo" fontSize="28" color="000000">50</text>-->
+
+            <!--<image_list id="labelRarityPedagang" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="divFotoPedagang#1" alignY="divFotoPedagang#1">-->
+                <!--<item>UI_baru/label_pedagang_rarity.png</item>-->
+            <!--</image_list>-->
+            <!--<text id="textRarityPedagang" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="labelRarityPedagang#0.5" alignY="labelRarityPedagang#0.5" font="cuckoo" fontSize="28" color="000000">C</text>-->
+
+            <text id="labelStatistik" x="80" y="25" alignY="iconKota#1" font="comicneueBold" fontSize="27" color="000000">Statistik Penjualan:</text>
+            <text id="textStatistik" x="0" y="5" alignX="labelStatistik#0" alignY="labelStatistik#1" font="comicneueLight" fontSize="27" color="000000" wrapWidth="240">Kamingsun!</text>
+
+            <!--<text id="labelStatistik" x="20" y="-20" alignX="divFotoPedagang#1" alignY="divFotoPedagang#0" font="comicneueBold" fontSize="27" color="000000">Statistik Penjualan:</text>-->
+            <!--<text id="textStatistik" x="0" y="5" alignX="labelStatistik#0" alignY="labelStatistik#1" font="comicneueLight" fontSize="27" color="000000" wrapWidth="240">Kamingsun!</text>-->
+        </container>
+
+        <container id="badgeLevel" x="0" y="20" alignX="labeldata#1" alignY="labeldata#0">
+            <image_list id="bgBadgeLevel" x="0" y="0" isBaseContainer="true">
+                <item>UI_baru/label_level.png</item>
+            </image_list>
+            <text id="textBadgeLevel" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="bgBadgeLevel#0.5" alignY="bgBadgeLevel#0.5" font="cuckoo" fontSize="32" color="000000">1</text>
+        </container>
+
+        <container id="barExp" x="8" y="5" alignY="badgeLevel#1" alignX="badgeLevel#0">
+            <image_list id="barKosongExp" x="0" y="0" isBaseContainer="true">
+                <item>UI_baru/bar_peridot.png</item>
+            </image_list>
+            <image_list id="barIsiExp" x="0" y="0" scaleX="0.5">
+                <item>UI_baru/bar_isi.png</item>
+            </image_list>
+            <text id="textBarExp" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="barKosongExp#0.5" alignY="barKosongExp#0.5" font="cuckoo" fontSize="28" color="ffffff">50%</text>
+        </container>
+
+        <container id="barPeridot" x="0" y="5" alignX="barExp#0" alignY="barExp#1">
+        <!--<container id="barPeridot" x="5" y="60" alignX="labeldata#1" alignY="labeldata#0">-->
+            <image_list id="bgBarPeridot" x="0" y="0" isBaseContainer="true">
+                <item>UI_baru/bar_peridot.png</item>
+            </image_list>
+            <image_list id="iconPeridot" x="0" y="0">
+                <item>UI_baru/ic_peridot.png</item>
+            </image_list>
+            <text id="textBarPeridot" x="135" y="0" pivotX="1" alignY="bgBarPeridot#0.5" pivotY="0.5" font="cuckoo" fontSize="32" color="ffffff">500</text>
+        </container>
+
+        <button id="btnProfile" x="0" y="-100" pivotX="0.5" alignX="barPeridot#0.5" alignY="labeldata#1" imageNormal="UI_baru/button_coklat_kecil.png">
+            <image_list id="iconProfil" x="0" y="20" pivotX="0.5">
+                <item>UI_baru/ic_profil.png</item>
+            </image_list>
+            <text id="textBtnProfile" x="0" y="7" pivotX="0.5" pivotY="0" alignY="iconProfil#1" font="cuckoo" fontSize="25" color="ffffff">Profil</text>
+            <image_list id="notifProfile" x="-20" y="5" pivotX="0" pivotY="0" alignX="iconProfil#1" isVisible="false">
+                <item>UI_baru/ic_alert.png</item>
+            </image_list>
+        </button>
+
+        <!--hal kedua-->
+        <container id="listbuttonbesar" x="0" y="70" alignY="labeldata#1" alignX="labeldata#0" height="214">
+            <button id="btnHRD" x="30" y="0" imageNormal="UI_baru/button_coklat_besar.png" onClick="pindahState#statistik_hrd">
+                <image_list id="iconHRD" x="101" y="21" pivotX="0.5">
+                    <item>UI_baru/ic_HRD.png</item>
+                </image_list>
+                <text id="textBtnHRD" x="0" y="185" pivotX="0.5" pivotY="1" alignX="iconHRD#0.5" font="cuckoo" fontSize="32" color="ffffff">PEDAGANG</text>
+            </button>
+
+            <button id="btnBank" x="50" y="0" alignX="btnHRD#1" imageNormal="UI_baru/button_coklat_besar.png" onClick="pindahState#statistik_bank">
+                <image_list id="iconBank" x="101" y="23" pivotX="0.5">
+                    <item>UI_baru/ic_bank.png</item>
+                </image_list>
+                <text id="textBtnBank" x="0" y="185" pivotX="0.5" pivotY="1" alignX="iconBank#0.5" font="cuckoo" fontSize="32" color="ffffff">BANK</text>
+            </button>
+
+            <button id="btnPeta" x="50" y="0" alignX="btnBank#1" imageNormal="UI_baru/button_coklat_besar.png" onClick="pindahState#statistik_peta">
+                <image_list id="iconPeta" x="101" y="37" pivotX="0.5">
+                    <item>UI_baru/ic_peta.png</item>
+                </image_list>
+                <text id="textBtnPeta" x="0" y="185" pivotX="0.5" pivotY="1" alignX="iconPeta#0.5" font="cuckoo" fontSize="32" color="ffffff">PETA</text>
+            </button>
+        </container>
+
+        <!--<container id="listbuttonbawah" x="0" y="20" alignX="listbuttonbesar#1" alignY="listbuttonbesar#1" height="102">-->
+        <container id="listbuttonbawah" x="0" y="15" alignX="listbuttonbesar#1" alignY="listbuttonbesar#1" height="102">
+            <button id="btnGPlay" x="0" y="0" imageNormal="UI_baru/button_bulat_biru.png">
+                <image_list id="iconGPlay" x="45" y="50" pivotX="0.5f" pivotY="0.5f">
+                    <item>UI_baru/ic_googleplay.png</item>
+                </image_list>
+            </button>
+            <button id="btnCloud" x="4" y="0" alignX="btnGPlay#1" imageNormal="UI_baru/button_bulat_biru.png">
+<!--                <image_list id="iconCloud" x="20" y="25">-->
+                <image_list id="iconCloud" x="45" y="50" pivotX="0.5f" pivotY="0.5f">
+                    <item>UI_baru/ui3_ic_cloud.png</item>
+                </image_list>
+            </button>
+            <button id="btnAchievement" x="4" y="0" alignX="btnCloud#1" imageNormal="UI_baru/button_bulat_biru.png">
+<!--                <image_list id="iconAchievement" x="27" y="20">-->
+                <image_list id="iconAchievement" x="45" y="50" pivotX="0.5f" pivotY="0.5f">
+                    <item>UI_baru/ui3_ic_achievements.png</item>
+                </image_list>
+            </button>
+            <button id="btnLeaderboard" x="4" y="0" alignX="btnAchievement#1" imageNormal="UI_baru/button_bulat_biru.png">
+<!--                <image_list id="iconLeaderboard" x="18" y="20">-->
+                <image_list id="iconLeaderboard" x="45" y="50" pivotX="0.5f" pivotY="0.5f">
+                    <item>UI_baru/ui3_ic_leaderboard.png</item>
+                </image_list>
+            </button>
+<!--            <button id="btnOwn" x="4" y="0" alignX="btnCloud#1" imageNormal="UI_baru/button_bulat_kuning.png">-->
+<!--                <image_list id="iconOwn" x="0" y="0">-->
+<!--                    <item>UI_baru/ic_own.png</item>-->
+<!--                </image_list>-->
+<!--            </button>-->
+            <button id="btnCredits" x="4" y="0" alignX="btnLeaderboard#1" imageNormal="UI_baru/button_bulat_biru.png">
+                <image_list id="iconCredits" x="45" y="50" pivotX="0.5f" pivotY="0.5f">
+                    <item>UI_baru/ic_credits.png</item>
+                </image_list>
+            </button>
+            <button id="btnSetting" x="4" y="0" alignX="btnCredits#1" imageNormal="UI_baru/button_bulat_biru.png" onClick="popUp#setting">
+                <image_list id="iconSetting" x="45" y="50" pivotX="0.5f" pivotY="0.5f">
+                    <item>UI_baru/ic_settings.png</item>
+                </image_list>
+            </button>
+            <button id="btnBagikan" x="4" y="0" alignX="btnSetting#1" imageNormal="UI_baru/button_bulatpanjang_hijau.png">
+                <image_list id="iconBagikan" x="15" y="45" pivotY="0.5">
+                    <item>UI_baru/ic_share.png</item>
+                </image_list>
+                <text id="textBagikan" x="45" y="0" pivotY="0.5" alignX="iconBagikan#0" alignY="iconBagikan#0.5" font="cuckoo" fontSize="30" color="ffffff">Bagikan</text>
+            </button>
+        </container>
+
+    </container>
+
+</resources>

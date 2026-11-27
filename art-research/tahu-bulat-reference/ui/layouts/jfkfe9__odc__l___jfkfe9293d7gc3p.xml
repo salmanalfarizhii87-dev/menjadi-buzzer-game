@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="root">
+        <image_list id="mobil" x="0" y="0" isBaseContainer="true">
+            <item>sotong/ui/mobil.png</item>
+        </image_list>
+
+        <container id="contBumbu" x="0" y="35">
+            <image_list id="bumbu1" x="6" y="0">
+                <item>sotong/ui/bumbu_pedas.png</item>
+            </image_list>
+            <image_list id="bumbu2" x="129" y="0">
+                <item>sotong/ui/bumbu_bbq.png</item>
+            </image_list>
+            <image_list id="bumbu3" x="252" y="0">
+                <item>sotong/ui/bumbu_sambalHijau.png</item>
+            </image_list>
+            <image_list id="bumbu4" x="375" y="0">
+                <item>sotong/ui/bumbu_strawberry.png</item>
+            </image_list>
+            <image_list id="bumbu5" x="500" y="0">
+                <item>sotong/ui/bumbu_bubblegum.png</item>
+            </image_list>
+
+            <image_list id="tutupbumbu1" x="0" y="0" alignX="bumbu1#0" alignY="bumbu1#0" isVisible="false">
+                <item>sotong/ui/tutup.png</item>
+            </image_list>
+            <image_list id="tutupbumbu2" x="0" y="0" alignX="bumbu2#0" alignY="bumbu2#0" isVisible="false">
+                <item>sotong/ui/tutup.png</item>
+            </image_list>
+            <image_list id="tutupbumbu3" x="0" y="0" alignX="bumbu3#0" alignY="bumbu3#0" isVisible="false">
+                <item>sotong/ui/tutup.png</item>
+            </image_list>
+            <image_list id="tutupbumbu4" x="0" y="0" alignX="bumbu4#0" alignY="bumbu4#0" isVisible="false">
+                <item>sotong/ui/tutup.png</item>
+            </image_list>
+            <image_list id="tutupbumbu5" x="0" y="0" alignX="bumbu5#0" alignY="bumbu5#0" isVisible="false">
+                <item>sotong/ui/tutup.png</item>
+            </image_list>
+        </container>
+
+        <image_list id="bakSotong" x="0" y="186">
+            <item>sotong/ui/bak_sotong.png</item>
+        </image_list>
+
+        <container id="contMejaKecil" x="0" y="364">
+            <image_list id="mejaKecil" x="0" y="0" isBaseContainer="true">
+                <item>sotong/ui/meja_kecil.png</item>
+            </image_list>
+            <image_list id="bakTusukSate" x="1" y="-16">
+                <item>sotong/ui/bak_tusukSate.png</item>
+            </image_list>
+            <image_list id="talenanTusukan" x="114" y="6">
+                <item>sotong/ui/talenan_susun.png</item>
+            </image_list>
+        </container>
+
+        <container id="contMejaBesar" x="234" y="198">
+            <image_list id="mejaBesar" x="0" y="0" isBaseContainer="true">
+                <item>sotong/ui/meja_besar.png</item>
+            </image_list>
+            <container id="contTalenanSotong" x="0" y="0">
+                <image_list id="talenanSotong" x="13" y="10" isBaseContainer="true">
+                    <item>sotong/ui/talenan_potong.png</item>
+                </image_list>
+                <image_list id="airSotong" x="48" y="28" isVisible="false">
+                    <item>sotong/ui/sotong_potong_air.png</item>
+                </image_list>
+                <image_list id="pisau" x="44" y="104">
+                    <item>sotong/ui/pisau.png</item>
+                </image_list>
+                <image_list id="sotongPotong" x="48" y="22" isVisible="false">
+                    <item>sotong/ui/sotong_potong/sotong_potong5.png</item>
+                </image_list>
+
+                <particle id="partikelPisau" x="0" y="0" alignX="sotongPotong#1" alignY="sotongPotong#0.5" xml="sotong/xml/partikel/pisau.xml"/>
+            </container>
+
+            <image_list id="wadahSotong" x="218" y="16">
+                <item>sotong/ui/bak_sotongPotong.png</item>
+            </image_list>
+            <image_list id="panggangan" x="9" y="159">
+                <item>sotong/ui/panggangan.png</item>
+            </image_list>
+            <particle id="partikelPanggangan" x="0" y="0" alignX="panggangan#0.5" alignY="panggangan#0.5" xml="sotong/xml/partikel/panggangan.xml"/>
+        </container>
+
+        <container id="contTahu" x="627" y="45">
+            <image_list id="wajan" x="0" y="0">
+                <item>sotong/ui/katel.png</item>
+                <item>sotong/ui/katel_masak1.png</item>
+                <item>sotong/ui/katel_masak2.png</item>
+            </image_list>
+            <particle id="partikelWajan" x="0" y="0" alignY="wajan#1" alignX="wajan#1" pivotX="1" pivotY="0" xml="sotong/xml/partikel/apiwajan.xml"/>
+            <image_list id="rakTahu" x="8" y="122">
+                <item>sotong/ui/rak_tahuBulat.png</item>
+            </image_list>
+        </container>
+
+        <image_list id="tongSampah" x="643" y="422">
+            <item>sotong/ui/tempatSampah.png</item>
+        </image_list>
+    </container>
+
+    <animation>
+    </animation>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="root">
+
+        <button id="btnPause" x="5" y="25" imageNormal="UI_baru/button_bulat_biru.png">
+            <image_list id="iconPause" x="45" y="50" pivotY="0.5" pivotX="0.5">
+                <item>UI_baru/ic_pause.png</item>
+            </image_list>
+        </button>
+
+        <container id="contWave" x="5" y="5" alignX="btnPause#1" alignY="btnPause#0">
+            <image_list id="bgWave" x="0" y="0" isBaseContainer="true">
+                <item>sotong/ui/ui_barSotongSaji.png</item>
+            </image_list>
+            <text id="textWave" x="-20" y="0" pivotX="1" pivotY="0.5" alignX="bgWave#1" alignY="bgWave#0.5" font="cuckoo" fontSize="32" color="ffffff">00/00</text>
+        </container>
+
+        <container id="contTimer" x="8" y="0" alignX="contWave#1">
+            <image_list id="bgTimer" x="0" y="0" isBaseContainer="true">
+                <item>sotong/ui/ui_timerLevel.png</item>
+            </image_list>
+            <container id="contTextTimer" x="0" y="-70" pivotX="0.5" pivotY="0.5" alignX="bgTimer#0.5" alignY="bgTimer#1" >
+                <text id="textTimer" x="0" y="0" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="45" color="000000">00</text>
+            </container>
+
+            <text id="textLevel" x="0" y="10" pivotX="0.5" pivotY="0" alignX="bgTimer#0.5" alignY="bgTimer#0" font="cuckoo" fontSize="32" color="000000">XXX-00</text>
+        </container>
+
+        <container id="contPoin" x="-260" y="12" alignX="wLayar#1">
+            <image_list id="bgBarPoin" x="0" y="20" isBaseContainer="true">
+                <item>sotong/ui/ui_barPoin_base.png</item>
+            </image_list>
+            <image_list id="isiBarPoin" x="5" y="25">
+                <item>sotong/ui/ui_barPoin_isi.png</item>
+            </image_list>
+
+            <image_list id="bintang1" x="-70" y="0" pivotX="0.5" pivotY="0.7" alignY="bgBarPoin#0" alignX="bgBarPoin#1">
+                <item>sotong/ui/ui_bintang_0.png</item>
+            </image_list>
+            <image_list id="bintang2" x="-37" y="0" pivotX="0.5" pivotY="0.7" alignY="bgBarPoin#0" alignX="bgBarPoin#1">
+                <item>sotong/ui/ui_bintang_0.png</item>
+            </image_list>
+            <image_list id="bintang3" x="0" y="0" pivotX="0.5" alignX="isiBarPoin#1" pivotY="0.7" alignY="bgBarPoin#0">
+                <item>sotong/ui/ui_bintang_0.png</item>
+            </image_list>
+
+            <image_list id="garis1" x="0" y="0" pivotX="0.5" pivotY="1" alignX="bintang1#0.5" alignY="bgBarPoin#1">
+                <item>sotong/ui/ui_garisBatasBintang.png</item>
+            </image_list>
+            <image_list id="garis2" x="0" y="0" pivotX="0.5" pivotY="1" alignX="bintang2#0.5" alignY="bgBarPoin#1">
+                <item>sotong/ui/ui_garisBatasBintang.png</item>
+            </image_list>
+
+            <text id="textPoin" x="20" y="0" pivotY="0.5" alignX="bgBarPoin#0" alignY="bgBarPoin#0.5" font="cuckoo" fontSize="32" color="ffffff">0000/0000</text>
+        </container>
+    </container>
+
+    <animation>
+    </animation>
+</resources>

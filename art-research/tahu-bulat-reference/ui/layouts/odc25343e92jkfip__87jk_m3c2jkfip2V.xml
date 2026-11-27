@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <story lamaFestival="172800" noMisi="5" delayFestival="86400">
+        <judul>Turis Jepang!</judul>
+        <image>UI_baru/banner_popUp_festival_story.png</image>
+        <syarat_buka>
+            <item tipe="penghasilan" cabang="Bandung">500000000</item>
+            <item tipe="story" cabang="Festival Story" value="3"/>
+        </syarat_buka>
+        <storyBukaCabang>xml_dialog/misi 5/festivalstory_bukacabang.xml</storyBukaCabang>
+        <storyAwalDiCabang>xml_dialog/misi 5/festivalstory_awal.xml</storyAwalDiCabang>
+        <storyTargetTercapai>xml_dialog/misi 5/festivalstory_targettercapai.xml</storyTargetTercapai>
+        <storyTargetTidakTercapai>xml_dialog/misi 5/festivalstory_targettidaktercapai.xml</storyTargetTidakTercapai>
+        <popup_reward>
+            <judul>Turis Jepang!</judul>
+            <desc>Kata Vicky, Turis Jepang ga bakal&#10;suka makan Tahu Bulat.&#10;Hmph.. Mari kita tunjukkan keahlian Akang Tahu dalam menyajikan Menu Internasional!!</desc>
+        </popup_reward>
+        <reward>
+            <item target="5000000000" namaHadiah="Peti Perak" tipeHadiah="chest" idHadiah="chest_silver" jumlahHadiah="1"/>
+        </reward>
+        <trio_kribo>
+            <bocah1 cabang="Jepang"/>
+            <bocah2 cabang="Jepang"/>
+            <bocah3 cabang="Jepang"/>
+        </trio_kribo>
+        <menu_item>
+            <mobil>
+                <bodyMobil cabang="Jepang"/>
+            </mobil>
+            <minuman>
+                <item id="Ocha" icon="ic_ocha.png"/>
+            </minuman>
+            <resep banyakItem="10">
+                <item cabang="Jepang" idx="5"/>
+                <item cabang="Jepang" idx="6"/>
+                <item cabang="Jepang" idx="8"/>
+                <item cabang="Jepang" idx="10"/>
+                <item cabang="Jepang" idx="11"/>
+                <item cabang="Jepang" idx="7"/>
+                <item cabang="Jepang" idx="9"/>
+                <item cabang="Atlantis" idx="11"/>
+                <item cabang="Atlantis" idx="10"/>
+                <item cabang="Bandung" idx="11"/>
+            </resep>
+            <promo banyakItem="6">
+                <item cabang="Jepang" idx="0"/>
+                <item cabang="Jepang" idx="1"/>
+                <item cabang="Jepang" idx="2"/>
+                <item cabang="Jepang" idx="3"/>
+                <item cabang="Jepang" idx="4"/>
+                <item cabang="Jepang" idx="5"/>
+            </promo>
+        </menu_item>
+    </story>
+</resources>

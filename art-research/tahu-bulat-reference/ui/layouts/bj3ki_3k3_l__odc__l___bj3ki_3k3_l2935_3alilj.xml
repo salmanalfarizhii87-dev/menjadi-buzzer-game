@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <image_list id="imgBahan" x="0" pivotX="0.5" alignX="wLayar#0.5" y="0" pivotY="1" alignY="hLayar#0.5" scaleX="2" scaleY="2" pivotScaleX="0.5" pivotScaleY="0.5">
+            <item>UI_baru/lbl_ufo_base.png</item>
+        </image_list>
+
+        <button id="btnHentikan" x="0" y="-100" pivotX="0.5" pivotY="1" alignX="wLayar#0.5" alignY="hLayar#1" imageNormal="UI_baru/ui_btn_big.png">
+            <text id="labelHentikan" x="0" y="-62" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="42" color="ffffff">Hentikan</text>
+        </button>
+    </container>
+</resources>

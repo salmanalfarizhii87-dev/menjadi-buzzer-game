@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+            <!--//06302020-->
+<!--        <rect id="dasar" widthPersen="1" heightPersen="1" color="49e7ff"/>-->
+<!--        <gradient id="atas" x="0" y="0" color="1b4540" widthPersen="1" heightPersen="0.5" horizontal="false" flip="false"/>-->
+<!--        <gradient id="bawah2" x="0" y="0" alignY="hLayar#0.5" color="2b2b2b" widthPersen="1" heightPersen="0.5" horizontal="false" flip="true"/>-->
+<!--        <gradient id="bawah1" x="0" y="100" alignY="hLayar#0.5" color="1b4540" widthPersen="1" heightPersen="0.5" horizontal="false" flip="true"/>-->
+
+        <!--//06302020-->
+        <container id="contPattern" x="0" y="0">
+        </container>
+
+        <image_list id="logoImage" x="0" pivotX="0.5" y="-60" pivotY="1" alignX="wLayar#0.5" alignY="hLayar#0.5">
+            <item>promogame/ui/PG_ui_masarulogo.png</item>
+        </image_list>
+
+        <container id="divEnergy" x="-160" alignX="wLayar#1" y="20">
+            <image_list id="bgBarEnergy" x="10" y="5" isBaseContainer="true">
+                <item>UI_baru/bar_peridot.png</item>
+            </image_list>
+            <image_list id="labelEnergy" y="-5">
+                <item>UI_baru/ic_energy.png</item>
+            </image_list>
+            <text id="textEnergy" x="-10" y="0" pivotX="1" pivotY="0.5" alignX="bgBarEnergy#1" alignY="bgBarEnergy#0.5" font="cuckoo" fontSize="28" color="ffffff">000</text>
+        </container>
+
+        <container id="divPeridot" x="-170" y="0" alignX="divEnergy#0" alignY="divEnergy#0">
+            <image_list id="bgBarPeridot" x="10" y="5" isBaseContainer="true">
+                <item>UI_baru/bar_peridot.png</item>
+            </image_list>
+            <image_list id="labelPeridot">
+                <item>UI_baru/ic_peridot.png</item>
+            </image_list>
+            <text id="textPeridot" x="-10" y="0" pivotX="1" pivotY="0.5" alignX="bgBarPeridot#1" alignY="bgBarPeridot#0.5" font="cuckoo" fontSize="28" color="ffffff">000</text>
+        </container>
+
+        <container id="divTimer" x="-120" alignX="wLayar#1" y="15" alignY="divEnergy#1">
+            <image_list id="bgTimer" x="10" y="5" scaleX="1.2" isBaseContainer="true">
+                <item>UI_baru/ui_lbl_countdownenergy.png</item>
+            </image_list>
+            <text id="textTimer" x="-10" y="0" pivotX="1" pivotY="0.5" alignX="bgTimer#1" alignY="bgTimer#0.5" font="cuckoo" fontSize="28" color="ffffff">00:00</text>
+        </container>
+
+        <container id="contBar" x="75" y="170" alignY="logoImage#1" width="620" height="230">
+            <image_list id="bgBar" x="0" y="0">
+                <item>promogame/ui/PG_ui_bar_reward_kosong.png</item>
+            </image_list>
+            <image_list id="isiBar" x="5" y="5" alignX="bgBar#0" alignY="bgBar#0">
+                <item>promogame/ui/PG_ui_bar_reward_isi.png</item>
+            </image_list>
+
+            <container id="contReward1" x="0" y="0" pivotX="0.5" pivotY="1" alignY="bgBar#0" alignX="bgBar#0.5">
+                <image_list id="bgReward1" x="0" y="0" pivotX="0.5" pivotY="1" isBaseContainer="true">
+                    <item>promogame/ui/PG_ui_reward_label.png</item>
+                </image_list>
+
+                <container id="reward1" x="0" y="145" pivotY="0" pivotX="0.5" alignX="bgReward1#0.5" alignY="bgReward1#0">
+                    <image_list id="icReward1" x="0" y="35" pivotY="0.5" pivotX="0.5" alignX="bgReward1#0.5" alignY="bgReward1#0">
+                        <item>UI_baru/ic_koin_dalamNegeri.png</item>
+                    </image_list>
+                    <text id="textReward1" x="0" y="65" pivotX="0.5" alignY="bgReward1#0" font="cuckoo" fontSize="25" color="ffffff">000</text>
+                </container>
+                <image_list id="ceklis1" x="0" y="22" pivotY="0" pivotX="0.5" alignX="bgReward1#0.5" alignY="bgReward1#0" isVisible="false">
+                    <item>promogame/ui/PG_ui_reward_centang.png</item>
+                </image_list>
+            </container>
+
+            <container id="contReward2" x="0" y="0" pivotX="0.5" pivotY="1" alignY="bgBar#0" alignX="bgBar#0.75">
+                <image_list id="bgReward2" x="0" y="0" pivotX="0.5" pivotY="1" isBaseContainer="true">
+                    <item>promogame/ui/PG_ui_reward_label.png</item>
+                </image_list>
+
+                <container id="reward2" x="0" y="145" pivotY="0" pivotX="0.5" alignX="bgReward2#0.5" alignY="bgReward2#0" isVisible="false">
+                    <image_list id="icReward2" x="0" y="35" pivotY="0.5" pivotX="0.5" alignX="bgReward2#0.5" alignY="bgReward2#0">
+                        <item>UI_baru/ic_koin_dalamNegeri.png</item>
+                    </image_list>
+                    <text id="textReward2" x="0" y="65" pivotX="0.5" alignY="bgReward2#0" font="cuckoo" fontSize="25" color="ffffff">000</text>
+                </container>
+                <image_list id="ceklis2" x="0" y="22" pivotY="0" pivotX="0.5" alignX="bgReward2#0.5" alignY="bgReward2#0">
+                    <item>promogame/ui/PG_ui_reward_centang.png</item>
+                </image_list>
+            </container>
+
+            <container id="contReward3" x="-5" y="0" pivotX="0.5" pivotY="1" alignY="bgBar#0" alignX="bgBar#1">
+                <image_list id="bgReward3" x="0" y="0" pivotX="0.5" pivotY="1" isBaseContainer="true">
+                    <item>promogame/ui/PG_ui_reward_label.png</item>
+                </image_list>
+
+                <container id="reward3" x="0" y="145" pivotY="0" pivotX="0.5" alignX="bgReward3#0.5" alignY="bgReward3#0">
+                    <image_list id="icReward3" x="0" y="35" pivotY="0.5" pivotX="0.5" alignX="bgReward3#0.5" alignY="bgReward3#0">
+                        <item>UI_baru/ic_koin_dalamNegeri.png</item>
+                    </image_list>
+                    <text id="textReward3" x="0" y="65" pivotX="0.5" alignY="bgReward3#0" font="cuckoo" fontSize="25" color="ffffff">000</text>
+                </container>
+                <image_list id="ceklis3" x="0" y="22" pivotY="0" pivotX="0.5" alignX="bgReward3#0.5" alignY="bgReward3#0" isVisible="false">
+                    <item>promogame/ui/PG_ui_reward_centang.png</item>
+                </image_list>
+            </container>
+
+            <container id="contTextBar" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="bgBar#0.5" alignY="bgBar#0.5" width="100">
+<!--                <text id="textBar0" x="0" y="0" pivotX="1" pivotY="0.5" alignX="bgBar#0.5" alignY="bgBar#0.5" font="cuckoo" fontSize="35" color="ffffff">0000</text>-->
+<!--                <text id="textBar1" x="0" y="0" pivotX="0" pivotY="0.5" alignX="bgBar#0.5" alignY="bgBar#0.5" font="cuckoo" fontSize="35" color="ffffff">/0000</text>-->
+                <text id="textBar0" x="0" y="0" pivotX="1" pivotY="0.5" font="cuckoo" fontSize="35" color="ffffff">0000</text>
+                <text id="textBar1" x="0" y="0" pivotX="0" pivotY="0.5" font="cuckoo" fontSize="35" color="ffffff"> / 0000</text>
+            </container>
+
+            <text id="textGantiHadiah" x="0" y="10" alignX="bgBar#0" alignY="bgBar#1" font="comicneueLight" fontSize="27" color="ffffff">Hadiah akan diganti dalam 24:00:00</text>
+        </container>
+
+        <button id="btnAksi" x="0" pivotX="0.5" alignX="wLayar#0.5" imageNormal="UI_baru/button_hijau_lebarbesar.png" y="-230" pivotY="1" alignY="hLayar#1">
+            <text id="labelAksi" x="-130" y="-75" pivotX="0" pivotY="0.5" font="cuckoo" fontSize="40" color="ffffff">MAIN!</text>
+            <!--/10012020-->
+            <container id="contAksi" x="25" y="-75" pivotY="0.5">
+                <image_list id="segmenAksi" x="0" y="0" pivotY="0.5">
+                    <item>ksatriatahu/ui/segmen_garisHijau.png</item>
+                </image_list>
+                <image_list id="iconAksi" x="15" alignX="segmenAksi#1" y="0" pivotY="0.5">
+                    <item>UI_baru/ic_energy.png</item>
+                </image_list>
+                <text id="textAksi" x="18" y="0" alignX="iconAksi#1" pivotY="0.5" font="cuckoo" fontSize="40" color="ffffff">x1</text>
+            </container>
+        </button>
+
+        <text id="textDesc" x="0" y="20" pivotX="0.5" pivotY="0" alignX="wLayar#0.5" alignY="btnAksi#1" font="cuckoo" fontSize="30" color="ffffff" wrapWidth="450" isCenter="true">Event Spesial %s&#10;tersedia hingga %s</text>
+
+        <container id="barBackMenu" y="-137" alignY="hLayar#1" height="137">
+            <image_list id="bgMenuBack" y="137" pivotY="1">
+                <item>UI_baru/ui_batas_menu_back.png</item>
+            </image_list>
+            <button id="btnBack" x="20" imageNormal="UI_baru/btn_back.png" y="137" pivotY="1" onClick="backPressed">
+            </button>
+
+            <button id="btnInfo" x="-20" pivotX="1" alignX="wLayar#1" imageNormal="UI_baru/button_bulat_besar_kuning.png" y="137" pivotY="1">
+                <image_list id="labelInfo" x="-61" y="-78" pivotY="0.5" pivotX="0.5">
+                    <item>UI_baru/ic_info.png</item>
+                </image_list>
+            </button>
+        </container>
+    </container>
+
+    <animation>
+    </animation>
+</resources>

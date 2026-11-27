@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <image_list id="bannerKsatria">
+            <item>ksatriatahu/ui/banner_kesatriaTahu.png</item>
+        </image_list>
+
+        <image_list id="batasMenu" alignY="bannerKsatria#1">
+            <item>UI_baru/ui_batas_menu.png</item>
+        </image_list>
+
+        <scrollView id="scrollData" alignY="batasMenu#0" x="0" y="0" height="1000">
+        </scrollView>
+
+        <container id="contData" alignY="batasMenu#1" x="0" y="0" height="1000">
+            <container id="contGeneral" x="0" y="25" height="480">
+                <image_list id="bgNamaPet" scaleX="-1" pivotScaleX="0.5">
+                    <item>UI_baru/lbl_pita_namaPlayer.png</item>
+                </image_list>
+                <text id="labelNamaPet" x="20" y="20" alignX="bgNamaPet#0" alignY="bgNamaPet#0" font="cuckoo" fontSize="40" color="000000">Nama Pet</text>
+
+                <container id="divPeridot" x="-190" alignX="wLayar#1" y="0" alignY="bgNamaPet#0">
+                    <image_list id="bgBarPeridot" x="10" y="5" scaleX="1.2" isBaseContainer="true">
+                        <item>UI_baru/bar_peridot.png</item>
+                    </image_list>
+                    <image_list id="labelPeridot">
+                        <item>UI_baru/ic_peridot.png</item>
+                    </image_list>
+                    <text id="textPeridot" x="-10" y="0" pivotX="1" pivotY="0.5" alignX="bgBarPeridot#1" alignY="bgBarPeridot#0.5" font="cuckoo" fontSize="28" color="ffffff">000</text>
+                </container>
+
+                <!--<image_list id="iconJurus" x="-35" y="20" alignX="wLayar#1" alignY="bgNamaPet#0" pivotX="1" scaleX="0.9" scaleY="0.9" pivotScaleX="0.5" pivotScaleY="0.5">-->
+                    <!--<item>ksatriatahu/ui/ic_skill_tahuSutera.png</item>-->
+                <!--</image_list>-->
+                <button id="iconJurus" x="-20" y="20" alignX="wLayar#1" alignY="divPeridot#1" pivotX="1" scaleX="0.85" scaleY="0.85" pivotScaleX="0.5" pivotScaleY="0.5"  imageNormal="ksatriatahu/ui/ic_skill_tahuSutera.png">
+                </button>
+
+                <button id="btnInfoJurus" x="0" y="0" pivotX="0.7" pivotY="0.1" alignX="iconJurus#1" alignY="iconJurus#0" imageNormal="UI_baru/ui_btn_info.png">
+                </button>
+
+                <container id="contInfo" x="-370" alignX="wLayar#1" y="30" alignY="iconJurus#1">
+                    <image_list id="bgInfo" x="0" y="0" isBaseContainer="true">
+                        <item>ksatriatahu/ui/label_notes_info.png</item>
+                    </image_list>
+
+                    <text id="labelInfo" x="40" y="10" alignX="bgInfo#0" alignY="bgInfo#0" font="cuckoo" fontSize="35" color="ffffff">Info</text>
+                    <text id="textInfo" x="75" y="30" alignX="bgInfo#0" alignY="labelInfo#1" font="comicneueBold" fontSize="30" color="000000">Tipe: tahubulat&#10;Evolusi ke: 2&#10;Spesies: Tabulboy&#10;Generasi: XX-01</text>
+                </container>
+
+                <image_list id="starStage0" x="10" y="0" alignX="bgNamaPet#0" alignY="bgNamaPet#1">
+                    <item>ksatriatahu/ui/ic_stageEvolution.png</item>
+                </image_list>
+                <image_list id="starStage1" x="5" y="0" alignX="starStage0#1" alignY="starStage0#0" isVisible="false">
+                    <item>ksatriatahu/ui/ic_stageEvolution.png</item>
+                </image_list>
+                <image_list id="starStage2" x="5" y="0" alignX="starStage1#1" alignY="starStage0#0" isVisible="false">
+                    <item>ksatriatahu/ui/ic_stageEvolution.png</item>
+                </image_list>
+
+                <container id="exp" x="55" y="-50" alignY="contInfo#1" alignX="bgNamaPet#0">
+                    <image_list id="bgBarExp" x="0" isBaseContainer="true">
+                        <item>ksatriatahu/ui/bar_level_kosong.png</item>
+                    </image_list>
+
+                    <image_list id="isiBarExp" x="0" y="5" pivotX="0">
+                        <item>ksatriatahu/ui/bar_level_isi.png</item>
+                    </image_list>
+
+                    <image_list id="iconExp" x="0" pivotX="0.2" pivotY="0.5" alignX="bgBarExp#0" alignY="bgBarExp#0.5">
+                        <item>ksatriatahu/ui/badge_levelKesatria.png</item>
+                    </image_list>
+
+                    <text id="textLevel" x="0" y="0" pivotX="0.5" pivotY="0.5" alignX="iconExp#0.5" alignY="iconExp#0.5" font="cuckoo" fontSize="25" color="000000">999</text>
+                    <text id="textBarExp" x="20" y="0" pivotX="0.5" pivotY="0.5" alignX="bgBarExp#0.5" alignY="iconExp#0.5" font="cuckoo" fontSize="25" color="ffffff" isCenter="true" wrapWidth="297">000/000</text>
+                </container>
+
+                <!--<image_list id="iconPet" x="40" y="20" alignX="bgNamaPet#0" alignY="bgNamaPet#1">-->
+                <!--<item>ksatriatahu/pets/tabulbot/tabulbot_body.png</item>-->
+                <!--</image_list>-->
+
+                <!--cont ksatriatahu-->
+                <uiReader id="uiKsatria" x="0" y="-110" pivotX="0.5" pivotY="1" alignX="exp#0.5" alignY="exp#0" xml="ksatriatahu/xml/tabulboy.xml"/>
+
+            </container>
+
+            <container id="contKisah" x="0" y="30" pivotX="0.5" alignY="contGeneral#1" alignX="wLayar#0.5" height="250">
+                <image_list id="bgKisahAtas" x="0" pivotX="0.5" y="0">
+                    <item>UI_baru/lbl_kertaspita_atas.png</item>
+                </image_list>
+                <image_list id="bgKisahTengah" x="0" pivotX="0.5" y="0" alignY="bgKisahAtas#1" scaleY="2.0" pivotScaleY="0">
+                    <item>UI_baru/lbl_kertaspita_tengah.png</item>
+                </image_list>
+                <image_list id="bgKisahBawah" x="0" pivotX="0.5" y="0" alignY="bgKisahTengah#1">
+                    <item>UI_baru/lbl_kertaspita_bawah.png</item>
+                </image_list>
+
+                <text id="labelKisah" x="30" y="10" alignX="bgKisahAtas#0" font="cuckoo" fontSize="35" color="ffffff">Kisah Kesatria</text>
+                <text id="textKisah" x="30" y="30" alignX="bgKisahAtas#0" alignY="labelKisah#1" font="comicneueBold" fontSize="30" color="000000" wrapWidth="650" isCenter="false">lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum</text>
+            </container>
+
+            <container id="contSejarah" x="0" y="20" pivotX="0.5" alignY="contKisah#1" alignX="wLayar#0.5" height="250" isVisible="false">
+                <image_list id="bgSejarahAtas" x="0" pivotX="0.5" y="0">
+                    <item>UI_baru/lbl_kertaspita_atas.png</item>
+                </image_list>
+                <image_list id="bgSejarahTengah" x="0" pivotX="0.5" y="0" alignY="bgSejarahAtas#1" scaleY="2.0" pivotScaleY="0">
+                    <item>UI_baru/lbl_kertaspita_tengah.png</item>
+                </image_list>
+                <image_list id="bgSejarahBawah" x="0" pivotX="0.5" y="0" alignY="bgSejarahTengah#1">
+                    <item>UI_baru/lbl_kertaspita_bawah.png</item>
+                </image_list>
+                <text id="labelSejarah" x="30" y="10" alignX="bgSejarahAtas#0" font="cuckoo" fontSize="35" color="ffffff">Sejarah Kesatria</text>
+
+                <container id="contIsiSejarah" x="30" y="30" alignX="bgSejarahAtas#0" alignY="labelSejarah#1">
+                </container>
+            </container>
+
+        </container>
+
+        <container id="barBackMenu" y="-137" alignY="hLayar#1" height="137">
+            <image_list id="bgMenuBack" y="137" pivotY="1">
+                <item>UI_baru/ui_batas_menu_back.png</item>
+            </image_list>
+            <button id="btnBack" x="20" imageNormal="UI_baru/btn_back.png" y="137" pivotY="1" onClick="backPressed">
+            </button>
+
+            <button id="btnAksi" x="0" pivotX="0.5" alignX="wLayar#0.5" imageNormal="UI_baru/button_hijau_lebarbesar.png" y="137" pivotY="1">
+                <text id="labelAksi" x="0" y="-75" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="40" color="ffffff">Perkuat Kesatria</text>
+                <container id="contPeridotAksi" x="20" y="-75" pivotY="0.5" isVisible="false">
+                    <image_list id="segmenAksi" x="0" y="0" pivotY="0.5">
+                        <item>ksatriatahu/ui/segmen_garisHijau.png</item>
+                    </image_list>
+                    <image_list id="iconPeridotAksi" x="15" alignX="segmenAksi#1" y="0" pivotY="0.5">
+                        <item>UI_baru/ic_peridot.png</item>
+                    </image_list>
+                    <text id="textPeridotAksi" x="10" y="0" alignX="iconPeridotAksi#1" pivotY="0.5" font="cuckoo" fontSize="40" color="ffffff">999</text>
+                </container>
+                <image_list id="notifAksi" x="195" y="-137" pivotY="0" pivotX="1">
+                    <item>UI_baru/ic_alert.png</item>
+                </image_list>
+            </button>
+
+            <button id="btnInfo" x="-20" pivotX="1" alignX="wLayar#1" imageNormal="UI_baru/button_bulat_besar_kuning.png" y="137" pivotY="1" onClick="popUp#infoKsatria">
+                <image_list id="labelInfo" x="-61" y="-78" pivotY="0.5" pivotX="0.5">
+                    <item>UI_baru/ic_info.png</item>
+                </image_list>
+            </button>
+        </container>
+    </container>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <text id="textDesc" x="-20" y="10" pivotX="0.5" alignX="wLayar#0.5" font="comicneueLight" fontSize="30" color="000000" wrapWidth="650" isCenter="true">Kamu berhasil mengumpulkan:</text>
+
+        <image_list id="iconReward" x="-80" y="20" alignX="wLayar#0.5" alignY="textDesc#1">
+            <item>UI_baru/ic_koin_dalamNegeri.png</item>
+        </image_list>
+        <text id="textReward" x="10" y="0" pivotX="0" pivotY="0.5" alignX="iconReward#1" alignY="iconReward#0.5" font="cuckoo" fontSize="40" color="000000">0000000</text>
+    </container>
+</resources>

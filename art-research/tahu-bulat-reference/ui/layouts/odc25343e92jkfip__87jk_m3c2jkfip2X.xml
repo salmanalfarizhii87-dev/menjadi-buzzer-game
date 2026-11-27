@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <story lamaFestival="86400" noMisi="8" delayFestival="86400">
+        <judul>Rapat Direksi</judul>
+        <image>UI_baru/banner_popUp_festival_story.png</image>
+        <syarat_buka>
+            <item tipe="penghasilan" cabang="Bandung">50000000000</item>
+            <item tipe="story" cabang="Atlantis Story" value="2"/>
+        </syarat_buka>
+        <storyBukaCabang>xml_dialog/misi 8/festivalstory_bukacabang.xml</storyBukaCabang>
+        <storyAwalDiCabang>xml_dialog/misi 8/festivalstory_awal.xml</storyAwalDiCabang>
+        <storyTargetTercapai>xml_dialog/misi 8/festivalstory_targettercapai.xml</storyTargetTercapai>
+        <storyTargetTidakTercapai>xml_dialog/misi 8/festivalstory_targettidaktercapai.xml</storyTargetTidakTercapai>
+        <popup_reward>
+            <judul>Rapat Direksi</judul>
+            <desc>Menurut info dari Om Tajir, katanya bakal banyak Peserta Rapat Direksi yang akan mampir dan belanja di Bazaar! Ayo kita ikutan jualan juga!!</desc>
+        </popup_reward>
+        <reward>
+            <item target="10000000000" namaHadiah="Peti Perunggu" tipeHadiah="chest" idHadiah="chest_bronze" jumlahHadiah="1"/>
+        </reward>
+        <trio_kribo>
+            <bocah1 cabang="Majapahit"/>
+            <bocah2 cabang="Belanda"/>
+            <bocah3 cabang="Korea"/>
+        </trio_kribo>
+        <menu_item>
+            <mobil>
+                <bodyMobil cabang="Surabaya"/>
+            </mobil>
+            <minuman>
+                <item id="Serbat" icon="ic_serbat.png"/>
+            </minuman>
+            <resep banyakItem="10">
+                <item cabang="Bandung" idx="11"/>
+                <item cabang="Majapahit" idx="6"/>
+                <item cabang="Majapahit" idx="8"/>
+                <item cabang="Korea" idx="10"/>
+                <item cabang="Jepang" idx="11"/>
+                <item cabang="Mars" idx="9"/>
+                <item cabang="Belanda" idx="11"/>
+                <item cabang="Dubai" idx="10"/>
+                <item cabang="Tahu Con" idx="10"/>
+                <item cabang="Majapahit" idx="9"/>
+            </resep>
+            <promo banyakItem="8">
+                <item cabang="Bandung" idx="4"/>
+                <item cabang="Belanda" idx="4"/>
+                <item cabang="Dubai" idx="4"/>
+                <item cabang="Jepang" idx="4"/>
+                <item cabang="Korea" idx="4"/>
+                <item cabang="Purba" idx="4"/>
+                <item cabang="Majapahit" idx="4"/>
+                <item cabang="Mars" idx="4"/>
+            </promo>
+        </menu_item>
+    </story>
+</resources>

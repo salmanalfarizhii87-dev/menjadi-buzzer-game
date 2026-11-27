@@ -1,0 +1,84 @@
+<div class="min-h-[884px] max-w-md mx-auto flex flex-col bg-dock-bg" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- Top Purple HUD Bar -->
+    <header class="sticky top-0 z-20 flex flex-col shadow-[0_3px_8px_rgba(0,0,0,0.22)]">
+      <div class="ref-hud-purple flex items-center gap-gutter-sm px-gutter-sm py-gutter-sm">
+        <a href="../07-strategy-risk/Strategy%20%26%20Risk%20Selection.html" aria-label="Kembali ke Strategi" class="w-11 h-11 rounded-full ref-back-circle flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M15 6L9 12L15 18" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </a>
+
+        <div class="flex-1 ref-cyan-pill rounded-lg px-gutter-md py-1 flex flex-col items-center justify-center min-w-0">
+          <span class="font-headline text-title-md text-light-surface-bright leading-none" data-design-text-token="title-md">Engagement Boost</span>
+          <span class="font-mono text-label-sm text-light-surface-bright leading-none mt-0.5" data-design-text-token="label-sm">Mini-Game #2 • 1x Sesi</span>
+        </div>
+
+        <div class="px-gutter-sm py-1.5 rounded-lg bg-light-surface-bright flex items-center gap-1 shrink-0">
+          <span id="tap-counter" class="font-headline text-label-sm text-ink-dark tabular-nums" data-design-text-token="label-sm">0 / 3</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col gap-gutter-md p-gutter-md pb-gutter-xl">
+
+      <!-- Objective & Instructions Card -->
+      <article class="ref-card rounded-xl p-gutter-md flex items-start gap-gutter-sm">
+        <svg class="w-8 h-8 shrink-0" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <path d="M14 2L17 10L25 11L19 16.5L20.5 25L14 21L7.5 25L9 16.5L3 11L11 10L14 2Z" fill="#FACC15" stroke="#1E1B2E" stroke-width="2"></path>
+        </svg>
+        <div>
+          <h1 class="font-headline text-title-md text-ink-dark" data-design-text-token="title-md">Tangkap Puncak Algoritma!</h1>
+          <p class="font-body text-body-sm text-light-on-surface-variant text-pretty" data-design-text-token="body-sm">
+            Tekan tombol BOOST tepat saat jarum berada di zona hijau tengah. Kamu punya 3 ketukan dalam 1 sesi tanpa ulang gratis.
+          </p>
+        </div>
+      </article>
+
+      <!-- Live Score & Hit History Card -->
+      <section aria-label="Skor eksekusi" class="ref-card rounded-xl p-gutter-lg flex flex-col gap-gutter-md">
+        <div class="flex items-center justify-between">
+          <div>
+            <p class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Skor Eksekusi</p>
+            <p id="eng-score" class="font-display text-display-lg-mobile text-success tabular-nums" data-design-text-token="display-lg-mobile">0 / 100</p>
+          </div>
+          <span id="hit-badge" class="px-gutter-md py-gutter-xs rounded-full bg-dock-bg text-ink-dark border-2 border-slate-300 font-headline text-label-sm" data-design-text-token="label-sm">Siap Ketuk!</span>
+        </div>
+
+        <!-- Timing Gauge -->
+        <div class="flex flex-col gap-gutter-xs">
+          <div class="relative w-full h-10 ref-gauge-track rounded-full overflow-hidden">
+            <div class="absolute inset-y-0 left-1/2 -translate-x-1/2 w-1 bg-light-surface-bright"></div>
+            <div id="timing-needle" style="left: 50%;" class="absolute top-0 bottom-0 -translate-x-1/2 w-3 bg-light-surface-bright border-2 border-ink-dark rounded-full shadow-md"></div>
+          </div>
+          <div class="flex items-center justify-between px-gutter-xs">
+            <span class="font-body text-label-sm text-btn-red-dark" data-design-text-token="label-sm">Meleset</span>
+            <span class="font-headline text-label-sm text-success" data-design-text-token="label-sm">Zona Perfect</span>
+            <span class="font-body text-label-sm text-btn-red-dark" data-design-text-token="label-sm">Meleset</span>
+          </div>
+        </div>
+
+        <!-- 3 Tap Slots -->
+        <div class="grid grid-cols-3 gap-gutter-sm">
+          <div id="slot-1" class="bg-dock-bg border-2 border-slate-300 rounded-xl p-gutter-sm text-center font-headline text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Ketuk 1</div>
+          <div id="slot-2" class="bg-dock-bg border-2 border-slate-300 rounded-xl p-gutter-sm text-center font-headline text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Ketuk 2</div>
+          <div id="slot-3" class="bg-dock-bg border-2 border-slate-300 rounded-xl p-gutter-sm text-center font-headline text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Ketuk 3</div>
+        </div>
+      </section>
+
+      <!-- Primary Tap Action Button -->
+      <button id="boost-btn" type="button" onclick="hitBoost()" class="ref-btn-green w-full py-gutter-lg px-gutter-lg rounded-xl flex items-center justify-center gap-gutter-sm cursor-pointer">
+        <svg class="w-7 h-7 shrink-0" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M13 2L4 14H11L10 22L20 10H13L13 2Z" fill="#FACC15" stroke="#0D3B11" stroke-width="2" stroke-linejoin="round"></path>
+        </svg>
+        <span class="font-headline text-headline-md text-light-surface-bright" data-design-text-token="headline-md">TAP BOOST!</span>
+      </button>
+
+      <!-- Continue to Result CTA -->
+      <a id="result-cta" href="../09-campaign-result/Campaign%20Result.html" class="hidden ref-btn-green w-full inline-flex items-center justify-center gap-gutter-sm px-gutter-lg py-gutter-md rounded-xl">
+        <span class="font-headline text-label-lg text-light-surface-bright" data-design-text-token="label-lg">Lihat Hasil Kampanye</span>
+      </a>
+
+    </main>
+  </div>

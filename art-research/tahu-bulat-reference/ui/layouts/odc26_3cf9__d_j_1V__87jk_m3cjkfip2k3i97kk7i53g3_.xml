@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="0" tipe="kiri" ekspresi="ingatkan" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Kalau makan Tahu bikin pintar...</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Harusnya mereka semua menang olimpiade dong?</desc>
+        </dialog>
+	<dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>HAHAHAHAHAHAHAHAH!!&#10;Bener bangeett! HAHAHAHA!!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Ehh!! Kang Piki tiap kali datang bikin kaget aja!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Ya kalau makan Tahu doang&#10;bisa bikin menang olimpiade, semua juga udah menang kali!!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="ketawa2" isHold="true">
+            <desc>Nah iya, gitu..&#10;Jadi bingung nentuin yang menang, kan?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>PFFFttthhh!!!&#10;Ya ga gitu juga kali, Kang!!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Pemenang Olimpiade itu perjuangannya keras banget! Bisa dibilang ga pernah berenti belajar!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="false">
+            <desc>Hah, hebat amat!&#10;Jadi makan Tahu aja ga cukup&#10;ya??</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>YA JELAS LAH!!&#10;HAHAHAHAHAHAHAHA!!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Tapi kok...&#10;Kang Piki bisa tahu?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hmphh... Gini-gini aku juga dulu anak olimpiade.</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="aha" isHold="true">
+            <desc>Wah?! Keren!&#10;Akang baru tahu! Olimpiade apa? Pikika, eh, Pisika?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="kaget" isHold="true">
+            <desc>..................&#10;Kamu ngehina ya?</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="false">
+            <desc>Eeeh... &#10;Ngga, kok ngga.. Serius nanya ini teh..</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Akuntansi.&#10;Keren kan?!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="mantul" isHold="true">
+            <desc>Wuidihh, keren euyy!!&#10;Terus menang, Kang?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="false">
+            <desc>Cuma sampe Tingkat Provinsi, udah gitu berenti.</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="true">
+            <desc>Eh, loh, kok berenti?</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Lah, kenapa kamu jadi penasaran gitu?! HAHAHA!!</desc>
+        </dialog>
+	<aksi tipe="hide" ui="contDialogKanan" hold="false"/>
+	<dialog karakter="0" tipe="kiri" ekspresi="kaget" isHold="false">
+            <desc>Eh, loh, Kang Piki!&#10;Kok pergi gitu aja?</desc>
+        </dialog>
+	<dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>KAaaangggG!!</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="sapa" isHold="false">
+            <desc>Oh? Hey, Tako?&#10;Kamu ikut olimpiade juga?</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="swt" isHold="true">
+            <desc>Kaga kang, takut menang..&#10;Ini dapet Peti Perunggu lagi kang..</desc>
+        </dialog>
+	<dialog karakter="0" tipe="kiri" ekspresi="ketawa1" isHold="false">
+            <desc>Wih, Mantuull!&#10;Ayo kita buruan pulang dan buka peti ini!</desc>
+        </dialog>
+        <dialog karakter="1" tipe="kanan" ekspresi="hore" isHold="true">
+            <desc>Jangan lupa bagi Tahu ya, kang!!</desc>
+        </dialog>
+    </skenario>
+</resources>

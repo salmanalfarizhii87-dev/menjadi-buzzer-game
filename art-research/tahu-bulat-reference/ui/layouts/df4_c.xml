@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <character id="mobil" x="255" y="825" isEmpty="true" height="265" >
+
+        <group id="charPenjual" x="185" y="121" pivotY="1" pivotX="0.5">
+            <image_list jeda="0.2">
+                <item>pedagang/Ch_AkangTahu_idle.png</item>
+                <item x="-40">pedagang/Ch_AkangTahu_mulai.png</item>
+                <item x="-52">pedagang/Ch_AkangTahu_masak1.png</item>
+                <item x="-54">pedagang/Ch_AkangTahu_masak2.png</item>
+                <item x="36">pedagang/Ch_AkangTahu_jadi.png</item>
+            </image_list>
+        </group>
+
+        <!--<group id="wajan" x="11" y="125" pivotY="1">-->
+            <!--<image_list>-->
+                <!--<item>mobil/mobil_bdglv1.png</item>-->
+            <!--</image_list>-->
+        <!--</group>-->
+        <!--<group id="speaker" x="0" y="0" pivotX="1" pivotY="0.8">-->
+            <!--<image_list>-->
+                <!--<item>mobil/mobil_bdglv1.png</item>-->
+            <!--</image_list>-->
+        <!--</group>-->
+        <!--<group id="tenda" x="-11" y="115" pivotY="1">-->
+            <!--<image_list>-->
+                <!--<item>mobil/mobil_bdglv1.png</item>-->
+            <!--</image_list>-->
+        <!--</group>-->
+        <!--<group id="bodyMobil" x="0" y="0" pivotX="0.39" pivotY="0">-->
+            <!--<image_list>-->
+                <!--<item>mobil/mobil_bdglv1.png</item>-->
+            <!--</image_list>-->
+        <!--</group>-->
+        <!--<group id="rodaKiri" x="-121" y="165">-->
+            <!--<image_list>-->
+                <!--<item>mobil/mobil_bdglv1.png</item>-->
+            <!--</image_list>-->
+        <!--</group>-->
+        <!--<group id="rodaKanan" x="149" y="165">-->
+            <!--<image_list>-->
+                <!--<item>mobil/mobil_bdglv1.png</item>-->
+            <!--</image_list>-->
+        <!--</group>-->
+        <!--<group id="kipas" x="236" y="-70" pivotX="1" pivotY="0.5">-->
+            <!--<image_list>-->
+                <!--<item>mobil/mobil_bdglv1.png</item>-->
+            <!--</image_list>-->
+        <!--</group>-->
+        <!--<group id="pelang" x="11" y="110">-->
+            <!--<image_list>-->
+                <!--<item>mobil/mobil_bdglv1.png</item>-->
+            <!--</image_list>-->
+        <!--</group>-->
+        <!--<group id="televisi" x="242" y="0" pivotY="1">-->
+            <!--<image_list>-->
+                <!--<item>mobil/mobil_bdglv1.png</item>-->
+            <!--</image_list>-->
+        <!--</group>-->
+        
+        <group id="bayanganMobil" x="0" y="20" pivotX="0.39" pivotY="1">
+            <image_list>
+                <item>mobil/bayangan_mobil.png</item>
+            </image_list>
+        </group>
+        <group id="wajan" x="11" y="125" pivotY="1">
+            <image_list>
+                <item>wajan</item>
+            </image_list>
+        </group>
+        <group id="speaker" x="0" y="0" pivotX="1" pivotY="0.8">
+            <image_list>
+                <item>speaker</item>
+            </image_list>
+        </group>
+        <group id="tenda" x="-11" y="115" pivotY="1">
+            <image_list>
+                <item>tenda</item>
+            </image_list>
+        </group>
+        <group id="rodaKiriBelakang" x="-121" y="165" isVisible="false">
+            <image_list>
+                <item>rodaKiri</item>
+            </image_list>
+        </group>
+        <group id="rodaKananBelakang" x="149" y="165" isVisible="false">
+            <image_list>
+                <item>rodaKanan</item>
+            </image_list>
+        </group>
+        <group id="bodyMobil" x="0" y="0" pivotX="0.39" pivotY="0">
+            <image_list>
+                <item>bodyMobil</item>
+            </image_list>
+        </group>
+        <group id="wifi" x="20" y="30" pivotY="1.0" pivotX="0.5">
+            <image_list>
+                <item>wifi</item>
+            </image_list>
+        </group>
+        <group id="rodaKiri" x="-121" y="165">
+            <image_list>
+                <item>rodaKiri</item>
+            </image_list>
+        </group>
+        <group id="rodaKanan" x="149" y="165">
+            <image_list>
+                <item>rodaKanan</item>
+            </image_list>
+        </group>
+
+        <!--//04252019-sher-->
+        <!--<group id="kipas" x="236" y="-70" pivotX="1" pivotY="0.5">-->
+        <group id="kipas" x="260" y="-70" pivotX="1" pivotY="0.5">
+            <image_list>
+                <item>kipas</item>
+            </image_list>
+        </group>
+        <group id="kipas2" x="184" y="-70" pivotX="1" pivotY="0.5" isVisible="false">
+            <image_list>
+                <item>kipas</item>
+            </image_list>
+        </group>
+
+        <group id="pelang" x="11" y="110">
+            <image_list>
+                <item>pelang</item>
+            </image_list>
+        </group>
+        <group id="televisi" x="242" y="0" pivotY="1">
+            <image_list>
+                <item>televisi</item>
+            </image_list>
+        </group>
+
+        <!--//05042020-->
+        <group id="rempah_1" x="30" y="0" pivotY="1" isEmpty="true">
+            <group id="ic_rempah_1" x="20" y="-4" pivotX="0.5" pivotY="1" scaleX="0.3" scaleY="0.3" pivotScaleX="0.5" pivotScaleY="1">
+                <image_list>
+                    <item>UI_baru/rempah/ic_rempah_bawangMerah.png</item>
+                </image_list>
+            </group>
+            <group id="kantong_1" x="0" y="0" pivotY="1">
+                <image_list>
+                    <item>UI_baru/rempah/kantong.png</item>
+                </image_list>
+            </group>
+        </group>
+        <group id="rempah_2" x="80" y="0" pivotY="1" isEmpty="true">
+            <group id="ic_rempah_2" x="20" y="-4" pivotX="0.5" pivotY="1" scaleX="0.3" scaleY="0.3" pivotScaleX="0.5" pivotScaleY="1">
+                <image_list>
+                    <item>UI_baru/rempah/ic_rempah_bawangMerah.png</item>
+                </image_list>
+            </group>
+            <group id="kantong_2" x="0" y="0" pivotY="1">
+                <image_list>
+                    <item>UI_baru/rempah/kantong.png</item>
+                </image_list>
+            </group>
+        </group>
+        <group id="rempah_3" x="130" y="0" pivotY="1" isEmpty="true">
+            <group id="ic_rempah_3" x="20" y="-4" pivotX="0.5" pivotY="1" scaleX="0.3" scaleY="0.3" pivotScaleX="0.5" pivotScaleY="1">
+                <image_list>
+                    <item>UI_baru/rempah/ic_rempah_bawangMerah.png</item>
+                </image_list>
+            </group>
+            <group id="kantong_3" x="0" y="0" pivotY="1">
+                <image_list>
+                    <item>UI_baru/rempah/kantong.png</item>
+                </image_list>
+            </group>
+        </group>
+
+    </character>
+
+    <animation>
+        <!--<sequence>-->
+
+            <!--&lt;!&ndash;<multiple>&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;<rotate id="speaker" pivotX="1" pivotY="1" time="0.5">30</rotate>&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;</multiple>&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<multiple>&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;<rotate id="speaker" pivotX="1" pivotY="1" time="0.5">0</rotate>&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;</multiple>&ndash;&gt;-->
+
+
+        <!--&lt;!&ndash;animasi demam tahu + speaker&ndash;&gt;-->
+            <!--<multiple>-->
+                <!--&lt;!&ndash;<scaleX id="mobil" pivotX="0.81" time="0.4">2</scaleX>&ndash;&gt;-->
+                <!--<scaleY id="mobil" pivotY="1" time="0.4">1.1</scaleY>-->
+                <!--<scaleX id="speaker" pivotX="0.81" time="0.4">1.5</scaleX>-->
+                <!--<scaleY id="speaker" pivotY="0.69" time="0.4">1.5</scaleY>-->
+            <!--</multiple>-->
+
+            <!--<multiple>-->
+                <!--&lt;!&ndash;<scaleX id="mobil" pivotX="0.81" time="0.4">1</scaleX>&ndash;&gt;-->
+                <!--<scaleY id="mobil" pivotY="1" time="0.4">1</scaleY>-->
+                <!--<scaleX id="speaker" pivotX="0.81" time="0.4">1</scaleX>-->
+                <!--<scaleY id="speaker" pivotY="0.69" time="0.4">1</scaleY>-->
+            <!--</multiple>-->
+        <!--&lt;!&ndash;animasi demam tahu + speaker&ndash;&gt;-->
+        <!--</sequence>-->
+    </animation>
+
+</resources>

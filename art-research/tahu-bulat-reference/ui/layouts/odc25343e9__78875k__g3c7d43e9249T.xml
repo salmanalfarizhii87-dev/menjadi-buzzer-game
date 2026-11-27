@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <character id="effect" x="0" y="-616" isEmpty="true" width = "768" height="616" >-->
+    <character id="effect" x="0" y="-308" isEmpty="true" width = "384" height="308" >
+<!--        <group id="highlight_air" x="155" y="453">-->
+        <group id="highlight_air" x="77" y="226">
+            <image_list>
+                <item>background/Palembang_BG2_highlightair.png</item>
+            </image_list>
+        </group>
+<!--        <group id="LRT" x="-268" y="457" pivotY="1.0">-->
+        <group id="LRT" x="-134" y="228" pivotY="1.0">
+            <image_list>
+                <item>background/Palembang_LRT.png</item>
+            </image_list>
+        </group>
+    </character>
+
+    <animation>
+        <multiple>
+            <sequence repeat = "7">
+                <alpha id="highlight_air" time="0.3">0.9</alpha>
+                <alpha id="highlight_air" time="0.3">0.2</alpha>
+                <alpha id="highlight_air" time="0.3">1.0</alpha>
+                <alpha id="highlight_air" time="0.3">0.4</alpha>
+                <alpha id="highlight_air" time="0.3">0.3</alpha>
+                <alpha id="highlight_air" time="0.3">0.6</alpha>
+            </sequence>
+
+            <sequence>
+                <multiple>
+                    <moveX id="LRT" time="0.0">0</moveX>
+                    <moveY id="LRT" time="0.0">0</moveY>
+                </multiple>
+                <multiple>
+<!--                    <moveX id="LRT" time="2.5">1036</moveX>-->
+<!--                    <moveY id="LRT" time="2.5">-147</moveY>-->
+                    <moveX id="LRT" time="2.5">518</moveX>
+                    <moveY id="LRT" time="2.5">-73</moveY>
+                </multiple>
+                <wait time="2.0"/>
+            </sequence>
+        </multiple>
+    </animation>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario bgColor="0x000000" skippable="false">
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Nah, di sini tempatnya...</desc>
+        </dialog>
+	<dialog karakter="3" tipe="kanan" ekspresi="ketawa" isHold="true">
+            <desc>Semoga Tahunya beneran bikin pintar yah, Kang! HAHAHAA</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="sedap" isHold="true" x="30" alignX="wLayar#0" timerAnimasi="0.5f">
+            <desc>Ingin protes tapi...&#10;Dia yang nunjukin tempat dagangnya.. hix</desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="belajar" isHold="true">
+            <desc>Kamu ikutan dagang juga, Pik?!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc>Hmpph.. Ya jelas, lah!</desc>
+        </dialog>
+        <dialog karakter="3" tipe="kanan" ekspresi="idle" isHold="true">
+            <desc isNode="true">
+                <string>
+                    <text>Lihat saja nanti, kali ini aku&#10;pasti bisa mendapatkan penghasilan </text>
+                    <koin_Festival/>
+                    <text format="target_misi">%s!!</text>
+                </string>
+            </desc>
+        </dialog>
+        <dialog karakter="0" tipe="kiri" ekspresi="semangat" isHold="true">
+            <desc>Wokeh!!&#10;Target Akang juga sama kalau gitu!</desc>
+        </dialog>
+    </skenario>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <skenario>
+        <!--<dialog karakter="1" ekspresi="haha" hold="false"/>-->
+        <!--&lt;!&ndash;VG-3105&ndash;&gt;-->
+        <!--<pilihan alignY="0.5f" y="-120" animasi="1.2" ekspresi="haha">-->
+            <!--<dialog>Terima kasih sudah&#10;menyelamatkanku, NYO!!!</dialog>-->
+            <!--<buttons>-->
+                <!--<button tipe="next" image="UI_baru/ui_btn_normal_ijo.png" text="Syukurlah!"/>-->
+            <!--</buttons>-->
+        <!--</pilihan>-->
+        <dialog karakter="0" ekspresi="tekad_bulad" alignY="0.5f" y="-120" animasi="1.2">Mantul! Kamu sudah mencapai total penghasilan sebesar 10 Miliyar!</dialog>
+        <pilihan alignY="0.5f" y="-120" ekspresi="tekad_bulad">
+            <dialog>Sekarang kamu bisa mengakses halaman peta dan melakukan ekspansi!!</dialog>
+            <buttons>
+                <button tipe="close" image="UI_baru/ui_btn_normal_ijo.png" text="Asik!!"/>
+            </buttons>
+        </pilihan>
+    </skenario>
+</resources>

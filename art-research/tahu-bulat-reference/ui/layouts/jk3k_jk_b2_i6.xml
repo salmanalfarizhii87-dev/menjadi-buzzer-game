@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <container id="base">
+        <image_list id="bannerHRD" scaleX="2.0" scaleY="2.0"><!--//06212020-->
+            <item>UI_baru/banner_HRD.png</item>
+        </image_list>
+        <!--<image_list id="judulHRD" x="-10" pivotX="1" alignX="wLayar#1" pivotY="1" alignY="bannerHRD#1">-->
+            <!--<item>UI_baru/judul_hrd.png</item>-->
+        <!--</image_list>-->
+        <image_list id="batasMenu" alignY="bannerHRD#1">
+            <item>UI_baru/ui_batas_menu.png</item>
+        </image_list>
+
+        <container id="extra" alignY="batasMenu#1" height="200">
+
+            <image_list id="penutupGradasi" y="171">
+                <item>UI_baru/batas_gradient.png</item>
+            </image_list>
+
+            <image_list id="bgPaperClip" y="10">
+                <item>UI_baru/label_paperclip_lampu_PENDEK.png</item>
+            </image_list>
+
+            <text id="textPaperClip" x="120" y="-5" pivotY="0.5" alignX="bgPaperClip#0" alignY="bgPaperClip#0.5" font="comicneueLight" fontSize="30" color="000000" wrapWidth="420" isCenter="false">Tentukan karakter pedagangmu!&#10;Buka Loker untuk mendapatkan&#10;Karakter Pedagang Baru!</text>
+
+            <container id="divKoin" x="15" alignX="bgPaperClip#1" y="20" alignY="bgPaperClip#0">
+                <image_list id="bgBarKoin" x="10" y="5" scaleX="1.2" isBaseContainer="true">
+                    <item>UI_baru/bar_peridot.png</item>
+                </image_list>
+                <image_list id="labelKoin">
+                    <item>UI_baru/ic_koin_dalamNegeri.png</item>
+                </image_list>
+                <text id="textKoin" x="-10" y="0" pivotX="1" pivotY="0.5" alignX="bgBarKoin#1" alignY="bgBarKoin#0.5" font="cuckoo" fontSize="28" color="ffffff">400K</text>
+            </container>
+
+            <container id="divPedagang" x="0" alignX="divKoin#0" y="20" alignY="divKoin#1">
+                <image_list id="bgBarPedagang" x="10" y="5" scaleX="1.2" isBaseContainer="true">
+                    <item>UI_baru/bar_peridot.png</item>
+                </image_list>
+                <image_list id="labelPedagang">
+                    <item>UI_baru/ic_jmlpedagang.png</item>
+                </image_list>
+                <text id="textPedagang" x="-10" y="0" pivotX="1" pivotY="0.5" alignX="bgBarPedagang#1" alignY="bgBarPedagang#0.5" font="cuckoo" fontSize="28" color="ffffff" wrapWidth="90" isCenter="false">20/50</text>
+            </container>
+        </container>
+
+        <!--<container id="konten" alignY="extra#1" y="-25">-->
+            <scrollView id="isiHRD" alignY="extra#1" x="0" y="-25" height="1000">
+            </scrollView>
+
+            <!--<container id="isiHRD" y="45">-->
+            <!--</container>-->
+
+        <!--</container>-->
+
+        <container id="barBackMenu" y="-137" alignY="hLayar#1" height="137">
+            <image_list id="bgMenuBack" y="137" pivotY="1">
+                <item>UI_baru/ui_batas_menu_back.png</item>
+            </image_list>
+            <button id="btnBack" x="20" imageNormal="UI_baru/btn_back.png" y="137" pivotY="1" onClick="backPressed">
+            </button>
+
+            <button id="btnBukaLoker" x="0" pivotX="0.5" alignX="wLayar#0.5" imageNormal="UI_baru/button_hijau_lebarbesar.png" y="137" pivotY="1" onClick="pindahState#statistik_loker">
+                <text id="labelBukaLoker" x="0" y="-80" pivotX="0.5" pivotY="0.5" font="cuckoo" fontSize="40" color="ffffff">Buka Loker</text>
+            </button>
+
+            <button id="btnInfo" x="-20" pivotX="1" alignX="wLayar#1" imageNormal="UI_baru/button_bulat_besar_kuning.png" y="137" pivotY="1" onClick="popUp#infoHRD">
+                <image_list id="labelInfo" x="-61" y="-78" pivotY="0.5" pivotX="0.5">
+                    <item>UI_baru/ic_info.png</item>
+                </image_list>
+            </button>
+        </container>
+
+    </container>
+</resources>
