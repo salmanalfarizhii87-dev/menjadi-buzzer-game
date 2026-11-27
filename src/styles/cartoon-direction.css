@@ -1,0 +1,370 @@
+/* Shared original cartoon direction for the game UI. */
+:root {
+  --color-canvas: #f6e9c9;
+  --color-canvas-deep: #ead5a8;
+  --color-canvas-outer: #173d3b;
+  --color-panel: #fff9e8;
+  --color-panel-raised: #fffdf4;
+  --color-panel-sunken: #f1dfb6;
+  --color-border: #57351f;
+  --color-border-soft: #c6a46e;
+  --color-border-strong: #3c2417;
+  --color-text: #332419;
+  --color-text-soft: #66503a;
+  --color-text-muted: #745d43;
+  --color-text-inverse: #fffaf0;
+  --font-display: 'Fredoka', 'Spline Sans', system-ui, sans-serif;
+  --font-body: 'Spline Sans', system-ui, sans-serif;
+  --font-numeric: 'Spline Sans', system-ui, sans-serif;
+  --shadow-card: 0 3px 0 #74502c;
+  --shadow-raised: 0 5px 0 #3c2417;
+}
+
+html,
+body {
+  background: #173d3b;
+}
+
+body {
+  background:
+    radial-gradient(70% 55% at 50% 8%, rgb(73 126 104 / 65%), transparent 76%),
+    linear-gradient(160deg, #254d46, #173d3b 60%, #10302e);
+}
+
+.stitch-root {
+  min-height: 100dvh;
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+.stitch-root > [data-stitch-vh] {
+  width: min(100%, 480px);
+  min-height: 100dvh !important;
+  margin-inline: auto;
+  background: var(--color-canvas);
+  box-shadow: 0 0 0 3px #3c2417, 0 18px 56px rgb(8 25 22 / 35%);
+}
+
+.stitch-root [data-stitch-vh] > [data-stitch-img='Latar studio Menjadi Buzzer'] + div {
+  background: linear-gradient(180deg, rgb(23 61 59 / 12%) 0%, rgb(23 61 59 / 10%) 48%, rgb(23 61 59 / 34%) 100%) !important;
+}
+
+.stitch-root header > .ref-hud-purple {
+  background: #fff4d4;
+  border: 3px solid #57351f;
+  border-radius: 24px;
+  box-shadow: 0 5px 0 #3c2417, inset 0 2px 0 rgb(255 255 255 / 85%);
+}
+
+.stitch-root header h1 {
+  color: #3c2417;
+  text-shadow: 0 2px 0 rgb(255 255 255 / 65%);
+  letter-spacing: -0.035em;
+}
+
+.stitch-root .ref-cyan-pill {
+  color: #fffaf0;
+  background: #277f85;
+  border: 2px solid #3c2417;
+  box-shadow: 0 3px 0 #3c2417, inset 0 2px 0 rgb(255 255 255 / 24%);
+}
+
+.stitch-root .ref-card {
+  color: var(--color-text);
+  background: #fff9e8;
+  border: 2px solid #57351f;
+  border-radius: 20px;
+  box-shadow: 0 5px 0 #3c2417, inset 0 2px 0 rgb(255 255 255 / 75%);
+}
+
+.stitch-root .ref-btn-yellow,
+.stitch-root .ref-btn-green,
+.stitch-root .ref-btn-red,
+.stitch-root .ref-btn-white,
+.stitch-root .ref-yellow-split,
+.stitch-root .ref-choice-selected,
+.stitch-root .ref-choice-idle,
+.stitch-root .ref-opt-active,
+.stitch-root .ref-opt-idle {
+  border: 2px solid #3c2417;
+  border-radius: 14px;
+  transition: transform 120ms ease, filter 120ms ease, box-shadow 120ms ease;
+}
+
+.stitch-root .ref-btn-yellow,
+.stitch-root .ref-yellow-split,
+.stitch-root .ref-choice-selected,
+.stitch-root .ref-opt-active {
+  color: #3c2417;
+  background: #f3bd35;
+  box-shadow: 0 4px 0 #98620d, inset 0 2px 0 rgb(255 255 255 / 48%);
+}
+
+.stitch-root .ref-btn-green {
+  color: #fffaf0;
+  background: #277f58;
+  box-shadow: 0 4px 0 #174834, inset 0 2px 0 rgb(255 255 255 / 28%);
+}
+
+.stitch-root .ref-btn-red {
+  color: #fffaf0;
+  background: #bd5445;
+  box-shadow: 0 4px 0 #713126, inset 0 2px 0 rgb(255 255 255 / 28%);
+}
+
+.stitch-root .ref-btn-white,
+.stitch-root .ref-choice-idle,
+.stitch-root .ref-opt-idle {
+  color: #3c2417;
+  background: #fffdf4;
+  box-shadow: 0 4px 0 #c6a46e, inset 0 2px 0 #fff;
+}
+
+.stitch-root .ref-btn-yellow:hover:not(:disabled),
+.stitch-root .ref-btn-green:hover:not(:disabled),
+.stitch-root .ref-btn-red:hover:not(:disabled),
+.stitch-root .ref-btn-white:hover:not(:disabled),
+.stitch-root .ref-yellow-split:hover:not(:disabled),
+.stitch-root .ref-choice-selected:hover:not(:disabled),
+.stitch-root .ref-choice-idle:hover:not(:disabled),
+.stitch-root .ref-opt-active:hover:not(:disabled),
+.stitch-root .ref-opt-idle:hover:not(:disabled) {
+  filter: brightness(1.06);
+  transform: translateY(-1px);
+}
+
+.stitch-root .ref-btn-yellow:disabled,
+.stitch-root .ref-btn-green:disabled,
+.stitch-root .ref-btn-red:disabled,
+.stitch-root .ref-btn-white:disabled,
+.stitch-root .ref-yellow-split:disabled,
+.stitch-root .ref-choice-selected:disabled,
+.stitch-root .ref-choice-idle:disabled,
+.stitch-root .ref-opt-active:disabled,
+.stitch-root .ref-opt-idle:disabled,
+.stitch-root [aria-disabled='true'] {
+  filter: grayscale(0.65);
+  opacity: 0.58;
+  cursor: not-allowed;
+}
+
+.stitch-root .ref-btn-yellow:active,
+.stitch-root .ref-btn-green:active,
+.stitch-root .ref-btn-red:active,
+.stitch-root .ref-btn-white:active,
+.stitch-root .ref-yellow-split:active,
+.stitch-root .ref-choice-selected:active,
+.stitch-root .ref-choice-idle:active,
+.stitch-root .ref-opt-active:active,
+.stitch-root .ref-opt-idle:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #3c2417;
+}
+
+.stitch-root button:focus-visible,
+.stitch-root a:focus-visible,
+.game-stage__actor:focus-visible,
+.game-stage__pad-btn:focus-visible {
+  outline: 3px solid #277f85;
+  outline-offset: 3px;
+}
+
+.stitch-root .ref-hud-purple,
+.stitch-root .ref-gem-box,
+.stitch-root .ref-menu-circle,
+.stitch-root .ref-back-circle {
+  color: #fffaf0;
+  background: #277f85;
+  border-color: #3c2417;
+}
+
+.stitch-root .ref-progress-track {
+  background: #e4d2ac;
+  border: 2px solid #57351f;
+  border-radius: 999px;
+}
+
+.stitch-root .ref-circle-red { background: #bd5445; }
+.stitch-root .ref-circle-orange { background: #e38c3d; }
+.stitch-root .ref-circle-blue { background: #358bb1; }
+.stitch-root .ref-circle-yellow { background: #f3bd35; }
+.stitch-root .ref-circle-lime { background: #6b9b55; }
+
+.stitch-root .text-ink-dark,
+.stitch-root .text-light-on-surface,
+.stitch-root .text-light-on-surface-variant {
+  color: #332419;
+}
+
+.stitch-root .text-light-surface-bright {
+  color: #fffaf0;
+}
+
+.stitch-root header h1.text-light-surface-bright {
+  color: #332419 !important;
+}
+
+.stitch-root .ref-btn-green {
+  color: #332419;
+  background: #f3bd35;
+  box-shadow: 0 4px 0 #98620d, inset 0 2px 0 rgb(255 255 255 / 48%);
+}
+
+.stitch-root .ref-btn-green .text-light-surface-bright {
+  color: #332419 !important;
+}
+
+.stitch-root .ref-btn-green svg polygon {
+  fill: #332419;
+  stroke: #332419;
+}
+
+.game-stage {
+  background: #8dc4b0;
+}
+
+.game-stage__bg {
+  object-position: 70% center;
+  filter: saturate(0.96) contrast(1.02);
+}
+
+.game-stage__actor {
+  width: 172px;
+  height: 210px;
+  margin-left: -86px;
+}
+
+.game-stage__char {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  object-fit: contain;
+  object-position: center bottom;
+}
+
+.game-stage__layer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  transform: translateX(var(--pan, 0));
+  transition: transform 140ms linear;
+}
+
+.game-stage__layer--sky {
+  background: linear-gradient(180deg, rgb(60 216 240 / 11%), transparent 33%);
+}
+
+.game-stage__layer--far {
+  inset: 8% 0 38%;
+  opacity: 0.5;
+  filter: blur(14px);
+  background:
+    radial-gradient(ellipse at 74% 18%, rgb(255 224 155 / 24%), transparent 25%),
+    radial-gradient(ellipse at 16% 29%, rgb(135 197 178 / 20%), transparent 30%);
+}
+
+.game-stage__layer--mid {
+  inset: 28% 0 18%;
+  background: radial-gradient(ellipse at 70% 68%, rgb(255 198 96 / 12%), transparent 58%);
+}
+
+.game-stage__layer--foreground {
+  inset: auto 0 0;
+  height: 12%;
+  opacity: 0.12;
+  background: linear-gradient(180deg, transparent, #3a2418 86%);
+}
+
+.game-stage .game-stage__actor {
+  width: 144px;
+  height: 190px;
+  margin-left: -72px;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  filter: drop-shadow(0 5px 0 rgb(60 36 23 / 30%));
+}
+
+.game-stage .game-stage__actor .game-stage__char {
+  width: 100%;
+  height: 100%;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  object-fit: contain !important;
+  object-position: center bottom !important;
+}
+
+.stitch-portrait {
+  background: transparent;
+  object-fit: cover;
+  object-position: center 12%;
+}
+.stitch-avatar {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #4a2a1d;
+  border-radius: 50%;
+  background: #f7ebca;
+  object-fit: cover;
+  object-position: center 8%;
+}
+
+.stitch-portrait.outfit-casual { filter: hue-rotate(-18deg) saturate(1.05); }
+.stitch-portrait.outfit-formal { filter: hue-rotate(24deg) saturate(0.92); }
+.stitch-portrait.outfit-luxury { filter: hue-rotate(74deg) saturate(1.15); }
+.scene-outfit-casual { filter: hue-rotate(-12deg) saturate(1.05); }
+.scene-outfit-formal { filter: hue-rotate(18deg) saturate(0.92); }
+.scene-outfit-luxury { filter: hue-rotate(40deg) saturate(1.1); }
+
+.game-stage__shadow {
+  bottom: 14%;
+  width: calc(104px * var(--s, 1));
+  height: 12px;
+  margin-left: calc(-52px * var(--s, 1));
+  background: rgb(47 68 48 / 35%);
+  filter: blur(2px);
+}
+
+.game-stage__mote {
+  width: 9px;
+  height: 9px;
+  border: 2px solid #fff0ad;
+  border-radius: 3px;
+  background: #f3bd35;
+  box-shadow: 0 1px 0 #98620d;
+}
+
+.game-stage__pad-btn {
+  color: #fffaf0;
+  background: #358bb1;
+  border-color: #3c2417;
+  border-radius: 12px;
+  box-shadow: 0 3px 0 #1f536a;
+}
+
+.game-stage__pad-btn--jump {
+  color: #332419;
+  background: #f3bd35;
+  box-shadow: 0 3px 0 #98620d;
+}
+
+@media (max-width: 380px) {
+  .stitch-root header > .ref-hud-purple { padding-inline: 16px; }
+  .stitch-root #save-ready-card { padding: 16px; }
+  .game-stage__actor { width: 126px; height: 168px; margin-left: -63px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stitch-root *,
+  .game-stage__mote,
+  .game-stage__sweep,
+  .game-stage__actor {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

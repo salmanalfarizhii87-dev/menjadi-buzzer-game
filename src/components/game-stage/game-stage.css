@@ -97,17 +97,17 @@
   left: calc(50% + var(--x, 0px));
   bottom: calc(17% + var(--y, 0px));
   z-index: 3;
-  width: 128px;
-  height: 128px;
-  margin-left: -64px;
+  width: 144px;
+  height: 190px;
+  margin-left: -72px;
   padding: 0;
-  border: none;
-  border-radius: 50%;
+  border: 0;
+  border-radius: 0;
   background: transparent;
   cursor: pointer;
   transform: translateY(0);
   animation: actor-idle 2.4s ease-in-out infinite;
-  filter: drop-shadow(0 6px 8px rgb(0 0 0 / 35%));
+  filter: drop-shadow(0 5px 0 rgb(60 36 23 / 30%));
   transition: left 80ms linear, bottom 80ms linear;
 }
 
@@ -138,11 +138,11 @@
 .game-stage__char {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: 50% 28%;
-  border: 3px solid rgb(255 248 233 / 85%);
-  box-shadow: 0 0 0 3px rgb(36 26 16 / 35%);
+  border: 0;
+  border-radius: 0;
+  object-fit: contain;
+  object-position: center bottom;
+  box-shadow: none;
 }
 
 .game-stage__bubble {

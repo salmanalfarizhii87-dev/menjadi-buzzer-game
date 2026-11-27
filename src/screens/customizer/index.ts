@@ -4,7 +4,7 @@
 
 import type { ScreenContext, ScreenModule, ScreenParams } from '@/app/lifecycle';
 import template from '@/templates/stitch/character_customizer.html?raw';
-import { characterImage } from '@/art/stitch/figures';
+import { avatarImage, characterImage } from '@/art/stitch/figures';
 import { formatMoney } from '@/core/money';
 import { t } from '@/data/strings/id';
 import { bindRouteLinks, replacePlaceholder, setText, stitchRoot } from '@/ui/stitch';
@@ -31,7 +31,7 @@ function mount(root: HTMLElement, ctx: ScreenContext, params: ScreenParams): voi
     characterImage(outfit?.id ?? state.character.outfitId),
   );
   for (const label of ['Kilat Klasik', 'Rina Strategis', 'Bima Topi', 'Dika Streamer']) {
-    replacePlaceholder(screen, label, characterImage(outfit?.id ?? state.character.outfitId));
+    replacePlaceholder(screen, label, avatarImage(label));
   }
 
   const tabs = Array.from(screen.querySelectorAll<HTMLButtonElement>('.custom-tab'));
