@@ -302,6 +302,16 @@ body {
   object-fit: cover;
   object-position: center 12%;
 }
+.stitch-avatar {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #4a2a1d;
+  border-radius: 50%;
+  background: #f7ebca;
+  object-fit: cover;
+  object-position: center 8%;
+}
+
 .stitch-portrait.outfit-casual { filter: hue-rotate(-18deg) saturate(1.05); }
 .stitch-portrait.outfit-formal { filter: hue-rotate(24deg) saturate(0.92); }
 .stitch-portrait.outfit-luxury { filter: hue-rotate(74deg) saturate(1.15); }
