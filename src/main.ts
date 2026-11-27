@@ -10,6 +10,7 @@ import './styles/motion.css';
 import './styles/fonts-stitch.css';
 import './styles/stitch.css';
 import './styles/stitch-extras.css';
+import './styles/cartoon-direction.css';
 
 import { installErrorBoundary, showBootFailure } from './app/error-boundary';
 import { bootstrap } from './app/bootstrap';

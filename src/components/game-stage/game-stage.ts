@@ -27,22 +27,32 @@ export interface GameStageOptions {
 export function gameStage(options: GameStageOptions): HTMLElement {
   const { outfitId, controls = true, signal } = options;
 
-  const avatarKey = outfitId === 'outfit-basic' ? 'base' : outfitId.replace('outfit-', '') || 'base';
+  const outfitClass = outfitId.replace(/^outfit-/, '');
 
   const root = el('div', { class: 'game-stage' });
   const background = el('img', {
     class: 'game-stage__bg',
-    src: '/assets/stitch/room-bg.jpg',
+    src: '/assets/original/creator-studio.png',
     alt: '',
     'aria-hidden': 'true',
   });
   root.appendChild(background);
 
+  const layers = ['sky', 'far', 'mid', 'foreground'];
+  const parallaxLayers = layers.map((layer) => {
+    const element = el('span', {
+      class: `game-stage__layer game-stage__layer--${layer}`,
+      'aria-hidden': 'true',
+    });
+    root.appendChild(element);
+    return element;
+  });
+
   const sweep = el('span', { class: 'game-stage__sweep', 'aria-hidden': 'true' });
   root.appendChild(sweep);
 
   const motes = el('span', { class: 'game-stage__motes', 'aria-hidden': 'true' });
-  for (let index = 0; index < 9; index += 1) {
+  for (let index = 0; index < 3; index += 1) {
     motes.appendChild(el('span', { class: `game-stage__mote game-stage__mote--${index % 3}` }));
   }
   root.appendChild(motes);
@@ -57,8 +67,8 @@ export function gameStage(options: GameStageOptions): HTMLElement {
   });
   const bubble = el('span', { class: 'game-stage__bubble' });
   const portrait = el('img', {
-    class: 'game-stage__char',
-    src: `/assets/stitch/avatar-${avatarKey}.jpg`,
+    class: `game-stage__char outfit-${outfitClass}`,
+    src: '/assets/original/creator-chibi.png',
     alt: 'Karakter pemain',
   });
   actor.append(bubble, portrait);
@@ -133,6 +143,10 @@ export function gameStage(options: GameStageOptions): HTMLElement {
     shadow.style.setProperty('--x', `${x.toFixed(1)}px`);
     shadow.style.setProperty('--s', String(1 - height / 180));
     background.style.setProperty('--pan', `${(-x * 0.3).toFixed(1)}px`);
+    parallaxLayers.forEach((layer, index) => {
+      const depth = [0.08, 0.16, 0.26, 0.38][index] ?? 0.1;
+      layer.style.setProperty('--pan', `${(-x * depth).toFixed(1)}px`);
+    });
     motes.style.setProperty('--pan', `${(-x * 0.55).toFixed(1)}px`);
 
     frame = window.requestAnimationFrame(tick);

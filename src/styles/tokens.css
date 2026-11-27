@@ -13,20 +13,20 @@
 
 :root {
   /* ---- Warna inti (3) + aksen (1) ---- */
-  --color-brand-500: #1f8a7a;
-  --color-brand-600: #14655a;
-  --color-brand-700: #0e4c43;
-  --color-brand-300: #6cc9ba;
-  --color-brand-100: #d8efe9;
+  --color-brand-500: #f3bd35;
+  --color-brand-600: #d99919;
+  --color-brand-700: #98620d;
+  --color-brand-300: #ffdf77;
+  --color-brand-100: #fff1bb;
 
-  --color-accent-500: #3f6fa8;
-  --color-accent-600: #2f5687;
-  --color-accent-100: #dee8f5;
+  --color-accent-500: #358bb1;
+  --color-accent-600: #226b8e;
+  --color-accent-100: #dceef3;
 
-  --color-gold-500: #e9a93c;
-  --color-gold-600: #b87c20;
-  --color-gold-700: #7a4d12;
-  --color-gold-100: #fbeccd;
+  --color-gold-500: #f3bd35;
+  --color-gold-600: #d99919;
+  --color-gold-700: #98620d;
+  --color-gold-100: #fff1bb;
 
   --color-danger-500: #d2493f;
   --color-danger-600: #8f2a24;
